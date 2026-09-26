@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
-import { getCompleteOrDynamicProfile, getCategorySlugForSilo } from "@/data/celebrity-service";
+import { getCompleteOrDynamicProfile } from "@/data/celebrity-service";
 import { getAllCelebritySlugs } from "@/data/celebrities";
 import JsonLd from "@/components/seo/JsonLd";
 import QuickFactBox from "@/components/profile/QuickFactBox";
@@ -78,11 +78,10 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const categorySlug = getCategorySlugForSilo(celebrity.silo);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celeb-edge.vercel.app";
   const breadcrumbs = [
     { name: "Home", url: `${baseUrl}` },
-    { name: celebrity.silo, url: `${baseUrl}/category/${categorySlug}` },
+    { name: "All Celebrities", url: `${baseUrl}/celebrities` },
     { name: celebrity.name, url: `${baseUrl}/celebrity/${celebrity.slug}` },
   ];
 
@@ -97,8 +96,8 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
             <nav aria-label="Breadcrumbs" className="flex items-center gap-1.5 text-xs text-slate-500 font-medium">
               <Link href="/" className="hover:text-amber-700 transition-colors">Home</Link>
               <ChevronRight className="h-3 w-3 text-slate-400" />
-              <Link href={`/category/${categorySlug}`} className="hover:text-amber-700 transition-colors truncate">
-                {celebrity.silo}
+              <Link href="/celebrities" className="hover:text-amber-700 transition-colors">
+                All Celebrities
               </Link>
               <ChevronRight className="h-3 w-3 text-slate-400" />
               <span className="text-amber-700 font-bold truncate">{celebrity.name}</span>
@@ -125,16 +124,15 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                 </div>
               </div>
 
-              {/* Title, Category & Social Links */}
+              {/* Title, Role & Social Links */}
               <div className="flex-1 text-center sm:text-left space-y-3.5">
-                <Link
-                  href={`/category/${categorySlug}`}
-                  className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold hover:bg-amber-100 transition"
-                >
-                  <span>{celebrity.silo}</span>
+                <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-900 text-white text-xs font-bold shadow-xs">
+                  <span>{celebrity.quickFacts.primaryRole.split(",")[0]}</span>
                   <span>•</span>
-                  <span>Monthly Searches: {(celebrity.searchVolume).toLocaleString()}</span>
-                </Link>
+                  <span>{celebrity.quickFacts.age} Years Old</span>
+                  <span>•</span>
+                  <span>{celebrity.quickFacts.netWorth.split(" ")[0]} Net Worth</span>
+                </div>
 
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
                   {celebrity.name}

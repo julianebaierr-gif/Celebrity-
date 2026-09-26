@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { CELEBRITIES } from "@/data/celebrities";
-import { CATEGORY_DEFINITIONS } from "@/data/celebrity-service";
+import { BLOG_POSTS } from "@/data/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celeb-edge.vercel.app";
@@ -12,6 +12,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/celebrities`,
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/editorial-standards`,
@@ -45,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Dynamic Celebrity Profile routes (All real, verified profiles)
+  // Dynamic Celebrity Profile routes
   const profileRoutes: MetadataRoute.Sitemap = CELEBRITIES.map((c) => ({
     url: `${baseUrl}/celebrity/${c.slug}`,
     lastModified: new Date(c.editorialMetadata.lastUpdated),
@@ -53,13 +65,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Clean Category routes
-  const categoryRoutes: MetadataRoute.Sitemap = Object.keys(CATEGORY_DEFINITIONS).map((cat) => ({
-    url: `${baseUrl}/category/${cat}`,
-    lastModified: new Date(),
-    changeFrequency: "daily",
+  // Dynamic Blog Post routes
+  const blogRoutes: MetadataRoute.Sitemap = BLOG_POSTS.map((p) => ({
+    url: `${baseUrl}/blog/${p.slug}`,
+    lastModified: new Date(p.publishedDate),
+    changeFrequency: "monthly",
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...profileRoutes];
+  return [...staticRoutes, ...profileRoutes, ...blogRoutes];
 }

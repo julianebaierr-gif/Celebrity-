@@ -3,22 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { CELEBRITIES } from "@/data/celebrities";
-import { CATEGORY_DEFINITIONS } from "@/data/celebrity-service";
 import {
   Flame,
   Clock,
   Calendar,
   CheckCircle2,
   ArrowRight,
-  Search,
   Sparkles,
-  BookOpen,
-  DollarSign,
-  Heart,
-  Film,
-  Crown,
   ShieldCheck,
-  TrendingUp,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -354,10 +346,10 @@ export default function HomePage() {
               </h2>
             </div>
             <Link
-              href="/category/net-worth"
+              href="/celebrities"
               className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:underline"
             >
-              <span>View All Financial Portfolios</span>
+              <span>View All Celebrity Dossiers</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>

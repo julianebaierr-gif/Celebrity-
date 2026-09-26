@@ -26,35 +26,35 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Core Categories */}
+          {/* Quick Navigation */}
           <div>
             <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
-              Editorial Archives
+              Publication Archives
             </h4>
             <ul className="space-y-2.5 text-slate-600">
               <li>
-                <Link href="/category/biographies" className="hover:text-amber-600 transition-colors">
-                  Biographies & Profiles
+                <Link href="/" className="hover:text-amber-600 transition-colors">
+                  Home
                 </Link>
               </li>
               <li>
-                <Link href="/category/net-worth" className="hover:text-amber-600 transition-colors">
-                  Net Worth & Fortunes
+                <Link href="/celebrities" className="hover:text-amber-600 transition-colors">
+                  All Celebrities Directory
                 </Link>
               </li>
               <li>
-                <Link href="/category/relationships" className="hover:text-amber-600 transition-colors">
-                  Relationships & Marriages
+                <Link href="/blog" className="hover:text-amber-600 transition-colors">
+                  Editorial Blog & Analysis
                 </Link>
               </li>
               <li>
-                <Link href="/category/movies-tv" className="hover:text-amber-600 transition-colors">
-                  Movies & Television
+                <Link href="/about" className="hover:text-amber-600 transition-colors">
+                  About Our Newsroom
                 </Link>
               </li>
               <li>
-                <Link href="/category/legends" className="hover:text-amber-600 transition-colors">
-                  Hollywood Legends
+                <Link href="/contact" className="hover:text-amber-600 transition-colors">
+                  Contact Editorial Bureau
                 </Link>
               </li>
             </ul>
@@ -84,7 +84,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about" className="hover:text-amber-600 transition-colors">
-                  Research Directorate & Byline
+                  Research Directorate & Bylines
                 </Link>
               </li>
             </ul>

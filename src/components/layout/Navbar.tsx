@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Search, Flame, Heart, DollarSign, ShieldCheck, Menu, X, BookOpen, Film, Crown } from "lucide-react";
+import { Search, Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,7 +26,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden lg:flex items-center gap-6 xl:gap-8 text-sm font-semibold text-slate-700 shrink-0">
+        <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-semibold text-slate-700 shrink-0">
           <Link
             href="/"
             className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
@@ -34,50 +34,38 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href="/category/biographies"
+            href="/celebrities"
             className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            Biographies
+            All Celebrities
           </Link>
           <Link
-            href="/category/net-worth"
+            href="/blog"
             className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            Net Worth
+            Blog
           </Link>
           <Link
-            href="/category/relationships"
+            href="/about"
             className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            Relationships
+            About
           </Link>
           <Link
-            href="/category/movies-tv"
+            href="/contact"
             className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            Movies & TV
-          </Link>
-          <Link
-            href="/category/legends"
-            className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
-          >
-            Legends
-          </Link>
-          <Link
-            href="/editorial-standards"
-            className="text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full border border-slate-200 transition-colors whitespace-nowrap focus:outline-hidden"
-          >
-            Editorial Policy
+            Contact
           </Link>
         </nav>
 
         {/* Search Bar */}
         <div className="flex items-center gap-3">
-          <form action="/search" method="GET" className="hidden sm:flex items-center relative w-48 md:w-56 lg:w-60 xl:w-72 shrink-0">
+          <form action="/celebrities" method="GET" className="hidden sm:flex items-center relative w-48 md:w-56 lg:w-64 xl:w-72 shrink-0">
             <input
               type="text"
               name="q"
-              placeholder="Search verified celebrity dossiers..."
+              placeholder="Search celebrities..."
               className="w-full bg-slate-100 text-slate-900 placeholder-slate-400 text-xs rounded-full pl-9 pr-4 py-2 border border-slate-200 focus:outline-none focus:border-amber-500 focus:bg-white focus:ring-2 focus:ring-amber-500/20 transition"
             />
             <Search className="absolute left-3 h-3.5 w-3.5 text-slate-400 pointer-events-none" />
@@ -86,7 +74,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden text-slate-600 hover:text-slate-900 p-2 rounded-lg border border-slate-200 hover:bg-slate-100"
+            className="md:hidden text-slate-600 hover:text-slate-900 p-2 rounded-lg border border-slate-200 hover:bg-slate-100"
             aria-label="Toggle navigation menu"
           >
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -96,13 +84,13 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-b border-slate-200 bg-white px-5 py-5 space-y-3.5 shadow-lg">
+        <div className="md:hidden border-b border-slate-200 bg-white px-5 py-5 space-y-3.5 shadow-lg">
           {/* Mobile search bar */}
-          <form action="/search" method="GET" className="sm:hidden flex items-center relative w-full pb-2">
+          <form action="/celebrities" method="GET" className="sm:hidden flex items-center relative w-full pb-2">
             <input
               type="text"
               name="q"
-              placeholder="Search verified celebrity dossiers..."
+              placeholder="Search celebrities..."
               className="w-full bg-slate-100 text-slate-900 placeholder-slate-400 text-xs rounded-full pl-9 pr-4 py-2.5 border border-slate-200 focus:outline-none focus:border-amber-500 focus:bg-white"
             />
             <Search className="absolute left-3 top-3 h-3.5 w-3.5 text-slate-400 pointer-events-none" />
@@ -110,51 +98,37 @@ export default function Navbar() {
           <Link
             href="/"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
           >
             Home
           </Link>
           <Link
-            href="/category/biographies"
+            href="/celebrities"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
           >
-            Biographies & Profiles
+            All Celebrities
           </Link>
           <Link
-            href="/category/net-worth"
+            href="/blog"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
           >
-            Net Worth & Fortunes
+            Blog
           </Link>
           <Link
-            href="/category/relationships"
+            href="/about"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
           >
-            Relationships & Marriages
+            About
           </Link>
           <Link
-            href="/category/movies-tv"
+            href="/contact"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
           >
-            Movies & Television
-          </Link>
-          <Link
-            href="/category/legends"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
-          >
-            Hollywood Legends
-          </Link>
-          <Link
-            href="/editorial-standards"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 pt-2 border-t border-slate-100"
-          >
-            Editorial Policy & Verification
+            Contact
           </Link>
         </div>
       )}

@@ -2,41 +2,68 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
-import { searchCelebrities } from "@/data/celebrity-service";
-import { Search, ArrowRight, CheckCircle2, Calendar, Clock, DollarSign } from "lucide-react";
+import { CELEBRITIES } from "@/data/celebrities";
+import { Search, ArrowRight, ChevronRight, CheckCircle2, ShieldCheck, DollarSign } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Search Verified Celebrity Dossiers & Archives | CelebEdge",
-  description: "Search our independent directory of verified celebrity profiles, filmographies, and net worth audits.",
+  title: "All Celebrities Directory | Verified Biographies & Public Records | CelebEdge",
+  description:
+    "Explore our complete directory of verified celebrity profiles. In-depth biographies, certified net worth evaluations, dating histories, and complete filmographies.",
+  alternates: {
+    canonical: "https://celeb-edge.vercel.app/celebrities",
+  },
 };
 
-interface SearchPageProps {
+interface CelebritiesPageProps {
   searchParams: Promise<{ q?: string }>;
 }
 
-export default async function SearchPage({ searchParams }: SearchPageProps) {
+export default async function AllCelebritiesPage({ searchParams }: CelebritiesPageProps) {
   const { q = "" } = await searchParams;
-  const { items, total } = searchCelebrities(q);
+
+  const query = q.trim().toLowerCase();
+  const celebrities = query
+    ? CELEBRITIES.filter(
+        (c) =>
+          c.name.toLowerCase().includes(query) ||
+          c.headline.toLowerCase().includes(query) ||
+          c.primaryKeyword.toLowerCase().includes(query) ||
+          c.quickFacts.knownFor.toLowerCase().includes(query) ||
+          c.quickFacts.primaryRole.toLowerCase().includes(query)
+      )
+    : CELEBRITIES;
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
+      {/* Breadcrumb Navigation */}
+      <div className="border-b border-slate-200 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3">
+          <nav aria-label="Breadcrumbs" className="flex items-center gap-1.5 text-xs text-slate-500 font-medium">
+            <Link href="/" className="hover:text-amber-700 transition-colors">Home</Link>
+            <ChevronRight className="h-3 w-3 text-slate-400" />
+            <span className="text-amber-700 font-bold">All Celebrities</span>
+          </nav>
+        </div>
+      </div>
+
       {/* Header */}
       <header className="border-b border-slate-200 bg-white py-12 shadow-xs">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3.5 py-1 text-xs font-bold text-amber-800 border border-amber-200 mb-3">
-            <Search className="h-3.5 w-3.5 text-amber-600" />
-            <span>Archive Search Engine</span>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-4">
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3.5 py-1 text-xs font-bold text-amber-800 border border-amber-200">
+            <ShieldCheck className="h-3.5 w-3.5 text-amber-600" />
+            <span>Official Master Directory</span>
           </div>
 
-          <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            Search Celebrity Dossiers
+          <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
+            All Celebrities
           </h1>
-          <p className="text-sm text-slate-500 mt-2 font-normal max-w-2xl">
-            Search our fact-checked biographical files, career milestones, filmography records, and certified financial audits.
+
+          <p className="text-base text-slate-600 max-w-2xl font-normal leading-relaxed">
+            Browse our complete collection of verified celebrity profiles. Each dossier consolidates certified biographical facts, municipal public records, financial audits, and career milestones.
           </p>
 
-          {/* Form */}
-          <form action="/search" method="GET" className="mt-6 max-w-2xl flex gap-2">
+          {/* Search Box */}
+          <form action="/celebrities" method="GET" className="mt-4 max-w-xl flex gap-2">
             <div className="relative flex-1">
               <input
                 type="text"
@@ -57,41 +84,41 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         </div>
       </header>
 
-      {/* Results Section */}
+      {/* Main Directory Grid */}
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex items-center justify-between mb-8 pb-3 border-b border-slate-200">
           <span className="text-sm font-bold text-slate-700">
-            {total} {total === 1 ? "Dossier" : "Dossiers"} Found {q ? `for "${q}"` : ""}
+            {celebrities.length} {celebrities.length === 1 ? "Celebrity Dossier" : "Celebrity Dossiers"} Available {q ? `matching "${q}"` : ""}
           </span>
           <span className="text-xs text-emerald-700 font-semibold flex items-center gap-1">
             <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" />
-            100% Primary Source Grounded
+            Primary Source Grounded
           </span>
         </div>
 
-        {items.length === 0 ? (
-          <div className="rounded-2xl border border-slate-200 bg-white p-12 text-center max-w-lg mx-auto my-12 shadow-xs">
-            <Search className="h-10 w-10 text-slate-300 mx-auto mb-3" />
-            <h3 className="text-lg font-bold text-slate-800">No Dossiers Found</h3>
+        {celebrities.length === 0 ? (
+          <div className="rounded-2xl border border-slate-200 bg-white p-12 text-center max-w-md mx-auto my-12 shadow-xs">
+            <h3 className="text-lg font-bold text-slate-800">No Celebrities Found</h3>
             <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              We couldn&apos;t find any verified profiles matching your inquiry. Try searching for &quot;Cillian Murphy&quot;, &quot;Zendaya&quot;, or &quot;Tim Curry&quot;.
+              We couldn&apos;t find any verified profiles matching your search query.
             </p>
             <Link
               href="/celebrities"
               className="mt-5 inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 hover:underline"
             >
-              <span>Explore All Celebrities</span>
+              <span>View All Celebrities</span>
               <ArrowRight className="h-3 w-3" />
             </Link>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {items.map((item) => (
+            {celebrities.map((item) => (
               <article
                 key={item.slug}
                 className="group rounded-2xl border border-slate-200 bg-white overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
+                  {/* Portrait Thumbnail */}
                   <div className="relative h-64 w-full overflow-hidden bg-slate-100">
                     <Image
                       src={item.heroImage}
@@ -107,6 +134,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     </div>
                   </div>
 
+                  {/* Body Info */}
                   <div className="p-6">
                     <div className="flex items-center justify-between text-[11px] mb-2 font-medium">
                       <span className="text-emerald-700 font-bold flex items-center gap-1">
@@ -127,24 +155,26 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     <p className="text-xs text-slate-600 line-clamp-3 mt-2.5 leading-relaxed font-normal">
                       {item.executiveSummary}
                     </p>
+
+                    {/* Quick Known For tag */}
+                    <div className="mt-4 pt-3 border-t border-slate-100 text-[11px] text-slate-500">
+                      <span className="font-semibold text-slate-700">Known for: </span>
+                      <span className="truncate">{item.quickFacts.knownFor}</span>
+                    </div>
                   </div>
                 </div>
 
-                <div className="px-6 pb-6 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
-                  <div className="flex items-center gap-2">
-                    <div className="h-6 w-6 rounded-full bg-amber-100 flex items-center justify-center text-[10px] font-bold text-amber-800">
-                      {item.editorialMetadata.authorName.charAt(0)}
-                    </div>
-                    <span className="text-[11px] font-semibold text-slate-700 truncate max-w-[120px]">
-                      {item.editorialMetadata.authorName}
-                    </span>
-                  </div>
+                {/* Card Footer */}
+                <div className="px-6 pb-6 pt-2 flex items-center justify-between text-xs border-t border-slate-100">
+                  <span className="text-[11px] text-slate-400">
+                    {item.filmography.length} Major Titles Documented
+                  </span>
 
                   <Link
                     href={`/celebrity/${item.slug}`}
                     className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
                   >
-                    <span>Read Dossier</span>
+                    <span>View Dossier</span>
                     <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>
