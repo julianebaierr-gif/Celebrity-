@@ -16,13 +16,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/editorial-standards`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.5,
+      priority: 0.6,
     },
     {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/privacy`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.4,
     },
   ];
 
@@ -34,14 +52,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Unique Silo / Category routes
-  const silos = Array.from(new Set(CELEBRITIES.map((c) => c.silo)));
-  const siloRoutes: MetadataRoute.Sitemap = silos.map((silo) => ({
-    url: `${baseUrl}/silo/${encodeURIComponent(silo.toLowerCase().replace(/ & /g, "-").replace(/\s+/g, "-"))}`,
+  // Clean Category routes
+  const categories = ["relationships", "net-worth", "biographies", "health-lifestyle", "top-earners"];
+  const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
+    url: `${baseUrl}/category/${cat}`,
     lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...profileRoutes, ...siloRoutes];
+  // A-Z Directory routes
+  const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+  const directoryRoutes: MetadataRoute.Sitemap = alphabet.map((letter) => ({
+    url: `${baseUrl}/directory/${letter}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...categoryRoutes, ...directoryRoutes, ...profileRoutes];
 }

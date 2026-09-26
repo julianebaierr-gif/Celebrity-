@@ -273,23 +273,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. Content Silos Section */}
+      {/* 6. Content Categories Section */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-200 bg-white">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="text-xs font-bold text-amber-800 uppercase tracking-wider block mb-1">
-            Topical Investigation Clusters
+            Curated Subject Archives
           </span>
           <h2 className="text-3xl font-black text-slate-900 tracking-tight">
-            Specialized Research Silos
+            Specialized Celebrity Archives
           </h2>
           <p className="text-sm text-slate-500 mt-2">
-            Structured thematic silos engineered to deliver comprehensive coverage without keyword overlap.
+            Structured thematic archives engineered to deliver authoritative, verified coverage without duplication.
           </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <Link
-            href="/silo/celebrity-profiles-bios"
+            href="/category/biographies"
             className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-xs hover:border-slate-300 hover:bg-white transition group space-y-3"
           >
             <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-100 text-amber-800 font-black text-lg">
@@ -305,7 +305,7 @@ export default function HomePage() {
           </Link>
 
           <Link
-            href="/silo/spouses-relationships"
+            href="/category/relationships"
             className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-xs hover:border-slate-300 hover:bg-white transition group space-y-3"
           >
             <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-pink-100 text-pink-700">
@@ -321,7 +321,7 @@ export default function HomePage() {
           </Link>
 
           <Link
-            href="/silo/net-worth-wealth"
+            href="/category/net-worth"
             className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-xs hover:border-slate-300 hover:bg-white transition group space-y-3"
           >
             <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-100 text-emerald-800">

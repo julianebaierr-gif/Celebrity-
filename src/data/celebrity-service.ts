@@ -158,3 +158,16 @@ export function getCompleteOrDynamicProfile(slug: string): CelebrityProfile | un
     }
   };
 }
+
+export const SILO_TO_CATEGORY: Record<string, string> = {
+  "Spouses & Relationships": "relationships",
+  "Net Worth & Wealth": "net-worth",
+  "Celebrity Profiles & Bios": "biographies",
+  "Health & Transformations": "health-lifestyle",
+  "High-CPC Cash Cows": "top-earners",
+};
+
+export function getCategorySlugForSilo(silo: string): string {
+  return SILO_TO_CATEGORY[silo] || "biographies";
+}
+

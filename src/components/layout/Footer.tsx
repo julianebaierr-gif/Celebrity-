@@ -38,13 +38,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/silo/spouses-relationships" className="hover:text-amber-600 transition-colors">
+                <Link href="/category/relationships" className="hover:text-amber-600 transition-colors">
                   Spouses & Marriage Records
                 </Link>
               </li>
               <li>
-                <Link href="/silo/net-worth-wealth" className="hover:text-amber-600 transition-colors">
+                <Link href="/category/net-worth" className="hover:text-amber-600 transition-colors">
                   Net Worth & Asset Portfolios
+                </Link>
+              </li>
+              <li>
+                <Link href="/category/biographies" className="hover:text-amber-600 transition-colors">
+                  Career Archives & Dossiers
                 </Link>
               </li>
               <li>

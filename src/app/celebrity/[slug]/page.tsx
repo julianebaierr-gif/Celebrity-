@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
-import { getCompleteOrDynamicProfile } from "@/data/celebrity-service";
+import { getCompleteOrDynamicProfile, getCategorySlugForSilo } from "@/data/celebrity-service";
 import { getAllCelebritySlugs } from "@/data/celebrities";
 import JsonLd from "@/components/seo/JsonLd";
 import QuickFactBox from "@/components/profile/QuickFactBox";
@@ -78,10 +78,11 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
     notFound();
   }
 
+  const categorySlug = getCategorySlugForSilo(celebrity.silo);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celeb-edge.vercel.app";
   const breadcrumbs = [
     { name: "Home", url: `${baseUrl}` },
-    { name: celebrity.silo, url: `${baseUrl}/silo/${encodeURIComponent(celebrity.silo.toLowerCase().replace(/ & /g, "-").replace(/\s+/g, "-"))}` },
+    { name: celebrity.silo, url: `${baseUrl}/category/${categorySlug}` },
     { name: celebrity.name, url: `${baseUrl}/celebrity/${celebrity.slug}` },
   ];
 
@@ -96,7 +97,9 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
             <nav aria-label="Breadcrumbs" className="flex items-center gap-1.5 text-xs text-slate-500 font-medium">
               <Link href="/" className="hover:text-amber-700 transition-colors">Home</Link>
               <ChevronRight className="h-3 w-3 text-slate-400" />
-              <span className="text-slate-500 truncate">{celebrity.silo}</span>
+              <Link href={`/category/${categorySlug}`} className="hover:text-amber-700 transition-colors truncate">
+                {celebrity.silo}
+              </Link>
               <ChevronRight className="h-3 w-3 text-slate-400" />
               <span className="text-amber-700 font-bold truncate">{celebrity.name}</span>
             </nav>
@@ -122,13 +125,16 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                 </div>
               </div>
 
-              {/* Title, Silo & Social Links */}
+              {/* Title, Category & Social Links */}
               <div className="flex-1 text-center sm:text-left space-y-3.5">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">
+                <Link
+                  href={`/category/${categorySlug}`}
+                  className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold hover:bg-amber-100 transition"
+                >
                   <span>{celebrity.silo}</span>
                   <span>•</span>
                   <span>Monthly Searches: {(celebrity.searchVolume).toLocaleString()}</span>
-                </div>
+                </Link>
 
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
                   {celebrity.name}
