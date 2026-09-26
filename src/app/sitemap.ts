@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { CELEBRITIES } from "@/data/celebrities";
+import { CATEGORY_DEFINITIONS } from "@/data/celebrity-service";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celeb-edge.vercel.app";
@@ -16,35 +17,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/editorial-standards`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.6,
+      priority: 0.7,
     },
     {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.5,
+      priority: 0.6,
     },
     {
       url: `${baseUrl}/privacy`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.3,
+      priority: 0.4,
     },
     {
       url: `${baseUrl}/terms`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.3,
+      priority: 0.4,
     },
     {
       url: `${baseUrl}/contact`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.4,
+      priority: 0.5,
     },
   ];
 
-  // Dynamic Celebrity Profile routes
+  // Dynamic Celebrity Profile routes (All real, verified profiles)
   const profileRoutes: MetadataRoute.Sitemap = CELEBRITIES.map((c) => ({
     url: `${baseUrl}/celebrity/${c.slug}`,
     lastModified: new Date(c.editorialMetadata.lastUpdated),
@@ -53,22 +54,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // Clean Category routes
-  const categories = ["relationships", "net-worth", "biographies", "health-lifestyle", "top-earners"];
-  const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
+  const categoryRoutes: MetadataRoute.Sitemap = Object.keys(CATEGORY_DEFINITIONS).map((cat) => ({
     url: `${baseUrl}/category/${cat}`,
     lastModified: new Date(),
-    changeFrequency: "weekly",
+    changeFrequency: "daily",
     priority: 0.8,
   }));
 
-  // A-Z Directory routes
-  const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
-  const directoryRoutes: MetadataRoute.Sitemap = alphabet.map((letter) => ({
-    url: `${baseUrl}/directory/${letter}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: 0.7,
-  }));
-
-  return [...staticRoutes, ...categoryRoutes, ...directoryRoutes, ...profileRoutes];
+  return [...staticRoutes, ...categoryRoutes, ...profileRoutes];
 }

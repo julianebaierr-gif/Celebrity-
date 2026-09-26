@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-slate-500 leading-relaxed text-xs">
-              The premier public record and journalistic archive for verified celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.
+              The premier journalistic archive for verified celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.
             </p>
             <div className="flex items-center gap-1.5 text-emerald-700 text-[11px] font-semibold pt-1">
               <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" />
@@ -29,32 +29,32 @@ export default function Footer() {
           {/* Core Categories */}
           <div>
             <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
-              Content Archives
+              Editorial Archives
             </h4>
             <ul className="space-y-2.5 text-slate-600">
               <li>
-                <Link href="/#trending" className="hover:text-amber-600 transition-colors">
-                  Trending Stars & Biographies
-                </Link>
-              </li>
-              <li>
-                <Link href="/category/relationships" className="hover:text-amber-600 transition-colors">
-                  Spouses & Marriage Records
+                <Link href="/category/biographies" className="hover:text-amber-600 transition-colors">
+                  Biographies & Profiles
                 </Link>
               </li>
               <li>
                 <Link href="/category/net-worth" className="hover:text-amber-600 transition-colors">
-                  Net Worth & Asset Portfolios
+                  Net Worth & Fortunes
                 </Link>
               </li>
               <li>
-                <Link href="/category/biographies" className="hover:text-amber-600 transition-colors">
-                  Career Archives & Dossiers
+                <Link href="/category/relationships" className="hover:text-amber-600 transition-colors">
+                  Relationships & Marriages
                 </Link>
               </li>
               <li>
-                <Link href="/#directory-index" className="hover:text-amber-600 transition-colors">
-                  Alphabetical A–Z Index
+                <Link href="/category/movies-tv" className="hover:text-amber-600 transition-colors">
+                  Movies & Television
+                </Link>
+              </li>
+              <li>
+                <Link href="/category/legends" className="hover:text-amber-600 transition-colors">
+                  Hollywood Legends
                 </Link>
               </li>
             </ul>

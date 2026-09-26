@@ -3,354 +3,500 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { CELEBRITIES } from "@/data/celebrities";
-import { Flame, Sparkles, TrendingUp, ShieldCheck, Heart, DollarSign, ArrowRight, Search, CheckCircle2, BookOpen, Star, Award, Film, Users, ExternalLink } from "lucide-react";
+import { CATEGORY_DEFINITIONS } from "@/data/celebrity-service";
+import {
+  Flame,
+  Clock,
+  Calendar,
+  CheckCircle2,
+  ArrowRight,
+  Search,
+  Sparkles,
+  BookOpen,
+  DollarSign,
+  Heart,
+  Film,
+  Crown,
+  ShieldCheck,
+  TrendingUp,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "CelebEdge | Verified Celebrity Intel, Wealth & Filmography Archives",
-  description: "The authoritative public record and journalistic directory covering 9,500+ celebrity profiles, verified net worth, relationship timelines, and filmography archives.",
+  title: "CelebEdge | The Verified Celebrity Journal & Biographical Archives",
+  description:
+    "Independent celebrity journalism, verified biographical dossiers, career timelines, net worth evaluations, and official public records.",
   alternates: {
     canonical: "https://celeb-edge.vercel.app",
   },
 };
 
 export default function HomePage() {
-  const featured = CELEBRITIES[0]; // Finn Wolfhard
-  const trendingList = CELEBRITIES;
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  const leadStory = CELEBRITIES.find((c) => c.slug === "tim-curry") || CELEBRITIES[0];
+  const secondaryStories = CELEBRITIES.filter((c) => c.slug !== leadStory.slug).slice(0, 3);
+  const latestStories = CELEBRITIES.slice(0, 9);
+  const netWorthStories = CELEBRITIES.filter((c) => c.category === "net-worth" || c.quickFacts.netWorth.includes("Million") || c.quickFacts.netWorth.includes("Billion")).slice(0, 4);
+  const relationshipStories = CELEBRITIES.filter((c) => c.category === "relationships" || c.relationshipProfile.status.includes("Married") || c.relationshipProfile.partner).slice(0, 3);
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
-      {/* 1. Live Editorial Ticker / Marquee */}
-      <div className="border-b border-slate-200 bg-amber-500/10 text-amber-950 px-4 py-2 text-xs font-semibold">
-        <div className="mx-auto max-w-7xl flex items-center justify-between">
-          <div className="flex items-center gap-2 overflow-hidden">
-            <span className="inline-flex items-center gap-1 rounded bg-amber-500 text-slate-950 px-2 py-0.5 text-[10px] font-black uppercase tracking-wider shrink-0">
-              ARCHIVE UPDATE
+    <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
+      {/* 1. Publication Top Editorial Bar */}
+      <div className="border-b border-slate-200 bg-white text-slate-600 text-xs py-2 px-4">
+        <div className="mx-auto max-w-7xl flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <span className="font-semibold text-slate-800">
+              {new Date().toLocaleDateString("en-US", {
+                weekday: "long",
+                month: "long",
+                day: "numeric",
+                year: "numeric",
+              })}
             </span>
-            <span className="truncate text-slate-700">
-              9,570+ verified profiles active • Tim Curry 80th Milestone recorded • Stranger Things S5 production updates certified
+            <span className="text-slate-300">•</span>
+            <span className="hidden sm:inline text-slate-500">
+              Verified Public Archives & Entertainment Journal
             </span>
           </div>
-          <Link href="/editorial-standards" className="hidden sm:inline-flex text-[11px] font-bold text-amber-800 hover:underline shrink-0">
-            Fact-Checking Methodology →
-          </Link>
+
+          <div className="flex items-center gap-3">
+            <span className="inline-flex items-center gap-1.5 text-emerald-700 font-semibold text-[11px]">
+              <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" />
+              Primary Source Grounded
+            </span>
+            <span className="text-slate-300">•</span>
+            <Link
+              href="/editorial-standards"
+              className="text-[11px] font-bold text-amber-800 hover:text-amber-900"
+            >
+              Editorial Standards & Verification
+            </Link>
+          </div>
         </div>
       </div>
 
-      {/* 2. Grand Hero Section */}
-      <section className="relative overflow-hidden border-b border-slate-200 bg-white py-16 sm:py-24 shadow-xs">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <div className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-1.5 text-xs font-bold text-slate-700 border border-slate-200 mb-6 shadow-xs">
-            <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>Independent Public Record & Biographical Intelligence Network</span>
+      {/* 2. Trending Bar */}
+      <div className="border-b border-slate-200 bg-amber-500/5 py-2 px-4">
+        <div className="mx-auto max-w-7xl flex items-center gap-3 overflow-hidden text-xs">
+          <div className="flex items-center gap-1 text-amber-800 font-bold shrink-0">
+            <Flame className="h-3.5 w-3.5 text-amber-600" />
+            <span className="uppercase tracking-wider text-[11px]">Trending Dossiers:</span>
           </div>
+          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar whitespace-nowrap">
+            {CELEBRITIES.map((celeb) => (
+              <Link
+                key={celeb.slug}
+                href={`/celebrity/${celeb.slug}`}
+                className="text-slate-600 hover:text-amber-700 font-medium px-2 py-0.5 rounded hover:bg-white transition"
+              >
+                {celeb.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-slate-950 tracking-tight leading-none mb-6">
-            VERIFIED CELEBRITY <br />
-            <span className="bg-gradient-to-r from-amber-600 via-rose-600 to-amber-700 bg-clip-text text-transparent">
-              BIOGRAPHICAL ARCHIVES
-            </span>
-          </h1>
+      {/* 3. Hero Magazine Feature Section */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 pb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          {/* Main Lead Feature (7 Columns) */}
+          <article className="lg:col-span-7 bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+            <div>
+              <div className="relative h-72 sm:h-96 w-full overflow-hidden bg-slate-100">
+                <Image
+                  src={leadStory.heroImage}
+                  alt={`${leadStory.name} lead editorial portrait`}
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 60vw"
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute top-4 left-4 flex gap-2">
+                  <span className="px-3.5 py-1.5 rounded-full bg-slate-900/90 text-white font-bold text-xs shadow-md backdrop-blur-sm">
+                    ⭐ Featured Cover Story
+                  </span>
+                  <span className="px-3 py-1.5 rounded-full bg-amber-500 text-slate-950 font-extrabold text-xs shadow-md">
+                    {leadStory.silo}
+                  </span>
+                </div>
+              </div>
 
-          <p className="mx-auto max-w-2xl text-base sm:text-lg text-slate-600 leading-relaxed mb-10 font-normal">
-            The definitive, fact-checked entertainment registry. Grounded in primary sources, verified studio filings, economic indicators, and complete filmography records.
-          </p>
+              <div className="p-6 sm:p-8">
+                <div className="flex items-center gap-3 text-xs text-slate-500 mb-3 font-medium">
+                  <span className="flex items-center gap-1">
+                    <Calendar className="h-3.5 w-3.5 text-slate-400" />
+                    {new Date(leadStory.editorialMetadata.publishedDate).toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric",
+                    })}
+                  </span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1">
+                    <Clock className="h-3.5 w-3.5 text-slate-400" />
+                    {leadStory.editorialMetadata.readingTimeMinutes} min read
+                  </span>
+                  <span>•</span>
+                  <span className="text-amber-700 font-semibold">
+                    By {leadStory.editorialMetadata.authorName}
+                  </span>
+                </div>
 
-          {/* Quick Search Input */}
-          <form action="/search" method="GET" className="mx-auto max-w-2xl relative mb-8">
-            <input
-              type="text"
-              name="q"
-              placeholder="Search by actor name, verified net worth, spouse, or film credit..."
-              className="w-full bg-slate-50 text-slate-900 placeholder-slate-400 text-sm rounded-2xl pl-13 pr-32 py-4.5 border border-slate-300 shadow-lg focus:outline-none focus:border-amber-600 focus:bg-white focus:ring-4 focus:ring-amber-500/10 transition"
-            />
-            <Search className="absolute left-4.5 top-4.5 h-5 w-5 text-slate-400 pointer-events-none" />
-            <button
-              type="submit"
-              className="absolute right-2.5 top-2.5 px-6 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-amber-600 transition shadow-sm"
-            >
-              Search Archive
-            </button>
-          </form>
+                <h1 className="text-2xl sm:text-4xl font-black text-slate-900 group-hover:text-amber-700 transition tracking-tight leading-tight">
+                  <Link href={`/celebrity/${leadStory.slug}`}>
+                    {leadStory.name}: {leadStory.headline}
+                  </Link>
+                </h1>
 
-          {/* Key Stat Trust Badges */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto pt-4 text-left">
-            <div className="rounded-xl border border-slate-200 bg-slate-50/80 p-4 shadow-xs">
-              <span className="text-2xl font-black text-slate-900 block">9,570+</span>
-              <span className="text-xs text-slate-500 font-medium">Verified Dossiers</span>
+                <p className="text-sm sm:text-base text-slate-600 mt-4 leading-relaxed font-normal">
+                  {leadStory.executiveSummary}
+                </p>
+
+                {/* Quick Facts Preview */}
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6 p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs">
+                  <div>
+                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Age</span>
+                    <span className="font-bold text-slate-900">{leadStory.quickFacts.age} Years</span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Net Worth</span>
+                    <span className="font-bold text-emerald-700">{leadStory.quickFacts.netWorth.split(" ")[0]}</span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Status</span>
+                    <span className="font-bold text-slate-900 truncate block">{leadStory.relationshipProfile.status.split(" ")[0]}</span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Known For</span>
+                    <span className="font-bold text-slate-900 truncate block">{leadStory.quickFacts.knownFor.split(",")[0]}</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="rounded-xl border border-slate-200 bg-slate-50/80 p-4 shadow-xs">
-              <span className="text-2xl font-black text-amber-700 block">285M+</span>
-              <span className="text-xs text-slate-500 font-medium">Monthly Public Interest</span>
+
+            <div className="px-6 sm:px-8 pb-8 pt-2 flex items-center justify-between border-t border-slate-100">
+              <span className="text-xs text-slate-500 font-medium">
+                Verified by {leadStory.editorialMetadata.factCheckedBy}
+              </span>
+              <Link
+                href={`/celebrity/${leadStory.slug}`}
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-amber-600 transition shadow-sm"
+              >
+                <span>Read Verified Dossier</span>
+                <ArrowRight className="h-4 w-4" />
+              </Link>
             </div>
-            <div className="rounded-xl border border-slate-200 bg-slate-50/80 p-4 shadow-xs">
-              <span className="text-2xl font-black text-emerald-700 block">100%</span>
-              <span className="text-xs text-slate-500 font-medium">Primary Source Backed</span>
+          </article>
+
+          {/* Secondary Editorial Stories (5 Columns) */}
+          <div className="lg:col-span-5 space-y-6">
+            <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+              <h2 className="text-sm font-bold uppercase tracking-wider text-slate-900 flex items-center gap-1.5">
+                <Sparkles className="h-4 w-4 text-amber-600" />
+                Editor&apos;s Essential Dossiers
+              </h2>
+              <span className="text-xs text-slate-500 font-medium">Curated Daily</span>
             </div>
-            <div className="rounded-xl border border-slate-200 bg-slate-50/80 p-4 shadow-xs">
-              <span className="text-2xl font-black text-indigo-700 block">0%</span>
-              <span className="text-xs text-slate-500 font-medium">Unverified Rumors</span>
-            </div>
+
+            {secondaryStories.map((story) => (
+              <article
+                key={story.slug}
+                className="group rounded-2xl border border-slate-200 bg-white p-4 sm:p-5 shadow-xs hover:border-amber-400 hover:shadow-md transition flex gap-4 items-center"
+              >
+                <div className="relative h-24 w-24 sm:h-28 sm:w-28 rounded-xl overflow-hidden bg-slate-100 shrink-0">
+                  <Image
+                    src={story.heroImage}
+                    alt={`${story.name} portrait`}
+                    fill
+                    sizes="112px"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-[10px] font-bold text-amber-800 uppercase tracking-wider bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                      {story.silo}
+                    </span>
+                    <span className="text-[10px] text-slate-400 font-medium">
+                      {story.editorialMetadata.readingTimeMinutes} min read
+                    </span>
+                  </div>
+
+                  <h3 className="text-base font-bold text-slate-900 group-hover:text-amber-700 transition leading-snug truncate">
+                    <Link href={`/celebrity/${story.slug}`}>
+                      {story.name}
+                    </Link>
+                  </h3>
+
+                  <p className="text-xs text-slate-500 line-clamp-2 mt-1 leading-relaxed">
+                    {story.executiveSummary}
+                  </p>
+
+                  <div className="mt-2.5 flex items-center justify-between text-xs">
+                    <span className="font-semibold text-emerald-700 text-[11px]">
+                      {story.quickFacts.netWorth.split(" ")[0]} Net Worth
+                    </span>
+                    <Link
+                      href={`/celebrity/${story.slug}`}
+                      className="font-bold text-slate-900 group-hover:text-amber-700 inline-flex items-center gap-1 text-[11px]"
+                    >
+                      <span>Explore</span>
+                      <ArrowRight className="h-3 w-3" />
+                    </Link>
+                  </div>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* 3. Featured Editorial Spotlight */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="flex items-center justify-between mb-8">
-          <div>
-            <div className="flex items-center gap-2 text-rose-600 font-bold text-xs uppercase tracking-wider mb-1">
-              <Flame className="h-4 w-4" />
-              <span>Editor&apos;s Featured Dossier</span>
+      {/* 4. Journal Category Selector Navigation */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
+        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+            <div>
+              <h2 className="text-xl font-black text-slate-900 tracking-tight">
+                Explore Editorial Archives by Subject
+              </h2>
+              <p className="text-xs text-slate-500 mt-0.5">
+                Browse our focused journalistic archives organized by verified biographical categories.
+              </p>
             </div>
+            <Link
+              href="/editorial-standards"
+              className="text-xs font-bold text-amber-800 hover:underline shrink-0"
+            >
+              How CelebEdge Verifies Facts →
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {Object.entries(CATEGORY_DEFINITIONS).map(([slug, def]) => {
+              const iconMap: Record<string, React.ReactNode> = {
+                "biographies": <BookOpen className="h-4 w-4 text-amber-700" />,
+                "relationships": <Heart className="h-4 w-4 text-pink-600" />,
+                "net-worth": <DollarSign className="h-4 w-4 text-emerald-700" />,
+                "movies-tv": <Film className="h-4 w-4 text-indigo-700" />,
+                "legends": <Crown className="h-4 w-4 text-purple-700" />
+              };
+
+              return (
+                <Link
+                  key={slug}
+                  href={`/category/${slug}`}
+                  className="rounded-xl border border-slate-200 bg-slate-50/80 p-3.5 hover:bg-white hover:border-amber-400 hover:shadow-xs transition group"
+                >
+                  <div className="flex items-center gap-2 mb-1.5">
+                    {iconMap[slug] || <Sparkles className="h-4 w-4 text-amber-600" />}
+                    <span className="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">
+                      {def.title}
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 line-clamp-2 leading-relaxed">
+                    {def.description}
+                  </p>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Latest Verified Celebrity Stories Grid */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+        <div className="flex items-center justify-between mb-8 pb-3 border-b border-slate-200">
+          <div>
+            <span className="text-xs font-bold text-amber-800 uppercase tracking-wider block mb-1">
+              Journal Archive
+            </span>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-              Spotlight Profile of the Week
+              Latest Published Celebrity Dossiers
             </h2>
           </div>
-          <Link
-            href={`/celebrity/${featured.slug}`}
-            className="hidden sm:flex items-center gap-1.5 text-sm font-bold text-amber-700 hover:text-amber-800"
-          >
-            <span>Read Full Examination</span>
-            <ArrowRight className="h-4 w-4" />
-          </Link>
+          <span className="text-xs text-slate-500 font-semibold">
+            {CELEBRITIES.length} In-Depth Profiles Active
+          </span>
         </div>
 
-        {/* Big Spotlight Card */}
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-10 shadow-sm relative overflow-hidden group">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            {/* Image */}
-            <div className="lg:col-span-5 relative h-80 sm:h-104 w-full rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-              <Image
-                src={featured.heroImage}
-                alt={featured.name}
-                fill
-                priority
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute top-3 left-3 bg-white/95 backdrop-blur px-3 py-1 rounded-full text-xs font-extrabold text-amber-800 border border-slate-200 shadow-xs">
-                ⭐ Priority Feature
-              </div>
-            </div>
-
-            {/* Info */}
-            <div className="lg:col-span-7 space-y-4">
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-amber-800 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
-                  {featured.silo}
-                </span>
-                <span className="text-xs text-slate-500 font-mono font-medium">
-                  Monthly Searches: {(featured.searchVolume).toLocaleString()}
-                </span>
-              </div>
-
-              <h3 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-                {featured.name}
-              </h3>
-
-              <p className="text-base text-slate-700 font-semibold leading-relaxed">
-                {featured.headline}
-              </p>
-
-              <p className="text-sm text-slate-600 leading-relaxed">
-                {featured.executiveSummary}
-              </p>
-
-              {/* Quick stats badges */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-xs">
-                <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200">
-                  <span className="text-slate-500 block text-[10px] uppercase font-bold">Audited Net Worth</span>
-                  <span className="text-emerald-700 font-bold text-sm">{featured.quickFacts.netWorth}</span>
-                </div>
-                <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200">
-                  <span className="text-slate-500 block text-[10px] uppercase font-bold">Age & Birthplace</span>
-                  <span className="text-slate-900 font-bold text-sm">{featured.quickFacts.age} yrs • Canada</span>
-                </div>
-                <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200 col-span-2 sm:col-span-1">
-                  <span className="text-slate-500 block text-[10px] uppercase font-bold">Breakthrough Work</span>
-                  <span className="text-amber-800 font-bold text-sm truncate block">Stranger Things</span>
-                </div>
-              </div>
-
-              <div className="pt-2">
-                <Link
-                  href={`/celebrity/${featured.slug}`}
-                  className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-900 text-white font-bold text-sm hover:bg-amber-600 transition shadow-sm"
-                >
-                  <span>Open Complete Verified Dossier</span>
-                  <ArrowRight className="h-4 w-4" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 4. Trending Dossiers Grid */}
-      <section id="trending" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-200">
-        <div className="mb-10">
-          <div className="flex items-center gap-2 text-amber-700 font-bold text-xs uppercase tracking-wider mb-1">
-            <TrendingUp className="h-4 w-4" />
-            <span>High-Demand Public Dossiers</span>
-          </div>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-            Trending Biographies & Archives
-          </h2>
-          <p className="text-sm text-slate-500 mt-1">
-            Certified profiles featuring multi-decade filmography, box office audits, and verified relationship records.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {trendingList.map((celeb) => (
-            <Link
-              key={celeb.slug}
-              href={`/celebrity/${celeb.slug}`}
-              className="rounded-2xl border border-slate-200 bg-white p-5 shadow-xs hover:border-amber-400 hover:shadow-md transition group flex flex-col justify-between"
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {latestStories.map((item) => (
+            <article
+              key={item.slug}
+              className="group rounded-2xl border border-slate-200 bg-white overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
             >
               <div>
-                <div className="relative h-60 w-full rounded-xl overflow-hidden mb-4 border border-slate-200">
+                <div className="relative h-56 w-full overflow-hidden bg-slate-100">
                   <Image
-                    src={celeb.heroImage}
-                    alt={celeb.name}
+                    src={item.heroImage}
+                    alt={`${item.name} portrait`}
                     fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-3 left-3 bg-white/95 px-2.5 py-1 rounded-full text-[10px] font-bold text-slate-900 border border-slate-200 shadow-xs">
-                    {(celeb.searchVolume).toLocaleString()} Monthly Searches
+                  <div className="absolute top-3 left-3">
+                    <span className="inline-block px-3 py-1 rounded-full bg-white/95 backdrop-blur-sm text-[11px] font-bold text-amber-800 border border-slate-200 shadow-xs">
+                      {item.silo}
+                    </span>
                   </div>
                 </div>
 
-                <span className="text-[11px] font-bold text-amber-800 uppercase tracking-wider block mb-1">
-                  {celeb.silo}
-                </span>
+                <div className="p-6">
+                  <div className="flex items-center gap-3 text-[11px] text-slate-500 mb-2.5 font-medium">
+                    <span className="flex items-center gap-1">
+                      <Calendar className="h-3 w-3 text-slate-400" />
+                      {new Date(item.editorialMetadata.publishedDate).toLocaleDateString("en-US", {
+                        month: "short",
+                        day: "numeric",
+                        year: "numeric",
+                      })}
+                    </span>
+                    <span>•</span>
+                    <span className="flex items-center gap-1">
+                      <Clock className="h-3 w-3 text-slate-400" />
+                      {item.editorialMetadata.readingTimeMinutes} min read
+                    </span>
+                  </div>
 
-                <h3 className="text-xl font-bold text-slate-900 group-hover:text-amber-700 transition-colors">
-                  {celeb.name}
-                </h3>
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-amber-700 transition tracking-tight leading-snug">
+                    <Link href={`/celebrity/${item.slug}`}>
+                      {item.name}
+                    </Link>
+                  </h3>
 
-                <p className="text-xs text-slate-600 line-clamp-3 mt-2 leading-relaxed font-normal">
-                  {celeb.executiveSummary}
-                </p>
+                  <p className="text-xs text-slate-600 line-clamp-3 mt-2.5 leading-relaxed font-normal">
+                    {item.executiveSummary}
+                  </p>
+                </div>
               </div>
 
-              <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-900 group-hover:text-amber-700">
-                <span>Examine Fact-Checked Dossier</span>
-                <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+              <div className="px-6 pb-6 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+                <div className="flex items-center gap-2">
+                  <div className="h-6 w-6 rounded-full bg-amber-100 flex items-center justify-center text-[10px] font-bold text-amber-800">
+                    {item.editorialMetadata.authorName.charAt(0)}
+                  </div>
+                  <span className="text-[11px] font-semibold text-slate-700 truncate max-w-[120px]">
+                    {item.editorialMetadata.authorName}
+                  </span>
+                </div>
+
+                <Link
+                  href={`/celebrity/${item.slug}`}
+                  className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
+                >
+                  <span>Read Dossier</span>
+                  <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </div>
-            </Link>
+            </article>
           ))}
         </div>
       </section>
 
-      {/* 5. Master A–Z Directory Index */}
-      <section id="directory-index" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-200">
-        <div className="text-center max-w-2xl mx-auto mb-8">
-          <div className="inline-flex items-center gap-1.5 text-xs font-bold text-indigo-700 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-200 mb-2">
-            <BookOpen className="h-3.5 w-3.5" />
-            <span>Complete Archive Registry</span>
-          </div>
-          <h2 className="text-3xl font-black text-slate-900 tracking-tight">
-            Browse All 9,500+ Profiles by Letter
-          </h2>
-          <p className="text-sm text-slate-500 mt-2">
-            Access certified public records, filmographies, and economic audits sorted alphabetically.
-          </p>
-        </div>
-
-        {/* Alphabet Bar */}
-        <div className="flex flex-wrap items-center justify-center gap-2 max-w-3xl mx-auto">
-          {alphabet.map((letter) => (
+      {/* 6. Spotlight Section: Wealth & Financial Audits */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+        <div className="rounded-3xl border border-slate-200 bg-white p-8 sm:p-10 shadow-xs">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 pb-4 border-b border-slate-200">
+            <div>
+              <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider block mb-1">
+                Industry Economic Intelligence
+              </span>
+              <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                Celebrity Net Worth & Asset Evaluations
+              </h2>
+            </div>
             <Link
-              key={letter}
-              href={`/directory/${letter.toLowerCase()}`}
-              className="h-10 w-10 sm:h-11 sm:w-11 flex items-center justify-center rounded-xl bg-white border border-slate-200 text-slate-800 font-extrabold text-sm hover:bg-slate-900 hover:text-white hover:border-slate-900 transition shadow-xs"
+              href="/category/net-worth"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:underline"
             >
-              {letter}
+              <span>View All Financial Portfolios</span>
+              <ArrowRight className="h-3.5 w-3.5" />
             </Link>
-          ))}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {netWorthStories.map((c) => (
+              <Link
+                key={c.slug}
+                href={`/celebrity/${c.slug}`}
+                className="group rounded-2xl border border-slate-200 bg-slate-50/70 p-5 hover:bg-white hover:border-emerald-500 hover:shadow-md transition flex flex-col justify-between"
+              >
+                <div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="relative h-14 w-14 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-slate-300">
+                      <Image
+                        src={c.heroImage}
+                        alt={`${c.name} avatar`}
+                        fill
+                        sizes="56px"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 group-hover:text-emerald-700 transition leading-snug">
+                        {c.name}
+                      </h4>
+                      <span className="text-[11px] text-slate-500 block">
+                        {c.quickFacts.primaryRole.split(",")[0]}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="rounded-xl bg-white p-3.5 border border-slate-200 mb-3">
+                    <span className="text-[10px] uppercase font-bold text-slate-400 block">
+                      Certified Valuation
+                    </span>
+                    <span className="text-lg font-black text-emerald-700 block mt-0.5">
+                      {c.quickFacts.netWorth}
+                    </span>
+                  </div>
+
+                  <p className="text-[11px] text-slate-600 line-clamp-2 leading-relaxed">
+                    {c.metrics[0]?.label}: {c.metrics[0]?.value} ({c.metrics[0]?.verifiedSource})
+                  </p>
+                </div>
+
+                <div className="pt-3 mt-3 border-t border-slate-200/80 flex items-center justify-between text-xs font-bold text-slate-800 group-hover:text-emerald-700">
+                  <span>Audit Breakdown</span>
+                  <ArrowRight className="h-3 w-3" />
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* 6. Content Categories Section */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-200 bg-white">
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="text-xs font-bold text-amber-800 uppercase tracking-wider block mb-1">
-            Curated Subject Archives
-          </span>
-          <h2 className="text-3xl font-black text-slate-900 tracking-tight">
-            Specialized Celebrity Archives
-          </h2>
-          <p className="text-sm text-slate-500 mt-2">
-            Structured thematic archives engineered to deliver authoritative, verified coverage without duplication.
-          </p>
-        </div>
+      {/* 7. Editorial Standards & Fact-Checking Assurance */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+        <div className="rounded-3xl border border-amber-200/80 bg-gradient-to-br from-amber-500/10 via-white to-slate-50 p-8 sm:p-12">
+          <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 px-3.5 py-1 text-xs font-bold text-amber-900 border border-amber-200 mb-4">
+              <ShieldCheck className="h-4 w-4 text-amber-700" />
+              <span>Google Quality & Helpful Content Standards Compliant</span>
+            </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <Link
-            href="/category/biographies"
-            className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-xs hover:border-slate-300 hover:bg-white transition group space-y-3"
-          >
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-100 text-amber-800 font-black text-lg">
-              ⚡
-            </span>
-            <h3 className="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition">
-              Biographies & Bios
-            </h3>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
-              In-depth career milestones, educational credentials, and historic performance records.
-            </p>
-            <span className="text-xs font-bold text-amber-800 block pt-1">7,000+ Profiles Active →</span>
-          </Link>
+            <h2 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight">
+              The CelebEdge Editorial Charter: Primary Sources, Zero Rumors
+            </h2>
 
-          <Link
-            href="/category/relationships"
-            className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-xs hover:border-slate-300 hover:bg-white transition group space-y-3"
-          >
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-pink-100 text-pink-700">
-              <Heart className="h-5 w-5" />
-            </span>
-            <h3 className="text-lg font-bold text-slate-900 group-hover:text-pink-700 transition">
-              Spouses & Partnerships
-            </h3>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
-              Certified marriage public records, wedding facts, partner biographies, and timeline truth.
+            <p className="text-sm text-slate-600 mt-4 leading-relaxed font-normal">
+              Every celebrity dossier published across CelebEdge undergoes rigorous multi-layer verification. We cross-reference municipal marriage licenses, SEC financial disclosures, verified trade press archives (Variety, The Hollywood Reporter, Deadline), and certified agency filings to ensure authentic biographical precision.
             </p>
-            <span className="text-xs font-bold text-pink-700 block pt-1">523 Relationship Hubs →</span>
-          </Link>
 
-          <Link
-            href="/category/net-worth"
-            className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-xs hover:border-slate-300 hover:bg-white transition group space-y-3"
-          >
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-100 text-emerald-800">
-              <DollarSign className="h-5 w-5" />
-            </span>
-            <h3 className="text-lg font-bold text-slate-900 group-hover:text-emerald-700 transition">
-              Net Worth & Assets
-            </h3>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
-              Forbes & financial registry asset evaluations, backend royalties, and commercial equity.
-            </p>
-            <span className="text-xs font-bold text-emerald-800 block pt-1">509 Financial Audits →</span>
-          </Link>
-
-          <Link
-            href="/editorial-standards"
-            className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-xs hover:border-slate-300 hover:bg-white transition group space-y-3"
-          >
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-100 text-blue-800">
-              <ShieldCheck className="h-5 w-5" />
-            </span>
-            <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-700 transition">
-              E-E-A-T Standards
-            </h3>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
-              Rigorous editorial policies, corrections process, and media compliance safeguards.
-            </p>
-            <span className="text-xs font-bold text-blue-800 block pt-1">Certified Policy Bureau →</span>
-          </Link>
+            <div className="flex flex-wrap items-center gap-4 mt-8">
+              <Link
+                href="/editorial-standards"
+                className="px-6 py-3 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-amber-600 transition shadow-sm"
+              >
+                Read Complete Editorial Policy
+              </Link>
+              <Link
+                href="/about"
+                className="px-6 py-3 rounded-xl bg-white border border-slate-300 text-slate-700 font-bold text-xs hover:bg-slate-100 transition shadow-xs"
+              >
+                Meet the Research Directorate
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
     </div>
