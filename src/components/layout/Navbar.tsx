@@ -26,54 +26,48 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden lg:flex items-center gap-4 xl:gap-6 text-xs xl:text-sm font-semibold text-slate-600 shrink-0">
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-8 text-sm font-semibold text-slate-700 shrink-0">
           <Link
             href="/"
-            className="flex items-center gap-1.5 hover:text-amber-600 transition-colors whitespace-nowrap shrink-0"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            <span>Home</span>
+            Home
           </Link>
           <Link
             href="/category/biographies"
-            className="flex items-center gap-1.5 hover:text-amber-600 transition-colors whitespace-nowrap shrink-0"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            <BookOpen className="h-4 w-4 text-amber-600 shrink-0" />
-            <span>Biographies</span>
+            Biographies
           </Link>
           <Link
             href="/category/net-worth"
-            className="flex items-center gap-1.5 hover:text-amber-600 transition-colors whitespace-nowrap shrink-0"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            <DollarSign className="h-4 w-4 text-emerald-600 shrink-0" />
-            <span>Net Worth</span>
+            Net Worth
           </Link>
           <Link
             href="/category/relationships"
-            className="flex items-center gap-1.5 hover:text-amber-600 transition-colors whitespace-nowrap shrink-0"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            <Heart className="h-4 w-4 text-pink-500 shrink-0" />
-            <span>Relationships</span>
+            Relationships
           </Link>
           <Link
             href="/category/movies-tv"
-            className="flex items-center gap-1.5 hover:text-amber-600 transition-colors whitespace-nowrap shrink-0"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            <Film className="h-4 w-4 text-indigo-500 shrink-0" />
-            <span>Movies & TV</span>
+            Movies & TV
           </Link>
           <Link
             href="/category/legends"
-            className="flex items-center gap-1.5 hover:text-amber-600 transition-colors whitespace-nowrap shrink-0"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            <Crown className="h-4 w-4 text-purple-600 shrink-0" />
-            <span>Legends</span>
+            Legends
           </Link>
           <Link
             href="/editorial-standards"
-            className="hidden xl:inline-flex items-center gap-1.5 text-xs text-slate-600 bg-slate-100 px-3 py-1.5 rounded-full border border-slate-200 hover:border-amber-400 hover:text-amber-700 transition whitespace-nowrap shrink-0"
+            className="text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full border border-slate-200 transition-colors whitespace-nowrap focus:outline-hidden"
           >
-            <ShieldCheck className="h-3.5 w-3.5 text-blue-600 shrink-0" />
-            <span>Fact-Checked</span>
+            Editorial Policy
           </Link>
         </nav>
 
@@ -116,57 +110,51 @@ export default function Navbar() {
           <Link
             href="/"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
           >
-            <span>Home</span>
+            Home
           </Link>
           <Link
             href="/category/biographies"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
           >
-            <BookOpen className="h-4 w-4 text-amber-600" />
-            <span>Biographies & Profiles</span>
+            Biographies & Profiles
           </Link>
           <Link
             href="/category/net-worth"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
           >
-            <DollarSign className="h-4 w-4 text-emerald-600" />
-            <span>Net Worth & Wealth Portfolios</span>
+            Net Worth & Fortunes
           </Link>
           <Link
             href="/category/relationships"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
           >
-            <Heart className="h-4 w-4 text-pink-500" />
-            <span>Relationships & Marriages</span>
+            Relationships & Marriages
           </Link>
           <Link
             href="/category/movies-tv"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
           >
-            <Film className="h-4 w-4 text-indigo-500" />
-            <span>Movies & Television</span>
+            Movies & Television
           </Link>
           <Link
             href="/category/legends"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600"
           >
-            <Crown className="h-4 w-4 text-purple-600" />
-            <span>Hollywood Legends</span>
+            Hollywood Legends
           </Link>
           <Link
             href="/editorial-standards"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600 pt-2 border-t border-slate-100"
+            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 pt-2 border-t border-slate-100"
           >
-            <ShieldCheck className="h-4 w-4 text-blue-600" />
-            <span>Editorial Standards & Verification</span>
+            Editorial Policy & Verification
           </Link>
         </div>
       )}

@@ -250,57 +250,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. Journal Category Selector Navigation */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
-        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-            <div>
-              <h2 className="text-xl font-black text-slate-900 tracking-tight">
-                Explore Editorial Archives by Subject
-              </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                Browse our focused journalistic archives organized by verified biographical categories.
-              </p>
-            </div>
-            <Link
-              href="/editorial-standards"
-              className="text-xs font-bold text-amber-800 hover:underline shrink-0"
-            >
-              How CelebEdge Verifies Facts →
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            {Object.entries(CATEGORY_DEFINITIONS).map(([slug, def]) => {
-              const iconMap: Record<string, React.ReactNode> = {
-                "biographies": <BookOpen className="h-4 w-4 text-amber-700" />,
-                "relationships": <Heart className="h-4 w-4 text-pink-600" />,
-                "net-worth": <DollarSign className="h-4 w-4 text-emerald-700" />,
-                "movies-tv": <Film className="h-4 w-4 text-indigo-700" />,
-                "legends": <Crown className="h-4 w-4 text-purple-700" />
-              };
-
-              return (
-                <Link
-                  key={slug}
-                  href={`/category/${slug}`}
-                  className="rounded-xl border border-slate-200 bg-slate-50/80 p-3.5 hover:bg-white hover:border-amber-400 hover:shadow-xs transition group"
-                >
-                  <div className="flex items-center gap-2 mb-1.5">
-                    {iconMap[slug] || <Sparkles className="h-4 w-4 text-amber-600" />}
-                    <span className="text-xs font-bold text-slate-900 group-hover:text-amber-700 transition">
-                      {def.title}
-                    </span>
-                  </div>
-                  <p className="text-[11px] text-slate-500 line-clamp-2 leading-relaxed">
-                    {def.description}
-                  </p>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
 
       {/* 5. Latest Verified Celebrity Stories Grid */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
