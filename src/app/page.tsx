@@ -57,17 +57,21 @@ export default function HomePage() {
           </p>
 
           {/* Quick Search Input */}
-          <div className="mx-auto max-w-2xl relative mb-8">
+          <form action="/search" method="GET" className="mx-auto max-w-2xl relative mb-8">
             <input
               type="text"
+              name="q"
               placeholder="Search by actor name, verified net worth, spouse, or film credit..."
               className="w-full bg-slate-50 text-slate-900 placeholder-slate-400 text-sm rounded-2xl pl-13 pr-32 py-4.5 border border-slate-300 shadow-lg focus:outline-none focus:border-amber-600 focus:bg-white focus:ring-4 focus:ring-amber-500/10 transition"
             />
             <Search className="absolute left-4.5 top-4.5 h-5 w-5 text-slate-400 pointer-events-none" />
-            <button className="absolute right-2.5 top-2.5 px-6 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-amber-600 transition shadow-sm">
+            <button
+              type="submit"
+              className="absolute right-2.5 top-2.5 px-6 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-amber-600 transition shadow-sm"
+            >
               Search Archive
             </button>
-          </div>
+          </form>
 
           {/* Key Stat Trust Badges */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto pt-4 text-left">
@@ -260,7 +264,7 @@ export default function HomePage() {
           {alphabet.map((letter) => (
             <Link
               key={letter}
-              href={`/#index-${letter.toLowerCase()}`}
+              href={`/directory/${letter.toLowerCase()}`}
               className="h-10 w-10 sm:h-11 sm:w-11 flex items-center justify-center rounded-xl bg-white border border-slate-200 text-slate-800 font-extrabold text-sm hover:bg-slate-900 hover:text-white hover:border-slate-900 transition shadow-xs"
             >
               {letter}

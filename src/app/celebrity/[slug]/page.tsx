@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
-import { getCelebrityBySlug, getAllCelebritySlugs } from "@/data/celebrities";
+import { getCompleteOrDynamicProfile } from "@/data/celebrity-service";
+import { getAllCelebritySlugs } from "@/data/celebrities";
 import JsonLd from "@/components/seo/JsonLd";
 import QuickFactBox from "@/components/profile/QuickFactBox";
 import TableOfContents from "@/components/profile/TableOfContents";
@@ -23,7 +24,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const celebrity = getCelebrityBySlug(slug);
+  const celebrity = getCompleteOrDynamicProfile(slug);
 
   if (!celebrity) {
     return { title: "Celebrity Dossier Not Found | CelebEdge" };
@@ -71,7 +72,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CelebrityDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const celebrity = getCelebrityBySlug(slug);
+  const celebrity = getCompleteOrDynamicProfile(slug);
 
   if (!celebrity) {
     notFound();

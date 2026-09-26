@@ -66,16 +66,15 @@ export default function Navbar() {
         </nav>
 
         {/* Search Bar */}
-        <div className="hidden sm:flex items-center relative max-w-xs w-full">
+        <form action="/search" method="GET" className="hidden sm:flex items-center relative max-w-xs w-full">
           <input
             type="text"
+            name="q"
             placeholder="Search 9,500+ verified dossiers..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-slate-100 text-slate-900 placeholder-slate-400 text-xs rounded-full pl-9 pr-4 py-2.5 border border-slate-200 focus:outline-none focus:border-amber-500 focus:bg-white focus:ring-2 focus:ring-amber-500/20 transition"
           />
           <Search className="absolute left-3 h-4 w-4 text-slate-400 pointer-events-none" />
-        </div>
+        </form>
 
         {/* Mobile menu button */}
         <button
