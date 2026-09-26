@@ -49,7 +49,7 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
         "@type": "Person",
         name: celebrity.name,
         alternateName: celebrity.quickFacts.fullName,
-        description: celebrity.directAnswerBio,
+        description: celebrity.executiveSummary,
         birthDate: celebrity.quickFacts.birthDate,
         birthPlace: {
           "@type": "Place",

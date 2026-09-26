@@ -16,35 +16,35 @@ export default function EditorialBadge({ celebrity }: EditorialBadgeProps) {
   });
 
   return (
-    <div id="editorial-attribution" className="my-8 rounded-xl border border-neutral-800 bg-neutral-950/80 p-4 sm:p-5 text-xs text-neutral-400 space-y-3">
+    <div id="editorial-attribution" className="my-10 rounded-2xl border border-slate-200 bg-slate-50 p-6 text-xs text-slate-600 space-y-4 shadow-xs">
       {/* E-E-A-T Author & Fact Checker */}
-      <div className="flex flex-wrap items-center gap-x-6 gap-y-2 pb-3 border-b border-neutral-800/80">
-        <div className="flex items-center gap-1.5 text-neutral-300">
-          <UserCheck className="h-3.5 w-3.5 text-amber-400" />
-          <span>Written by: <strong className="text-white">{editorialMetadata.authorName}</strong> ({editorialMetadata.authorRole})</span>
+      <div className="flex flex-wrap items-center gap-x-6 gap-y-2.5 pb-4 border-b border-slate-200">
+        <div className="flex items-center gap-1.5 text-slate-700">
+          <UserCheck className="h-4 w-4 text-amber-600" />
+          <span>Reported by: <strong className="text-slate-900 font-bold">{editorialMetadata.authorName}</strong> ({editorialMetadata.authorRole})</span>
         </div>
 
-        <div className="flex items-center gap-1.5 text-emerald-400">
-          <ShieldCheck className="h-3.5 w-3.5" />
+        <div className="flex items-center gap-1.5 text-emerald-700 font-medium">
+          <ShieldCheck className="h-4 w-4 text-emerald-600" />
           <span>Fact-Checked by: <strong>{editorialMetadata.factCheckedBy}</strong></span>
         </div>
 
-        <div className="flex items-center gap-1.5 text-neutral-400 ml-auto">
+        <div className="flex items-center gap-1.5 text-slate-500 ml-auto">
           <Calendar className="h-3.5 w-3.5" />
-          <span>Last Updated: <strong className="text-neutral-300">{formattedDate}</strong></span>
+          <span>Last Updated: <strong className="text-slate-700 font-semibold">{formattedDate}</strong></span>
         </div>
 
-        <div className="flex items-center gap-1.5 text-neutral-400">
+        <div className="flex items-center gap-1.5 text-slate-500">
           <Clock className="h-3.5 w-3.5" />
           <span>{editorialMetadata.readingTimeMinutes} min read</span>
         </div>
       </div>
 
       {/* Media Attribution (0% Copyright Claim Guarantee) */}
-      <div className="flex items-center gap-2 text-[11px] text-neutral-400">
-        <Camera className="h-3.5 w-3.5 text-neutral-400 shrink-0" />
+      <div className="flex items-center gap-2 text-[11px] text-slate-500">
+        <Camera className="h-3.5 w-3.5 text-slate-400 shrink-0" />
         <span className="truncate">
-          Media Rights: {heroImageCaption} ({heroImageLicense})
+          Media Rights & Licensing: {heroImageCaption} ({heroImageLicense})
         </span>
       </div>
     </div>
