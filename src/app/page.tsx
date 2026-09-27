@@ -28,11 +28,11 @@ export default function HomePage() {
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
       {/* Hero Magazine Feature Section */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 pb-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           {/* Main Lead Feature (7 Columns) */}
-          <article className="lg:col-span-7 bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+          <article className="lg:col-span-7 bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between h-full">
             <div>
-              <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-100">
+              <div className="relative h-72 sm:h-80 lg:h-96 w-full overflow-hidden bg-slate-100">
                 <Image
                   src={leadStory.heroImage}
                   alt={`${leadStory.name} portrait`}
@@ -43,7 +43,7 @@ export default function HomePage() {
                 />
               </div>
 
-              <div className="p-6 sm:p-7">
+              <div className="p-6 sm:p-8">
                 <div className="flex items-center gap-3 text-xs text-slate-500 mb-2.5 font-medium">
                   <span className="font-bold text-amber-700 uppercase tracking-wider text-[11px]">
                     Featured Profile
@@ -70,12 +70,12 @@ export default function HomePage() {
                   </Link>
                 </h1>
 
-                <p className="text-sm text-slate-600 mt-3 leading-relaxed font-normal line-clamp-3">
+                <p className="text-sm sm:text-base text-slate-600 mt-3 leading-relaxed font-normal">
                   {leadStory.executiveSummary}
                 </p>
 
                 {/* Quick Facts Preview - 3 Clean Columns without truncation */}
-                <div className="grid grid-cols-3 gap-3 mt-5 p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-xs">
+                <div className="grid grid-cols-3 gap-3 mt-6 p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs">
                   <div>
                     <span className="text-[10px] uppercase font-bold text-slate-400 block">Age</span>
                     <span className="font-bold text-slate-900">{leadStory.quickFacts.age} Years Old</span>
@@ -96,7 +96,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="px-6 sm:px-8 pb-8 pt-2 flex items-center justify-between border-t border-slate-100">
+            <div className="px-6 sm:px-8 pb-8 pt-4 flex items-center justify-between border-t border-slate-100 mt-auto">
               <span className="text-xs text-slate-500 font-medium">
                 By {leadStory.editorialMetadata.authorName}
               </span>
@@ -111,8 +111,8 @@ export default function HomePage() {
           </article>
 
           {/* Secondary Editorial Stories (5 Columns) */}
-          <div className="lg:col-span-5 space-y-3.5">
-            <div className="flex items-center justify-between border-b border-slate-200 pb-2.5">
+          <div className="lg:col-span-5 flex flex-col justify-between h-full space-y-3">
+            <div className="flex items-center justify-between border-b border-slate-200 pb-2">
               <h2 className="text-sm font-bold uppercase tracking-wider text-slate-900">
                 Trending Profiles
               </h2>
@@ -330,19 +330,24 @@ export default function HomePage() {
                       </span>
                     </div>
 
-                    {/* Additional Details */}
-                    <div className="space-y-1.5 text-[11px] border-t border-slate-100 pt-3">
-                      <div className="flex items-start justify-between gap-2">
-                        <span className="text-slate-400 shrink-0 font-medium">Milestone:</span>
-                        <span className="font-semibold text-slate-800 text-right truncate">
-                          {c.metrics[0]?.value}
+                    {/* Career Milestone & Industry Benchmark */}
+                    <div className="space-y-2 text-xs border-t border-slate-100 pt-3">
+                      <div>
+                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                          Career Milestone
+                        </span>
+                        <span className="font-bold text-slate-900 text-[11px] block mt-0.5 truncate">
+                          {c.careerMilestones[0]?.title} ({c.careerMilestones[0]?.year})
                         </span>
                       </div>
-                      <div className="flex items-start justify-between gap-2">
-                        <span className="text-slate-400 shrink-0 font-medium">Benchmark:</span>
-                        <span className="text-slate-600 text-right truncate">
-                          {c.metrics[0]?.benchmark}
+
+                      <div>
+                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                          Industry Benchmark
                         </span>
+                        <p className="text-slate-600 text-[11px] mt-0.5 leading-snug">
+                          {c.metrics[0]?.benchmark}
+                        </p>
                       </div>
                     </div>
                   </div>
