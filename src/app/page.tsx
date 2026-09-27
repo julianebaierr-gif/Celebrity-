@@ -111,7 +111,7 @@ export default function HomePage() {
           </article>
 
           {/* Secondary Editorial Stories (5 Columns) */}
-          <div className="lg:col-span-5 flex flex-col justify-between h-full space-y-3">
+          <div className="lg:col-span-5 flex flex-col gap-3 sm:gap-3.5">
             <div className="flex items-center justify-between border-b border-slate-200 pb-2">
               <h2 className="text-sm font-bold uppercase tracking-wider text-slate-900">
                 Trending Profiles
@@ -121,57 +121,65 @@ export default function HomePage() {
               </Link>
             </div>
 
-            {secondaryStories.map((story) => (
-              <article
-                key={story.slug}
-                className="group rounded-2xl border border-slate-200 bg-white p-3.5 shadow-xs hover:border-amber-400 hover:shadow-md transition flex gap-3.5 items-center"
-              >
-                <div className="relative h-20 w-20 sm:h-22 sm:w-22 rounded-xl overflow-hidden bg-slate-100 shrink-0">
-                  <Image
-                    src={story.heroImage}
-                    alt={`${story.name} portrait`}
-                    fill
-                    sizes="88px"
-                    className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
+            {secondaryStories.map((story) => {
+              const sentences = story.executiveSummary.split(/(?<=[a-z0-9\)'"]\.)\s+(?=[A-Z])/);
+              let summaryText = sentences[0]?.trim() || story.executiveSummary;
+              if (summaryText.length < 80 && sentences.length > 1) {
+                summaryText += " " + sentences[1].trim();
+              }
 
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-[10px] font-semibold text-slate-500">
-                      {story.quickFacts.primaryRole.split(",")[0]}
-                    </span>
-                    <span className="text-slate-300">•</span>
-                    <span className="text-[10px] text-slate-400 font-medium">
-                      {story.editorialMetadata.readingTimeMinutes} min read
-                    </span>
+              return (
+                <article
+                  key={story.slug}
+                  className="group rounded-2xl border border-slate-200 bg-white p-3.5 sm:p-4 shadow-xs hover:border-amber-400 hover:shadow-md transition flex gap-4 items-center"
+                >
+                  <div className="relative h-24 w-24 sm:h-28 sm:w-28 rounded-2xl overflow-hidden bg-slate-100 shrink-0">
+                    <Image
+                      src={story.heroImage}
+                      alt={`${story.name} portrait`}
+                      fill
+                      sizes="112px"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
 
-                  <h3 className="text-base font-bold text-slate-900 group-hover:text-amber-700 transition leading-snug truncate">
-                    <Link href={`/celebrity/${story.slug}`}>
-                      {story.name}
-                    </Link>
-                  </h3>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-[10px] font-semibold text-slate-500">
+                        {story.quickFacts.primaryRole.split(",")[0]}
+                      </span>
+                      <span className="text-slate-300">•</span>
+                      <span className="text-[10px] text-slate-400 font-medium">
+                        {story.editorialMetadata.readingTimeMinutes} min read
+                      </span>
+                    </div>
 
-                  <p className="text-xs text-slate-500 line-clamp-2 mt-1 leading-relaxed">
-                    {story.executiveSummary}
-                  </p>
+                    <h3 className="text-base font-bold text-slate-900 group-hover:text-amber-700 transition leading-snug truncate">
+                      <Link href={`/celebrity/${story.slug}`}>
+                        {story.name}
+                      </Link>
+                    </h3>
 
-                  <div className="mt-2.5 flex items-center justify-between text-xs">
-                    <span className="font-semibold text-emerald-700 text-[11px]">
-                      {story.quickFacts.netWorth.split(" ")[0]} Net Worth
-                    </span>
-                    <Link
-                      href={`/celebrity/${story.slug}`}
-                      className="font-bold text-slate-900 group-hover:text-amber-700 inline-flex items-center gap-1 text-[11px]"
-                    >
-                      <span>Read More</span>
-                      <ArrowRight className="h-3 w-3" />
-                    </Link>
+                    <p className="text-xs text-slate-500 mt-1 leading-relaxed">
+                      {summaryText}
+                    </p>
+
+                    <div className="mt-2.5 flex items-center justify-between text-xs">
+                      <span className="font-semibold text-emerald-700 text-[11px]">
+                        {story.quickFacts.netWorth.split(" ")[0]} Net Worth
+                      </span>
+                      <Link
+                        href={`/celebrity/${story.slug}`}
+                        className="font-bold text-slate-900 group-hover:text-amber-700 inline-flex items-center gap-1 text-[11px]"
+                      >
+                        <span>Read More</span>
+                        <ArrowRight className="h-3 w-3" />
+                      </Link>
+                    </div>
                   </div>
-                </div>
-              </article>
-            ))}
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
