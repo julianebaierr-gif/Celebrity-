@@ -86,7 +86,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                   <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-100">
                     <Image
                       src={item.heroImage}
-                      alt={`${item.name} portrait`}
+                      alt={`${item.name} portrait - ${item.quickFacts.primaryRole}`}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"

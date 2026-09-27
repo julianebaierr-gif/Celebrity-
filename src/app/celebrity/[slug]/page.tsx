@@ -12,7 +12,7 @@ import ComparisonMetrics from "@/components/profile/ComparisonMetrics";
 import FilmographyTable from "@/components/profile/FilmographyTable";
 import FaqSection from "@/components/profile/FaqSection";
 import EditorialBadge from "@/components/profile/EditorialBadge";
-import { ChevronRight, ExternalLink, Heart, Milestone, Camera } from "lucide-react";
+import { ChevronRight, ExternalLink, Heart, Milestone } from "lucide-react";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -113,7 +113,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
               <div className="relative h-64 w-52 sm:h-72 sm:w-56 shrink-0 rounded-2xl overflow-hidden border-2 border-slate-200 shadow-md">
                 <Image
                   src={celebrity.heroImage}
-                  alt={`${celebrity.name} official portrait`}
+                  alt={`${celebrity.name} official portrait - ${celebrity.quickFacts.primaryRole}`}
                   fill
                   priority
                   sizes="(max-width: 640px) 208px, 224px"
@@ -220,11 +220,11 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                 />
                 <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
 
-                {/* Primary Uncropped Photo (100% Face & Full Subject Guaranteed) */}
+                {/* Primary Uncropped Photo */}
                 <div className="relative h-full w-full">
                   <Image
                     src={celebrity.contentImage}
-                    alt={`${celebrity.name} in-content editorial feature`}
+                    alt={`${celebrity.name} - ${celebrity.contentImageCaption}`}
                     fill
                     sizes="(max-width: 1024px) 100vw, 896px"
                     className="object-contain object-center z-10 drop-shadow-2xl"
@@ -232,26 +232,9 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                 </div>
               </div>
 
-              {/* Clean Editorial Caption Below Photo - Zero Obscurity */}
-              <figcaption className="p-4 sm:px-6 sm:py-3.5 bg-slate-50 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
-                <div className="space-y-1 max-w-2xl">
-                  <div className="flex items-center gap-2">
-                    <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-amber-500 text-slate-950 text-[10px] font-black uppercase tracking-wider shadow-2xs">
-                      <Camera className="h-3 w-3" />
-                      Editorial Archive
-                    </span>
-                    <span className="text-slate-400 font-mono">•</span>
-                    <span className="font-bold text-slate-800">
-                      {celebrity.name} Visual Record
-                    </span>
-                  </div>
-                  <p className="text-slate-600 font-medium leading-relaxed">
-                    {celebrity.contentImageCaption}
-                  </p>
-                </div>
-                <span className="shrink-0 rounded-full bg-white px-3 py-1 text-[11px] font-semibold text-slate-600 border border-slate-200 shadow-2xs self-start sm:self-center">
-                  {celebrity.contentImageLicense}
-                </span>
+              {/* Minimal 1-line corner credit */}
+              <figcaption className="px-4 py-2 bg-slate-50 border-t border-slate-100 flex items-center justify-end text-[11px] text-slate-400 font-normal">
+                <span>Photo: Wikimedia</span>
               </figcaption>
             </figure>
           )}

@@ -35,7 +35,7 @@ export default function HomePage() {
               <div className="relative h-80 sm:h-96 lg:h-[440px] w-full overflow-hidden bg-slate-100">
                 <Image
                   src={leadStory.heroImage}
-                  alt={`${leadStory.name} portrait`}
+                  alt={`${leadStory.name} official portrait - ${leadStory.headline}`}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 60vw"
@@ -136,7 +136,7 @@ export default function HomePage() {
                   <div className="relative h-24 w-24 sm:h-28 sm:w-28 rounded-2xl overflow-hidden bg-slate-100 shrink-0">
                     <Image
                       src={story.heroImage}
-                      alt={`${story.name} portrait`}
+                      alt={`${story.name} portrait - ${story.quickFacts.primaryRole}`}
                       fill
                       sizes="112px"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
