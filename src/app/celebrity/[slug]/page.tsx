@@ -12,7 +12,7 @@ import ComparisonMetrics from "@/components/profile/ComparisonMetrics";
 import FilmographyTable from "@/components/profile/FilmographyTable";
 import FaqSection from "@/components/profile/FaqSection";
 import EditorialBadge from "@/components/profile/EditorialBadge";
-import { ChevronRight, ExternalLink, Heart, Milestone } from "lucide-react";
+import { ChevronRight, ExternalLink, Heart, Milestone, Camera } from "lucide-react";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -207,6 +207,44 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
             metrics={celebrity.metrics}
             celebrityName={celebrity.name}
           />
+
+          {/* In-Content Editorial Photography (Non-Repeating Event / Red-Carpet Feature) */}
+          {celebrity.contentImage && (
+            <figure className="my-10 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xs">
+              <div className="relative h-72 sm:h-96 md:h-[460px] w-full overflow-hidden bg-slate-100">
+                <Image
+                  src={celebrity.contentImage}
+                  alt={`${celebrity.name} in-content editorial feature`}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 896px"
+                  className="object-cover object-center hover:scale-102 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent pointer-events-none" />
+                <div className="absolute bottom-4 left-4 right-4 sm:left-6 sm:right-6 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 text-white">
+                  <div>
+                    <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-amber-500 text-slate-950 text-[10px] font-black uppercase tracking-wider mb-1.5 shadow-xs">
+                      <Camera className="h-3 w-3" />
+                      Editorial Feature
+                    </span>
+                    <p className="text-sm sm:text-base font-bold drop-shadow-md text-slate-50 leading-snug">
+                      {celebrity.contentImageCaption}
+                    </p>
+                  </div>
+                  <span className="shrink-0 rounded-full bg-slate-900/80 px-3 py-1 text-[11px] font-medium text-slate-300 backdrop-blur-xs border border-white/10 self-start sm:self-auto">
+                    {celebrity.contentImageLicense}
+                  </span>
+                </div>
+              </div>
+              <figcaption className="p-3 sm:px-5 sm:py-2.5 bg-slate-50 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1 text-xs text-slate-500">
+                <span className="font-semibold text-slate-700">
+                  Exclusive Visual Archive: {celebrity.name} On-Stage & Red-Carpet Registry
+                </span>
+                <span className="text-[11px] text-slate-400">
+                  Verified Press & Archival Photography
+                </span>
+              </figcaption>
+            </figure>
+          )}
 
           {/* 4. Career Milestones & Breakthrough Timeline */}
           <section id="career-milestones" className="my-10 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
