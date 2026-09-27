@@ -211,17 +211,31 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
           {/* In-Content Editorial Photography (Non-Repeating Event / Red-Carpet Feature) */}
           {celebrity.contentImage && (
             <figure className="my-10 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xs">
-              <div className="relative h-72 sm:h-96 md:h-[460px] w-full overflow-hidden bg-slate-100">
-                <Image
-                  src={celebrity.contentImage}
-                  alt={`${celebrity.name} in-content editorial feature`}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 896px"
-                  className="object-cover object-center hover:scale-102 transition duration-500"
+              <div className="relative h-80 sm:h-[460px] md:h-[520px] w-full overflow-hidden bg-slate-950 flex items-center justify-center">
+                {/* Ambient Blurred Backdrop matching photo palette */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center blur-2xl opacity-35 scale-110 pointer-events-none"
+                  style={{ backgroundImage: `url(${celebrity.contentImage})` }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent pointer-events-none" />
-                <div className="absolute bottom-4 left-4 right-4 sm:left-6 sm:right-6 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 text-white">
-                  <div>
+                <div className="absolute inset-0 bg-slate-950/40 pointer-events-none" />
+
+                {/* Primary Uncropped Photo (100% Face & Full Subject Guaranteed) */}
+                <div className="relative h-full w-full">
+                  <Image
+                    src={celebrity.contentImage}
+                    alt={`${celebrity.name} in-content editorial feature`}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 896px"
+                    className="object-contain object-center z-10 drop-shadow-2xl"
+                  />
+                </div>
+
+                {/* Gradient vignette for text readability */}
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent pointer-events-none z-20" />
+
+                {/* Overlay Text */}
+                <div className="absolute bottom-4 left-4 right-4 sm:left-6 sm:right-6 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 text-white z-30">
+                  <div className="max-w-2xl">
                     <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-amber-500 text-slate-950 text-[10px] font-black uppercase tracking-wider mb-1.5 shadow-xs">
                       <Camera className="h-3 w-3" />
                       Editorial Feature
@@ -235,6 +249,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                   </span>
                 </div>
               </div>
+
               <figcaption className="p-3 sm:px-5 sm:py-2.5 bg-slate-50 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1 text-xs text-slate-500">
                 <span className="font-semibold text-slate-700">
                   Exclusive Visual Archive: {celebrity.name} On-Stage & Red-Carpet Registry
