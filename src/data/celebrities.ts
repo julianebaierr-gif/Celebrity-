@@ -424,7 +424,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
   },
   {
     slug: "taylor-swift-wedding",
-    name: "Taylor Swift: Relationship Timeline & Marriage Facts",
+    name: "Taylor Swift",
     headline: "Verified Relationship Record: Travis Kelce Partnership, Wedding Inquiries & Wealth",
     category: "relationships",
     silo: "Relationships & Marriages",

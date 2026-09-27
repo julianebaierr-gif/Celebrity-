@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const leadStory = CELEBRITIES.find((c) => c.slug === "tim-curry") || CELEBRITIES[0];
-  const secondaryStories = CELEBRITIES.filter((c) => c.slug !== leadStory.slug).slice(0, 3);
+  const secondaryStories = CELEBRITIES.filter((c) => c.slug !== leadStory.slug).slice(0, 5).reverse();
   const latestStories = CELEBRITIES.slice(0, 9);
   const netWorthStories = CELEBRITIES.filter((c) => c.category === "net-worth" || c.quickFacts.netWorth.includes("Million") || c.quickFacts.netWorth.includes("Billion")).slice(0, 4).reverse();
 
@@ -111,8 +111,8 @@ export default function HomePage() {
           </article>
 
           {/* Secondary Editorial Stories (5 Columns) */}
-          <div className="lg:col-span-5 space-y-6">
-            <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+          <div className="lg:col-span-5 space-y-3.5">
+            <div className="flex items-center justify-between border-b border-slate-200 pb-2.5">
               <h2 className="text-sm font-bold uppercase tracking-wider text-slate-900">
                 Trending Profiles
               </h2>
@@ -124,14 +124,14 @@ export default function HomePage() {
             {secondaryStories.map((story) => (
               <article
                 key={story.slug}
-                className="group rounded-2xl border border-slate-200 bg-white p-4 sm:p-5 shadow-xs hover:border-amber-400 hover:shadow-md transition flex gap-4 items-center"
+                className="group rounded-2xl border border-slate-200 bg-white p-3.5 shadow-xs hover:border-amber-400 hover:shadow-md transition flex gap-3.5 items-center"
               >
-                <div className="relative h-24 w-24 sm:h-28 sm:w-28 rounded-xl overflow-hidden bg-slate-100 shrink-0">
+                <div className="relative h-20 w-20 sm:h-22 sm:w-22 rounded-xl overflow-hidden bg-slate-100 shrink-0">
                   <Image
                     src={story.heroImage}
                     alt={`${story.name} portrait`}
                     fill
-                    sizes="112px"
+                    sizes="88px"
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
