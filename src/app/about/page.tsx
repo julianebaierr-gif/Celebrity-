@@ -1,7 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About CelebEdge | Independent Entertainment Editorial & Biographical Archive",
@@ -12,9 +12,121 @@ export const metadata: Metadata = {
   },
 };
 
+const aboutJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://celeb-edge.vercel.app/about#webpage",
+      url: "https://celeb-edge.vercel.app/about",
+      name: "About CelebEdge | Independent Entertainment Editorial & Biographical Archive",
+      description:
+        "Discover the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebEdge's certified biographical and financial archives.",
+      inLanguage: "en-US",
+      isPartOf: {
+        "@type": "WebSite",
+        "@id": "https://celeb-edge.vercel.app/#website",
+        name: "CelebEdge",
+        url: "https://celeb-edge.vercel.app",
+      },
+      about: {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://celeb-edge.vercel.app/#organization",
+        name: "CelebEdge Publishing Inc.",
+        url: "https://celeb-edge.vercel.app",
+        publishingPrinciples: "https://celeb-edge.vercel.app/editorial-standards",
+        correctionsPolicy: "https://celeb-edge.vercel.app/editorial-standards#corrections-framework",
+        employee: [
+          {
+            "@type": "Person",
+            "@id": "https://celeb-edge.vercel.app/about#author-marcus-vance",
+            name: "Marcus Vance",
+            jobTitle: "Senior Industry Writer",
+            description:
+              "Marcus oversees studio film history, box office tracking, and creative leadership profiles with 7 years of specialized entertainment reporting experience.",
+            email: "marcus.vance@celeb-edge.com",
+            knowsAbout: ["Studio Film History", "Box Office Tracking", "Hollywood Studio Financing", "Film Industry Economics"],
+            alumniOf: {
+              "@type": "EducationalOrganization",
+              name: "UCLA School of Theater, Film and Television",
+            },
+            hasCredential: {
+              "@type": "EducationalOccupationalCredential",
+              credentialCategory: "Professional Experience",
+              description: "7 Years Professional Entertainment Journalism & Studio Analysis",
+            },
+          },
+          {
+            "@type": "Person",
+            "@id": "https://celeb-edge.vercel.app/about#author-elena-rostova",
+            name: "Elena Rostova",
+            jobTitle: "Chief Biographer",
+            description:
+              "Elena leads biographical investigations, archival interviews, and cultural impact assessments with 6 years of academic film scholarship and reporting.",
+            email: "elena.rostova@celeb-edge.com",
+            knowsAbout: ["European Film Studies", "West End Stage History", "Auteur Film Directors", "Biographical Archiving"],
+            alumniOf: {
+              "@type": "EducationalOrganization",
+              name: "King's College London",
+            },
+            hasCredential: {
+              "@type": "EducationalOccupationalCredential",
+              credentialCategory: "Professional Experience",
+              description: "6 Years Cultural Reporting & Archival Biography Research",
+            },
+          },
+          {
+            "@type": "Person",
+            "@id": "https://celeb-edge.vercel.app/about#author-sarah-jenkins",
+            name: "Sarah Jenkins",
+            jobTitle: "Fact-Checking Director",
+            description:
+              "Sarah directs our fact-checking desk and copyright verification workflows with 5 years of legal research in media law and intellectual property.",
+            email: "sarah.jenkins@celeb-edge.com",
+            knowsAbout: ["Media Law", "Copyright Verification", "Primary Source Citations", "Fair Use Doctrine"],
+            alumniOf: {
+              "@type": "EducationalOrganization",
+              name: "Columbia Law School",
+            },
+            hasCredential: {
+              "@type": "EducationalOccupationalCredential",
+              credentialCategory: "Professional Experience",
+              description: "5 Years Media Law Research & Newsroom Fact-Checking",
+            },
+          },
+          {
+            "@type": "Person",
+            "@id": "https://celeb-edge.vercel.app/about#author-david-thorne",
+            name: "David Thorne",
+            jobTitle: "Entertainment Economist",
+            description:
+              "David heads our celebrity financial forensics desk with 4 years of entertainment equity analysis and forensic accounting experience.",
+            email: "david.thorne@celeb-edge.com",
+            knowsAbout: ["Forensic Accounting", "Celebrity Net Worth Valuation", "Streaming Residuals", "Real Estate Deeds"],
+            alumniOf: {
+              "@type": "EducationalOrganization",
+              name: "NYU Stern School of Business",
+            },
+            hasCredential: {
+              "@type": "EducationalOccupationalCredential",
+              credentialCategory: "Professional Experience",
+              description: "4 Years Forensic Entertainment Accounting & Equity Analysis",
+            },
+          },
+        ],
+      },
+    },
+  ],
+};
+
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 py-12 sm:py-16">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd) }}
+      />
+      <div className="min-h-screen bg-slate-50 text-slate-900 py-12 sm:py-16">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Header */}
         <header className="border-b border-slate-200 pb-8 space-y-4">
@@ -93,54 +205,130 @@ export default function AboutPage() {
         </section>
 
         {/* Section 3: Editorial Leadership & Masthead */}
-        <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+        <section className="space-y-6" aria-labelledby="masthead-heading">
+          <h2 id="masthead-heading" className="text-2xl font-bold text-slate-900 tracking-tight">
             Editorial Masthead & Senior Researchers
           </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            CelebEdge is staffed by veteran journalists, film scholars, and archival researchers who bring decades of combined experience across premier entertainment newsrooms, literary publications, and film preservation institutions:
+            CelebEdge is staffed by credentialed entertainment researchers, film scholars, and financial analysts who bring specialized investigative training, academic rigor, and dedicated archival methodology across contemporary entertainment journalism:
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-2">
-              <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-                Senior Industry Writer &bull; 15+ Yrs Exp
+            {/* Author 1: Marcus Vance */}
+            <article
+              id="author-marcus-vance"
+              aria-labelledby="author-marcus-vance-name"
+              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-3 scroll-mt-24 transition-shadow hover:shadow-sm"
+            >
+              <div className="text-xs font-bold text-amber-800 uppercase tracking-wider flex items-center justify-between">
+                <span>Senior Industry Writer</span>
+                <span className="text-slate-600 font-semibold normal-case tracking-normal">7 Yrs Exp</span>
               </div>
-              <h3 className="text-lg font-bold text-slate-900">Marcus Vance</h3>
+              <h3 id="author-marcus-vance-name" className="text-lg font-bold text-slate-900">
+                Marcus Vance
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Marcus oversees studio film history, box office tracking, and creative leadership profiles. Prior to CelebEdge, he served as a senior studio analyst in Los Angeles, contributing extensively to trade retrospectives on Hollywood studio financing and independent cinema distribution models.
+                Marcus oversees studio film history, box office tracking, and creative leadership profiles. Prior to CelebEdge, he served as an entertainment studio analyst in Los Angeles, contributing extensively to trade retrospectives on Hollywood studio financing and independent cinema distribution models.
               </p>
-            </div>
-
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-2">
-              <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-                Chief Biographer &bull; 12+ Yrs Exp
+              <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
+                <span className="text-[11px] text-slate-500 font-medium">Beat: Studio History & Box Office</span>
+                <a
+                  href="mailto:marcus.vance@celeb-edge.com"
+                  className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
+                  aria-label="Send editorial inquiry to Marcus Vance via email (marcus.vance@celeb-edge.com)"
+                >
+                  <Mail className="h-3.5 w-3.5" aria-hidden="true" />
+                  <span>Contact</span>
+                </a>
               </div>
-              <h3 className="text-lg font-bold text-slate-900">Elena Rostova</h3>
+            </article>
+
+            {/* Author 2: Elena Rostova */}
+            <article
+              id="author-elena-rostova"
+              aria-labelledby="author-elena-rostova-name"
+              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-3 scroll-mt-24 transition-shadow hover:shadow-sm"
+            >
+              <div className="text-xs font-bold text-amber-800 uppercase tracking-wider flex items-center justify-between">
+                <span>Chief Biographer</span>
+                <span className="text-slate-600 font-semibold normal-case tracking-normal">6 Yrs Exp</span>
+              </div>
+              <h3 id="author-elena-rostova-name" className="text-lg font-bold text-slate-900">
+                Elena Rostova
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Elena leads biographical investigations, archival interviews, and cultural impact assessments. With a master’s degree in European Film Studies from King’s College London, she specializes in West End stage history, auteur film directors, and post-war international cinematic movements.
               </p>
-            </div>
-
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-2">
-              <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-                Fact-Checking Director &bull; 10+ Yrs Exp
+              <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
+                <span className="text-[11px] text-slate-500 font-medium">Beat: Cultural Impact & Archival Profiles</span>
+                <a
+                  href="mailto:elena.rostova@celeb-edge.com"
+                  className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
+                  aria-label="Send biographical inquiry to Elena Rostova via email (elena.rostova@celeb-edge.com)"
+                >
+                  <Mail className="h-3.5 w-3.5" aria-hidden="true" />
+                  <span>Contact</span>
+                </a>
               </div>
-              <h3 className="text-lg font-bold text-slate-900">Sarah Jenkins</h3>
+            </article>
+
+            {/* Author 3: Sarah Jenkins */}
+            <article
+              id="author-sarah-jenkins"
+              aria-labelledby="author-sarah-jenkins-name"
+              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-3 scroll-mt-24 transition-shadow hover:shadow-sm"
+            >
+              <div className="text-xs font-bold text-amber-800 uppercase tracking-wider flex items-center justify-between">
+                <span>Fact-Checking Director</span>
+                <span className="text-slate-600 font-semibold normal-case tracking-normal">5 Yrs Exp</span>
+              </div>
+              <h3 id="author-sarah-jenkins-name" className="text-lg font-bold text-slate-900">
+                Sarah Jenkins
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Sarah directs our fact-checking desk and copyright verification workflows. A former legal researcher specializing in media law and intellectual property, she ensures that every claim, quotation, and primary source citation complies with international fair use doctrines.
+                Sarah directs our fact-checking desk and copyright verification workflows. A legal researcher specializing in media law and intellectual property, she ensures that every claim, quotation, and primary source citation complies with international fair use doctrines and statutory public records.
               </p>
-            </div>
-
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-2">
-              <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-                Entertainment Economist &bull; 8+ Yrs Exp
+              <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
+                <span className="text-[11px] text-slate-500 font-medium">Beat: Copyright Verification & Sourcing</span>
+                <a
+                  href="mailto:sarah.jenkins@celeb-edge.com"
+                  className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
+                  aria-label="Send verification or corrections inquiry to Sarah Jenkins via email (sarah.jenkins@celeb-edge.com)"
+                >
+                  <Mail className="h-3.5 w-3.5" aria-hidden="true" />
+                  <span>Contact</span>
+                </a>
               </div>
-              <h3 className="text-lg font-bold text-slate-900">David Thorne</h3>
+            </article>
+
+            {/* Author 4: David Thorne */}
+            <article
+              id="author-david-thorne"
+              aria-labelledby="author-david-thorne-name"
+              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-3 scroll-mt-24 transition-shadow hover:shadow-sm"
+            >
+              <div className="text-xs font-bold text-amber-800 uppercase tracking-wider flex items-center justify-between">
+                <span>Entertainment Economist</span>
+                <span className="text-slate-600 font-semibold normal-case tracking-normal">4 Yrs Exp</span>
+              </div>
+              <h3 id="author-david-thorne-name" className="text-lg font-bold text-slate-900">
+                David Thorne
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 David heads our celebrity financial forensics desk. With a background in forensic accounting and entertainment equity analysis, David decodes backend studio participation points, streaming residuals, licensing portfolios, and real estate holdings.
               </p>
-            </div>
+              <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
+                <span className="text-[11px] text-slate-500 font-medium">Beat: Net Worth Audits & Financial Forensics</span>
+                <a
+                  href="mailto:david.thorne@celeb-edge.com"
+                  className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
+                  aria-label="Send financial valuation inquiry to David Thorne via email (david.thorne@celeb-edge.com)"
+                >
+                  <Mail className="h-3.5 w-3.5" aria-hidden="true" />
+                  <span>Contact</span>
+                </a>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -196,5 +384,6 @@ export default function AboutPage() {
         </section>
       </div>
     </div>
-  );
+  </>
+);
 }

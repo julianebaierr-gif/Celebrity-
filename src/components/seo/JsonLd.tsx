@@ -41,10 +41,31 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
   // ProfilePage & Person Schema
   if (celebrity) {
     const sameAsUrls = Object.values(celebrity.sameAs).filter(Boolean);
+    const authorSlug = celebrity.editorialMetadata.authorName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
     schemas.push({
       "@context": "https://schema.org",
       "@type": "ProfilePage",
+      url: `${baseUrl}/celebrity/${celebrity.slug}`,
+      name: `${celebrity.name} Verified Biographical Dossier`,
+      dateModified: celebrity.editorialMetadata.lastUpdated,
+      author: {
+        "@type": "Person",
+        name: celebrity.editorialMetadata.authorName,
+        jobTitle: celebrity.editorialMetadata.authorRole,
+        url: `${baseUrl}/about#author-${authorSlug}`,
+      },
+      editor: {
+        "@type": "Person",
+        name: celebrity.editorialMetadata.factCheckedBy,
+        jobTitle: "Fact-Checking Editor",
+      },
+      publisher: {
+        "@type": "NewsMediaOrganization",
+        name: "CelebEdge Publishing Inc.",
+        url: baseUrl,
+        publishingPrinciples: `${baseUrl}/editorial-standards`,
+      },
       mainEntity: {
         "@type": "Person",
         name: celebrity.name,

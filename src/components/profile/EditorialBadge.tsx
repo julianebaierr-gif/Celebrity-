@@ -20,12 +20,31 @@ export default function EditorialBadge({ celebrity }: EditorialBadgeProps) {
       {/* Author & Fact Checker */}
       <div className="flex flex-wrap items-center gap-x-6 gap-y-2.5 pb-4 border-b border-slate-200">
         <div className="flex items-center gap-1.5 text-slate-700">
-          <UserCheck className="h-4 w-4 text-amber-600" />
-          <span>Reported by: <strong className="text-slate-900 font-bold">{editorialMetadata.authorName}</strong> ({editorialMetadata.authorRole})</span>
+          <UserCheck className="h-4 w-4 text-amber-600 shrink-0" aria-hidden="true" />
+          <span>
+            Reported by:{" "}
+            <a
+              href={`/about#author-${editorialMetadata.authorName.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+              className="text-slate-900 font-bold hover:text-amber-700 underline-offset-2 hover:underline focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-0.5"
+              aria-label={`Read professional biography and credentials of ${editorialMetadata.authorName}`}
+            >
+              {editorialMetadata.authorName}
+            </a>{" "}
+            ({editorialMetadata.authorRole})
+          </span>
         </div>
 
         <div className="flex items-center gap-1.5 text-slate-700 font-medium">
-          <span>Fact-Checked by: <strong className="text-slate-900">{editorialMetadata.factCheckedBy}</strong></span>
+          <span>
+            Fact-Checked by:{" "}
+            <a
+              href={`/about#author-${editorialMetadata.factCheckedBy.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+              className="text-slate-900 font-bold hover:text-amber-700 underline-offset-2 hover:underline focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-0.5"
+              aria-label={`Read fact-checking background of ${editorialMetadata.factCheckedBy}`}
+            >
+              {editorialMetadata.factCheckedBy}
+            </a>
+          </span>
         </div>
 
         <div className="flex items-center gap-1.5 text-slate-500 ml-auto">
