@@ -12,10 +12,11 @@ const DEFAULT_SECTIONS: TocItem[] = [
   { id: "fast-facts", title: "1. Verified Quick Facts & Executive Summary" },
   { id: "financial-metrics", title: "2. Economic Impact & Verified Metrics" },
   { id: "career-milestones", title: "3. Career Breakthroughs & Timeline" },
-  { id: "filmography-credits", title: "4. Complete Filmography & Box Office" },
-  { id: "relationship-profile", title: "5. Relationship Timeline & Personal Life" },
-  { id: "frequently-asked-questions", title: "6. Frequently Asked Questions" },
-  { id: "editorial-attribution", title: "7. Media Rights & Verified Primary Sources" },
+  { id: "biographical-retrospective", title: "4. In-Depth Biographical & Critical Analysis" },
+  { id: "filmography-credits", title: "5. Complete Filmography & Box Office" },
+  { id: "relationship-profile", title: "6. Relationship Timeline & Personal Life" },
+  { id: "frequently-asked-questions", title: "7. Frequently Asked Questions" },
+  { id: "editorial-attribution", title: "8. Media Rights & Verified Primary Sources" },
 ];
 
 export default function TableOfContents({ sections = DEFAULT_SECTIONS }: { sections?: TocItem[] }) {

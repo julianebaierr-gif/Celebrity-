@@ -1,3 +1,5 @@
+import { CELEBRITY_BIOGRAPHIES } from "./celebrity-biographies";
+
 export interface FilmRole {
   title: string;
   year: number;
@@ -5,6 +7,16 @@ export interface FilmRole {
   type: "Movie" | "Series";
   rating: number;
   boxOfficeOrNetwork: string;
+}
+
+export interface BiographySection {
+  heading: string;
+  paragraphs: string[];
+  keyTakeaway?: string;
+  quote?: {
+    text: string;
+    source: string;
+  };
 }
 
 export interface MetricItem {
@@ -38,6 +50,7 @@ export interface CelebrityProfile {
   contentImageLicense: string;
   backdropImage: string;
   executiveSummary: string;
+  biographySections?: BiographySection[];
   quickFacts: {
     fullName: string;
     birthDate: string;
@@ -82,7 +95,7 @@ export interface CelebrityProfile {
   };
 }
 
-export const CELEBRITIES: CelebrityProfile[] = [
+const RAW_CELEBRITIES: CelebrityProfile[] = [
   {
     slug: "tim-curry",
     name: "Tim Curry",
@@ -1155,6 +1168,11 @@ export const CELEBRITIES: CelebrityProfile[] = [
     }
   }
 ];
+
+export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
+  ...c,
+  biographySections: CELEBRITY_BIOGRAPHIES[c.slug] || c.biographySections || [],
+}));
 
 export function getCelebrityBySlug(slug: string): CelebrityProfile | undefined {
   return CELEBRITIES.find((c) => c.slug === slug);

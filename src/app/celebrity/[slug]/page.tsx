@@ -12,6 +12,7 @@ import ComparisonMetrics from "@/components/profile/ComparisonMetrics";
 import FilmographyTable from "@/components/profile/FilmographyTable";
 import FaqSection from "@/components/profile/FaqSection";
 import EditorialBadge from "@/components/profile/EditorialBadge";
+import EditorialBiography from "@/components/profile/EditorialBiography";
 import { ChevronRight, ExternalLink, Heart, Milestone } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
@@ -268,6 +269,12 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
               ))}
             </div>
           </section>
+
+          {/* 4. Comprehensive Biographical Analysis & Critical Retrospective */}
+          <EditorialBiography
+            celebrityName={celebrity.name}
+            sections={celebrity.biographySections}
+          />
 
           {/* 5. Complete Filmography Table */}
           <FilmographyTable
