@@ -272,7 +272,7 @@ export default function HomePage() {
                 Net Worth & Earnings
               </h2>
               <p className="text-sm text-slate-600 mt-2 max-w-2xl leading-relaxed">
-                Comprehensive financial breakdowns tracking verified net worth estimates, major career milestone payouts, and industry earning benchmarks across film and entertainment.
+                See how top actors and filmmakers build their wealth, from early breakout roles to major box office paydays and backend profit deals.
               </p>
             </div>
             <Link
@@ -367,7 +367,7 @@ export default function HomePage() {
           {/* Section Context & Methodology SEO Note */}
           <div className="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-slate-500">
             <p className="leading-relaxed max-w-2xl">
-              Financial estimates evaluate career salaries, production points, and documented assets cross-referenced from trade publications and public disclosures.
+              Estimates are based on reported film salaries, box office earnings, and published financial records.
             </p>
             <Link
               href="/blog/how-celebrity-net-worth-is-calculated"
