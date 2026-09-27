@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { getBlogPostBySlug, getAllBlogPosts } from "@/data/blog-posts";
-import { ChevronRight, Calendar, Clock, ArrowRight, ShieldCheck, Share2 } from "lucide-react";
+import { ChevronRight, Calendar, Clock, ArrowRight } from "lucide-react";
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 
   return {
-    title: `${post.title} | CelebEdge Journal`,
+    title: `${post.title} | CelebEdge Blog`,
     description: post.excerpt,
     robots: {
       index: true,
@@ -65,15 +65,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {/* Header */}
       <header className="border-b border-slate-200 bg-white pt-12 pb-10 shadow-xs">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-4">
-          <div className="flex flex-wrap items-center gap-2">
-            {post.tags.map((tag, i) => (
-              <span
-                key={i}
-                className="px-3 py-1 rounded-full bg-amber-50 text-amber-800 text-xs font-bold border border-amber-200"
-              >
-                {tag}
-              </span>
-            ))}
+          <div className="text-xs font-bold text-amber-700 uppercase tracking-wider">
+            {post.tags.join(" • ")}
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
@@ -86,7 +79,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
           <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-full bg-gradient-to-tr from-amber-500 to-rose-500 text-white flex items-center justify-center font-bold text-sm shadow-xs">
+              <div className="h-10 w-10 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-sm shadow-xs">
                 {post.author.name.charAt(0)}
               </div>
               <div>
@@ -146,25 +139,22 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           })}
         </div>
 
-        {/* Author Byline / Trust signature */}
+        {/* Navigation Prompt */}
         <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <ShieldCheck className="h-8 w-8 text-emerald-600 shrink-0" />
-            <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-900 block">
-                CelebEdge Editorial Verification
-              </span>
-              <span className="text-xs text-slate-500">
-                Grounded in primary municipal documents, SEC filings, and entertainment archives.
-              </span>
-            </div>
+          <div>
+            <span className="text-sm font-bold text-slate-900 block">
+              Explore More Celebrities
+            </span>
+            <span className="text-xs text-slate-500">
+              Read comprehensive biographies and career milestones in our directory.
+            </span>
           </div>
 
           <Link
             href="/celebrities"
             className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-amber-600 transition shadow-xs"
           >
-            <span>Explore All Celebrities</span>
+            <span>All Celebrities</span>
             <ArrowRight className="h-3.5 w-3.5" />
           </Link>
         </div>

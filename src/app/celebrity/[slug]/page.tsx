@@ -12,7 +12,7 @@ import ComparisonMetrics from "@/components/profile/ComparisonMetrics";
 import FilmographyTable from "@/components/profile/FilmographyTable";
 import FaqSection from "@/components/profile/FaqSection";
 import EditorialBadge from "@/components/profile/EditorialBadge";
-import { ChevronRight, ExternalLink, Sparkles, Heart, Milestone } from "lucide-react";
+import { ChevronRight, ExternalLink, Heart, Milestone } from "lucide-react";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -119,9 +119,6 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                   sizes="(max-width: 640px) 208px, 224px"
                   className="object-cover object-center"
                 />
-                <div className="absolute top-3 left-3 inline-flex items-center gap-1 rounded-full bg-white/95 px-2.5 py-1 text-[10px] font-extrabold text-amber-700 border border-slate-200 shadow-sm backdrop-blur">
-                  <Sparkles className="h-3 w-3 text-amber-500" /> VERIFIED DOSSIER
-                </div>
               </div>
 
               {/* Title, Role & Social Links */}

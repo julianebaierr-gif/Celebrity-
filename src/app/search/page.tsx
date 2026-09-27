@@ -3,11 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { searchCelebrities } from "@/data/celebrity-service";
-import { Search, ArrowRight, CheckCircle2, Calendar, Clock, DollarSign } from "lucide-react";
+import { Search, ArrowRight, DollarSign } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Search Verified Celebrity Dossiers & Archives | CelebEdge",
-  description: "Search our independent directory of verified celebrity profiles, filmographies, and net worth audits.",
+  title: "Search Celebrity Profiles | CelebEdge",
+  description: "Search our directory of celebrity profiles, filmographies, and career overviews.",
 };
 
 interface SearchPageProps {
@@ -23,16 +23,11 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       {/* Header */}
       <header className="border-b border-slate-200 bg-white py-12 shadow-xs">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3.5 py-1 text-xs font-bold text-amber-800 border border-amber-200 mb-3">
-            <Search className="h-3.5 w-3.5 text-amber-600" />
-            <span>Archive Search Engine</span>
-          </div>
-
           <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            Search Celebrity Dossiers
+            Search Celebrities
           </h1>
           <p className="text-sm text-slate-500 mt-2 font-normal max-w-2xl">
-            Search our fact-checked biographical files, career milestones, filmography records, and certified financial audits.
+            Search our biographical profiles, filmography records, career milestones, and financial overviews.
           </p>
 
           {/* Form */}
@@ -61,20 +56,16 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex items-center justify-between mb-8 pb-3 border-b border-slate-200">
           <span className="text-sm font-bold text-slate-700">
-            {total} {total === 1 ? "Dossier" : "Dossiers"} Found {q ? `for "${q}"` : ""}
-          </span>
-          <span className="text-xs text-emerald-700 font-semibold flex items-center gap-1">
-            <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" />
-            100% Primary Source Grounded
+            {total} {total === 1 ? "Profile" : "Profiles"} Found {q ? `for "${q}"` : ""}
           </span>
         </div>
 
         {items.length === 0 ? (
           <div className="rounded-2xl border border-slate-200 bg-white p-12 text-center max-w-lg mx-auto my-12 shadow-xs">
             <Search className="h-10 w-10 text-slate-300 mx-auto mb-3" />
-            <h3 className="text-lg font-bold text-slate-800">No Dossiers Found</h3>
+            <h3 className="text-lg font-bold text-slate-800">No Profiles Found</h3>
             <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              We couldn&apos;t find any verified profiles matching your inquiry. Try searching for &quot;Cillian Murphy&quot;, &quot;Zendaya&quot;, or &quot;Tim Curry&quot;.
+              We couldn&apos;t find any profiles matching your search. Try searching for &quot;Cillian Murphy&quot;, &quot;Zendaya&quot;, or &quot;Tim Curry&quot;.
             </p>
             <Link
               href="/celebrities"
@@ -100,11 +91,6 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute top-3 left-3">
-                      <span className="inline-block px-3 py-1 rounded-full bg-white/95 backdrop-blur-sm text-[11px] font-bold text-slate-900 border border-slate-200 shadow-xs">
-                        {item.quickFacts.primaryRole.split(",")[0]}
-                      </span>
-                    </div>
                   </div>
 
                   <div className="p-6">
@@ -131,20 +117,15 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                 </div>
 
                 <div className="px-6 pb-6 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
-                  <div className="flex items-center gap-2">
-                    <div className="h-6 w-6 rounded-full bg-amber-100 flex items-center justify-center text-[10px] font-bold text-amber-800">
-                      {item.editorialMetadata.authorName.charAt(0)}
-                    </div>
-                    <span className="text-[11px] font-semibold text-slate-700 truncate max-w-[120px]">
-                      {item.editorialMetadata.authorName}
-                    </span>
-                  </div>
+                  <span className="text-[11px] font-semibold text-slate-500">
+                    {item.quickFacts.primaryRole.split(",")[0]}
+                  </span>
 
                   <Link
                     href={`/celebrity/${item.slug}`}
                     className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
                   >
-                    <span>Read Dossier</span>
+                    <span>View Profile</span>
                     <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>

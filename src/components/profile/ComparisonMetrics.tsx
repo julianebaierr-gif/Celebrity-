@@ -1,6 +1,6 @@
 import React from "react";
 import { MetricItem } from "@/data/celebrities";
-import { TrendingUp, ShieldCheck } from "lucide-react";
+import { TrendingUp } from "lucide-react";
 
 interface ComparisonMetricsProps {
   metrics: MetricItem[];
@@ -15,11 +15,11 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
           <TrendingUp className="h-4 w-4" />
         </span>
         <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-          Economic Impact & Performance Benchmarks
+          Career Earnings & Performance Indicators
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-6 leading-relaxed">
-        Comparative earnings indicators and verified industry performance metrics for {celebrityName}, documented across studio balance sheets and public box office filings.
+        Comparative earnings indicators and performance metrics for {celebrityName}.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -40,9 +40,8 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
               </span>
             </div>
 
-            <div className="mt-5 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] text-slate-500 font-medium">
-              <ShieldCheck className="h-3.5 w-3.5 text-blue-600 shrink-0" />
-              <span className="truncate">Audit Source: {metric.verifiedSource}</span>
+            <div className="mt-5 pt-3 border-t border-slate-100 text-[11px] text-slate-400 font-medium">
+              <span className="truncate">Source: {metric.verifiedSource}</span>
             </div>
           </div>
         ))}

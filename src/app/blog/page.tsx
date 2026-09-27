@@ -3,12 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { BLOG_POSTS } from "@/data/blog-posts";
-import { ArrowRight, ChevronRight, Calendar, Clock, BookOpen } from "lucide-react";
+import { ArrowRight, ChevronRight, Calendar, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "CelebEdge Journal | Entertainment Industry Insights & Analysis",
+  title: "Editorial Blog | Entertainment Industry Insights & Analysis | CelebEdge",
   description:
-    "In-depth editorial articles, film analysis, Hollywood financial investigations, and cultural retrospectives written by our research bureau.",
+    "Editorial articles, film analysis, Hollywood financial investigations, and cultural retrospectives written by our editorial team.",
   alternates: {
     canonical: "https://celeb-edge.vercel.app/blog",
   },
@@ -33,17 +33,12 @@ export default function BlogIndexPage() {
       {/* Header */}
       <header className="border-b border-slate-200 bg-white py-12 shadow-xs">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-4">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3.5 py-1 text-xs font-bold text-amber-800 border border-amber-200">
-            <BookOpen className="h-3.5 w-3.5 text-amber-600" />
-            <span>The Editorial Journal</span>
-          </div>
-
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-            Industry Insights & Analysis
+            Editorial Blog
           </h1>
 
           <p className="text-base text-slate-600 max-w-2xl font-normal leading-relaxed">
-            In-depth reporting, cinema retrospectives, box office investigations, and forensic financial evaluations produced by CelebEdge senior staff writers.
+            In-depth reporting, cinema retrospectives, box office analysis, and cultural retrospectives produced by our editorial writers.
           </p>
         </div>
       </header>
@@ -65,20 +60,14 @@ export default function BlogIndexPage() {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-3 left-3 flex flex-wrap gap-1">
-                    {post.tags.slice(0, 1).map((tag, i) => (
-                      <span
-                        key={i}
-                        className="px-2.5 py-0.5 rounded-full bg-white/95 backdrop-blur-sm text-[10px] font-bold text-amber-800 border border-slate-200"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
                 </div>
 
                 <div className="p-6">
                   <div className="flex items-center gap-3 text-[11px] text-slate-500 mb-2.5 font-medium">
+                    <span className="font-semibold text-amber-700">
+                      {post.tags[0] || "Analysis"}
+                    </span>
+                    <span>•</span>
                     <span className="flex items-center gap-1">
                       <Calendar className="h-3 w-3 text-slate-400" />
                       {new Date(post.publishedDate).toLocaleDateString("en-US", {

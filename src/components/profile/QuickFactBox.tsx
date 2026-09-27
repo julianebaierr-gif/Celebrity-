@@ -1,6 +1,6 @@
 import React from "react";
 import { CelebrityProfile } from "@/data/celebrities";
-import { CheckCircle2, FileText, Calendar, MapPin, Ruler, DollarSign, Briefcase, Award } from "lucide-react";
+import { FileText, Calendar, MapPin, Ruler, DollarSign, Briefcase, Award } from "lucide-react";
 
 interface QuickFactBoxProps {
   celebrity: CelebrityProfile;
@@ -20,17 +20,14 @@ export default function QuickFactBox({ celebrity }: QuickFactBoxProps) {
           <FileText className="h-4 w-4" />
         </span>
         <h2 className="text-lg font-bold text-slate-900 tracking-tight">
-          Executive Summary & Verified Quick Facts
+          Executive Summary & Quick Facts
         </h2>
-        <span className="ml-auto inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-[11px] font-semibold text-emerald-700 border border-emerald-200">
-          <CheckCircle2 className="h-3 w-3 text-emerald-600" /> Fact-Checked Audit
-        </span>
       </div>
 
-      {/* Executive Brief Box (Position Zero / Rich Snippet Hook) */}
+      {/* Executive Brief Box */}
       <div className="mb-6 rounded-xl border border-amber-200/80 bg-amber-50/50 p-5 text-slate-800 text-sm leading-relaxed">
         <p className="font-bold text-amber-800 text-xs uppercase tracking-wider mb-1.5 flex items-center gap-1">
-          <span>Official Biographical Brief</span>
+          <span>Biographical Summary</span>
         </p>
         <p className="text-slate-700">{executiveSummary}</p>
       </div>

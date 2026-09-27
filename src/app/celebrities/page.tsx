@@ -3,12 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { CELEBRITIES } from "@/data/celebrities";
-import { Search, ArrowRight, ChevronRight, CheckCircle2, ShieldCheck, DollarSign } from "lucide-react";
+import { Search, ArrowRight, ChevronRight, DollarSign } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "All Celebrities Directory | Verified Biographies & Public Records | CelebEdge",
+  title: "All Celebrities Directory | Biographies & Profiles | CelebEdge",
   description:
-    "Explore our complete directory of verified celebrity profiles. In-depth biographies, certified net worth evaluations, dating histories, and complete filmographies.",
+    "Explore our complete directory of celebrity profiles. In-depth biographies, net worth analysis, career highlights, and filmographies.",
   alternates: {
     canonical: "https://celeb-edge.vercel.app/celebrities",
   },
@@ -49,17 +49,12 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
       {/* Header */}
       <header className="border-b border-slate-200 bg-white py-12 shadow-xs">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-4">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3.5 py-1 text-xs font-bold text-amber-800 border border-amber-200">
-            <ShieldCheck className="h-3.5 w-3.5 text-amber-600" />
-            <span>Official Master Directory</span>
-          </div>
-
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
             All Celebrities
           </h1>
 
           <p className="text-base text-slate-600 max-w-2xl font-normal leading-relaxed">
-            Browse our complete collection of verified celebrity profiles. Each dossier consolidates certified biographical facts, municipal public records, financial audits, and career milestones.
+            Browse our complete collection of celebrity profiles. Each profile covers biographical facts, career milestones, filmography records, and financial overviews.
           </p>
 
           {/* Search Box */}
@@ -88,11 +83,7 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex items-center justify-between mb-8 pb-3 border-b border-slate-200">
           <span className="text-sm font-bold text-slate-700">
-            {celebrities.length} {celebrities.length === 1 ? "Celebrity Dossier" : "Celebrity Dossiers"} Available {q ? `matching "${q}"` : ""}
-          </span>
-          <span className="text-xs text-emerald-700 font-semibold flex items-center gap-1">
-            <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" />
-            Primary Source Grounded
+            {celebrities.length} {celebrities.length === 1 ? "Celebrity Profile" : "Celebrity Profiles"} Available {q ? `matching "${q}"` : ""}
           </span>
         </div>
 
@@ -100,7 +91,7 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
           <div className="rounded-2xl border border-slate-200 bg-white p-12 text-center max-w-md mx-auto my-12 shadow-xs">
             <h3 className="text-lg font-bold text-slate-800">No Celebrities Found</h3>
             <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              We couldn&apos;t find any verified profiles matching your search query.
+              We couldn&apos;t find any profiles matching your search query.
             </p>
             <Link
               href="/celebrities"
@@ -127,11 +118,6 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute top-3 left-3">
-                      <span className="inline-block px-3 py-1 rounded-full bg-white/95 backdrop-blur-sm text-[11px] font-bold text-slate-900 border border-slate-200 shadow-xs">
-                        {item.quickFacts.primaryRole.split(",")[0]}
-                      </span>
-                    </div>
                   </div>
 
                   {/* Body Info */}
@@ -167,14 +153,14 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
                 {/* Card Footer */}
                 <div className="px-6 pb-6 pt-2 flex items-center justify-between text-xs border-t border-slate-100">
                   <span className="text-[11px] text-slate-400">
-                    {item.filmography.length} Major Titles Documented
+                    {item.filmography.length} Major Titles
                   </span>
 
                   <Link
                     href={`/celebrity/${item.slug}`}
                     className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
                   >
-                    <span>View Dossier</span>
+                    <span>View Profile</span>
                     <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>

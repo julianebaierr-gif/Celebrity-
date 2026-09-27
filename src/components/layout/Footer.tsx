@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { ShieldCheck, CheckCircle2, Lock } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -18,18 +17,14 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-slate-500 leading-relaxed text-xs">
-              The premier journalistic archive for verified celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.
+              A comprehensive journalistic archive for verified celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.
             </p>
-            <div className="flex items-center gap-1.5 text-emerald-700 text-[11px] font-semibold pt-1">
-              <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" />
-              <span>Independent & Fact-Checked Editorial Standards</span>
-            </div>
           </div>
 
           {/* Quick Navigation */}
           <div>
             <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
-              Publication Archives
+              Directory & Articles
             </h4>
             <ul className="space-y-2.5 text-slate-600">
               <li>
@@ -39,32 +34,31 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/celebrities" className="hover:text-amber-600 transition-colors">
-                  All Celebrities Directory
+                  All Celebrities
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="hover:text-amber-600 transition-colors">
-                  Editorial Blog & Analysis
+                  Editorial Blog
                 </Link>
               </li>
               <li>
                 <Link href="/about" className="hover:text-amber-600 transition-colors">
-                  About Our Newsroom
+                  About Us
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="hover:text-amber-600 transition-colors">
-                  Contact Editorial Bureau
+                  Contact Us
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* E-E-A-T & Trust Standards */}
+          {/* Editorial & Policies */}
           <div>
-            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px] flex items-center gap-1">
-              <ShieldCheck className="h-3.5 w-3.5 text-blue-600" />
-              Trust & Transparency
+            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
+              Editorial & Transparency
             </h4>
             <ul className="space-y-2.5 text-slate-600">
               <li>
@@ -74,34 +68,31 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/editorial-standards#fact-checking" className="hover:text-amber-600 transition-colors">
-                  Fact-Checking Methodology
+                  Fact-Checking Standards
                 </Link>
               </li>
               <li>
                 <Link href="/editorial-standards#corrections" className="hover:text-amber-600 transition-colors">
-                  Corrections Protocol
+                  Corrections Policy
                 </Link>
               </li>
               <li>
                 <Link href="/about" className="hover:text-amber-600 transition-colors">
-                  Research Directorate & Bylines
+                  Editorial Team
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Legal & Copyright Compliance */}
+          {/* Legal & About */}
           <div>
-            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px] flex items-center gap-1">
-              <Lock className="h-3.5 w-3.5 text-amber-600" />
-              Media Licensing & Rights
+            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
+              About CelebEdge
             </h4>
             <p className="text-slate-500 leading-relaxed mb-3 text-xs">
-              Photography across CelebEdge is legally integrated through authorized TMDb Developer APIs, Wikimedia Commons (Creative Commons Attribution licenses), and verified official platform embeds.
+              Providing accurate biographical profiles and career documentation. All media and data referenced from public records, official agencies, and authorized archives.
             </p>
             <div className="flex items-center gap-3 text-slate-500 text-[11px]">
-              <span>© {new Date().getFullYear()} CelebEdge Publishing</span>
-              <span>•</span>
               <Link href="/sitemap.xml" className="hover:underline text-amber-700">
                 XML Sitemap
               </Link>
@@ -110,12 +101,12 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-slate-200 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between text-slate-500 text-[11px] gap-3">
-          <p>Strictly compliant with Google Search Quality Rater Guidelines and Helpful Editorial standards.</p>
+          <p>© {new Date().getFullYear()} CelebEdge. All rights reserved.</p>
           <div className="flex gap-5 font-medium">
             <Link href="/editorial-standards" className="hover:text-slate-800">Editorial Policy</Link>
             <Link href="/privacy" className="hover:text-slate-800">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-slate-800">Terms of Use</Link>
-            <Link href="/contact" className="hover:text-slate-800">Contact Bureau</Link>
+            <Link href="/contact" className="hover:text-slate-800">Contact</Link>
           </div>
         </div>
       </div>

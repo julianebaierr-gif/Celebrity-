@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Mail, MessageSquare, AlertCircle, CheckCircle2, ShieldCheck } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -15,24 +15,20 @@ export default function ContactPage() {
     <div className="min-h-screen bg-slate-50 text-slate-900 py-16">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 space-y-10">
         <header className="border-b border-slate-200 pb-6 space-y-2">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3.5 py-1 text-xs font-bold text-slate-700 border border-slate-200">
-            <Mail className="h-3.5 w-3.5 text-amber-600" />
-            <span>Editorial Desk & Inquiries</span>
-          </div>
           <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            Contact CelebEdge & Correction Submissions
+            Contact CelebEdge
           </h1>
           <p className="text-sm text-slate-600">
-            Submit verified factual corrections, media rights inquiries, or editorial correspondence to our research team.
+            Submit factual corrections, media inquiries, or general questions to our editorial team.
           </p>
         </header>
 
         {submitted ? (
           <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-8 text-center space-y-3 shadow-xs">
             <CheckCircle2 className="h-12 w-12 text-emerald-600 mx-auto" />
-            <h2 className="text-xl font-bold text-slate-900">Submission Received</h2>
+            <h2 className="text-xl font-bold text-slate-900">Message Received</h2>
             <p className="text-sm text-slate-600 max-w-md mx-auto">
-              Thank you for contacting our editorial bureau. If your message pertains to a factual correction or verifiable record update, our research desk will review the documentation within 24–48 hours.
+              Thank you for contacting our team. If your message pertains to a factual correction or verifiable record update, our editors will review it promptly.
             </p>
           </div>
         ) : (
@@ -68,31 +64,31 @@ export default function ContactPage() {
               </label>
               <select className="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-amber-600 focus:bg-white transition">
                 <option value="correction">Factual Correction / Record Update</option>
-                <option value="media">Media Rights & Attribution Inquiry</option>
-                <option value="press">Press & Industry Communication</option>
-                <option value="other">General Inquiries</option>
+                <option value="media">Media Rights & Attribution</option>
+                <option value="press">Press & Partnerships</option>
+                <option value="other">General Inquiry</option>
               </select>
             </div>
 
             <div>
               <label className="block text-xs font-bold text-slate-700 mb-2 uppercase tracking-wider">
-                Celebrity Dossier URL / Name (If Applicable)
+                Celebrity Profile URL or Name (Optional)
               </label>
               <input
                 type="text"
-                placeholder="e.g. /celebrity/finn-wolfhard"
+                placeholder="e.g. /celebrity/tim-curry"
                 className="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-amber-600 focus:bg-white transition"
               />
             </div>
 
             <div>
               <label className="block text-xs font-bold text-slate-700 mb-2 uppercase tracking-wider">
-                Detailed Message & Verifiable Source Citation
+                Message
               </label>
               <textarea
                 required
                 rows={5}
-                placeholder="Please describe the inquiry and provide links to certified public records, official press releases, or primary documentation..."
+                placeholder="Please describe your inquiry or provide details about the update..."
                 className="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-amber-600 focus:bg-white transition"
               />
             </div>
@@ -101,7 +97,7 @@ export default function ContactPage() {
               type="submit"
               className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-slate-900 text-white font-bold text-sm hover:bg-amber-600 transition shadow-sm"
             >
-              Transmit to Editorial Bureau
+              Send Message
             </button>
           </form>
         )}
