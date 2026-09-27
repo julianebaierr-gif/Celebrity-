@@ -22,7 +22,7 @@ export default function HomePage() {
   const leadStory = CELEBRITIES.find((c) => c.slug === "tim-curry") || CELEBRITIES[0];
   const secondaryStories = CELEBRITIES.filter((c) => c.slug !== leadStory.slug).slice(0, 3);
   const latestStories = CELEBRITIES.slice(0, 9);
-  const netWorthStories = CELEBRITIES.filter((c) => c.category === "net-worth" || c.quickFacts.netWorth.includes("Million") || c.quickFacts.netWorth.includes("Billion")).slice(0, 4);
+  const netWorthStories = CELEBRITIES.filter((c) => c.category === "net-worth" || c.quickFacts.netWorth.includes("Million") || c.quickFacts.netWorth.includes("Billion")).slice(0, 4).reverse();
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
