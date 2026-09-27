@@ -291,7 +291,7 @@ export default function HomePage() {
                 <Link
                   key={c.slug}
                   href={`/celebrity/${c.slug}`}
-                  className="group rounded-2xl border border-slate-200 bg-white p-5 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between shadow-xs"
+                  className="group rounded-2xl border border-slate-200 bg-white p-5 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between shadow-xs h-full"
                 >
                   <div>
                     {/* Celebrity Profile Header */}
@@ -331,12 +331,12 @@ export default function HomePage() {
                     </div>
 
                     {/* Career Milestone & Industry Benchmark */}
-                    <div className="space-y-2 text-xs border-t border-slate-100 pt-3">
+                    <div className="space-y-2.5 text-xs border-t border-slate-100 pt-3">
                       <div>
                         <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
                           Career Milestone
                         </span>
-                        <span className="font-bold text-slate-900 text-[11px] block mt-0.5 leading-snug break-words">
+                        <span className="font-bold text-slate-900 text-[11px] block mt-0.5 leading-snug break-words min-h-[34px]">
                           {c.careerMilestones[0]?.title} ({c.careerMilestones[0]?.year})
                         </span>
                       </div>
@@ -345,7 +345,7 @@ export default function HomePage() {
                         <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
                           Industry Benchmark
                         </span>
-                        <p className="text-slate-600 text-[11px] mt-0.5 leading-snug">
+                        <p className="text-slate-600 text-[11px] mt-0.5 leading-snug break-words min-h-[34px]">
                           {c.metrics[0]?.benchmark}
                         </p>
                       </div>
