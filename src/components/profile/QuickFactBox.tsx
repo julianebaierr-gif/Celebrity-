@@ -1,6 +1,7 @@
 import React from "react";
 import { CelebrityProfile } from "@/data/celebrities";
 import { FileText, Calendar, MapPin, Ruler, DollarSign, Briefcase, Award } from "lucide-react";
+import { getBirthAndAgeDisplay, getFormattedCareerSpan } from "@/lib/celebrity-utils";
 
 interface QuickFactBoxProps {
   celebrity: CelebrityProfile;
@@ -8,6 +9,8 @@ interface QuickFactBoxProps {
 
 export default function QuickFactBox({ celebrity }: QuickFactBoxProps) {
   const { quickFacts, executiveSummary } = celebrity;
+  const birthAge = getBirthAndAgeDisplay(quickFacts);
+  const careerSpan = getFormattedCareerSpan(quickFacts.activeYears, quickFacts.deathDate, quickFacts.isDeceased);
 
   return (
     <section id="fast-facts" className="my-8 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm relative overflow-hidden">
@@ -37,8 +40,8 @@ export default function QuickFactBox({ celebrity }: QuickFactBoxProps) {
         <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4 border border-slate-200/80">
           <Calendar className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
           <div>
-            <span className="text-slate-500 block text-[11px] font-medium">Birth Date & Age</span>
-            <span className="text-slate-900 font-semibold">{quickFacts.birthDate} ({quickFacts.age} years old)</span>
+            <span className="text-slate-500 block text-[11px] font-medium">{birthAge.label}</span>
+            <span className="text-slate-900 font-semibold">{birthAge.value}</span>
           </div>
         </div>
 
@@ -78,7 +81,7 @@ export default function QuickFactBox({ celebrity }: QuickFactBoxProps) {
           <Award className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
           <div>
             <span className="text-slate-500 block text-[11px] font-medium">Career Span</span>
-            <span className="text-slate-900 font-semibold">{quickFacts.activeYears}</span>
+            <span className="text-slate-900 font-semibold">{careerSpan}</span>
           </div>
         </div>
       </div>

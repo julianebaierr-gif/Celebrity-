@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 import { CELEBRITIES } from "@/data/celebrities";
 import { Search, ArrowRight, ChevronRight, DollarSign } from "lucide-react";
+import { getAgeBadgeText } from "@/lib/celebrity-utils";
 
 export const metadata: Metadata = {
   title: "All Celebrities Directory | Biographies & Profiles | CelebEdge",
@@ -128,7 +129,7 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
                         {item.quickFacts.netWorth.split(" ")[0]} Net Worth
                       </span>
                       <span className="text-slate-400 font-mono">
-                        {item.quickFacts.age} Years Old
+                        {getAgeBadgeText(item.quickFacts)}
                       </span>
                     </div>
 

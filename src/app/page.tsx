@@ -8,6 +8,7 @@ import {
   Calendar,
   ArrowRight,
 } from "lucide-react";
+import { getAgeBadgeText } from "@/lib/celebrity-utils";
 
 export const metadata: Metadata = {
   title: "CelebEdge | Celebrity Biographies, Filmographies & Profiles",
@@ -78,7 +79,7 @@ export default function HomePage() {
                 <div className="grid grid-cols-3 gap-3 mt-6 p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs">
                   <div>
                     <span className="text-[10px] uppercase font-bold text-slate-400 block">Age</span>
-                    <span className="font-bold text-slate-900">{leadStory.quickFacts.age} Years Old</span>
+                    <span className="font-bold text-slate-900">{getAgeBadgeText(leadStory.quickFacts)}</span>
                   </div>
                   <div>
                     <span className="text-[10px] uppercase font-bold text-slate-400 block">Net Worth</span>
@@ -323,7 +324,7 @@ export default function HomePage() {
                         <div className="flex items-center gap-1.5 text-[11px] text-slate-500 mt-0.5">
                           <span className="truncate">{c.quickFacts.primaryRole.split(",")[0]}</span>
                           <span>•</span>
-                          <span className="shrink-0">{c.quickFacts.age} yrs</span>
+                          <span className="shrink-0">{getAgeBadgeText(c.quickFacts, true)}</span>
                         </div>
                       </div>
                     </div>

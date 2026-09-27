@@ -43,6 +43,8 @@ export interface CelebrityProfile {
     birthDate: string;
     birthPlace: string;
     age: number;
+    deathDate?: string;
+    isDeceased?: boolean;
     height: string;
     netWorth: string;
     primaryRole: string;
@@ -110,7 +112,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
       fullName: "Timothy James Curry",
       birthDate: "April 19, 1946",
       birthPlace: "Grappenhall, Cheshire, England",
-      age: 79,
+      age: 80,
       height: "5 ft 9 in (175 cm)",
       netWorth: "$12.0 Million USD (Verified Portfolio)",
       primaryRole: "Actor, Singer, Voiceover Artist",
@@ -198,7 +200,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
       fullName: "Cillian Murphy",
       birthDate: "May 25, 1976",
       birthPlace: "Douglas, Cork, Ireland",
-      age: 49,
+      age: 50,
       height: "5 ft 9 in (175 cm)",
       netWorth: "$25.0 Million USD (Verified Portfolio)",
       primaryRole: "Actor, Producer",
@@ -287,7 +289,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
       fullName: "Zendaya Maree Stoermer Coleman",
       birthDate: "September 1, 1996",
       birthPlace: "Oakland, California, USA",
-      age: 29,
+      age: 30,
       height: "5 ft 10 in (178 cm)",
       netWorth: "$35.0 Million USD (Forbes Verified)",
       primaryRole: "Actress, Producer, Fashion Ambassador",
@@ -552,7 +554,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
       fullName: "José Pedro Balmaceda Pascal",
       birthDate: "April 2, 1975",
       birthPlace: "Santiago, Chile",
-      age: 50,
+      age: 51,
       height: "5 ft 11 in (180 cm)",
       netWorth: "$14.0 Million USD (Verified Audit)",
       primaryRole: "Actor, Producer",
@@ -641,7 +643,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
       fullName: "Margot Elise Robbie",
       birthDate: "July 2, 1990",
       birthPlace: "Dalby, Queensland, Australia",
-      age: 35,
+      age: 36,
       height: "5 ft 6 in (168 cm)",
       netWorth: "$60.0 Million USD (Forbes Verified)",
       primaryRole: "Actress, Producer, Company Founder",
@@ -730,7 +732,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
       fullName: "Keanu Charles Reeves",
       birthDate: "September 2, 1964",
       birthPlace: "Beirut, Lebanon (Canadian Citizen)",
-      age: 61,
+      age: 62,
       height: "6 ft 1 in (185 cm)",
       netWorth: "$380.0 Million USD (Forbes Verified)",
       primaryRole: "Actor, Producer, Musician",
@@ -1001,7 +1003,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
       fullName: "Jenna Marie Ortega",
       birthDate: "September 27, 2002",
       birthPlace: "Coachella Valley, California, USA",
-      age: 23,
+      age: 24,
       height: "5 ft 1 in (155 cm)",
       netWorth: "$10.0 Million USD (Verified Portfolio)",
       primaryRole: "Actress, Producer",

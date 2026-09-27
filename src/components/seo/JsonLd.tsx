@@ -51,6 +51,7 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
         alternateName: celebrity.quickFacts.fullName,
         description: celebrity.executiveSummary,
         birthDate: celebrity.quickFacts.birthDate,
+        ...(celebrity.quickFacts.deathDate ? { deathDate: celebrity.quickFacts.deathDate } : {}),
         birthPlace: {
           "@type": "Place",
           name: celebrity.quickFacts.birthPlace,
