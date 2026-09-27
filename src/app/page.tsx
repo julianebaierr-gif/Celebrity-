@@ -263,7 +263,7 @@ export default function HomePage() {
       {/* Spotlight Section: Wealth & Careers */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
         <div className="rounded-3xl border border-slate-200 bg-white p-8 sm:p-10 shadow-xs">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 pb-4 border-b border-slate-200">
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4 mb-8 pb-6 border-b border-slate-200">
             <div>
               <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider block mb-1">
                 Celebrity Finances
@@ -271,10 +271,13 @@ export default function HomePage() {
               <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
                 Net Worth & Earnings
               </h2>
+              <p className="text-sm text-slate-600 mt-2 max-w-2xl leading-relaxed">
+                Comprehensive financial breakdowns tracking verified net worth estimates, major career milestone payouts, and industry earning benchmarks across film and entertainment.
+              </p>
             </div>
             <Link
               href="/celebrities"
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:underline"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:underline shrink-0"
             >
               <span>View All Celebrities</span>
               <ArrowRight className="h-3.5 w-3.5" />
@@ -359,6 +362,20 @@ export default function HomePage() {
                 </Link>
               );
             })}
+          </div>
+
+          {/* Section Context & Methodology SEO Note */}
+          <div className="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-slate-500">
+            <p className="leading-relaxed max-w-2xl">
+              Financial estimates evaluate career salaries, production points, and documented assets cross-referenced from trade publications and public disclosures.
+            </p>
+            <Link
+              href="/blog/how-celebrity-net-worth-is-calculated"
+              className="font-bold text-emerald-800 hover:underline shrink-0 inline-flex items-center gap-1"
+            >
+              <span>Valuation Methodology</span>
+              <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
           </div>
         </div>
       </section>
