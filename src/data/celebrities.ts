@@ -661,7 +661,25 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     relationshipProfile: {
       status: "Private / Unmarried",
-      datingHistorySummary: "Pascal has maintained disciplined privacy regarding his romantic life throughout his career. Known for close, enduring friendships across the industry with co-stars Sarah Paulson and Oscar Isaac, he frequently champions social equity and transgender advocacy alongside his sister Lux Pascal."
+      partners: [
+        {
+          name: "Sarah Paulson",
+          relationType: "Lifelong Confidante & Close Companion",
+          years: "1993–Present",
+          profession: "Emmy & Golden Globe Winning Actress",
+          image: "/images/partners/sarah-paulson.webp",
+          summary: "Pascal and Paulson have maintained an inseparable bond since meeting in New York City in 1993. Paulson supported Pascal during his early struggles, and the duo frequently accompany each other as dates to premier industry galas."
+        },
+        {
+          name: "Robin Tunney",
+          relationType: "Close Companion & Red Carpet Date",
+          years: "2015–2019",
+          profession: "Actress (The Mentalist, The Craft)",
+          image: "/images/partners/robin-tunney.webp",
+          summary: "Pascal and Tunney sparked high-profile dating reports after attending the 2015 Primetime Emmy Awards and various Hollywood screenings arm-in-arm, sharing a close personal friendship."
+        }
+      ],
+      datingHistorySummary: "Pascal has maintained disciplined privacy regarding his romantic life throughout his career. Known for close, enduring friendships across the industry with co-stars Sarah Paulson and Robin Tunney, he frequently champions social equity and transgender advocacy alongside his sister Lux Pascal."
     },
     faqs: [
       {
@@ -1159,7 +1177,17 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     relationshipProfile: {
       status: "Single / Career-Focused",
-      datingHistorySummary: "Ortega maintains rigorous discretion regarding her private life, stating in numerous major publications that her intensive production schedules across London, Romania, and Los Angeles occupy her full creative focus."
+      partners: [
+        {
+          name: "Asher Angel",
+          relationType: "Public Dating Rumors & Red Carpet Companion",
+          years: "2018",
+          profession: "Actor & Singer (Shazam!)",
+          image: "/images/partners/asher-angel.webp",
+          summary: "Ortega and Asher Angel sparked widespread entertainment media dating reports in late 2018 after coordinating couple Halloween costumes as Ariana Grande and Pete Davidson and attending red carpet premieres together."
+        }
+      ],
+      datingHistorySummary: "Ortega maintains rigorous discretion regarding her private life, stating in numerous major publications that her intensive production schedules across London, Romania, and Los Angeles occupy her full creative focus. Her only notable public red-carpet dating connection was with actor Asher Angel in 2018."
     },
     faqs: [
       {
@@ -1454,7 +1482,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
           relationType: "Former Fiancé",
           years: "2019–2023",
           profession: "Puerto Rican Singer, Songwriter & Musician",
-          image: "/images/partners/tom-ackerley.webp",
+          image: "/images/partners/rauw-alejandro.webp",
           summary: "High-profile collaborative partnership culminating in joint EP 'RR' before their mutual separation in July 2023."
         }
       ],
