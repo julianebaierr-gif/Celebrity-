@@ -1,6 +1,6 @@
 import React from "react";
 import { FilmRole } from "@/data/celebrities";
-import { Clapperboard, Star } from "lucide-react";
+import { Star } from "lucide-react";
 
 interface FilmographyTableProps {
   filmography: FilmRole[];
@@ -10,10 +10,7 @@ interface FilmographyTableProps {
 export default function FilmographyTable({ filmography, celebrityName }: FilmographyTableProps) {
   return (
     <section id="filmography-credits" className="my-10">
-      <div className="flex items-center gap-2 mb-3">
-        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-50 text-rose-700 border border-rose-200">
-          <Clapperboard className="h-4 w-4" />
-        </span>
+      <div className="mb-3">
         <h2 className="text-xl font-bold text-slate-900 tracking-tight">
           Filmography & Landmark Roles
         </h2>
@@ -41,7 +38,7 @@ export default function FilmographyTable({ filmography, celebrityName }: Filmogr
                 <td className="py-4 px-5 font-bold text-slate-900">{item.title}</td>
                 <td className="py-4 px-5 text-slate-700">{item.role}</td>
                 <td className="py-4 px-5">
-                  <span className="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">
+                  <span className="text-slate-600 font-medium">
                     {item.type}
                   </span>
                 </td>

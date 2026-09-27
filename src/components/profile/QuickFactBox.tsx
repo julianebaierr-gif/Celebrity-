@@ -1,6 +1,6 @@
 import React from "react";
 import { CelebrityProfile } from "@/data/celebrities";
-import { FileText, Calendar, MapPin, Ruler, DollarSign, Briefcase, Award } from "lucide-react";
+import { Calendar, MapPin, Ruler, DollarSign, Briefcase, Award } from "lucide-react";
 import { getBirthAndAgeDisplay, getFormattedCareerSpan } from "@/lib/celebrity-utils";
 
 interface QuickFactBoxProps {
@@ -18,10 +18,7 @@ export default function QuickFactBox({ celebrity }: QuickFactBoxProps) {
       <div className="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-amber-500/5 rounded-full blur-2xl pointer-events-none" />
 
       {/* Header */}
-      <div className="flex items-center gap-2.5 mb-4">
-        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-          <FileText className="h-4 w-4" />
-        </span>
+      <div className="mb-4">
         <h2 className="text-lg font-bold text-slate-900 tracking-tight">
           Executive Summary & Quick Facts
         </h2>

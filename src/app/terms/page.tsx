@@ -1,18 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
 import Link from "next/link";
-import {
-  FileText,
-  Scale,
-  ShieldAlert,
-  AlertTriangle,
-  Copyright,
-  Ban,
-  CheckCircle2,
-  Mail,
-  Sparkles,
-  Gavel
-} from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Terms of Use & Service | CelebEdge - Intellectual Property, Disclaimers & DMCA",
@@ -36,10 +24,6 @@ export default function TermsPage() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Header */}
         <header className="border-b border-slate-200 pb-8 space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 text-amber-800 text-xs font-bold border border-amber-200/80">
-            <Sparkles className="h-3.5 w-3.5 text-amber-600" />
-            <span>Legal Framework, Intellectual Property & Reader Agreement</span>
-          </div>
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
             Terms of Use & Service
           </h1>
@@ -57,14 +41,9 @@ export default function TermsPage() {
 
         {/* Section 1: Binding Agreement & Scope of Access */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <FileText className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              1. Acceptance of Terms & Legal Authority
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Acceptance of Terms & Legal Authority
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               These Terms of Use (&ldquo;Terms&rdquo;) constitute a legally binding agreement between you (&ldquo;User,&rdquo; &ldquo;Reader,&rdquo; or &ldquo;You&rdquo;) and CelebEdge (&ldquo;CelebEdge,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), governing your access to and interaction with the website located at <code>celeb-edge.vercel.app</code> and all associated digital subdomains, APIs, RSS feeds, and editorial archives (collectively, the &ldquo;Service&rdquo;).
@@ -77,14 +56,9 @@ export default function TermsPage() {
 
         {/* Section 2: Intellectual Property & Limited License */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200">
-              <Copyright className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              2. Intellectual Property Rights & Limited Reader License
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Intellectual Property Rights & Limited Reader License
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               All proprietary editorial text, original biographical narratives, critical analytical synthesis, structured tabular data, bespoke UI designs, icons, graphics, audio, code, and overall compilation architecture hosted on the Service are the exclusive intellectual property of CelebEdge and are protected by United States and international copyright, trademark, patent, and trade dress laws.
@@ -100,20 +74,15 @@ export default function TermsPage() {
 
         {/* Section 3: Prohibited Conduct & Anti-Scraping / Bot Policy */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-50 text-rose-700 border border-rose-200">
-              <Ban className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              3. Prohibited Conduct & Anti-Scraping Restrictions
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Prohibited Conduct & Anti-Scraping Restrictions
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               To protect the integrity of our digital infrastructure and ensure equitable access for all human readers, the following activities are strictly prohibited:
             </p>
 
-            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-rose-600">
+            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
                 <strong>Automated Data Harvesting & AI Model Ingestion:</strong> Scraping, harvesting, spidering, or extracting textual biographies, net worth formulas, or tabular filmographies using automated tools (including bots, crawlers, headless browsers, or scripts) for the purpose of training machine learning models, commercial database resale, or automated website mirroring without an express commercial license.
               </li>
@@ -136,24 +105,18 @@ export default function TermsPage() {
 
         {/* Section 4: Financial & Net Worth Valuation Disclaimer */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <AlertTriangle className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              4. Financial & Net Worth Valuation Disclaimer
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Financial & Net Worth Valuation Disclaimer
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
-            <div className="rounded-2xl border border-amber-200 bg-amber-50/70 p-6 space-y-3">
-              <div className="flex items-center gap-2 text-amber-900 font-bold text-sm uppercase tracking-wider">
-                <ShieldAlert className="h-5 w-5 text-amber-700" />
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3">
+              <div className="text-slate-900 font-bold text-sm uppercase tracking-wider">
                 Informational & Educational Purpose Only
               </div>
-              <p className="text-xs text-amber-950 leading-relaxed">
+              <p className="text-xs text-slate-600 leading-relaxed">
                 Biographical dossiers, economic timelines, and net worth estimations published across CelebEdge are compiled strictly for journalistic, cultural, historical, and educational purposes. Net worth figures represent our independent analytical models synthesized from public corporate filings, municipal deed records, and industry benchmarks.
               </p>
-              <p className="text-xs text-amber-950 leading-relaxed">
+              <p className="text-xs text-slate-600 leading-relaxed">
                 <strong>NO FINANCIAL OR LEGAL COUNSEL:</strong> Nothing contained within the Service constitutes investment advice, tax planning, financial counsel, accounting advice, or legal recommendation. You should not make financial or investment decisions based upon information found on CelebEdge. We disclaim all liability for any actions taken in reliance upon economic valuations published on this website.
               </p>
             </div>
@@ -162,20 +125,15 @@ export default function TermsPage() {
 
         {/* Section 5: Statutory DMCA Copyright Notice & Takedown Protocol */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-50 text-blue-700 border border-blue-200">
-              <Scale className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              5. Statutory DMCA Notice & Takedown Protocol (17 U.S.C. § 512)
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Statutory DMCA Notice & Takedown Protocol (17 U.S.C. § 512)
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               CelebEdge complies fully with the provisions of Title 17, United States Code, Section 512(c) (the Digital Millennium Copyright Act). If you are a copyright owner or an agent authorized to act on their behalf, and you believe that material hosted on CelebEdge infringes your copyright, you may submit a formal notification containing the following elements:
             </p>
 
-            <ol className="space-y-2 text-xs text-slate-700 pl-5 list-decimal marker:font-bold marker:text-amber-800">
+            <ol className="space-y-2 text-xs text-slate-700 pl-5 list-decimal marker:font-bold marker:text-slate-800">
               <li>
                 <strong>Physical or Electronic Signature:</strong> An authorized physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
               </li>
@@ -215,14 +173,9 @@ export default function TermsPage() {
 
         {/* Section 6: Third-Party Links & External Repositories */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-purple-50 text-purple-700 border border-purple-200">
-              <Sparkles className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              6. Third-Party Hyperlinks & External Repositories
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Third-Party Hyperlinks & External Repositories
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               The Service contains hyperlinks to external third-party repositories, including Box Office Mojo, IMDb, the British Film Institute, the Academy of Motion Picture Arts and Sciences, and government regulatory registries. These links are provided solely as bibliographic citations for your convenience.
@@ -235,14 +188,9 @@ export default function TermsPage() {
 
         {/* Section 7: Warranty Disclaimer & Limitation of Liability */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-100 text-slate-700 border border-slate-200">
-              <Gavel className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              7. Disclaimer of Warranties & Limitation of Liability
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Disclaimer of Warranties & Limitation of Liability
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p className="uppercase text-xs font-semibold text-slate-600">
               &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; PROVISION:
@@ -261,14 +209,9 @@ export default function TermsPage() {
 
         {/* Section 8: Governing Law & Mandatory Dispute Resolution */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-teal-50 text-teal-700 border border-teal-200">
-              <Scale className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              8. Governing Law, Jurisdiction & Dispute Resolution
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Governing Law, Jurisdiction & Dispute Resolution
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               These Terms and any dispute arising out of or related to your use of the Service shall be governed by, construed, and enforced in accordance with the laws of the State of California and the federal laws of the United States of America, without regard to conflict of law principles.
@@ -278,25 +221,6 @@ export default function TermsPage() {
             </p>
           </div>
         </section>
-
-        {/* Footer Navigation */}
-        <footer className="border-t border-slate-200 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} CelebEdge. All rights reserved.</p>
-          <div className="flex items-center gap-4">
-            <Link href="/about" className="hover:text-amber-800 transition font-medium">
-              About CelebEdge
-            </Link>
-            <Link href="/contact" className="hover:text-amber-800 transition font-medium">
-              Contact Newsroom
-            </Link>
-            <Link href="/editorial-standards" className="hover:text-amber-800 transition font-medium">
-              Editorial Standards
-            </Link>
-            <Link href="/privacy" className="hover:text-amber-800 transition font-medium">
-              Privacy Policy
-            </Link>
-          </div>
-        </footer>
       </div>
     </div>
   );

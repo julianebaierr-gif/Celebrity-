@@ -1,6 +1,6 @@
 import React from "react";
 import { MetricItem } from "@/data/celebrities";
-import { Award, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 interface ComparisonMetricsProps {
   metrics: MetricItem[];
@@ -10,10 +10,7 @@ interface ComparisonMetricsProps {
 export default function ComparisonMetrics({ metrics, celebrityName }: ComparisonMetricsProps) {
   return (
     <section id="financial-metrics" className="my-10">
-      <div className="flex items-center gap-2.5 mb-2">
-        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200 shadow-2xs">
-          <Award className="h-4 w-4" />
-        </span>
+      <div className="mb-2">
         <h2 className="text-xl font-bold text-slate-900 tracking-tight">
           Career Milestones & Performance Benchmarks
         </h2>
@@ -43,9 +40,9 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
                 </span>
               </div>
 
-              {/* Fixed-height benchmark container with elegant tag */}
+              {/* Fixed-height benchmark container with clean text */}
               <div className="h-10 flex items-center">
-                <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-amber-50 text-amber-900 text-[11px] font-semibold border border-amber-200/60 line-clamp-1">
+                <span className="text-[11px] text-slate-500 font-medium line-clamp-1">
                   {metric.benchmark}
                 </span>
               </div>
@@ -54,7 +51,7 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
             {/* Pinned verified source footer with checkmark */}
             <div className="mt-5 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] text-slate-400 font-medium">
               <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 shrink-0" />
-              <span className="truncate">Verified: {metric.verifiedSource}</span>
+              <span className="truncate">{metric.verifiedSource}</span>
             </div>
           </div>
         ))}

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { CheckCircle2, Send, Clock, ShieldCheck, HelpCircle } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -16,22 +16,19 @@ export function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate editorial submission receipt
     setSubmitted(true);
   };
 
   if (submitted) {
     return (
       <div className="rounded-2xl border border-emerald-200 bg-emerald-50/80 p-8 sm:p-10 text-center space-y-4 shadow-xs">
-        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-100 text-emerald-700 mx-auto">
-          <CheckCircle2 className="h-8 w-8" />
-        </div>
+        <CheckCircle2 className="h-10 w-10 text-emerald-600 mx-auto" />
         <h3 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
           Inquiry Successfully Dispatched to Editorial Queue
         </h3>
         <p className="text-sm text-slate-700 max-w-lg mx-auto leading-relaxed">
           Thank you for communicating with the CelebEdge newsroom. Your docket has been assigned ticket ID{" "}
-          <span className="font-mono font-semibold text-emerald-900 bg-emerald-100/70 px-2 py-0.5 rounded">
+          <span className="font-mono font-semibold text-slate-900">
             CE-{Math.floor(100000 + Math.random() * 900000)}
           </span>
           . Our editorial review team will evaluate your submission against verified public archives within 24 to 48 business hours.
@@ -40,7 +37,7 @@ export function ContactForm() {
           <button
             type="button"
             onClick={() => setSubmitted(false)}
-            className="inline-flex items-center gap-2 text-xs font-bold text-emerald-800 hover:text-emerald-950 underline underline-offset-4"
+            className="text-xs font-bold text-emerald-800 hover:text-emerald-950 underline underline-offset-4"
           >
             Submit Another Inquiry or Additional Primary Evidence
           </button>
@@ -52,8 +49,7 @@ export function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 space-y-6 shadow-xs">
       <div className="border-b border-slate-100 pb-4">
-        <h3 className="text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
-          <Send className="h-4 w-4 text-amber-600" />
+        <h3 className="text-lg font-bold text-slate-900 tracking-tight">
           Direct Dispatch to CelebEdge Newsroom
         </h3>
         <p className="text-xs text-slate-500 mt-1">
@@ -151,22 +147,19 @@ export function ContactForm() {
           placeholder="Please describe your inquiry with specificity. For biographical corrections, cite primary sources (SEC filings, court judgments, trade releases, university registries, or official agency statements)..."
           className="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-amber-600 focus:bg-white transition"
         />
-        <p className="text-[11px] text-slate-500 mt-2 flex items-center gap-1.5">
-          <ShieldCheck className="h-3.5 w-3.5 text-emerald-600" />
+        <p className="text-[11px] text-slate-500 mt-2">
           Primary documentation accelerates verification. Submissions with links to verifiable public records are prioritized.
         </p>
       </div>
 
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-2">
-        <div className="flex items-center gap-2 text-xs text-slate-500">
-          <Clock className="h-4 w-4 text-slate-400" />
-          <span>Average verification SLA: Under 24 business hours</span>
+        <div className="text-xs text-slate-500">
+          Average verification SLA: Under 24 business hours
         </div>
         <button
           type="submit"
-          className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-slate-900 text-white font-bold text-sm hover:bg-amber-600 transition shadow-sm inline-flex items-center justify-center gap-2"
+          className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-slate-900 text-white font-bold text-sm hover:bg-amber-600 transition shadow-sm"
         >
-          <Send className="h-4 w-4" />
           Dispatch Inquiry
         </button>
       </div>

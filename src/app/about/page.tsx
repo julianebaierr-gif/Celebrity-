@@ -1,7 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import Link from "next/link";
-import { Award, BookOpen, CheckCircle2, ShieldCheck, Users, Sparkles, Building2, Globe2, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About CelebEdge | Independent Entertainment Editorial & Biographical Archive",
@@ -18,10 +18,6 @@ export default function AboutPage() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Header */}
         <header className="border-b border-slate-200 pb-8 space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 text-amber-800 text-xs font-bold border border-amber-200/80">
-            <Sparkles className="h-3.5 w-3.5 text-amber-600" />
-            <span>Independent Entertainment Journalism & Biographical Records</span>
-          </div>
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
             About CelebEdge
           </h1>
@@ -32,14 +28,9 @@ export default function AboutPage() {
 
         {/* Section 1: Executive Mission & Founding Vision */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <BookOpen className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              1. Our Mission & Journalistic Purpose
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Our Mission & Journalistic Purpose
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               In an era dominated by algorithmic aggregators, unchecked social media speculation, and sensationalist tabloid clickbait, authentic public records have become increasingly difficult to distinguish from fiction. CelebEdge was established with a singular editorial charter: to serve as the definitive, dignified, and forensic record of performing artists, cinematic architects, cultural icons, and living legends.
@@ -55,54 +46,45 @@ export default function AboutPage() {
 
         {/* Section 2: Research Methodology & Verification Pillars */}
         <section className="space-y-6">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200">
-              <ShieldCheck className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              2. Research Methodology & Data Integrity
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Research Methodology & Data Integrity
+          </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
             Our newsroom adheres to a multi-tiered verification framework aligned with Google’s Search Quality Rater Guidelines for Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T). Every biographical entry undergoes a four-stage editorial review before publication:
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
-              <span className="text-xs font-bold uppercase tracking-wider text-amber-800 flex items-center gap-1.5">
-                <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+              <h3 className="text-sm font-bold text-slate-900">
                 Primary Source Ingestion
-              </span>
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Biographical milestones are grounded strictly in primary records, including certified public birth and civil registrations, conservatory archives, university commencement catalogs, SAG-AFTRA and Equity UK guild rosters, and official agency talent announcements.
               </p>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
-              <span className="text-xs font-bold uppercase tracking-wider text-amber-800 flex items-center gap-1.5">
-                <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+              <h3 className="text-sm font-bold text-slate-900">
                 Financial Forensics
-              </span>
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Net worth valuations are calculated using verified studio contract metrics, box office profit-sharing structures (first-dollar gross or backend pool distributions), county municipal property deed registries, and corporate filings with regulatory agencies such as the SEC and UK Companies House.
               </p>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
-              <span className="text-xs font-bold uppercase tracking-wider text-amber-800 flex items-center gap-1.5">
-                <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+              <h3 className="text-sm font-bold text-slate-900">
                 Filmography & Box Office Auditing
-              </span>
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Performance credits and box office earnings are cross-verified against official studio releases, Box Office Mojo, The Numbers, Variety Archives, the British Film Institute (BFI), and the Academy of Motion Picture Arts and Sciences (AMPAS) historical records.
               </p>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
-              <span className="text-xs font-bold uppercase tracking-wider text-amber-800 flex items-center gap-1.5">
-                <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+              <h3 className="text-sm font-bold text-slate-900">
                 Real-Time Lifecycle Tracking
-              </span>
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Our dynamic chronological algorithms calculate celebrity ages in real time down to the calendar day. For deceased figures, career spans and lifespans automatically transition to verified memorial timelines with certified passing dates and locations.
               </p>
@@ -112,25 +94,17 @@ export default function AboutPage() {
 
         {/* Section 3: Editorial Leadership & Masthead */}
         <section className="space-y-6">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <Users className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              3. Editorial Masthead & Senior Researchers
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Editorial Masthead & Senior Researchers
+          </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
             CelebEdge is staffed by veteran journalists, film scholars, and archival researchers who bring decades of combined experience across premier entertainment newsrooms, literary publications, and film preservation institutions:
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-amber-800 uppercase tracking-wider">
-                  Senior Industry Writer
-                </span>
-                <span className="text-[11px] text-slate-400 font-mono">15+ Yrs Exp</span>
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-2">
+              <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+                Senior Industry Writer &bull; 15+ Yrs Exp
               </div>
               <h3 className="text-lg font-bold text-slate-900">Marcus Vance</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
@@ -138,12 +112,9 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider">
-                  Chief Biographer
-                </span>
-                <span className="text-[11px] text-slate-400 font-mono">12+ Yrs Exp</span>
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-2">
+              <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+                Chief Biographer &bull; 12+ Yrs Exp
               </div>
               <h3 className="text-lg font-bold text-slate-900">Elena Rostova</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
@@ -151,12 +122,9 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-blue-800 uppercase tracking-wider">
-                  Fact-Checking Director
-                </span>
-                <span className="text-[11px] text-slate-400 font-mono">10+ Yrs Exp</span>
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-2">
+              <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+                Fact-Checking Director &bull; 10+ Yrs Exp
               </div>
               <h3 className="text-lg font-bold text-slate-900">Sarah Jenkins</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
@@ -164,12 +132,9 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-purple-800 uppercase tracking-wider">
-                  Entertainment Economist
-                </span>
-                <span className="text-[11px] text-slate-400 font-mono">8+ Yrs Exp</span>
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs space-y-2">
+              <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+                Entertainment Economist &bull; 8+ Yrs Exp
               </div>
               <h3 className="text-lg font-bold text-slate-900">David Thorne</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
@@ -181,19 +146,14 @@ export default function AboutPage() {
 
         {/* Section 4: Ethics, Dignity & Anti-Gossip Policy */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-100 text-slate-700 border border-slate-200">
-              <Award className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              4. Ethical Boundaries & The Anti-Gossip Standard
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Ethical Boundaries & The Anti-Gossip Standard
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               Unlike conventional celebrity gossip blogs that profit from intrusive paparazzi photos, unconfirmed marital speculation, or manufactured feuds, CelebEdge enforces strict ethical guardrails:
             </p>
-            <ul className="space-y-2 text-xs text-slate-700 pl-4 list-disc marker:text-amber-600">
+            <ul className="space-y-2 text-xs text-slate-700 pl-4 list-disc marker:text-slate-400">
               <li>
                 <strong>No Unverified Speculation:</strong> Rumors regarding personal health, domestic relationships, or legal proceedings are strictly excluded unless corroborated by verified public filings or on-record statements from primary representatives.
               </li>
@@ -212,14 +172,9 @@ export default function AboutPage() {
 
         {/* Section 5: Corrections & Reader Accountability */}
         <section className="space-y-4 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <Globe2 className="h-4 w-4" />
-            </span>
-            <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-              5. Transparent Corrections & Reader Feedback
-            </h2>
-          </div>
+          <h2 className="text-xl font-bold text-slate-900 tracking-tight">
+            Transparent Corrections & Reader Feedback
+          </h2>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
             Accuracy is a continuous discipline. When historical records are revised, civil documents are updated, or new studio data becomes available, CelebEdge reviews and publishes corrections promptly. If you represent an artist, estate, or archival organization and have verifiable documentation to update an existing profile, please contact our editorial desk.
           </p>

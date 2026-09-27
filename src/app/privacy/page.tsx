@@ -1,19 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
 import Link from "next/link";
-import {
-  ShieldCheck,
-  Lock,
-  Eye,
-  Cookie,
-  FileText,
-  UserCheck,
-  AlertCircle,
-  HelpCircle,
-  Mail,
-  Sparkles,
-  Building2
-} from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | CelebEdge - Data Protection, GDPR, CCPA/CPRA & Cookie Standards",
@@ -37,10 +24,6 @@ export default function PrivacyPage() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Header */}
         <header className="border-b border-slate-200 pb-8 space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 text-amber-800 text-xs font-bold border border-amber-200/80">
-            <Sparkles className="h-3.5 w-3.5 text-amber-600" />
-            <span>Data Protection, Consumer Rights & Cookie Governance</span>
-          </div>
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
             Privacy Policy
           </h1>
@@ -58,14 +41,9 @@ export default function PrivacyPage() {
 
         {/* Section 1: Executive Overview & Privacy Commitment */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200">
-              <ShieldCheck className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              1. Our Foundational Privacy Architecture
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Foundational Privacy Architecture
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               CelebEdge is an open-access public reference archive and biographical journal. Unlike many digital publications, <strong>we do not require user account registration, subscription logins, credit card numbers, or passwords</strong> to read our biographies, filmographies, or financial analyses.
@@ -78,15 +56,9 @@ export default function PrivacyPage() {
 
         {/* Section 2: Categories of Information Processed */}
         <section className="space-y-6">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-50 text-blue-700 border border-blue-200">
-              <FileText className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              2. Categories of Information We Process
-            </h2>
-          </div>
-
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Categories of Information We Process
+          </h2>
           <div className="space-y-4">
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">
@@ -106,11 +78,11 @@ export default function PrivacyPage() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-emerald-200 bg-emerald-50/70 p-6 space-y-2 shadow-xs">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-emerald-900">
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">
                 C. Information We Explicitly DO NOT Collect
               </h3>
-              <p className="text-xs text-emerald-950 leading-relaxed">
+              <p className="text-xs text-slate-600 leading-relaxed">
                 CelebEdge <strong>never</strong> collects government identification numbers (Social Security numbers, national ID numbers), biometric data, health records, financial payment details, or precise GPS mobile geolocation. We do not engage in cross-site keystroke logging or covert behavioral profiling.
               </p>
             </div>
@@ -119,19 +91,14 @@ export default function PrivacyPage() {
 
         {/* Section 3: Lawful Basis for Processing (GDPR & International Law) */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <UserCheck className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              3. Lawful Basis for Processing Under GDPR & UK GDPR
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Lawful Basis for Processing Under GDPR & UK GDPR
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               For visitors residing within the European Economic Area (EEA) and the United Kingdom, our processing of personal data is anchored in the following lawful grounds established under Article 6 of the General Data Protection Regulation (GDPR):
             </p>
-            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-amber-600">
+            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
                 <strong>Legitimate Interests (Art. 6(1)(f)):</strong> To maintain network and information security, detect and prevent fraudulent bot traffic, optimize edge delivery performance, and publish biographical reference materials in the public interest.
               </li>
@@ -147,14 +114,9 @@ export default function PrivacyPage() {
 
         {/* Section 4: Cookies & Third-Party Advertising Standards */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-purple-50 text-purple-700 border border-purple-200">
-              <Cookie className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              4. Cookies, Analytics & Programmatic Advertising Standards
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Cookies, Analytics & Programmatic Advertising Standards
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               Cookies are small text files placed on your device to ensure web functionality and measure reader engagement. CelebEdge categorizes cookies as follows:
@@ -205,20 +167,15 @@ export default function PrivacyPage() {
 
         {/* Section 5: California Privacy Rights (CCPA / CPRA & CalOPPA) */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-50 text-rose-700 border border-rose-200">
-              <Lock className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              5. California Consumer Privacy Rights (CCPA / CPRA & CalOPPA)
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            California Consumer Privacy Rights (CCPA / CPRA & CalOPPA)
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               Under the California Consumer Privacy Act of 2018 (CCPA) and the California Privacy Rights Act of 2020 (CPRA), California residents are afforded specific statutory rights regarding their personal information:
             </p>
 
-            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-amber-600">
+            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
                 <strong>Right to Know & Access:</strong> The right to request disclosure of the specific categories of personal information collected, the sources of collection, the business purpose for processing, and third parties with whom data was shared over the past 12 months.
               </li>
@@ -244,14 +201,9 @@ export default function PrivacyPage() {
 
         {/* Section 6: European Data Subject Rights & The Journalistic Exemption */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-50 text-indigo-700 border border-indigo-200">
-              <Eye className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              6. European Data Subject Rights & The Journalistic Exemption
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            European Data Subject Rights & The Journalistic Exemption
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               Readers located in the EU and UK possess the right to access (Art. 15), rectify (Art. 16), erase (Art. 17), restrict processing (Art. 18), and object to processing (Art. 21) regarding their personal telemetry data.
@@ -264,19 +216,14 @@ export default function PrivacyPage() {
 
         {/* Section 7: Data Retention & Security Architecture */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-teal-50 text-teal-700 border border-teal-200">
-              <Lock className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              7. Data Retention & Cybersecurity Architecture
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Data Retention & Cybersecurity Architecture
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               CelebEdge enforces enterprise-grade security protocols to protect all operational data against unauthorized access, disclosure, alteration, or destruction. Our technical posture includes:
             </p>
-            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-amber-600">
+            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
                 <strong>Transport Layer Security:</strong> Full TLS 1.3 / SSL encryption enforced across all domain endpoints with HTTP Strict Transport Security (HSTS) headers.
               </li>
@@ -292,14 +239,9 @@ export default function PrivacyPage() {
 
         {/* Section 8: Children's Online Privacy Protection (COPPA) */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <AlertCircle className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              8. Children&apos;s Online Privacy Protection Act (COPPA)
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Children&apos;s Online Privacy Protection Act (COPPA)
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               CelebEdge is an informational publication intended for general audiences and film researchers. We do not knowingly solicit or collect personal information from children under the age of 13 (or under 16 in certain European jurisdictions). If we discover that a minor under 13 has transmitted personal data through our contact forms without verifiable parental consent, we will promptly delete that information from our active queues.
@@ -309,14 +251,9 @@ export default function PrivacyPage() {
 
         {/* Section 9: Data Protection Officer (DPO) & Inquiries */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-100 text-slate-700 border border-slate-200">
-              <Mail className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              9. Contacting Our Data Protection Officer
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Contacting Our Data Protection Officer
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               If you have questions, comments, or statutory requests concerning this Privacy Policy or our information governance practices, please reach out to our appointed Data Protection Officer:
@@ -332,25 +269,6 @@ export default function PrivacyPage() {
             </div>
           </div>
         </section>
-
-        {/* Footer Navigation */}
-        <footer className="border-t border-slate-200 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} CelebEdge. All rights reserved.</p>
-          <div className="flex items-center gap-4">
-            <Link href="/about" className="hover:text-amber-800 transition font-medium">
-              About CelebEdge
-            </Link>
-            <Link href="/contact" className="hover:text-amber-800 transition font-medium">
-              Contact Desk
-            </Link>
-            <Link href="/editorial-standards" className="hover:text-amber-800 transition font-medium">
-              Editorial Standards
-            </Link>
-            <Link href="/terms" className="hover:text-amber-800 transition font-medium">
-              Terms of Service
-            </Link>
-          </div>
-        </footer>
       </div>
     </div>
   );

@@ -1,20 +1,5 @@
 import React from "react";
 import { Metadata } from "next";
-import Link from "next/link";
-import {
-  ShieldCheck,
-  CheckCircle2,
-  FileCheck2,
-  Scale,
-  Camera,
-  Coins,
-  Cpu,
-  Building2,
-  ArrowRight,
-  Sparkles,
-  BookOpen,
-  AlertTriangle
-} from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Editorial Standards, Fact-Checking & Verification Policy | CelebEdge",
@@ -38,10 +23,6 @@ export default function EditorialStandardsPage() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Header */}
         <header className="border-b border-slate-200 pb-8 space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 text-amber-800 text-xs font-bold border border-amber-200/80">
-            <Sparkles className="h-3.5 w-3.5 text-amber-600" />
-            <span>Journalistic Integrity & Forensic Verification Charter</span>
-          </div>
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
             Editorial Guidelines & Standards
           </h1>
@@ -52,14 +33,9 @@ export default function EditorialStandardsPage() {
 
         {/* Section 1: Editorial Creed & Anti-Sensationalism Pledge */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <BookOpen className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              1. Our Journalistic Mission & Anti-Sensationalism Creed
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Our Journalistic Mission & Anti-Sensationalism Creed
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               Contemporary digital entertainment media is saturated with hyper-accelerated gossip, unverified social media conjecture, and invasive paparazzi stalking. CelebEdge was founded as an antidote to this ecosystem. We treat the careers, intellectual output, and cultural resonance of performing artists with the same forensic rigor and dignity historically accorded to figures in science, literature, and governance.
@@ -72,75 +48,46 @@ export default function EditorialStandardsPage() {
 
         {/* Section 2: Four-Tier Sourcing Hierarchy */}
         <section className="space-y-6">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200">
-              <ShieldCheck className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              2. The Four-Tier Sourcing Hierarchy
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            The Four-Tier Sourcing Hierarchy
+          </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
             To satisfy Google&apos;s Search Quality Rater Guidelines for Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T), CelebEdge requires that all assertions of fact be corroborated through a strict hierarchy of verified sources:
           </p>
 
           <div className="space-y-4">
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-wider text-emerald-800 flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4 text-emerald-600" />
-                  Tier 1: Certified Primary Public Records (Gold Standard)
-                </span>
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-900">
-                  Primary
-                </span>
-              </div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">
+                Tier 1: Certified Primary Public Records (Gold Standard)
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Government civil registries (birth certificates, marriage licenses, authenticated probate and estate filings); Securities and Exchange Commission (SEC) Forms 10-K, 10-Q, and 8-K; UK Companies House accounts; official court judgments; SAG-AFTRA, Equity UK, and Writers Guild of America (WGA) official rosters; university commencement registries; and authorized on-the-record publicist statements.
               </p>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-wider text-blue-800 flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4 text-blue-600" />
-                  Tier 2: Historical Trade Publications of Record
-                </span>
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-900">
-                  Trade Record
-                </span>
-              </div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">
+                Tier 2: Historical Trade Publications of Record
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Established industry trades with published editorial correction policies, including <em>Variety</em>, <em>The Hollywood Reporter</em>, <em>Deadline Hollywood</em>, <em>Billboard</em>, <em>Screen Daily</em>, <em>Sight & Sound</em>, and cultural desks of leading newspapers of record (<em>The New York Times</em>, <em>The Los Angeles Times</em>, <em>The Guardian</em>).
               </p>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-wider text-amber-800 flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4 text-amber-600" />
-                  Tier 3: Institutional Repositories & Academic Archives
-                </span>
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-900">
-                  Archival
-                </span>
-              </div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">
+                Tier 3: Institutional Repositories & Academic Archives
+              </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 The British Film Institute (BFI) National Archive, the Academy of Motion Picture Arts and Sciences (AMPAS) Margaret Herrick Library, The Paley Center for Media, the Library of Congress National Film Registry, and authoritative published academic monographs from university presses.
               </p>
             </div>
 
-            <div className="rounded-2xl border border-rose-200 bg-rose-50/60 p-6 space-y-2 shadow-xs">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-wider text-rose-800 flex items-center gap-1.5">
-                  <AlertTriangle className="h-4 w-4 text-rose-600" />
-                  Tier 4: Prohibited & Strictly Excluded Material
-                </span>
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-200 text-rose-900">
-                  Zero Tolerance
-                </span>
-              </div>
-              <p className="text-xs text-rose-900 leading-relaxed">
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2 shadow-xs">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-rose-700">
+                Tier 4: Prohibited & Strictly Excluded Material
+              </h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
                 Uncredited tabloid rumors, paparazzi claims, speculative social media chatter (TikTok, X/Twitter rumors, Reddit threads), anonymous forum posts, and automated content scrapers are explicitly barred from consideration. No profile or metric may be grounded in uncorroborated single-source claims.
               </p>
             </div>
@@ -149,14 +96,9 @@ export default function EditorialStandardsPage() {
 
         {/* Section 3: Financial Forensics & Net Worth Calculation Formula */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-              <Coins className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              3. Financial Forensics & Net Worth Valuation Methodology
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Financial Forensics & Net Worth Valuation Methodology
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               Unlike automated websites that publish arbitrary round figures, CelebEdge approaches celebrity economics through forensic accounting principles. Celebrity net worth is inherently dynamic and largely private; therefore, we present our estimates as forensic valuations rather than liquid bank account balances.
@@ -166,7 +108,7 @@ export default function EditorialStandardsPage() {
             </p>
 
             <div className="rounded-2xl border border-slate-200 bg-slate-900 text-slate-100 p-6 space-y-3 font-mono text-xs">
-              <div className="text-amber-400 font-bold uppercase tracking-wider">
+              <div className="text-slate-300 font-bold uppercase tracking-wider">
                 Net Worth Valuation Formula:
               </div>
               <div className="bg-slate-800 p-4 rounded-xl leading-relaxed text-slate-200 border border-slate-700">
@@ -185,14 +127,9 @@ export default function EditorialStandardsPage() {
 
         {/* Section 4: Corrections, Retractions & Right-of-Reply */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-50 text-blue-700 border border-blue-200">
-              <FileCheck2 className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              4. Corrections, Retractions & Right-of-Reply Policy
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Corrections, Retractions & Right-of-Reply Policy
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               CelebEdge takes full editorial responsibility for every word published on our platform. When a factual discrepancy is identified, we act swiftly and transparently to correct the record. We do not quietly &ldquo;stealth edit&rdquo; errors without acknowledging them to our readers.
@@ -203,30 +140,21 @@ export default function EditorialStandardsPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
               <div className="rounded-2xl border border-slate-200 bg-white p-5 space-y-2">
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-900">
-                  Correction
-                </span>
-                <h3 className="font-bold text-slate-900 text-xs">Factual Errors</h3>
+                <h3 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Factual Corrections</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">
                   Applied when a verifiable error of fact occurred (such as an incorrect birth year, misspelled creative collaborator, or misstated box office figure). A permanent footnote details the error and exact correction.
                 </p>
               </div>
 
               <div className="rounded-2xl border border-slate-200 bg-white p-5 space-y-2">
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-900">
-                  Clarification
-                </span>
-                <h3 className="font-bold text-slate-900 text-xs">Contextual Nuance</h3>
+                <h3 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Contextual Clarifications</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">
                   Applied when published information was factually accurate but lacked essential context or could lead to an incomplete understanding of a legal settlement or contractual deal.
                 </p>
               </div>
 
               <div className="rounded-2xl border border-slate-200 bg-white p-5 space-y-2">
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-900">
-                  Update
-                </span>
-                <h3 className="font-bold text-slate-900 text-xs">New Developments</h3>
+                <h3 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Archival Updates</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">
                   Appended when significant subsequent events occur—such as the conclusion of a film festival, a posthumous award conferral, or a newly announced philanthropic gift.
                 </p>
@@ -241,19 +169,14 @@ export default function EditorialStandardsPage() {
 
         {/* Section 5: Media Licensing & Image Ethics */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-purple-50 text-purple-700 border border-purple-200">
-              <Camera className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              5. Media Licensing, Image Attribution & Copyright Ethics
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Media Licensing, Image Attribution & Copyright Ethics
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               CelebEdge maintains a strict zero-tolerance policy against copyright infringement. Photography published across our dossiers is obtained through legal, documented, and properly licensed channels:
             </p>
-            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-amber-600">
+            <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
                 <strong>Creative Commons & Open Archives:</strong> We utilize portraits curated from Wikimedia Commons and public open-access archives licensed under Creative Commons licenses (CC BY, CC BY-SA). Every image includes explicit photographer attribution, license versioning, and direct links to original repository files.
               </li>
@@ -272,14 +195,9 @@ export default function EditorialStandardsPage() {
 
         {/* Section 6: Artificial Intelligence & Algorithmic Standards */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-teal-50 text-teal-700 border border-teal-200">
-              <Cpu className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              6. Artificial Intelligence & Automated Tools Policy
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Artificial Intelligence & Automated Tools Policy
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               While CelebEdge deploys advanced natural language models and data indexing pipelines to assist our research staff in cataloging thousands of film releases, box office tables, and regulatory filings, we maintain an uncompromising &ldquo;human-in-the-loop&rdquo; editorial standard.
@@ -292,14 +210,9 @@ export default function EditorialStandardsPage() {
 
         {/* Section 7: Commercial Independence & Conflict Firewall */}
         <section className="space-y-4">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-100 text-slate-700 border border-slate-200">
-              <Scale className="h-4 w-4" />
-            </span>
-            <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-              7. Commercial Independence & Advertising Firewall
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+            Commercial Independence & Advertising Firewall
+          </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
               CelebEdge maintains an impenetrable barrier between editorial judgment and commercial revenue operations. We do not accept payment, gifts, sponsored travel, or consideration of any kind in exchange for creating, altering, or removing a biographical dossier.
@@ -309,25 +222,6 @@ export default function EditorialStandardsPage() {
             </p>
           </div>
         </section>
-
-        {/* Footer Navigation */}
-        <footer className="border-t border-slate-200 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} CelebEdge. All rights reserved.</p>
-          <div className="flex items-center gap-4">
-            <Link href="/about" className="hover:text-amber-800 transition font-medium">
-              About CelebEdge
-            </Link>
-            <Link href="/contact" className="hover:text-amber-800 transition font-medium">
-              Contact Newsroom
-            </Link>
-            <Link href="/privacy" className="hover:text-amber-800 transition font-medium">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="hover:text-amber-800 transition font-medium">
-              Terms of Service
-            </Link>
-          </div>
-        </footer>
       </div>
     </div>
   );

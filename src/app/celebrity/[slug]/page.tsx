@@ -13,7 +13,7 @@ import FilmographyTable from "@/components/profile/FilmographyTable";
 import FaqSection from "@/components/profile/FaqSection";
 import EditorialBadge from "@/components/profile/EditorialBadge";
 import EditorialBiography from "@/components/profile/EditorialBiography";
-import { ChevronRight, ExternalLink, Heart, Milestone } from "lucide-react";
+import { ChevronRight, ExternalLink } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 interface PageProps {
@@ -243,10 +243,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
 
           {/* 4. Career Milestones & Breakthrough Timeline */}
           <section id="career-milestones" className="my-10 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
-            <div className="flex items-center gap-2 mb-6">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200">
-                <Milestone className="h-4 w-4" />
-              </span>
+            <div className="mb-6">
               <h2 className="text-xl font-bold text-slate-900 tracking-tight">
                 Career Breakthroughs & Timeline
               </h2>
@@ -284,10 +281,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
 
           {/* 6. Relationship Profile & Personal Life */}
           <section id="relationship-profile" className="my-10 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-pink-50 text-pink-700 border border-pink-200">
-                <Heart className="h-4 w-4" />
-              </span>
+            <div className="mb-4">
               <h2 className="text-xl font-bold text-slate-900 tracking-tight">
                 Relationship Timeline & Personal Life
               </h2>

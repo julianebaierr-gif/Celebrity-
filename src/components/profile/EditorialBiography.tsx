@@ -1,6 +1,6 @@
 import React from "react";
 import { BiographySection } from "@/data/celebrities";
-import { BookOpen, Quote, Sparkles } from "lucide-react";
+import { Quote } from "lucide-react";
 
 interface EditorialBiographyProps {
   celebrityName: string;
@@ -16,10 +16,7 @@ export default function EditorialBiography({
   return (
     <section id="biographical-retrospective" className="my-12">
       {/* Section Header */}
-      <div className="flex items-center gap-2.5 mb-2">
-        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200 shadow-2xs">
-          <BookOpen className="h-4 w-4" />
-        </span>
+      <div className="mb-2">
         <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
           Comprehensive Biography & Critical Analysis
         </h2>
@@ -35,12 +32,8 @@ export default function EditorialBiography({
             key={idx}
             className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-9 shadow-xs hover:border-slate-300 transition-colors"
           >
-            {/* Chapter Badge & Title */}
-            <div className="flex items-center gap-2 mb-4">
-              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md bg-amber-50 text-amber-900 border border-amber-200/70 text-[11px] font-bold tracking-wider uppercase">
-                <Sparkles className="h-3 w-3 text-amber-600" />
-                Chapter {idx + 1}
-              </span>
+            {/* Title without badges or chapter numbers */}
+            <div className="mb-4">
               <h3 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
                 {section.heading}
               </h3>
@@ -84,11 +77,9 @@ export default function EditorialBiography({
 
             {/* Optional Key Takeaway Callout */}
             {section.keyTakeaway && (
-              <div className="mt-6 pt-4 border-t border-slate-100 flex items-start gap-2.5 text-xs text-slate-600 bg-amber-50/30 rounded-xl p-3.5 border border-amber-100">
-                <span className="font-bold text-amber-900 uppercase text-[10px] tracking-wider shrink-0 mt-0.5">
-                  Editorial Takeaway:
-                </span>
-                <span className="leading-relaxed">{section.keyTakeaway}</span>
+              <div className="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-600 leading-relaxed">
+                <span className="font-bold text-slate-900">Key Takeaway: </span>
+                <span>{section.keyTakeaway}</span>
               </div>
             )}
           </article>
