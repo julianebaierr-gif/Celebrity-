@@ -345,7 +345,7 @@ export default function HomePage() {
                         <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
                           Industry Benchmark
                         </span>
-                        <p className="text-slate-600 text-[11px] mt-0.5 leading-snug break-words min-h-[34px]">
+                        <p className="font-bold text-slate-900 text-[11px] mt-0.5 leading-snug break-words min-h-[34px]">
                           {c.metrics[0]?.benchmark}
                         </p>
                       </div>
