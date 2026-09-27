@@ -32,14 +32,14 @@ export default function HomePage() {
           {/* Main Lead Feature (7 Columns) */}
           <article className="lg:col-span-7 bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between h-full">
             <div>
-              <div className="relative h-72 sm:h-80 lg:h-96 w-full overflow-hidden bg-slate-100">
+              <div className="relative h-80 sm:h-96 lg:h-[440px] w-full overflow-hidden bg-slate-100">
                 <Image
                   src={leadStory.heroImage}
                   alt={`${leadStory.name} portrait`}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 60vw"
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
 
@@ -132,7 +132,7 @@ export default function HomePage() {
                     alt={`${story.name} portrait`}
                     fill
                     sizes="88px"
-                    className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                    className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
 
@@ -199,13 +199,13 @@ export default function HomePage() {
               className="group rounded-2xl border border-slate-200 bg-white overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
             >
               <div>
-                <div className="relative h-56 w-full overflow-hidden bg-slate-100">
+                <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-100">
                   <Image
                     src={item.heroImage}
                     alt={`${item.name} portrait`}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
 
@@ -305,7 +305,7 @@ export default function HomePage() {
                           alt={`${c.name} avatar`}
                           fill
                           sizes="56px"
-                          className="object-cover object-top"
+                          className="object-cover object-center"
                         />
                       </div>
                       <div className="min-w-0 flex-1">

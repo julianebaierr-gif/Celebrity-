@@ -110,13 +110,13 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
               >
                 <div>
                   {/* Portrait Thumbnail */}
-                  <div className="relative h-64 w-full overflow-hidden bg-slate-100">
+                  <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-100">
                     <Image
                       src={item.heroImage}
                       alt={`${item.name} portrait`}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
 
