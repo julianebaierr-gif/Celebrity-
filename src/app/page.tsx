@@ -32,7 +32,7 @@ export default function HomePage() {
           {/* Main Lead Feature (7 Columns) */}
           <article className="lg:col-span-7 bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
             <div>
-              <div className="relative h-72 sm:h-96 w-full overflow-hidden bg-slate-100">
+              <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-100">
                 <Image
                   src={leadStory.heroImage}
                   alt={`${leadStory.name} portrait`}
@@ -43,8 +43,8 @@ export default function HomePage() {
                 />
               </div>
 
-              <div className="p-6 sm:p-8">
-                <div className="flex items-center gap-3 text-xs text-slate-500 mb-3 font-medium">
+              <div className="p-6 sm:p-7">
+                <div className="flex items-center gap-3 text-xs text-slate-500 mb-2.5 font-medium">
                   <span className="font-bold text-amber-700 uppercase tracking-wider text-[11px]">
                     Featured Profile
                   </span>
@@ -64,33 +64,33 @@ export default function HomePage() {
                   </span>
                 </div>
 
-                <h1 className="text-2xl sm:text-4xl font-black text-slate-900 group-hover:text-amber-700 transition tracking-tight leading-tight">
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 group-hover:text-amber-700 transition tracking-tight leading-tight">
                   <Link href={`/celebrity/${leadStory.slug}`}>
                     {leadStory.name}: {leadStory.headline}
                   </Link>
                 </h1>
 
-                <p className="text-sm sm:text-base text-slate-600 mt-4 leading-relaxed font-normal">
+                <p className="text-sm text-slate-600 mt-3 leading-relaxed font-normal line-clamp-3">
                   {leadStory.executiveSummary}
                 </p>
 
-                {/* Quick Facts Preview */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6 p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs">
+                {/* Quick Facts Preview - 3 Clean Columns without truncation */}
+                <div className="grid grid-cols-3 gap-3 mt-5 p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-xs">
                   <div>
                     <span className="text-[10px] uppercase font-bold text-slate-400 block">Age</span>
-                    <span className="font-bold text-slate-900">{leadStory.quickFacts.age} Years</span>
+                    <span className="font-bold text-slate-900">{leadStory.quickFacts.age} Years Old</span>
                   </div>
                   <div>
                     <span className="text-[10px] uppercase font-bold text-slate-400 block">Net Worth</span>
-                    <span className="font-bold text-emerald-700">{leadStory.quickFacts.netWorth.split(" ")[0]}</span>
+                    <span className="font-bold text-emerald-700">
+                      {leadStory.quickFacts.netWorth.split("(")[0].trim()}
+                    </span>
                   </div>
                   <div>
-                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Status</span>
-                    <span className="font-bold text-slate-900 truncate block">{leadStory.relationshipProfile.status.split(" ")[0]}</span>
-                  </div>
-                  <div>
-                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Known For</span>
-                    <span className="font-bold text-slate-900 truncate block">{leadStory.quickFacts.knownFor.split(",")[0]}</span>
+                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Profession</span>
+                    <span className="font-bold text-slate-900 truncate block">
+                      {leadStory.quickFacts.primaryRole.split(",")[0]}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -282,53 +282,78 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {netWorthStories.map((c) => (
-              <Link
-                key={c.slug}
-                href={`/celebrity/${c.slug}`}
-                className="group rounded-2xl border border-slate-200 bg-slate-50/70 p-5 hover:bg-white hover:border-emerald-500 hover:shadow-md transition flex flex-col justify-between"
-              >
-                <div>
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="relative h-14 w-14 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-slate-300">
-                      <Image
-                        src={c.heroImage}
-                        alt={`${c.name} avatar`}
-                        fill
-                        sizes="56px"
-                        className="object-cover"
-                      />
+            {netWorthStories.map((c) => {
+              const parts = c.quickFacts.netWorth.split("(");
+              const amount = parts[0].trim();
+              const source = parts[1] ? parts[1].replace(")", "").trim() : "Verified Portfolio";
+
+              return (
+                <Link
+                  key={c.slug}
+                  href={`/celebrity/${c.slug}`}
+                  className="group rounded-2xl border border-slate-200 bg-white p-5 hover:border-emerald-500 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between shadow-xs"
+                >
+                  <div>
+                    {/* Celebrity Profile Header */}
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="relative h-14 w-14 rounded-full overflow-hidden bg-slate-100 shrink-0 border-2 border-slate-200 group-hover:border-emerald-500 transition-colors shadow-2xs">
+                        <Image
+                          src={c.heroImage}
+                          alt={`${c.name} avatar`}
+                          fill
+                          sizes="56px"
+                          className="object-cover object-top"
+                        />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <h3 className="font-bold text-slate-900 group-hover:text-emerald-700 transition leading-snug truncate">
+                          {c.name}
+                        </h3>
+                        <div className="flex items-center gap-1.5 text-[11px] text-slate-500 mt-0.5">
+                          <span className="truncate">{c.quickFacts.primaryRole.split(",")[0]}</span>
+                          <span>•</span>
+                          <span className="shrink-0">{c.quickFacts.age} yrs</span>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                      <h4 className="font-bold text-slate-900 group-hover:text-emerald-700 transition leading-snug">
-                        {c.name}
-                      </h4>
-                      <span className="text-[11px] text-slate-500 block">
-                        {c.quickFacts.primaryRole.split(",")[0]}
+
+                    {/* Net Worth Box */}
+                    <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200/90 mb-3.5">
+                      <div className="flex items-center justify-between text-[10px] uppercase font-bold text-slate-400">
+                        <span>Estimated Wealth</span>
+                        <span className="text-emerald-700 font-semibold lowercase first-letter:uppercase">
+                          {source}
+                        </span>
+                      </div>
+                      <span className="text-xl font-black text-emerald-700 block mt-1 tracking-tight">
+                        {amount}
                       </span>
                     </div>
+
+                    {/* Additional Details */}
+                    <div className="space-y-1.5 text-[11px] border-t border-slate-100 pt-3">
+                      <div className="flex items-start justify-between gap-2">
+                        <span className="text-slate-400 shrink-0 font-medium">Milestone:</span>
+                        <span className="font-semibold text-slate-800 text-right truncate">
+                          {c.metrics[0]?.value}
+                        </span>
+                      </div>
+                      <div className="flex items-start justify-between gap-2">
+                        <span className="text-slate-400 shrink-0 font-medium">Benchmark:</span>
+                        <span className="text-slate-600 text-right truncate">
+                          {c.metrics[0]?.benchmark}
+                        </span>
+                      </div>
+                    </div>
                   </div>
 
-                  <div className="rounded-xl bg-white p-3.5 border border-slate-200 mb-3">
-                    <span className="text-[10px] uppercase font-bold text-slate-400 block">
-                      Estimated Net Worth
-                    </span>
-                    <span className="text-lg font-black text-emerald-700 block mt-0.5">
-                      {c.quickFacts.netWorth}
-                    </span>
+                  <div className="pt-3 mt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-800 group-hover:text-emerald-700 transition">
+                    <span>View Financial Details</span>
+                    <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition-transform" />
                   </div>
-
-                  <p className="text-[11px] text-slate-600 line-clamp-2 leading-relaxed">
-                    {c.metrics[0]?.label}: {c.metrics[0]?.value}
-                  </p>
-                </div>
-
-                <div className="pt-3 mt-3 border-t border-slate-200/80 flex items-center justify-between text-xs font-bold text-slate-800 group-hover:text-emerald-700">
-                  <span>View Details</span>
-                  <ArrowRight className="h-3 w-3" />
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
