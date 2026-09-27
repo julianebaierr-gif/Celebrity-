@@ -13,6 +13,7 @@ import FilmographyTable from "@/components/profile/FilmographyTable";
 import FaqSection from "@/components/profile/FaqSection";
 import EditorialBadge from "@/components/profile/EditorialBadge";
 import EditorialBiography from "@/components/profile/EditorialBiography";
+import RelationshipSection from "@/components/profile/RelationshipSection";
 import { ChevronRight, ExternalLink } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
@@ -280,30 +281,10 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
           />
 
           {/* 6. Relationship Profile & Personal Life */}
-          <section id="relationship-profile" className="my-10 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
-            <div className="mb-4">
-              <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-                Relationship Timeline & Personal Life
-              </h2>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="rounded-xl bg-slate-50 p-5 border border-slate-200">
-                <span className="text-slate-500 text-[11px] block font-bold uppercase tracking-wider">Marital Status</span>
-                <span className="text-base font-black text-slate-900 block mt-1">{celebrity.relationshipProfile.status}</span>
-                {celebrity.relationshipProfile.partner && (
-                  <span className="text-xs text-amber-800 font-semibold block mt-1">Partner: {celebrity.relationshipProfile.partner}</span>
-                )}
-              </div>
-
-              <div className="md:col-span-2 text-sm text-slate-600 leading-relaxed space-y-2.5">
-                <p>{celebrity.relationshipProfile.datingHistorySummary}</p>
-                <p className="text-xs text-slate-400">
-                  Privacy Note: CelebEdge verifies relationship milestones strictly through authorized public statements, certified marriage licenses, and direct on-record interviews to prevent unverified gossip.
-                </p>
-              </div>
-            </div>
-          </section>
+          <RelationshipSection
+            relationshipProfile={celebrity.relationshipProfile}
+            celebrityName={celebrity.name}
+          />
 
           {/* 7. Frequently Asked Questions (PAA Accordion) */}
           <FaqSection
