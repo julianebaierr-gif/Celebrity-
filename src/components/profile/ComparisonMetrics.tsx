@@ -1,6 +1,6 @@
 import React from "react";
 import { MetricItem } from "@/data/celebrities";
-import { TrendingUp } from "lucide-react";
+import { Award, CheckCircle2 } from "lucide-react";
 
 interface ComparisonMetricsProps {
   metrics: MetricItem[];
@@ -10,38 +10,51 @@ interface ComparisonMetricsProps {
 export default function ComparisonMetrics({ metrics, celebrityName }: ComparisonMetricsProps) {
   return (
     <section id="financial-metrics" className="my-10">
-      <div className="flex items-center gap-2 mb-3">
-        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200">
-          <TrendingUp className="h-4 w-4" />
+      <div className="flex items-center gap-2.5 mb-2">
+        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-50 text-amber-700 border border-amber-200 shadow-2xs">
+          <Award className="h-4 w-4" />
         </span>
         <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-          Career Earnings & Performance Indicators
+          Career Milestones & Performance Benchmarks
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-6 leading-relaxed">
-        Comparative earnings indicators and performance metrics for {celebrityName}.
+        Verified industry metrics, box office records, and career benchmarks for {celebrityName}.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-stretch">
         {metrics.map((metric, idx) => (
           <div
             key={idx}
-            className="rounded-2xl border border-slate-200 bg-white p-5 shadow-xs flex flex-col justify-between hover:border-slate-300 transition"
+            className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-xs flex flex-col justify-between hover:border-amber-400 hover:shadow-md transition-all duration-300"
           >
             <div>
-              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 block mb-1">
-                {metric.label}
-              </span>
-              <span className="text-2xl font-black text-slate-900 block tracking-tight">
-                {metric.value}
-              </span>
-              <span className="text-xs text-amber-700 font-semibold mt-1.5 block">
-                {metric.benchmark}
-              </span>
+              {/* Fixed-height label container for 100% horizontal alignment */}
+              <div className="h-9 flex items-center mb-1">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 group-hover:text-amber-700 transition-colors line-clamp-2 leading-tight">
+                  {metric.label}
+                </span>
+              </div>
+
+              {/* Fixed-height value container to prevent any vertical jumping */}
+              <div className="h-16 flex items-center my-1">
+                <span className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-tight">
+                  {metric.value}
+                </span>
+              </div>
+
+              {/* Fixed-height benchmark container with elegant tag */}
+              <div className="h-10 flex items-center">
+                <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-amber-50 text-amber-900 text-[11px] font-semibold border border-amber-200/60 line-clamp-1">
+                  {metric.benchmark}
+                </span>
+              </div>
             </div>
 
-            <div className="mt-5 pt-3 border-t border-slate-100 text-[11px] text-slate-400 font-medium">
-              <span className="truncate">Source: {metric.verifiedSource}</span>
+            {/* Pinned verified source footer with checkmark */}
+            <div className="mt-5 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] text-slate-400 font-medium">
+              <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 shrink-0" />
+              <span className="truncate">Verified: {metric.verifiedSource}</span>
             </div>
           </div>
         ))}
