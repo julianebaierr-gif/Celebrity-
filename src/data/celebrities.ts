@@ -458,8 +458,8 @@ export const CELEBRITIES: CelebrityProfile[] = [
     heroImageCaption: "Taylor Swift at the MTV Video Music Awards ceremony in Newark, New Jersey.",
     heroImageLicense: "CC BY 3.0 / Wikimedia Commons",
     contentImage: "/images/celebrities/taylor-swift-wedding-content.webp",
-    contentImageCaption: "Taylor Swift performing live during The Eras Tour record-breaking stadium run.",
-    contentImageLicense: "CC BY 2.0 / Wikimedia Commons",
+    contentImageCaption: "Taylor Swift on the red carpet at the American Music Awards gala in Los Angeles.",
+    contentImageLicense: "CC BY 3.0 / Wikimedia Commons",
     backdropImage: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1920&q=80",
     executiveSummary: "Taylor Swift is not officially married. While her high-profile partnership with Kansas City Chiefs NFL star Travis Kelce has garnered widespread global news coverage since mid-2023, neither party has held an official wedding or announced formal nuptials. Frequent searches regarding a 'Taylor Swift Wedding' stem from widespread public curiosity, high-profile attendance at family celebrations, and public interest in her personal life.",
     quickFacts: {
