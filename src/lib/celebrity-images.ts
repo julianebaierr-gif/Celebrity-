@@ -1,8 +1,19 @@
 /**
- * Automated Celebrity Image Service
- * Integrates Wikimedia Commons API & TMDb (The Movie Database) API
- * Provides 100% legal, copyright-free, verified celebrity photography.
+ * Automated Celebrity & Partner Image Service
+ * Bridges to verified-image-pipeline for 100% real person verification.
+ * Strictly eliminates generic stock/placeholder images.
  */
+
+export * from "./verified-image-pipeline";
+export {
+  fetchWikimediaCelebrityImage,
+  fetchTMDbCelebrityImage,
+  resolveCelebrityImage,
+};
+
+import {
+  resolveAndSaveEntityImage,
+} from "./verified-image-pipeline";
 
 interface WikimediaImageResult {
   sourceUrl: string;
@@ -11,80 +22,38 @@ interface WikimediaImageResult {
 }
 
 /**
- * Fetch high-resolution verified celebrity portrait from Wikimedia Commons
+ * Legacy compatibility wrapper for Wikimedia Commons
  */
-export async function fetchWikimediaCelebrityImage(celebrityName: string): Promise<WikimediaImageResult | null> {
-  try {
-    const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(
-      celebrityName
-    )}&prop=pageimages|imageinfo&piprop=thumbnail|original&format=json&pithumbsize=1200`;
+async function fetchWikimediaCelebrityImage(celebrityName: string): Promise<WikimediaImageResult | null> {
+  const result = await resolveAndSaveEntityImage({
+    name: celebrityName,
+    slug: celebrityName.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+    category: "hero",
+  });
 
-    const res = await fetch(url, {
-      headers: {
-        "User-Agent": "CelebEdge/1.0 (https://celeb-edge.vercel.app; info@celeb-edge.com)",
-      },
-      next: { revalidate: 86400 }, // Cache for 24 hours
-    });
-
-    if (!res.ok) return null;
-
-    const data = await res.json();
-    const pages = data.query?.pages;
-    if (!pages) return null;
-
-    const pageId = Object.keys(pages)[0];
-    const page = pages[pageId];
-
-    if (!page || page.missing) return null;
-
-    const imageUrl = page.original?.source?.split("?")[0] || page.thumbnail?.source?.split("?")[0];
-    if (!imageUrl) return null;
-
+  if (result.success && result.sourceUrl) {
     return {
-      sourceUrl: imageUrl,
-      caption: `${celebrityName} official portrait archive. Photo: Wikimedia Commons.`,
-      license: "Creative Commons / Public Domain",
+      sourceUrl: result.sourceUrl,
+      caption: result.caption || `${celebrityName} official portrait archive.`,
+      license: result.license || "Creative Commons / Public Domain",
     };
-  } catch (error) {
-    console.error(`Failed to fetch Wikimedia image for ${celebrityName}:`, error);
-    return null;
   }
+
+  return null;
 }
 
 /**
- * Fetch verified actor headshot from TMDb API (if TMDb API key configured)
+ * Legacy compatibility wrapper for TMDb
  */
-export async function fetchTMDbCelebrityImage(celebrityName: string): Promise<WikimediaImageResult | null> {
-  const apiKey = process.env.TMDB_API_KEY;
-  if (!apiKey) return null;
-
-  try {
-    const searchUrl = `https://api.themoviedb.org/3/search/person?api_key=${apiKey}&query=${encodeURIComponent(
-      celebrityName
-    )}`;
-    const res = await fetch(searchUrl, { next: { revalidate: 86400 } });
-    if (!res.ok) return null;
-
-    const data = await res.json();
-    const person = data.results?.[0];
-    if (!person || !person.profile_path) return null;
-
-    return {
-      sourceUrl: `https://image.tmdb.org/t/p/w1280${person.profile_path}`,
-      caption: `${celebrityName} high-resolution headshot. Photo: TMDb Verified Database.`,
-      license: "TMDb API / Fair Use Editorial",
-    };
-  } catch (error) {
-    console.error(`Failed to fetch TMDb image for ${celebrityName}:`, error);
-    return null;
-  }
+async function fetchTMDbCelebrityImage(celebrityName: string): Promise<WikimediaImageResult | null> {
+  return fetchWikimediaCelebrityImage(celebrityName);
 }
 
 /**
  * Hybrid Image Resolver:
- * Checks local database -> TMDb -> Wikimedia Commons -> Fallback
+ * Checks local database -> Verified Pipeline -> Fallback
  */
-export async function resolveCelebrityImage(
+async function resolveCelebrityImage(
   celebrityName: string,
   currentHeroImage: string
 ): Promise<string> {
@@ -92,13 +61,15 @@ export async function resolveCelebrityImage(
     return currentHeroImage;
   }
 
-  // 1. Try TMDb API first if configured
-  const tmdb = await fetchTMDbCelebrityImage(celebrityName);
-  if (tmdb?.sourceUrl) return tmdb.sourceUrl;
+  const res = await resolveAndSaveEntityImage({
+    name: celebrityName,
+    slug: celebrityName.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+    category: "hero",
+  });
 
-  // 2. Try Wikimedia Commons API
-  const wiki = await fetchWikimediaCelebrityImage(celebrityName);
-  if (wiki?.sourceUrl) return wiki.sourceUrl;
+  if (res.success && res.localPath) {
+    return res.localPath;
+  }
 
   return currentHeroImage;
 }
