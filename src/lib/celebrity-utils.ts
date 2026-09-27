@@ -131,3 +131,27 @@ export function getAgeBadgeText(
   }
   return shortFormat ? `${age} yrs` : `${age} Years Old`;
 }
+
+/**
+ * Formats net worth string cleanly into readable standard financial journalism format.
+ * e.g., "$35.0 Million USD (Forbes Verified)" => "$35 Million"
+ * e.g., "$1.6 Billion USD (Forbes Verified)" => "$1.6 Billion"
+ * Never drops the critical "Million" or "Billion" unit!
+ */
+export function formatNetWorth(netWorthStr?: string): string {
+  if (!netWorthStr) return "";
+  const match = netWorthStr.match(/\$([0-9]+(?:\.[0-9]+)?)\s*(Million|Billion|Trillion|M|B)?/i);
+  if (!match) {
+    return netWorthStr.split("(")[0].trim();
+  }
+  const numStr = match[1];
+  const unit = match[2];
+  const num = parseFloat(numStr);
+  const formattedNum = num % 1 === 0 ? num.toFixed(0) : num.toString();
+  if (unit) {
+    const cleanUnit = unit.toLowerCase().startsWith("b") ? "Billion" : "Million";
+    return `$${formattedNum} ${cleanUnit}`;
+  }
+  return `$${formattedNum}`;
+}
+

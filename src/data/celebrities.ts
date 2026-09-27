@@ -107,21 +107,23 @@ export const CELEBRITIES: CelebrityProfile[] = [
     contentImageCaption: "Tim Curry appearing at The Rocky Horror Picture Show 50th Anniversary Gala celebration.",
     contentImageLicense: "CC BY-SA 4.0 / Wikimedia Commons",
     backdropImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    executiveSummary: "Timothy James Curry (born April 19, 1946) is an English actor, singer, and voice artist renowned for seminal performances including Dr. Frank-N-Furter in 'The Rocky Horror Picture Show' (1975) and Pennywise the Dancing Clown in the landmark 'IT' (1990) miniseries. Despite physical challenges following a stroke in 2012, Curry continues his voice acting work and public theatrical appearances, honored with a Lifetime Achievement Tony recognition.",
+    executiveSummary: "Timothy James Curry (April 19, 1946 – August 25, 2026) was an English actor, singer, and voice artist renowned for seminal performances including Dr. Frank-N-Furter in 'The Rocky Horror Picture Show' (1975) and Pennywise the Dancing Clown in the landmark 'IT' (1990) miniseries. Honored with a Lifetime Achievement Tony recognition, Curry's virtuosic six-decade career defined musical theatre, cinema, and character voice artistry before his passing in August 2026 at age 80.",
     quickFacts: {
       fullName: "Timothy James Curry",
       birthDate: "April 19, 1946",
       birthPlace: "Grappenhall, Cheshire, England",
+      deathDate: "August 25, 2026",
+      isDeceased: true,
       age: 80,
       height: "5 ft 9 in (175 cm)",
       netWorth: "$12.0 Million USD (Verified Portfolio)",
       primaryRole: "Actor, Singer, Voiceover Artist",
       knownFor: "The Rocky Horror Picture Show, IT (1990), Clue (1985), Home Alone 2",
-      activeYears: "1968–Present",
+      activeYears: "1968–2026",
       education: "University of Birmingham (BA Drama & English)"
     },
     metrics: [
-      { label: "Distinguished Career Span", value: "58+ Years", benchmark: "Six Decades of Cinematic Mastery", verifiedSource: "Equity UK" },
+      { label: "Distinguished Career Span", value: "58 Years (1968–2026)", benchmark: "Six Decades of Cinematic Mastery", verifiedSource: "Equity UK" },
       { label: "Major Stage & Screen Honors", value: "3 Tony / 2 Emmy Noms", benchmark: "Triple-Threat Legend", verifiedSource: "The Tony Awards" },
       { label: "Voiceover Filmography", value: "100+ Animated Titles", benchmark: "Elite Voice Industry Standard", verifiedSource: "IMDb Pro" },
       { label: "Theatrical Run Record", value: "51-Year Continuous Run", benchmark: "Rocky Horror World Record", verifiedSource: "Guinness World Records" }
@@ -130,7 +132,7 @@ export const CELEBRITIES: CelebrityProfile[] = [
       { year: "1975", title: "The Rocky Horror Picture Show", description: "Created the cultural benchmark of Dr. Frank-N-Furter, launching the longest-running theatrical release in cinematic history." },
       { year: "1985", title: "Clue (Wadsworth)", description: "Delivered his virtuoso comedic performance as Wadsworth the Butler, cementing a beloved cult classic." },
       { year: "1990", title: "Stephen King's IT Miniseries", description: "Defined nightmare fuel for a generation with his terrifying, nuanced performance as Pennywise." },
-      { year: "2015–2026", title: "Lifetime Honors & Voice Work", description: "Honored with the Actors Fund Artistic Achievement Award and regular voice work in major animated features." }
+      { year: "2015–2026", title: "Lifetime Honors & Final Works", description: "Honored with the Actors Fund Artistic Achievement Award and regular voice work before his passing in August 2026." }
     ],
     filmography: [
       { title: "The Rocky Horror Picture Show", year: 1975, role: "Dr. Frank-N-Furter", type: "Movie", rating: 7.4, boxOfficeOrNetwork: "20th Century Fox Classic" },
@@ -141,16 +143,16 @@ export const CELEBRITIES: CelebrityProfile[] = [
     ],
     relationshipProfile: {
       status: "Lifelong Bachelor",
-      datingHistorySummary: "Curry has never married and has deliberately preserved his privacy throughout his six-decade artistic career, residing in Southern California."
+      datingHistorySummary: "Curry never married and deliberately preserved his privacy throughout his six-decade artistic career, residing in Toluca Lake, Los Angeles."
     },
     faqs: [
       {
-        question: "Is Tim Curry still active in the arts?",
-        answer: "Yes, Tim Curry remains an active voice actor, convention speaker, and artistic patron, maintaining a committed schedule of professional voice roles and philanthropic work."
+        question: "When did Tim Curry pass away?",
+        answer: "Tim Curry passed away on August 25, 2026, at the age of 80 in Toluca Lake, Los Angeles, California, leaving behind an indelible six-decade artistic legacy across stage, film, and voice acting."
       },
       {
         question: "What health condition did Tim Curry overcome?",
-        answer: "In July 2012, Tim Curry suffered a stroke. Through focused physical and vocal rehabilitation, he continued his craft, utilizing a wheelchair while providing iconic voiceover performances."
+        answer: "In July 2012, Tim Curry suffered a stroke. Through focused rehabilitation, he continued his craft for over a decade, utilizing a wheelchair while providing iconic voiceover performances and convention appearances."
       },
       {
         question: "What are Tim Curry's signature movie roles?",

@@ -8,7 +8,7 @@ import {
   Calendar,
   ArrowRight,
 } from "lucide-react";
-import { getAgeBadgeText } from "@/lib/celebrity-utils";
+import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 export const metadata: Metadata = {
   title: "CelebEdge | Celebrity Biographies, Filmographies & Profiles",
@@ -84,7 +84,7 @@ export default function HomePage() {
                   <div>
                     <span className="text-[10px] uppercase font-bold text-slate-400 block">Net Worth</span>
                     <span className="font-bold text-emerald-700">
-                      {leadStory.quickFacts.netWorth.split("(")[0].trim()}
+                      {formatNetWorth(leadStory.quickFacts.netWorth)}
                     </span>
                   </div>
                   <div>
@@ -167,7 +167,7 @@ export default function HomePage() {
 
                     <div className="mt-2.5 flex items-center justify-between text-xs">
                       <span className="font-semibold text-emerald-700 text-[11px]">
-                        {story.quickFacts.netWorth.split(" ")[0]} Net Worth
+                        {formatNetWorth(story.quickFacts.netWorth)} Net Worth
                       </span>
                       <Link
                         href={`/celebrity/${story.slug}`}
@@ -253,7 +253,7 @@ export default function HomePage() {
 
               <div className="px-6 pb-6 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] font-semibold text-slate-500">
-                  {item.quickFacts.netWorth.split(" ")[0]} Net Worth
+                  {formatNetWorth(item.quickFacts.netWorth)} Net Worth
                 </span>
 
                 <Link

@@ -13,7 +13,7 @@ import FilmographyTable from "@/components/profile/FilmographyTable";
 import FaqSection from "@/components/profile/FaqSection";
 import EditorialBadge from "@/components/profile/EditorialBadge";
 import { ChevronRight, ExternalLink, Heart, Milestone } from "lucide-react";
-import { getAgeBadgeText } from "@/lib/celebrity-utils";
+import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -129,7 +129,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                   <span>•</span>
                   <span>{getAgeBadgeText(celebrity.quickFacts)}</span>
                   <span>•</span>
-                  <span>{celebrity.quickFacts.netWorth.split(" ")[0]} Net Worth</span>
+                  <span>{formatNetWorth(celebrity.quickFacts.netWorth)} Net Worth</span>
                 </div>
 
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">

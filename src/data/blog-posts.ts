@@ -55,8 +55,8 @@ When 20th Century Fox released 'The Rocky Horror Picture Show' in 1975, initial 
 ### The Nuance of Pennywise
 In ABC's landmark 1990 adaptation of Stephen King's 'IT', Curry created a cultural nightmare that influenced an entire generation. Avoiding excessive gore, his Pennywise relied on vaudevillian comedic timing juxtaposed with genuine menace.
 
-### Resilience and Artistic Commitment
-Following a stroke in 2012, Curry's resilience has served as an enduring inspiration. Retaining his distinctive baritone and sharp wit, he has remained a prolific voiceover artist and theatrical patron, honored with a Lifetime Achievement Tony Award.
+### Resilience and Enduring Artistic Legacy
+Following a stroke in 2012, Curry's resilience served as an enduring inspiration. Retaining his distinctive baritone and sharp wit, he remained an admired voiceover artist and theatrical patron, honored with a Lifetime Achievement Tony Award. His passing on August 25, 2026, concluded one of the most fearless, versatile careers in British and American entertainment history.
     `,
     coverImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
     author: {

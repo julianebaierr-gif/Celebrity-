@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 import { searchCelebrities } from "@/data/celebrity-service";
 import { Search, ArrowRight, DollarSign } from "lucide-react";
-import { getAgeBadgeText } from "@/lib/celebrity-utils";
+import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 export const metadata: Metadata = {
   title: "Search Celebrity Profiles | CelebEdge",
@@ -98,7 +98,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     <div className="flex items-center justify-between text-[11px] mb-2 font-medium">
                       <span className="text-emerald-700 font-bold flex items-center gap-1">
                         <DollarSign className="h-3 w-3" />
-                        {item.quickFacts.netWorth.split(" ")[0]} Net Worth
+                        {formatNetWorth(item.quickFacts.netWorth)} Net Worth
                       </span>
                       <span className="text-slate-400 font-mono">
                         {getAgeBadgeText(item.quickFacts)}
