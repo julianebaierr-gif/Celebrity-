@@ -306,7 +306,7 @@ export default function HomePage() {
                         />
                       </div>
                       <div className="min-w-0 flex-1">
-                        <h3 className="font-bold text-slate-900 group-hover:text-emerald-700 transition leading-snug truncate">
+                        <h3 className="font-bold text-slate-900 group-hover:text-emerald-700 transition leading-snug break-words">
                           {c.name}
                         </h3>
                         <div className="flex items-center gap-1.5 text-[11px] text-slate-500 mt-0.5">
@@ -336,7 +336,7 @@ export default function HomePage() {
                         <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
                           Career Milestone
                         </span>
-                        <span className="font-bold text-slate-900 text-[11px] block mt-0.5 truncate">
+                        <span className="font-bold text-slate-900 text-[11px] block mt-0.5 leading-snug break-words">
                           {c.careerMilestones[0]?.title} ({c.careerMilestones[0]?.year})
                         </span>
                       </div>
