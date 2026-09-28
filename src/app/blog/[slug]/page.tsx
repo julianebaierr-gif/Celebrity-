@@ -345,14 +345,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {/* Main Content */}
       <main className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-8">
         {/* Cover Image */}
-        <div className="relative h-80 sm:h-[480px] w-full rounded-3xl overflow-hidden border border-slate-200 shadow-sm mb-8">
+        <div className="relative aspect-[16/9] w-full rounded-3xl overflow-hidden border border-slate-200 shadow-sm mb-8">
           <Image
             src={post.coverImage}
             alt={post.title}
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 896px"
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
 
@@ -392,18 +392,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             if (imgMatch) {
               const [, caption, src] = imgMatch;
               return (
-                <figure key={idx} className="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 p-2.5 shadow-xs">
-                  <div className="relative h-72 sm:h-96 w-full rounded-xl overflow-hidden">
+                <figure key={idx} className="my-10 rounded-3xl overflow-hidden border border-slate-200/90 bg-slate-50/70 p-3 sm:p-4 shadow-xs">
+                  <div className="relative aspect-[16/10] sm:aspect-[3/2] w-full rounded-2xl overflow-hidden bg-slate-100">
                     <Image
                       src={src}
                       alt={caption || post.title}
                       fill
-                      sizes="(max-width: 1024px) 100vw, 800px"
-                      className="object-cover"
+                      sizes="(max-width: 1024px) 100vw, 896px"
+                      className="object-cover object-top"
                     />
                   </div>
                   {caption && (
-                    <figcaption className="text-center text-xs text-slate-500 font-medium pt-3 pb-1 px-4 italic">
+                    <figcaption className="text-center text-xs sm:text-sm text-slate-500 font-medium pt-3 pb-1 px-4 italic">
                       {caption}
                     </figcaption>
                   )}
