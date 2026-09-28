@@ -1,17 +1,67 @@
 import React from "react";
+import Link from "next/link";
 import { BiographySection } from "@/data/celebrities";
 import { Quote } from "lucide-react";
+import { injectNaturalInternalLinks } from "@/lib/system4-internal-link-engine";
 
 interface EditorialBiographyProps {
   celebrityName: string;
+  celebritySlug?: string;
   sections?: BiographySection[];
+}
+
+function parseBioMarkdown(text: string): React.ReactNode[] {
+  const parts = text.split(/(\[.*?\]\(.*?\)|\*\*.*?\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith("[") && part.includes("](") && part.endsWith(")")) {
+      const match = part.match(/\[(.*?)\]\((.*?)\)/);
+      if (match) {
+        const [, label, href] = match;
+        return (
+          <Link
+            key={index}
+            href={href}
+            className="text-amber-800 font-bold underline underline-offset-2 hover:text-amber-900 transition-colors"
+          >
+            {label}
+          </Link>
+        );
+      }
+    } else if (part.startsWith("**") && part.endsWith("**") && part.length >= 4) {
+      const inner = part.slice(2, -2);
+      return (
+        <strong key={index} className="font-bold text-slate-900">
+          {parseBioMarkdown(inner)}
+        </strong>
+      );
+    }
+    return part;
+  });
 }
 
 export default function EditorialBiography({
   celebrityName,
+  celebritySlug,
   sections,
 }: EditorialBiographyProps) {
   if (!sections || sections.length === 0) return null;
+
+  // Process biography paragraphs through System 4 Natural Linking Engine
+  const processedSections = React.useMemo(() => {
+    if (!celebritySlug) return sections;
+    return sections.map((section) => {
+      const combinedText = section.paragraphs.join("\n\n");
+      const interlinked = injectNaturalInternalLinks(combinedText, {
+        currentSlug: celebritySlug,
+        scope: "profile",
+        maxLinksPerEntity: 1,
+      });
+      return {
+        ...section,
+        paragraphs: interlinked.split("\n\n"),
+      };
+    });
+  }, [sections, celebritySlug]);
 
   return (
     <section id="biographical-retrospective" className="my-12">
@@ -27,7 +77,7 @@ export default function EditorialBiography({
 
       {/* Chapters Container */}
       <div className="space-y-10">
-        {sections.map((section, idx) => (
+        {processedSections.map((section, idx) => (
           <article
             key={idx}
             className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-9 shadow-xs hover:border-slate-300 transition-colors"
@@ -52,7 +102,7 @@ export default function EditorialBiography({
                         : ""
                     }
                   >
-                    {p}
+                    {parseBioMarkdown(p)}
                   </p>
                 );
               })}

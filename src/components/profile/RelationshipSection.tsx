@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, HeartHandshake, ShieldCheck } from "lucide-react";
 import { RelationshipProfile } from "@/data/celebrities";
+import { isEntityPublished } from "@/lib/system4-internal-link-engine";
 
 interface RelationshipSectionProps {
   relationshipProfile: RelationshipProfile;
@@ -100,8 +101,8 @@ export default function RelationshipSection({
                     )}
                   </div>
 
-                  {/* Internal Link to Partner's Verified Profile */}
-                  {partner.profileSlug && (
+                  {/* System 4 Autonomous Gatekeeper: Only link if published on CelebEdge */}
+                  {partner.profileSlug && isEntityPublished(partner.profileSlug) ? (
                     <div className="pt-2">
                       <Link
                         href={`/celebrity/${partner.profileSlug}`}
@@ -114,6 +115,13 @@ export default function RelationshipSection({
                           aria-hidden="true"
                         />
                       </Link>
+                    </div>
+                  ) : (
+                    <div className="pt-2">
+                      <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-slate-500 bg-white/90 px-2.5 py-1 rounded-md border border-slate-200 shadow-2xs">
+                        <ShieldCheck className="h-3.5 w-3.5 text-emerald-600" aria-hidden="true" />
+                        <span>Verified Dossier Record</span>
+                      </span>
                     </div>
                   )}
                 </div>

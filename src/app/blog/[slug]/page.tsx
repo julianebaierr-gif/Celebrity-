@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { getBlogPostBySlug, getAllBlogPosts } from "@/data/blog-posts";
+import { injectNaturalInternalLinks } from "@/lib/system4-internal-link-engine";
 import FaqAccordion from "@/components/blog/FaqAccordion";
 import {
   ChevronRight,
@@ -113,9 +114,10 @@ function parseInlineMarkdown(text: string): React.ReactNode[] {
         );
       }
     } else if (part.startsWith("**") && part.endsWith("**") && part.length >= 4) {
+      const inner = part.slice(2, -2);
       return (
         <strong key={index} className="font-bold text-slate-900">
-          {part.slice(2, -2)}
+          {parseInlineMarkdown(inner)}
         </strong>
       );
     }
@@ -185,7 +187,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const postUrl = `${siteUrl}/blog/${slug}`;
   const imageUrl = post.coverImage.startsWith("http") ? post.coverImage : `${siteUrl}${post.coverImage}`;
 
-  const { articleBlocks, faqs } = parseArticleAndFaqs(post.content);
+  // System 4: Autonomous Natural Internal Linking Engine
+  const interlinkedContent = injectNaturalInternalLinks(post.content, {
+    currentSlug: slug,
+    scope: "blog",
+  });
+
+  const { articleBlocks, faqs } = parseArticleAndFaqs(interlinkedContent);
 
   // Extract primary celebrity slug if present in tags or content
   let primaryCelebritySlug = "zendaya";

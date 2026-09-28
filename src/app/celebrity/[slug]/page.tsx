@@ -271,6 +271,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
           {/* 4. Comprehensive Biographical Analysis & Critical Retrospective */}
           <EditorialBiography
             celebrityName={celebrity.name}
+            celebritySlug={celebrity.slug}
             sections={celebrity.biographySections}
           />
 
