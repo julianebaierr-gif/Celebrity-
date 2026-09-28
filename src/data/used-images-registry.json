@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-28T11:51:38.545Z",
+  "lastUpdated": "2026-09-28T13:23:22.580Z",
   "totalUniqueImages": 57,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
@@ -22,7 +22,8 @@
       "entity": "cillian-murphy",
       "placement": "profile_hero",
       "pageSlug": "cillian-murphy",
-      "assignedAt": "2026-09-28T11:31:57.096Z"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_%28cropped%29.jpg"
     },
     "/images/celebrities/cillian-murphy-content.webp": {
       "filePath": "/images/celebrities/cillian-murphy-content.webp",
@@ -43,7 +44,8 @@
       "entity": "zendaya",
       "placement": "profile_hero",
       "pageSlug": "zendaya",
-      "assignedAt": "2026-09-28T11:31:57.096Z"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Zendaya_2026_%28cropped%29.jpg"
     },
     "/images/celebrities/zendaya-content.webp": {
       "filePath": "/images/celebrities/zendaya-content.webp",
@@ -341,64 +343,67 @@
     },
     "/images/celebrities/zendaya-tom-holland-engagement-cover.webp": {
       "filePath": "/images/celebrities/zendaya-tom-holland-engagement-cover.webp",
-      "entity": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "entity": "Zendaya",
       "placement": "blog_cover",
       "pageSlug": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
-      "assignedAt": "2026-09-28T11:31:57.097Z"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Zendaya_Full_Length_-_2019_by_Glenn_Francis.jpg"
     },
     "/images/blog/zendaya-london-press-2026.webp": {
       "filePath": "/images/blog/zendaya-london-press-2026.webp",
-      "entity": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "entity": "Zendaya",
       "placement": "blog_content_1",
       "pageSlug": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
-      "assignedAt": "2026-09-28T11:31:57.097Z"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Zendaya_2024.jpg"
     },
     "/images/blog/tom-holland-london-appearance-2026.webp": {
       "filePath": "/images/blog/tom-holland-london-appearance-2026.webp",
-      "entity": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "entity": "Tom Holland",
       "placement": "blog_content_2",
       "pageSlug": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
-      "assignedAt": "2026-09-28T11:31:57.097Z"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/TomHolland-byPhilipRomano.jpg"
     },
     "/images/blog/cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe-cover-blog_cover.webp": {
       "filePath": "/images/blog/cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe-cover-blog_cover.webp",
       "entity": "Cillian Murphy",
       "placement": "blog_cover",
       "pageSlug": "cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe",
-      "assignedAt": "2026-09-28T11:51:20.979Z",
-      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/MKr348308_Cillian_Murphy_%28Small_Things_Like_These%2C_Berlinale_2024%29.jpg"
     },
     "/images/blog/cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe-incontent-1-blog_content.webp": {
       "filePath": "/images/blog/cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe-incontent-1-blog_content.webp",
       "entity": "Cillian Murphy",
       "placement": "blog_content_1",
       "pageSlug": "cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe",
-      "assignedAt": "2026-09-28T11:51:22.391Z",
-      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Cillian_Murphy-2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Matt_Damon_and_Cillian_Murphy_at_Berlinale_2024.jpg"
     },
     "/images/blog/cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe-incontent-2-blog_content.webp": {
       "filePath": "/images/blog/cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe-incontent-2-blog_content.webp",
       "entity": "Cillian Murphy",
-      "placement": "blog_content_1",
+      "placement": "blog_content_2",
       "pageSlug": "cillian-murphy-cillian-murphy-wins-best-actor-for-oppenheimer-comprehe",
-      "assignedAt": "2026-09-28T11:51:24.677Z",
-      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Cillian_Murphy_Press_Conference_The_Party_Berlinale_2017_02cr.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cillian_Murphy_in_Toronto_-_TIFF_-_September_5%2C_2025_by_Valery_Santillana.jpg"
     },
     "/images/blog/keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter-cover-blog_cover.webp": {
       "filePath": "/images/blog/keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter-cover-blog_cover.webp",
       "entity": "Keanu Reeves",
       "placement": "blog_cover",
       "pageSlug": "keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter",
-      "assignedAt": "2026-09-28T11:51:34.107Z",
-      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Keanu_Reeves_2013_TIFF.jpg"
     },
     "/images/blog/keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter-incontent-1-blog_content.webp": {
       "filePath": "/images/blog/keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter-incontent-1-blog_content.webp",
       "entity": "Keanu Reeves",
       "placement": "blog_content_1",
       "pageSlug": "keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter",
-      "assignedAt": "2026-09-28T11:51:36.176Z",
-      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Alexandra_Grant_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+      "assignedAt": "2026-09-28T13:23:22.580Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Keanu_Reeves_%2810615035873%29.jpg"
     },
     "/images/blog/keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter-incontent-2-blog_content.webp": {
       "filePath": "/images/blog/keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter-incontent-2-blog_content.webp",

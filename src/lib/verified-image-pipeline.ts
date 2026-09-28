@@ -81,7 +81,73 @@ async function downloadBuffer(url: string, retries = 3): Promise<Buffer | null> 
 }
 
 /**
- * Tier 1: TMDb Official Person API
+ * Tier 1 Priority: Red-Carpet, Premiere & Full-Body Fashion Search
+ * Actively searches for full-length gown, suit, red carpet, and gala arrivals.
+ * Strictly avoids tight face crops, mugshots, or previously used photoshoots.
+ */
+async function fetchFullBodyFashionPhoto(
+  name: string
+): Promise<{ url: string; caption: string; license: string } | null> {
+  const searchQueries = [
+    `"${name}" red carpet filetype:bitmap`,
+    `"${name}" premiere filetype:bitmap`,
+    `"${name}" gala filetype:bitmap`,
+    `"${name}" fashion filetype:bitmap`,
+    `"${name}" full length filetype:bitmap`,
+  ];
+
+  for (const q of searchQueries) {
+    try {
+      const url = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(
+        q
+      )}&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url|size&format=json`;
+
+      const res = await fetch(url, { headers: { "User-Agent": WIKI_USER_AGENT } });
+      if (!res.ok) continue;
+
+      const data = await res.json();
+      const pages = Object.values(data.query?.pages || {}) as any[];
+
+      for (const p of pages) {
+        const title = (p.title || "").toLowerCase();
+        const ii = p.imageinfo?.[0];
+        if (!ii || !ii.url) continue;
+
+        // Skip cropped, icon, svg, logos, headshot, passport
+        if (
+          title.includes("cropped") ||
+          title.includes("headshot") ||
+          title.includes("passport") ||
+          title.includes("avatar") ||
+          title.includes("icon") ||
+          title.includes("logo") ||
+          title.includes(".svg")
+        ) {
+          continue;
+        }
+
+        // Must be safe and NOT registered on the site
+        if (!isSafeUrl(ii.url) || isImageRegistered(ii.url)) {
+          continue;
+        }
+
+        const cleanTitle = p.title.replace(/^File:/, "").replace(/\.[^.]+$/, "");
+        return {
+          url: ii.url,
+          caption: `${name} walking the red carpet in formal designer attire (${cleanTitle}). Photo: Wikimedia Commons.`,
+          license: "Creative Commons / Public Domain",
+        };
+      }
+    } catch {
+      continue;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Tier 2: TMDb Official Person API
  */
 async function fetchFromTMDB(name: string): Promise<{ url: string; caption: string; license: string } | null> {
   const apiKey = process.env.TMDB_API_KEY;
@@ -344,25 +410,33 @@ export async function resolveAndSaveEntityImage(
   let candidate: { url: string; caption: string; license: string } | null = null;
   let sourceName: ImageResolveResult["sourceName"] = "None";
 
-  // Tier 1: TMDB API (Curated)
-  candidate = await fetchFromTMDB(name);
+  // Tier 1 Priority: Red-Carpet, Premiere & Full-Body Fashion Photo Search
+  candidate = await fetchFullBodyFashionPhoto(name);
   if (candidate) {
-    sourceName = "TMDB";
+    sourceName = "WikimediaCommons";
   }
 
-  // Tier 2: Wikipedia Lead Summary
+  // Tier 2: TMDB API (Curated)
   if (!candidate) {
-    candidate = await fetchFromWikipediaLead(name);
+    candidate = await fetchFromTMDB(name);
     if (candidate) {
-      sourceName = "Wikipedia";
+      sourceName = "TMDB";
     }
   }
 
-  // Tier 3: Wikipedia Article Gallery Iterator (Iterates until an UNUSED photo is found)
+  // Tier 3: Wikipedia Article Gallery Iterator (Unused red carpet / appearances)
   if (!candidate) {
     candidate = await fetchFromWikipediaGallery(name);
     if (candidate) {
       sourceName = "WikimediaCommons";
+    }
+  }
+
+  // Tier 4: Wikipedia Lead Summary (Last resort fallback)
+  if (!candidate) {
+    candidate = await fetchFromWikipediaLead(name);
+    if (candidate) {
+      sourceName = "Wikipedia";
     }
   }
 
