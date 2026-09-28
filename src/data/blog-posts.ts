@@ -3,6 +3,8 @@ export interface BlogPost {
   title: string;
   headline: string;
   excerpt: string;
+  seoTitle?: string;
+  seoDescription?: string;
   content: string;
   coverImage: string;
   author: {
@@ -12,6 +14,8 @@ export interface BlogPost {
   publishedDate: string;
   readingTimeMinutes: number;
   tags: string[];
+  lsiKeywords?: string[];
+  contentGapsCovered?: string[];
 }
 
 export const BLOG_POSTS: BlogPost[] = [

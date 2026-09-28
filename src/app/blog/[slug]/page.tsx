@@ -22,19 +22,64 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     return { title: "Article Not Found | CelebEdge" };
   }
 
+  // Google SERP Title Optimization (Target: 50-60 characters for maximum CTR and zero truncation)
+  let metaTitle = post.seoTitle;
+  if (!metaTitle) {
+    if (post.headline && post.headline.length <= 60) {
+      metaTitle = post.headline;
+    } else if (post.title.length <= 58) {
+      metaTitle = post.title;
+    } else {
+      metaTitle = `${post.title.slice(0, 48).trim()}... | CelebEdge`;
+    }
+  }
+
+  // Google Meta Description Optimization (Target: 145-155 characters)
+  let metaDescription = post.seoDescription || post.excerpt;
+  if (metaDescription.length > 158) {
+    metaDescription = `${metaDescription.slice(0, 155).trim()}...`;
+  }
+
+  const siteUrl = "https://celebrity-beta.vercel.app";
+  const postUrl = `${siteUrl}/blog/${slug}`;
+  const imageUrl = post.coverImage.startsWith("http") ? post.coverImage : `${siteUrl}${post.coverImage}`;
+
   return {
-    title: `${post.title} | CelebEdge Blog`,
-    description: post.excerpt,
+    title: metaTitle,
+    description: metaDescription,
+    alternates: {
+      canonical: postUrl,
+    },
     robots: {
       index: true,
       follow: true,
       "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
     },
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: metaTitle,
+      description: metaDescription,
+      url: postUrl,
+      siteName: "CelebEdge",
       type: "article",
-      images: [post.coverImage],
+      publishedTime: post.publishedDate,
+      modifiedTime: post.publishedDate,
+      authors: [post.author.name],
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 675,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: metaTitle,
+      description: metaDescription,
+      images: [imageUrl],
     },
   };
 }
@@ -69,6 +114,23 @@ function parseInlineMarkdown(text: string): React.ReactNode[] {
   });
 }
 
+function extractFaqsForSchema(content: string): Array<{ question: string; answer: string }> {
+  const faqs: Array<{ question: string; answer: string }> = [];
+  const blocks = content.split("\n\n");
+  for (let i = 0; i < blocks.length; i++) {
+    const block = blocks[i].trim();
+    if (block.startsWith("### ") && i + 1 < blocks.length) {
+      const q = block.replace(/^###\s+/, "").trim();
+      const nextBlock = blocks[i + 1].trim();
+      if (!nextBlock.startsWith("#") && !nextBlock.startsWith("![")) {
+        const cleanAnswer = nextBlock.replace(/\[(.*?)\]\(.*?\)/g, "$1").replace(/\*\*(.*?)\*\*/g, "$1");
+        faqs.push({ question: q, answer: cleanAnswer });
+      }
+    }
+  }
+  return faqs;
+}
+
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
@@ -77,8 +139,96 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
 
+  const siteUrl = "https://celebrity-beta.vercel.app";
+  const postUrl = `${siteUrl}/blog/${slug}`;
+  const imageUrl = post.coverImage.startsWith("http") ? post.coverImage : `${siteUrl}${post.coverImage}`;
+  const faqs = extractFaqsForSchema(post.content);
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: post.title,
+    description: post.seoDescription || post.excerpt,
+    image: [imageUrl],
+    datePublished: post.publishedDate,
+    dateModified: post.publishedDate,
+    author: [
+      {
+        "@type": "Person",
+        name: post.author.name,
+        jobTitle: post.author.role,
+      },
+    ],
+    publisher: {
+      "@type": "Organization",
+      name: "CelebEdge",
+      url: siteUrl,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": postUrl,
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: siteUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: `${siteUrl}/blog`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.title,
+        item: postUrl,
+      },
+    ],
+  };
+
+  const faqSchema =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.answer,
+            },
+          })),
+        }
+      : null;
+
   return (
     <article className="min-h-screen bg-slate-50 text-slate-900 pb-20">
+      {/* Structured Data (JSON-LD) for Google SERP Domination */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+
       {/* Breadcrumb Navigation */}
       <div className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-3">
