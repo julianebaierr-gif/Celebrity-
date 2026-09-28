@@ -10,10 +10,9 @@ import {
   Calendar,
   Clock,
   ArrowRight,
-  Sparkles,
+  Newspaper,
   CheckCircle2,
   ShieldCheck,
-  BookmarkCheck,
 } from "lucide-react";
 
 interface BlogPostPageProps {
@@ -360,7 +359,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Executive Key Facts Briefing Box */}
         <div className="rounded-3xl border border-amber-200/90 bg-gradient-to-br from-amber-50/90 via-white to-amber-50/40 p-6 sm:p-8 shadow-xs mb-10">
           <div className="flex items-center gap-2 text-xs font-black text-amber-800 uppercase tracking-wider mb-3">
-            <Sparkles className="h-4 w-4 text-amber-600" />
+            <Newspaper className="h-4 w-4 text-amber-700" />
             <span>Executive Briefing & Verified Key Facts</span>
           </div>
           <p className="text-slate-800 font-semibold text-base sm:text-lg leading-relaxed mb-5">
