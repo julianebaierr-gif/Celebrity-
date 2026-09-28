@@ -66,13 +66,17 @@ export default function RelationshipSection({
               >
                 {/* Partner Portrait Image */}
                 {partner.image && (
-                  <div className="relative h-44 w-full sm:h-36 sm:w-36 shrink-0 rounded-xl overflow-hidden border border-slate-200 bg-slate-200 shadow-2xs">
+                  <div className="relative h-48 w-full sm:h-40 sm:w-40 shrink-0 rounded-xl overflow-hidden border border-slate-200 bg-slate-950 shadow-2xs flex items-center justify-center">
+                    <div
+                      className="absolute inset-0 bg-cover bg-center blur-lg opacity-30 scale-110 pointer-events-none"
+                      style={{ backgroundImage: `url(${partner.image})` }}
+                    />
                     <Image
                       src={partner.image}
                       alt={`${partner.name} - ${partner.relationType} of ${celebrityName}`}
                       fill
-                      sizes="(max-width: 640px) 100vw, 144px"
-                      className="object-cover object-top"
+                      sizes="(max-width: 640px) 100vw, 160px"
+                      className="object-contain object-center z-10"
                     />
                   </div>
                 )}

@@ -397,14 +397,16 @@ export async function resolveAndSaveEntityImage(
   }
 
   try {
+    // 100% Full Uncropped Image Preservation:
+    // fit: "inside" preserves the complete photograph without cropping heads, faces, or bodies.
     await sharp(imageBuffer)
       .resize({
-        width: targetWidth,
-        height: targetHeight,
-        fit: "cover",
-        position: isPartner ? "center" : "attention",
+        width: 1400,
+        height: 1400,
+        fit: "inside",
+        withoutEnlargement: true,
       })
-      .webp({ quality: 86, effort: 4 })
+      .webp({ quality: 88, effort: 4 })
       .toFile(fullTargetPath);
 
     console.log(`[VerifiedImagePipeline] ✓ Successfully optimized & saved: ${fullTargetPath}`);

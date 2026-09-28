@@ -352,16 +352,26 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       {/* Main Content */}
       <main className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-8">
-        {/* Cover Image */}
-        <div className="relative aspect-[16/9] w-full rounded-3xl overflow-hidden border border-slate-200 shadow-sm mb-8">
-          <Image
-            src={post.coverImage}
-            alt={post.title}
-            fill
-            priority
-            sizes="(max-width: 1024px) 100vw, 896px"
-            className="object-cover object-top"
+        {/* Cover Image - 100% Full Uncropped Showcase */}
+        <div className="relative w-full h-[380px] sm:h-[480px] md:h-[540px] rounded-3xl overflow-hidden border border-slate-200 bg-slate-950 mb-8 flex items-center justify-center shadow-md">
+          {/* Ambient soft blurred backdrop for letterbox spaces */}
+          <div
+            className="absolute inset-0 bg-cover bg-center blur-2xl opacity-35 scale-110 pointer-events-none"
+            style={{ backgroundImage: `url(${post.coverImage})` }}
           />
+          <div className="absolute inset-0 bg-slate-950/25 pointer-events-none" />
+
+          {/* 100% Full Uncropped Image */}
+          <div className="relative h-full w-full">
+            <Image
+              src={post.coverImage}
+              alt={post.title}
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 896px"
+              className="object-contain object-center z-10 drop-shadow-2xl"
+            />
+          </div>
         </div>
 
         {/* Executive Key Facts Briefing Box */}
@@ -400,15 +410,25 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             if (imgMatch) {
               const [, caption, src] = imgMatch;
               return (
-                <figure key={idx} className="my-10 rounded-3xl overflow-hidden border border-slate-200/90 bg-slate-50/70 p-3 sm:p-4 shadow-xs">
-                  <div className="relative aspect-[16/10] sm:aspect-[3/2] w-full rounded-2xl overflow-hidden bg-slate-100">
-                    <Image
-                      src={src}
-                      alt={caption || post.title}
-                      fill
-                      sizes="(max-width: 1024px) 100vw, 896px"
-                      className="object-cover object-top"
+                <figure key={idx} className="my-10 rounded-3xl overflow-hidden border border-slate-200/90 bg-white p-3 sm:p-5 shadow-xs">
+                  <div className="relative w-full h-[420px] sm:h-[500px] md:h-[560px] rounded-2xl overflow-hidden bg-slate-950 flex items-center justify-center">
+                    {/* Ambient subtle glow for letterbox area */}
+                    <div
+                      className="absolute inset-0 bg-cover bg-center blur-2xl opacity-30 scale-110 pointer-events-none"
+                      style={{ backgroundImage: `url(${src})` }}
                     />
+                    <div className="absolute inset-0 bg-slate-950/25 pointer-events-none" />
+
+                    {/* 100% Full Uncropped Image */}
+                    <div className="relative h-full w-full">
+                      <Image
+                        src={src}
+                        alt={caption || post.title}
+                        fill
+                        sizes="(max-width: 1024px) 100vw, 896px"
+                        className="object-contain object-center z-10 drop-shadow-2xl"
+                      />
+                    </div>
                   </div>
                   {caption && (
                     <figcaption className="text-center text-xs sm:text-sm text-slate-500 font-medium pt-3 pb-1 px-4 italic">
