@@ -39,6 +39,36 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   };
 }
 
+function parseInlineMarkdown(text: string): React.ReactNode[] {
+  const regex = /(\[.*?\]\(.*?\)|\*\*.*?\*\*)/g;
+  const parts = text.split(regex);
+
+  return parts.map((part, index) => {
+    if (part.startsWith("[") && part.includes("](") && part.endsWith(")")) {
+      const match = part.match(/\[(.*?)\]\((.*?)\)/);
+      if (match) {
+        const [, label, href] = match;
+        return (
+          <Link
+            key={index}
+            href={href}
+            className="text-amber-700 font-semibold underline underline-offset-4 hover:text-amber-800 transition-colors"
+          >
+            {label}
+          </Link>
+        );
+      }
+    } else if (part.startsWith("**") && part.endsWith("**") && part.length >= 4) {
+      return (
+        <strong key={index} className="font-bold text-slate-900">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
+
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
@@ -127,15 +157,86 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             const trimmed = block.trim();
             if (!trimmed) return null;
 
-            if (trimmed.startsWith("### ")) {
+            // In-content Markdown Images: ![Caption](url)
+            const imgMatch = trimmed.match(/^!\[(.*?)\]\((.*?)\)$/);
+            if (imgMatch) {
+              const [, caption, src] = imgMatch;
               return (
-                <h2 key={idx} className="text-2xl font-bold text-slate-900 pt-4 tracking-tight">
-                  {trimmed.replace("### ", "")}
+                <figure key={idx} className="my-8 rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 p-2 shadow-xs">
+                  <div className="relative h-72 sm:h-96 w-full rounded-xl overflow-hidden">
+                    <Image
+                      src={src}
+                      alt={caption || post.title}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 800px"
+                      className="object-cover"
+                    />
+                  </div>
+                  {caption && (
+                    <figcaption className="text-center text-xs text-slate-500 font-medium pt-3 pb-1 px-4 italic">
+                      {caption}
+                    </figcaption>
+                  )}
+                </figure>
+              );
+            }
+
+            // Horizontal Rule / Divider
+            if (trimmed === "---") {
+              return <hr key={idx} className="my-8 border-slate-200" />;
+            }
+
+            // H2 Heading: ## ...
+            if (trimmed.startsWith("## ")) {
+              return (
+                <h2 key={idx} className="text-2xl sm:text-3xl font-extrabold text-slate-900 pt-6 pb-2 border-b border-slate-100 tracking-tight">
+                  {trimmed.replace(/^##\s+/, "")}
                 </h2>
               );
             }
 
-            return <p key={idx}>{trimmed}</p>;
+            // H3 Heading: ### ...
+            if (trimmed.startsWith("### ")) {
+              return (
+                <h3 key={idx} className="text-xl font-bold text-slate-900 pt-4 pb-1 tracking-tight">
+                  {trimmed.replace(/^###\s+/, "")}
+                </h3>
+              );
+            }
+
+            // Unordered List: - item or * item
+            const lines = trimmed.split("\n");
+            if (lines.length > 1 && lines.every((l) => l.trim().startsWith("- ") || l.trim().startsWith("* "))) {
+              return (
+                <ul key={idx} className="space-y-2 my-4 pl-5 list-disc text-slate-700">
+                  {lines.map((line, lIdx) => (
+                    <li key={lIdx} className="leading-relaxed">
+                      {parseInlineMarkdown(line.trim().replace(/^[-*]\s+/, ""))}
+                    </li>
+                  ))}
+                </ul>
+              );
+            }
+
+            // Ordered List: 1. item, 2. item...
+            if (lines.length > 1 && lines.every((l) => /^\d+\.\s+/.test(l.trim()))) {
+              return (
+                <ol key={idx} className="space-y-2 my-4 pl-5 list-decimal text-slate-700">
+                  {lines.map((line, lIdx) => (
+                    <li key={lIdx} className="leading-relaxed">
+                      {parseInlineMarkdown(line.trim().replace(/^\d+\.\s+/, ""))}
+                    </li>
+                  ))}
+                </ol>
+              );
+            }
+
+            // Standard Paragraph
+            return (
+              <p key={idx} className="leading-relaxed">
+                {parseInlineMarkdown(trimmed)}
+              </p>
+            );
           })}
         </div>
 
