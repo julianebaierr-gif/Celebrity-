@@ -642,7 +642,8 @@ CelebEdge maintains a continuously updated, fact-checked archive covering net wo
  * and publishes spoke blog post if event is major.
  */
 export async function processCelebrityUpdate(
-  req: UpdateEventRequest
+  req: UpdateEventRequest,
+  options?: { customPublishedDate?: string }
 ): Promise<UpdateEngineResult> {
   const { celebritySlug, headline, details, forceType } = req;
   const celebrity = getCompleteOrDynamicProfile(celebritySlug);
@@ -744,6 +745,10 @@ export async function processCelebrityUpdate(
         classification.suggestedBlogTopic || headline
       );
 
+      if (options?.customPublishedDate) {
+        createdBlogPost.publishedDate = options.customPublishedDate;
+      }
+
       // Save to store (prepend)
       store.dynamicBlogPosts = store.dynamicBlogPosts.filter((p) => p.slug !== createdBlogPost!.slug);
       store.dynamicBlogPosts.unshift(createdBlogPost);
@@ -779,8 +784,122 @@ export async function processCelebrityUpdate(
   };
 }
 
+export interface BatchUpdateOptions {
+  dripIntervalHours?: number; // default: 3 hours
+  autoConsolidateSameEntity?: boolean; // default: true
+}
+
+export interface BatchUpdateSummary {
+  totalSubmitted: number;
+  minorFactsProcessed: number;
+  majorMilestonesProcessed: number;
+  articlesScheduledOrPublished: number;
+  consolidatedEvents: number;
+  publishingSchedule: Array<{
+    celebrityName: string;
+    headline: string;
+    scheduledPublishTime: string;
+    slug?: string;
+  }>;
+  results: UpdateEngineResult[];
+}
+
 /**
- * 5. Weekly Celebrity Monitor & Freshness Scanner
+ * 5. Batch Drip-Feed Publishing Engine:
+ * Handles high-velocity influx (e.g. 10 to 20 milestone events during Oscar/festival week),
+ * consolidates duplicate events for the same celebrity to prevent self-cannibalization,
+ * and paces blog post release dates with a customizable drip interval (default: 3 hours apart)
+ * to maximize Google crawl budget and prevent burst spam signals.
+ */
+export async function processBatchUpdates(
+  events: UpdateEventRequest[],
+  options?: BatchUpdateOptions
+): Promise<BatchUpdateSummary> {
+  const dripIntervalHours = options?.dripIntervalHours ?? 3;
+  const autoConsolidate = options?.autoConsolidateSameEntity ?? true;
+
+  console.log(`\n======================================================`);
+  console.log(`[BatchUpdateEngine] Processing Batch of ${events.length} Updates with Drip Interval ${dripIntervalHours}h`);
+  console.log(`======================================================`);
+
+  let processedEvents = events;
+  let consolidatedCount = 0;
+
+  // 1. Group by Celebrity Slug to prevent intra-celebrity keyword cannibalization
+  if (autoConsolidate) {
+    const grouped = new Map<string, UpdateEventRequest[]>();
+    for (const ev of events) {
+      if (!grouped.has(ev.celebritySlug)) {
+        grouped.set(ev.celebritySlug, []);
+      }
+      grouped.get(ev.celebritySlug)!.push(ev);
+    }
+
+    processedEvents = [];
+    for (const [slug, evList] of grouped.entries()) {
+      if (evList.length > 1) {
+        consolidatedCount += evList.length - 1;
+        const primary = evList[0];
+        const combinedHeadline = `${primary.headline} & Comprehensive ${new Date().getFullYear()} Milestones`;
+        const combinedDetails = evList
+          .map((e, idx) => `Milestone ${idx + 1}: ${e.headline}. Details: ${e.details}`)
+          .join("\n\n");
+
+        processedEvents.push({
+          celebritySlug: slug,
+          headline: combinedHeadline,
+          details: combinedDetails,
+          sourceUrl: primary.sourceUrl,
+          forceType: evList.some((e) => e.forceType === "major_milestone") ? "major_milestone" : undefined,
+        });
+      } else {
+        processedEvents.push(evList[0]);
+      }
+    }
+  }
+
+  const results: UpdateEngineResult[] = [];
+  const schedule: BatchUpdateSummary["publishingSchedule"] = [];
+  let articleDripIndex = 0;
+  const baseTime = Date.now();
+
+  for (const ev of processedEvents) {
+    // Stagger publishing dates by dripIntervalHours
+    const dripTimestamp = new Date(baseTime + articleDripIndex * dripIntervalHours * 60 * 60 * 1000).toISOString();
+
+    const res = await processCelebrityUpdate(ev, {
+      customPublishedDate: dripTimestamp,
+    });
+
+    results.push(res);
+
+    if (res.blogPostCreated && res.blogPost) {
+      schedule.push({
+        celebrityName: res.celebrityName,
+        headline: ev.headline,
+        scheduledPublishTime: dripTimestamp,
+        slug: res.blogPost.slug,
+      });
+      articleDripIndex++;
+    }
+  }
+
+  const minorCount = results.filter((r) => r.eventType === "minor_fact").length;
+  const majorCount = results.filter((r) => r.eventType === "major_milestone").length;
+
+  return {
+    totalSubmitted: events.length,
+    minorFactsProcessed: minorCount,
+    majorMilestonesProcessed: majorCount,
+    articlesScheduledOrPublished: schedule.length,
+    consolidatedEvents: consolidatedCount,
+    publishingSchedule: schedule,
+    results,
+  };
+}
+
+/**
+ * 6. Weekly Celebrity Monitor & Freshness Scanner
  * Loops through all active celebrities, searches recent news (7-day window),
  * and automatically triggers processCelebrityUpdate when genuine updates are found.
  */
