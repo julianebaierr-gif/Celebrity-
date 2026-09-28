@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
-import { BLOG_POSTS } from "@/data/blog-posts";
+import { getAllBlogPosts } from "@/data/blog-posts";
 import { ArrowRight, ChevronRight, Calendar, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndexPage() {
-  const posts = BLOG_POSTS;
+  const posts = getAllBlogPosts();
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">

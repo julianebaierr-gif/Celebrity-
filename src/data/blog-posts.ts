@@ -36,7 +36,7 @@ Top-tier stars negotiate backend participation points (first-dollar gross or adj
 ### 3. Corporate Filings & Trademark Portfolios
 Actors and musicians frequently hold proprietary ownership stakes in production companies, apparel lines, and lifestyle brands. SEC filings, USPTO trademark registries, and venture capital disclosure announcements provide authenticated valuations of these private equity holdings.
     `,
-    coverImage: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/blog/celebrity-net-worth-calculation-methodology.webp",
     author: {
       name: "Marcus Vance",
       role: "Senior Entertainment & Industry Analyst",
@@ -62,7 +62,7 @@ In ABC's landmark 1990 adaptation of Stephen King's 'IT', Curry created a cultur
 ### Resilience and Enduring Artistic Legacy
 Following a stroke in 2012, Curry's resilience served as an enduring inspiration. Retaining his distinctive baritone and sharp wit, he remained an admired voiceover artist and theatrical patron, honored with a Lifetime Achievement Tony Award. His passing on August 25, 2026, concluded one of the most fearless, versatile careers in British and American entertainment history.
     `,
-    coverImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/blog/tim-curry-cult-cinema-cover.webp",
     author: {
       name: "Sarah Jenkins",
       role: "Cinema Historian & Editorial Director",
@@ -85,7 +85,7 @@ Founded in 2022 by lifelong partners Matt Damon and Ben Affleck in collaboration
 ### LuckyChap: Championing Original Voices
 Margot Robbie's LuckyChap Entertainment has achieved consecutive Oscar and commercial breakthroughs by betting on daring author-driven cinema—from 'Promising Young Woman' and 'Saltburn' to the billion-dollar cultural triumph of 'Barbie'.
     `,
-    coverImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/blog/hollywood-actor-producer-revolution.webp",
     author: {
       name: "Elena Rostova",
       role: "Culture & Media Business Lead",
