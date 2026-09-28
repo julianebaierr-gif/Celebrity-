@@ -1,0 +1,364 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-09-28T11:31:57.097Z",
+  "totalUniqueImages": 51,
+  "registry": {
+    "/images/celebrities/tim-curry-hero.webp": {
+      "filePath": "/images/celebrities/tim-curry-hero.webp",
+      "entity": "tim-curry",
+      "placement": "profile_hero",
+      "pageSlug": "tim-curry",
+      "assignedAt": "2026-09-28T11:31:57.095Z"
+    },
+    "/images/celebrities/tim-curry-content.webp": {
+      "filePath": "/images/celebrities/tim-curry-content.webp",
+      "entity": "tim-curry",
+      "placement": "profile_content",
+      "pageSlug": "tim-curry",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/cillian-murphy-hero.webp": {
+      "filePath": "/images/celebrities/cillian-murphy-hero.webp",
+      "entity": "cillian-murphy",
+      "placement": "profile_hero",
+      "pageSlug": "cillian-murphy",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/cillian-murphy-content.webp": {
+      "filePath": "/images/celebrities/cillian-murphy-content.webp",
+      "entity": "cillian-murphy",
+      "placement": "profile_content",
+      "pageSlug": "cillian-murphy",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/yvonne-mcguinness.webp": {
+      "filePath": "/images/partners/yvonne-mcguinness.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "cillian-murphy",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/zendaya-hero.webp": {
+      "filePath": "/images/celebrities/zendaya-hero.webp",
+      "entity": "zendaya",
+      "placement": "profile_hero",
+      "pageSlug": "zendaya",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/zendaya-content.webp": {
+      "filePath": "/images/celebrities/zendaya-content.webp",
+      "entity": "zendaya",
+      "placement": "profile_content",
+      "pageSlug": "zendaya",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/tom-holland.webp": {
+      "filePath": "/images/partners/tom-holland.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "zendaya",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/matt-damon-hero.webp": {
+      "filePath": "/images/celebrities/matt-damon-hero.webp",
+      "entity": "matt-damon",
+      "placement": "profile_hero",
+      "pageSlug": "matt-damon",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/matt-damon-content.webp": {
+      "filePath": "/images/celebrities/matt-damon-content.webp",
+      "entity": "matt-damon",
+      "placement": "profile_content",
+      "pageSlug": "matt-damon",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/luciana-barroso.webp": {
+      "filePath": "/images/partners/luciana-barroso.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "matt-damon",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/taylor-swift-wedding-hero.webp": {
+      "filePath": "/images/celebrities/taylor-swift-wedding-hero.webp",
+      "entity": "taylor-swift-wedding",
+      "placement": "profile_hero",
+      "pageSlug": "taylor-swift-wedding",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/taylor-swift-wedding-content.webp": {
+      "filePath": "/images/celebrities/taylor-swift-wedding-content.webp",
+      "entity": "taylor-swift-wedding",
+      "placement": "profile_content",
+      "pageSlug": "taylor-swift-wedding",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/travis-kelce.webp": {
+      "filePath": "/images/partners/travis-kelce.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "taylor-swift-wedding",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/joe-alwyn.webp": {
+      "filePath": "/images/partners/joe-alwyn.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "taylor-swift-wedding",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/pedro-pascal-hero.webp": {
+      "filePath": "/images/celebrities/pedro-pascal-hero.webp",
+      "entity": "pedro-pascal",
+      "placement": "profile_hero",
+      "pageSlug": "pedro-pascal",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/pedro-pascal-content.webp": {
+      "filePath": "/images/celebrities/pedro-pascal-content.webp",
+      "entity": "pedro-pascal",
+      "placement": "profile_content",
+      "pageSlug": "pedro-pascal",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/sarah-paulson.webp": {
+      "filePath": "/images/partners/sarah-paulson.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "pedro-pascal",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/robin-tunney.webp": {
+      "filePath": "/images/partners/robin-tunney.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "pedro-pascal",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/margot-robbie-hero.webp": {
+      "filePath": "/images/celebrities/margot-robbie-hero.webp",
+      "entity": "margot-robbie",
+      "placement": "profile_hero",
+      "pageSlug": "margot-robbie",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/margot-robbie-content.webp": {
+      "filePath": "/images/celebrities/margot-robbie-content.webp",
+      "entity": "margot-robbie",
+      "placement": "profile_content",
+      "pageSlug": "margot-robbie",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/tom-ackerley.webp": {
+      "filePath": "/images/partners/tom-ackerley.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "margot-robbie",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/keanu-reeves-hero.webp": {
+      "filePath": "/images/celebrities/keanu-reeves-hero.webp",
+      "entity": "keanu-reeves",
+      "placement": "profile_hero",
+      "pageSlug": "keanu-reeves",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/keanu-reeves-content.webp": {
+      "filePath": "/images/celebrities/keanu-reeves-content.webp",
+      "entity": "keanu-reeves",
+      "placement": "profile_content",
+      "pageSlug": "keanu-reeves",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/alexandra-grant.webp": {
+      "filePath": "/images/partners/alexandra-grant.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "keanu-reeves",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/jeremy-allen-white-hero.webp": {
+      "filePath": "/images/celebrities/jeremy-allen-white-hero.webp",
+      "entity": "jeremy-allen-white",
+      "placement": "profile_hero",
+      "pageSlug": "jeremy-allen-white",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/jeremy-allen-white-content.webp": {
+      "filePath": "/images/celebrities/jeremy-allen-white-content.webp",
+      "entity": "jeremy-allen-white",
+      "placement": "profile_content",
+      "pageSlug": "jeremy-allen-white",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/addison-timlin.webp": {
+      "filePath": "/images/partners/addison-timlin.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "jeremy-allen-white",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/rosalia.webp": {
+      "filePath": "/images/partners/rosalia.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "jeremy-allen-white",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/finn-wolfhard-hero.webp": {
+      "filePath": "/images/celebrities/finn-wolfhard-hero.webp",
+      "entity": "finn-wolfhard",
+      "placement": "profile_hero",
+      "pageSlug": "finn-wolfhard",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/finn-wolfhard-content.webp": {
+      "filePath": "/images/celebrities/finn-wolfhard-content.webp",
+      "entity": "finn-wolfhard",
+      "placement": "profile_content",
+      "pageSlug": "finn-wolfhard",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/elsie-richter.webp": {
+      "filePath": "/images/partners/elsie-richter.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "finn-wolfhard",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/jenna-ortega-hero.webp": {
+      "filePath": "/images/celebrities/jenna-ortega-hero.webp",
+      "entity": "jenna-ortega",
+      "placement": "profile_hero",
+      "pageSlug": "jenna-ortega",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/jenna-ortega-content.webp": {
+      "filePath": "/images/celebrities/jenna-ortega-content.webp",
+      "entity": "jenna-ortega",
+      "placement": "profile_content",
+      "pageSlug": "jenna-ortega",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/asher-angel.webp": {
+      "filePath": "/images/partners/asher-angel.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "jenna-ortega",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/leonardo-dicaprio-hero.webp": {
+      "filePath": "/images/celebrities/leonardo-dicaprio-hero.webp",
+      "entity": "leonardo-dicaprio",
+      "placement": "profile_hero",
+      "pageSlug": "leonardo-dicaprio",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/leonardo-dicaprio-content.webp": {
+      "filePath": "/images/celebrities/leonardo-dicaprio-content.webp",
+      "entity": "leonardo-dicaprio",
+      "placement": "profile_content",
+      "pageSlug": "leonardo-dicaprio",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/vittoria-ceretti.webp": {
+      "filePath": "/images/partners/vittoria-ceretti.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "leonardo-dicaprio",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/tom-holland-hero.webp": {
+      "filePath": "/images/celebrities/tom-holland-hero.webp",
+      "entity": "tom-holland",
+      "placement": "profile_hero",
+      "pageSlug": "tom-holland",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/tom-holland-content.webp": {
+      "filePath": "/images/celebrities/tom-holland-content.webp",
+      "entity": "tom-holland",
+      "placement": "profile_content",
+      "pageSlug": "tom-holland",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/zendaya.webp": {
+      "filePath": "/images/partners/zendaya.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "tom-holland",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/rosalia-hero.webp": {
+      "filePath": "/images/celebrities/rosalia-hero.webp",
+      "entity": "rosalia",
+      "placement": "profile_hero",
+      "pageSlug": "rosalia",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/rosalia-content.webp": {
+      "filePath": "/images/celebrities/rosalia-content.webp",
+      "entity": "rosalia",
+      "placement": "profile_content",
+      "pageSlug": "rosalia",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/jeremy-allen-white.webp": {
+      "filePath": "/images/partners/jeremy-allen-white.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "rosalia",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/rauw-alejandro.webp": {
+      "filePath": "/images/partners/rauw-alejandro.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "rosalia",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/travis-kelce-hero.webp": {
+      "filePath": "/images/celebrities/travis-kelce-hero.webp",
+      "entity": "travis-kelce",
+      "placement": "profile_hero",
+      "pageSlug": "travis-kelce",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/travis-kelce-content.webp": {
+      "filePath": "/images/celebrities/travis-kelce-content.webp",
+      "entity": "travis-kelce",
+      "placement": "profile_content",
+      "pageSlug": "travis-kelce",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/partners/taylor-swift.webp": {
+      "filePath": "/images/partners/taylor-swift.webp",
+      "entity": "partner",
+      "placement": "partner_card",
+      "pageSlug": "travis-kelce",
+      "assignedAt": "2026-09-28T11:31:57.096Z"
+    },
+    "/images/celebrities/zendaya-tom-holland-engagement-cover.webp": {
+      "filePath": "/images/celebrities/zendaya-tom-holland-engagement-cover.webp",
+      "entity": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "placement": "blog_cover",
+      "pageSlug": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "assignedAt": "2026-09-28T11:31:57.097Z"
+    },
+    "/images/blog/zendaya-london-press-2026.webp": {
+      "filePath": "/images/blog/zendaya-london-press-2026.webp",
+      "entity": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "placement": "blog_content_1",
+      "pageSlug": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "assignedAt": "2026-09-28T11:31:57.097Z"
+    },
+    "/images/blog/tom-holland-london-appearance-2026.webp": {
+      "filePath": "/images/blog/tom-holland-london-appearance-2026.webp",
+      "entity": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "placement": "blog_content_2",
+      "pageSlug": "zendaya-zendaya-and-tom-holland-announce-engagement-in-london",
+      "assignedAt": "2026-09-28T11:31:57.097Z"
+    }
+  }
+}

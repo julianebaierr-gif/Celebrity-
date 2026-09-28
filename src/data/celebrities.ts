@@ -1381,7 +1381,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
           relationType: "Partner",
           years: "2021–Present",
           profession: "Two-time Emmy-Winning Actress, Fashion Icon & Producer",
-          image: "/images/celebrities/zendaya-hero.webp",
+          image: "/images/partners/zendaya.webp",
           profileSlug: "zendaya",
           summary: "First partnered together on 'Spider-Man: Homecoming' in 2016. Their celebrated romantic partnership was confirmed in July 2021, recognized globally for its mutual support and grounded privacy."
         }
@@ -1473,7 +1473,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
           relationType: "Public Dating Record",
           years: "2023–2024",
           profession: "Emmy-Winning Star of 'The Bear' and Dramatic Leading Man",
-          image: "/images/celebrities/jeremy-allen-white-hero.webp",
+          image: "/images/partners/jeremy-allen-white.webp",
           profileSlug: "jeremy-allen-white",
           summary: "Photographed together in numerous public settings across Los Angeles and European destinations following White's divorce, captivating international entertainment media."
         },
@@ -1574,7 +1574,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
           relationType: "Partner",
           years: "2023–Present",
           profession: "Global Music Icon, Billionaire Singer-Songwriter & Cultural Titan",
-          image: "/images/celebrities/taylor-swift-wedding-hero.webp",
+          image: "/images/partners/taylor-swift.webp",
           profileSlug: "taylor-swift-wedding",
           summary: "Relationship commenced in July 2023 after Kelce attended The Eras Tour at Arrowhead Stadium. Their relationship has become a premier cultural intersection between professional athletics and global entertainment."
         }
