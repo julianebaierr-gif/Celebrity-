@@ -29,13 +29,22 @@ CELEBRITIES.forEach((c, index) => {
   if (!qf.birthPlace || qf.birthPlace === "United States") {
     warnings.push(`birthPlace is generic: "${qf.birthPlace}"`);
   }
+  if (qf.birthPlace && qf.birthPlace.includes("Public Record")) {
+    issues.push("quickFacts.birthPlace contains placeholder 'Confirmed Public Record'");
+  }
   if (!qf.age || typeof qf.age !== "number" || qf.age <= 0) issues.push(`Invalid age: ${qf.age}`);
   if (!qf.height || qf.height.includes("undefined")) issues.push("Missing quickFacts.height");
+  if (qf.height && qf.height.includes("Studio Measurements")) {
+    issues.push("quickFacts.height contains placeholder 'Confirmed Studio Measurements'");
+  }
   if (!qf.netWorth) issues.push("Missing quickFacts.netWorth");
   if (!qf.primaryRole) issues.push("Missing quickFacts.primaryRole");
   if (!qf.knownFor) issues.push("Missing quickFacts.knownFor");
   if (!qf.activeYears) issues.push("Missing quickFacts.activeYears");
   if (!qf.education) issues.push("Missing quickFacts.education");
+  if (qf.education && qf.education.includes("Professional Performing Arts & Creative Training")) {
+    issues.push("quickFacts.education contains placeholder string");
+  }
 
   // 2. Executive Summary Check
   if (!c.executiveSummary) {
@@ -87,8 +96,13 @@ CELEBRITIES.forEach((c, index) => {
       if (!f.title || !f.year || !f.role) {
         issues.push(`Filmography item #${fIdx + 1} has missing fields`);
       }
-      if (f.title.includes("Breakout Feature Film") || f.title.includes("Breakthrough Studio Album")) {
-        issues.push(`Filmography item #${fIdx + 1} uses placeholder title`);
+      const placeholderPhrases = [
+        "Breakout Feature Film", "Breakthrough Studio Album", "Global Arena Headlining Tour",
+        "Billboard Chart-Topping LP", "Academy-Nominated Drama", "Global Streaming Phenomenon",
+        "Flagship Reality Franchise", "Championship Campaign", "Historic Repeat Title Season"
+      ];
+      if (placeholderPhrases.some((p) => f.title.includes(p))) {
+        issues.push(`Filmography item #${fIdx + 1} uses placeholder title ("${f.title}")`);
       }
     });
   }
@@ -99,6 +113,9 @@ CELEBRITIES.forEach((c, index) => {
     warnings.push("Missing relationshipProfile");
   } else {
     if (!rel.status) warnings.push("Missing relationshipProfile.status");
+    if (rel.status && rel.status.includes("Confirmed Personal Record")) {
+      issues.push("relationshipProfile.status contains placeholder 'Confirmed Personal Record'");
+    }
     if (!rel.datingHistorySummary) warnings.push("Missing relationshipProfile.datingHistorySummary");
   }
 

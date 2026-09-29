@@ -971,28 +971,52 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
 ,
   "will-smith": [
   {
-    "heading": "Early Roots, Hometown & The Genesis of Sound",
+    "heading": "West Philadelphia Roots, DJ Jazzy Jeff & Early Hip-Hop Stardom",
     "paragraphs": [
-      "Will Smith developed a distinct creative signature during early formative years, channeling regional artistic influences and raw musical instincts into groundbreaking recordings. Overcoming early distribution obstacles through direct digital platforms, their initial releases established an immediate grassroots movement.",
-      "Industry observers quickly took note of their cadence, authentic storytelling, and magnetic public persona, leading to major label partnerships that prioritized artistic ownership while amplifying their global reach."
+      "Willard Carroll Smith II was born on September 25, 1968, in Philadelphia, Pennsylvania, raised in the Wynnefield neighborhood by his mother Caroline, a school board administrator, and his father Willard Carroll Smith Sr., a refrigeration engineer. Displaying magnetic natural charm and rapid-fire verbal wit from childhood—earning him the lasting moniker 'Prince' from neighborhood elders—Smith began rapping at age twelve, developing a clean, narrative storytelling style that avoided profanity while maximizing rhythmic accessibility.",
+      "In 1985, a chance meeting at a house party with Jeffrey Townes (DJ Jazzy Jeff) launched the seminal duo DJ Jazzy Jeff & The Fresh Prince. Their infectious chemistry, pioneering turntable scratches, and relatable suburban storytelling yielded historic records, including the 1988 anthem 'Parents Just Don't Understand', which won the inaugural Grammy Award for Best Rap Performance in Grammy history, followed by the timeless summer classic 'Summertime' in 1991."
     ],
-    "keyTakeaway": "Grassroots digital distribution and uncompromising creative identity propelled early industry recognition."
+    "keyTakeaway": "Winning the first Grammy Award for Rap Performance cemented his place as a pioneer of mainstream hip-hop."
   },
   {
-    "heading": "Chart Supremacy & Multi-Platinum Commercial Domination",
+    "heading": "The Fresh Prince Phenomenon & Television Legend (1990–1996)",
     "paragraphs": [
-      "Following their major commercial breakthrough, Will Smith engineered one of the most commercially successful runs in contemporary music history. Consecutive releases shattered streaming records on Apple Music and Spotify, dominating international singles charts and securing critical industry acclaim.",
-      "Their collaborative works alongside premier producers and global headliners reinforced a reputation as a transformative cultural force capable of redefining popular musical aesthetics."
+      "Facing severe financial pressure from the IRS in 1990 after early musical royalties were depleted, Smith received a life-altering invitation from music legend Quincy Jones to audition in his living room for NBC network executives. In a legendary impromptu performance before NBC head Brandon Tartikoff, Smith secured the starring lead in 'The Fresh Prince of Bel-Air', a series loosely based on his own Philadelphia-to-Hollywood cultural transition.",
+      "Running for six acclaimed seasons and 148 episodes, the sitcom became an international cultural staple, showcasing Smith's transition from an instinctual musical entertainer into a versatile actor capable of heart-wrenching emotional depth—exemplified by the immortal 1994 episode 'Papa's Got a Brand New Excuse', widely cited by television historians as a masterclass in dramatic authenticity."
     ],
-    "keyTakeaway": "Sustained chart dominance and record-breaking streaming benchmarks cemented premier cultural status."
+    "keyTakeaway": "The Fresh Prince of Bel-Air established him as a magnetic screen talent and global television icon."
   },
   {
-    "heading": "Business Architecture, Catalog Equity & 2026 Standing",
+    "heading": "The Fourth of July King & Summer Box Office Supremacy (1995–2000)",
     "paragraphs": [
-      "Beyond recording studios, Will Smith has assembled a formidable business portfolio encompassing master rights ownership, touring equity, fashion collaborations, and venture capital. Entering late 2026, their financial valuation remains one of the strongest in the entertainment industry.",
-      "Continual innovation in live performance technology and independent publishing rights positions them as an influential archetype for modern music entrepreneurship."
+      "Transitioning deliberately to cinematic features, Smith redefined modern action cinema alongside Martin Lawrence in Michael Bay's directorial debut 'Bad Boys' (1995), proving his capability as a bankable action hero. The following summer, director Roland Emmerich cast him as fighter pilot Capt. Steven Hiller in the sci-fi epic 'Independence Day' (1996), which grossed $817 Million globally and established Smith as the supreme draw of the July Fourth holiday weekend.",
+      "Smith solidified this status in 1997 starring as Agent J alongside Tommy Lee Jones in Barry Sonnenfeld's sci-fi comedy 'Men in Black' ($589M worldwide), simultaneously recording the multi-platinum title track that topped music charts globally. In an unprecedented commercial streak, Smith became the only actor in cinematic history to headline eight consecutive films grossing over $100 Million domestically."
     ],
-    "keyTakeaway": "Catalog equity, brand partnerships, and full tour ownership anchor an estimated multi-million dollar empire."
+    "keyTakeaway": "Independence Day and Men in Black established an unprecedented run of eight consecutive $100M+ domestic blockbusters."
+  },
+  {
+    "heading": "Dramatic Mastery, Academy Award Nominations & Artistic Range",
+    "paragraphs": [
+      "Refusing to remain confined to summer blockbusters, Smith pursued demanding transformative biographical roles. In 2001, he underwent a grueling physical and vocal metamorphosis to portray Muhammad Ali in Michael Mann's biopic 'Ali', earning his first Academy Award nomination for Best Actor and universal praise from critics and the Ali family alike.",
+      "In 2006, Smith starred alongside his real-life son Jaden in Gabriele Muccino's biographical drama 'The Pursuit of Happyness', depicting the real-life struggles of homeless salesman Chris Gardner. His moving performance earned him a second Academy Award nomination and solidified his reputation as an emotional leading man capable of anchoring both colossal special-effects spectacles and poignant human dramas."
+    ],
+    "keyTakeaway": "Oscar-nominated performances in Ali and The Pursuit of Happyness validated an elite dramatic range beyond blockbusters."
+  },
+  {
+    "heading": "The King Richard Oscar Win & The 2022 Complexities",
+    "paragraphs": [
+      "In 2021, Smith delivered the pinnacle dramatic performance of his career as Richard Williams, the fiercely determined father and coach of tennis legends Venus and Serena Williams, in Reinaldo Marcus Green's 'King Richard'. The performance swept the major awards circuit, earning Smith the Screen Actors Guild Award, BAFTA Award, Golden Globe, and the 2022 Academy Award for Best Actor.",
+      "The historic triumph was shadowed by an altercation during the 94th Academy Awards ceremony, prompting Smith to issue extensive public apologies, resign from the Academy, and enter an extended period of intense personal reflection, emotional healing, and literary introspection, chronicled across his bestselling memoir 'Will'."
+    ],
+    "keyTakeaway": "Winning the Best Actor Academy Award for King Richard marked the dramatic summit of a thirty-year screen career."
+  },
+  {
+    "heading": "Westbrook Inc., Box Office Rebound & Standing in 2026",
+    "paragraphs": [
+      "Entering late 2026, Will Smith commands a verified net worth evaluated at $350.0 Million USD, reinforced by his multimedia production company Westbrook Inc., founded with wife Jada Pinkett Smith. In summer 2024, Smith proved his enduring international bankability with the release of 'Bad Boys: Ride or Die', which grossed $404 Million worldwide and reignited theater attendance across all demographics.",
+      "Looking forward into late 2026 and 2027, Smith is developing the highly anticipated sci-fi sequel 'I Am Legend 2' alongside Michael B. Jordan for Warner Bros., while continuing to produce prestige television and film projects through Westbrook Studios, affirming his permanent status as one of cinema's most resilient and culturally influential icons."
+    ],
+    "keyTakeaway": "A $404M theatrical triumph for Bad Boys 4, Westbrook Inc. enterprise equity, and an estimated $350M fortune anchor his 2026 standing."
   }
 ],
 

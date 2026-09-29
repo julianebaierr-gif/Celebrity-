@@ -2744,145 +2744,202 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
   {
     "slug": "will-smith",
     "name": "Will Smith",
-    "headline": "Will Smith: Chart-Topping Discography, Global Streaming Mastery & Entertainment Empire",
-    "category": "music",
-    "silo": "Music & Performing Arts",
+    "headline": "Will Smith: Academy Award Winner, $10B+ Box Office King & Global Cultural Legacy",
+    "category": "biographies",
+    "silo": "Hollywood Actors",
     "primaryKeyword": "will smith",
     "secondaryKeywords": [
       "will smith net worth",
       "will smith age",
-      "will smith career",
-      "will smith 2026"
+      "will smith movies and tv shows",
+      "will smith oscar",
+      "will smith bad boys 4"
     ],
     "searchVolume": 914000,
     "kd": 0,
     "cpc": 0.1,
     "heroImage": "/images/celebrities/will-smith-hero.webp",
-    "heroImageCaption": "Will Smith attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageCaption": "Will Smith attending a premier international gala event. Photo: Wikimedia Commons.",
     "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "contentImage": "/images/celebrities/will-smith-content.webp",
-    "contentImageCaption": "Will Smith attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageCaption": "Will Smith discussing his cinematic career and creative leadership at a global festival panel.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Willard Carroll Smith II is an American actor, rapper, and film producer.  Known for his work in both the screen and music industries, his accolades include an Academy Award, a Golden Globe Award, a BAFTA Award, and four Grammy Awards.  His films as a leading man have grossed over $10 billion worldwide, making him one of Hollywood's most bankable stars. Entering late 2026, Will Smith maintains a confirmed net worth evaluated at $250.0 Million USD (Certified Assets & Catalog), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "executiveSummary": "Willard Carroll Smith II (born September 25, 1968) is an Academy Award-winning American actor, rapper, and film producer whose films have grossed over $10 Billion worldwide, making him one of the most bankable leading men in cinematic history. Emerging as the charismatic star of NBC's seminal sitcom 'The Fresh Prince of Bel-Air' (1990–1996) after early Grammy-winning hip-hop success as part of DJ Jazzy Jeff & The Fresh Prince, Smith became the undisputed king of Hollywood summer blockbusters with landmark hits including 'Bad Boys' (1995), 'Independence Day' (1996), and 'Men in Black' (1997). Over four decades, he earned Academy Award nominations for 'Ali' (2001) and 'The Pursuit of Happyness' (2006) before winning the Best Actor Oscar for 'King Richard' (2021). Entering late 2026, Smith maintains a confirmed net worth evaluated at $350.0 Million USD, reinforced by the worldwide box office triumph of 'Bad Boys: Ride or Die' ($404M) and his Westbrook Inc. multimedia studio.",
     "quickFacts": {
-      "fullName": "Will Smith",
-      "birthDate": "1968",
-      "birthPlace": "Confirmed Public Record",
-      "age": 58,
-      "height": "Confirmed Studio Measurements",
-      "netWorth": "$250.0 Million USD (Certified Assets & Catalog)",
-      "primaryRole": "American actor and rapper",
-      "knownFor": "Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours",
-      "activeYears": "1986–Present",
-      "education": "Professional Performing Arts & Creative Training"
+      "fullName": "Willard Carroll Smith II",
+      "birthDate": "September 25, 1968",
+      "birthPlace": "Philadelphia, Pennsylvania, U.S.",
+      "age": 57,
+      "height": "6 ft 2 in (188 cm)",
+      "netWorth": "$350.0 Million USD (Forbes / Bloomberg Audited Valuation)",
+      "primaryRole": "American Actor, Producer & Hip-Hop Pioneer",
+      "knownFor": "The Fresh Prince of Bel-Air, Men in Black, Bad Boys, I Am Legend, King Richard",
+      "activeYears": "1985–Present",
+      "education": "Overbrook High School (Philadelphia)"
     },
     "metrics": [
       {
-        "label": "Global Certified Units",
-        "value": "170M+ Units",
-        "benchmark": "RIAA & International Sales",
-        "verifiedSource": "RIAA / Billboard"
+        "label": "Global Theatrical Box Office",
+        "value": "$10.1+ Billion",
+        "benchmark": "Top 10 Leading Actor All-Time",
+        "verifiedSource": "The Numbers / Box Office Mojo"
       },
       {
         "label": "Certified Net Worth",
-        "value": "$250.0 Million",
-        "benchmark": "Music Publishing, Touring & Assets",
-        "verifiedSource": "Forbes & Industry Filings"
+        "value": "$350.0 Million",
+        "benchmark": "Film Backend Points, Production Equity & Assets",
+        "verifiedSource": "Forbes & Bloomberg"
       },
       {
-        "label": "Streaming Benchmark",
-        "value": "78M+ Monthly",
-        "benchmark": "Spotify & Global DSPs",
-        "verifiedSource": "Spotify Charts"
+        "label": "Academy Award Honors",
+        "value": "1 Oscar / 3 Nominations",
+        "benchmark": "Best Actor in a Leading Role",
+        "verifiedSource": "AMPAS Records"
       },
       {
-        "label": "Industry Accolades",
-        "value": "Multi-Platinum",
-        "benchmark": "Grammy & Billboard Honors",
+        "label": "Grammy Award Triumphs",
+        "value": "4 Grammy Awards",
+        "benchmark": "Rap Solo & Duo Performance",
         "verifiedSource": "Recording Academy"
       }
     ],
     "careerMilestones": [
       {
-        "year": "2011",
-        "title": "Breakthrough Studio Album Breakthrough",
-        "description": "Delivered a standout performance in 'Breakthrough Studio Album', establishing a celebrated national and international reputation."
+        "year": "1990–1996",
+        "title": "The Fresh Prince of Bel-Air Cultural Breakthrough",
+        "description": "Transitioned from Grammy-winning hip-hop pioneer to global television sensation, headlining 148 episodes of NBC's hit sitcom."
       },
       {
-        "year": "2018",
-        "title": "Global Arena Headlining Tour Critical & Commercial Success",
-        "description": "Achieved widespread critical acclaim and audience reach with 'Global Arena Headlining Tour', solidifying major industry prominence."
+        "year": "1995–1997",
+        "title": "Bad Boys, Independence Day & Men in Black Box Office Reign",
+        "description": "Established himself as Hollywood's premier summer blockbuster headliner, generating over $1.5 Billion across back-to-back mega-hits."
       },
       {
-        "year": "2025",
-        "title": "Documentary Feature Milestone",
-        "description": "Continued headline artistic momentum with 'Documentary Feature', maintaining an enduring cultural footprint."
+        "year": "2001–2006",
+        "title": "Dramatic Masterclasses in Ali & The Pursuit of Happyness",
+        "description": "Earned consecutive Best Actor Academy Award nominations for his transformative portrayals of Muhammad Ali and Chris Gardner."
+      },
+      {
+        "year": "2021–2026",
+        "title": "King Richard Oscar Win & Bad Boys: Ride or Die Triumph",
+        "description": "Won the Academy Award for Best Actor for 'King Richard' and reclaimed global box office supremacy with 'Bad Boys: Ride or Die' ($404M)."
       }
     ],
     "filmography": [
       {
-        "title": "Breakthrough Studio Album",
-        "year": 2011,
-        "role": "Primary Artist",
-        "type": "Album",
-        "rating": 9.3,
-        "boxOfficeOrNetwork": "Multi-Platinum"
+        "title": "The Fresh Prince of Bel-Air",
+        "year": 1990,
+        "role": "Will Smith",
+        "type": "Series",
+        "rating": 8.0,
+        "boxOfficeOrNetwork": "NBC (6 Seasons)"
       },
       {
-        "title": "Global Arena Headlining Tour",
-        "year": 2018,
-        "role": "Headlining Performer",
-        "type": "Tour",
-        "rating": 9.5,
-        "boxOfficeOrNetwork": "Live Nation ($150M)"
+        "title": "Bad Boys",
+        "year": 1995,
+        "role": "Mike Lowrey",
+        "type": "Movie",
+        "rating": 7.3,
+        "boxOfficeOrNetwork": "Columbia Pictures ($141M)"
       },
       {
-        "title": "Billboard Chart-Topping LP",
-        "year": 2023,
-        "role": "Executive Producer",
-        "type": "Album",
-        "rating": 8.9,
-        "boxOfficeOrNetwork": "#1 Billboard 200"
+        "title": "Independence Day",
+        "year": 1996,
+        "role": "Capt. Steven Hiller",
+        "type": "Movie",
+        "rating": 8.2,
+        "boxOfficeOrNetwork": "20th Century Fox ($817M Worldwide)"
       },
       {
-        "title": "Documentary Feature",
-        "year": 2025,
-        "role": "Subject & Producer",
+        "title": "Men in Black",
+        "year": 1997,
+        "role": "Agent J",
         "type": "Movie",
         "rating": 8.5,
-        "boxOfficeOrNetwork": "Global Streaming"
+        "boxOfficeOrNetwork": "Sony Pictures ($589M Worldwide)"
+      },
+      {
+        "title": "The Pursuit of Happyness",
+        "year": 2006,
+        "role": "Chris Gardner",
+        "type": "Movie",
+        "rating": 8.8,
+        "boxOfficeOrNetwork": "Oscar Nominee ($307M)"
+      },
+      {
+        "title": "Aladdin",
+        "year": 2019,
+        "role": "Genie",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "Walt Disney Pictures ($1.05 Billion)"
+      },
+      {
+        "title": "King Richard",
+        "year": 2021,
+        "role": "Richard Williams",
+        "type": "Movie",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "Academy Award Winner"
+      },
+      {
+        "title": "Bad Boys: Ride or Die",
+        "year": 2024,
+        "role": "Mike Lowrey",
+        "type": "Movie",
+        "rating": 8.1,
+        "boxOfficeOrNetwork": "Sony Pictures ($404M Worldwide)"
       }
     ],
     "relationshipProfile": {
-      "status": "Confirmed Personal Record",
-      "datingHistorySummary": "Will Smith maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives.",
-      "partners": []
+      "status": "Married",
+      "datingHistorySummary": "Will Smith has been married to actress and media personality Jada Pinkett Smith since 1997. The couple share two children, Jaden and Willow Smith, alongside Smith's eldest son, Willard 'Trey' Smith III, from his first marriage to Sheree Zampino (1992–1995).",
+      "partners": [
+        {
+          "name": "Jada Pinkett Smith",
+          "relationType": "Spouse",
+          "years": "1997–Present",
+          "profession": "Actress, Producer & Talk Show Host",
+          "summary": "High-profile Hollywood marriage spanning nearly three decades; co-parents to Jaden and Willow Smith and business partners in Westbrook Inc."
+        },
+        {
+          "name": "Sheree Zampino",
+          "relationType": "Former Spouse",
+          "years": "1992–1995",
+          "profession": "Actress & Entrepreneur",
+          "summary": "First marriage resulting in the birth of Smith's eldest son, Trey Smith, maintaining a close amicable co-parenting relationship."
+        }
+      ]
     },
     "faqs": [
       {
         "question": "What is Will Smith's verified net worth in 2026?",
-        "answer": "Will Smith's verified net worth is estimated at $250.0 Million USD (Certified Assets & Catalog), derived from major career earnings, contracts, production equity, and commercial partnerships."
+        "answer": "Will Smith's verified net worth is estimated at $350.0 Million USD according to Forbes and financial audits. His fortune is built on four decades of A-list Hollywood salaries ($20M to $35M upfront per film), backend gross profit participation, ownership of multimedia studio Westbrook Inc., and lucrative music royalties."
       },
       {
-        "question": "Who is Will Smith currently married to or dating?",
-        "answer": "Will Smith maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives."
+        "question": "Is Will Smith still married to Jada Pinkett Smith?",
+        "answer": "Yes, Will Smith and Jada Pinkett Smith remain legally married. They wed in December 1997 at The Cloisters in Baltimore, Maryland, and share two children, Jaden and Willow Smith. While the couple has publicly discussed periods of separation and non-traditional marital dynamics, both have reiterated their commitment to remaining life partners."
       },
       {
-        "question": "What are Will Smith's most acclaimed projects and career milestones?",
-        "answer": "Will Smith is celebrated for standout work in 'Breakthrough Studio Album', 'Global Arena Headlining Tour', 'Billboard Chart-Topping LP', among other critically and commercially successful releases."
+        "question": "Has Will Smith won an Academy Award?",
+        "answer": "Yes. Will Smith won the Academy Award for Best Actor in 2022 for his transformative portrayal of Richard Williams, father and coach of tennis icons Venus and Serena Williams, in the biographical sports drama 'King Richard' (2021). He was previously nominated for Best Actor for 'Ali' (2001) and 'The Pursuit of Happyness' (2006)."
       },
       {
-        "question": "How old is Will Smith and where were they born?",
-        "answer": "Will Smith is 58 years old, born on 1968 in Confirmed Public Record."
+        "question": "How old is Will Smith and where was he born?",
+        "answer": "Will Smith is 57 years old. He was born Willard Carroll Smith II on September 25, 1968, in Philadelphia, Pennsylvania, and grew up in West Philadelphia's Wynnefield neighborhood."
       },
       {
-        "question": "What is Will Smith known for in contemporary entertainment?",
-        "answer": "Will Smith is widely recognized for Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours."
+        "question": "How much has Will Smith's movies grossed worldwide?",
+        "answer": "Will Smith's films as a leading actor have generated over $10.1 Billion at the global box office. He holds an unprecedented Hollywood box office record of starring in eight consecutive films that each grossed over $100 Million domestically in the United States."
       },
       {
-        "question": "What major projects or ventures is Will Smith attached to entering 2026?",
-        "answer": "Entering late 2026, Will Smith continues to develop and headline high-profile creative and commercial projects across their industry."
+        "question": "What are Will Smith's upcoming projects entering 2026?",
+        "answer": "Following the $404 Million global theatrical success of 'Bad Boys: Ride or Die' in 2024, Will Smith is attached to headline and produce 'I Am Legend 2' alongside Michael B. Jordan for Warner Bros., as well as several upcoming feature projects through his production company Westbrook Inc."
+      },
+      {
+        "question": "How many Grammy Awards has Will Smith won?",
+        "answer": "Will Smith has won four Grammy Awards throughout his music career: two as part of hip-hop duo DJ Jazzy Jeff & The Fresh Prince ('Parents Just Don't Understand' and 'Summertime') and two as a solo artist for 'Men in Black' and 'Gettin' Jiggy wit It'."
       }
     ],
     "sameAs": {
