@@ -559,10 +559,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <span className="text-sm font-bold text-slate-900 block">
-              Explore More Celebrities
+              Browse More Celebrities
             </span>
             <span className="text-xs text-slate-500">
-              Read comprehensive biographies and career milestones in our directory.
+              Read full biographies and career milestones in our directory.
             </span>
           </div>
 

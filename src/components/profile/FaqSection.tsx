@@ -24,7 +24,7 @@ export default function FaqSection({ faqs, celebrityName }: FaqSectionProps) {
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-6 leading-relaxed">
-        Direct answers to verified inquiries regarding {celebrityName}&apos;s career, personal milestones, and public record.
+        Direct answers to public inquiries regarding {celebrityName}&apos;s career, personal milestones, and public record.
       </p>
 
       <div className="space-y-3">

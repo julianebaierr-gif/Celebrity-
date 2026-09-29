@@ -72,7 +72,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
               href="/celebrities"
               className="mt-5 inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 hover:underline"
             >
-              <span>Explore All Celebrities</span>
+              <span>View All Celebrities</span>
               <ArrowRight className="h-3 w-3" />
             </Link>
           </div>

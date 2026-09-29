@@ -9,7 +9,7 @@ import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 export const metadata: Metadata = {
   title: "All Celebrities Directory | Biographies & Profiles | CelebEdge",
   description:
-    "Explore our complete directory of celebrity profiles. In-depth biographies, net worth analysis, career highlights, and filmographies.",
+    "Browse our official directory of celebrity profiles. Detailed biographies, net worth analysis, career highlights, and filmographies.",
   alternates: {
     canonical: "https://celeb-edge.vercel.app/celebrities",
   },
@@ -55,7 +55,7 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
           </h1>
 
           <p className="text-base text-slate-600 max-w-2xl font-normal leading-relaxed">
-            Browse our complete collection of celebrity profiles. Each profile covers biographical facts, career milestones, filmography records, and financial overviews.
+            Browse our official archive of celebrity profiles. Each profile covers biographical facts, career milestones, filmography records, and financial overviews.
           </p>
 
           {/* Search Box */}

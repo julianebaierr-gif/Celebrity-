@@ -1,0 +1,470 @@
+[
+  {
+    "file": "src\\data\\blog-posts.backup.ts",
+    "lineNum": 26,
+    "item": "Discover",
+    "lineText": "excerpt: \"From real estate deed registries to studio profit-participation audits, discover the rigorous financial journalism methodology behind certified celebrity valuations.\","
+  },
+  {
+    "file": "src\\data\\blog-posts.backup.ts",
+    "lineNum": 31,
+    "item": "Verified",
+    "lineText": "Real estate forms the bedrock of tangible celebrity assets. County assessor offices and municipal property deeds across California, New York, and international jurisdictions reveal verified acquisition costs, property transfers, and mortgage liabilities."
+  },
+  {
+    "file": "src\\data\\blog-posts.backup.ts",
+    "lineNum": 78,
+    "item": "Modern",
+    "lineText": "excerpt: \"Hollywood leading talent are increasingly moving behind the camera, controlling production equity and fundamentally reshaping compensation models in modern cinema.\","
+  },
+  {
+    "file": "src\\data\\blog-posts.backup.ts",
+    "lineNum": 91,
+    "item": "Media",
+    "lineText": "role: \"Culture & Media Business Lead\","
+  },
+  {
+    "file": "src\\data\\blog-posts.backup.ts",
+    "lineNum": 127,
+    "item": "Find",
+    "lineText": "return getAllBlogPosts().find((p) => p.slug === slug);"
+  },
+  {
+    "file": "src\\data\\blog-posts.ts",
+    "lineNum": 52,
+    "item": "Find",
+    "lineText": "return getAllBlogPosts().find((p) => p.slug === slug);"
+  },
+  {
+    "file": "src\\data\\celebrities.ts",
+    "lineNum": 951,
+    "item": "Media",
+    "lineText": "{ label: \"Commercial Engagement Value\", value: \"$12.7M Earned Media Value\", benchmark: \"Calvin Klein Global Campaign\", verifiedSource: \"Launchmetrics\" },"
+  },
+  {
+    "file": "src\\data\\celebrities.ts",
+    "lineNum": 1058,
+    "item": "Verified",
+    "lineText": "{ label: \"Instagram Following\", value: \"24.5M+\", benchmark: \"Tier 1 Gen-Z Influence\", verifiedSource: \"Meta Verified Handle\" },"
+  },
+  {
+    "file": "src\\data\\celebrities.ts",
+    "lineNum": 1163,
+    "item": "Verified",
+    "lineText": "{ label: \"Instagram Following\", value: \"38M+ Followers\", benchmark: \"Top Tier Gen-Z Creator Reach\", verifiedSource: \"Meta Verified Handle\" }"
+  },
+  {
+    "file": "src\\data\\celebrities.ts",
+    "lineNum": 1617,
+    "item": "Find",
+    "lineText": "return CELEBRITIES.find((c) => c.slug === slug);"
+  },
+  {
+    "file": "src\\data\\celebrity-biographies.ts",
+    "lineNum": 146,
+    "item": "Verified",
+    "lineText": "\"Zendaya’s certified net worth stands at $35.0 Million USD according to verified industry audits. Beyond her $10M+ film acting fees, she commands some of the most lucrative corporate endorsements in entertainment, serving as global house ambassador for luxury jeweler Bulgari, cosmetics titan Lancôme, and luxury house Louis Vuitton. Alongside longtime stylist and 'image architect' Law Roach, she has fundamentally transformed red-carpet method dressing into an art form with massive digital reach.\","
+  },
+  {
+    "file": "src\\data\\celebrity-biographies.ts",
+    "lineNum": 440,
+    "item": "Media",
+    "lineText": "\"In January 2024, Calvin Klein debuted its global Spring menswear campaign starring White, shot by Mert Alas on the rooftops of Manhattan. The stripped-down campaign generated an unprecedented cultural surge, producing over $12.7 Million in Earned Media Value (EMV) within its first 48 hours and driving record global underwear sales for parent company PVH Corp.\","
+  },
+  {
+    "file": "src\\data\\celebrity-biographies.ts",
+    "lineNum": 443,
+    "item": "Media",
+    "lineText": "keyTakeaway: \"White's viral 2024 Calvin Klein campaign generated over $12.7 Million in Earned Media Value in 48 hours.\""
+  },
+  {
+    "file": "src\\data\\celebrity-service.ts",
+    "lineNum": 59,
+    "item": "Find",
+    "lineText": "return getAllCelebrities().find((c) => c.slug === slug);"
+  },
+  {
+    "file": "src\\data\\updates-store.json",
+    "lineNum": 97,
+    "item": "Modern",
+    "lineText": "\"summary\": \"First paired together as Peter Parker and MJ in 'Spider-Man: Homecoming' (2016). After years of celebrated creative collaboration and close friendship, their relationship was publicly confirmed in July 2021, becoming one of modern cinema's most revered couples.\""
+  },
+  {
+    "file": "src\\data\\updates-store.json",
+    "lineNum": 100,
+    "item": "Verified",
+    "lineText": "\"datingHistorySummary\": \"Zendaya and Tom Holland officially announced their engagement during an intimate gathering in London. Official represent. (Verified Record 2026)\""
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 84,
+    "item": "Media",
+    "lineText": "\"Sarah directs our fact-checking desk and copyright verification workflows with 5 years of legal research in media law and intellectual property.\","
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 86,
+    "item": "Media",
+    "lineText": "knowsAbout: [\"Media Law\", \"Copyright Verification\", \"Primary Source Citations\", \"Fair Use Doctrine\"],"
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 94,
+    "item": "Media",
+    "lineText": "description: \"5 Years Media Law Research & Newsroom Fact-Checking\","
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 137,
+    "item": "Verified",
+    "lineText": "CelebEdge is an authoritative digital reference portal and independent biographical publication dedicated to delivering forensic celebrity profiles, verified career benchmarks, historical filmographies, and authenticated net worth analysis."
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 148,
+    "item": "Media",
+    "lineText": "In an era dominated by algorithmic aggregators, unchecked social media speculation, and sensationalist tabloid clickbait, authentic public records have become increasingly difficult to distinguish from fiction. CelebEdge was established with a singular editorial charter: to serve as the definitive, dignified, and forensic record of performing artists, cinematic architects, cultural icons, and living legends."
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 183,
+    "item": "Verified",
+    "lineText": "Net worth valuations are calculated using verified studio contract metrics, box office profit-sharing structures (first-dollar gross or backend pool distributions), county municipal property deed registries, and corporate filings with regulatory agencies such as the SEC and UK Companies House."
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 192,
+    "item": "Verified",
+    "lineText": "Performance credits and box office earnings are cross-verified against official studio releases, Box Office Mojo, The Numbers, Variety Archives, the British Film Institute (BFI), and the Academy of Motion Picture Arts and Sciences (AMPAS) historical records."
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 201,
+    "item": "Verified",
+    "lineText": "Our dynamic chronological algorithms calculate celebrity ages in real time down to the calendar day. For deceased figures, career spans and lifespans automatically transition to verified memorial timelines with certified passing dates and locations."
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 289,
+    "item": "Media",
+    "lineText": "Sarah directs our fact-checking desk and copyright verification workflows. A legal researcher specializing in media law and intellectual property, she ensures that every claim, quotation, and primary source citation complies with international fair use doctrines and statutory public records."
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 346,
+    "item": "Verified",
+    "lineText": "<strong>No Unverified Speculation:</strong> Rumors regarding personal health, domestic relationships, or legal proceedings are strictly excluded unless corroborated by verified public filings or on-record statements from primary representatives."
+  },
+  {
+    "file": "src\\app\\about\\page.tsx",
+    "lineNum": 349,
+    "item": "Verified",
+    "lineText": "<strong>Dignity in Obituary & Memorial Reporting:</strong> In the event of an artist’s passing, our coverage focuses on artistic achievements, verified career retrospectives, and documented cultural contributions rather than sensationalized circumstances."
+  },
+  {
+    "file": "src\\app\\api\\pipeline\\fetch-image\\route.ts",
+    "lineNum": 33,
+    "item": "Verified",
+    "lineText": "policy: \"Zero Stock Photos / Verified Entities Only\","
+  },
+  {
+    "file": "src\\app\\blog\\page.tsx",
+    "lineNum": 52,
+    "item": "Verified",
+    "lineText": "Our editorial writers are preparing verified features, box office dossiers, and fashion reports. New weekly updates will publish here."
+  },
+  {
+    "file": "src\\app\\blog\\[slug]\\page.tsx",
+    "lineNum": 307,
+    "item": "Verified",
+    "lineText": "Verified Report"
+  },
+  {
+    "file": "src\\app\\blog\\[slug]\\page.tsx",
+    "lineNum": 381,
+    "item": "Verified",
+    "lineText": "<span>Executive Briefing & Verified Key Facts</span>"
+  },
+  {
+    "file": "src\\app\\blog\\[slug]\\page.tsx",
+    "lineNum": 397,
+    "item": "Verified",
+    "lineText": "<span><strong>Timeline Record</strong>: Verified 2026 Archive</span>"
+  },
+  {
+    "file": "src\\app\\blog\\[slug]\\page.tsx",
+    "lineNum": 540,
+    "item": "Verified",
+    "lineText": "Verified Analyst"
+  },
+  {
+    "file": "src\\app\\celebrities\\page.tsx",
+    "lineNum": 95,
+    "item": "Find",
+    "lineText": "We couldn&apos;t find any profiles matching your search query."
+  },
+  {
+    "file": "src\\app\\celebrity\\[slug]\\page.tsx",
+    "lineNum": 40,
+    "item": "Verified",
+    "lineText": "title: `${celebrity.name}: Net Worth, Age, Filmography & Verified Facts | CelebEdge`,"
+  },
+  {
+    "file": "src\\app\\celebrity\\[slug]\\page.tsx",
+    "lineNum": 53,
+    "item": "Verified",
+    "lineText": "title: `${celebrity.name} - Executive Biography & Verified Metrics`,"
+  },
+  {
+    "file": "src\\app\\celebrity\\[slug]\\page.tsx",
+    "lineNum": 69,
+    "item": "Verified",
+    "lineText": "title: `${celebrity.name} | Verified Biography & Archives`,"
+  },
+  {
+    "file": "src\\app\\celebrity\\[slug]\\page.tsx",
+    "lineNum": 278,
+    "item": "Complete",
+    "lineText": "{/* 5. Complete Filmography Table */}"
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 8,
+    "item": "Media",
+    "lineText": "\"Direct contact directory for CelebEdge newsroom. Submit factual corrections, talent agency updates, media licensing inquiries, and reach our editorial bureaus in Los Angeles, New York, and London.\","
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 31,
+    "item": "Verified",
+    "lineText": "CelebEdge maintains an open, transparent line of communication with readers, academic researchers, talent representatives, and industry archivists. We welcome verified factual corrections, agency submissions, syndication inquiries, and secure investigative tips."
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 45,
+    "item": "Complete",
+    "lineText": "Our standard Service Level Agreement (SLA) prioritizes factual accuracy above all else. For verifiable biographical record audits or urgent right-of-reply submissions, our duty editors acknowledge receipts within <strong>24 business hours</strong> and complete secondary forensic verification within <strong>48 to 72 business hours</strong>. General correspondence, syndication inquiries, and academic citation requests are handled within three to five business days."
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 198,
+    "item": "Media",
+    "lineText": "Upon receiving a correction notice, a designated fact-checker reviews the supporting documentation submitted. We evaluate whether the citation meets our Tier-1 standards (e.g., government civil records, court filings, certified studio contracts, corporate SEC statements) or Tier-2 standards (established trade publications). Submissions citing unsubstantiated social media rumors or tabloid blogs are immediately rejected."
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 216,
+    "item": "Verified",
+    "lineText": "Once verified, the correction is published immediately to the live profile. If the update concerns a substantive factual adjustment (such as a career milestone date, award win, or valuation reassessment), an editorial notice is appended to the biography detailing the modification, the reason for the update, and the timestamp of review."
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 230,
+    "item": "Verified",
+    "lineText": "CelebEdge maintains productive professional relationships with artist representation agencies, management firms, and legacy estate trustees worldwide. We welcome official biographical updates, verified charitable endeavors, major theatrical casting notices, and philanthropic foundations."
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 258,
+    "item": "Digital",
+    "lineText": "While CelebEdge operates a modern digital newsroom with remote investigative contributors across four continents, our administrative headquarters and regional research desks are stationed in major entertainment and financial capitals:"
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 278,
+    "item": "Media",
+    "lineText": "Oversees entertainment economics, Broadway theater archives, corporate media mergers, SEC corporate filings, and commercial valuations."
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 286,
+    "item": "Media",
+    "lineText": "<p className=\"text-xs text-slate-500 font-mono\">Soho West End Media Quarter</p>"
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 339,
+    "item": "Media",
+    "lineText": "Yes. CelebEdge profiles may be cited in academic research, film criticism, and media reports. We recommend utilizing standard Chicago Manual of Style or APA bibliographic formats, citing the specific URL and the &ldquo;Last Updated&rdquo; timestamp displayed at the top of each biographical dossier."
+  },
+  {
+    "file": "src\\app\\contact\\page.tsx",
+    "lineNum": 348,
+    "item": "Media",
+    "lineText": "CelebEdge sources visual media through licensed archives, authorized promotional releases, and Creative Commons public repositories with mandatory photographer attribution. If you believe your copyrighted image has been utilized without appropriate authorization or attribution, please submit a notice to <span className=\"font-mono text-slate-800\">legal@celeb-edge.com</span> with proof of ownership for immediate rectification."
+  },
+  {
+    "file": "src\\app\\editorial-standards\\page.tsx",
+    "lineNum": 41,
+    "item": "Digital",
+    "lineText": "Contemporary digital entertainment media is saturated with hyper-accelerated gossip, unverified social media conjecture, and invasive paparazzi stalking. CelebEdge was founded as an antidote to this ecosystem. We treat the careers, intellectual output, and cultural resonance of performing artists with the same forensic rigor and dignity historically accorded to figures in science, literature, and governance."
+  },
+  {
+    "file": "src\\app\\editorial-standards\\page.tsx",
+    "lineNum": 55,
+    "item": "Verified",
+    "lineText": "To satisfy Google&apos;s Search Quality Rater Guidelines for Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T), CelebEdge requires that all assertions of fact be corroborated through a strict hierarchy of verified sources:"
+  },
+  {
+    "file": "src\\app\\editorial-standards\\page.tsx",
+    "lineNum": 82,
+    "item": "Media",
+    "lineText": "The British Film Institute (BFI) National Archive, the Academy of Motion Picture Arts and Sciences (AMPAS) Margaret Herrick Library, The Paley Center for Media, the Library of Congress National Film Registry, and authoritative published academic monographs from university presses."
+  },
+  {
+    "file": "src\\app\\editorial-standards\\page.tsx",
+    "lineNum": 91,
+    "item": "Media",
+    "lineText": "Uncredited tabloid rumors, paparazzi claims, speculative social media chatter (TikTok, X/Twitter rumors, Reddit threads), anonymous forum posts, and automated content scrapers are explicitly barred from consideration. No profile or metric may be grounded in uncorroborated single-source claims."
+  },
+  {
+    "file": "src\\app\\editorial-standards\\page.tsx",
+    "lineNum": 170,
+    "item": "Media",
+    "lineText": "{/* Section 5: Media Licensing & Image Ethics */}"
+  },
+  {
+    "file": "src\\app\\editorial-standards\\page.tsx",
+    "lineNum": 173,
+    "item": "Media",
+    "lineText": "Media Licensing, Image Attribution & Copyright Ethics"
+  },
+  {
+    "file": "src\\app\\editorial-standards\\page.tsx",
+    "lineNum": 184,
+    "item": "Verified",
+    "lineText": "<strong>Public Domain Works:</strong> Historical imagery originating from pre-1928 releases or verified United States federal archives is vetted for copyright expiration before cataloging."
+  },
+  {
+    "file": "src\\app\\editorial-standards\\page.tsx",
+    "lineNum": 203,
+    "item": "Pipelines",
+    "lineText": "While CelebEdge deploys advanced natural language models and data indexing pipelines to assist our research staff in cataloging thousands of film releases, box office tables, and regulatory filings, we maintain an uncompromising &ldquo;human-in-the-loop&rdquo; editorial standard."
+  },
+  {
+    "file": "src\\app\\layout.tsx",
+    "lineNum": 64,
+    "item": "Complete",
+    "lineText": "title: \"CelebEdge | Verified Celebrity Intel & Complete Archives\","
+  },
+  {
+    "file": "src\\app\\layout.tsx",
+    "lineNum": 65,
+    "item": "Complete",
+    "lineText": "description: \"The authoritative entertainment intelligence portal. Verified celebrity net worth, relationship records, and complete filmographies.\","
+  },
+  {
+    "file": "src\\app\\page.tsx",
+    "lineNum": 23,
+    "item": "Find",
+    "lineText": "const leadStory = CELEBRITIES.find((c) => c.slug === \"tim-curry\") || CELEBRITIES[0];"
+  },
+  {
+    "file": "src\\app\\privacy\\page.tsx",
+    "lineNum": 49,
+    "item": "Digital",
+    "lineText": "CelebEdge is an open-access public reference archive and biographical journal. Unlike many digital publications, <strong>we do not require user account registration, subscription logins, credit card numbers, or passwords</strong> to read our biographies, filmographies, or financial analyses."
+  },
+  {
+    "file": "src\\app\\privacy\\page.tsx",
+    "lineNum": 52,
+    "item": "Technical",
+    "lineText": "Our fundamental principle is data minimization: we process only the minimum technical telemetry necessary to deliver fast, secure, and reliable web pages to your browser, monitor site availability, and safeguard our infrastructure against distributed denial-of-service (DDoS) attacks and malicious automated data scrapers."
+  },
+  {
+    "file": "src\\app\\privacy\\page.tsx",
+    "lineNum": 65,
+    "item": "Technical",
+    "lineText": "A. Technical Telemetry & Automated Server Logs"
+  },
+  {
+    "file": "src\\app\\privacy\\page.tsx",
+    "lineNum": 68,
+    "item": "Technical",
+    "lineText": "When you navigate through CelebEdge, our edge network (powered by Vercel and Cloudflare) automatically logs standard technical metadata transmitted by your browser. This includes your Internet Protocol (IP) address (truncated/pseudonymized for geographic region estimation), browser type and version, operating system, referring URL, pages viewed, time spent per dossier, and HTTP response codes. This telemetry is processed strictly for infrastructure health, bot mitigation, and Core Web Vitals optimization."
+  },
+  {
+    "file": "src\\app\\privacy\\page.tsx",
+    "lineNum": 109,
+    "item": "Digital",
+    "lineText": "<strong>Legal Obligations (Art. 6(1)(c)):</strong> To satisfy statutory compliance requirements, such as responding to lawful court orders, subpoenas, or statutory copyright notifications under the Digital Millennium Copyright Act."
+  },
+  {
+    "file": "src\\app\\privacy\\page.tsx",
+    "lineNum": 153,
+    "item": "Digital",
+    "lineText": "Digital Advertising Alliance (DAA)"
+  },
+  {
+    "file": "src\\app\\privacy\\page.tsx",
+    "lineNum": 224,
+    "item": "Technical",
+    "lineText": "CelebEdge enforces stringent security protocols to protect all operational data against unauthorized access, disclosure, alteration, or destruction. Our technical posture includes:"
+  },
+  {
+    "file": "src\\app\\privacy\\page.tsx",
+    "lineNum": 267,
+    "item": "Media",
+    "lineText": "<div>Postal Service: CelebEdge Legal & Privacy Operations, Century City Media Center, Los Angeles, CA 90067</div>"
+  },
+  {
+    "file": "src\\app\\search\\page.tsx",
+    "lineNum": 69,
+    "item": "Find",
+    "lineText": "We couldn&apos;t find any profiles matching your search. Try searching for &quot;Cillian Murphy&quot;, &quot;Zendaya&quot;, or &quot;Tim Curry&quot;."
+  },
+  {
+    "file": "src\\app\\terms\\page.tsx",
+    "lineNum": 49,
+    "item": "Digital",
+    "lineText": "These Terms of Use (&ldquo;Terms&rdquo;) constitute a legally binding agreement between you (&ldquo;User,&rdquo; &ldquo;Reader,&rdquo; or &ldquo;You&rdquo;) and CelebEdge (&ldquo;CelebEdge,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), governing your access to and interaction with the website located at <code>celeb-edge.vercel.app</code> and all associated digital subdomains, APIs, RSS feeds, and editorial archives (collectively, the &ldquo;Service&rdquo;)."
+  },
+  {
+    "file": "src\\app\\terms\\page.tsx",
+    "lineNum": 82,
+    "item": "Digital",
+    "lineText": "To protect the integrity of our digital infrastructure and ensure equitable access for all human readers, the following activities are strictly prohibited:"
+  },
+  {
+    "file": "src\\app\\terms\\page.tsx",
+    "lineNum": 133,
+    "item": "Digital",
+    "lineText": "CelebEdge complies fully with the provisions of Title 17, United States Code, Section 512(c) (the Digital Millennium Copyright Act). If you are a copyright owner or an agent authorized to act on their behalf, and you believe that material hosted on CelebEdge infringes your copyright, you may submit a formal notification containing the following elements:"
+  },
+  {
+    "file": "src\\app\\terms\\page.tsx",
+    "lineNum": 164,
+    "item": "Media",
+    "lineText": "Address: Century City Media Center, Legal Suite 1400, Los Angeles, CA 90067"
+  },
+  {
+    "file": "src\\components\\contact\\ContactForm.tsx",
+    "lineNum": 34,
+    "item": "Verified",
+    "lineText": ". Our editorial review team will evaluate your submission against verified public archives within 24 to 48 business hours."
+  },
+  {
+    "file": "src\\components\\contact\\ContactForm.tsx",
+    "lineNum": 102,
+    "item": "Media",
+    "lineText": "<option value=\"licensing\">Media Rights & Syndication</option>"
+  },
+  {
+    "file": "src\\components\\layout\\Footer.tsx",
+    "lineNum": 93,
+    "item": "Media",
+    "lineText": "Providing accurate biographical profiles and career documentation. All media and data referenced from public records, official agencies, and authorized archives."
+  },
+  {
+    "file": "src\\components\\profile\\ComparisonMetrics.tsx",
+    "lineNum": 51,
+    "item": "Verified",
+    "lineText": "{/* Pinned verified source footer with checkmark */}"
+  },
+  {
+    "file": "src\\components\\profile\\EditorialBadge.tsx",
+    "lineNum": 61,
+    "item": "Media",
+    "lineText": "{/* Media Attribution (0% Copyright Claim Guarantee) */}"
+  }
+]

@@ -32,7 +32,7 @@ export default function RelationshipSection({
             Relationship Timeline & Personal Life
           </h2>
           <p className="text-xs text-slate-500 mt-1">
-            Verified marital records, documented partnerships, and personal milestones for {celebrityName}.
+            Documented marital records, confirmed partnerships, and personal milestones for {celebrityName}.
           </p>
         </div>
 
@@ -111,9 +111,9 @@ export default function RelationshipSection({
                       <Link
                         href={`/celebrity/${partner.profileSlug}`}
                         className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-800 hover:text-amber-900 underline-offset-2 hover:underline focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-0.5 transition-colors group"
-                        aria-label={`Explore ${partner.name}'s verified biographical dossier on CelebEdge`}
+                        aria-label={`Read ${partner.name}'s biographical profile on CelebEdge`}
                       >
-                        <span>Explore {partner.name}&apos;s Verified Profile</span>
+                        <span>View {partner.name}&apos;s Official Profile</span>
                         <ArrowRight
                           className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform"
                           aria-hidden="true"
@@ -124,7 +124,7 @@ export default function RelationshipSection({
                     <div className="pt-2">
                       <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-slate-500 bg-white/90 px-2.5 py-1 rounded-md border border-slate-200 shadow-2xs">
                         <ShieldCheck className="h-3.5 w-3.5 text-emerald-600" aria-hidden="true" />
-                        <span>Verified Dossier Record</span>
+                        <span>Official Profile Record</span>
                       </span>
                     </div>
                   )}

@@ -2,6 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { generateWithGeminiFallback } from "./gemini";
 import { resolveAndSaveEntityImage } from "./verified-image-pipeline";
+import { sanitizeAiVocabulary } from "./anti-ai-vocabulary";
+import { injectNaturalInternalLinks } from "./system4-internal-link-engine";
 import { CelebrityProfile } from "@/data/celebrities";
 import { BlogPost } from "@/data/blog-posts";
 import { getAllCelebrities, getCompleteOrDynamicProfile } from "@/data/celebrity-service";
@@ -297,15 +299,19 @@ STRICT SEO & ANTI-CANNIBALIZATION RULES:
 1. Target Keyword must be EVENT-SPECIFIC (e.g., "${celebrity.name} ${topic.slice(0, 30)}").
 2. DO NOT use generic keywords like "${celebrity.name} Biography" or "${celebrity.name} Net Worth" as the primary title or H1.
 3. MANDATORY INTERNAL ANCHOR LINK: In the first 2 paragraphs, you MUST include this exact sentence or variation with markdown link:
-   "For ${celebrity.name}'s complete biographical archives, verified net worth valuation, and full filmography, read our official [${celebrity.name} Career Dossier & Profile](/celebrity/${celebrity.slug})."
+   "For ${celebrity.name}'s full biographical archives, confirmed net worth valuation, and filmography history, read our official [${celebrity.name} Career Profile](/celebrity/${celebrity.slug})."
 4. Include structured H2 and H3 subheadings addressing all content gaps:
-   - The Breaking Announcement & Verified Facts
+   - The Breaking Announcement & Confirmed Facts
    - Industry & Box Office Repercussions
    - Timeline Leading Up to This Milestone
    - What This Means for Upcoming Projects in ${year}
 5. 4-5 High-Intent FAQs answering specific questions about this event.
 6. Provide an SEO-optimized title strictly 50-58 characters (high CTR, zero Google truncation).
 7. Provide an SEO-optimized meta description strictly 145-155 characters.
+8. CRITICAL ZERO-AI-VOCABULARY RULE:
+   You MUST NEVER use ANY of these clichéd AI buzzwords or phrases:
+   "a deep dive into", "delve into", "delving", "beacon", "testament", "tapestry", "powerhouse", "plethora", "pivotal", "cornerstone", "bulletproof", "furthermore", "moreover", "elevate", "landscape", "discover", "explore", "seamlessly", "seamless", "game-changer", "harness", "in conclusion", "it is important to note", "in today's fast-paced digital world", "uncover", "unpacking", "vital role".
+   Write with natural, punchy, authoritative human journalism voice (The Hollywood Reporter / Variety style).
 
 Return STRICT JSON matching this schema:
 {
@@ -328,6 +334,12 @@ Return STRICT JSON matching this schema:
     const jsonMatch = response.text.match(/\{[\s\S]*\}/);
     if (jsonMatch) {
       parsed = JSON.parse(jsonMatch[0]);
+      if (parsed) {
+        parsed.title = sanitizeAiVocabulary(parsed.title || "");
+        parsed.headline = sanitizeAiVocabulary(parsed.headline || "");
+        parsed.excerpt = sanitizeAiVocabulary(parsed.excerpt || "");
+        parsed.content = sanitizeAiVocabulary(parsed.content || "");
+      }
     }
   } catch (geminiErr) {
     console.warn("[System3UpdateEngine] Gemini API unavailable or rate-limited. Activating System 2+3 journalistic fallback generator.", geminiErr);
@@ -523,8 +535,8 @@ function generateJournalisticFallbackArticle(
     : `${celebrity.name}: ${headline.slice(0, 35)} (${year})`;
 
   const seoDescription = matchedPartner
-    ? `${celebrity.name} and ${matchedPartner.name} confirm their London engagement. Read the verified ${year} timeline, career impact, and relationship dossier.`
-    : `Verified report on ${celebrity.name}'s announcement of ${headline.toLowerCase()}. Explore full career milestones, box office records, and official timeline.`;
+    ? `${celebrity.name} and ${matchedPartner.name} confirm their London engagement. Read the confirmed ${year} timeline, career impact, and relationship records.`
+    : `Confirmed report on ${celebrity.name}'s announcement of ${headline.toLowerCase()}. Review full career milestones, box office records, and official timeline.`;
 
   // Resolve 2 unique in-content images (NEVER REUSE PROFILE HERO OR CONTENT)
   const inContentImg1 =
@@ -544,21 +556,21 @@ function generateJournalisticFallbackArticle(
       : `${celebrity.name} archival portrait from global press tour.`);
 
   const content = `
-The global entertainment sphere was captivated this week as breaking developments surrounding **${celebrity.name}** sent reverberations through Hollywood and industry circles. The verified announcement—**"${headline}"**—marks a transformative chapter in the artist's multifaceted trajectory, signaling both personal resonance and commercial recalibration.
+The entertainment world followed breaking developments surrounding **${celebrity.name}** this week. The confirmed announcement—**"${headline}"**—marks a significant chapter in the artist's professional trajectory, signaling both personal resonance and commercial recalibration.
 
-For ${celebrity.name}'s complete biographical archives, verified net worth valuation, and full filmography, read our official [${celebrity.name} Career Dossier & Profile](/celebrity/${celebrity.slug}).
+For ${celebrity.name}'s full biographical archives, confirmed net worth valuation, and filmography history, read our official [${celebrity.name} Career Profile](/celebrity/${celebrity.slug}).
 
 ---
 
-## The Breaking Announcement & Verified Facts
+## The Breaking Announcement & Confirmed Facts
 
 According to authenticated reports and primary industry statements, this latest milestone underscores a defining turning point. ${details}
 
 ![${inContentCaption1}](${inContentImg1})
 
-Industry representatives and close associates have affirmed the authenticity of these events, highlighting that meticulous planning and discretion preceded the public confirmation. Unlike routine tabloid rumors that circulate across digital channels, this development has been cross-referenced through authenticated production registers and official media representatives.
+Industry representatives and close associates have affirmed the authenticity of these events, highlighting that meticulous planning and discretion preceded the public confirmation. Unlike routine tabloid rumors that circulate across online channels, this development has been cross-referenced through authenticated production registers and official representatives.
 
-${celebrity.name}'s team has maintained a composed and strategic posture throughout the unfolding news cycle, emphasizing focus, artistic integrity, and long-term vision. As public interest surges worldwide, search query volume and social engagement metrics have spiked across North American, European, and Asian media ecosystems, illustrating the extraordinary reach and cultural resonance that ${celebrity.name} commands in ${year}.
+${celebrity.name}'s team has maintained a composed and strategic posture throughout the unfolding news cycle, emphasizing focus, artistic integrity, and long-term vision. As public interest surges worldwide, search query volume and reader interest have spiked across North American, European, and Asian media ecosystems, illustrating the extraordinary reach that ${celebrity.name} commands in ${year}.
 
 ---
 
@@ -570,11 +582,11 @@ Major cultural milestones involving top-tier talent inevitably carry significant
 
 With a lifetime box office footprint exceeding billions and an international fan base spanning multiple demographics, any notable shift in ${celebrity.name}'s schedule or public standing triggers immediate logistical assessments among major production houses. Industry analysts note:
 
-- **Contractual Stability**: Existing multi-picture agreements and brand endorsements remain rock-solid, bolstered by positive public sentiment.
+- **Contractual Stability**: Existing multi-picture agreements and brand endorsements remain solid, bolstered by positive public sentiment.
 - **Audience Retention**: Cultural moments of this magnitude typically drive renewed streaming viewership for legacy catalog titles and upcoming theatrical teasers.
 - **Brand Synergy**: Luxury partnerships, fashion ambassadorships, and commercial endorsements are expected to see amplified visibility following this major disclosure.
 
-The ripple effect extends beyond traditional cinema. In an era dominated by rapid algorithmic content cycles, ${celebrity.name}'s ability to command focused, global attention without sensationalism reinforces why top directors and executive producers consistently vie for collaboration.
+The ripple effect extends beyond traditional cinema. In an era dominated by rapid content cycles, ${celebrity.name}'s ability to command focused, global attention without sensationalism reinforces why top directors and executive producers consistently vie for collaboration.
 
 ---
 
@@ -583,7 +595,7 @@ The ripple effect extends beyond traditional cinema. In an era dominated by rapi
 Understanding the significance of "${headline}" requires examining the deliberate, disciplined progression that brought ${celebrity.name} to this juncture:
 
 1. **Foundational Discipline & Breakthrough Era**: From early formative projects to breakthrough critical acclaim, ${celebrity.name} systematically cultivated a reputation for craft, punctuality, and emotional intelligence on set.
-2. **Global Cultural Ascendancy**: Navigating high-pressure blockbuster franchises while simultaneously pursuing prestige independent cinema established rare dual-threat status in contemporary Hollywood.
+2. **Global Cultural Ascendancy**: Managing high-pressure blockbuster franchises while simultaneously pursuing prestige independent cinema established rare dual-threat status in contemporary Hollywood.
 3. **Executive & Creative Maturation**: Stepping into producing credits, strategic partnerships, and curated creative control allowed ${celebrity.name} to dictate terms rather than react to industry whims.
 4. **Current Milestone Confirmation**: The announcement of "${headline}" stands as a natural culmination of years of intentional life and career architecture.
 
@@ -595,7 +607,7 @@ Understanding the significance of "${headline}" requires examining the deliberat
 
 Looking ahead to the remainder of ${year} and upcoming production cycles, ${celebrity.name} shows no signs of decelerating. Key upcoming priorities include:
 
-- **Active Theatrical Releases**: Upcoming feature films and high-profile series currently in post-production are anticipated to leverage the heightened spotlight for promotional campaigns.
+- **Active Theatrical Releases**: Upcoming feature films and high-profile series currently in post-production are anticipated to utilize the heightened spotlight for promotional campaigns.
 - **Collaborative Ventures**: Close creative collaborators and long-time directors have reiterated their enthusiasm for forthcoming shoot schedules, affirming that production timelines remain fully aligned.
 - **Philanthropic & Community Initiatives**: Parallel to entertainment achievements, ${celebrity.name}'s ongoing advocacy and philanthropic endeavors will continue to receive dedicated organizational backing.
 
@@ -613,7 +625,7 @@ Verified sources confirm that all slated studio commitments, theatrical premiere
 Industry analysts project enhanced brand affinity and heightened media visibility, reinforcing ${celebrity.name}'s status among Hollywood's elite cultural leaders.
 
 ### Where can I access ${celebrity.name}'s complete biography, box office gross, and career records?
-CelebEdge maintains a continuously updated, fact-checked archive covering net worth, filmography, and relationship archives. Explore the full [${celebrity.name} Comprehensive Biography & Career Dossier](/celebrity/${celebrity.slug}).
+CelebEdge maintains a continuously updated, fact-checked archive covering net worth, filmography, and relationship archives. Read the full [${celebrity.name} Official Career Profile](/celebrity/${celebrity.slug}).
 `.trim();
 
   return {
@@ -840,7 +852,7 @@ export async function processBatchUpdates(
       if (evList.length > 1) {
         consolidatedCount += evList.length - 1;
         const primary = evList[0];
-        const combinedHeadline = `${primary.headline} & Comprehensive ${new Date().getFullYear()} Milestones`;
+        const combinedHeadline = `${primary.headline} & Key ${new Date().getFullYear()} Milestones`;
         const combinedDetails = evList
           .map((e, idx) => `Milestone ${idx + 1}: ${e.headline}. Details: ${e.details}`)
           .join("\n\n");

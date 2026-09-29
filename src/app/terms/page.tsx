@@ -84,7 +84,7 @@ export default function TermsPage() {
 
             <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
-                <strong>Automated Data Harvesting & AI Model Ingestion:</strong> Scraping, harvesting, spidering, or extracting textual biographies, net worth formulas, or tabular filmographies using automated tools (including bots, crawlers, headless browsers, or scripts) for the purpose of training machine learning models, commercial database resale, or automated website mirroring without an express commercial license.
+                <strong>Automated Data Harvesting & AI Model Ingestion:</strong> Scraping, harvesting, spidering, or capturing textual biographies, net worth formulas, or tabular filmographies using automated tools (including bots, crawlers, headless browsers, or scripts) for the purpose of training machine learning models, commercial database resale, or automated website mirroring without an express commercial license.
               </li>
               <li>
                 <strong>Infrastructure Disruption:</strong> Launching denial-of-service (DoS/DDoS) attacks, flooding server capacity, bypassing edge rate limits, or probing firewall vulnerabilities.

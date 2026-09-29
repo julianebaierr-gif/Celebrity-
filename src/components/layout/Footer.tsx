@@ -17,7 +17,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-slate-500 leading-relaxed text-xs">
-              A comprehensive journalistic archive for verified celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.
+              An authoritative journalistic archive for official celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.
             </p>
           </div>
 

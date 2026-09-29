@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy Policy | CelebEdge - Data Protection, GDPR, CCPA/CPRA & Cookie Standards",
   description:
-    "Comprehensive privacy policy of CelebEdge. Learn how we safeguard user data, uphold GDPR and CCPA/CPRA standards, enforce cookie transparency, and protect public archive integrity.",
+    "Official privacy policy of CelebEdge detailing how we safeguard user data, uphold GDPR and CCPA/CPRA standards, enforce cookie transparency, and protect public archive integrity.",
   alternates: {
     canonical: "https://celeb-edge.vercel.app/privacy",
   },
@@ -221,7 +221,7 @@ export default function PrivacyPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge enforces enterprise-grade security protocols to protect all operational data against unauthorized access, disclosure, alteration, or destruction. Our technical posture includes:
+              CelebEdge enforces stringent security protocols to protect all operational data against unauthorized access, disclosure, alteration, or destruction. Our technical posture includes:
             </p>
             <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
@@ -244,7 +244,7 @@ export default function PrivacyPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge is an informational publication intended for general audiences and film researchers. We do not knowingly solicit or collect personal information from children under the age of 13 (or under 16 in certain European jurisdictions). If we discover that a minor under 13 has transmitted personal data through our contact forms without verifiable parental consent, we will promptly delete that information from our active queues.
+              CelebEdge is an informational publication intended for general audiences and film researchers. We do not knowingly solicit or collect personal information from children under the age of 13 (or under 16 in certain European jurisdictions). If we determine that a minor under 13 has transmitted personal data through our contact forms without verifiable parental consent, we will promptly delete that information from our active queues.
             </p>
           </div>
         </section>

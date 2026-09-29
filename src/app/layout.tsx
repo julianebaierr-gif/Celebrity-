@@ -17,20 +17,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://celeb-edge.vercel.app"),
   title: {
-    default: "CelebEdge | Verified Celebrity Intel & Complete Archives",
+    default: "CelebEdge | Official Celebrity Profiles & Career Archives",
     template: "%s | CelebEdge",
   },
-  description: "The authoritative entertainment intelligence portal. Verified celebrity net worth, relationship records, complete filmographies, and zero-rumor biographical archives.",
+  description: "The authoritative entertainment intelligence portal. Confirmed celebrity net worth, relationship records, filmographies, and zero-rumor biographical archives.",
   keywords: [
     "celebrity net worth",
-    "verified celebrity biography",
+    "confirmed celebrity biography",
     "celebrity spouses",
     "filmography archive",
     "hollywood intel",
     "entertainment research"
   ],
   authors: [{ name: "CelebEdge Editorial Board", url: "https://celeb-edge.vercel.app/about" }],
-  creator: "CelebEdge Media Network",
+  creator: "CelebEdge Editorial Network",
   publisher: "CelebEdge Publishing Inc.",
   robots: {
     index: true,
@@ -48,14 +48,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://celeb-edge.vercel.app",
     siteName: "CelebEdge",
-    title: "CelebEdge | Verified Celebrity Intel & Complete Archives",
-    description: "The authoritative entertainment intelligence portal. Verified celebrity net worth, relationship records, and complete filmographies.",
+    title: "CelebEdge | Official Celebrity Profiles & Career Archives",
+    description: "The authoritative entertainment intelligence portal. Confirmed celebrity net worth, relationship records, and filmographies.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&h=630&q=80",
         width: 1200,
         height: 630,
-        alt: "CelebEdge - Verified Celebrity Intel Network",
+        alt: "CelebEdge - Official Celebrity Profiles Network",
       },
     ],
   },

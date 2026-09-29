@@ -47,7 +47,7 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
       "@context": "https://schema.org",
       "@type": "ProfilePage",
       url: `${baseUrl}/celebrity/${celebrity.slug}`,
-      name: `${celebrity.name} Verified Biographical Dossier`,
+      name: `${celebrity.name} Official Biographical Profile`,
       dateModified: celebrity.editorialMetadata.lastUpdated,
       author: {
         "@type": "Person",

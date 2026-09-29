@@ -62,7 +62,7 @@ export default function EditorialBadge({ celebrity }: EditorialBadgeProps) {
       <div className="flex items-center gap-2 text-[11px] text-slate-500">
         <Camera className="h-3.5 w-3.5 text-slate-400 shrink-0" />
         <span className="truncate">
-          Media Rights & Licensing: {heroImageCaption} ({heroImageLicense})
+          Photo Rights & Licensing: {heroImageCaption} ({heroImageLicense})
         </span>
       </div>
     </div>

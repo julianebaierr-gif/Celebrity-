@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Editorial Standards, Fact-Checking & Verification Policy | CelebEdge",
   description:
-    "Explore CelebEdge's journalistic charter: our 4-tier sourcing hierarchy, financial forensics methodology, net worth calculation formula, right-of-reply protocol, and image licensing ethics.",
+    "Review CelebEdge's journalistic charter: our 4-tier sourcing hierarchy, financial forensics methodology, net worth calculation formula, right-of-reply protocol, and image licensing ethics.",
   alternates: {
     canonical: "https://celeb-edge.vercel.app/editorial-standards",
   },

@@ -16,7 +16,7 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-6 leading-relaxed">
-        Verified industry metrics, box office records, and career benchmarks for {celebrityName}.
+        Audited industry metrics, box office records, and career benchmarks for {celebrityName}.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-stretch">

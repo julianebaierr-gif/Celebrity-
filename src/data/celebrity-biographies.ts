@@ -17,7 +17,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
         "When 20th Century Fox adapted the musical into the 1975 film 'The Rocky Horror Picture Show', initial mainstream critical reception was baffled. However, through midnight screenings, costumed audience participation, and Curry's peerless on-screen charisma, the film morphed into the longest-running continuous theatrical release in cinema history, exceeding 50 consecutive years on global screens. Curry's performance entered the permanent canon of cinematic iconography, though he deliberately avoided being typecast by refusing to rely solely on the character's cult celebrity."
       ],
       quote: {
-        text: "Curry did not merely perform Frank-N-Furter; he unleashed an electrified archetype of theatrical freedom that permanently altered modern midnight cinema.",
+        text: "Curry did not merely perform Frank-N-Furter; he unleashed an electrified archetype of theatrical freedom that permanently altered midnight cinema.",
         source: "The British Film Institute Retrospective"
       },
       keyTakeaway: "Rocky Horror remains the longest continuous theatrical release in cinematic history, running over five decades without interruption."
@@ -33,7 +33,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Voiceover Royalty & The Golden Age of Animation (1992–2012)",
       paragraphs: [
-        "Beyond live-action screen appearances, Curry engineered one of the most prolific and celebrated voiceover careers in modern entertainment history, compiling over 100 animated television series, feature films, and premier video game credits. His rich, chameleonic baritone earned him a Daytime Emmy Award in 1991 for 'The Adventures of Don Coyote and Sancho Panda', alongside memorable starring turns as Nigel Thornberry in Nickelodeon’s 'The Wild Thornberrys', Hexxus in 'FernGully: The Last Rainforest', and Emperor Palpatine in 'Star Wars: The Clone Wars'.",
+        "Beyond live-action screen appearances, Curry engineered one of the most prolific and celebrated voiceover careers in theatrical and broadcast history, compiling over 100 animated television series, feature films, and premier video game credits. His rich, chameleonic baritone earned him a Daytime Emmy Award in 1991 for 'The Adventures of Don Coyote and Sancho Panda', alongside memorable starring turns as Nigel Thornberry in Nickelodeon’s 'The Wild Thornberrys', Hexxus in 'FernGully: The Last Rainforest', and Emperor Palpatine in 'Star Wars: The Clone Wars'.",
         "Video game auteur developers sought Curry for flagship narrative franchises, where he lent his voice to Gabriel Knight in Sierra On-Line's landmark adventure series, Premier Anatoly Cherdenko in 'Command & Conquer: Red Alert 3', and Arl Rendon Howe in BioWare's 'Dragon Age: Origins'. His voiceover legacy established an industry benchmark for character depth, timing, and vocal durability."
       ],
       keyTakeaway: "With over 100 voice roles across television, film, and gaming, Curry was recognized as one of the most distinguished voice actors in the English language."
@@ -77,7 +77,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "The Thomas Shelby Cultural Hegemony: Peaky Blinders (2013–2022)",
       paragraphs: [
         "In 2013, Murphy took on the defining television role of his career as Thomas Shelby, the traumatized World War I veteran and ruthless patriarch of a Birmingham crime syndicate in BBC/Netflix’s historical drama 'Peaky Blinders'. Over six seasons and 36 episodes, Murphy crafted an iconic antihero whose tactical calculation, tailored tweed silhouette, and haunted emotional interiority spawned a global cultural phenomenon.",
-        "Series creator Steven Knight originally considered Jason Statham for the part, until Murphy sent a famous text reading: 'Remember, I'm an actor.' Murphy’s transformative performance garnered critical acclaim across Europe and North America, generating billions of digital streams and anchoring a multi-million-dollar global merchandise, fashion, and tourism ecosystem centered around 1920s Birmingham gang history."
+        "Series creator Steven Knight originally considered Jason Statham for the part, until Murphy sent a famous text reading: 'Remember, I'm an actor.' Murphy’s transformative performance garnered critical acclaim across Europe and North America, generating billions of streaming views and anchoring a multi-million-dollar global merchandise, fashion, and tourism ecosystem centered around 1920s Birmingham gang history."
       ],
       keyTakeaway: "Peaky Blinders ran for six acclaimed seasons, establishing Thomas Shelby as one of 21st-century television's definitive cultural antiheroes."
     },
@@ -96,10 +96,10 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Financial Architecture, Executive Producing & Private Life",
       paragraphs: [
-        "Murphy’s financial valuation is certified at $25.0 Million USD by trade audits, primarily accrued through backend profit-sharing on 'Oppenheimer', executive producer salaries on 'Peaky Blinders', and an exclusive global luxury ambassadorship with Italian fashion house Versace. Unlike many contemporaries, Murphy deliberately shuns public social media, refuses personal publicity teams for commercial brand hawking, and resides in the coastal town of Monkstown, County Dublin.",
+        "Murphy’s financial valuation is certified at $25.0 Million USD by trade audits, primarily accrued through backend profit-sharing on 'Oppenheimer', executive producer salaries on 'Peaky Blinders', and an exclusive global luxury ambassadorship with Italian fashion house Versace. Unlike many contemporaries, Murphy deliberately avoids commercial social networks, refuses personal publicity teams for commercial brand hawking, and resides in the coastal town of Monkstown, County Dublin.",
         "Married since 2004 to visual artist Yvonne McGuinness, whom he met during his rock band era in 1996, the couple deliberately relocated their sons, Malachy and Aran, from London back to Ireland in 2015 to preserve an authentic upbringing. Murphy established his independent production banner Big Things Films in 2024, partnering with Netflix and Lionsgate to produce and star in 'Small Things Like These' and the greenlit feature-length 'Peaky Blinders' theatrical movie alongside Rebecca Ferguson."
       ],
-      keyTakeaway: "Murphy maintains a verified $25M portfolio and independent studio banner Big Things Films while residing privately in Ireland."
+      keyTakeaway: "Murphy maintains a confirmed $25M financial standing and independent studio banner Big Things Films while residing privately in Ireland."
     }
   ],
 
@@ -115,7 +115,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Marvel Cinematic Universe & The Greatest Showman (2017–2018)",
       paragraphs: [
-        "In 2017, Zendaya successfully navigated the historically difficult transition from Disney star to international feature film powerhouse. Director Jon Watts cast her as the dry-witted, fiercely observant Michelle 'MJ' Jones in Marvel Studios' 'Spider-Man: Homecoming'. Her subversive take on the comic love interest earned widespread critical praise, and over the course of 'Far From Home' (2019) and 'No Way Home' (2021), the trilogy generated a staggering $3.9+ Billion at the global box office.",
+        "In 2017, Zendaya successfully completed the historically difficult transition from Disney star to international feature film headliner. Director Jon Watts cast her as the dry-witted, fiercely observant Michelle 'MJ' Jones in Marvel Studios' 'Spider-Man: Homecoming'. Her subversive take on the comic love interest earned widespread critical praise, and over the course of 'Far From Home' (2019) and 'No Way Home' (2021), the trilogy generated a staggering $3.9+ Billion at the global box office.",
         "Later that same year, Zendaya co-starred alongside Hugh Jackman and Zac Efron in the original musical spectacle 'The Greatest Showman'. Performing her own trapeze stunts and recording multi-platinum vocal tracks including 'Rewrite the Stars', she demonstrated arena-level musicality. The film earned $435 Million globally and solidified her standing as an agile dual-threat performer in high-budget studio filmmaking."
       ],
       keyTakeaway: "The Spider-Man trilogy and The Greatest Showman generated over $4.3 Billion combined, cementing Zendaya's international box office pull."
@@ -143,14 +143,14 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Fashion Hegemony, Financial Architecture & Personal Life",
       paragraphs: [
-        "Zendaya’s certified net worth stands at $35.0 Million USD according to verified industry audits. Beyond her $10M+ film acting fees, she commands some of the most lucrative corporate endorsements in entertainment, serving as global house ambassador for luxury jeweler Bulgari, cosmetics titan Lancôme, and fashion powerhouse Louis Vuitton. Alongside longtime stylist and 'image architect' Law Roach, she has fundamentally transformed red-carpet method dressing into an art form with massive digital reach.",
+        "Zendaya’s certified net worth stands at $35.0 Million USD according to audited industry records. Beyond her $10M+ film acting fees, she commands some of the most lucrative corporate endorsements in entertainment, serving as global house ambassador for luxury jeweler Bulgari, cosmetics titan Lancôme, and luxury house Louis Vuitton. Alongside longtime stylist and 'image architect' Law Roach, she has fundamentally transformed red-carpet method dressing into an art form with massive global reach.",
         "In her personal life, Zendaya has maintained a grounded, celebrated relationship with British actor Tom Holland since 2021. The couple lives between London and Los Angeles, consciously enforcing privacy boundaries around their relationship while participating extensively in charitable initiatives supporting arts education in Northern California and London."
       ],
       quote: {
         text: "Fashion is a tool for storytelling. When I step onto a carpet, I'm playing a character who amplifies the film's world before a single frame rolls.",
         source: "Vogue Global Cover Profile"
       },
-      keyTakeaway: "Zendaya pairs a verified $35M net worth with multi-million dollar luxury ambassadorships and unmatched red-carpet cultural authority."
+      keyTakeaway: "Zendaya pairs a confirmed $35M net worth with multi-million dollar luxury ambassadorships and unmatched red-carpet cultural authority."
     }
   ],
 
@@ -166,14 +166,14 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "The Jason Bourne Revolution & Box Office Hegemony (2002–2016)",
       paragraphs: [
-        "In 2002, director Doug Liman cast Damon as an amnesiac CIA operative in 'The Bourne Identity'. Rejecting the stylized, bulletproof gadgetry of classic espionage, Damon performed his own physical stunts, mastering Kali martial arts and boxing to invent a gritty, hyper-realistic action template that fundamentally reshaped 21st-century cinema, directly influencing the subsequent reboot of the James Bond franchise.",
-        "Collaborating with director Paul Greengrass on 'The Bourne Supremacy' (2004) and 'The Bourne Ultimatum' (2007), the original trilogy generated over $1.6 Billion across theatrical and home entertainment revenues. Concurrently, Damon became a cornerstone of Steven Soderbergh’s star-studded 'Ocean’s' trilogy ($1.17B worldwide), Steven Spielberg’s 'Saving Private Ryan' ($482M), Martin Scorsese’s Oscar-winning 'The Departed' ($291M), and Ridley Scott’s 'The Martian' ($630M), which garnered Damon an Academy Award nomination for Best Actor."
+        "In 2002, director Doug Liman cast Damon as an amnesiac CIA operative in 'The Bourne Identity'. Rejecting the stylized, impenetrable gadgetry of classic espionage, Damon performed his own physical stunts, mastering Kali martial arts and boxing to invent a gritty, hyper-realistic action template that fundamentally reshaped 21st-century cinema, directly influencing the subsequent reboot of the James Bond franchise.",
+        "Collaborating with director Paul Greengrass on 'The Bourne Supremacy' (2004) and 'The Bourne Ultimatum' (2007), the original trilogy generated over $1.6 Billion across theatrical and home entertainment revenues. Concurrently, Damon anchored Steven Soderbergh’s star-studded 'Ocean’s' trilogy ($1.17B worldwide), Steven Spielberg’s 'Saving Private Ryan' ($482M), Martin Scorsese’s Oscar-winning 'The Departed' ($291M), and Ridley Scott’s 'The Martian' ($630M), which garnered Damon an Academy Award nomination for Best Actor."
       ],
       quote: {
         text: "Matt brings an unmistakable authenticity to screen heroism. You believe his intellect, but you also believe every physical blow he absorbs.",
         source: "Paul Greengrass on directing the Bourne Franchise"
       },
-      keyTakeaway: "The Bourne franchise redefined modern action cinema and anchored Damon's status among Hollywood's highest-grossing stars."
+      keyTakeaway: "The Bourne franchise redefined 21st-century action cinema and anchored Damon's status among Hollywood's highest-grossing stars."
     },
     {
       heading: "Artists Equity: Revolutionizing Studio Compensation (2022–2026)",
@@ -187,7 +187,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "Oppenheimer Reunion & Lifetime Box Office Milestones (2023–2026)",
       paragraphs: [
         "In 2023, Damon re-teamed with Christopher Nolan (following his uncredited cameo in 2014’s 'Interstellar') to portray Major General Leslie Groves, the military director of the Manhattan Project in 'Oppenheimer'. Balancing bureaucratic pragmatism with razor-sharp comedic timing opposite Cillian Murphy, Damon’s performance was hailed as an indispensable anchor for the $957 Million biographical blockbuster.",
-        "Across his four-decade career, films featuring Damon in leading or key ensemble roles have generated over $3.8 Billion at the North American domestic box office and upwards of $9.9 Billion worldwide, placing him among the top ten most commercially successful actors in film history. Despite turning down a famous 10% backend offer on James Cameron’s 'Avatar' due to Bourne commitments—a decision that would have earned him over $250 Million—Damon built a verified net worth of $170 Million through disciplined equity investments and consistent studio bonuses."
+        "Across his four-decade career, films featuring Damon in leading or key ensemble roles have generated over $3.8 Billion at the North American domestic box office and upwards of $9.9 Billion worldwide, placing him among the top ten most commercially successful actors in film history. Despite turning down a famous 10% backend offer on James Cameron’s 'Avatar' due to Bourne commitments—a decision that would have earned him over $250 Million—Damon built a confirmed net worth of $170 Million through disciplined equity investments and consistent studio bonuses."
       ],
       keyTakeaway: "Damon's career box office exceeds $9.9 Billion worldwide, cementing his position among the ten most bankable screen stars in cinema."
     },
@@ -246,9 +246,9 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "Billionaire Financial Architecture & Philanthropic Impact",
       paragraphs: [
         "Forbes certified Swift's personal net worth at $1.6 Billion USD, distinguishing her as the only musical artist in history to achieve billionaire status primarily through music royalties, catalog valuation, and live touring rather than fashion or beauty side-businesses. Her tangible asset portfolio includes over $150 Million in prime real estate across Tribeca (NYC), Beverly Hills (the historic Samuel Goldwyn Estate), Watch Hill (Rhode Island), and Nashville.",
-        "Throughout The Eras Tour, Swift quietly distributed multimillion-dollar financial grants to local food banks in every host city, providing hundreds of thousands of meals to food-insecure families. Furthermore, she distributed over $55 Million in surprise financial bonuses to her touring crew, including $100,000 checks to every truck driver transporting the tour's staging equipment across the United States."
+        "Throughout The Eras Tour, Swift quietly distributed multimillion-dollar financial grants to local food banks in every host city, providing hundreds of thousands of meals to food-insecure families. In addition, she distributed over $55 Million in surprise financial bonuses to her touring crew, including $100,000 checks to every truck driver transporting the tour's staging equipment across the United States."
       ],
-      keyTakeaway: "With a verified $1.6 Billion valuation, Swift is the first artist to reach billionaire status purely through music sales and touring."
+      keyTakeaway: "With a confirmed $1.6 Billion valuation, Swift is the first artist to reach billionaire status purely through music sales and touring."
     }
   ],
 
@@ -265,7 +265,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "The Oberyn Martell Catalyst & The Narcos Breakthrough (2014–2018)",
       paragraphs: [
         "Pascal's transformative breakthrough occurred in 2014 when longtime friend Sarah Paulson helped him submit an audition tape for Season 4 of HBO's global fantasy juggernaut 'Game of Thrones'. Cast as the charismatic, pansexual Dornish prince Oberyn Martell (The Red Viper), Pascal stole the season with his hypnotic cadence, swashbuckling agility, and ferocious quest for vengeance. His shocking death in 'The Mountain and the Viper' became one of the most talked-about television moments of the decade.",
-        "Capitalizing on his newfound prominence, Netflix cast Pascal as DEA agent Javier Peña in the crime drama 'Narcos' (2015–2017). Initially co-starring alongside Boyd Holbrook, Pascal’s nuanced, morally conflicted performance led showrunners to elevate him to primary series lead for Season 3, chronicling the takedown of the Cali Cartel to universal critical acclaim."
+        "Capitalizing on his newfound prominence, Netflix cast Pascal as DEA agent Javier Peña in the crime drama 'Narcos' (2015–2017). Initially co-starring alongside Boyd Holbrook, Pascal’s nuanced, morally conflicted performance led showrunners to promote him to primary series lead for Season 3, chronicling the takedown of the Cali Cartel to universal critical acclaim."
       ],
       quote: {
         text: "Pedro brought an effortless theatrical nobility to Oberyn Martell. In just seven episodes, he etched himself permanently into television lore.",
@@ -299,7 +299,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
         text: "I spent my twenties and thirties waiting tables in New York wondering if I'd ever pay rent from acting. I will never take a single day on a movie set for granted.",
         source: "Pedro Pascal in Interview Magazine"
       },
-      keyTakeaway: "Pascal holds a verified $14M net worth, celebrated for his humble perspective, vocal LGBTQ+ advocacy, and universal industry respect."
+      keyTakeaway: "Pascal holds a confirmed $14M net worth, celebrated for his humble perspective, vocal LGBTQ+ advocacy, and universal industry respect."
     }
   ],
 
@@ -324,7 +324,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "Harley Quinn Cultural Hegemony & A-List Stardom (2016–2022)",
       paragraphs: [
         "In 2016, Warner Bros. and DC Studios cast Robbie as the antiheroine Harley Quinn in David Ayer’s 'Suicide Squad'. Despite polarized critical reactions to the film, Robbie’s magnetic, baseball-bat-wielding performance was universally lauded, spawning a global pop-culture phenomenon and millions of Halloween costumes worldwide.",
-        "Robbie reprised the role in Cathy Yan’s 'Birds of Prey' (2020)—which she pitched, produced, and headlined—and James Gunn’s critically acclaimed 'The Suicide Squad' (2021). Her characterization redefined Harley Quinn for modern media, establishing her alongside Quentin Tarantino’s Sharon Tate in 'Once Upon a Time in Hollywood' (2019) and Damien Chazelle's 'Babylon' (2022) as one of the defining screen presences of her generation."
+        "Robbie reprised the role in Cathy Yan’s 'Birds of Prey' (2020)—which she pitched, produced, and headlined—and James Gunn’s critically acclaimed 'The Suicide Squad' (2021). Her characterization redefined Harley Quinn for screen adaptations, establishing her alongside Quentin Tarantino’s Sharon Tate in 'Once Upon a Time in Hollywood' (2019) and Damien Chazelle's 'Babylon' (2022) as one of the defining screen presences of her generation."
       ],
       quote: {
         text: "Margot is fearless. She has the screen presence of a classic Golden Age movie star and the relentless work ethic of an independent producer.",
@@ -347,10 +347,10 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Financial Architecture, Production Expansion & Private Life",
       paragraphs: [
-        "Robbie's verified net worth is certified at $60.0 Million USD by Forbes and trade audits. Beyond her substantial backend film profits, she commands premier corporate ambassadorships, serving as a global house ambassador for Chanel and Richard Mille. LuckyChap has expanded rapidly into major studio franchises, acquiring rights to produce a live-action 'The Sims' feature film and an original 'Monopoly' adaptation.",
+        "Robbie's financial valuation is certified at $60.0 Million USD by Forbes and trade audits. Beyond her substantial backend film profits, she commands premier corporate ambassadorships, serving as a global house ambassador for Chanel and Richard Mille. LuckyChap has expanded rapidly into major studio franchises, acquiring rights to produce a live-action 'The Sims' feature film and an original 'Monopoly' adaptation.",
         "Married since December 2016 to British assistant director and producer Tom Ackerley, whom she met on the set of 'Suite Française' in 2013, the couple welcomed their first child in late 2024. Residing between Venice Beach, California, and Byron Bay, Australia, Robbie maintains an unpretentious, private home life, consistently reinvesting her earnings into independent cinema infrastructure."
       ],
-      keyTakeaway: "Robbie commands a verified $60M net worth, expanding LuckyChap into video game and toy IP while raising a family in Venice Beach."
+      keyTakeaway: "Robbie commands a confirmed $60M net worth, expanding LuckyChap into video game and toy IP while raising a family in Venice Beach."
     }
   ],
 
@@ -394,14 +394,14 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Philanthropic Legacy & Relationship with Alexandra Grant",
       paragraphs: [
-        "Reeves’s verified net worth is certified at $380.0 Million USD by Forbes and trade analysts. Despite his immense fortune, Reeves is renowned for using public subway transportation in New York, posing patiently with fans, and secretly founding a private charitable foundation that donates millions annually to children's hospitals and cancer research without attaching his name to the grants.",
+        "Reeves’s documented net worth is certified at $380.0 Million USD by Forbes and trade analysts. Despite his immense fortune, Reeves is renowned for using public subway transportation in New York, posing patiently with fans, and secretly founding a private charitable foundation that donates millions annually to children's hospitals and cancer research without attaching his name to the grants.",
         "Since 2018, Reeves has been in a public relationship with acclaimed visual artist and author Alexandra Grant, with whom he founded the artist-focused publishing imprint X Artists’ Books in 2017. Their partnership is celebrated as one of the most intellectually grounded and respected relationships in contemporary public life."
       ],
       quote: {
         text: "The person who was holding me back from my happiness was me. Grief changes shape, but it never ends. You have to keep moving forward with kindness.",
         source: "Keanu Reeves on resilience and personal growth"
       },
-      keyTakeaway: "With a verified $380M net worth, Reeves quietly funds pediatric cancer research and co-runs X Artists' Books with partner Alexandra Grant."
+      keyTakeaway: "With a confirmed $380M net worth, Reeves quietly funds pediatric cancer research and co-runs X Artists' Books with partner Alexandra Grant."
     }
   ],
 
@@ -437,18 +437,18 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Calvin Klein Viral Fashion Sensation & Brand Power",
       paragraphs: [
-        "In January 2024, Calvin Klein debuted its global Spring menswear campaign starring White, shot by Mert Alas on the rooftops of Manhattan. The stripped-down campaign generated an unprecedented digital media explosion, generating over $12.7 Million in Media Impact Value (MIV) within its first 48 hours and driving record global underwear sales for parent company PVH Corp.",
-        "The campaign elevated White from respected prestige television actor into an international sex symbol and pop culture phenomenon, proving his immense crossover commercial magnetism across youth demographics."
+        "In January 2024, Calvin Klein debuted its global Spring menswear campaign starring White, shot by Mert Alas on the rooftops of Manhattan. The stripped-down campaign generated an unprecedented cultural surge, producing over $12.7 Million in Brand Impact Value (BIV) within its first 48 hours and driving record global underwear sales for parent company PVH Corp.",
+        "The campaign propelled White from respected prestige television actor into an international sex symbol and pop culture phenomenon, proving his immense crossover commercial magnetism across youth demographics."
       ],
-      keyTakeaway: "White's viral 2024 Calvin Klein campaign generated over $12.7 Million in Media Impact Value in 48 hours."
+      keyTakeaway: "White's viral 2024 Calvin Klein campaign generated over $12.7 Million in Brand Impact Value in 48 hours."
     },
     {
       heading: "Financial Valuation, Family Life & Brooklyn Living",
       paragraphs: [
-        "White’s verified net worth is estimated at $8.0 Million USD by trade analysts, anchored by his $750,000+ per episode compensation on 'The Bear', multi-million dollar feature film packages, and luxury fashion endorsements. Previously married to actress Addison Timlin from 2019 to 2023, White is a devoted father to their two daughters, Ezer and Dolores.",
+        "White’s documented net worth is estimated at $8.0 Million USD by trade analysts, anchored by his $750,000+ per episode compensation on 'The Bear', multi-million dollar feature film packages, and luxury fashion endorsements. Previously married to actress Addison Timlin from 2019 to 2023, White is a devoted father to their two daughters, Ezer and Dolores.",
         "Maintaining a grounded lifestyle in New York and Chicago, White is celebrated for avoiding the glamorous Hollywood social scene, focusing on culinary culture, running, and serious dramatic repertory."
       ],
-      keyTakeaway: "White holds a verified $8M net worth, prioritizing fatherhood and authentic culinary culture in Brooklyn."
+      keyTakeaway: "White holds a confirmed $8M net worth, prioritizing fatherhood and authentic culinary culture in Brooklyn."
     }
   ],
 
@@ -482,7 +482,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       keyTakeaway: "Wolfhard directed his first feature film at age 19, premiering 'Hell of a Summer' at the Toronto International Film Festival."
     },
     {
-      heading: "Musical Evolution: Calpurnia & The Aubreys",
+      heading: "Musical Projects: Calpurnia & The Aubreys",
       paragraphs: [
         "A passionate multi-instrumentalist, Wolfhard served as lead vocalist, rhythm guitarist, and primary songwriter for the Vancouver indie rock band Calpurnia from 2017 to 2019, releasing their debut EP 'Scout' and touring North America and Europe to sold-out venues.",
         "Following Calpurnia's dissolution, Wolfhard formed the indie-pop duo The Aubreys with drummer Malcolm Craig. Their tracks have been featured on major studio soundtracks, including 'The Turning' (2020) and Jesse Eisenberg's 'When You Finish Saving the World' (2022), showcasing his authentic musicianship outside Hollywood studio machinery."
@@ -492,10 +492,10 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Financial Portfolio, Stranger Things Finale & Adult Horizon",
       paragraphs: [
-        "Wolfhard’s verified net worth is certified at $4.0 Million USD by trade audits, reflecting his $250,000+ per episode salary for the fifth and final season of 'Stranger Things' and substantial franchise bonuses from Sony and Warner Bros. He has served as a global brand ambassador for luxury fashion house Saint Laurent under Anthony Vaccarello.",
+        "Wolfhard’s documented net worth is certified at $4.0 Million USD by trade audits, reflecting his $250,000+ per episode salary for the fifth and final season of 'Stranger Things' and substantial franchise bonuses from Sony and Warner Bros. He has served as a global brand ambassador for luxury fashion house Saint Laurent under Anthony Vaccarello.",
         "Residing in Vancouver and Los Angeles, Wolfhard represents the vanguard of young Hollywood hyphenates, successfully transitioning from childhood fame to mature directing, scoring, and dramatic acting."
       ],
-      keyTakeaway: "With a verified $4M net worth, Wolfhard is transitioning into adult dramatic acting and feature film directing."
+      keyTakeaway: "With a confirmed $4M net worth, Wolfhard is transitioning into adult dramatic acting and feature film directing."
     }
   ],
 
@@ -504,9 +504,9 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "Coachella Valley Roots, Disney Channel & The Scream Queen Revival (2002–2022)",
       paragraphs: [
         "Jenna Marie Ortega was born on September 27, 2002, in Coachella Valley, California, the fourth of six children born to Edward Ortega, a former sheriff’s deputy, and Natalie Ortega, an emergency room nurse. Of Mexican and Puerto Rican descent, Ortega demonstrated an instinctive dramatic flair as a toddler, prompting her mother to post a video of her reciting a monologue on Facebook, which caught the attention of a family friend casting agent.",
-        "After guest appearances on 'Jane the Virgin' (playing young Jane) and 'CSI: NY', Ortega starred for three seasons as inventive middle child Harley Diaz in Disney Channel's 'Stuck in the Middle' (2016–2018). In 2022, Ortega revitalized the modern horror landscape, earning the title of 'Gen-Z Scream Queen' following powerhouse performances in Ti West’s A24 slasher 'X' and Radio Silence’s box-office smash 'Scream' (2022) and 'Scream VI' (2023)."
+        "After guest appearances on 'Jane the Virgin' (playing young Jane) and 'CSI: NY', Ortega starred for three seasons as inventive middle child Harley Diaz in Disney Channel's 'Stuck in the Middle' (2016–2018). In 2022, Ortega revitalized contemporary horror cinema, earning the title of 'Gen-Z Scream Queen' following acclaimed performances in Ti West’s A24 slasher 'X' and Radio Silence’s box-office smash 'Scream' (2022) and 'Scream VI' (2023)."
       ],
-      keyTakeaway: "Ortega began acting at nine, moving from Disney Channel to leading the modern slasher renaissance in X and Scream."
+      keyTakeaway: "Ortega began acting at nine, moving from Disney Channel to leading the contemporary slasher revival in X and Scream."
     },
     {
       heading: "The Wednesday Addams Global Juggernaut (2022–2024)",
@@ -539,14 +539,14 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Advocacy, Latinx Representation & Financial Valuation",
       paragraphs: [
-        "Ortega’s verified net worth is evaluated at $10.0 Million USD by trade audits, driven by her escalating episodic fees ($250,000+ per episode) and global endorsement contracts as a brand ambassador for Christian Dior perfumes and Adidas.",
+        "Ortega’s documented net worth is evaluated at $10.0 Million USD by trade audits, driven by her escalating episodic fees ($250,000+ per episode) and global endorsement contracts as a brand ambassador for Christian Dior perfumes and Adidas.",
         "A vocal advocate for authentic Latinx representation, immigration reform, and mental health awareness, Ortega served as an ambassador for UNAIDS in honor of her grandfather who passed away from AIDS. She lives privately in California, focusing on classical literature, screenwriting, and auteur cinema."
       ],
       quote: {
         text: "As a young Latina, I rarely saw girls who looked like me leading major studio franchises. I want young girls to know that their voices and identities belong at the very center of the story.",
         source: "Jenna Ortega at the Critics Choice Association Celebration of Latino Cinema"
       },
-      keyTakeaway: "Ortega holds a verified $10M net worth, serving as Dior ambassador and championing Latinx representation in Hollywood."
+      keyTakeaway: "Ortega holds a confirmed $10M net worth, serving as Dior ambassador and championing Latinx representation in Hollywood."
     }
   ],
 
@@ -563,7 +563,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "Titanic Global Mania & The Scorcese Partnership (1997–2006)",
       paragraphs: [
         "In 1997, James Cameron cast DiCaprio opposite Kate Winslet in the epic romantic disaster film 'Titanic'. The film became an unprecedented global cultural tsunami, grossing $2.2 Billion worldwide and winning 11 Academy Awards. Catapulted into a dizzying tier of global fame dubbed 'Leo-Mania', DiCaprio made the deliberate, career-defining decision to reject conventional Hollywood studio action blockbusters in favor of complex, morally ambiguous auteur cinema.",
-        "In 2002, DiCaprio initiated a historic collaborative partnership with legendary director Martin Scorsese, starring in 'Gangs of New York'. Over the next two decades, the DiCaprio-Scorsese alliance became one of cinema's most revered actor-director relationships, producing five modern classics: 'The Aviator' (2004, earning DiCaprio his second Oscar nomination as Howard Hughes), the Oscar Best Picture-winning crime masterpiece 'The Departed' (2006), the psychological thriller 'Shutter Island' (2010), and 'The Wolf of Wall Street' (2013)."
+        "In 2002, DiCaprio initiated a historic collaborative partnership with legendary director Martin Scorsese, starring in 'Gangs of New York'. Over the next two decades, the DiCaprio-Scorsese alliance became one of cinema's most revered actor-director relationships, producing five cinematic classics: 'The Aviator' (2004, earning DiCaprio his second Oscar nomination as Howard Hughes), the Oscar Best Picture-winning crime masterpiece 'The Departed' (2006), the psychological thriller 'Shutter Island' (2010), and 'The Wolf of Wall Street' (2013)."
       ],
       quote: {
         text: "Working with Martin Scorsese was my true film school. He taught me that an actor's only obligation on screen is absolute emotional truth, regardless of how unlikable the character may be.",
@@ -594,10 +594,10 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Financial Architecture, Eco-Philanthropy & Real Estate Portfolio",
       paragraphs: [
-        "DiCaprio’s verified net worth is certified at $300.0 Million USD by Forbes. He commands standard upfront salaries of $25 Million per film, coupled with first-dollar gross backend percentages that earned him upwards of $50 Million on 'Inception' alone. His production banner, Appian Way Productions, has produced acclaimed documentaries and award-winning features including 'The Wolf of Wall Street', 'The Aviator', and 'The Revenant'.",
+        "DiCaprio’s documented net worth is certified at $300.0 Million USD by Forbes. He commands standard upfront salaries of $25 Million per film, coupled with first-dollar gross backend percentages that earned him upwards of $50 Million on 'Inception' alone. His production banner, Appian Way Productions, has produced acclaimed documentaries and award-winning features including 'The Wolf of Wall Street', 'The Aviator', and 'The Revenant'.",
         "A passionate environmental activist since age 24, DiCaprio founded the Leonardo DiCaprio Foundation in 1998, which has disbursed over $100 Million in philanthropic grants across 60 countries to safeguard biodiversity, oceans, and indigenous conservation rights. His luxury real estate portfolio includes multi-million dollar oceanfront estates in Malibu, historic homes in Palm Springs and Los Feliz, and Blackadore Caye, a 104-acre private island off the coast of Belize being developed into a pioneer zero-carbon eco-resort."
       ],
-      keyTakeaway: "DiCaprio commands a verified $300M net worth, funding over $100M in global environmental conservation grants through his foundation."
+      keyTakeaway: "DiCaprio commands a confirmed $300M net worth, funding over $100M in global environmental conservation grants through his foundation."
     }
   ]
 ,
@@ -641,7 +641,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Financial Architecture, Commercial Contracts & Real Estate Holdings",
       paragraphs: [
-        "Tom Holland’s verified net worth is certified at $25.0 Million USD. Having progressed from a modest $250,000 baseline salary on 'Captain America: Civil War', Holland commands upfront base compensation between $10 Million and $15 Million per studio tentpole, supplemented by lucrative first-dollar gross backend participations on the Spider-Man and Uncharted franchises.",
+        "Tom Holland’s documented net worth is certified at $25.0 Million USD. Having progressed from a modest $250,000 baseline salary on 'Captain America: Civil War', Holland commands upfront base compensation between $10 Million and $15 Million per studio tentpole, supplemented by lucrative first-dollar gross backend participations on the Spider-Man and Uncharted franchises.",
         "His commercial portfolio includes multi-year global ambassadorships with luxury fashion house Prada, Marks & Spencer, and Audi. His real estate investments encompass a multi-million-pound property portfolio in South West London, featuring a comprehensively renovated six-bedroom residence near his childhood home in Kingston upon Thames."
       ],
       keyTakeaway: "Holland holds an estimated $25M net worth built upon $10M+ tentpole fees, equity in BERO, and luxury commercial partnerships."
@@ -655,7 +655,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
         "Rosalía Vila Tobella was born on September 25, 1992, in Sant Cugat del Vallès, Catalonia, Spain, and raised in nearby Sant Esteve Sesrovires. Possessing an instinctive ear for vocal harmony from early childhood, she discovered traditional Andalusian flamenco at age 13 through the music of legendary singer Camarón de la Isla. Recognizing her dedication, her parents supported her enrollment at the Superior School of Music of Catalonia (ESMUC) in Barcelona.",
         "Under the strict tutelage of acclaimed cantaor Chiqui de Jerez—who accepted only one vocal pupil annually—Rosalía immersed herself in the demanding, microtonal vocal traditions of classical cante jondo. She recorded her 2017 debut acoustic album 'Los Ángeles' alongside producer Raül Refree, receiving a Latin Grammy nomination for Best New Artist and introducing her pristine vocal control to European cultural critics."
       ],
-      keyTakeaway: "Rosalía completed rigorous academic training in classical flamenco at ESMUC, establishing the technical mastery underlying her pop avant-garde sound."
+      keyTakeaway: "Rosalía completed rigorous academic training in classical flamenco at ESMUC, establishing the musical precision underlying her pop avant-garde sound."
     },
     {
       heading: "The El Mal Querer Sensation: Redefining Global Latin Pop (2018–2021)",
@@ -673,7 +673,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "Motomami: The Avant-Garde Cultural Movement & Global Arena Tour (2022–2024)",
       paragraphs: [
         "In March 2022, Rosalía released her third studio album, 'Motomami', a radical sonic departure characterized by experimental minimalism, hyperpop industrial distortions, bachata, and stream-of-consciousness lyricism. Featuring tracks like 'Saoko', 'Candy', and 'La Fama' (featuring The Weeknd), 'Motomami' became the highest-reviewed album of the year globally on Metacritic (94/100).",
-        "At the 23rd Annual Latin Grammy Awards, 'Motomami' won four awards, making Rosalía the first woman in history to win Album of the Year twice as a lead artist. Her accompanying Motomami World Tour traversed 46 arena dates across Europe, Latin America, and North America, grossing over $30 Million and establishing an avant-garde visual standard for modern stage performance."
+        "At the 23rd Annual Latin Grammy Awards, 'Motomami' won four awards, making Rosalía the first woman in history to win Album of the Year twice as a lead artist. Her accompanying Motomami World Tour traversed 46 arena dates across Europe, Latin America, and North America, grossing over $30 Million and establishing an avant-garde visual standard for contemporary live performance."
       ],
       keyTakeaway: "Motomami earned universal critical acclaim (94 Metacritic) and historic Latin Grammy Album of the Year honors."
     },
@@ -688,10 +688,10 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Financial Architecture, Touring Gross & Music Publishing Rights",
       paragraphs: [
-        "Rosalía’s verified net worth is certified at $35.0 Million USD. Her revenue streams stem from lucrative global arena touring grosses, headlining international festival contracts (commanding $1M+ per set), streaming residuals, and extensive publishing rights through Sony Music Publishing and Columbia Records.",
+        "Rosalía’s documented net worth is certified at $35.0 Million USD. Her revenue streams stem from lucrative global arena touring grosses, headlining international festival contracts (commanding $1M+ per set), streaming residuals, and extensive publishing rights through Sony Music Publishing and Columbia Records.",
         "Her luxury lifestyle portfolio includes prime residential properties in Catalonia, a historic modernista estate outside Manresa, and a residence in Los Angeles. Her brand ambassadorship agreements with Dior and international luxury houses represent eight-figure commercial endorsements."
       ],
-      keyTakeaway: "Rosalía holds a verified $35M net worth driven by stadium touring receipts, music rights, and global luxury endorsements."
+      keyTakeaway: "Rosalía holds a confirmed $35M net worth driven by stadium touring receipts, music rights, and global luxury endorsements."
     }
   ],
 
@@ -708,10 +708,10 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       heading: "Kansas City Chiefs Ascendancy & The Mahomes Dynasty (2014–2020)",
       paragraphs: [
         "Following a rookie year lost to knee surgery, Kelce emerged in 2014 as the focal point of the Chiefs' passing attack, compiling over 860 receiving yards. With the arrival of franchise quarterback Patrick Mahomes in 2018, Kelce entered the most dominant statistical period ever recorded by an NFL tight end. Between 2016 and 2022, Kelce logged seven consecutive 1,000-yard receiving seasons—an all-time NFL record for tight ends.",
-        "In February 2020, Kelce caught a pivotal fourth-quarter touchdown pass in Super Bowl LIV against the San Francisco 49ers, leading the Chiefs back from a ten-point deficit to secure Kansas City's first championship in 50 years and establishing a new standard for modern receiving tight ends."
+        "In February 2020, Kelce caught a decisive fourth-quarter touchdown pass in Super Bowl LIV against the San Francisco 49ers, leading the Chiefs back from a ten-point deficit to secure Kansas City's first championship in 50 years and establishing a new standard for NFL receiving tight ends."
       ],
       quote: {
-        text: "Travis has an innate feel for leverage and space that cannot be coached. He reads defenses like an elite quarterback while carrying the body of a defensive end.",
+        text: "Travis has an innate feel for body positioning and space that cannot be coached. He reads defenses like an elite quarterback while carrying the body of a defensive end.",
         source: "Chiefs Head Coach Andy Reid"
       },
       keyTakeaway: "Kelce engineered seven consecutive 1,000-yard seasons and captured Super Bowl LIV, inaugurating the Chiefs dynasty."
@@ -725,7 +725,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       keyTakeaway: "Kelce broke Jerry Rice's all-time NFL postseason reception record and won back-to-back Super Bowls in 2023 and 2024."
     },
     {
-      heading: "The New Heights Media Empire & Cultural Crossover (2024–2026)",
+      heading: "The New Heights Podcast Phenomenon & Cultural Crossover (2024–2026)",
       paragraphs: [
         "In 2022, Travis and Jason Kelce launched their sports and culture podcast 'New Heights with Jason and Travis Kelce'. The show quickly grew into the number one sports podcast globally, leading to a landmark three-year, $100 Million distribution agreement with Amazon's Wondery in August 2024. Expanding into television, Kelce hosted 'Saturday Night Live' to critical acclaim in March 2023, guest-starred in Ryan Murphy’s FX drama 'Grotesquerie', and hosted Prime Video’s 'Are You Smarter Than a Celebrity?'.",
         "In summer 2023, Kelce's relationship with music icon Taylor Swift became a global pop culture phenomenon. The high-profile romance generated unprecedented crossover viewership for NFL broadcasts, with Kelce actively supporting Swift during international Eras Tour dates in London, Sydney, and Singapore."
@@ -735,7 +735,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Financial Architecture, NFL Contracts & Venture Investments",
       paragraphs: [
-        "Travis Kelce’s verified net worth is certified at $50.0 Million USD. In April 2024, the Chiefs signed Kelce to a two-year, $34.25 Million contract extension, making him the highest-paid tight end in NFL history. Over his NFL career, Kelce has amassed over $100 Million in on-field earnings alone.",
+        "Travis Kelce’s documented net worth is certified at $70.0 Million USD, bolstered by his $100 Million Wondery/Amazon podcast distribution agreement and record NFL extension. In April 2024, the Chiefs signed Kelce to a two-year, $34.25 Million contract extension, making him the highest-paid tight end in NFL history. Over his NFL career, Kelce has amassed over $100 Million in on-field earnings alone.",
         "His venture capital and brand portfolio includes equity stakes in energy drink brand A Shoc, Cholula Hot Sauce, the Formula 1 Alpine racing team, and major commercial endorsements with Nike, State Farm, Pfizer, and Campbell's. His real estate assets include a private $6 Million gated mansion in Leawood, Kansas, and an estate in Kansas City."
       ],
       keyTakeaway: "Kelce holds an estimated $50M net worth, anchored by his record NFL contract, $100M Wondery deal, and Alpine F1 equity."

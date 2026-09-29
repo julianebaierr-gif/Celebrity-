@@ -13,7 +13,7 @@ import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 export const metadata: Metadata = {
   title: "CelebEdge | Celebrity Biographies, Filmographies & Profiles",
   description:
-    "Explore comprehensive celebrity profiles, career timelines, filmography records, net worth analysis, and personal biographies.",
+    "Browse official celebrity profiles, career timelines, filmography records, net worth analysis, and personal biographies.",
   alternates: {
     canonical: "https://celeb-edge.vercel.app",
   },
@@ -297,7 +297,7 @@ export default function HomePage() {
             {netWorthStories.map((c) => {
               const parts = c.quickFacts.netWorth.split("(");
               const amount = parts[0].trim();
-              const source = parts[1] ? parts[1].replace(")", "").trim() : "Verified Portfolio";
+              const source = parts[1] ? parts[1].replace(")", "").trim() : "Audited Financial Record";
 
               return (
                 <Link

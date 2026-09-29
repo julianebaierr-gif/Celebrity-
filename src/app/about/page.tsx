@@ -6,7 +6,7 @@ import { ArrowRight, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "About CelebEdge | Independent Entertainment Editorial & Biographical Archive",
   description:
-    "Discover the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebEdge's certified biographical and financial archives.",
+    "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebEdge's certified biographical and financial archives.",
   alternates: {
     canonical: "https://celeb-edge.vercel.app/about",
   },
@@ -21,7 +21,7 @@ const aboutJsonLd = {
       url: "https://celeb-edge.vercel.app/about",
       name: "About CelebEdge | Independent Entertainment Editorial & Biographical Archive",
       description:
-        "Discover the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebEdge's certified biographical and financial archives.",
+        "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebEdge's certified biographical and financial archives.",
       inLanguage: "en-US",
       isPartOf: {
         "@type": "WebSite",

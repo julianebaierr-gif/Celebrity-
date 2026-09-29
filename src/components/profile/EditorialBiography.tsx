@@ -68,11 +68,11 @@ export default function EditorialBiography({
       {/* Section Header */}
       <div className="mb-2">
         <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-          Comprehensive Biography & Critical Analysis
+          Full Biography & Career Analysis
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-8 leading-relaxed">
-        An exhaustive, verified biographical examination of {celebrityName}’s artistic development, industry impact, financial architecture, and cultural legacy.
+        An authoritative biographical chronicle of {celebrityName}’s artistic development, industry impact, financial architecture, and cultural legacy.
       </p>
 
       {/* Chapters Container */}

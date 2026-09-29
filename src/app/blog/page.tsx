@@ -38,15 +38,23 @@ export default function BlogIndexPage() {
           </h1>
 
           <p className="text-base text-slate-600 max-w-2xl font-normal leading-relaxed">
-            In-depth reporting, cinema retrospectives, box office analysis, and cultural retrospectives produced by our editorial writers.
+            Detailed reporting, cinema retrospectives, box office analysis, and cultural reporting produced by our editorial writers.
           </p>
         </div>
       </header>
 
       {/* Blog Articles Grid */}
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {posts.map((post) => (
+        {posts.length === 0 ? (
+          <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center max-w-2xl mx-auto space-y-3">
+            <h3 className="text-xl font-bold text-slate-800">Fresh Stories In Production</h3>
+            <p className="text-slate-500 text-sm leading-relaxed">
+              Our editorial writers are preparing verified features, box office dossiers, and fashion reports. New weekly updates will publish here.
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {posts.map((post) => (
             <article
               key={post.slug}
               className="group rounded-2xl border border-slate-200 bg-white overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
@@ -123,6 +131,7 @@ export default function BlogIndexPage() {
             </article>
           ))}
         </div>
+      )}
       </main>
     </div>
   );

@@ -1,5 +1,6 @@
 import { generateWithGeminiFallback } from "./gemini";
 import { resolveAndSaveEntityImage } from "./verified-image-pipeline";
+import { sanitizeAiVocabulary } from "./anti-ai-vocabulary";
 import { CelebrityProfile } from "@/data/celebrities";
 import fs from "node:fs";
 import path from "node:path";
@@ -255,7 +256,7 @@ export async function generateCelebrityProfileWithHissa1(
   console.log(`[AutoContentEngine] Generating Hissa 1 authoritative dossier for: "${keyword}"...`);
 
   const prompt = `
-Generate a 100% comprehensive, authoritative celebrity dossier for "${keyword}" following Google's Helpful Content Update and E-E-A-T guidelines.
+Generate an authoritative, detailed celebrity profile for "${keyword}" following Google's Helpful Content Update and E-E-A-T guidelines.
 
 LSI Keywords to naturally weave into the text:
 ${lsiKeywords.slice(0, 50).join(", ")}
@@ -268,16 +269,20 @@ ${topCompetitors.map((c) => `- ${c.domain}: ${c.title}`).join("\n")}
 ${peopleComArticle ? `- people.com: ${peopleComArticle.snippet}` : ""}
 
 STRICT FORMAT REQUIREMENT (Hissa 1 Formula):
-1. Executive Summary: First 150 words must be clear, authoritative, defining who they are, why famous, and their verified 2026 status.
+1. Executive Summary: First 150 words must be clear, authoritative, defining who they are, why famous, and their confirmed 2026 status.
 2. Quick Facts & Metrics: Exact numbers (real net worth, height, age, primary role, active years).
 3. 3-4 Biography Sections with EXACT H2 Headings:
    - "Early Career & Breakout Role"
    - "Commercial Impact & Box Office Authority"
-   - "Verified Net Worth & Real Estate Portfolio"
+   - "Confirmed Net Worth & Real Estate Portfolio"
 4. Filmography: 5 major career-defining films/series with release year, role, rating, and box office/network.
-5. Relationship Profile: Current status, dating history summary, and an array of verified partners (names, relationType, years, profession, summary).
+5. Relationship Profile: Current status, dating history summary, and an array of documented partners (names, relationType, years, profession, summary).
 6. 4-5 High-Intent FAQs (e.g. "What is ${keyword}'s net worth in 2026?", "Who is ${keyword} dating?", "What is ${keyword}'s latest movie?").
 7. Editorial Attribution: Author (Marcus Vance or Elena Rostova with under 8 years experience), Fact-Checker, and 2026 timestamp.
+8. CRITICAL ZERO-AI-VOCABULARY RULE:
+   You MUST NEVER use ANY of these clichéd AI buzzwords or phrases:
+   "a deep dive into", "delve into", "delving", "beacon", "testament", "tapestry", "powerhouse", "plethora", "pivotal", "cornerstone", "bulletproof", "furthermore", "moreover", "elevate", "landscape", "discover", "explore", "seamlessly", "seamless", "game-changer", "harness", "in conclusion", "it is important to note", "in today's fast-paced digital world", "uncover", "unpacking", "vital role".
+   Write in authentic, punchy human journalism prose (Variety / The Hollywood Reporter style).
 
 Return ONLY a valid JSON object matching the TypeScript CelebrityProfile interface:
 {
@@ -388,6 +393,29 @@ Return ONLY a valid JSON object matching the TypeScript CelebrityProfile interfa
   }
 
   const profile = JSON.parse(jsonMatch[0]) as CelebrityProfile;
+
+  // Sanitize profile content to ensure 0% AI buzzwords
+  if (profile.headline) profile.headline = sanitizeAiVocabulary(profile.headline);
+  if (profile.executiveSummary) profile.executiveSummary = sanitizeAiVocabulary(profile.executiveSummary);
+  if (Array.isArray(profile.biographySections)) {
+    profile.biographySections = profile.biographySections.map((sec) => ({
+      ...sec,
+      heading: sanitizeAiVocabulary(sec.heading),
+      paragraphs: sec.paragraphs.map((p) => sanitizeAiVocabulary(p)),
+      keyTakeaway: sec.keyTakeaway ? sanitizeAiVocabulary(sec.keyTakeaway) : undefined,
+    }));
+  }
+  if (profile.relationshipProfile?.datingHistorySummary) {
+    profile.relationshipProfile.datingHistorySummary = sanitizeAiVocabulary(
+      profile.relationshipProfile.datingHistorySummary
+    );
+  }
+  if (Array.isArray(profile.faqs)) {
+    profile.faqs = profile.faqs.map((faq) => ({
+      question: sanitizeAiVocabulary(faq.question),
+      answer: sanitizeAiVocabulary(faq.answer),
+    }));
+  }
 
   // 4. Automated 100% Verified Image Processing Integration
   console.log(`[AutoContentEngine] Resolving verified images for ${keyword} and partners...`);

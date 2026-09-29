@@ -9,14 +9,14 @@ interface TocItem {
 }
 
 const DEFAULT_SECTIONS: TocItem[] = [
-  { id: "fast-facts", title: "Verified Quick Facts & Executive Summary" },
-  { id: "financial-metrics", title: "Economic Impact & Verified Metrics" },
+  { id: "fast-facts", title: "Official Facts & Executive Summary" },
+  { id: "financial-metrics", title: "Economic Impact & Financial Benchmarks" },
   { id: "career-milestones", title: "Career Breakthroughs & Timeline" },
-  { id: "biographical-retrospective", title: "Comprehensive Biography & Critical Analysis" },
-  { id: "filmography-credits", title: "Complete Filmography & Box Office" },
+  { id: "biographical-retrospective", title: "Full Biography & Career Analysis" },
+  { id: "filmography-credits", title: "Filmography & Box Office History" },
   { id: "relationship-profile", title: "Relationship Timeline & Personal Life" },
   { id: "frequently-asked-questions", title: "Frequently Asked Questions" },
-  { id: "editorial-attribution", title: "Media Rights & Verified Primary Sources" },
+  { id: "editorial-attribution", title: "Photo Credits & Primary Sources" },
 ];
 
 export default function TableOfContents({ sections = DEFAULT_SECTIONS }: { sections?: TocItem[] }) {

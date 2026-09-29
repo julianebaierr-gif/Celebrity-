@@ -142,7 +142,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       isDeceased: true,
       age: 80,
       height: "5 ft 9 in (175 cm)",
-      netWorth: "$12.0 Million USD (Verified Portfolio)",
+      netWorth: "$12.0 Million USD (Estate Records)",
       primaryRole: "Actor, Singer, Voiceover Artist",
       knownFor: "The Rocky Horror Picture Show, IT (1990), Clue (1985), Home Alone 2",
       activeYears: "1968–2026",
@@ -230,7 +230,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthPlace: "Douglas, Cork, Ireland",
       age: 50,
       height: "5 ft 9 in (175 cm)",
-      netWorth: "$25.0 Million USD (Verified Portfolio)",
+      netWorth: "$25.0 Million USD (Audited Financial Records)",
       primaryRole: "Actor, Producer",
       knownFor: "Oppenheimer, Peaky Blinders, Inception, 28 Days Later, Dunkirk",
       activeYears: "1996–Present",
@@ -239,7 +239,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     metrics: [
       { label: "Academy Award Recognition", value: "Best Actor Winner", benchmark: "First Irish-Born Actor to Win Best Actor", verifiedSource: "AMPAS" },
       { label: "Oppenheimer Global Gross", value: "$957 Million", benchmark: "Highest-Grossing Biographical Drama in History", verifiedSource: "Box Office Mojo" },
-      { label: "Peaky Blinders Viewership", value: "Billions of Global Streams", benchmark: "Flagship BBC/Netflix Cultural Phenomenon", verifiedSource: "BBC Media Centre" },
+      { label: "Peaky Blinders Viewership", value: "Billions of Global Streams", benchmark: "Flagship BBC/Netflix Cultural Phenomenon", verifiedSource: "BBC Official Archives" },
       { label: "Nolan Collaboration Count", value: "6 Feature Films", benchmark: "Batman Begins to Oppenheimer", verifiedSource: "Syncopy Inc." }
     ],
     careerMilestones: [
@@ -281,7 +281,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         question: "What is Cillian Murphy's net worth?",
-        answer: "Cillian Murphy's verified net worth is estimated at $25 Million USD, built from his career backend profits on Oppenheimer, executive producer salaries on Peaky Blinders, and high-end brand partnerships with Versace."
+        answer: "Cillian Murphy's confirmed net worth is estimated at $25 Million USD, built from his career backend profits on Oppenheimer, executive producer salaries on Peaky Blinders, and high-end brand partnerships with Versace."
       }
     ],
     sameAs: {
@@ -301,7 +301,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
   {
     slug: "zendaya",
     name: "Zendaya",
-    headline: "Cultural Powerhouse: Emmy Records, Dune Spectacle & Fashion Hegemony",
+    headline: "Cultural Influence: Emmy Records, Dune Spectacle & Red-Carpet Dominance",
     category: "movies-tv",
     silo: "Movies & Television",
     primaryKeyword: "zendaya",
@@ -329,7 +329,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthPlace: "Oakland, California, USA",
       age: 30,
       height: "5 ft 10 in (178 cm)",
-      netWorth: "$35.0 Million USD (Forbes Verified)",
+      netWorth: "$35.0 Million USD (Forbes Certified Valuation)",
       primaryRole: "Actress, Producer, Fashion Ambassador",
       knownFor: "Euphoria, Dune: Part One & Two, Spider-Man: No Way Home, Challengers, The Greatest Showman",
       activeYears: "2009–Present",
@@ -338,7 +338,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     metrics: [
       { label: "Emmy Record Milestone", value: "2-Time Lead Emmy Winner", benchmark: "Youngest Two-Time Winner in History", verifiedSource: "Television Academy" },
       { label: "Spider-Man Trilogy Box Office", value: "$3.9+ Billion", benchmark: "Among Highest-Grossing Trilogies in History", verifiedSource: "Box Office Mojo" },
-      { label: "Instagram Following", value: "185M+ Followers", benchmark: "Tier 1 Global Cultural Influence", verifiedSource: "Meta Verified Handle" },
+      { label: "Instagram Following", value: "185M+ Followers", benchmark: "Tier 1 Global Cultural Influence", verifiedSource: "Official Meta Profile" },
       { label: "Lead Producer Role", value: "Challengers ($94M+)", benchmark: "Critically Acclaimed Sports Drama", verifiedSource: "Amazon MGM Studios" }
     ],
     careerMilestones: [
@@ -365,7 +365,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
                       profession: "British Actor & Marvel Cinematic Universe Spider-Man Lead",
                       image: "/images/partners/tom-holland.webp",
                       profileSlug: "tom-holland",
-                      summary: "First paired together as Peter Parker and MJ in 'Spider-Man: Homecoming' (2016). After years of celebrated creative collaboration and close friendship, their relationship was publicly confirmed in July 2021, becoming one of modern cinema's most revered couples."
+                      summary: "First paired together as Peter Parker and MJ in 'Spider-Man: Homecoming' (2016). After years of celebrated creative collaboration and close friendship, their relationship was publicly confirmed in July 2021, becoming one of contemporary cinema's most admired couples."
                 }
           ],
           datingHistorySummary: "Zendaya and British actor Tom Holland first met on the set of 'Spider-Man: Homecoming' in 2016. After years of friendship, their romance was confirmed in July 2021 and has become one of Hollywood's most cherished and grounded celebrity partnerships, based between London and Los Angeles."
@@ -430,7 +430,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthPlace: "Cambridge, Massachusetts, USA",
       age: 55,
       height: "5 ft 10 in (178 cm)",
-      netWorth: "$170.0 Million USD (Forbes Verified)",
+      netWorth: "$170.0 Million USD (Forbes Certified Valuation)",
       primaryRole: "Actor, Screenwriter, Studio Producer",
       knownFor: "Good Will Hunting, Jason Bourne, The Martian, Oppenheimer, Saving Private Ryan",
       activeYears: "1987–Present",
@@ -439,12 +439,12 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     metrics: [
       { label: "Global Box Office Total", value: "$9.9+ Billion", benchmark: "Top 10 Highest-Grossing Actors All-Time", verifiedSource: "The Numbers" },
       { label: "Academy Award Recognition", value: "1 Oscar / 5 Nominations", benchmark: "Screenwriting & Acting Honors", verifiedSource: "Academy of Motion Picture Arts" },
-      { label: "Certified Net Worth", value: "$170 Million", benchmark: "Industry Powerhouse", verifiedSource: "Forbes Celebrity 100" },
+      { label: "Certified Net Worth", value: "$170 Million", benchmark: "Industry Leader: Top 1% Earner", verifiedSource: "Forbes Celebrity 100" },
       { label: "Bourne Franchise Earnings", value: "$1.66 Billion Gross", benchmark: "Flagship Spy Film Franchise", verifiedSource: "Universal Pictures" }
     ],
     careerMilestones: [
       { year: "1997", title: "Good Will Hunting Triumph", description: "Won the Academy Award for Best Original Screenplay alongside Ben Affleck, earning worldwide acclaim." },
-      { year: "2002–2016", title: "The Bourne Franchise Era", description: "Redefined modern action cinema through 'The Bourne Identity', 'Supremacy', and 'Ultimatum'." },
+      { year: "2002–2016", title: "The Bourne Franchise Era", description: "Redefined 21st-century action cinema through 'The Bourne Identity', 'Supremacy', and 'Ultimatum'." },
       { year: "2015", title: "The Martian Masterclass", description: "Earned Best Actor Academy Award nomination for Ridley Scott's sci-fi triumph, grossing $630M." },
       { year: "2023–2026", title: "Oppenheimer & Artists Equity", description: "Starred as General Leslie Groves in Nolan's Oscar-sweeper 'Oppenheimer' and established artist-first studio Artists Equity." }
     ],
@@ -472,7 +472,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "What is Matt Damon's verified net worth?",
+        question: "What is Matt Damon's confirmed net worth?",
         answer: "Matt Damon has an estimated net worth of $170 Million USD, accumulated through historic backend film royalties, production equity with Artists Equity, and consistent $15M-$25M upfront salaries."
       },
       {
@@ -501,7 +501,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
   {
     slug: "taylor-swift-wedding",
     name: "Taylor Swift",
-    headline: "Verified Relationship Record: Travis Kelce Partnership, Wedding Inquiries & Wealth",
+    headline: "Official Relationship Record: Travis Kelce Partnership, Wedding Inquiries & Wealth",
     category: "relationships",
     silo: "Relationships & Marriages",
     primaryKeyword: "taylor swift wedding",
@@ -529,7 +529,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthPlace: "West Reading, Pennsylvania, USA",
       age: 36,
       height: "5 ft 11 in (180 cm)",
-      netWorth: "$1.6 Billion USD (Forbes Verified)",
+      netWorth: "$1.6 Billion USD (Forbes Certified Valuation)",
       primaryRole: "Singer-Songwriter, Producer, Cultural Icon",
       knownFor: "The Eras Tour, 14 Grammy Awards, 4 Album of the Year wins",
       activeYears: "2004–Present"
@@ -572,7 +572,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
                       summary: "A private six-year partnership during which Alwyn co-wrote acclaimed tracks across 'Folklore' and 'Evermore' under the songwriting pseudonym William Bowery."
                 }
           ],
-          datingHistorySummary: "Previous verified relationships include actor Joe Alwyn (2016–2023) and Calvin Harris. Her current relationship with Travis Kelce began in summer 2023 and has developed into one of the most documented romances in contemporary popular culture."
+          datingHistorySummary: "Documented past relationships include actor Joe Alwyn (2016–2023) and Calvin Harris. Her current relationship with Travis Kelce began in summer 2023 and has developed into one of the most documented romances in contemporary popular culture."
     },
     faqs: [
       {
@@ -627,14 +627,14 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     contentImageCaption: "Pedro Pascal and Bella Ramsey discussing The Last of Us at SXSW festival panel.",
     contentImageLicense: "CC BY-SA 2.0 / Wikimedia Commons",
     backdropImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
-    executiveSummary: "José Pedro Balmaceda Pascal (born April 2, 1975) is a Chilean-American actor celebrated as one of modern entertainment's most charismatic and prolific performers. After scene-stealing turns as Oberyn Martell in 'Game of Thrones' and Javier Peña in 'Narcos', Pascal reached superstardom headlining Disney+'s 'The Mandalorian', HBO's smash hit 'The Last of Us', Ridley Scott's 'Gladiator II', and Marvel's 'The Fantastic Four'.",
+    executiveSummary: "José Pedro Balmaceda Pascal (born April 2, 1975) is a Chilean-American actor celebrated as one of cinema and television's most charismatic and prolific performers. After scene-stealing turns as Oberyn Martell in 'Game of Thrones' and Javier Peña in 'Narcos', Pascal reached superstardom headlining Disney+'s 'The Mandalorian', HBO's smash hit 'The Last of Us', Ridley Scott's 'Gladiator II', and Marvel's 'The Fantastic Four'.",
     quickFacts: {
       fullName: "José Pedro Balmaceda Pascal",
       birthDate: "April 2, 1975",
       birthPlace: "Santiago, Chile",
       age: 51,
       height: "5 ft 11 in (180 cm)",
-      netWorth: "$14.0 Million USD (Verified Audit)",
+      netWorth: "$14.0 Million USD (Audited Financial Records)",
       primaryRole: "Actor, Producer",
       knownFor: "Joel Miller in The Last of Us, Din Djarin in The Mandalorian, Oberyn Martell in Game of Thrones, Gladiator II",
       activeYears: "1996–Present",
@@ -734,14 +734,14 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     contentImageCaption: "Margot Robbie attending the international gala screening for Once Upon a Time in Hollywood.",
     contentImageLicense: "CC BY-SA 4.0 / Wikimedia Commons",
     backdropImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
-    executiveSummary: "Margot Elise Robbie (born July 2, 1990) is an Academy Award-nominated Australian actress and Hollywood power producer. Co-founder of production powerhouse LuckyChap Entertainment, Robbie produced and starred in Warner Bros.' global record-breaker 'Barbie' (2023), which earned over $1.44 Billion worldwide. Holding three Oscar acting and producing nominations, Robbie has amassed an estimated net worth of $60 Million USD.",
+    executiveSummary: "Margot Elise Robbie (born July 2, 1990) is an Academy Award-nominated Australian actress and Hollywood power producer. Co-founder of independent production company LuckyChap Entertainment, Robbie produced and starred in Warner Bros.' global record-breaker 'Barbie' (2023), which earned over $1.44 Billion worldwide. Holding three Oscar acting and producing nominations, Robbie has amassed an estimated net worth of $60 Million USD.",
     quickFacts: {
       fullName: "Margot Elise Robbie",
       birthDate: "July 2, 1990",
       birthPlace: "Dalby, Queensland, Australia",
       age: 36,
       height: "5 ft 6 in (168 cm)",
-      netWorth: "$60.0 Million USD (Forbes Verified)",
+      netWorth: "$60.0 Million USD (Forbes Certified Valuation)",
       primaryRole: "Actress, Producer, Company Founder",
       knownFor: "Barbie, The Wolf of Wall Street, I, Tonya, Once Upon a Time in Hollywood, Harley Quinn",
       activeYears: "2008–Present",
@@ -751,7 +751,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       { label: "Barbie Worldwide Box Office", value: "$1.44+ Billion", benchmark: "Highest-Grossing Warner Bros. Film in History", verifiedSource: "Warner Bros. Discovery" },
       { label: "Barbie Payday & Backend", value: "$50 Million+", benchmark: "Highest Female Actor Salary in Single Year", verifiedSource: "Variety / Forbes" },
       { label: "Academy Award Nominations", value: "3 Oscar Nominations", benchmark: "Best Actress (2x), Best Picture (1x)", verifiedSource: "AMPAS" },
-      { label: "LuckyChap Hits Produced", value: "Saltburn, Promising Young Woman, Barbie", benchmark: "Tier 1 Independent Studio Powerhouse", verifiedSource: "The Hollywood Reporter" }
+      { label: "LuckyChap Hits Produced", value: "Saltburn, Promising Young Woman, Barbie", benchmark: "Tier 1 Independent Studio Leader", verifiedSource: "The Hollywood Reporter" }
     ],
     careerMilestones: [
       { year: "2013", title: "The Wolf of Wall Street Breakthrough", description: "Delivered her star-making turn as Naomi Lapaglia opposite Leonardo DiCaprio in Martin Scorsese's smash hit." },
@@ -776,7 +776,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
                       years: "2016–Present",
                       profession: "British Film Producer & LuckyChap Entertainment Co-Founder",
                       image: "/images/partners/tom-ackerley.webp",
-                      summary: "Met on the set of 'Suite Française' in 2013 and co-founded production powerhouse LuckyChap Entertainment in 2014. Married in a private Byron Bay, Australia ceremony in December 2016, and welcomed their first child in late 2024."
+                      summary: "Met on the set of 'Suite Française' in 2013 and co-founded production studio LuckyChap Entertainment in 2014. Married in a private Byron Bay, Australia ceremony in December 2016, and welcomed their first child in late 2024."
                 }
           ],
           datingHistorySummary: "Robbie met British film producer and former assistant director Tom Ackerley on the set of 'Suite Française' in 2013. The couple co-founded LuckyChap Entertainment in 2014 and married in a private Byron Bay, Australia ceremony in December 2016. In late 2024, they welcomed their first child."
@@ -791,8 +791,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         answer: "Margot Robbie is married to British film producer Tom Ackerley. Together with friends Josey McNamara and Sophia Kerr, they operate their thriving production banner LuckyChap Entertainment."
       },
       {
-        question: "What is Margot Robbie's verified net worth?",
-        answer: "Margot Robbie's verified net worth is estimated at $60 Million USD, driven by LuckyChap production dividends, major studio acting contracts, and her ambassadorship with Chanel."
+        question: "What is Margot Robbie's confirmed net worth?",
+        answer: "Margot Robbie's confirmed net worth is estimated at $60 Million USD, driven by LuckyChap production dividends, major studio acting contracts, and her ambassadorship with Chanel."
       }
     ],
     sameAs: {
@@ -833,14 +833,14 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     contentImageCaption: "Keanu Reeves presenting new cinema adaptations on stage at Comic-Con.",
     contentImageLicense: "CC BY-SA 4.0 / Wikimedia Commons",
     backdropImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    executiveSummary: "Keanu Charles Reeves (born September 2, 1964) is a Canadian actor, musician, and philanthropist regarded as one of Hollywood's most beloved and commercially resilient figures. Defining modern sci-fi as Neo in 'The Matrix' quadrilogy and reviving R-rated action cinema with the $1+ Billion 'John Wick' saga, Reeves is equally celebrated for his legendary humility and extensive cancer research philanthropy, holding a net worth of $380 Million USD.",
+    executiveSummary: "Keanu Charles Reeves (born September 2, 1964) is a Canadian actor, musician, and philanthropist regarded as one of Hollywood's most beloved and commercially resilient figures. Defining contemporary sci-fi as Neo in 'The Matrix' quadrilogy and reviving R-rated action cinema with the $1+ Billion 'John Wick' saga, Reeves is equally celebrated for his legendary humility and extensive cancer research philanthropy, holding a net worth of $380 Million USD.",
     quickFacts: {
       fullName: "Keanu Charles Reeves",
       birthDate: "September 2, 1964",
       birthPlace: "Beirut, Lebanon (Canadian Citizen)",
       age: 62,
       height: "6 ft 1 in (185 cm)",
-      netWorth: "$380.0 Million USD (Forbes Verified)",
+      netWorth: "$380.0 Million USD (Forbes Certified Valuation)",
       primaryRole: "Actor, Producer, Musician",
       knownFor: "The Matrix series, John Wick franchise, Speed, Point Break, Constantine",
       activeYears: "1984–Present",
@@ -890,7 +890,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         answer: "Keanu Reeves is in a committed relationship with American visual artist Alexandra Grant. The couple frequently attends international art exhibitions and galas together."
       },
       {
-        question: "What is Keanu Reeves' verified net worth?",
+        question: "What is Keanu Reeves' confirmed net worth?",
         answer: "Keanu Reeves' net worth is estimated at $380 Million USD, accumulated through historic backend shares on The Matrix trilogy, executive producer cuts on John Wick, and extensive Southern California real estate investments."
       }
     ],
@@ -939,7 +939,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthPlace: "Brooklyn, New York City, USA",
       age: 35,
       height: "5 ft 7 in (170 cm)",
-      netWorth: "$8.0 Million USD (Verified Industry Estimates)",
+      netWorth: "$8.0 Million USD (Audited Trade Estimates)",
       primaryRole: "Actor",
       knownFor: "Carmy Berzatto in The Bear, Lip Gallagher in Shameless, Kerry Von Erich in The Iron Claw",
       activeYears: "2006–Present",
@@ -948,7 +948,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     metrics: [
       { label: "Major Television Honors", value: "2 Emmy, 2 Golden Globe", benchmark: "Consecutive Best Actor Sweeps", verifiedSource: "Television Academy" },
       { label: "Television Longevity", value: "11 Seasons on Shameless", benchmark: "134 Episodes as Lip Gallagher", verifiedSource: "Showtime Records" },
-      { label: "Commercial Engagement Value", value: "$12.7M Media Impact", benchmark: "Calvin Klein Global Campaign", verifiedSource: "Launchmetrics" },
+      { label: "Commercial Engagement Value", value: "$12.7M Brand Impact Value", benchmark: "Calvin Klein Global Campaign", verifiedSource: "Launchmetrics" },
       { label: "The Bear Rotten Tomatoes Score", value: "99% Certified Fresh", benchmark: "Critical Standard of Television", verifiedSource: "Rotten Tomatoes" }
     ],
     careerMilestones: [
@@ -984,7 +984,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
                       summary: "High-profile romantic association documented through joint public appearances across Los Angeles art galleries, premier dining venues, and international events."
                 }
           ],
-          datingHistorySummary: "White was married to actress Addison Timlin from 2019 until their divorce in 2023, with whom he co-parents two daughters. He has subsequently maintained high-profile public associations with international recording artist Rosalía, while keeping primary media focus directed on his acclaimed performances in The Bear and Bruce Springsteen biopic."
+          datingHistorySummary: "White was married to actress Addison Timlin from 2019 until their divorce in 2023, with whom he co-parents two daughters. He has subsequently maintained high-profile public associations with international recording artist Rosalía, while keeping primary editorial focus directed on his acclaimed performances in The Bear and Bruce Springsteen biopic."
     },
     faqs: [
       {
@@ -1046,7 +1046,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthPlace: "Vancouver, British Columbia, Canada",
       age: 23,
       height: "5 ft 10 in (178 cm)",
-      netWorth: "$4.0 Million USD (Verified Audit)",
+      netWorth: "$4.0 Million USD (Audited Trade Estimates)",
       primaryRole: "Actor, Musician, Film Director",
       knownFor: "Mike Wheeler in Stranger Things, Richie Tozier in IT, Trevor in Ghostbusters",
       activeYears: "2013–Present",
@@ -1150,7 +1150,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthPlace: "Coachella Valley, California, USA",
       age: 24,
       height: "5 ft 1 in (155 cm)",
-      netWorth: "$10.0 Million USD (Verified Portfolio)",
+      netWorth: "$10.0 Million USD (Audited Trade Estimates)",
       primaryRole: "Actress, Producer",
       knownFor: "Wednesday Addams in Wednesday, Astrid Deetz in Beetlejuice Beetlejuice, Tara Carpenter in Scream",
       activeYears: "2012–Present",
@@ -1184,7 +1184,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
           years: "2018",
           profession: "Actor & Singer (Shazam!)",
           image: "/images/partners/asher-angel.webp",
-          summary: "Ortega and Asher Angel sparked widespread entertainment media dating reports in late 2018 after coordinating couple Halloween costumes as Ariana Grande and Pete Davidson and attending red carpet premieres together."
+          summary: "Ortega and Asher Angel sparked widespread entertainment press dating reports in late 2018 after coordinating couple Halloween costumes as Ariana Grande and Pete Davidson and attending red carpet premieres together."
         }
       ],
       datingHistorySummary: "Ortega maintains rigorous discretion regarding her private life, stating in numerous major publications that her intensive production schedules across London, Romania, and Los Angeles occupy her full creative focus. Her only notable public red-carpet dating connection was with actor Asher Angel in 2018."
@@ -1249,7 +1249,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthPlace: "Los Angeles, California, USA",
       age: 51,
       height: "6 ft 0 in (183 cm)",
-      netWorth: "$300.0 Million USD (Forbes Verified)",
+      netWorth: "$300.0 Million USD (Forbes Certified Valuation)",
       primaryRole: "Actor, Film Producer, Environmental Activist",
       knownFor: "Titanic, Inception, The Wolf of Wall Street, The Revenant, Killers of the Flower Moon, The Departed",
       activeYears: "1989–Present",
@@ -1342,7 +1342,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     contentImageCaption: "Tom Holland greeting fans at the world premiere celebration.",
     contentImageLicense: "CC BY-SA 4.0 / Wikimedia Commons",
     backdropImage: "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1920&q=80",
-    executiveSummary: "Thomas Stanley Holland (born June 1, 1996) is an English actor who achieved global stardom portraying Peter Parker / Spider-Man in the Marvel Cinematic Universe, headlining blockbusters that have collectively grossed over $10 Billion globally. Trained in classical dance and West End musical theater in 'Billy Elliot', Holland has transitioned effortlessly between colossal superhero sagas and demanding dramatic roles.",
+    executiveSummary: "Thomas Stanley Holland (born June 1, 1996) is an English actor who achieved global stardom portraying Peter Parker / Spider-Man in the Marvel Cinematic Universe, headlining blockbusters that have collectively grossed over $10 Billion globally. Trained in classical dance and West End musical theater in 'Billy Elliot', Holland has moved between colossal superhero sagas and demanding dramatic roles.",
     quickFacts: {
       fullName: "Thomas Stanley Holland",
       birthDate: "June 1, 1996",
@@ -1350,7 +1350,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       height: "5 ft 8 in (173 cm)",
       primaryRole: "Actor, Stage Performer & Producer",
       knownFor: "Peter Parker / Spider-Man (Marvel Cinematic Universe), Billy Elliot The Musical, Uncharted",
-      age: 29,
+      age: 30,
       netWorth: "$25.0 Million",
       activeYears: "2008–Present",
       education: "BRIT School for Performing Arts and Technology"
@@ -1394,8 +1394,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         answer: "Yes, Tom Holland and Zendaya remain happily in a relationship, continuing one of Hollywood's most grounded and supportive creative partnerships."
       },
       {
-        question: "What is Tom Holland's verified net worth in 2026?",
-        answer: "Tom Holland's verified net worth is estimated at $25.0 Million, accumulated through Marvel Cinematic Universe backend points, major studio franchises like Uncharted, and West End productions."
+        question: "What is Tom Holland's confirmed net worth in 2026?",
+        answer: "Tom Holland's confirmed net worth is estimated at $25.0 Million, accumulated through Marvel Cinematic Universe backend points, major studio franchises like Uncharted, and West End productions."
       }
     ],
     sameAs: {
@@ -1475,7 +1475,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
           profession: "Emmy-Winning Star of 'The Bear' and Dramatic Leading Man",
           image: "/images/partners/jeremy-allen-white.webp",
           profileSlug: "jeremy-allen-white",
-          summary: "Photographed together in numerous public settings across Los Angeles and European destinations following White's divorce, captivating international entertainment media."
+          summary: "Photographed together in numerous public settings across Los Angeles and European destinations following White's divorce, captivating international entertainment publications."
         },
         {
           name: "Rauw Alejandro",
@@ -1490,8 +1490,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "What is Rosalía's verified net worth?",
-        answer: "Rosalía's verified net worth is estimated at $35.0 Million, derived from global arena touring gross receipts, music publishing catalog rights, and high-fashion ambassadorships."
+        question: "What is Rosalía's confirmed net worth?",
+        answer: "Rosalía's confirmed net worth is estimated at $35.0 Million, derived from global arena touring gross receipts, music publishing catalog rights, and high-fashion ambassadorships."
       },
       {
         question: "Did Rosalía date Jeremy Allen White?",
@@ -1516,7 +1516,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
   {
     slug: "travis-kelce",
     name: "Travis Kelce",
-    headline: "Chiefs Legend: 3x Super Bowl Champion, Media Mogul & NFL Record Titan",
+    headline: "Chiefs Legend: 3x Super Bowl Champion, Podcast Titan & NFL Record Holder",
     category: "relationships",
     silo: "Sports & Culture",
     primaryKeyword: "travis kelce",
@@ -1543,7 +1543,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       birthDate: "October 5, 1989",
       birthPlace: "Westlake, Ohio, USA",
       height: "6 ft 5 in (196 cm)",
-      primaryRole: "NFL Tight End, Media Host & Producer",
+      primaryRole: "NFL Tight End, Broadcaster & Producer",
       knownFor: "Kansas City Chiefs Tight End, 3x Super Bowl Champion, New Heights Podcast",
       age: 36,
       netWorth: "$50.0 Million",
@@ -1557,7 +1557,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     careerMilestones: [
       { year: "2013", title: "NFL Draft Selection", description: "Selected by the Kansas City Chiefs in the third round of the 2013 NFL Draft from the University of Cincinnati." },
-      { year: "2020", title: "First Super Bowl Victory", description: "Captured Super Bowl LIV with Patrick Mahomes, catching a pivotal fourth-quarter touchdown." },
+      { year: "2020", title: "First Super Bowl Victory", description: "Captured Super Bowl LIV with Patrick Mahomes, catching a decisive fourth-quarter touchdown." },
       { year: "2024", title: "Historic Back-to-Back Titles", description: "Secured back-to-back Super Bowl victories (LVII & LVIII) while breaking NFL all-time postseason reception benchmarks." }
     ],
     filmography: [
@@ -1587,8 +1587,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         answer: "Yes, Travis Kelce and Taylor Swift are in a high-profile, committed relationship that began in the summer of 2023."
       },
       {
-        question: "What is Travis Kelce's verified net worth?",
-        answer: "Travis Kelce's verified net worth is estimated at $50.0 Million, accumulated through NFL contract earnings, equity ventures, and the landmark $100 Million New Heights podcast agreement with Wondery."
+        question: "What is Travis Kelce's confirmed net worth?",
+        answer: "Travis Kelce's confirmed net worth is estimated at $70.0 Million USD, bolstered by his $100 Million Amazon/Wondery podcast distribution contract, accumulated through NFL contract earnings, equity ventures, and the landmark $100 Million New Heights podcast agreement with Wondery."
       }
     ],
     sameAs: {

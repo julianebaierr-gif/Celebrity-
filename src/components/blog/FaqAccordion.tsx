@@ -64,7 +64,7 @@ export default function FaqAccordion({ faqs, celebrityName, celebritySlug }: Faq
         <div>
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold uppercase tracking-wider mb-2">
             <HelpCircle className="h-3.5 w-3.5 text-amber-600" />
-            <span>Verified Knowledge Briefing</span>
+            <span>Essential Event Briefing</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
             Frequently Asked Questions
@@ -128,7 +128,7 @@ export default function FaqAccordion({ faqs, celebrityName, celebritySlug }: Faq
 
       {celebritySlug && (
         <div className="mt-6 p-4 rounded-xl bg-slate-100/70 border border-slate-200/80 flex items-center justify-between gap-3 text-xs text-slate-600">
-          <span>Need complete historical data, net worth valuation, and verified filmography?</span>
+          <span>Need full historical archives, net worth valuation, and filmography records?</span>
           <Link
             href={`/celebrity/${celebritySlug}`}
             className="text-amber-800 font-bold hover:text-amber-900 underline whitespace-nowrap"
