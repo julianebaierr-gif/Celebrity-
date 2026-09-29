@@ -44,6 +44,9 @@ export async function POST(req: NextRequest) {
   } catch (error: unknown) {
     const msg = error instanceof Error ? error.message : "Internal Server Error";
     console.error("[generate-post API Error]:", error);
+    if (msg.includes("[AntiCannibalization Blocked]")) {
+      return NextResponse.json({ success: false, duplicate: true, error: msg }, { status: 409 });
+    }
     return NextResponse.json({ error: msg }, { status: 500 });
   }
 }

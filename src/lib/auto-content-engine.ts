@@ -1,6 +1,7 @@
 import { generateWithGeminiFallback } from "./gemini";
 import { resolveAndSaveEntityImage } from "./verified-image-pipeline";
 import { sanitizeAiVocabulary } from "./anti-ai-vocabulary";
+import { isKeywordOrEntityPublished, registerPublishedProfile } from "./anti-cannibalization";
 import { CelebrityProfile } from "@/data/celebrities";
 import fs from "node:fs";
 import path from "node:path";
@@ -480,6 +481,13 @@ export async function runDailyAutoPostPipeline(keyword: string): Promise<{
   console.log(`[DailyAutoPostPipeline] Starting execution for: "${keyword}"`);
   console.log(`======================================================`);
 
+  // Step 0: Anti-Cannibalization & Anti-Duplication Check
+  const check = isKeywordOrEntityPublished(keyword);
+  if (check.isPublished) {
+    console.warn(`[DailyAutoPostPipeline] BLOCKED: "${keyword}" has already been published. ${check.reason}`);
+    throw new Error(`[AntiCannibalization Blocked] Entity or keyword "${keyword}" is already published to prevent duplication. Details: ${check.reason}`);
+  }
+
   // Step 1: SERP Scraping
   const { competitors, peopleCom } = await scrapeCompetitorSERP(keyword);
 
@@ -488,6 +496,17 @@ export async function runDailyAutoPostPipeline(keyword: string): Promise<{
 
   // Step 3: Hissa 1 Content Synthesis + Verified Image Pipeline
   const profile = await generateCelebrityProfileWithHissa1(dossier);
+
+  // Step 4: Lock keyword in Anti-Cannibalization Registry and Sheet1 Tracking
+  registerPublishedProfile({
+    keyword: profile.primaryKeyword || keyword.toLowerCase(),
+    slug: profile.slug,
+    name: profile.name,
+    category: profile.silo,
+    canonicalUrl: `https://celeb-edge.vercel.app/celebrity/${profile.slug}`,
+    publishedDate: profile.editorialMetadata?.publishedDate || new Date().toISOString().replace("T", " ").slice(0, 19),
+    tags: profile.secondaryKeywords || [],
+  });
 
   console.log(`[DailyAutoPostPipeline] ✓ Successfully completed pipeline for: "${keyword}" (Slug: ${profile.slug})`);
 
