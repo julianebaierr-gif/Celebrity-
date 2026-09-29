@@ -930,11 +930,36 @@ Return JSON with headline, executiveSummary, quickFacts, metrics, filmography, b
     executiveSummary,
     quickFacts,
     metrics,
-    careerMilestones: [
-      { year: "2015", title: "Early Breakthrough Recognition", description: `Achieved international public recognition for landmark contributions to ${dossier.silo.toLowerCase()}.` },
-      { year: "2020", title: "Commercial Peak & Industry Leadership", description: `Established all-time commercial records, commanding record contracts and global audience reach.` },
-      { year: "2026", title: "Enterprise Authority & Enduring Legacy", description: `Oversees high-yield brand ventures and flagship releases entering late 2026.` }
-    ],
+    careerMilestones: (filmography && filmography.length >= 2)
+      ? [
+          {
+            year: String(filmography[0].year || "Breakthrough"),
+            title: `${filmography[0].title} Breakthrough`,
+            description: `Delivered a career-defining performance as ${filmography[0].role} in '${filmography[0].title}', establishing their national and international reputation.`
+          },
+          {
+            year: String(filmography[1]?.year || "Acclaim"),
+            title: `${filmography[1]?.title} Critical & Box Office Success`,
+            description: `Achieved widespread critical honors and commercial reach with '${filmography[1]?.title}', solidifying A-list industry prominence.`
+          },
+          {
+            year: String(filmography[filmography.length - 1]?.year || "2026"),
+            title: `${filmography[filmography.length - 1]?.title} Milestone`,
+            description: `Continued headline artistic momentum with '${filmography[filmography.length - 1]?.title}', maintaining an enduring cultural footprint.`
+          }
+        ]
+      : [
+          {
+            year: "Breakthrough",
+            title: `${targetCandidate.entity} Major Career Breakthrough`,
+            description: `Rose to international prominence through celebrated headline contributions to contemporary culture.`
+          },
+          {
+            year: "2024–2026",
+            title: `${targetCandidate.entity} Enduring Industry Prominence`,
+            description: `Oversees high-profile creative and commercial ventures entering late 2026.`
+          }
+        ],
     filmography,
     relationshipProfile,
     faqs,

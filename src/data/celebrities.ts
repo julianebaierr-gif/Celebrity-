@@ -2194,24 +2194,29 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
-        "year": "2015",
-        "title": "Early Breakthrough Recognition",
-        "description": "Achieved international public recognition for landmark contributions to hollywood actors."
+        "year": "1988–1990",
+        "title": "Beetlejuice, Heathers & Edward Scissorhands Breakthrough",
+        "description": "Established herself as the defining cinematic face of Generation X with iconic roles in Tim Burton's 'Beetlejuice', cult classic 'Heathers', and 'Edward Scissorhands'."
       },
       {
-        "year": "2020",
-        "title": "Commercial Peak & Industry Leadership",
-        "description": "Established all-time commercial records, commanding record contracts and global audience reach."
+        "year": "1993–1994",
+        "title": "Back-to-Back Academy Award Nominations",
+        "description": "Earned consecutive Oscar nominations for Martin Scorsese's 'The Age of Innocence' (Supporting Actress) and Gillian Armstrong's 'Little Women' (Best Actress)."
       },
       {
-        "year": "2026",
-        "title": "Enterprise Authority & Enduring Legacy",
-        "description": "Oversees high-yield brand ventures and flagship releases entering late 2026."
+        "year": "1999",
+        "title": "Girl, Interrupted & Executive Producing Milestone",
+        "description": "Executive produced and starred as Susanna Kaysen in the psychological drama 'Girl, Interrupted', grossing $48 Million and earning widespread critical acclaim."
+      },
+      {
+        "year": "2016–2026",
+        "title": "Stranger Things Resurgence & Beetlejuice Beetlejuice",
+        "description": "Earned Golden Globe and SAG Award nominations as Joyce Byers in Netflix's global phenomenon 'Stranger Things', followed by 2024's box office hit 'Beetlejuice Beetlejuice' ($451M)."
       }
     ],
     "filmography": [
       {
-        "title": "Breakout Feature Film",
+        "title": "Beetlejuice",
         "year": 1988,
         "role": "Lydia Deetz",
         "type": "Movie",
@@ -2219,15 +2224,39 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "boxOfficeOrNetwork": "Warner Bros ($74M)"
       },
       {
-        "title": "Academy-Nominated Drama",
+        "title": "Heathers",
+        "year": 1989,
+        "role": "Veronica Sawyer",
+        "type": "Movie",
+        "rating": 8.2,
+        "boxOfficeOrNetwork": "New World Pictures (Cult Classic)"
+      },
+      {
+        "title": "Edward Scissorhands",
+        "year": 1990,
+        "role": "Kim Boggs",
+        "type": "Movie",
+        "rating": 8.6,
+        "boxOfficeOrNetwork": "20th Century Fox ($86M)"
+      },
+      {
+        "title": "The Age of Innocence",
+        "year": 1993,
+        "role": "May Welland",
+        "type": "Movie",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "Columbia Pictures (Oscar Nominee)"
+      },
+      {
+        "title": "Little Women",
         "year": 1994,
         "role": "Jo March",
         "type": "Movie",
         "rating": 8.7,
-        "boxOfficeOrNetwork": "Columbia Pictures"
+        "boxOfficeOrNetwork": "Columbia Pictures (Oscar Nominee)"
       },
       {
-        "title": "Global Streaming Phenomenon",
+        "title": "Stranger Things",
         "year": 2016,
         "role": "Joyce Byers",
         "type": "Series",
@@ -2235,24 +2264,38 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "boxOfficeOrNetwork": "Netflix (5 Seasons)"
       },
       {
-        "title": "Major Theatrical Sequel",
+        "title": "Beetlejuice Beetlejuice",
         "year": 2024,
         "role": "Lydia Deetz",
         "type": "Movie",
         "rating": 8.3,
-        "boxOfficeOrNetwork": "Worldwide ($450M)"
+        "boxOfficeOrNetwork": "Warner Bros ($451M)"
       }
     ],
     "relationshipProfile": {
-      "status": "Documented Personal Record",
-      "datingHistorySummary": "Winona Ryder maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives.",
+      "status": "In a Relationship",
+      "datingHistorySummary": "Winona Ryder has maintained an enduring, grounded relationship with sustainable fashion designer Scott Mackinlay Hahn since 2011, following iconic high-profile romances during the 1990s.",
       "partners": [
         {
-          "name": "Documented Partner",
+          "name": "Scott Mackinlay Hahn",
           "relationType": "Partner",
-          "years": "Confirmed Record",
-          "profession": "Entertainment / Industry Professional",
-          "summary": "Publicly documented relationship recorded across verified biographical filings, characterized by mutual professional support."
+          "years": "2011–Present",
+          "profession": "Fashion Designer & Eco-Entrepreneur",
+          "summary": "Long-term romantic partnership spanning over a decade, known for their shared values and grounded privacy."
+        },
+        {
+          "name": "Johnny Depp",
+          "relationType": "Former Partner & Fiance",
+          "years": "1989–1993",
+          "profession": "Actor & Musician",
+          "summary": "Iconic Generation X Hollywood romance and 'Edward Scissorhands' co-star; engaged from 1990 to 1993."
+        },
+        {
+          "name": "Matt Damon",
+          "relationType": "Former Partner",
+          "years": "1997–2000",
+          "profession": "Academy Award-Winning Actor",
+          "summary": "Prominent two-year relationship introduced by mutual friend Gwyneth Paltrow."
         }
       ]
     },
@@ -2263,7 +2306,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "Who is Winona Ryder currently married to or dating?",
-        "answer": "Winona Ryder maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives."
+        "answer": "Winona Ryder has been in a committed relationship with sustainable fashion designer Scott Mackinlay Hahn since 2011."
       },
       {
         "question": "What are Winona Ryder's most acclaimed career milestones and releases?",
@@ -2364,65 +2407,100 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
-        "year": "2015",
-        "title": "Early Breakthrough Recognition",
-        "description": "Achieved international public recognition for landmark contributions to music & performing arts."
+        "year": "2009–2010",
+        "title": "So Far Gone & Thank Me Later Breakthrough",
+        "description": "Released the critically acclaimed mixtape 'So Far Gone' followed by his chart-topping debut album 'Thank Me Later', launching a record-breaking career."
       },
       {
-        "year": "2020",
-        "title": "Commercial Peak & Industry Leadership",
-        "description": "Established all-time commercial records, commanding record contracts and global audience reach."
+        "year": "2016",
+        "title": "Views & One Dance Global Streaming Phenomenon",
+        "description": "Achieved global streaming records with album 'Views'; lead single 'One Dance' became the first song in Spotify history to surpass 1 Billion streams."
       },
       {
-        "year": "2026",
-        "title": "Enterprise Authority & Enduring Legacy",
-        "description": "Oversees high-yield brand ventures and flagship releases entering late 2026."
+        "year": "2018",
+        "title": "Scorpion Billboard Hot 100 Dominance",
+        "description": "Album 'Scorpion' produced consecutive No. 1 smashes 'God's Plan', 'Nice for What', and 'In My Feelings', breaking all-time streaming records."
+      },
+      {
+        "year": "2023–2026",
+        "title": "It's All a Blur Tour & Universal Mega-Deal",
+        "description": "Grossed over $320 Million on his 'It's All a Blur' co-headlining stadium tour and inked an unprecedented $400M+ multifaceted Universal Music Group partnership."
       }
     ],
     "filmography": [
       {
-        "title": "Breakthrough Studio Album",
+        "title": "Take Care",
         "year": 2011,
-        "role": "Primary Artist",
+        "role": "Lead Artist & Producer",
         "type": "Album",
-        "rating": 9.3,
-        "boxOfficeOrNetwork": "Multi-Platinum"
-      },
-      {
-        "title": "Global Arena Headlining Tour",
-        "year": 2018,
-        "role": "Headlining Performer",
-        "type": "Tour",
         "rating": 9.5,
-        "boxOfficeOrNetwork": "Live Nation ($150M)"
+        "boxOfficeOrNetwork": "Grammy Winner (6x Platinum)"
       },
       {
-        "title": "Billboard Chart-Topping LP",
-        "year": 2023,
-        "role": "Executive Producer",
+        "title": "Nothing Was the Same",
+        "year": 2013,
+        "role": "Lead Artist",
+        "type": "Album",
+        "rating": 9.2,
+        "boxOfficeOrNetwork": "OVO Sound / Republic (5x Platinum)"
+      },
+      {
+        "title": "Views",
+        "year": 2016,
+        "role": "Lead Artist",
+        "type": "Album",
+        "rating": 9.0,
+        "boxOfficeOrNetwork": "Billboard 200 #1 (8x Platinum)"
+      },
+      {
+        "title": "Scorpion",
+        "year": 2018,
+        "role": "Lead Artist",
+        "type": "Album",
+        "rating": 9.1,
+        "boxOfficeOrNetwork": "Historic 1B Streams in a Week"
+      },
+      {
+        "title": "Certified Lover Boy",
+        "year": 2021,
+        "role": "Lead Artist",
         "type": "Album",
         "rating": 8.9,
-        "boxOfficeOrNetwork": "#1 Billboard 200"
+        "boxOfficeOrNetwork": "Billboard 200 #1 (3x Platinum)"
       },
       {
-        "title": "Documentary Feature",
-        "year": 2025,
-        "role": "Subject & Producer",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Global Streaming"
+        "title": "It's All a Blur Tour",
+        "year": 2023,
+        "role": "Headlining Performer",
+        "type": "Tour",
+        "rating": 9.6,
+        "boxOfficeOrNetwork": "Live Nation ($320M Gross)"
       }
     ],
     "relationshipProfile": {
-      "status": "Documented Personal Record",
-      "datingHistorySummary": "Drake maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives.",
+      "status": "Unmarried",
+      "datingHistorySummary": "Drake has maintained a prominent personal life characterized by high-profile relationships across music, fashion, and sports, alongside co-parenting his son Adonis with French artist Sophie Brussaux.",
       "partners": [
         {
-          "name": "Documented Partner",
-          "relationType": "Partner",
-          "years": "Confirmed Record",
-          "profession": "Entertainment / Industry Professional",
-          "summary": "Publicly documented relationship recorded across verified biographical filings, characterized by mutual professional support."
+          "name": "Rihanna",
+          "relationType": "Former Partner",
+          "years": "2009–2016 (On-Off)",
+          "profession": "Singer, Entrepreneur & Founder",
+          "summary": "Acclaimed creative and romantic partnership producing multiple Billboard Hot 100 hit collaborations including 'Work' and 'What's My Name?'."
+        },
+        {
+          "name": "Sophie Brussaux",
+          "relationType": "Co-Parent",
+          "years": "2017",
+          "profession": "Visual Artist & Painter",
+          "summary": "Co-parent to their son Adonis Graham, born in October 2017."
+        },
+        {
+          "name": "Serena Williams",
+          "relationType": "Former Partner",
+          "years": "2015",
+          "profession": "Tennis Legend & Entrepreneur",
+          "summary": "Widely documented relationship during Williams' historic Grand Slam seasons."
         }
       ]
     },
@@ -2535,56 +2613,86 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "careerMilestones": [
       {
         "year": "2015",
-        "title": "Early Breakthrough Recognition",
-        "description": "Achieved international public recognition for landmark contributions to digital culture & creators."
+        "title": "Kylie Lip Kit Launch & Direct-to-Consumer Revolution",
+        "description": "Launched the inaugural Kylie Lip Kit collection, instantly selling out and birthing global beauty brand Kylie Cosmetics."
       },
       {
-        "year": "2020",
-        "title": "Commercial Peak & Industry Leadership",
-        "description": "Established all-time commercial records, commanding record contracts and global audience reach."
+        "year": "2019–2020",
+        "title": "Coty Inc. $600 Million Landmark Acquisition",
+        "description": "Sold a 51% controlling stake in Kylie Cosmetics to Coty Inc. for $600 Million in cash, cementing an elite enterprise valuation."
       },
       {
-        "year": "2026",
-        "title": "Enterprise Authority & Enduring Legacy",
-        "description": "Oversees high-yield brand ventures and flagship releases entering late 2026."
+        "year": "2023–2026",
+        "title": "Khy Fashion House & Consumer Ventures Expansion",
+        "description": "Expanded her multi-category corporate portfolio with luxury-accessible apparel label Khy, canned vodka soda brand Sprinter, and signature fragrance Cosmic."
       }
     ],
     "filmography": [
       {
-        "title": "Flagship Reality Franchise",
-        "year": 2015,
-        "role": "Main Cast & Producer",
+        "title": "Keeping Up with the Kardashians",
+        "year": 2007,
+        "role": "Herself",
         "type": "Series",
-        "rating": 7.9,
-        "boxOfficeOrNetwork": "E! / Hulu"
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "E! Network (20 Seasons)"
       },
       {
-        "title": "Direct-to-Consumer Brand Launch",
-        "year": 2019,
+        "title": "Life of Kylie",
+        "year": 2017,
+        "role": "Herself & Executive Producer",
+        "type": "Series",
+        "rating": 6.8,
+        "boxOfficeOrNetwork": "E! Network"
+      },
+      {
+        "title": "The Kardashians",
+        "year": 2022,
+        "role": "Herself & Executive Producer",
+        "type": "Series",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "Hulu / Disney+"
+      },
+      {
+        "title": "Kylie Cosmetics Global Launch",
+        "year": 2015,
         "role": "Founder & Creative Lead",
         "type": "Project",
-        "rating": 9.3,
-        "boxOfficeOrNetwork": "Commercial Milestone"
+        "rating": 9.8,
+        "boxOfficeOrNetwork": "Direct-to-Consumer Retail"
       },
       {
-        "title": "Global Media Special",
-        "year": 2024,
-        "role": "Executive Producer",
-        "type": "Special",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Streaming Exclusive"
+        "title": "Khy Fashion Label",
+        "year": 2023,
+        "role": "Founder & Creative Director",
+        "type": "Project",
+        "rating": 9.2,
+        "boxOfficeOrNetwork": "Global Ready-to-Wear"
       }
     ],
     "relationshipProfile": {
-      "status": "Documented Personal Record",
-      "datingHistorySummary": "Kylie Jenner maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives.",
+      "status": "In a Relationship",
+      "datingHistorySummary": "Kylie Jenner has high-profile relationships documented across contemporary media, including a celebrated partnership with musician Travis Scott (with whom she shares two children, Stormi and Aire) and actor Timothée Chalamet since 2023.",
       "partners": [
         {
-          "name": "Documented Partner",
+          "name": "Timothée Chalamet",
           "relationType": "Partner",
-          "years": "Confirmed Record",
-          "profession": "Entertainment / Industry Professional",
-          "summary": "Publicly documented relationship recorded across verified biographical filings, characterized by mutual professional support."
+          "years": "2023–Present",
+          "profession": "Actor",
+          "summary": "Confirmed relationship since spring 2023, frequently attending premier cultural events and award galas together."
+        },
+        {
+          "name": "Travis Scott",
+          "relationType": "Former Partner",
+          "years": "2017–2023",
+          "profession": "Rapper & Producer",
+          "summary": "High-profile multi-year partnership and co-parents to daughter Stormi and son Aire Webster."
+        },
+        {
+          "name": "Tyga",
+          "relationType": "Former Partner",
+          "years": "2014–2017",
+          "profession": "Rapper",
+          "summary": "Early career relationship documented widely in entertainment media."
         }
       ]
     },
