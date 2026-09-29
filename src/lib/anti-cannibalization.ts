@@ -166,6 +166,33 @@ export function registerPublishedProfile(entry: {
     const tsvLine = `\n${entry.keyword}\t${entry.category}\t${tagsFormatted}\tPublished\t${entry.canonicalUrl}\t${entry.publishedDate}`;
     fs.appendFileSync(SHEET1_TSV_PATH, tsvLine, "utf-8");
 
+    // Automatically push to live Google Sheet via Webhook
+    const webhookUrl = process.env.GOOGLE_SHEET_WEBHOOK_URL;
+    if (webhookUrl) {
+      const sheetRow = [
+        entry.keyword,
+        entry.category,
+        tagsFormatted,
+        "Published",
+        entry.canonicalUrl,
+        entry.publishedDate,
+      ];
+      fetch(webhookUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(sheetRow),
+        redirect: "follow",
+      })
+        .then((res) => {
+          if (res.ok) {
+            console.log(`[AntiCannibalization] ✓ Successfully synced "${entry.name}" directly to live Google Sheet!`);
+          }
+        })
+        .catch((err) => {
+          console.warn(`[AntiCannibalization] Could not sync to Google Sheet Webhook:`, err);
+        });
+    }
+
     console.log(`[AntiCannibalization] Successfully locked "${entry.name}" (${entry.slug}). Total locked: ${registry.totalLocked}`);
   } catch (error) {
     console.error("[AntiCannibalization] Error updating registry:", error);
