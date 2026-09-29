@@ -19,6 +19,22 @@ export const metadata: Metadata = {
   },
 };
 
+function getNetWorthBadge(raw: string): string {
+  const s = raw.toLowerCase();
+  if (s.includes("forbes")) return "Forbes";
+  if (s.includes("bloomberg")) return "Bloomberg";
+  if (s.includes("billboard") || s.includes("riaa")) return "Billboard";
+  if (s.includes("box office")) return "Box Office";
+  if (s.includes("sec") || s.includes("disclosures")) return "SEC Record";
+  if (s.includes("royalties")) return "Royalties";
+  if (s.includes("catalog")) return "Catalog";
+  if (s.includes("enterprise")) return "Enterprise";
+  if (s.includes("contracts")) return "Contracts";
+  if (s.includes("portfolio")) return "Portfolio";
+  if (s.includes("audited")) return "Audited";
+  return "Verified";
+}
+
 export default function HomePage() {
   const allCelebrities = getAllCelebrities();
   const leadStory = allCelebrities[0];
@@ -360,15 +376,16 @@ export default function HomePage() {
                       </div>
                     </div>
 
+
                     {/* Net Worth Box */}
                     <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200/90 mb-3.5">
-                      <div className="flex items-center justify-between text-[10px] uppercase font-bold text-slate-400 gap-2">
-                        <span className="shrink-0">Estimated Wealth</span>
-                        <span className="text-emerald-700 font-bold truncate text-right">
-                          {cleanSource}
+                      <div className="flex items-center justify-between text-[10px] uppercase font-bold text-slate-400 gap-1.5 mb-1">
+                        <span className="tracking-wider">Estimated Wealth</span>
+                        <span className="text-emerald-700 font-bold text-[9px] uppercase tracking-wider bg-emerald-100/70 border border-emerald-200/70 px-2 py-0.5 rounded-full shrink-0 leading-tight">
+                          {getNetWorthBadge(cleanSource)}
                         </span>
                       </div>
-                      <span className="text-xl font-black text-emerald-700 block mt-1 tracking-tight">
+                      <span className="text-xl font-black text-emerald-700 block tracking-tight">
                         {amount}
                       </span>
                     </div>

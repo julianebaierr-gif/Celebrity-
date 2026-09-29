@@ -427,6 +427,25 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
               }
             }
 
+            // Wikidata Birthdate (P569) & Exact Current Age
+            if (claims.P569?.[0]?.mainsnak?.datavalue?.value?.time) {
+              const timeStr = claims.P569[0].mainsnak.datavalue.value.time;
+              const cleanTime = timeStr.replace(/^\+/, "").slice(0, 10);
+              const [bYear, bMonth, bDay] = cleanTime.split("-").map((v) => parseInt(v, 10));
+              if (bYear && bMonth && bDay) {
+                const monthNames = [
+                  "January", "February", "March", "April", "May", "June",
+                  "July", "August", "September", "October", "November", "December"
+                ];
+                birthDate = `${monthNames[bMonth - 1]} ${bDay}, ${bYear}`;
+                const refDate = new Date("2026-09-29");
+                age = 2026 - bYear;
+                if (refDate.getMonth() + 1 < bMonth || (refDate.getMonth() + 1 === bMonth && refDate.getDate() < bDay)) {
+                  age--;
+                }
+              }
+            }
+
             // Wikidata Labels helper
             async function getWdLabels(idList) {
               const labels = [];
@@ -601,9 +620,10 @@ async function resolveCelebrityImages(entityName, slug, directImageUrl = null) {
   if (!imageUrl) {
     try {
       const queries = [
+        `"${entityName}" portrait`,
+        `"${entityName}" headshot`,
         `"${entityName}" red carpet`,
-        `"${entityName}" premiere`,
-        `"${entityName}" portrait`
+        `"${entityName}" premiere`
       ];
 
       for (const q of queries) {
@@ -622,8 +642,7 @@ async function resolveCelebrityImages(entityName, slug, directImageUrl = null) {
           if (!ii || !ii.url) continue;
 
           if (
-            title.includes("crop") ||
-            title.includes("headshot") ||
+            (ii.width && ii.width < 400) ||
             title.includes(".svg") ||
             title.includes(".pdf") ||
             !/\.(jpe?g|png|webp)$/i.test(ii.url)
@@ -1100,6 +1119,66 @@ Return STRICT JSON with the following structure:
     console.log(`[Engine] Generated profile via verified domain encyclopedia: ${err.message}`);
   }
 
+  // 1. Strict Programmatic Age Verification (Never allow LLM hallucinations to overwrite verified age)
+  const exactBirthYearMatch = (quickFacts.birthDate || dossier.birthDate || "").match(/\b(19\d{2}|20\d{2})\b/);
+  if (exactBirthYearMatch) {
+    const bYear = parseInt(exactBirthYearMatch[1], 10);
+    let calculatedAge = 2026 - bYear;
+    const parsedBDate = Date.parse(quickFacts.birthDate || dossier.birthDate);
+    if (!isNaN(parsedBDate)) {
+      const bObj = new Date(parsedBDate);
+      const refDate = new Date("2026-09-29");
+      if (refDate.getMonth() < bObj.getMonth() || (refDate.getMonth() === bObj.getMonth() && refDate.getDate() < bObj.getDate())) {
+        calculatedAge = 2026 - bYear - 1;
+      }
+    }
+    quickFacts.age = calculatedAge;
+  } else {
+    quickFacts.age = dossier.age;
+  }
+
+  // 2. Net Worth Data Sanitization
+  if (quickFacts.netWorth) {
+    quickFacts.netWorth = quickFacts.netWorth
+      .replace(/\baudited valuation\b/gi, "")
+      .replace(/\baudited estimates\b/gi, "")
+      .replace(/\bvaluation\b/gi, "")
+      .replace(/\bestimates\b/gi, "")
+      .replace(/\s*\/\s*/g, " & ")
+      .replace(/\s{2,}/g, " ")
+      .replace(/\(\s*&/g, "(")
+      .replace(/&\s*\)/g, ")")
+      .replace(/\(\s*\)/g, "")
+      .trim();
+  }
+
+  // 3. Primary Role Clean formatting (strip nationality prefixes)
+  if (quickFacts.primaryRole) {
+    quickFacts.primaryRole = quickFacts.primaryRole
+      .replace(/^(American|British|English|Canadian|Australian)\s+/i, "")
+      .replace(/\band\b/gi, "&")
+      .replace(/\s+/g, " ")
+      .trim();
+    quickFacts.primaryRole = quickFacts.primaryRole.charAt(0).toUpperCase() + quickFacts.primaryRole.slice(1);
+  }
+
+  // 4. Milestone Year Deduplication in Titles
+  if (careerMilestones && careerMilestones.length) {
+    careerMilestones = careerMilestones.map((m) => {
+      let title = (m.title || "").trim();
+      const year = (m.year || "").trim();
+      if (year) {
+        const escaped = year.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
+        title = title.replace(new RegExp(`\\s*\\(${escaped}\\)$`, "i"), "").trim();
+      }
+      return {
+        ...m,
+        title,
+        year
+      };
+    });
+  }
+
   // Sanitize 100% Zero-AI Words
   headline = sanitizeAiVocabulary(headline);
   executiveSummary = sanitizeAiVocabulary(executiveSummary);
@@ -1116,11 +1195,18 @@ Return STRICT JSON with the following structure:
   const imgData = await resolveCelebrityImages(targetCandidate.entity, targetCandidate.slug, dossier.directImageUrl);
 
   // Harvest Google FAQs
-  const faqs = await harvestGoogleFaqs(targetCandidate.entity, {
+  let faqs = await harvestGoogleFaqs(targetCandidate.entity, {
     quickFacts,
     relationshipProfile,
     filmography,
     faqs: parsedFaqs
+  });
+  // Sync age in FAQs
+  faqs = faqs.map((f) => {
+    if (/\b(how old|age)\b/i.test(f.question)) {
+      f.answer = f.answer.replace(/\bis\s+\d{2}\s+years\s+old\b/gi, `is ${quickFacts.age} years old`);
+    }
+    return f;
   });
   console.log(`[GoogleFAQEngine] ✓ Successfully prepared ${faqs.length} Google FAQs.`);
 
