@@ -38,12 +38,44 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   // Google SERP Strict Title Optimization (Target: 50-58 characters maximum)
   let domainKeyword = "Career";
-  if (celebrity.category === "music") domainKeyword = "Music";
-  else if (celebrity.category === "sports") domainKeyword = "Stats";
-  else if (celebrity.category === "creators") domainKeyword = "Brands";
+  let specificKeywords: string[] = [];
+  const cat = (celebrity.category || "").toLowerCase();
+  const nameLower = celebrity.name.toLowerCase();
+
+  if (
+    cat.includes("music") ||
+    cat.includes("sound") ||
+    ["drake", "rosalia", "taylor swift", "britney spears", "mariah carey", "chris brown", "nba youngboy", "youngboy"].some((m) => nameLower.includes(m))
+  ) {
+    domainKeyword = "Music";
+    specificKeywords = ["Music Career", "Songs & Bio", "Albums & Bio", "Music & Net Worth"];
+  } else if (
+    cat.includes("sport") ||
+    cat.includes("athlete") ||
+    ["travis kelce"].some((s) => nameLower.includes(s))
+  ) {
+    domainKeyword = "Stats";
+    specificKeywords = ["Career Stats", "NFL Career", "Stats & Bio", "Contracts & Bio"];
+  } else if (
+    cat.includes("creator") ||
+    cat.includes("digital") ||
+    cat.includes("influencer") ||
+    ["kylie jenner", "mrbeast", "ishowspeed", "kai cenat"].some((c) => nameLower.includes(c))
+  ) {
+    domainKeyword = "Brands";
+    specificKeywords = ["Brand Ventures", "Brands & Bio", "Enterprises", "Business & Bio"];
+  } else {
+    specificKeywords = ["Acting Career", "Movies & Bio", "Film Roles", "Career & Bio"];
+  }
 
   const titleCandidates = [
+    `${celebrity.name} Net Worth, Age, ${domainKeyword} & Full Bio | CelebEdge`,
     `${celebrity.name} Net Worth, Age, Bio & ${domainKeyword} | CelebEdge`,
+    `${celebrity.name} Net Worth, Age, Career, Movies & Bio | CelebEdge`,
+    `${celebrity.name} Net Worth, Age, Music Career & Bio | CelebEdge`,
+    `${celebrity.name} Net Worth, Age, Career & Biography | CelebEdge`,
+    `${celebrity.name} Net Worth, Age, ${specificKeywords[0]} | CelebEdge`,
+    `${celebrity.name} Net Worth, Age, ${specificKeywords[1]} | CelebEdge`,
     `${celebrity.name} Net Worth, Age & ${domainKeyword} | CelebEdge`,
     `${celebrity.name} Net Worth, Age, Bio & Career | CelebEdge`,
     `${celebrity.name} Net Worth, Age, Career & Bio | CelebEdge`,
@@ -74,16 +106,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (valid.length > 0) {
       let best = valid[0];
       if (best.length < 50) {
-        let adjusted = best.replace("| CelebEdge", "| Official CelebEdge");
-        if (adjusted.length >= 50 && adjusted.length <= 58) best = adjusted;
+        let padded = best.replace(" & Bio | CelebEdge", " & Full Bio | CelebEdge");
+        if (padded.length >= 50 && padded.length <= 58) best = padded;
         else {
-          adjusted = best.replace("| CelebEdge", "| CelebEdge Bio");
-          if (adjusted.length >= 50 && adjusted.length <= 58) best = adjusted;
+          padded = best.replace("Net Worth, Age", "Net Worth, Age, Career");
+          if (padded.length >= 50 && padded.length <= 58) best = padded;
+          else {
+            padded = best.replace("| CelebEdge", "& Full Bio | CelebEdge");
+            if (padded.length >= 50 && padded.length <= 58) best = padded;
+          }
         }
       }
       metaTitle = best;
     } else {
-      metaTitle = `${celebrity.name.slice(0, 43)} Net Worth & Bio | CelebEdge`;
+      metaTitle = `${celebrity.name.slice(0, 35)} Net Worth & Bio | CelebEdge`;
     }
   }
 
@@ -195,14 +231,19 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
           <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
               {/* High-Resolution Hero Portrait (min 1200px WebP compliant) */}
-              <div className="relative h-64 w-52 sm:h-72 sm:w-56 shrink-0 rounded-2xl overflow-hidden border-2 border-slate-200 shadow-md">
+              <div className="relative h-64 w-52 sm:h-72 sm:w-56 shrink-0 rounded-2xl overflow-hidden border-2 border-slate-200 shadow-md bg-slate-950 flex items-center justify-center">
+                <div
+                  className="absolute inset-0 bg-cover bg-center blur-xl opacity-30 scale-110 pointer-events-none"
+                  style={{ backgroundImage: `url(${celebrity.heroImage})` }}
+                />
+                <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                 <Image
                   src={celebrity.heroImage}
                   alt={`${celebrity.name} official portrait - ${celebrity.quickFacts.primaryRole}`}
                   fill
                   priority
                   sizes="(max-width: 640px) 208px, 224px"
-                  className="object-cover object-top"
+                  className="object-contain object-center z-10 drop-shadow-md"
                 />
               </div>
 

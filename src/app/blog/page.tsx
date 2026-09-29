@@ -6,7 +6,7 @@ import { getAllBlogPosts } from "@/data/blog-posts";
 import { ArrowRight, ChevronRight, Calendar, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Editorial Blog | Entertainment Industry Insights & Analysis | CelebEdge",
+  title: "Editorial Blog | Entertainment Industry News | CelebEdge",
   description:
     "Editorial articles, film analysis, Hollywood financial investigations, and cultural retrospectives written by our editorial team.",
   alternates: {

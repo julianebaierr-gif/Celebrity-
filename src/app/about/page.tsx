@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About CelebEdge | Independent Entertainment Editorial & Biographical Archive",
+  title: "About CelebEdge | Celebrity Biographies & Profiles",
   description:
     "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebEdge's certified biographical and financial archives.",
   alternates: {

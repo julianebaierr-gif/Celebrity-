@@ -7,7 +7,7 @@ import { Search, ArrowRight, DollarSign } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 export const metadata: Metadata = {
-  title: "Search Celebrity Profiles | CelebEdge",
+  title: "Search Celebrity Net Worth, Age & Profiles | CelebEdge",
   description: "Search our directory of celebrity profiles, filmographies, and career overviews.",
 };
 
@@ -84,13 +84,18 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                 className="group rounded-2xl border border-slate-200 bg-white overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-100">
+                  <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-950 flex items-center justify-center">
+                    <div
+                      className="absolute inset-0 bg-cover bg-center blur-xl opacity-30 scale-110 pointer-events-none"
+                      style={{ backgroundImage: `url(${item.heroImage})` }}
+                    />
+                    <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                     <Image
                       src={item.heroImage}
                       alt={`${item.name} portrait - ${item.quickFacts.primaryRole}`}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                      className="object-contain object-center z-10 drop-shadow-md group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
 

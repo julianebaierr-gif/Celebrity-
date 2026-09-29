@@ -33,14 +33,19 @@ export default function HomePage() {
           {/* Main Lead Feature (7 Columns) */}
           <article className="lg:col-span-7 bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between h-full">
             <div>
-              <div className="relative h-80 sm:h-96 lg:h-[440px] w-full overflow-hidden bg-slate-100">
+              <div className="relative h-80 sm:h-96 lg:h-[440px] w-full overflow-hidden bg-slate-950 flex items-center justify-center">
+                <div
+                  className="absolute inset-0 bg-cover bg-center blur-2xl opacity-30 scale-110 pointer-events-none"
+                  style={{ backgroundImage: `url(${leadStory.heroImage})` }}
+                />
+                <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                 <Image
                   src={leadStory.heroImage}
                   alt={`${leadStory.name} official portrait - ${leadStory.headline}`}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 60vw"
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  className="object-contain object-center z-10 drop-shadow-md group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
@@ -134,13 +139,18 @@ export default function HomePage() {
                   key={story.slug}
                   className="group rounded-2xl border border-slate-200 bg-white p-3.5 sm:p-4 shadow-xs hover:border-amber-400 hover:shadow-md transition flex gap-4 items-center"
                 >
-                  <div className="relative h-24 w-24 sm:h-28 sm:w-28 rounded-2xl overflow-hidden bg-slate-100 shrink-0">
+                  <div className="relative h-24 w-24 sm:h-28 sm:w-28 rounded-2xl overflow-hidden bg-slate-950 shrink-0 flex items-center justify-center">
+                    <div
+                      className="absolute inset-0 bg-cover bg-center blur-lg opacity-35 scale-110 pointer-events-none"
+                      style={{ backgroundImage: `url(${story.heroImage})` }}
+                    />
+                    <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                     <Image
                       src={story.heroImage}
                       alt={`${story.name} portrait - ${story.quickFacts.primaryRole}`}
                       fill
                       sizes="112px"
-                      className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                      className="object-contain object-center z-10 drop-shadow-xs group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
 
@@ -208,13 +218,18 @@ export default function HomePage() {
               className="group rounded-2xl border border-slate-200 bg-white overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
             >
               <div>
-                <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-100">
+                <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-950 flex items-center justify-center">
+                  <div
+                    className="absolute inset-0 bg-cover bg-center blur-xl opacity-30 scale-110 pointer-events-none"
+                    style={{ backgroundImage: `url(${item.heroImage})` }}
+                  />
+                  <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                   <Image
                     src={item.heroImage}
                     alt={`${item.name} portrait`}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain object-center z-10 drop-shadow-md group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
 

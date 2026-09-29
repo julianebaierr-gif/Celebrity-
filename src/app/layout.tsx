@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://celeb-edge.vercel.app"),
   title: {
     default: "CelebEdge | Official Celebrity Profiles & Career Archives",
-    template: "%s | CelebEdge",
+    template: "%s",
   },
   description: "The authoritative entertainment intelligence portal. Confirmed celebrity net worth, relationship records, filmographies, and zero-rumor biographical archives.",
   keywords: [
