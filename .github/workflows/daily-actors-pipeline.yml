@@ -1,0 +1,57 @@
+name: Daily Hollywood Actors & Actresses Pipeline
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC (11:00 AM PKT)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      actor_name:
+        description: 'Optional: Specific Hollywood Actor/Actress name from Sheet2 (leave blank to auto-pick next highest rank in queue)'
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  publish-actor:
+    name: Generate, Verify & Publish Actor Profile
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Actor/Actress Publishing Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_SHEET_WEBHOOK_URL: ${{ secrets.GOOGLE_SHEET_WEBHOOK_URL }}
+          TARGET_ACTOR: ${{ github.event.inputs.actor_name }}
+        run: node scripts/run-actor-pipeline.mjs
+
+      - name: Verify Next.js Static Build & Routes
+        run: npm run build
+
+      - name: Commit and Push New Actor to GitHub
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "CelebEdge Automated Actor Engine"
+          git add src/data/ public/images/
+          if git diff --staged --quiet; then
+            echo "No new changes to commit."
+          else
+            git commit -m "feat(pipeline): published new Hollywood actor/actress profile [skip ci]"
+            git push origin main
+          fi

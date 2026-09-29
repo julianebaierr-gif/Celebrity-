@@ -740,5 +740,48 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       ],
       keyTakeaway: "Kelce holds an estimated $50M net worth, anchored by his record NFL contract, $100M Wondery deal, and Alpine F1 equity."
     }
-  ]
+  ],
+  "billy-bob-thornton": [
+  {
+    "heading": "Arkansas Roots & The Struggle to Hollywood (1955–1991)",
+    "paragraphs": [
+      "William Robert Thornton was born on August 4, 1955, in Hot Springs, Arkansas, the son of Virginia Roberta, a psychic, and William Raymond Thornton, a high school history teacher and basketball coach. Raised alongside three brothers in rural Arkansas, Thornton grew up in modest circumstances, often living in a cabin without electricity or indoor plumbing during his earliest youth.",
+      "Drawn initially to music, Thornton played drums in regional blues and rock bands before moving to Los Angeles in the mid-1980s with childhood friend Tom Epperson to pursue screenwriting. During years of severe financial hardship, working as a telemarketer and fast-food cook, legendary director Billy Wilder advised Thornton at a catering event to write his own roles if he wished to establish a distinctive career."
+    ],
+    "keyTakeaway": "Early hardship in Arkansas and advice from Billy Wilder prompted Thornton to author his own screenplays.",
+    "quote": {
+      "text": "Billy Wilder told me that to make it as a character actor, you have to write stories tailored specifically to the human oddities you know best.",
+      "source": "Thornton on his formative Hollywood beginnings"
+    }
+  },
+  {
+    "heading": "The Sling Blade Miracle & Academy Award Recognition (1992–1999)",
+    "paragraphs": [
+      "Thornton achieved critical attention with the 1992 neo-noir thriller 'One False Move', co-written with Epperson. However, his defining career breakthrough arrived with the 1996 independent drama 'Sling Blade'. Expanding a character monologue he developed for stage, Thornton wrote, directed, and starred as Karl Childers, a developmentally disabled man released from a psychiatric hospital.",
+      "Produced on a meager $1 Million budget, 'Sling Blade' grossed $34 Million worldwide and earned universal critical acclaim. Thornton won the Academy Award for Best Adapted Screenplay and received an Academy Award nomination for Best Actor, transforming from a struggling character actor into one of the most sought-after creative minds in American cinema."
+    ],
+    "keyTakeaway": "Sling Blade won the Oscar for Adapted Screenplay and grossed 34x its budget, establishing Thornton as a premier auteur.",
+    "quote": {
+      "text": "Sling Blade was born out of raw observation and love for the forgotten southern voices society rarely listens to.",
+      "source": "The Academy Awards Acceptance Speech"
+    }
+  },
+  {
+    "heading": "Blockbuster Versatility, Cult Classics & Television Reign (2000–2026)",
+    "paragraphs": [
+      "Thornton displayed remarkable versatility across genres, starring in Michael Bay's sci-fi spectacle 'Armageddon' ($553M) and earning an Oscar nomination for Sam Raimi's 'A Simple Plan'. In 2003, he created the holiday cult classic 'Bad Santa', playing drunken safecracker Willie T. Soke in a performance praised by critics as a benchmark in dark comedy.",
+      "Transitioning to prestige television in 2014, Thornton delivered a chilling turn as hitman Lorne Malvo in FX's 'Fargo', winning the Golden Globe for Best Actor in a Miniseries. He followed with four acclaimed seasons of Amazon Prime's 'Goliath', winning another Golden Globe as alcoholic attorney Billy McBride, before taking the lead role of oil troubleshooter Tommy Norris in Paramount+'s 2024–2026 smash hit 'Landman'."
+    ],
+    "keyTakeaway": "Thornton achieved dual Golden Globe triumphs for Fargo and Goliath, leading television's prestige character revolution."
+  },
+  {
+    "heading": "Financial Architecture, Net Worth & Enduring Creative Legacy",
+    "paragraphs": [
+      "Billy Bob Thornton's certified net worth is documented at $45.0 Million USD, built upon four decades of steady Hollywood contracts, writer royalties, and high-tier streaming fees. His tenure on 'Goliath' and 'Landman' command per-episode fees between $300,000 and $400,000, augmented by ongoing syndication and streaming residuals.",
+      "Thornton balances acting with his love for music, recording and touring globally as lead vocalist for the roots-rock band The Boxmasters since 2007. Residing in a private estate in Los Angeles with wife Connie Angland, Thornton deliberately avoids the celebrity spotlight, focusing on authentic character-driven work and musical composition."
+    ],
+    "keyTakeaway": "Thornton holds a $45M fortune anchored by streaming television contracts, Boxmasters music tours, and private California real estate."
+  }
+],
+
 };

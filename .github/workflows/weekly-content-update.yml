@@ -1,0 +1,57 @@
+name: Weekly Entertainment Content & Blog Update Pipeline
+
+on:
+  schedule:
+    # Runs weekly every Monday at 09:00 UTC (2:00 PM PKT)
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+    inputs:
+      target_celebrity:
+        description: 'Optional: Specific celebrity slug to create a weekly spoke article or milestone update for'
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  weekly-update:
+    name: Generate Weekly Spoke Blog & Milestones
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Weekly Content Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_SHEET_WEBHOOK_URL: ${{ secrets.GOOGLE_SHEET_WEBHOOK_URL }}
+          TARGET_CELEBRITY: ${{ github.event.inputs.target_celebrity }}
+        run: node scripts/run-weekly-update.mjs
+
+      - name: Verify Next.js Static Build & Routes
+        run: npm run build
+
+      - name: Commit and Push Weekly Update to GitHub
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "CelebEdge Weekly Content Engine"
+          git add src/data/ public/images/
+          if git diff --staged --quiet; then
+            echo "No weekly updates to commit."
+          else
+            git commit -m "feat(weekly): published weekly entertainment spoke article & updated milestones [skip ci]"
+            git push origin main
+          fi

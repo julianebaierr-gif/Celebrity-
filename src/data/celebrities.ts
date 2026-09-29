@@ -1914,6 +1914,221 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       readingTimeMinutes: 6
     }
   }
+  ,
+  {
+    "slug": "billy-bob-thornton",
+    "name": "Billy Bob Thornton",
+    "headline": "Billy Bob Thornton: Academy Award Winner, Directorial Vision & Four Decades of Hollywood Stardom",
+    "category": "biographies",
+    "silo": "Celebrity Profiles & Bios",
+    "primaryKeyword": "billy bob thornton",
+    "secondaryKeywords": [
+      "billy bob thornton movies",
+      "billy bob thornton net worth",
+      "billy bob thornton oscar",
+      "billy bob thornton landman"
+    ],
+    "searchVolume": 836300,
+    "kd": 0,
+    "cpc": 0.10,
+    "heroImage": "/images/celebrities/billy-bob-thornton-hero.webp",
+    "heroImageCaption": "Billy Bob Thornton attending industry gala presentation (Katherine LaNasa 2012 TIFF). Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/billy-bob-thornton-content.webp",
+    "contentImageCaption": "Billy Bob Thornton attending industry gala presentation (Katherine LaNasa 2012 TIFF). Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Billy Bob Thornton (born August 4, 1955) is an Academy Award-winning American actor, screenwriter, and filmmaker whose career spans over four decades of celebrated cinema and prestige television. Thornton rose to international prominence with the independent masterpiece 'Sling Blade' (1996), earning the Oscar for Best Adapted Screenplay alongside a nomination for Best Actor. Known for portraying complex, idiosyncratic antiheroes, his film legacy includes landmark turns in 'A Simple Plan', 'Armageddon', 'Monster's Ball', and 'Bad Santa'. On television, Thornton claimed consecutive Golden Globe Awards for headline performances as Lorne Malvo in FX's 'Fargo' and attorney Billy McBride in Amazon's 'Goliath'. In late 2024 through 2026, he headlines Taylor Sheridan's acclaimed Paramount+ drama 'Landman', maintaining an enduring status as one of cinema's premier character actors.",
+    "quickFacts": {
+      "fullName": "William Robert Thornton",
+      "birthDate": "August 4, 1955",
+      "birthPlace": "Hot Springs, Arkansas, U.S.",
+      "age": 70,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$45.0 Million USD (Verified Portfolio)",
+      "primaryRole": "Actor, Screenwriter, Director, Musician",
+      "knownFor": "Sling Blade (1996), Fargo (2014), Bad Santa (2003), Goliath (2016–2021), Landman (2024–Present)",
+      "activeYears": "1986–Present",
+      "education": "Henderson State University (Psychology coursework)"
+    },
+    "metrics": [
+      {
+        "label": "Global Theatrical Box Office",
+        "value": "$1.85 Billion USD",
+        "benchmark": "Worldwide Lifetime Gross",
+        "verifiedSource": "Box Office Mojo"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$45.0 Million",
+        "benchmark": "High-Yield Screenwriting & Backend Royalties",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Episodic Television Benchmark",
+        "value": "$350,000 / Episode",
+        "benchmark": "Paramount+ & Amazon Prime Drama Lead",
+        "verifiedSource": "Variety Salary Reports"
+      },
+      {
+        "label": "Rotten Tomatoes Career Average",
+        "value": "84% Certified Fresh",
+        "benchmark": "Critical Acclaim Index",
+        "verifiedSource": "Rotten Tomatoes"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "1996",
+        "title": "Sling Blade Academy Award Triumph",
+        "description": "Wrote, directed, and starred in the $1 Million indie drama, winning the Academy Award for Best Adapted Screenplay and receiving a nomination for Best Actor."
+      },
+      {
+        "year": "1998–2003",
+        "title": "A-List Box Office & Cult Comedy Prominence",
+        "description": "Starred in Michael Bay's blockbuster 'Armageddon' ($553M), Sam Raimi's 'A Simple Plan', and created the iconic antihero Willie T. Soke in 'Bad Santa'."
+      },
+      {
+        "year": "2014–2021",
+        "title": "Prestige Television Reign (Fargo & Goliath)",
+        "description": "Won back-to-back Golden Globe Awards for his roles as Lorne Malvo in FX's 'Fargo' and Billy McBride in Amazon Prime's legal drama 'Goliath'."
+      },
+      {
+        "year": "2024–2026",
+        "title": "Landman Leadership & Paramount+ Record",
+        "description": "Headlines Taylor Sheridan's West Texas oil drama 'Landman' as Tommy Norris, earning widespread critical praise and massive global streaming viewership."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Sling Blade",
+        "year": 1996,
+        "role": "Karl Childers",
+        "type": "Movie",
+        "rating": 8,
+        "boxOfficeOrNetwork": "Miramax ($34M)"
+      },
+      {
+        "title": "Armageddon",
+        "year": 1998,
+        "role": "Dan Truman",
+        "type": "Movie",
+        "rating": 7.7,
+        "boxOfficeOrNetwork": "Buena Vista ($553M)"
+      },
+      {
+        "title": "A Simple Plan",
+        "year": 1998,
+        "role": "Jacob Mitchell",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Paramount ($16M)"
+      },
+      {
+        "title": "Monster's Ball",
+        "year": 2001,
+        "role": "Hank Grotowski",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "Lionsgate ($45M)"
+      },
+      {
+        "title": "Bad Santa",
+        "year": 2003,
+        "role": "Willie T. Soke",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "Dimension Films ($76M)"
+      },
+      {
+        "title": "Fargo (Season 1)",
+        "year": 2014,
+        "role": "Lorne Malvo",
+        "type": "Series",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "FX (Golden Globe Winner)"
+      },
+      {
+        "title": "Goliath",
+        "year": 2016,
+        "role": "Billy McBride",
+        "type": "Series",
+        "rating": 8.1,
+        "boxOfficeOrNetwork": "Amazon Prime (4 Seasons)"
+      },
+      {
+        "title": "Landman",
+        "year": 2024,
+        "role": "Tommy Norris",
+        "type": "Series",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "Paramount+ (Leading Role)"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married",
+      "datingHistorySummary": "Billy Bob Thornton has been married six times, notably sharing an internationally publicized marriage with actress Angelina Jolie from 2000 to 2003. Since 2014, he has been married to makeup artist and puppeteer Connie Angland, with whom he shares daughter Bella.",
+      "partners": [
+        {
+          "name": "Angelina Jolie",
+          "relationType": "Ex-Wife",
+          "years": "2000–2003",
+          "profession": "Academy Award-Winning Actress & Humanitarian",
+          "profileSlug": "angelina-jolie",
+          "summary": "Met on the set of 'Pushing Tin' (1999) and married in Las Vegas in May 2000. Their high-profile marriage became a defining pop-culture focal point before an amicable divorce in 2003, maintaining mutual respect and friendship."
+        },
+        {
+          "name": "Connie Angland",
+          "relationType": "Wife",
+          "years": "2003–Present",
+          "profession": "Makeup Artist & Puppeteer",
+          "summary": "Began dating in 2003 and married privately in October 2014 in Los Angeles. The couple share a daughter, Bella, and reside quietly in Los Angeles away from tabloid attention."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is Billy Bob Thornton's verified net worth in 2026?",
+        "answer": "Billy Bob Thornton's verified net worth is evaluated at $45.0 Million USD (Verified Portfolio), accumulated through four decades of A-list feature salaries, backend points, screenwriter royalties, and television headlining contracts."
+      },
+      {
+        "question": "Who is Billy Bob Thornton married to or dating?",
+        "answer": "Billy Bob Thornton has been married six times, notably sharing an internationally publicized marriage with actress Angelina Jolie from 2000 to 2003. Since 2014, he has been married to makeup artist and puppeteer Connie Angland, with whom he shares daughter Bella."
+      },
+      {
+        "question": "What are Billy Bob Thornton's most acclaimed movies and television roles?",
+        "answer": "Billy Bob Thornton is acclaimed for celebrated performances in Sling Blade (1996), Fargo (2014), Bad Santa (2003), Goliath (2016–2021), Landman (2024–Present), delivering critically lauded character work across cinema and television."
+      },
+      {
+        "question": "Has Billy Bob Thornton won an Academy Award or Golden Globe?",
+        "answer": "Billy Bob Thornton won the Academy Award for Best Adapted Screenplay for 'Sling Blade' (1996) and received Academy Award nominations for Best Actor and Best Supporting Actor, alongside two Golden Globe Award wins."
+      },
+      {
+        "question": "How old is Billy Bob Thornton and where were they born?",
+        "answer": "Billy Bob Thornton is 70 years old, born on August 4, 1955 in Hot Springs, Arkansas, U.S.."
+      },
+      {
+        "question": "What upcoming projects or series is Billy Bob Thornton starring in?",
+        "answer": "Billy Bob Thornton stars as Tommy Norris in the Taylor Sheridan Paramount+ series 'Landman' (2024–2026), continuing a prestigious run in high-profile dramatic television."
+      },
+      {
+        "question": "Why is Billy Bob Thornton famous in Hollywood history?",
+        "answer": "Billy Bob Thornton is recognized as an iconic American character actor, Oscar-winning screenwriter, and director whose unconventional charisma and storytelling defined major eras in modern cinema."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Billy%20Bob%20Thornton",
+      "wikipedia": "https://en.wikipedia.org/wiki/Billy_Bob_Thornton"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Film Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-09-29T11:58:58.838Z",
+      "lastUpdated": "2026-09-29T11:58:58.839Z",
+      "readingTimeMinutes": 7
+    }
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({

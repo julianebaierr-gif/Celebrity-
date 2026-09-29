@@ -1,7 +1,7 @@
 {
   "description": "CelebEdge Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 15,
-  "lastUpdated": "2026-09-29T10:03:00.088Z",
+  "totalLocked": 16,
+  "lastUpdated": "2026-09-29T11:58:58.841Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -227,6 +227,20 @@
         "travis kelce net worth",
         "travis kelce super bowl",
         "travis kelce contract"
+      ]
+    },
+    {
+      "keyword": "billy bob thornton",
+      "slug": "billy-bob-thornton",
+      "name": "Billy Bob Thornton",
+      "category": "Celebrity Profiles & Bios",
+      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/billy-bob-thornton",
+      "publishedAt": "2026-09-29 11:58:58",
+      "associatedTags": [
+        "billy bob thornton movies",
+        "billy bob thornton net worth",
+        "billy bob thornton oscar",
+        "billy bob thornton landman"
       ]
     }
   ],
