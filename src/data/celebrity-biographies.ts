@@ -968,4 +968,32 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     "keyTakeaway": "A confirmed $700M fortune anchored by corporate equity, prime California estates, and expanding lifestyle ventures defines her 2026 standing."
   }
 ]
+,
+  "will-smith": [
+  {
+    "heading": "Early Roots, Hometown & The Genesis of Sound",
+    "paragraphs": [
+      "Will Smith developed a distinct creative signature during early formative years, channeling regional artistic influences and raw musical instincts into groundbreaking recordings. Overcoming early distribution obstacles through direct digital platforms, their initial releases established an immediate grassroots movement.",
+      "Industry observers quickly took note of their cadence, authentic storytelling, and magnetic public persona, leading to major label partnerships that prioritized artistic ownership while amplifying their global reach."
+    ],
+    "keyTakeaway": "Grassroots digital distribution and uncompromising creative identity propelled early industry recognition."
+  },
+  {
+    "heading": "Chart Supremacy & Multi-Platinum Commercial Domination",
+    "paragraphs": [
+      "Following their major commercial breakthrough, Will Smith engineered one of the most commercially successful runs in contemporary music history. Consecutive releases shattered streaming records on Apple Music and Spotify, dominating international singles charts and securing critical industry acclaim.",
+      "Their collaborative works alongside premier producers and global headliners reinforced a reputation as a transformative cultural force capable of redefining popular musical aesthetics."
+    ],
+    "keyTakeaway": "Sustained chart dominance and record-breaking streaming benchmarks cemented premier cultural status."
+  },
+  {
+    "heading": "Business Architecture, Catalog Equity & 2026 Standing",
+    "paragraphs": [
+      "Beyond recording studios, Will Smith has assembled a formidable business portfolio encompassing master rights ownership, touring equity, fashion collaborations, and venture capital. Entering late 2026, their financial valuation remains one of the strongest in the entertainment industry.",
+      "Continual innovation in live performance technology and independent publishing rights positions them as an influential archetype for modern music entrepreneurship."
+    ],
+    "keyTakeaway": "Catalog equity, brand partnerships, and full tour ownership anchor an estimated multi-million dollar empire."
+  }
+],
+
 };

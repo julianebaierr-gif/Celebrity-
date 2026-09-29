@@ -1,7 +1,7 @@
 {
   "description": "CelebEdge Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 19,
-  "lastUpdated": "2026-09-29T12:21:02.716Z",
+  "totalLocked": 20,
+  "lastUpdated": "2026-09-29T14:32:19.971Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -283,6 +283,20 @@
         "kylie jenner age",
         "kylie jenner career",
         "kylie jenner 2026"
+      ]
+    },
+    {
+      "keyword": "will smith",
+      "slug": "will-smith",
+      "name": "Will Smith",
+      "category": "Music & Performing Arts",
+      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/will-smith",
+      "publishedAt": "2026-09-29 14:32:19",
+      "associatedTags": [
+        "will smith net worth",
+        "will smith age",
+        "will smith career",
+        "will smith 2026"
       ]
     }
   ],

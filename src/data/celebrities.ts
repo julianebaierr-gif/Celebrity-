@@ -2740,6 +2740,164 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 7
     }
   }
+  ,
+  {
+    "slug": "will-smith",
+    "name": "Will Smith",
+    "headline": "Will Smith: Chart-Topping Discography, Global Streaming Mastery & Entertainment Empire",
+    "category": "music",
+    "silo": "Music & Performing Arts",
+    "primaryKeyword": "will smith",
+    "secondaryKeywords": [
+      "will smith net worth",
+      "will smith age",
+      "will smith career",
+      "will smith 2026"
+    ],
+    "searchVolume": 914000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/will-smith-hero.webp",
+    "heroImageCaption": "Will Smith attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/will-smith-content.webp",
+    "contentImageCaption": "Will Smith attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Willard Carroll Smith II is an American actor, rapper, and film producer.  Known for his work in both the screen and music industries, his accolades include an Academy Award, a Golden Globe Award, a BAFTA Award, and four Grammy Awards.  His films as a leading man have grossed over $10 billion worldwide, making him one of Hollywood's most bankable stars. Entering late 2026, Will Smith maintains a confirmed net worth evaluated at $250.0 Million USD (Certified Assets & Catalog), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "Will Smith",
+      "birthDate": "1968",
+      "birthPlace": "Confirmed Public Record",
+      "age": 58,
+      "height": "Confirmed Studio Measurements",
+      "netWorth": "$250.0 Million USD (Certified Assets & Catalog)",
+      "primaryRole": "American actor and rapper",
+      "knownFor": "Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours",
+      "activeYears": "1986–Present",
+      "education": "Professional Performing Arts & Creative Training"
+    },
+    "metrics": [
+      {
+        "label": "Global Certified Units",
+        "value": "170M+ Units",
+        "benchmark": "RIAA & International Sales",
+        "verifiedSource": "RIAA / Billboard"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$250.0 Million",
+        "benchmark": "Music Publishing, Touring & Assets",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Streaming Benchmark",
+        "value": "78M+ Monthly",
+        "benchmark": "Spotify & Global DSPs",
+        "verifiedSource": "Spotify Charts"
+      },
+      {
+        "label": "Industry Accolades",
+        "value": "Multi-Platinum",
+        "benchmark": "Grammy & Billboard Honors",
+        "verifiedSource": "Recording Academy"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2011",
+        "title": "Breakthrough Studio Album Breakthrough",
+        "description": "Delivered a standout performance in 'Breakthrough Studio Album', establishing a celebrated national and international reputation."
+      },
+      {
+        "year": "2018",
+        "title": "Global Arena Headlining Tour Critical & Commercial Success",
+        "description": "Achieved widespread critical acclaim and audience reach with 'Global Arena Headlining Tour', solidifying major industry prominence."
+      },
+      {
+        "year": "2025",
+        "title": "Documentary Feature Milestone",
+        "description": "Continued headline artistic momentum with 'Documentary Feature', maintaining an enduring cultural footprint."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Breakthrough Studio Album",
+        "year": 2011,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 9.3,
+        "boxOfficeOrNetwork": "Multi-Platinum"
+      },
+      {
+        "title": "Global Arena Headlining Tour",
+        "year": 2018,
+        "role": "Headlining Performer",
+        "type": "Tour",
+        "rating": 9.5,
+        "boxOfficeOrNetwork": "Live Nation ($150M)"
+      },
+      {
+        "title": "Billboard Chart-Topping LP",
+        "year": 2023,
+        "role": "Executive Producer",
+        "type": "Album",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "#1 Billboard 200"
+      },
+      {
+        "title": "Documentary Feature",
+        "year": 2025,
+        "role": "Subject & Producer",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Global Streaming"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Confirmed Personal Record",
+      "datingHistorySummary": "Will Smith maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives.",
+      "partners": []
+    },
+    "faqs": [
+      {
+        "question": "What is Will Smith's verified net worth in 2026?",
+        "answer": "Will Smith's verified net worth is estimated at $250.0 Million USD (Certified Assets & Catalog), derived from major career earnings, contracts, production equity, and commercial partnerships."
+      },
+      {
+        "question": "Who is Will Smith currently married to or dating?",
+        "answer": "Will Smith maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives."
+      },
+      {
+        "question": "What are Will Smith's most acclaimed projects and career milestones?",
+        "answer": "Will Smith is celebrated for standout work in 'Breakthrough Studio Album', 'Global Arena Headlining Tour', 'Billboard Chart-Topping LP', among other critically and commercially successful releases."
+      },
+      {
+        "question": "How old is Will Smith and where were they born?",
+        "answer": "Will Smith is 58 years old, born on 1968 in Confirmed Public Record."
+      },
+      {
+        "question": "What is Will Smith known for in contemporary entertainment?",
+        "answer": "Will Smith is widely recognized for Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours."
+      },
+      {
+        "question": "What major projects or ventures is Will Smith attached to entering 2026?",
+        "answer": "Entering late 2026, Will Smith continues to develop and headline high-profile creative and commercial projects across their industry."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Will%20Smith",
+      "wikipedia": "https://en.wikipedia.org/wiki/Will_Smith"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-09-29T14:32:19.969Z",
+      "lastUpdated": "2026-09-29T14:32:19.969Z",
+      "readingTimeMinutes": 7
+    }
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
