@@ -200,7 +200,7 @@ export default function EditorialStandardsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              While CelebEdge deploys advanced natural language models and data indexing pipelines to assist our research staff in cataloging thousands of film releases, box office tables, and regulatory filings, we maintain an uncompromising &ldquo;human-in-the-loop&rdquo; editorial standard.
+              While CelebEdge deploys advanced natural language models and data indexing systems to assist our research staff in cataloging thousands of film releases, box office tables, and regulatory filings, we maintain an uncompromising &ldquo;human-in-the-loop&rdquo; editorial standard.
             </p>
             <p>
               No biographical profile, critical evaluation, or financial assessment is ever published through unattended automated generation. Every sentence, credit, and dollar figure is reviewed, fact-checked, and approved by qualified human journalists. Large language models serve solely as investigative research assistants—not as authoritative sources of factual truth.

@@ -32,22 +32,24 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     return { title: "Article Not Found | CelebEdge" };
   }
 
-  // Google SERP Title Optimization (Target: 50-60 characters for maximum CTR and zero truncation)
+  // Google SERP Strict Title Optimization (Target: 50-58 characters maximum)
   let metaTitle = post.seoTitle;
-  if (!metaTitle) {
-    if (post.headline && post.headline.length <= 60) {
+  if (!metaTitle || metaTitle.length > 58) {
+    if (post.headline && post.headline.length <= 58) {
       metaTitle = post.headline;
     } else if (post.title.length <= 58) {
       metaTitle = post.title;
     } else {
-      metaTitle = `${post.title.slice(0, 48).trim()}...`;
+      metaTitle = `${post.title.slice(0, 54).trim()}...`;
     }
   }
 
-  // Google Meta Description Optimization (Target: 145-155 characters)
+  // Google SERP Strict Meta Description (Target: 145-155 characters ending with full stop)
   let metaDescription = post.seoDescription || post.excerpt;
-  if (metaDescription.length > 158) {
-    metaDescription = `${metaDescription.slice(0, 155).trim()}...`;
+  if (metaDescription.length > 155) {
+    metaDescription = metaDescription.slice(0, 154);
+    const lastSpace = metaDescription.lastIndexOf(" ");
+    metaDescription = (lastSpace !== -1 ? metaDescription.slice(0, lastSpace) : metaDescription) + ".";
   }
 
   const siteUrl = "https://celebrity-beta.vercel.app";

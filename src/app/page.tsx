@@ -40,7 +40,7 @@ export default function HomePage() {
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 60vw"
-                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
 
@@ -140,7 +140,7 @@ export default function HomePage() {
                       alt={`${story.name} portrait - ${story.quickFacts.primaryRole}`}
                       fill
                       sizes="112px"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                      className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
 
@@ -214,7 +214,7 @@ export default function HomePage() {
                     alt={`${item.name} portrait`}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
 
@@ -314,7 +314,7 @@ export default function HomePage() {
                           alt={`${c.name} avatar`}
                           fill
                           sizes="56px"
-                          className="object-cover object-center"
+                          className="object-cover object-top"
                         />
                       </div>
                       <div className="min-w-0 flex-1">

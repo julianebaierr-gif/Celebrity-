@@ -36,9 +36,91 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celeb-edge.vercel.app";
   const canonicalUrl = `${baseUrl}/celebrity/${celebrity.slug}`;
 
+  // Google SERP Strict Title Optimization (Target: 50-58 characters maximum)
+  let domainKeyword = "Career";
+  if (celebrity.category === "music") domainKeyword = "Music";
+  else if (celebrity.category === "sports") domainKeyword = "Stats";
+  else if (celebrity.category === "creators") domainKeyword = "Brands";
+
+  const titleCandidates = [
+    `${celebrity.name} Net Worth, Age, Bio & ${domainKeyword} | CelebEdge`,
+    `${celebrity.name} Net Worth, Age & ${domainKeyword} | CelebEdge`,
+    `${celebrity.name} Net Worth, Age, Bio & Career | CelebEdge`,
+    `${celebrity.name} Net Worth, Age, Career & Bio | CelebEdge`,
+    `${celebrity.name} Net Worth, Full Bio & Career | CelebEdge`,
+    `${celebrity.name} Net Worth, Career & Biography | CelebEdge`,
+    `${celebrity.name} Net Worth, Age & Career Guide | CelebEdge`,
+    `${celebrity.name} Net Worth, Career & Bio | CelebEdge`,
+    `${celebrity.name} Net Worth, Age & 2026 Bio | CelebEdge`,
+    `${celebrity.name} Net Worth & Verified Bio | CelebEdge`,
+    `${celebrity.name} Net Worth & Complete Bio | CelebEdge`,
+    `${celebrity.name} Net Worth & 2026 Dossier | CelebEdge`,
+    `${celebrity.name} Net Worth & Biography | CelebEdge`,
+    `${celebrity.name} Net Worth, Age & Bio | CelebEdge`,
+    `${celebrity.name} Net Worth & Career | CelebEdge`,
+    `${celebrity.name} Net Worth & Bio | CelebEdge`
+  ];
+
+  let metaTitle = "";
+  for (const c of titleCandidates) {
+    if (c.length >= 50 && c.length <= 58) {
+      metaTitle = c;
+      break;
+    }
+  }
+
+  if (!metaTitle) {
+    const valid = titleCandidates.filter((c) => c.length <= 58);
+    if (valid.length > 0) {
+      let best = valid[0];
+      if (best.length < 50) {
+        let adjusted = best.replace("| CelebEdge", "| Official CelebEdge");
+        if (adjusted.length >= 50 && adjusted.length <= 58) best = adjusted;
+        else {
+          adjusted = best.replace("| CelebEdge", "| CelebEdge Bio");
+          if (adjusted.length >= 50 && adjusted.length <= 58) best = adjusted;
+        }
+      }
+      metaTitle = best;
+    } else {
+      metaTitle = `${celebrity.name.slice(0, 43)} Net Worth & Bio | CelebEdge`;
+    }
+  }
+
+  // Google SERP Strict Meta Description (Target: 145-155 characters ending with a full stop)
+  const roleName = celebrity.quickFacts.primaryRole.split(",")[0].trim();
+  const descTemplates = [
+    `Explore ${celebrity.name}'s verified net worth, age, career milestones, biography, and confirmed public records as an acclaimed ${roleName}. Read the full 2026 dossier.`,
+    `Explore ${celebrity.name}'s verified net worth, age, career milestones, and confirmed public records as an acclaimed ${roleName}. Read our comprehensive 2026 dossier.`,
+    `Explore ${celebrity.name}'s verified net worth, age, career milestones, and confirmed public records as an acclaimed ${roleName}. Read the complete 2026 dossier.`,
+    `Explore ${celebrity.name}'s verified net worth, age, career milestones, and confirmed public records as an acclaimed ${roleName}. Read the full 2026 dossier.`,
+    `Explore ${celebrity.name}'s verified net worth, age, career history, and public records as an acclaimed ${roleName}. Read our comprehensive 2026 dossier.`,
+    `Explore ${celebrity.name}'s verified net worth, age, career history, and public records as an acclaimed ${roleName}. Read the complete 2026 dossier.`,
+    `Explore ${celebrity.name}'s verified net worth, age, career history, and public records as an acclaimed ${roleName}. Read the full 2026 dossier.`,
+    `Explore ${celebrity.name}'s verified net worth, age, career history, and public records as an acclaimed ${roleName}. Full 2026 dossier.`
+  ];
+
+  let metaDescription = "";
+  for (const t of descTemplates) {
+    if (t.length >= 145 && t.length <= 155 && t.endsWith(".")) {
+      metaDescription = t;
+      break;
+    }
+  }
+
+  if (!metaDescription) {
+    let desc = descTemplates[0];
+    if (desc.length > 155) {
+      desc = desc.slice(0, 154);
+      const lastSpace = desc.lastIndexOf(" ");
+      desc = (lastSpace !== -1 ? desc.slice(0, lastSpace) : desc) + ".";
+    }
+    metaDescription = desc;
+  }
+
   return {
-    title: `${celebrity.name}: Net Worth, Age, Filmography & Verified Facts | CelebEdge`,
-    description: celebrity.executiveSummary.slice(0, 160),
+    title: metaTitle,
+    description: metaDescription,
     alternates: {
       canonical: canonicalUrl,
     },
@@ -50,8 +132,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       "max-video-preview": -1,
     },
     openGraph: {
-      title: `${celebrity.name} - Executive Biography & Verified Metrics`,
-      description: celebrity.executiveSummary.slice(0, 160),
+      title: metaTitle,
+      description: metaDescription,
       url: canonicalUrl,
       siteName: "CelebEdge",
       images: [
@@ -59,15 +141,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           url: celebrity.heroImage,
           width: 1200,
           height: 630,
-          alt: `${celebrity.name} high-resolution editorial portrait`,
+          alt: `${celebrity.name} high-resolution portrait`,
         },
       ],
       type: "profile",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${celebrity.name} | Verified Biography & Archives`,
-      description: celebrity.executiveSummary.slice(0, 150),
+      title: metaTitle,
+      description: metaDescription,
       images: [celebrity.heroImage],
     },
   };
@@ -120,7 +202,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                   fill
                   priority
                   sizes="(max-width: 640px) 208px, 224px"
-                  className="object-cover object-center"
+                  className="object-cover object-top"
                 />
               </div>
 
