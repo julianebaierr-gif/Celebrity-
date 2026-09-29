@@ -2153,43 +2153,43 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Winona Ryder attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Winona Ryder (born 1971) is an acclaimed american actress whose career spans decades of celebrated international prominence. Winona Laura Horowitz, known professionally as Winona Ryder, is an American actress. Having come to attention playing \"quirky\" characters in the late 1980s, she achieved success with her more dramatic performances in the 1990s. Ryder's many accolades include a Golden Globe, as well as nominations fo. Entering late 2026, Winona Ryder maintains a confirmed net worth evaluated at $40.0 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "executiveSummary": "Winona Ryder (born October 29, 1971) is a two-time Academy Award-nominated and Golden Globe-winning American actress celebrated as an enduring icon of American cinema. Rising to prominence with breakthrough performances in Tim Burton's 'Beetlejuice' (1988) and cult classic 'Heathers' (1988), Ryder became the defining screen presence of Generation X with memorable turns in 'Edward Scissorhands' (1990), 'Bram Stoker's Dracula' (1992), Martin Scorsese's 'The Age of Innocence' (1993), and 'Little Women' (1994). In 2016, she launched a monumental career renaissance starring as Joyce Byers in Netflix's global phenomenon 'Stranger Things', earning Screen Actors Guild and Golden Globe nominations. In late 2024 through 2026, Ryder reunited with Tim Burton in Warner Bros.' global blockbuster 'Beetlejuice Beetlejuice' ($451 Million worldwide) and reprises her role for the final season of 'Stranger Things', maintaining a certified net worth of $18.0 Million USD.",
     "quickFacts": {
       "fullName": "Winona Laura Horowitz",
-      "birthDate": "1971",
-      "birthPlace": "United States",
-      "age": 55,
-      "height": "5 ft 10 in (178 cm)",
-      "netWorth": "$40.0 Million USD (Certified Box Office Equity)",
-      "primaryRole": "American actress",
-      "knownFor": "Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises",
-      "activeYears": "2000–Present",
-      "education": "Collegiate & Professional Creative Training"
+      "birthDate": "October 29, 1971",
+      "birthPlace": "Winona County, Minnesota, U.S.",
+      "age": 54,
+      "height": "5 ft 3 in (161 cm)",
+      "netWorth": "$18.0 Million USD (Film & Television Royalties)",
+      "primaryRole": "American Actress & Producer",
+      "knownFor": "Stranger Things, Beetlejuice, Little Women, The Age of Innocence & Edward Scissorhands",
+      "activeYears": "1986–Present",
+      "education": "American Conservatory Theater"
     },
     "metrics": [
       {
         "label": "Global Theatrical Box Office",
-        "value": "$3.2 Billion USD",
+        "value": "$1.8 Billion USD",
         "benchmark": "Worldwide Lifetime Gross",
         "verifiedSource": "Box Office Mojo"
       },
       {
         "label": "Certified Net Worth",
-        "value": "$40.0 Million",
-        "benchmark": "Feature Salaries & Production Points",
+        "value": "$18.0 Million",
+        "benchmark": "Feature Royalties & Series Contracts",
         "verifiedSource": "Forbes & Industry Filings"
       },
       {
         "label": "Episodic Benchmark",
-        "value": "$350,000 / Episode",
-        "benchmark": "Prestige Television Lead",
+        "value": "$350,000–$400,000 / Ep",
+        "benchmark": "Stranger Things Headline Lead",
         "verifiedSource": "Variety Salary Reports"
       },
       {
-        "label": "Rotten Tomatoes Career Average",
-        "value": "85% Certified Fresh",
-        "benchmark": "Critical Acclaim Index",
-        "verifiedSource": "Rotten Tomatoes"
+        "label": "Academy Award Nominations",
+        "value": "2 Nominations",
+        "benchmark": "Best Supporting Actress & Best Actress",
+        "verifiedSource": "Academy of Motion Picture Arts and Sciences"
       }
     ],
     "careerMilestones": [
@@ -2302,31 +2302,31 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "faqs": [
       {
         "question": "What is Winona Ryder's verified net worth in 2026?",
-        "answer": "Winona Ryder's confirmed net worth is evaluated at $40.0 Million USD (Certified Box Office Equity), anchored by four decades of entertainment royalties, commercial contracts, backend points, and private venture assets."
+        "answer": "Winona Ryder's verified net worth is estimated at $18.0 Million USD. Her fortune is built on four decades of feature film salaries, backend profit points, and lucrative episodic salaries for Netflix's 'Stranger Things', where she earned an estimated $350,000 to $400,000 per episode for Season 4 and a reported $9.5 Million upfront package for the fifth and final season."
       },
       {
-        "question": "Who is Winona Ryder currently married to or dating?",
-        "answer": "Winona Ryder has been in a committed relationship with sustainable fashion designer Scott Mackinlay Hahn since 2011."
+        "question": "Who is Winona Ryder currently dating or married to?",
+        "answer": "Winona Ryder is not married. She has been in a committed long-term relationship with sustainable fashion designer Scott Mackinlay Hahn, co-founder of Loomstate, since 2011."
       },
       {
-        "question": "What are Winona Ryder's most acclaimed career milestones and releases?",
-        "answer": "Winona Ryder is recognized for celebrated work across Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises, delivering landmark contributions to popular culture."
+        "question": "What are Winona Ryder's most famous and award-winning movies?",
+        "answer": "Winona Ryder's most celebrated films include 'Beetlejuice' (1988), 'Heathers' (1988), 'Edward Scissorhands' (1990), 'Bram Stoker's Dracula' (1992), 'The Age of Innocence' (1993, Oscar nomination and Golden Globe win), 'Little Women' (1994, Oscar nomination for Best Actress), 'Girl, Interrupted' (1999), and 'Beetlejuice Beetlejuice' (2024)."
       },
       {
-        "question": "How old is Winona Ryder and what is their background?",
-        "answer": "Winona Ryder is 55 years old, born on 1971 in United States."
+        "question": "How old is Winona Ryder and where was she born?",
+        "answer": "Winona Ryder is 54 years old. She was born on October 29, 1971, in Winona County, Minnesota, and was named Winona Laura Horowitz after the nearby city of Winona."
       },
       {
-        "question": "What major projects, releases, or ventures is Winona Ryder attached to in 2026?",
-        "answer": "Winona Ryder is recognized for celebrated work across Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises, delivering landmark contributions to popular culture."
+        "question": "What major projects is Winona Ryder working on in 2026?",
+        "answer": "In 2026, Winona Ryder headlines the fifth and concluding season of Netflix's flagship series 'Stranger Things', reprising her role as Joyce Byers. Following the theatrical triumph of Tim Burton's 'Beetlejuice Beetlejuice', she is also developing select independent film projects."
       },
       {
-        "question": "Has Winona Ryder received major industry awards or honors?",
-        "answer": "Winona Ryder has received major industry accolades throughout their multi-decade career, earning critical honors from peers and academy institutions alike."
+        "question": "Has Winona Ryder won an Academy Award or Golden Globe?",
+        "answer": "Winona Ryder won the Golden Globe for Best Supporting Actress for Martin Scorsese's 'The Age of Innocence' (1993) and earned two consecutive Academy Award nominations: Best Supporting Actress for 'The Age of Innocence' (1993) and Best Actress for 'Little Women' (1994). She also received a Star on the Hollywood Walk of Fame in 2000."
       },
       {
-        "question": "Why is Winona Ryder recognized as a defining figure in contemporary entertainment?",
-        "answer": "Winona Ryder has established an enduring cultural footprint through consistent artistic dedication, exceptional versatility, and sustained global audience engagement."
+        "question": "What is Winona Ryder's role in Stranger Things?",
+        "answer": "Winona Ryder stars as Joyce Byers, the determined and fiercely protective mother of Will and Jonathan Byers, in Netflix's hit sci-fi horror drama 'Stranger Things'. Her emotional and grounded performance has earned her critical acclaim and nominations from the Golden Globes and Screen Actors Guild."
       }
     ],
     "sameAs": {
@@ -2366,18 +2366,18 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Drake attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Drake (born 1986) is an acclaimed canadian rapper and singer whose career spans decades of celebrated international prominence. Aubrey Drake Graham is a Canadian rapper and singer. He is credited with popularizing R&B sensibilities in hip-hop music through rap-singing. Drake first gained recognition as Jimmy Brooks in the CTV teen drama series Degrassi: The Next Generation (2001–2008) and began his music career by independen. Entering late 2026, Drake maintains a confirmed net worth evaluated at $250.0 Million USD (Certified Assets & Catalog), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "executiveSummary": "Drake (born Aubrey Drake Graham on October 24, 1986) is a five-time Grammy Award-winning Canadian rapper, singer, songwriter, and entertainment mogul universally recognized as the most commercially dominant musical artist of the 21st century. After gaining initial recognition starring as Jimmy Brooks on the CTV teen drama 'Degrassi: The Next Generation' (2001–2008), Drake transformed contemporary popular music by pioneering the fusion of melodic R&B sensibilities with sharp hip-hop lyricism. Following his landmark 2009 mixtape 'So Far Gone', his historic studio discography—including 'Take Care' (2011), 'Nothing Was the Same' (2013), 'Views' (2016), and 'Scorpion' (2018)—has generated over 170 million certified units worldwide. Drake holds the all-time Billboard Hot 100 record for the most charted songs and top 10 hits in history. Entering late 2026, his verified net worth is evaluated at $250.0 Million USD, driven by his universal music catalog valuation, record-shattering global stadium tours, and his OVO business empire.",
     "quickFacts": {
       "fullName": "Aubrey Drake Graham",
-      "birthDate": "1986",
-      "birthPlace": "United States",
-      "age": 40,
-      "height": "5 ft 10 in (178 cm)",
+      "birthDate": "October 24, 1986",
+      "birthPlace": "Toronto, Ontario, Canada",
+      "age": 39,
+      "height": "6 ft 0 in (183 cm)",
       "netWorth": "$250.0 Million USD (Certified Assets & Catalog)",
-      "primaryRole": "Canadian rapper and singer",
-      "knownFor": "Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours",
-      "activeYears": "2000–Present",
-      "education": "Collegiate & Professional Creative Training"
+      "primaryRole": "Canadian Rapper, Singer & Entrepreneur",
+      "knownFor": "Take Care, Views, Scorpion, Certified Lover Boy, Billboard Records & OVO",
+      "activeYears": "2001–Present",
+      "education": "Vaughan Road Academy, Forest Hill Collegiate Institute"
     },
     "metrics": [
       {
@@ -2400,7 +2400,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "label": "Industry Accolades",
-        "value": "Multi-Platinum",
+        "value": "5 Grammys & 34 BBMAs",
         "benchmark": "Grammy & Billboard Honors",
         "verifiedSource": "Recording Academy"
       }
@@ -2507,31 +2507,31 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "faqs": [
       {
         "question": "What is Drake's verified net worth in 2026?",
-        "answer": "Drake's confirmed net worth is evaluated at $250.0 Million USD (Certified Assets & Catalog), anchored by four decades of entertainment royalties, commercial contracts, backend points, and private venture assets."
+        "answer": "Drake's verified net worth is estimated at $250.0 Million USD. His fortune is generated through his extensive music publishing and master recording rights, multi-million dollar stadium tours like 'It's All a Blur', his OVO lifestyle brand, his lucrative partnership with Nike (NOCTA), and strategic equity investments."
       },
       {
-        "question": "Who is Drake currently married to or dating?",
-        "answer": "Drake maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives."
+        "question": "Where was Drake born and what is his real name?",
+        "answer": "Drake was born Aubrey Drake Graham on October 24, 1986, in Toronto, Ontario, Canada. He grew up in Toronto's Forest Hill neighborhood and frequently celebrates his Canadian hometown, which he famously popularized as 'The 6'."
       },
       {
-        "question": "What are Drake's most acclaimed career milestones and releases?",
-        "answer": "Drake is recognized for celebrated work across Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours, delivering landmark contributions to popular culture."
+        "question": "What are Drake's biggest career achievements and Billboard records?",
+        "answer": "Drake holds the record for the most charted songs in Billboard Hot 100 history (over 300 entries), the most top 10 singles (over 70), and the most #1 songs on the Hot R&B/Hip-Hop Songs chart. He has won 5 Grammy Awards, 34 Billboard Music Awards, and his 2016 single 'One Dance' was the first track in history to reach 1 billion Spotify streams."
       },
       {
-        "question": "How old is Drake and what is their background?",
-        "answer": "Drake is 40 years old, born on 1986 in United States."
+        "question": "How old is Drake and how tall is he?",
+        "answer": "Drake is 39 years old (born October 24, 1986) and stands 6 feet 0 inches (183 cm) tall."
       },
       {
-        "question": "What major projects, releases, or ventures is Drake attached to in 2026?",
-        "answer": "Drake is recognized for celebrated work across Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours, delivering landmark contributions to popular culture."
+        "question": "Does Drake have children and who is his son?",
+        "answer": "Drake has one son, Adonis Graham, born in October 2017 with French artist Sophie Brussaux. Drake frequently shares moments with Adonis, who even designed the cover art for Drake's 2023 studio album 'For All the Dogs'."
       },
       {
-        "question": "Has Drake received major industry awards or honors?",
-        "answer": "Drake has received major industry accolades throughout their multi-decade career, earning critical honors from peers and academy institutions alike."
+        "question": "What is Drake's business empire outside of music?",
+        "answer": "Beyond music, Drake co-founded the October's Very Own (OVO) lifestyle brand and record label, created the NOCTA sub-label with Nike, founded Virginia Black Whiskey, and holds equity stakes in digital sports platforms and media production companies."
       },
       {
-        "question": "Why is Drake recognized as a defining figure in contemporary entertainment?",
-        "answer": "Drake has established an enduring cultural footprint through consistent artistic dedication, exceptional versatility, and sustained global audience engagement."
+        "question": "What major projects and releases is Drake focused on in 2026?",
+        "answer": "Entering 2026, Drake continues to headline major international festival performances, develop new studio recordings, and expand OVO Sound and NOCTA global apparel collections."
       }
     ],
     "sameAs": {
@@ -2571,18 +2571,18 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Kylie Jenner attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Kylie Jenner (born 1997) is an acclaimed american media personality and socialite whose career spans decades of celebrated international prominence. Kylie Kristen Jenner is an American media personality, socialite, and businesswoman. She starred in the E! reality television series Keeping Up with the Kardashians from 2007 to 2021 and the Hulu reality television series The Kardashians starting in 2022. She is the founder and owner of the cosmetic. Entering late 2026, Kylie Jenner maintains a confirmed net worth evaluated at $700.0 Million USD (Enterprise Valuation), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "executiveSummary": "Kylie Jenner (born August 10, 1997) is an American media personality, businesswoman, and beauty industry mogul who revolutionized direct-to-consumer commerce. Rising to international fame as a child on E!'s reality series 'Keeping Up with the Kardashians' (2007–2021) and Hulu's 'The Kardashians' (2022–present), Jenner leveraged her massive social media following to launch Kylie Cosmetics in 2015 with her viral Kylie Lip Kits. In 2020, she executed a landmark $600 Million deal selling a 51% majority stake in Kylie Cosmetics to beauty conglomerate Coty Inc., cementing her position as one of the world's youngest and wealthiest self-made corporate founders. In recent years, she expanded her entrepreneurial footprint with skincare line Kylie Skin, beverage venture Sprinter, and high-fashion ready-to-wear label Khy. Entering late 2026, Kylie Jenner maintains a confirmed net worth evaluated at $700.0 Million USD.",
     "quickFacts": {
       "fullName": "Kylie Kristen Jenner",
-      "birthDate": "1997",
-      "birthPlace": "United States",
-      "age": 29,
-      "height": "5 ft 10 in (178 cm)",
+      "birthDate": "August 10, 1997",
+      "birthPlace": "Los Angeles, California, U.S.",
+      "age": 28,
+      "height": "5 ft 6 in (168 cm)",
       "netWorth": "$700.0 Million USD (Enterprise Valuation)",
-      "primaryRole": "American media personality and socialite",
-      "knownFor": "Global Brand Launches, High-Engagement Media Franchises & Enterprise Equity",
-      "activeYears": "2000–Present",
-      "education": "Collegiate & Professional Creative Training"
+      "primaryRole": "American Media Personality, Founder & Beauty Mogul",
+      "knownFor": "Kylie Cosmetics, Khy, Sprinter, The Kardashians & Kylie Skin",
+      "activeYears": "2007–Present",
+      "education": "Laurel Springs School"
     },
     "metrics": [
       {
@@ -2699,31 +2699,31 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "faqs": [
       {
         "question": "What is Kylie Jenner's verified net worth in 2026?",
-        "answer": "Kylie Jenner's confirmed net worth is evaluated at $700.0 Million USD (Enterprise Valuation), anchored by four decades of entertainment royalties, commercial contracts, backend points, and private venture assets."
+        "answer": "Kylie Jenner's verified net worth is estimated at $700.0 Million USD according to Forbes and financial disclosures. The majority of her wealth stems from her remaining 49% stake in Kylie Cosmetics, proceeds from her $600 Million majority sale to Coty Inc. in 2020, her fashion brand Khy, ready-to-drink beverage brand Sprinter, and lucrative compensation from Hulu's 'The Kardashians'."
       },
       {
-        "question": "Who is Kylie Jenner currently married to or dating?",
-        "answer": "Kylie Jenner maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives."
+        "question": "Who is Kylie Jenner currently dating?",
+        "answer": "Kylie Jenner has been in a high-profile relationship with Oscar-nominated actor Timothée Chalamet since early 2023, with the couple making joint public appearances at prestigious industry events including the Golden Globe Awards and Paris Fashion Week."
       },
       {
-        "question": "What are Kylie Jenner's most acclaimed career milestones and releases?",
-        "answer": "Kylie Jenner is recognized for celebrated work across Global Brand Launches, High-Engagement Media Franchises & Enterprise Equity, delivering landmark contributions to popular culture."
+        "question": "How many children does Kylie Jenner have?",
+        "answer": "Kylie Jenner has two children with her former partner, rapper Travis Scott: daughter Stormi Webster (born February 1, 2018) and son Aire Webster (born February 2, 2022)."
       },
       {
-        "question": "How old is Kylie Jenner and what is their background?",
-        "answer": "Kylie Jenner is 29 years old, born on 1997 in United States."
+        "question": "How old is Kylie Jenner and what is her height?",
+        "answer": "Kylie Jenner is 28 years old (born August 10, 1997, in Los Angeles, California) and stands 5 feet 6 inches (168 cm) tall."
       },
       {
-        "question": "What major projects, releases, or ventures is Kylie Jenner attached to in 2026?",
-        "answer": "Kylie Jenner is recognized for celebrated work across Global Brand Launches, High-Engagement Media Franchises & Enterprise Equity, delivering landmark contributions to popular culture."
+        "question": "What businesses and brands does Kylie Jenner own?",
+        "answer": "Kylie Jenner founded Kylie Cosmetics in 2015, which revolutionized direct-to-consumer cosmetics. Her portfolio also includes Kylie Skin, Kylie Baby, premium vodka soda brand Sprinter launched in 2024, and designer apparel line Khy."
       },
       {
-        "question": "Has Kylie Jenner received major industry awards or honors?",
-        "answer": "Kylie Jenner has received major industry accolades throughout their multi-decade career, earning critical honors from peers and academy institutions alike."
+        "question": "What was the Coty deal with Kylie Cosmetics?",
+        "answer": "In January 2020, beauty multinational Coty Inc. acquired a 51% stake in Kylie Cosmetics for $600 Million in cash, valuing Jenner's company at approximately $1.2 Billion while leaving Jenner with a 49% ownership stake and creative control."
       },
       {
-        "question": "Why is Kylie Jenner recognized as a defining figure in contemporary entertainment?",
-        "answer": "Kylie Jenner has established an enduring cultural footprint through consistent artistic dedication, exceptional versatility, and sustained global audience engagement."
+        "question": "What is Kylie Jenner's primary television show in 2026?",
+        "answer": "Kylie Jenner stars alongside her family in Hulu and Disney+'s hit unscripted series 'The Kardashians', where she also serves as an executive producer detailing her business launches and international fashion ventures."
       }
     ],
     "sameAs": {
