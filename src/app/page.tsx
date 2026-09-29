@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
-import { CELEBRITIES } from "@/data/celebrities";
+import { getAllCelebrities } from "@/data/celebrity-service";
 import {
   Clock,
   Calendar,
@@ -20,10 +20,13 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const leadStory = CELEBRITIES.find((c) => c.slug === "tim-curry") || CELEBRITIES[0];
-  const secondaryStories = CELEBRITIES.filter((c) => c.slug !== leadStory.slug).slice(0, 5).reverse();
-  const latestStories = CELEBRITIES.slice(0, 9);
-  const netWorthStories = CELEBRITIES.filter((c) => c.category === "net-worth" || c.quickFacts.netWorth.includes("Million") || c.quickFacts.netWorth.includes("Billion")).slice(0, 4).reverse();
+  const allCelebrities = getAllCelebrities();
+  const leadStory = allCelebrities[0];
+  const secondaryStories = allCelebrities.slice(1, 6);
+  const latestStories = allCelebrities.slice(0, 9);
+  const netWorthStories = allCelebrities
+    .filter((c) => c.quickFacts?.netWorth?.includes("Million") || c.quickFacts?.netWorth?.includes("Billion"))
+    .slice(0, 4);
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
@@ -72,7 +75,9 @@ export default function HomePage() {
 
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 group-hover:text-amber-700 transition tracking-tight leading-tight">
                   <Link href={`/celebrity/${leadStory.slug}`}>
-                    {leadStory.name}: {leadStory.headline}
+                    {leadStory.headline.startsWith(leadStory.name)
+                      ? leadStory.headline
+                      : `${leadStory.name}: ${leadStory.headline}`}
                   </Link>
                 </h1>
 
@@ -207,7 +212,7 @@ export default function HomePage() {
             </h2>
           </div>
           <Link href="/celebrities" className="text-xs font-bold text-amber-700 hover:underline">
-            View All ({CELEBRITIES.length})
+            View All ({allCelebrities.length})
           </Link>
         </div>
 

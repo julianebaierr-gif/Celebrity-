@@ -44,7 +44,12 @@ function mergeProfileWithOverrides(
 
 export function getAllCelebrities(): CelebrityProfile[] {
   const overrides = getCelebrityOverrides();
-  return CELEBRITIES.map((c) => mergeProfileWithOverrides(c, overrides[c.slug]));
+  const list = CELEBRITIES.map((c) => mergeProfileWithOverrides(c, overrides[c.slug]));
+  return list.sort((a, b) => {
+    const timeA = new Date(a.editorialMetadata?.publishedDate || 0).getTime();
+    const timeB = new Date(b.editorialMetadata?.publishedDate || 0).getTime();
+    return timeB - timeA;
+  });
 }
 
 export function getFeaturedCelebrity(): CelebrityProfile {
@@ -62,7 +67,7 @@ export function getCompleteOrDynamicProfile(slug: string): CelebrityProfile | un
 export function searchCelebrities(
   query: string = ""
 ): { items: CelebrityProfile[]; total: number } {
-  let filtered = CELEBRITIES;
+  let filtered = getAllCelebrities();
 
   const q = query.trim().toLowerCase();
   if (q) {

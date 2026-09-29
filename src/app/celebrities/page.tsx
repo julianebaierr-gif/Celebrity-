@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
-import { CELEBRITIES } from "@/data/celebrities";
+import { getAllCelebrities } from "@/data/celebrity-service";
 import { Search, ArrowRight, ChevronRight, DollarSign } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
@@ -22,9 +22,10 @@ interface CelebritiesPageProps {
 export default async function AllCelebritiesPage({ searchParams }: CelebritiesPageProps) {
   const { q = "" } = await searchParams;
 
+  const allCelebrities = getAllCelebrities();
   const query = q.trim().toLowerCase();
   const celebrities = query
-    ? CELEBRITIES.filter(
+    ? allCelebrities.filter(
         (c) =>
           c.name.toLowerCase().includes(query) ||
           c.headline.toLowerCase().includes(query) ||
@@ -32,7 +33,7 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
           c.quickFacts.knownFor.toLowerCase().includes(query) ||
           c.quickFacts.primaryRole.toLowerCase().includes(query)
       )
-    : CELEBRITIES;
+    : allCelebrities;
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
