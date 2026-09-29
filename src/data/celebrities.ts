@@ -2770,10 +2770,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "fullName": "Willard Carroll Smith II",
       "birthDate": "September 25, 1968",
       "birthPlace": "Philadelphia, Pennsylvania, U.S.",
-      "age": 57,
+      "age": 58,
       "height": "6 ft 2 in (188 cm)",
-      "netWorth": "$350.0 Million USD (Forbes / Bloomberg Audited Valuation)",
-      "primaryRole": "American Actor, Producer & Hip-Hop Pioneer",
+      "netWorth": "$350.0 Million USD (Forbes & Bloomberg)",
+      "primaryRole": "Actor, Producer, Musician",
       "knownFor": "The Fresh Prince of Bel-Air, Men in Black, Bad Boys, I Am Legend, King Richard",
       "activeYears": "1985–Present",
       "education": "Overbrook High School (Philadelphia)"
@@ -2927,7 +2927,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "How old is Will Smith and where was he born?",
-        "answer": "Will Smith is 57 years old. He was born Willard Carroll Smith II on September 25, 1968, in Philadelphia, Pennsylvania, and grew up in West Philadelphia's Wynnefield neighborhood."
+        "answer": "Will Smith is 58 years old. He was born Willard Carroll Smith II on September 25, 1968, in Philadelphia, Pennsylvania, and grew up in West Philadelphia's Wynnefield neighborhood."
       },
       {
         "question": "How much has Will Smith's movies grossed worldwide?",

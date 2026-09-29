@@ -317,7 +317,18 @@ export default function HomePage() {
             {netWorthStories.map((c) => {
               const parts = c.quickFacts.netWorth.split("(");
               const amount = parts[0].trim();
-              const source = parts[1] ? parts[1].replace(")", "").trim() : "Audited Financial Record";
+              const rawSource = parts[1] ? parts[1].replace(")", "").trim() : "Audited Record";
+              const cleanSource = rawSource
+                .replace(/\baudited valuation\b/gi, "")
+                .replace(/\baudited estimates\b/gi, "")
+                .replace(/\bvaluation\b/gi, "")
+                .replace(/\bestimates\b/gi, "")
+                .trim() || rawSource;
+
+              const ms = c.careerMilestones[0];
+              const msTitle = ms?.title || "";
+              const msYear = ms?.year || "";
+              const displayMilestone = msTitle.includes(msYear) ? msTitle : `${msTitle} (${msYear})`;
 
               return (
                 <Link
@@ -342,7 +353,7 @@ export default function HomePage() {
                           {c.name}
                         </h3>
                         <div className="flex items-center gap-1.5 text-[11px] text-slate-500 mt-0.5">
-                          <span className="truncate">{c.quickFacts.primaryRole.split(",")[0]}</span>
+                          <span className="truncate">{c.quickFacts.primaryRole.split(",")[0].replace(/^American\s+/i, "")}</span>
                           <span>•</span>
                           <span className="shrink-0">{getAgeBadgeText(c.quickFacts, true)}</span>
                         </div>
@@ -351,10 +362,10 @@ export default function HomePage() {
 
                     {/* Net Worth Box */}
                     <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200/90 mb-3.5">
-                      <div className="flex items-center justify-between text-[10px] uppercase font-bold text-slate-400">
-                        <span>Estimated Wealth</span>
-                        <span className="text-emerald-700 font-semibold lowercase first-letter:uppercase">
-                          {source}
+                      <div className="flex items-center justify-between text-[10px] uppercase font-bold text-slate-400 gap-2">
+                        <span className="shrink-0">Estimated Wealth</span>
+                        <span className="text-emerald-700 font-bold truncate text-right">
+                          {cleanSource}
                         </span>
                       </div>
                       <span className="text-xl font-black text-emerald-700 block mt-1 tracking-tight">
@@ -369,7 +380,7 @@ export default function HomePage() {
                           Career Milestone
                         </span>
                         <span className="font-bold text-slate-900 text-[11px] block mt-0.5 leading-snug break-words min-h-[34px]">
-                          {c.careerMilestones[0]?.title} ({c.careerMilestones[0]?.year})
+                          {displayMilestone}
                         </span>
                       </div>
 
@@ -393,18 +404,11 @@ export default function HomePage() {
             })}
           </div>
 
-          {/* Section Context & Methodology SEO Note */}
-          <div className="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-slate-500">
-            <p className="leading-relaxed max-w-2xl">
+          {/* Section Context Note */}
+          <div className="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <p className="leading-relaxed">
               Estimates are based on reported film salaries, box office earnings, and published financial records.
             </p>
-            <Link
-              href="/blog/how-celebrity-net-worth-is-calculated"
-              className="font-bold text-emerald-800 hover:underline shrink-0 inline-flex items-center gap-1"
-            >
-              <span>Valuation Methodology</span>
-              <ArrowRight className="h-3.5 w-3.5" />
-            </Link>
           </div>
         </div>
       </section>

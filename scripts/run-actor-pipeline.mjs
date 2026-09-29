@@ -652,17 +652,19 @@ async function resolveCelebrityImages(entityName, slug, directImageUrl = null) {
       if (imgRes.ok) {
         const buffer = Buffer.from(await imgRes.arrayBuffer());
 
+        // Hero portrait: 800x1000 with north (top) alignment so face is always visible
         await sharp(buffer)
-          .resize(1200, 800, { fit: "cover", position: "attention" })
-          .webp({ quality: 85 })
+          .resize(800, 1000, { fit: "cover", position: "north" })
+          .webp({ quality: 90 })
           .toFile(heroDiskPath);
 
+        // Content editorial photo: 100% uncropped photograph (fit: inside)
         await sharp(buffer)
-          .resize(800, 600, { fit: "cover", position: "attention" })
-          .webp({ quality: 85 })
+          .resize(1200, 1600, { fit: "inside", withoutEnlargement: true })
+          .webp({ quality: 90 })
           .toFile(contentDiskPath);
 
-        console.log(`[ImagePipeline] ✓ Saved WebP images to ${heroPath} and ${contentPath}`);
+        console.log(`[ImagePipeline] ✓ Saved WebP images with face preservation to ${heroPath} and ${contentPath}`);
         return { heroPath, contentPath, caption, license };
       }
     } catch (err) {
@@ -672,11 +674,11 @@ async function resolveCelebrityImages(entityName, slug, directImageUrl = null) {
 
   // High-res solid WebP fallback
   await sharp({
-    create: { width: 1200, height: 800, channels: 4, background: { r: 30, g: 30, b: 36, alpha: 1 } }
+    create: { width: 800, height: 1000, channels: 4, background: { r: 30, g: 30, b: 36, alpha: 1 } }
   }).webp().toFile(heroDiskPath);
 
   await sharp({
-    create: { width: 800, height: 600, channels: 4, background: { r: 30, g: 30, b: 36, alpha: 1 } }
+    create: { width: 1200, height: 900, channels: 4, background: { r: 30, g: 30, b: 36, alpha: 1 } }
   }).webp().toFile(contentDiskPath);
 
   return { heroPath, contentPath, caption, license };
