@@ -2,6 +2,7 @@ import { generateWithGeminiFallback } from "./gemini";
 import { resolveAndSaveEntityImage } from "./verified-image-pipeline";
 import { sanitizeAiVocabulary } from "./anti-ai-vocabulary";
 import { isKeywordOrEntityPublished, registerPublishedProfile } from "./anti-cannibalization";
+import { generateGoogleSearchFaqs } from "./google-faq-engine";
 import { CelebrityProfile } from "@/data/celebrities";
 import fs from "node:fs";
 import path from "node:path";
@@ -459,6 +460,18 @@ Return ONLY a valid JSON object matching the TypeScript CelebrityProfile interfa
         partner.image = partnerImgRes.localPath;
       }
     }
+  }
+
+  // System 5: Replace generic FAQs with 5-8 live Google Harvested FAQs
+  try {
+    console.log(`[GoogleFAQEngine] Harvesting Google search questions for "${profile.name}"...`);
+    const googleFaqs = await generateGoogleSearchFaqs(profile);
+    if (googleFaqs && googleFaqs.length >= 5) {
+      profile.faqs = googleFaqs;
+      console.log(`[GoogleFAQEngine] ✓ Successfully injected ${googleFaqs.length} Google Search FAQs into profile.`);
+    }
+  } catch (faqErr) {
+    console.warn(`[GoogleFAQEngine] Could not harvest live FAQs, keeping initial profile FAQs:`, faqErr);
   }
 
   return profile;

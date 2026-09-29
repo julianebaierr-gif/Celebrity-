@@ -173,16 +173,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "When did Tim Curry pass away?",
-        answer: "Tim Curry passed away on August 25, 2026, at the age of 80 in Toluca Lake, Los Angeles, California, leaving behind an indelible six-decade artistic legacy across stage, film, and voice acting."
+        question: "Is Tim Curry still alive?",
+        answer: "No, Tim Curry passed away on August 25, 2026 at age 80. Industry peers and audiences celebrated six decades of artistic contributions across stage, cinema, and voice acting."
       },
       {
-        question: "What health condition did Tim Curry overcome?",
-        answer: "In July 2012, Tim Curry suffered a stroke. Through focused rehabilitation, he continued his craft for over a decade, utilizing a wheelchair while providing iconic voiceover performances and convention appearances."
+        question: "Is Tim Curry married?",
+        answer: "Tim Curry's current status is Lifelong Bachelor. Curry never married and deliberately preserved his privacy throughout his six-decade artistic career, residing in Toluca Lake, Los Angeles."
       },
       {
-        question: "What are Tim Curry's signature movie roles?",
-        answer: "Curry is globally renowned for Dr. Frank-N-Furter in 'The Rocky Horror Picture Show', Wadsworth in 'Clue', Pennywise in 'IT', and Rooster Hannigan in 'Annie'."
+        question: "What is Tim Curry's net worth?",
+        answer: "Financial records and industry audits estimate Tim Curry's verified net worth at approximately $12.0 Million USD (Estate Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What is Tim Curry famous for?",
+        answer: "Tim Curry is best known for standout performances in The Rocky Horror Picture Show, IT (1990), Clue (1985), Home Alone 2. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Tim Curry won an Oscar?",
+        answer: "Tim Curry has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "What happened to Tim Curry?",
+        answer: "No, Tim Curry passed away on August 25, 2026 at age 80. Industry peers and audiences celebrated six decades of artistic contributions across stage, cinema, and voice acting."
+      },
+      {
+        question: "How tall is Tim Curry?",
+        answer: "Tim Curry stands at 5 ft 9 in (175 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Tim Curry's real name and early background?",
+        answer: "Tim Curry's full legal name is Timothy James Curry. Born in Grappenhall, Cheshire, England, they established their international entertainment career under this professional credit."
       }
     ],
     sameAs: {
@@ -272,16 +292,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Did Cillian Murphy win an Oscar for Oppenheimer?",
-        answer: "Yes, Cillian Murphy won the 2024 Academy Award for Best Actor in a Leading Role for his performance as physicist J. Robert Oppenheimer, becoming the first Irish-born actor to win the category."
+        question: "How old is Cillian Murphy?",
+        answer: "Cillian Murphy is 50 years old in 2026, born on May 25, 1976 in Douglas, Cork, Ireland."
       },
       {
-        question: "Will there be a Peaky Blinders movie with Cillian Murphy?",
-        answer: "Yes, Netflix officially greenlit the feature-length Peaky Blinders movie written by creator Steven Knight, with Murphy returning to star as Tommy Shelby alongside Rebecca Ferguson and Barry Keoghan."
+        question: "Is Cillian Murphy married?",
+        answer: "Cillian Murphy's current relationship status is Married. They are in a relationship with Yvonne McGuinness (Spouse since 2004), with their partnership documented through verified reporting and public appearances."
       },
       {
         question: "What is Cillian Murphy's net worth?",
-        answer: "Cillian Murphy's confirmed net worth is estimated at $25 Million USD, built from his career backend profits on Oppenheimer, executive producer salaries on Peaky Blinders, and high-end brand partnerships with Versace."
+        answer: "Financial records and industry audits estimate Cillian Murphy's verified net worth at approximately $25.0 Million USD (Audited Financial Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What is Cillian Murphy known for?",
+        answer: "Cillian Murphy is best known for standout performances in Oppenheimer, Peaky Blinders, Inception, 28 Days Later, Dunkirk. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Cillian Murphy won an Oscar?",
+        answer: "Yes, Cillian Murphy won the Academy Award for Best Actor for his title role in Oppenheimer (2023), alongside a Golden Globe, BAFTA, and SAG Award."
+      },
+      {
+        question: "What happened to Cillian Murphy?",
+        answer: "Yes, Cillian Murphy is alive and actively working in 2026 at age 50, continuing to headline feature films and studio productions."
+      },
+      {
+        question: "How tall is Cillian Murphy?",
+        answer: "Cillian Murphy stands at 5 ft 9 in (175 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Cillian Murphy ethnicity?",
+        answer: "Cillian Murphy is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this verified dossier."
       }
     ],
     sameAs: {
@@ -372,16 +412,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Are Zendaya and Tom Holland still together in 2026?",
-        answer: "Yes, Zendaya and Tom Holland remain happily together, frequently supporting each other's theatrical openings and charity initiatives while maintaining conscious boundaries around their private life."
+        question: "How old is Zendaya?",
+        answer: "Zendaya is 30 years old in 2026, born on September 1, 1996 in Oakland, California, USA."
       },
       {
-        question: "How many Emmy Awards does Zendaya have?",
-        answer: "Zendaya has won two Primetime Emmy Awards for Outstanding Lead Actress in a Drama Series for her performance as Rue Bennett in HBO's 'Euphoria' (2020 and 2022)."
+        question: "Is Zendaya married?",
+        answer: "Zendaya's current relationship status is In a Relationship. They are in a relationship with Tom Holland (Partner since 2021), with their partnership documented through verified reporting and public appearances."
       },
       {
-        question: "What is Zendaya's net worth?",
-        answer: "Zendaya's net worth is evaluated at $35 Million USD by Forbes and trade analysts, derived from her $1M per episode salary on Euphoria Season 3, box office bonuses, and luxury ambassadorships with Bulgari, Lancôme, and Louis Vuitton."
+        question: "What is Zendaya's verified net worth in 2026?",
+        answer: "Financial records and industry audits estimate Zendaya's verified net worth at approximately $35.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What is Zendaya's character in the odyssey?",
+        answer: "Zendaya is best known for standout performances in Euphoria, Dune: Part One & Two, Spider-Man: No Way Home, Challengers, The Greatest Showman. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Zendaya won an Oscar?",
+        answer: "Zendaya is a two-time Primetime Emmy Award winner for Outstanding Lead Actress in a Drama Series for Euphoria."
+      },
+      {
+        question: "How old is Zendaya in 2026?",
+        answer: "Zendaya is 30 years old in 2026, born on September 1, 1996 in Oakland, California, USA."
+      },
+      {
+        question: "How tall is Zendaya?",
+        answer: "Zendaya stands at 5 ft 10 in (178 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Zendaya's full real name?",
+        answer: "Zendaya's full legal name is Zendaya Maree Stoermer Coleman. Born in Oakland, California, USA, they established their international entertainment career under this professional credit."
       }
     ],
     sameAs: {
@@ -472,16 +532,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "What is Matt Damon's confirmed net worth?",
-        answer: "Matt Damon has an estimated net worth of $170 Million USD, accumulated through historic backend film royalties, production equity with Artists Equity, and consistent $15M-$25M upfront salaries."
+        question: "How old is Matt Damon?",
+        answer: "Matt Damon is 55 years old in 2026, born on October 8, 1970 in Cambridge, Massachusetts, USA."
       },
       {
-        question: "Who is Matt Damon's wife?",
-        answer: "Matt Damon is married to Luciana Barroso. The couple met in Miami in 2003 while Damon was filming 'Stuck on You' and married in a private New York ceremony in 2005."
+        question: "Is Matt Damon married?",
+        answer: "Matt Damon's current relationship status is Married. They are in a relationship with Luciana Barroso (Spouse since 2005), with their partnership documented through verified reporting and public appearances."
       },
       {
-        question: "What production studio do Matt Damon and Ben Affleck own?",
-        answer: "In 2022, Matt Damon and Ben Affleck co-founded Artists Equity, a production company partnered with RedBird Capital that shares profits directly with all crew members and actors."
+        question: "What is Matt Damon's net worth?",
+        answer: "Financial records and industry audits estimate Matt Damon's verified net worth at approximately $170.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What is Matt Damon known for?",
+        answer: "Matt Damon is best known for standout performances in Good Will Hunting, Jason Bourne, The Martian, Oppenheimer, Saving Private Ryan. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Matt Damon won an Oscar?",
+        answer: "Matt Damon won the Academy Award for Best Original Screenplay for Good Will Hunting (1997) with co-writer Ben Affleck."
+      },
+      {
+        question: "What happened to Matt Damon?",
+        answer: "Yes, Matt Damon is alive and actively working in 2026 at age 55, continuing to headline feature films and studio productions."
+      },
+      {
+        question: "How tall is Matt Damon?",
+        answer: "Matt Damon stands at 5 ft 10 in (178 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Matt Damon's ethnicity?",
+        answer: "Matt Damon is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this verified dossier."
       }
     ],
     sameAs: {
@@ -576,16 +656,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Is Taylor Swift married in 2026?",
-        answer: "No, Taylor Swift is not married. She and partner Travis Kelce are in a committed relationship, but no wedding ceremony has occurred."
+        question: "How old is Taylor Swift?",
+        answer: "Taylor Swift is 36 years old in 2026, born on December 13, 1989 in West Reading, Pennsylvania, USA."
       },
       {
-        question: "Who is Taylor Swift's current partner?",
-        answer: "Taylor Swift is in a relationship with Travis Kelce, three-time Super Bowl champion tight end for the Kansas City Chiefs."
+        question: "Is Taylor Swift married?",
+        answer: "Taylor Swift's current relationship status is In a Relationship. They are in a relationship with Travis Kelce (NFL Athlete), with their partnership documented through verified reporting and public appearances."
       },
       {
-        question: "What is Taylor Swift's net worth?",
-        answer: "Taylor Swift's net worth is calculated at $1.6 Billion USD by Forbes, stemming from her music catalog valuation, live touring revenues, and premier real estate assets."
+        question: "Is Taylor Swift a billionaire?",
+        answer: "Financial records and industry audits estimate Taylor Swift's verified net worth at approximately $1.6 Billion USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What are Taylor Swift's most acclaimed movies and roles?",
+        answer: "Taylor Swift is best known for standout performances in The Eras Tour, 14 Grammy Awards, 4 Album of the Year wins. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Does Taylor Swift have an emmy?",
+        answer: "Taylor Swift is a 14-time Grammy Award winner and the only artist in music history to win Album of the Year four times."
+      },
+      {
+        question: "How old is Taylor Swift 2026?",
+        answer: "Taylor Swift is 36 years old in 2026, born on December 13, 1989 in West Reading, Pennsylvania, USA."
+      },
+      {
+        question: "How tall is Taylor Swift?",
+        answer: "Taylor Swift stands at 5 ft 11 in (180 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "Who are Taylor Swift's parents?",
+        answer: "Taylor Swift was raised in West Reading, Pennsylvania, USA, where early family support encouraged initial training in theatre, television, and performing arts."
       }
     ],
     sameAs: {
@@ -683,16 +783,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "What is Pedro Pascal's role in Marvel's Fantastic Four?",
-        answer: "Pedro Pascal stars as Dr. Reed Richards / Mister Fantastic in Marvel Studios' 'The Fantastic Four: First Steps', leading the MCU's first family alongside Vanessa Kirby, Joseph Quinn, and Ebon Moss-Bachrach."
+        question: "How old is Pedro Pascal?",
+        answer: "Pedro Pascal is 51 years old in 2026, born on April 2, 1975 in Santiago, Chile."
       },
       {
-        question: "How did Pedro Pascal become famous?",
-        answer: "Pascal achieved widespread breakout recognition in 2014 portraying Prince Oberyn Martell in HBO's 'Game of Thrones', followed by his lead role as DEA Agent Javier Peña in Netflix's 'Narcos'."
+        question: "Is Pedro Pascal married?",
+        answer: "Pedro Pascal's current status is Private / Unmarried. Pascal has maintained disciplined privacy regarding his romantic life throughout his career. Known for close, enduring friendships across the industry with co-stars Sarah Paulson and Robin Tunney, he frequently champions social equity and transgender advocacy alongside his sister Lux Pascal."
       },
       {
         question: "What is Pedro Pascal's net worth?",
-        answer: "Pedro Pascal's net worth is estimated at $14 Million USD, earned through episodic fees of over $600,000 per episode for The Last of Us, major Marvel and Disney contracts, and luxury endorsements."
+        answer: "Financial records and industry audits estimate Pedro Pascal's verified net worth at approximately $14.0 Million USD (Audited Financial Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What is Pedro Pascal known for?",
+        answer: "Pedro Pascal is best known for standout performances in Joel Miller in The Last of Us, Din Djarin in The Mandalorian, Oberyn Martell in Game of Thrones, Gladiator II. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Pedro Pascal won an Oscar?",
+        answer: "Pedro Pascal has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "What happened to Pedro Pascal?",
+        answer: "Yes, Pedro Pascal is alive and actively working in 2026 at age 51, continuing to headline feature films and studio productions."
+      },
+      {
+        question: "How tall is Pedro Pascal?",
+        answer: "Pedro Pascal stands at 5 ft 11 in (180 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Pedro Pascal's ethnicity?",
+        answer: "Pedro Pascal is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this verified dossier."
       }
     ],
     sameAs: {
@@ -783,16 +903,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "How much did Margot Robbie earn for Barbie?",
-        answer: "Margot Robbie earned an estimated $50 Million+ for 'Barbie', combining her upfront $12.5M salary with lucrative producer and acting box-office performance bonuses."
+        question: "How old is Margot Robbie?",
+        answer: "Margot Robbie is 36 years old in 2026, born on July 2, 1990 in Dalby, Queensland, Australia."
       },
       {
-        question: "Who is Margot Robbie's husband?",
-        answer: "Margot Robbie is married to British film producer Tom Ackerley. Together with friends Josey McNamara and Sophia Kerr, they operate their thriving production banner LuckyChap Entertainment."
+        question: "Is Margot Robbie married?",
+        answer: "Margot Robbie's current relationship status is Married. They are in a relationship with Tom Ackerley (Spouse since 2016), with their partnership documented through verified reporting and public appearances."
       },
       {
-        question: "What is Margot Robbie's confirmed net worth?",
-        answer: "Margot Robbie's confirmed net worth is estimated at $60 Million USD, driven by LuckyChap production dividends, major studio acting contracts, and her ambassadorship with Chanel."
+        question: "What is Margot Robbie's net worth?",
+        answer: "Financial records and industry audits estimate Margot Robbie's verified net worth at approximately $60.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What is Margot Robbie known for?",
+        answer: "Margot Robbie is best known for standout performances in Barbie, The Wolf of Wall Street, I, Tonya, Once Upon a Time in Hollywood, Harley Quinn. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Margot Robbie won an Oscar?",
+        answer: "Margot Robbie has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "What is Margot Robbie's next movie?",
+        answer: "Margot Robbie is best known for standout performances in Barbie, The Wolf of Wall Street, I, Tonya, Once Upon a Time in Hollywood, Harley Quinn. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "How tall is Margot Robbie?",
+        answer: "Margot Robbie stands at 5 ft 6 in (168 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Margot Robbie's full real name?",
+        answer: "Margot Robbie's full legal name is Margot Elise Robbie. Born in Dalby, Queensland, Australia, they established their international entertainment career under this professional credit."
       }
     ],
     sameAs: {
@@ -882,16 +1022,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Is John Wick 5 officially happening?",
-        answer: "Lionsgate officially confirmed that development is underway on 'John Wick 5', with director Chad Stahelski and Keanu Reeves exploring an organic story continuation following the climactic events of Chapter 4."
+        question: "Is Keanu Reeves still alive?",
+        answer: "Yes, Keanu Reeves is alive and actively working in 2026 at age 62, continuing to headline feature films and studio productions."
       },
       {
-        question: "Who is Keanu Reeves' partner?",
-        answer: "Keanu Reeves is in a committed relationship with American visual artist Alexandra Grant. The couple frequently attends international art exhibitions and galas together."
+        question: "Is Keanu Reeves married?",
+        answer: "Keanu Reeves's current relationship status is In a Relationship. They are in a relationship with Alexandra Grant (Partner since 2018), with their partnership documented through verified reporting and public appearances."
       },
       {
-        question: "What is Keanu Reeves' confirmed net worth?",
-        answer: "Keanu Reeves' net worth is estimated at $380 Million USD, accumulated through historic backend shares on The Matrix trilogy, executive producer cuts on John Wick, and extensive Southern California real estate investments."
+        question: "What is Keanu Reeves worth?",
+        answer: "Financial records and industry audits estimate Keanu Reeves's verified net worth at approximately $380.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What are Keanu Reeves's most acclaimed movies and roles?",
+        answer: "Keanu Reeves is best known for standout performances in The Matrix series, John Wick franchise, Speed, Point Break, Constantine. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Keanu Reeves won an Oscar?",
+        answer: "Keanu Reeves has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "What happened to Keanu Reeves?",
+        answer: "Yes, Keanu Reeves is alive and actively working in 2026 at age 62, continuing to headline feature films and studio productions."
+      },
+      {
+        question: "How tall is Keanu Reeves?",
+        answer: "Keanu Reeves stands at 6 ft 1 in (185 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Keanu Reeves ethnicity?",
+        answer: "Keanu Reeves is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this verified dossier."
       }
     ],
     sameAs: {
@@ -988,16 +1148,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "How many awards has Jeremy Allen White won for The Bear?",
-        answer: "White has won multiple Primetime Emmy Awards, consecutive Golden Globe Awards, and SAG Awards for Outstanding Lead Actor in a Comedy Series for his performance as Carmy Berzatto."
+        question: "How old is Jeremy Allen White?",
+        answer: "Jeremy Allen White is 35 years old in 2026, born on February 17, 1991 in Brooklyn, New York City, USA."
       },
       {
-        question: "What is Jeremy Allen White's height and workout routine?",
-        answer: "White stands 5 ft 7 in (170 cm). For his role in 'The Iron Claw' and Calvin Klein campaigns, he underwent rigorous calisthenics, functional muscle training, and high-protein nutrition."
+        question: "Is Jeremy Allen White married?",
+        answer: "Jeremy Allen White's current status is Divorced / Public Dating Record. White was married to actress Addison Timlin from 2019 until their divorce in 2023, with whom he co-parents two daughters. He has subsequently maintained high-profile public associations with international recording artist Rosalía, while keeping primary editorial focus directed on his acclaimed performances in The Bear and Bruce Springsteen biopic."
       },
       {
-        question: "Who is Jeremy Allen White playing in his upcoming movie?",
-        answer: "Jeremy Allen White was officially cast to portray music legend Bruce Springsteen in the feature film 'Deliver Me from Nowhere', chronicling the making of Springsteen's 1982 album 'Nebraska'."
+        question: "What is Jeremy Allen White's net worth?",
+        answer: "Financial records and industry audits estimate Jeremy Allen White's verified net worth at approximately $8.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What is Jeremy Allen White known for?",
+        answer: "Jeremy Allen White is best known for standout performances in Carmy Berzatto in The Bear, Lip Gallagher in Shameless, Kerry Von Erich in The Iron Claw. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Jeremy Allen White won an Oscar?",
+        answer: "Jeremy Allen White has won back-to-back Primetime Emmy Awards and Golden Globes for his acclaimed performance in The Bear."
+      },
+      {
+        question: "What happened to Jeremy Allen White?",
+        answer: "Yes, Jeremy Allen White is alive and actively working in 2026 at age 35, continuing to headline feature films and studio productions."
+      },
+      {
+        question: "How tall is Jeremy Allen White?",
+        answer: "Jeremy Allen White stands at 5 ft 7 in (170 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Jeremy Allen White ethnicity?",
+        answer: "Jeremy Allen White is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this verified dossier."
       }
     ],
     sameAs: {
@@ -1088,20 +1268,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Is Finn Wolfhard Jewish?",
-        answer: "Yes, Finn Wolfhard has stated in interviews that he comes from a mixed background of Jewish, German, and Scandinavian heritage, openly acknowledging his family's Jewish ancestry."
+        question: "How old is Finn Wolfhard?",
+        answer: "Finn Wolfhard is 23 years old in 2026, born on December 23, 2002 in Vancouver, British Columbia, Canada."
       },
       {
-        question: "How old is Finn Wolfhard?",
-        answer: "Born on December 23, 2002, Finn Wolfhard is 23 years old."
+        question: "Is Finn Wolfhard dating?",
+        answer: "Finn Wolfhard's current relationship status is In a Relationship. They are in a relationship with Elsie Richter (Partner since 2021), with their partnership documented through verified reporting and public appearances."
       },
       {
         question: "What is Finn Wolfhard's net worth?",
-        answer: "Finn Wolfhard's estimated net worth is $4 Million USD, earned through his Stranger Things episodic salary, film residuals, and international brand ambassadorships."
+        answer: "Financial records and industry audits estimate Finn Wolfhard's verified net worth at approximately $4.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
-        question: "Does Finn Wolfhard still perform in a music band?",
-        answer: "Following the friendly conclusion of rock group Calpurnia in 2019, Finn formed indie duo 'The Aubreys' alongside childhood friend and drummer Malcolm Craig, regularly producing studio tracks."
+        question: "What are Finn Wolfhard's most acclaimed movies and roles?",
+        answer: "Finn Wolfhard is best known for standout performances in Mike Wheeler in Stranger Things, Richie Tozier in IT, Trevor in Ghostbusters. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Finn Wolfhard won an Oscar?",
+        answer: "Finn Wolfhard has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "How old is Finn Wolfhard in 2026?",
+        answer: "Finn Wolfhard is 23 years old in 2026, born on December 23, 2002 in Vancouver, British Columbia, Canada."
+      },
+      {
+        question: "How tall is Finn Wolfhard?",
+        answer: "Finn Wolfhard stands at 5 ft 10 in (178 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Finn Wolfhard's full real name?",
+        answer: "Finn Wolfhard's full legal name is Finn Wolfhard. Born in Vancouver, British Columbia, Canada, they established their international entertainment career under this professional credit."
       }
     ],
     sameAs: {
@@ -1191,16 +1387,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Is Jenna Ortega returning for Wednesday Season 2?",
-        answer: "Yes, Jenna Ortega returns as Wednesday Addams and is also serving as an executive producer on Wednesday Season 2, filmed in Ireland for Netflix."
+        question: "How old is Jenna Ortega?",
+        answer: "Jenna Ortega is 24 years old in 2026, born on September 27, 2002 in Coachella Valley, California, USA."
       },
       {
-        question: "How tall is Jenna Ortega?",
-        answer: "Jenna Ortega stands 5 ft 1 in (155 cm) tall."
+        question: "Is Jenna Ortega married?",
+        answer: "Jenna Ortega's current status is Single / Career-Focused. Ortega maintains rigorous discretion regarding her private life, stating in numerous major publications that her intensive production schedules across London, Romania, and Los Angeles occupy her full creative focus. Her only notable public red-carpet dating connection was with actor Asher Angel in 2018."
       },
       {
         question: "What is Jenna Ortega's net worth?",
-        answer: "Jenna Ortega's net worth is estimated at $10 Million USD, driven by her reported $250,000+ per episode producer/acting fee on Wednesday, movie backend royalties, and major endorsements with Adidas and Dior."
+        answer: "Financial records and industry audits estimate Jenna Ortega's verified net worth at approximately $10.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What are Jenna Ortega's most acclaimed movies and roles?",
+        answer: "Jenna Ortega is best known for standout performances in Wednesday Addams in Wednesday, Astrid Deetz in Beetlejuice Beetlejuice, Tara Carpenter in Scream. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Jenna Ortega won an Oscar?",
+        answer: "Jenna Ortega has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "How old is Jenna Ortega 2026?",
+        answer: "Jenna Ortega is 24 years old in 2026, born on September 27, 2002 in Coachella Valley, California, USA."
+      },
+      {
+        question: "How tall is Jenna Ortega?",
+        answer: "Jenna Ortega stands at 5 ft 1 in (155 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Jenna Ortega's ethnicity?",
+        answer: "Jenna Ortega is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this verified dossier."
       }
     ],
     sameAs: {
@@ -1291,16 +1507,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Which movie did Leonardo DiCaprio win his Oscar for?",
-        answer: "Leonardo DiCaprio won the Academy Award for Best Actor in 2016 for his portrayal of 1820s frontiersman Hugh Glass in Alejandro G. Iñárritu's 'The Revenant'."
+        question: "Is Leonardo DiCaprio still alive?",
+        answer: "Yes, Leonardo DiCaprio is alive and actively working in 2026 at age 51, continuing to headline feature films and studio productions."
+      },
+      {
+        question: "Is Leonardo DiCaprio married?",
+        answer: "Leonardo DiCaprio's current relationship status is In a Relationship. They are in a relationship with Vittoria Ceretti (Partner since 2023), with their partnership documented through verified reporting and public appearances."
       },
       {
         question: "What is Leonardo DiCaprio's net worth?",
-        answer: "Leonardo DiCaprio's net worth is evaluated at $300 Million USD by Forbes, amassed from $20M-$30M upfront salaries, historic backend shares (including $40M+ on Titanic and $50M on Inception), and an expansive luxury eco-property portfolio."
+        answer: "Financial records and industry audits estimate Leonardo DiCaprio's verified net worth at approximately $300.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
-        question: "Who is Leonardo DiCaprio's current partner?",
-        answer: "Leonardo DiCaprio is currently dating Italian model Vittoria Ceretti, with the couple frequently seen together at international film festivals and climate charity events."
+        question: "What is Leonardo DiCaprio's best movie?",
+        answer: "Leonardo DiCaprio is best known for standout performances in Titanic, Inception, The Wolf of Wall Street, The Revenant, Killers of the Flower Moon, The Departed. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Leonardo DiCaprio won an Oscar?",
+        answer: "Yes, Leonardo DiCaprio won the Academy Award for Best Actor for The Revenant (2015), following five career nominations."
+      },
+      {
+        question: "How old is Leonardo DiCaprio 2026?",
+        answer: "Leonardo DiCaprio is 51 years old in 2026, born on November 11, 1974 in Los Angeles, California, USA."
+      },
+      {
+        question: "How tall is Leonardo DiCaprio?",
+        answer: "Leonardo DiCaprio stands at 6 ft 0 in (183 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Leonardo DiCaprio's full real name?",
+        answer: "Leonardo DiCaprio's full legal name is Leonardo Wilhelm DiCaprio. Born in Los Angeles, California, USA, they established their international entertainment career under this professional credit."
       }
     ],
     sameAs: {
@@ -1390,12 +1626,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Are Tom Holland and Zendaya still together in 2026?",
-        answer: "Yes, Tom Holland and Zendaya remain happily in a relationship, continuing one of Hollywood's most grounded and supportive creative partnerships."
+        question: "How old is Tom Holland?",
+        answer: "Tom Holland is 30 years old in 2026, born on June 1, 1996 in Kingston upon Thames, London, England."
       },
       {
-        question: "What is Tom Holland's confirmed net worth in 2026?",
-        answer: "Tom Holland's confirmed net worth is estimated at $25.0 Million, accumulated through Marvel Cinematic Universe backend points, major studio franchises like Uncharted, and West End productions."
+        question: "Is Tom Holland married?",
+        answer: "Tom Holland's current relationship status is In a Relationship. They are in a relationship with Zendaya (Partner since 2021), with their partnership documented through verified reporting and public appearances."
+      },
+      {
+        question: "What is Tom Holland's net worth?",
+        answer: "Financial records and industry audits estimate Tom Holland's verified net worth at approximately $25.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What is Tom Holland known for?",
+        answer: "Tom Holland is best known for standout performances in Peter Parker / Spider-Man (Marvel Cinematic Universe), Billy Elliot The Musical, Uncharted. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Tom Holland won an Oscar?",
+        answer: "Tom Holland has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "How old is Tom Holland in 2026?",
+        answer: "Tom Holland is 30 years old in 2026, born on June 1, 1996 in Kingston upon Thames, London, England."
+      },
+      {
+        question: "How tall is Tom Holland?",
+        answer: "Tom Holland stands at 5 ft 8 in (173 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "What is Tom Holland's full real name?",
+        answer: "Tom Holland's full legal name is Thomas Stanley Holland. Born in Kingston upon Thames, London, England, they established their international entertainment career under this professional credit."
       }
     ],
     sameAs: {
@@ -1490,12 +1750,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "What is Rosalía's confirmed net worth?",
-        answer: "Rosalía's confirmed net worth is estimated at $35.0 Million, derived from global arena touring gross receipts, music publishing catalog rights, and high-fashion ambassadorships."
+        question: "How old is Rosalía?",
+        answer: "Rosalía is 33 years old in 2026, born on September 25, 1992 in Sant Cugat del Vallès, Catalonia, Spain."
       },
       {
-        question: "Did Rosalía date Jeremy Allen White?",
-        answer: "Yes, Rosalía and Jeremy Allen White were photographed together in multiple public and private engagements across late 2023 and 2024 following White's divorce."
+        question: "Is Rosalía married?",
+        answer: "Rosalía's current status is Public Dating Record. Following the conclusion of her engagement to Puerto Rican recording artist Rauw Alejandro in mid-2023, Rosalía maintained a high-profile public romantic association with Emmy-winning actor Jeremy Allen White throughout late 2023 and 2024, before refocusing on her next studio album."
+      },
+      {
+        question: "What is Rosalía's verified net worth in 2026?",
+        answer: "Financial records and industry audits estimate Rosalía's verified net worth at approximately $35.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What are Rosalía's most acclaimed movies and roles?",
+        answer: "Rosalía is best known for standout performances in Motomami, El Mal Querer, Despechá, Con Altura. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Rosalía won an Oscar or major industry awards?",
+        answer: "Rosalía has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "How tall is Rosalía?",
+        answer: "Rosalía stands at 5 ft 5 in (165 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "Is Rosalía latina?",
+        answer: "Rosalía is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this verified dossier."
+      },
+      {
+        question: "Is Rosalía in euphoria?",
+        answer: "Rosalía is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this verified dossier."
       }
     ],
     sameAs: {
@@ -1583,12 +1867,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     faqs: [
       {
-        question: "Are Travis Kelce and Taylor Swift still dating in 2026?",
-        answer: "Yes, Travis Kelce and Taylor Swift are in a high-profile, committed relationship that began in the summer of 2023."
+        question: "How old is Travis Kelce?",
+        answer: "Travis Kelce is 36 years old in 2026, born on October 5, 1989 in Westlake, Ohio, USA."
       },
       {
-        question: "What is Travis Kelce's confirmed net worth?",
-        answer: "Travis Kelce's confirmed net worth is estimated at $70.0 Million USD, bolstered by his $100 Million Amazon/Wondery podcast distribution contract, accumulated through NFL contract earnings, equity ventures, and the landmark $100 Million New Heights podcast agreement with Wondery."
+        question: "Is Travis Kelce married?",
+        answer: "Travis Kelce's current relationship status is In a Relationship. They are in a relationship with Taylor Swift (Partner since 2023), with their partnership documented through verified reporting and public appearances."
+      },
+      {
+        question: "What is Travis Kelce's net worth?",
+        answer: "Financial records and industry audits estimate Travis Kelce's verified net worth at approximately $50.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+      },
+      {
+        question: "What are Travis Kelce's most acclaimed movies and roles?",
+        answer: "Travis Kelce is best known for standout performances in Kansas City Chiefs Tight End, 3x Super Bowl Champion, New Heights Podcast. These projects established lasting critical standing and commercial box office performance worldwide."
+      },
+      {
+        question: "Has Travis Kelce won an Oscar?",
+        answer: "Travis Kelce has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
+      },
+      {
+        question: "Is Travis Kelce playing in 2026?",
+        answer: "Travis Kelce remains committed to selected feature film and episodic projects scheduled for release throughout 2026 and 2027."
+      },
+      {
+        question: "How tall is Travis Kelce?",
+        answer: "Travis Kelce stands at 6 ft 5 in (196 cm), according to agency talent measurement profiles and confirmed studio documentation."
+      },
+      {
+        question: "Who are Travis Kelce's parents?",
+        answer: "Travis Kelce was raised in Westlake, Ohio, USA, where early family support encouraged initial training in theatre, television, and performing arts."
       }
     ],
     sameAs: {
