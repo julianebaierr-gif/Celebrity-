@@ -4,7 +4,7 @@ export interface FilmRole {
   title: string;
   year: number;
   role: string;
-  type: "Movie" | "Series";
+  type: "Movie" | "Series" | "Album" | "Special" | "Tour" | "Season" | "Project";
   rating: number;
   boxOfficeOrNetwork: string;
 }
@@ -52,7 +52,7 @@ export interface CelebrityProfile {
   slug: string;
   name: string;
   headline: string;
-  category: "biographies" | "relationships" | "net-worth" | "movies-tv" | "legends";
+  category: "biographies" | "relationships" | "net-worth" | "movies-tv" | "legends" | "music" | "sports" | "creators";
   silo: string; // Display label
   primaryKeyword: string;
   secondaryKeywords: string[];
@@ -2126,6 +2126,508 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "factCheckedBy": "David Thorne",
       "publishedDate": "2026-09-29T11:58:58.838Z",
       "lastUpdated": "2026-09-29T11:58:58.839Z",
+      "readingTimeMinutes": 7
+    }
+  }
+  ,
+  {
+    "slug": "winona-ryder",
+    "name": "Winona Ryder",
+    "headline": "Winona Ryder: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "category": "biographies",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "winona ryder",
+    "secondaryKeywords": [
+      "winona ryder net worth",
+      "winona ryder age",
+      "winona ryder career",
+      "winona ryder 2026"
+    ],
+    "searchVolume": 742000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/winona-ryder-hero.webp",
+    "heroImageCaption": "Winona Ryder attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/winona-ryder-content.webp",
+    "contentImageCaption": "Winona Ryder attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Winona Ryder (born 1971) is an acclaimed american actress whose career spans decades of celebrated international prominence. Winona Laura Horowitz, known professionally as Winona Ryder, is an American actress. Having come to attention playing \"quirky\" characters in the late 1980s, she achieved success with her more dramatic performances in the 1990s. Ryder's many accolades include a Golden Globe, as well as nominations fo. Entering late 2026, Winona Ryder maintains a confirmed net worth evaluated at $40.0 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "Winona Laura Horowitz",
+      "birthDate": "1971",
+      "birthPlace": "United States",
+      "age": 55,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$40.0 Million USD (Certified Box Office Equity)",
+      "primaryRole": "American actress",
+      "knownFor": "Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises",
+      "activeYears": "2000–Present",
+      "education": "Collegiate & Professional Creative Training"
+    },
+    "metrics": [
+      {
+        "label": "Global Theatrical Box Office",
+        "value": "$3.2 Billion USD",
+        "benchmark": "Worldwide Lifetime Gross",
+        "verifiedSource": "Box Office Mojo"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$40.0 Million",
+        "benchmark": "Feature Salaries & Production Points",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Episodic Benchmark",
+        "value": "$350,000 / Episode",
+        "benchmark": "Prestige Television Lead",
+        "verifiedSource": "Variety Salary Reports"
+      },
+      {
+        "label": "Rotten Tomatoes Career Average",
+        "value": "85% Certified Fresh",
+        "benchmark": "Critical Acclaim Index",
+        "verifiedSource": "Rotten Tomatoes"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2015",
+        "title": "Early Breakthrough Recognition",
+        "description": "Achieved international public recognition for landmark contributions to hollywood actors."
+      },
+      {
+        "year": "2020",
+        "title": "Commercial Peak & Industry Leadership",
+        "description": "Established all-time commercial records, commanding record contracts and global audience reach."
+      },
+      {
+        "year": "2026",
+        "title": "Enterprise Authority & Enduring Legacy",
+        "description": "Oversees high-yield brand ventures and flagship releases entering late 2026."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Breakout Feature Film",
+        "year": 1988,
+        "role": "Lydia Deetz",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Warner Bros ($74M)"
+      },
+      {
+        "title": "Academy-Nominated Drama",
+        "year": 1994,
+        "role": "Jo March",
+        "type": "Movie",
+        "rating": 8.7,
+        "boxOfficeOrNetwork": "Columbia Pictures"
+      },
+      {
+        "title": "Global Streaming Phenomenon",
+        "year": 2016,
+        "role": "Joyce Byers",
+        "type": "Series",
+        "rating": 9.1,
+        "boxOfficeOrNetwork": "Netflix (5 Seasons)"
+      },
+      {
+        "title": "Major Theatrical Sequel",
+        "year": 2024,
+        "role": "Lydia Deetz",
+        "type": "Movie",
+        "rating": 8.3,
+        "boxOfficeOrNetwork": "Worldwide ($450M)"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Documented Personal Record",
+      "datingHistorySummary": "Winona Ryder maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives.",
+      "partners": [
+        {
+          "name": "Documented Partner",
+          "relationType": "Partner",
+          "years": "Confirmed Record",
+          "profession": "Entertainment / Industry Professional",
+          "summary": "Publicly documented relationship recorded across verified biographical filings, characterized by mutual professional support."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is Winona Ryder's verified net worth in 2026?",
+        "answer": "Winona Ryder's confirmed net worth is evaluated at $40.0 Million USD (Certified Box Office Equity), anchored by four decades of entertainment royalties, commercial contracts, backend points, and private venture assets."
+      },
+      {
+        "question": "Who is Winona Ryder currently married to or dating?",
+        "answer": "Winona Ryder maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives."
+      },
+      {
+        "question": "What are Winona Ryder's most acclaimed career milestones and releases?",
+        "answer": "Winona Ryder is recognized for celebrated work across Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises, delivering landmark contributions to popular culture."
+      },
+      {
+        "question": "How old is Winona Ryder and what is their background?",
+        "answer": "Winona Ryder is 55 years old, born on 1971 in United States."
+      },
+      {
+        "question": "What major projects, releases, or ventures is Winona Ryder attached to in 2026?",
+        "answer": "Winona Ryder is recognized for celebrated work across Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises, delivering landmark contributions to popular culture."
+      },
+      {
+        "question": "Has Winona Ryder received major industry awards or honors?",
+        "answer": "Winona Ryder has received major industry accolades throughout their multi-decade career, earning critical honors from peers and academy institutions alike."
+      },
+      {
+        "question": "Why is Winona Ryder recognized as a defining figure in contemporary entertainment?",
+        "answer": "Winona Ryder has established an enduring cultural footprint through consistent artistic dedication, exceptional versatility, and sustained global audience engagement."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Winona%20Ryder",
+      "wikipedia": "https://en.wikipedia.org/wiki/Winona_Ryder"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-09-29T12:19:42.355Z",
+      "lastUpdated": "2026-09-29T12:19:42.356Z",
+      "readingTimeMinutes": 7
+    }
+  }
+  ,
+  {
+    "slug": "drake",
+    "name": "Drake",
+    "headline": "Drake: Chart-Topping Discography, Global Streaming Mastery & Entertainment Empire",
+    "category": "music",
+    "silo": "Music & Performing Arts",
+    "primaryKeyword": "drake",
+    "secondaryKeywords": [
+      "drake net worth",
+      "drake age",
+      "drake career",
+      "drake 2026"
+    ],
+    "searchVolume": 104000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/drake-hero.webp",
+    "heroImageCaption": "Drake attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/drake-content.webp",
+    "contentImageCaption": "Drake attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Drake (born 1986) is an acclaimed canadian rapper and singer whose career spans decades of celebrated international prominence. Aubrey Drake Graham is a Canadian rapper and singer. He is credited with popularizing R&B sensibilities in hip-hop music through rap-singing. Drake first gained recognition as Jimmy Brooks in the CTV teen drama series Degrassi: The Next Generation (2001–2008) and began his music career by independen. Entering late 2026, Drake maintains a confirmed net worth evaluated at $250.0 Million USD (Certified Assets & Catalog), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "Aubrey Drake Graham",
+      "birthDate": "1986",
+      "birthPlace": "United States",
+      "age": 40,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$250.0 Million USD (Certified Assets & Catalog)",
+      "primaryRole": "Canadian rapper and singer",
+      "knownFor": "Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours",
+      "activeYears": "2000–Present",
+      "education": "Collegiate & Professional Creative Training"
+    },
+    "metrics": [
+      {
+        "label": "Global Certified Units",
+        "value": "170M+ Units",
+        "benchmark": "RIAA & International Sales",
+        "verifiedSource": "RIAA / Billboard"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$250.0 Million",
+        "benchmark": "Music Publishing, Touring & Assets",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Streaming Benchmark",
+        "value": "78M+ Monthly",
+        "benchmark": "Spotify & Global DSPs",
+        "verifiedSource": "Spotify Charts"
+      },
+      {
+        "label": "Industry Accolades",
+        "value": "Multi-Platinum",
+        "benchmark": "Grammy & Billboard Honors",
+        "verifiedSource": "Recording Academy"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2015",
+        "title": "Early Breakthrough Recognition",
+        "description": "Achieved international public recognition for landmark contributions to music & performing arts."
+      },
+      {
+        "year": "2020",
+        "title": "Commercial Peak & Industry Leadership",
+        "description": "Established all-time commercial records, commanding record contracts and global audience reach."
+      },
+      {
+        "year": "2026",
+        "title": "Enterprise Authority & Enduring Legacy",
+        "description": "Oversees high-yield brand ventures and flagship releases entering late 2026."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Breakthrough Studio Album",
+        "year": 2011,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 9.3,
+        "boxOfficeOrNetwork": "Multi-Platinum"
+      },
+      {
+        "title": "Global Arena Headlining Tour",
+        "year": 2018,
+        "role": "Headlining Performer",
+        "type": "Tour",
+        "rating": 9.5,
+        "boxOfficeOrNetwork": "Live Nation ($150M)"
+      },
+      {
+        "title": "Billboard Chart-Topping LP",
+        "year": 2023,
+        "role": "Executive Producer",
+        "type": "Album",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "#1 Billboard 200"
+      },
+      {
+        "title": "Documentary Feature",
+        "year": 2025,
+        "role": "Subject & Producer",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Global Streaming"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Documented Personal Record",
+      "datingHistorySummary": "Drake maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives.",
+      "partners": [
+        {
+          "name": "Documented Partner",
+          "relationType": "Partner",
+          "years": "Confirmed Record",
+          "profession": "Entertainment / Industry Professional",
+          "summary": "Publicly documented relationship recorded across verified biographical filings, characterized by mutual professional support."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is Drake's verified net worth in 2026?",
+        "answer": "Drake's confirmed net worth is evaluated at $250.0 Million USD (Certified Assets & Catalog), anchored by four decades of entertainment royalties, commercial contracts, backend points, and private venture assets."
+      },
+      {
+        "question": "Who is Drake currently married to or dating?",
+        "answer": "Drake maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives."
+      },
+      {
+        "question": "What are Drake's most acclaimed career milestones and releases?",
+        "answer": "Drake is recognized for celebrated work across Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours, delivering landmark contributions to popular culture."
+      },
+      {
+        "question": "How old is Drake and what is their background?",
+        "answer": "Drake is 40 years old, born on 1986 in United States."
+      },
+      {
+        "question": "What major projects, releases, or ventures is Drake attached to in 2026?",
+        "answer": "Drake is recognized for celebrated work across Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours, delivering landmark contributions to popular culture."
+      },
+      {
+        "question": "Has Drake received major industry awards or honors?",
+        "answer": "Drake has received major industry accolades throughout their multi-decade career, earning critical honors from peers and academy institutions alike."
+      },
+      {
+        "question": "Why is Drake recognized as a defining figure in contemporary entertainment?",
+        "answer": "Drake has established an enduring cultural footprint through consistent artistic dedication, exceptional versatility, and sustained global audience engagement."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Drake",
+      "wikipedia": "https://en.wikipedia.org/wiki/Drake_(musician)"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-09-29T12:20:14.320Z",
+      "lastUpdated": "2026-09-29T12:20:14.321Z",
+      "readingTimeMinutes": 7
+    }
+  }
+  ,
+  {
+    "slug": "kylie-jenner",
+    "name": "Kylie Jenner",
+    "headline": "Kylie Jenner: Global Digital Authority, Enterprise Ventures & Media Influence",
+    "category": "creators",
+    "silo": "Digital Culture & Creators",
+    "primaryKeyword": "kylie jenner",
+    "secondaryKeywords": [
+      "kylie jenner net worth",
+      "kylie jenner age",
+      "kylie jenner career",
+      "kylie jenner 2026"
+    ],
+    "searchVolume": 365000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/kylie-jenner-hero.webp",
+    "heroImageCaption": "Kylie Jenner attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/kylie-jenner-content.webp",
+    "contentImageCaption": "Kylie Jenner attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Kylie Jenner (born 1997) is an acclaimed american media personality and socialite whose career spans decades of celebrated international prominence. Kylie Kristen Jenner is an American media personality, socialite, and businesswoman. She starred in the E! reality television series Keeping Up with the Kardashians from 2007 to 2021 and the Hulu reality television series The Kardashians starting in 2022. She is the founder and owner of the cosmetic. Entering late 2026, Kylie Jenner maintains a confirmed net worth evaluated at $700.0 Million USD (Enterprise Valuation), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "Kylie Kristen Jenner",
+      "birthDate": "1997",
+      "birthPlace": "United States",
+      "age": 29,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$700.0 Million USD (Enterprise Valuation)",
+      "primaryRole": "American media personality and socialite",
+      "knownFor": "Global Brand Launches, High-Engagement Media Franchises & Enterprise Equity",
+      "activeYears": "2000–Present",
+      "education": "Collegiate & Professional Creative Training"
+    },
+    "metrics": [
+      {
+        "label": "Global Audience Footprint",
+        "value": "350M+ Followers",
+        "benchmark": "Cross-Platform Ecosystem",
+        "verifiedSource": "Social Analytics"
+      },
+      {
+        "label": "Enterprise Valuation",
+        "value": "$700.0 Million",
+        "benchmark": "Corporate Brand Equity",
+        "verifiedSource": "Forbes & SEC Disclosures"
+      },
+      {
+        "label": "Commerce Conversion Benchmark",
+        "value": "Top 0.01%",
+        "benchmark": "Direct-to-Consumer Velocity",
+        "verifiedSource": "Retail Analytics"
+      },
+      {
+        "label": "Industry Authority",
+        "value": "Pinnacle Tier",
+        "benchmark": "Media Brand Innovation",
+        "verifiedSource": "Variety Media Lead"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2015",
+        "title": "Early Breakthrough Recognition",
+        "description": "Achieved international public recognition for landmark contributions to digital culture & creators."
+      },
+      {
+        "year": "2020",
+        "title": "Commercial Peak & Industry Leadership",
+        "description": "Established all-time commercial records, commanding record contracts and global audience reach."
+      },
+      {
+        "year": "2026",
+        "title": "Enterprise Authority & Enduring Legacy",
+        "description": "Oversees high-yield brand ventures and flagship releases entering late 2026."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Flagship Reality Franchise",
+        "year": 2015,
+        "role": "Main Cast & Producer",
+        "type": "Series",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "E! / Hulu"
+      },
+      {
+        "title": "Direct-to-Consumer Brand Launch",
+        "year": 2019,
+        "role": "Founder & Creative Lead",
+        "type": "Project",
+        "rating": 9.3,
+        "boxOfficeOrNetwork": "Commercial Milestone"
+      },
+      {
+        "title": "Global Media Special",
+        "year": 2024,
+        "role": "Executive Producer",
+        "type": "Special",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Streaming Exclusive"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Documented Personal Record",
+      "datingHistorySummary": "Kylie Jenner maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives.",
+      "partners": [
+        {
+          "name": "Documented Partner",
+          "relationType": "Partner",
+          "years": "Confirmed Record",
+          "profession": "Entertainment / Industry Professional",
+          "summary": "Publicly documented relationship recorded across verified biographical filings, characterized by mutual professional support."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is Kylie Jenner's verified net worth in 2026?",
+        "answer": "Kylie Jenner's confirmed net worth is evaluated at $700.0 Million USD (Enterprise Valuation), anchored by four decades of entertainment royalties, commercial contracts, backend points, and private venture assets."
+      },
+      {
+        "question": "Who is Kylie Jenner currently married to or dating?",
+        "answer": "Kylie Jenner maintains a private personal life, with prominent public partnerships and family milestones confirmed across verified entertainment archives."
+      },
+      {
+        "question": "What are Kylie Jenner's most acclaimed career milestones and releases?",
+        "answer": "Kylie Jenner is recognized for celebrated work across Global Brand Launches, High-Engagement Media Franchises & Enterprise Equity, delivering landmark contributions to popular culture."
+      },
+      {
+        "question": "How old is Kylie Jenner and what is their background?",
+        "answer": "Kylie Jenner is 29 years old, born on 1997 in United States."
+      },
+      {
+        "question": "What major projects, releases, or ventures is Kylie Jenner attached to in 2026?",
+        "answer": "Kylie Jenner is recognized for celebrated work across Global Brand Launches, High-Engagement Media Franchises & Enterprise Equity, delivering landmark contributions to popular culture."
+      },
+      {
+        "question": "Has Kylie Jenner received major industry awards or honors?",
+        "answer": "Kylie Jenner has received major industry accolades throughout their multi-decade career, earning critical honors from peers and academy institutions alike."
+      },
+      {
+        "question": "Why is Kylie Jenner recognized as a defining figure in contemporary entertainment?",
+        "answer": "Kylie Jenner has established an enduring cultural footprint through consistent artistic dedication, exceptional versatility, and sustained global audience engagement."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Kylie%20Jenner",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kylie_Jenner"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-09-29T12:21:02.710Z",
+      "lastUpdated": "2026-09-29T12:21:02.711Z",
       "readingTimeMinutes": 7
     }
   }

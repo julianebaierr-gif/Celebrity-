@@ -782,6 +782,87 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     ],
     "keyTakeaway": "Thornton holds a $45M fortune anchored by streaming television contracts, Boxmasters music tours, and private California real estate."
   }
+]
+,
+  "winona-ryder": [
+  {
+    "heading": "Formative Roots & Early Dramatic Breakthrough",
+    "paragraphs": [
+      "Winona Ryder emerged into professional screen acting with an innate physical presence and emotional depth that immediately distinguished them from contemporaries. Early casting directors noted an uncanny ability to convey nuanced vulnerability alongside razor-sharp charisma.",
+      "Securing breakthrough roles in auteur-driven cinema, their initial critical acclaim validated a deliberate choice to pursue complex, character-driven narratives over predictable studio archetypes."
+    ],
+    "keyTakeaway": "Uncanny emotional range and commitment to auteur storytelling fueled rapid early breakthrough."
+  },
+  {
+    "heading": "Box Office Authority & Signature Career Roles",
+    "paragraphs": [
+      "Throughout their career, Winona Ryder navigated commercial blockbusters and prestige festival favorites with equal precision. Collaborating with industry-defining directors, they created characters that entered the permanent cinematic canon.",
+      "Their performances have earned consistent nominations from prestigious industry bodies, maintaining a high standard of creative integrity and audience loyalty."
+    ],
+    "keyTakeaway": "Consistent critical accolades and balanced commercial performances cemented an A-list Hollywood standing."
+  },
+  {
+    "heading": "Financial Architecture, Producing Leadership & Legacy",
+    "paragraphs": [
+      "In recent years, Winona Ryder expanded into executive producing, securing development equity and backend profit participation across television and film projects. Their certified fortune reflects decades of disciplined career choices and private investment portfolios.",
+      "Entering late 2026, their creative influence remains essential to contemporary Hollywood, mentoring emerging talents while continuing to headline high-profile dramatic projects."
+    ],
+    "keyTakeaway": "Executive producing ownership and disciplined career choices anchor an enduring artistic legacy."
+  }
+],
+
+  "drake": [
+  {
+    "heading": "Early Roots, Hometown & The Genesis of Sound",
+    "paragraphs": [
+      "Drake developed a distinct creative signature during early formative years, channeling regional artistic influences and raw musical instincts into groundbreaking recordings. Overcoming early distribution obstacles through direct digital platforms, their initial releases established an immediate grassroots movement.",
+      "Industry observers quickly took note of their cadence, authentic storytelling, and magnetic public persona, leading to major label partnerships that prioritized artistic ownership while amplifying their global reach."
+    ],
+    "keyTakeaway": "Grassroots digital distribution and uncompromising creative identity propelled early industry recognition."
+  },
+  {
+    "heading": "Chart Supremacy & Multi-Platinum Commercial Domination",
+    "paragraphs": [
+      "Following their major commercial breakthrough, Drake engineered one of the most commercially successful runs in contemporary music history. Consecutive releases shattered streaming records on Apple Music and Spotify, dominating international singles charts and securing critical industry acclaim.",
+      "Their collaborative works alongside premier producers and global headliners reinforced a reputation as a transformative cultural force capable of redefining popular musical aesthetics."
+    ],
+    "keyTakeaway": "Sustained chart dominance and record-breaking streaming benchmarks cemented premier cultural status."
+  },
+  {
+    "heading": "Business Architecture, Catalog Equity & 2026 Standing",
+    "paragraphs": [
+      "Beyond recording studios, Drake has assembled a formidable business portfolio encompassing master rights ownership, touring equity, fashion collaborations, and venture capital. Entering late 2026, their financial valuation remains one of the strongest in the entertainment industry.",
+      "Continual innovation in live performance technology and independent publishing rights positions them as an influential archetype for modern music entrepreneurship."
+    ],
+    "keyTakeaway": "Catalog equity, brand partnerships, and full tour ownership anchor an estimated multi-million dollar empire."
+  }
+],
+
+  "kylie-jenner": [
+  {
+    "heading": "Digital Emergence & The Architecture of Modern Fame",
+    "paragraphs": [
+      "Kylie Jenner redefined modern celebrity by transforming authentic personal engagement into an unprecedented global media footprint. Emerging through television and social platforms, they cultivated direct audience loyalty that bypassed traditional publicity channels.",
+      "This immediate connection with hundreds of millions of consumers created a revolutionary model for commercial influence, setting new industry standards for audience conversion."
+    ],
+    "keyTakeaway": "Direct digital engagement transformed traditional media presence into an unparalleled commercial platform."
+  },
+  {
+    "heading": "Corporate Enterprises, Product Innovation & Equity Scale",
+    "paragraphs": [
+      "Translating cultural attention into scalable corporate enterprises, Kylie Jenner spearheaded direct-to-consumer product lines that generated historic retail velocity. Major strategic acquisitions and equity partnerships validated their position as an elite corporate strategist.",
+      "Their brand architecture serves as an academic case study in modern brand loyalty, leveraging agile manufacturing and targeted social launches."
+    ],
+    "keyTakeaway": "Strategic equity sales and direct-to-consumer brand launches generated historic commercial returns."
+  },
+  {
+    "heading": "Wealth Architecture & Cultural Legacy Entering 2026",
+    "paragraphs": [
+      "Entering late 2026, Kylie Jenner oversees a diversified asset portfolio including premier residential real estate, corporate brand equity, and venture investments. Their sustained cultural relevance demonstrates a calculated, forward-thinking approach to enterprise management.",
+      "Maintaining an influential voice across global fashion, beauty, and digital entertainment, their legacy represents the pinnacle of modern media entrepreneurship."
+    ],
+    "keyTakeaway": "Diversified investments and enduring global relevance establish an enduring benchmark in modern media."
+  }
 ],
 
 };

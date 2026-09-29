@@ -1,7 +1,7 @@
 {
   "description": "CelebEdge Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 16,
-  "lastUpdated": "2026-09-29T11:58:58.841Z",
+  "totalLocked": 19,
+  "lastUpdated": "2026-09-29T12:21:02.716Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -241,6 +241,48 @@
         "billy bob thornton net worth",
         "billy bob thornton oscar",
         "billy bob thornton landman"
+      ]
+    },
+    {
+      "keyword": "winona ryder",
+      "slug": "winona-ryder",
+      "name": "Winona Ryder",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/winona-ryder",
+      "publishedAt": "2026-09-29 12:19:42",
+      "associatedTags": [
+        "winona ryder net worth",
+        "winona ryder age",
+        "winona ryder career",
+        "winona ryder 2026"
+      ]
+    },
+    {
+      "keyword": "drake",
+      "slug": "drake",
+      "name": "Drake",
+      "category": "Music & Performing Arts",
+      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/drake",
+      "publishedAt": "2026-09-29 12:20:14",
+      "associatedTags": [
+        "drake net worth",
+        "drake age",
+        "drake career",
+        "drake 2026"
+      ]
+    },
+    {
+      "keyword": "kylie jenner",
+      "slug": "kylie-jenner",
+      "name": "Kylie Jenner",
+      "category": "Digital Culture & Creators",
+      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/kylie-jenner",
+      "publishedAt": "2026-09-29 12:21:02",
+      "associatedTags": [
+        "kylie jenner net worth",
+        "kylie jenner age",
+        "kylie jenner career",
+        "kylie jenner 2026"
       ]
     }
   ],
