@@ -612,6 +612,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       netWorth: "$1.6 Billion USD (Forbes Certified Valuation)",
       primaryRole: "Singer-Songwriter, Producer, Cultural Icon",
       knownFor: "The Eras Tour, 14 Grammy Awards, 4 Album of the Year wins",
+      education: "Hendersonville High School & Aaron Academy; Honorary Doctorate of Fine Arts (NYU)",
       activeYears: "2004–Present"
     },
     metrics: [

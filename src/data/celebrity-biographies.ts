@@ -71,7 +71,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
         text: "Cillian has the most extraordinary eyes, and I kept trying to invent excuses for him to take his glasses off in close-ups. His focus on set is unparalleled.",
         source: "Christopher Nolan on directing Cillian Murphy"
       },
-      keyTakeaway: "A six-film partnership with Christopher Nolan elevated Murphy from European art-house stalwart to premier international cinematic actor."
+      keyTakeaway: "A six-film partnership with Christopher Nolan propelled Murphy from European art-house stalwart to premier international cinematic actor."
     },
     {
       heading: "The Thomas Shelby Cultural Hegemony: Peaky Blinders (2013–2022)",
@@ -523,7 +523,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       heading: "Executive Producer Stardom: Wednesday Season 2 & Creative Control",
       paragraphs: [
-        "Recognizing her intrinsic understanding of the character and narrative tone, Netflix and MGM Television elevated Ortega to Executive Producer for 'Wednesday' Season 2, filmed across Ireland. In her producing capacity, Ortega insisted on steering the series away from teen love triangles in favor of darker, horror-driven supernatural mystery.",
+        "Recognizing her intrinsic understanding of the character and narrative tone, Netflix and MGM Television appointed Ortega as Executive Producer for 'Wednesday' Season 2, filmed across Ireland. In her producing capacity, Ortega insisted on steering the series away from teen love triangles in favor of darker, horror-driven supernatural mystery.",
         "Ortega has consistently used her platform to advocate for narrative rigor, insisting that creative talent must have a voice in script development. Her vocal commitment to story integrity resonated with a generation of young artists seeking greater creative autonomy."
       ],
       keyTakeaway: "Ortega became an Executive Producer on Wednesday Season 2, taking direct control over tone, horror aesthetics, and story arcs."
@@ -792,7 +792,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     "paragraphs": [
       "Outside acting studios, Thornton has maintained a deeply devoted parallel career in roots and rockabilly music as the lead singer and songwriter for The Boxmasters, formed in 2007 with sound engineer and guitarist J.D. Andrew. Releasing over a dozen studio albums and touring annually across North America and Europe, Thornton frequently describes music as his purest creative refuge, allowing him to commune directly with audiences through narrative songwriting and southern rhythm.",
       "Entering late 2026, Billy Bob Thornton maintains a confirmed net worth evaluated at $45.0 Million USD, supported by high-tier television episodic salaries, master backend royalties, music catalog equity, and prime real estate holdings in California and Texas. At seventy years old, his artistic voice remains as vital, idiosyncratic, and compelling as ever—an authentic American original whose work across writing, acting, and music continues to leave an indelible imprint on global entertainment.",
-      "His life story stands as an enduring testament to the triumph of raw creative perseverance over devastating poverty. From living on raw potatoes in North Hollywood boarding houses to winning Academy Awards and headlining global streaming flagships, Thornton represents the pinnacle of authentic American artistry."
+      "His life story proves the victory of raw creative perseverance over devastating poverty. From living on raw potatoes in North Hollywood boarding houses to winning Academy Awards and headlining global streaming flagships, Thornton represents the pinnacle of authentic American artistry."
     ],
     "keyTakeaway": "Annual touring with The Boxmasters, flagship dramatic television series, and an authentic $45M fortune define his 2026 standing."
   }
@@ -899,7 +899,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       "During the filming of his viral 2018 music video for 'God's Plan', Drake famously disbursed the entire nearly one-million-dollar production budget directly to local Miami citizens, women's shelters, youth organizations, and university scholarship funds, sparking global discussions regarding direct, immediate philanthropy. In Toronto, his multi-million-dollar financial contributions have revitalized public basketball courts, funded youth arts centers, and supported disaster relief initiatives, demonstrating an enduring dedication to returning commercial success directly to community institutions.",
       "Furthermore, his corporate partnerships consistently mandate civic contribution clauses, requiring corporate sponsors to match investments into municipal music education programs for aspiring young creators. This intentional integration of charitable accountability within his business architecture ensures that his artistic prosperity directly enriches the neighborhoods that nurtured his early creative ambitions."
     ],
-    "keyTakeaway": "Direct civic philanthropy, youth arts endowments, and community revitalization in Toronto form an enduring cornerstone of his public legacy."
+    "keyTakeaway": "Direct civic philanthropy, youth arts endowments, and community revitalization in Toronto form an enduring pillar of his public legacy."
   },
   {
     "heading": "Cultural Influence, Personal Philosophy & Standing in 2026",
