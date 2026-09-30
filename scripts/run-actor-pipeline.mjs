@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import https from "node:https";
 import sharp from "sharp";
+import { validateAndHealCelebrityProfile } from "./pre-publish-validator.mjs";
 
 // 1. Load Environment Configuration from .env.local
 const envLocalPath = path.resolve(process.cwd(), ".env.local");
@@ -1317,70 +1318,83 @@ Return STRICT JSON with the following structure:
     }
   };
 
-  // 10. Append to src/data/celebrity-biographies.ts
+  // 10. Automated Pre-Publish QA & Auto-Healing Gatekeeper
+  console.log(`\n===================================================================`);
+  console.log(`🛡️ [PrePublishQA] Running integrity verification & auto-healing for "${profile.name}"...`);
+  const qaResult = validateAndHealCelebrityProfile(profile);
+  if (qaResult.healedActions.length > 0) {
+    console.log(`[PrePublishQA] ✓ Auto-healed ${qaResult.healedActions.length} item(s) before publication:`);
+    qaResult.healedActions.forEach((a) => console.log(`    - ${a}`));
+  } else {
+    console.log(`[PrePublishQA] ✓ 100% Compliant across all 10 System Rules.`);
+  }
+  const verifiedProfile = qaResult.healedProfile;
+  console.log(`===================================================================\n`);
+
+  // 11. Append to src/data/celebrity-biographies.ts
   const biosPath = path.resolve(process.cwd(), "src/data/celebrity-biographies.ts");
   let biosContent = fs.readFileSync(biosPath, "utf-8");
-  if (!biosContent.includes(`"${profile.slug}":`)) {
+  if (!biosContent.includes(`"${verifiedProfile.slug}":`)) {
     const biosInsertionPoint = biosContent.lastIndexOf("};");
     if (biosInsertionPoint !== -1) {
       const beforeSlice = biosContent.slice(0, biosInsertionPoint).trimEnd();
       const needsComma = !beforeSlice.endsWith(",") && !beforeSlice.endsWith("{");
       const comma = needsComma ? ",\n" : "";
-      const biosFormatted = `${comma}  "${profile.slug}": ${JSON.stringify(biographySections, null, 2)},\n\n`;
+      const biosFormatted = `${comma}  "${verifiedProfile.slug}": ${JSON.stringify(biographySections, null, 2)},\n\n`;
       biosContent = biosContent.slice(0, biosInsertionPoint) + biosFormatted + biosContent.slice(biosInsertionPoint);
       fs.writeFileSync(biosPath, biosContent, "utf-8");
       console.log(`[Codebase] ✓ Injected biography chapters into src/data/celebrity-biographies.ts`);
     }
   }
 
-  // 11. Append to src/data/celebrities.ts
+  // 12. Append to src/data/celebrities.ts
   const celebsPath = path.resolve(process.cwd(), "src/data/celebrities.ts");
   let celebsContent = fs.readFileSync(celebsPath, "utf-8");
-  if (!celebsContent.includes(`"${profile.slug}"`)) {
+  if (!celebsContent.includes(`"${verifiedProfile.slug}"`)) {
     const marker = "export const CELEBRITIES";
     const markerIdx = celebsContent.indexOf(marker);
     const arrayClosingPoint = celebsContent.lastIndexOf("];", markerIdx !== -1 ? markerIdx : undefined);
     if (arrayClosingPoint !== -1) {
-      const profileJson = JSON.stringify(profile, null, 2)
+      const profileJson = JSON.stringify(verifiedProfile, null, 2)
         .split("\n")
         .map((line, idx) => (idx === 0 ? `  ,\n  ${line}` : `  ${line}`))
         .join("\n");
       celebsContent = celebsContent.slice(0, arrayClosingPoint) + profileJson + "\n" + celebsContent.slice(arrayClosingPoint);
       fs.writeFileSync(celebsPath, celebsContent, "utf-8");
-      console.log(`[Codebase] ✓ Injected profile into src/data/celebrities.ts`);
+      console.log(`[Codebase] ✓ Injected verified profile into src/data/celebrities.ts`);
     }
   }
 
-  // 12. Lock in Registry & CSVs
+  // 13. Lock in Registry & CSVs
   const publishedDate = new Date().toISOString().replace("T", " ").slice(0, 19);
-  const canonicalUrl = `https://celeb-edge.vercel.app/celebrity/${profile.slug}`;
-  const tagsFormatted = profile.secondaryKeywords.slice(0, 4).join(" | ");
+  const canonicalUrl = `https://celeb-edge.vercel.app/celebrity/${verifiedProfile.slug}`;
+  const tagsFormatted = verifiedProfile.secondaryKeywords.slice(0, 4).join(" | ");
 
   registry.lockedKeywords.push({
-    keyword: profile.primaryKeyword,
-    slug: profile.slug,
-    name: profile.name,
-    category: profile.silo,
+    keyword: verifiedProfile.primaryKeyword,
+    slug: verifiedProfile.slug,
+    name: verifiedProfile.name,
+    category: verifiedProfile.silo,
     canonicalUrl,
     publishedAt: publishedDate,
-    associatedTags: profile.secondaryKeywords
+    associatedTags: verifiedProfile.secondaryKeywords
   });
   registry.totalLocked = registry.lockedKeywords.length;
   registry.lastUpdated = new Date().toISOString();
   fs.writeFileSync(registryPath, JSON.stringify(registry, null, 2), "utf-8");
-  console.log(`[Registry] ✓ Locked "${profile.name}" in used-keywords-registry.json`);
+  console.log(`[Registry] ✓ Locked "${verifiedProfile.name}" in used-keywords-registry.json`);
 
-  const csvLine = `\n"${profile.primaryKeyword}","${profile.silo}","${tagsFormatted}","Published","${canonicalUrl}","${publishedDate}"`;
+  const csvLine = `\n"${verifiedProfile.primaryKeyword}","${verifiedProfile.silo}","${tagsFormatted}","Published","${canonicalUrl}","${publishedDate}"`;
   fs.appendFileSync(path.resolve(process.cwd(), "src/data/sheet1-populated.csv"), csvLine, "utf-8");
-  const tsvLine = `\n${profile.primaryKeyword}\t${profile.silo}\t${tagsFormatted}\tPublished\t${canonicalUrl}\t${publishedDate}`;
+  const tsvLine = `\n${verifiedProfile.primaryKeyword}\t${verifiedProfile.silo}\t${tagsFormatted}\tPublished\t${canonicalUrl}\t${publishedDate}`;
   fs.appendFileSync(path.resolve(process.cwd(), "src/data/sheet1-pasteable.tsv"), tsvLine, "utf-8");
 
-  // 13. Direct Google Sheet Live Push via Webhook
+  // 14. Direct Google Sheet Live Push via Webhook
   if (GOOGLE_SHEET_WEBHOOK_URL) {
     console.log(`[Webhook] Pushing new celebrity directly to live Google Sheet1...`);
     const sheetRow = [
-      profile.primaryKeyword,
-      profile.silo,
+      verifiedProfile.primaryKeyword,
+      verifiedProfile.silo,
       tagsFormatted,
       "Published",
       canonicalUrl,

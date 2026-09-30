@@ -3,6 +3,7 @@ import { resolveAndSaveEntityImage } from "./verified-image-pipeline";
 import { sanitizeAiVocabulary } from "./anti-ai-vocabulary";
 import { isKeywordOrEntityPublished, registerPublishedProfile } from "./anti-cannibalization";
 import { generateGoogleSearchFaqs } from "./google-faq-engine";
+import { validateAndHealCelebrityProfile } from "./pre-publish-validator";
 import { CelebrityProfile } from "@/data/celebrities";
 import fs from "node:fs";
 import path from "node:path";
@@ -508,7 +509,18 @@ export async function runDailyAutoPostPipeline(keyword: string): Promise<{
   const dossier = await analyzeCompetitorsAndExtractLSI(keyword, competitors, peopleCom);
 
   // Step 3: Hissa 1 Content Synthesis + Verified Image Pipeline
-  const profile = await generateCelebrityProfileWithHissa1(dossier);
+  const rawProfile = await generateCelebrityProfileWithHissa1(dossier);
+
+  // Step 3b: Pre-Publish QA & Auto-Healing Gatekeeper
+  console.log(`[DailyAutoPostPipeline] 🛡️ Running integrity verification & auto-healing for "${rawProfile.name}"...`);
+  const qaResult = validateAndHealCelebrityProfile(rawProfile);
+  if (qaResult.healedActions.length > 0) {
+    console.log(`[DailyAutoPostPipeline] ✓ Auto-healed ${qaResult.healedActions.length} item(s) before registration:`);
+    qaResult.healedActions.forEach((a) => console.log(`    - ${a}`));
+  } else {
+    console.log(`[DailyAutoPostPipeline] ✓ 100% Compliant across all 10 System Rules.`);
+  }
+  const profile = qaResult.healedData;
 
   // Step 4: Lock keyword in Anti-Cannibalization Registry and Sheet1 Tracking
   registerPublishedProfile({

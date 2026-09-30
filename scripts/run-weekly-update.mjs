@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import https from "node:https";
+import { validateAndHealBlogPost } from "./pre-publish-validator.mjs";
 
 // 1. Load Environment Configuration
 const envLocalPath = path.resolve(process.cwd(), ".env.local");
@@ -581,24 +582,37 @@ Return STRICT JSON matching this format:
     tags: generatedBlog.tags || [selected.name, domain, "Entertainment 2026"]
   };
 
+  // Pre-Publish QA & Auto-Healing Gatekeeper
+  console.log(`\n===================================================================`);
+  console.log(`🛡️ [PrePublishQA] Running integrity verification & auto-healing for blog "${newBlogPost.title}"...`);
+  const qaBlogResult = validateAndHealBlogPost(newBlogPost);
+  if (qaBlogResult.healedActions.length > 0) {
+    console.log(`[PrePublishQA] ✓ Auto-healed ${qaBlogResult.healedActions.length} item(s) before publication:`);
+    qaBlogResult.healedActions.forEach((a) => console.log(`    - ${a}`));
+  } else {
+    console.log(`[PrePublishQA] ✓ Blog 100% Compliant across all editorial & SEO rules.`);
+  }
+  const verifiedPost = qaBlogResult.healedBlogPost;
+  console.log(`===================================================================\n`);
+
   // Save into updates-store.json
   if (!Array.isArray(store.dynamicBlogPosts)) {
     store.dynamicBlogPosts = [];
   }
-  store.dynamicBlogPosts = store.dynamicBlogPosts.filter((b) => b.slug !== blogSlug);
-  store.dynamicBlogPosts.unshift(newBlogPost);
+  store.dynamicBlogPosts = store.dynamicBlogPosts.filter((b) => b.slug !== verifiedPost.slug);
+  store.dynamicBlogPosts.unshift(verifiedPost);
 
   fs.writeFileSync(storePath, JSON.stringify(store, null, 2), "utf-8");
-  console.log(`[UpdatesStore] ✓ Saved weekly spoke article to ${storePath}`);
+  console.log(`[UpdatesStore] ✓ Saved verified weekly spoke article to ${storePath}`);
 
   console.log("\n===================================================================");
   console.log(`🎉 SUCCESS: Weekly news update completed for ${selected.name}!`);
-  console.log(`- Article Title: "${newBlogPost.title}"`);
-  console.log(`- Article Slug: /blog/${newBlogPost.slug}`);
-  console.log(`- SEO Title (${seoTitle.length} chars): "${seoTitle}"`);
-  console.log(`- SEO Description (${seoDescription.length} chars): "${seoDescription}"`);
+  console.log(`- Article Title: "${verifiedPost.title}"`);
+  console.log(`- Article Slug: /blog/${verifiedPost.slug}`);
+  console.log(`- SEO Title (${verifiedPost.seoTitle.length} chars): "${verifiedPost.seoTitle}"`);
+  console.log(`- SEO Description (${verifiedPost.seoDescription.length} chars): "${verifiedPost.seoDescription}"`);
   console.log(`- Word Count: ${wordCount} words`);
-  console.log(`- Cover Image: ${coverImage} (Distinct from Hero Image)`);
+  console.log(`- Cover Image: ${verifiedPost.coverImage} (Distinct from Hero Image)`);
   console.log("===================================================================\n");
 }
 
