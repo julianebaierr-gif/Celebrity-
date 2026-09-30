@@ -167,6 +167,8 @@ function auditAiWords(text) {
     }
   }
   return Array.from(new Set(found));
+}
+
 // 3. Dynamic Real Net Worth Harvester from Web Search Consensus
 async function fetchRealNetWorth(celebrityName) {
   try {
