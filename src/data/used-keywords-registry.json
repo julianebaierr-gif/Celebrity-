@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 22,
-  "lastUpdated": "2026-09-30T11:16:42.923Z",
+  "totalLocked": 23,
+  "lastUpdated": "2026-09-30T11:56:42.101Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -325,6 +325,20 @@
         "david harbour age",
         "david harbour career",
         "david harbour 2026"
+      ]
+    },
+    {
+      "keyword": "youngboy never broke again",
+      "slug": "youngboy-never-broke-again",
+      "name": "YoungBoy Never Broke Again",
+      "category": "Music & Performing Arts",
+      "canonicalUrl": "https://celebledger.com/celebrity/youngboy-never-broke-again",
+      "publishedAt": "2026-09-30 11:56:42",
+      "associatedTags": [
+        "youngboy never broke again net worth",
+        "youngboy never broke again age",
+        "youngboy never broke again career",
+        "youngboy never broke again 2026"
       ]
     }
   ],

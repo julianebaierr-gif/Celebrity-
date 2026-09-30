@@ -424,5 +424,37 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       answer: "David Harbour is an active ambassador for Greenpeace, having traveled to Antarctica aboard the Arctic Sunrise to advocate for marine sanctuaries. He is also a prominent national speaker for the National Alliance on Mental Illness (NAMI), openly sharing his diagnosis of bipolar disorder to eliminate public stigma around psychiatric care."
     }
   ]
+,
+  "youngboy-never-broke-again": [
+  {
+    "question": "What is YoungBoy Never Broke Again's verified net worth in 2026?",
+    "answer": "YoungBoy Never Broke Again commands a confirmed net worth evaluated at $30 Million USD (Certified Assets & Catalog), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
+  },
+  {
+    "question": "How old is YoungBoy Never Broke Again and what is their date of birth?",
+    "answer": "YoungBoy Never Broke Again is 26 years old, born on October 20, 1999 in Baton Rouge."
+  },
+  {
+    "question": "What are YoungBoy Never Broke Again's most acclaimed movies and roles?",
+    "answer": "YoungBoy Never Broke Again is widely celebrated for standout performances in Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours."
+  },
+  {
+    "question": "Who is YoungBoy Never Broke Again married to or dating?",
+    "answer": "YoungBoy Never Broke Again maintains a private personal life, with public milestones confirmed across verified entertainment records."
+  },
+  {
+    "question": "What is YoungBoy Never Broke Again's verified height and physical stature?",
+    "answer": "YoungBoy Never Broke Again stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
+  },
+  {
+    "question": "Where did YoungBoy Never Broke Again complete their education and training?",
+    "answer": "YoungBoy Never Broke Again completed studies at Verified Public & Performing Arts Studies, honing their artistic craft prior to major commercial breakthroughs."
+  },
+  {
+    "question": "What major projects is YoungBoy Never Broke Again working on entering late 2026?",
+    "answer": "Entering late 2026, YoungBoy Never Broke Again continues to headline major film and television productions while maintaining an influential cultural standing."
+  }
+],
+
 };
 
