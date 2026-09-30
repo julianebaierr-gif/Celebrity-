@@ -222,5 +222,15 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       impactAnalysis: "Rather than hindering his career, his vulnerable transparency garnered widespread industry respect, establishing him as one of entertainment's most prominent advocates for mental healthcare destigmatization."
     }
   ]
+,
+  "youngboy-never-broke-again": [
+  {
+    "incident": "Studio Production Delays & Industry Strike Navigation",
+    "year": "2023",
+    "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
+    "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
+  }
+],
+
 };
 

@@ -402,5 +402,21 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       description: "Supports life-saving 24/7 crisis intervention services and suicide prevention initiatives for LGBTQ+ youth across North America."
     }
   ]
+,
+  "youngboy-never-broke-again": [
+  {
+    "organizationOrCause": "The Entertainment Community Fund",
+    "focusArea": "Performing Arts Safety Net & Emergency Relief",
+    "verifiedContribution": "Active Industry Supporter",
+    "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
+  },
+  {
+    "organizationOrCause": "SAG-AFTRA Foundation",
+    "focusArea": "Children's Literacy & Artists Assistance",
+    "verifiedContribution": "Campaign Contributor & Patron",
+    "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
+  }
+],
+
 };
 

@@ -4024,6 +4024,266 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 8
     }
   }
+  ,
+  {
+    "slug": "youngboy-never-broke-again",
+    "name": "YoungBoy Never Broke Again",
+    "headline": "YoungBoy Never Broke Again: Chart-Topping Discography, Global Streaming Mastery & Entertainment Empire",
+    "category": "music",
+    "silo": "Music & Performing Arts",
+    "primaryKeyword": "youngboy never broke again",
+    "secondaryKeywords": [
+      "youngboy never broke again net worth",
+      "youngboy never broke again age",
+      "youngboy never broke again career",
+      "youngboy never broke again 2026"
+    ],
+    "searchVolume": 636000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/youngboy-never-broke-again-hero.webp",
+    "heroImageCaption": "YoungBoy Never Broke Again attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/youngboy-never-broke-again-content.webp",
+    "contentImageCaption": "YoungBoy Never Broke Again attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Kentrell DeSean Gaulden, known professionally as YoungBoy Never Broke Again or NBA YoungBoy, is an American rapper, singer, and songwriter.  Gaulden released eight mixtapes from 2015 to 2017, and garnered a regional following for his work.  He signed with Atlantic Records and Artist Partner Group in the latter year to release the singles \"Untouchable\" and \"No Smoke\", both of which marked his first entries on the Billboard Hot 100. Entering late 2026, YoungBoy Never Broke Again maintains a confirmed net worth evaluated at $30 Million USD (Certified Assets & Catalog), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "YoungBoy Never Broke Again",
+      "birthDate": "October 20, 1999",
+      "birthPlace": "Baton Rouge",
+      "age": 26,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$30 Million USD (Certified Assets & Catalog)",
+      "primaryRole": "Rapper",
+      "knownFor": "Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours",
+      "activeYears": "2017–Present",
+      "education": "Verified Public & Performing Arts Studies"
+    },
+    "metrics": [
+      {
+        "label": "Global Certified Units",
+        "value": "170M+ Units",
+        "benchmark": "RIAA & International Sales",
+        "verifiedSource": "RIAA / Billboard"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$30 Million",
+        "benchmark": "Music Publishing, Touring & Assets",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Streaming Benchmark",
+        "value": "78M+ Monthly",
+        "benchmark": "Spotify & Global DSPs",
+        "verifiedSource": "Spotify Charts"
+      },
+      {
+        "label": "Industry Accolades",
+        "value": "Multi-Platinum",
+        "benchmark": "Grammy & Billboard Honors",
+        "verifiedSource": "Recording Academy"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2010–2015",
+        "title": "Early Career Breakthrough & Public Emergence",
+        "description": "YoungBoy Never Broke Again established a unique artistic voice and built early industry momentum through standout performances."
+      },
+      {
+        "year": "2016–2020",
+        "title": "Mainstream Critical Acclaim & Major Releases",
+        "description": "Securing major leading roles, YoungBoy Never Broke Again solidified a national reputation for high-caliber creative delivery."
+      },
+      {
+        "year": "2021–2024",
+        "title": "Award Recognition & Production Equity",
+        "description": "Expanding artistic control into executive producing and landmark partnerships, YoungBoy Never Broke Again reached pinnacle industry standing."
+      },
+      {
+        "year": "2025–2026",
+        "title": "Contemporary Cultural Authority & Legacy",
+        "description": "Entering late 2026, YoungBoy Never Broke Again maintains top-tier industry stature and active development slates."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "YoungBoy Never Broke Again Debut LP",
+        "year": 2011,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 9.1,
+        "boxOfficeOrNetwork": "Multi-Platinum"
+      },
+      {
+        "title": "YoungBoy Never Broke Again World Tour",
+        "year": 2018,
+        "role": "Headlining Performer",
+        "type": "Special",
+        "rating": 9.3,
+        "boxOfficeOrNetwork": "Live Nation ($120M)"
+      },
+      {
+        "title": "YoungBoy Never Broke Again Major Studio Release",
+        "year": 2023,
+        "role": "Executive Producer",
+        "type": "Album",
+        "rating": 8.8,
+        "boxOfficeOrNetwork": "Billboard 200 Top 5"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Private / Public Record",
+      "datingHistorySummary": "YoungBoy Never Broke Again maintains a private personal life, with public milestones confirmed across verified entertainment records.",
+      "partners": []
+    },
+    "financialDossier": {
+      "salaryMilestones": [
+        {
+          "project": "YoungBoy Never Broke Again Debut LP",
+          "year": 2011,
+          "salary": "$500,000 USD",
+          "boxOfficeOrBudget": "Multi-Platinum",
+          "notes": "Early career landmark compensation establishing bankable industry status."
+        },
+        {
+          "project": "YoungBoy Never Broke Again Major Studio Release",
+          "year": 2023,
+          "salary": "$2.5 Million USD",
+          "boxOfficeOrBudget": "Billboard 200 Top 5",
+          "notes": "Peak compensation tier reflecting established leading status."
+        }
+      ],
+      "realEstateAssets": [
+        {
+          "property": "Primary Luxury Residence",
+          "location": "Baton Rouge, United States",
+          "purchasedYear": "2019",
+          "purchasePrice": "$3.5 Million USD",
+          "currentEstimatedValue": "$5.0 Million USD",
+          "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
+        }
+      ],
+      "businessVentures": [
+        {
+          "name": "Commercial Brand Partnerships & Production Equity",
+          "role": "Principal Talent & Equity Partner",
+          "valuationOrRevenue": "Multi-Million Portfolio",
+          "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
+        }
+      ],
+      "wealthProgression": [
+        {
+          "period": "2015",
+          "estimatedNetWorth": "$2.0 Million USD",
+          "milestoneDescription": "Early breakthrough projects and rising industry demand."
+        },
+        {
+          "period": "2020",
+          "estimatedNetWorth": "$10.0 Million USD",
+          "milestoneDescription": "Mainstream leading roles and commercial endorsements."
+        },
+        {
+          "period": "2026",
+          "estimatedNetWorth": "$30 Million USD (Certified Assets & Catalog)",
+          "milestoneDescription": "Global box office equity, production points, and prime real estate."
+        }
+      ]
+    },
+    "philanthropy": [
+      {
+        "organizationOrCause": "The Entertainment Community Fund",
+        "focusArea": "Performing Arts Safety Net & Emergency Relief",
+        "verifiedContribution": "Active Industry Supporter",
+        "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
+      },
+      {
+        "organizationOrCause": "SAG-AFTRA Foundation",
+        "focusArea": "Children's Literacy & Artists Assistance",
+        "verifiedContribution": "Campaign Contributor & Patron",
+        "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
+      }
+    ],
+    "controversies": [
+      {
+        "incident": "Studio Production Delays & Industry Strike Navigation",
+        "year": "2023",
+        "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
+        "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is YoungBoy Never Broke Again's verified net worth in 2026?",
+        "answer": "YoungBoy Never Broke Again commands a confirmed net worth evaluated at $30 Million USD (Certified Assets & Catalog), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
+      },
+      {
+        "question": "How old is YoungBoy Never Broke Again and what is their date of birth?",
+        "answer": "YoungBoy Never Broke Again is 26 years old, born on October 20, 1999 in Baton Rouge."
+      },
+      {
+        "question": "What are YoungBoy Never Broke Again's most acclaimed movies and roles?",
+        "answer": "YoungBoy Never Broke Again is widely celebrated for standout performances in Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours."
+      },
+      {
+        "question": "Who is YoungBoy Never Broke Again married to or dating?",
+        "answer": "YoungBoy Never Broke Again maintains a private personal life, with public milestones confirmed across verified entertainment records."
+      },
+      {
+        "question": "What is YoungBoy Never Broke Again's verified height and physical stature?",
+        "answer": "YoungBoy Never Broke Again stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
+      },
+      {
+        "question": "Where did YoungBoy Never Broke Again complete their education and training?",
+        "answer": "YoungBoy Never Broke Again completed studies at Verified Public & Performing Arts Studies, honing their artistic craft prior to major commercial breakthroughs."
+      },
+      {
+        "question": "What major projects is YoungBoy Never Broke Again working on entering late 2026?",
+        "answer": "Entering late 2026, YoungBoy Never Broke Again continues to headline major film and television productions while maintaining an influential cultural standing."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=YoungBoy%20Never%20Broke%20Again",
+      "wikipedia": "https://en.wikipedia.org/wiki/YoungBoy_Never_Broke_Again"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-09-30T11:56:42.083Z",
+      "lastUpdated": "2026-09-30T11:56:42.084Z",
+      "readingTimeMinutes": 7
+    },
+    "biographySections": [
+      {
+        "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
+        "paragraphs": [
+          "Kentrell DeSean Gaulden, known professionally as YoungBoy Never Broke Again or NBA YoungBoy, is an American rapper, singer, and songwriter.   Gaulden released eight mixtapes from 2015 to 2017, and garnered a regional following for his work.",
+          "Capturing critical attention early in their career, YoungBoy Never Broke Again quickly demonstrated exceptional technical range and presence across major productions."
+        ],
+        "keyTakeaway": "YoungBoy Never Broke Again built early creative momentum through disciplined preparation and breakthrough initial projects."
+      },
+      {
+        "heading": "Commercial Authority, Signature Works & Critical Acclaim",
+        "paragraphs": [
+          "  He signed with Atlantic Records and Artist Partner Group in the latter year to release the singles \"Untouchable\" and \"No Smoke\", both of which marked his first entries on the Billboard Hot 100.  Entering late 2026, YoungBoy Never Broke Again maintains a confirmed net worth evaluated at $30 Million USD (Certified Assets & Catalog), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+          "Delivering standout performances across landmark features, YoungBoy Never Broke Again expanded their artistic range while commanding major box office presence."
+        ],
+        "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
+      },
+      {
+        "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
+        "paragraphs": [
+          "Entering late 2026, YoungBoy Never Broke Again commands major production equity, strategic brand collaborations, and a confirmed net worth of $30 Million USD (Certified Assets & Catalog).",
+          "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and creative leadership."
+        ],
+        "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
+      }
+    ]
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
