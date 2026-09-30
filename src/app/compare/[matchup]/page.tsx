@@ -147,7 +147,7 @@ export default async function MatchupComparePage({ params }: PageProps) {
           {/* Editorial Analysis Section */}
           <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-10 shadow-xs space-y-6">
             <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight border-b border-slate-100 pb-4">
-              Financial Architecture &amp; Key Economic Differentiators
+              {c1.name} vs {c2.name}: Wealth Architecture
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-slate-700 leading-relaxed">

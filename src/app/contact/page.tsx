@@ -5,7 +5,7 @@ import { ContactForm } from "@/components/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact CelebLedger | Editorial & Newsroom Directory",
   description:
-    "Contact the CelebLedger newsroom. Submit factual corrections, agency updates, media inquiries, or contact our bureaus in Los Angeles, New York, and London.",
+    "Contact the CelebLedger newsroom. Submit factual corrections, agency updates, media inquiries, or reach our global bureaus.",
   alternates: {
     canonical: "https://www.celebledger.com/contact",
   },

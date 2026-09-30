@@ -81,7 +81,7 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                 <Image
                   src={leadStory.heroImage}
-                  alt={`${leadStory.name} official portrait - ${leadStory.headline}`}
+                  alt={`${leadStory.name} official portrait - ${leadStory.quickFacts.primaryRole}`.slice(0, 75)}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 60vw"
@@ -112,9 +112,7 @@ export default function HomePage() {
 
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 group-hover:text-amber-700 transition tracking-tight leading-tight">
                   <Link href={`/celebrity/${leadStory.slug}`}>
-                    {leadStory.headline.startsWith(leadStory.name)
-                      ? leadStory.headline
-                      : `${leadStory.name}: ${leadStory.headline}`}
+                    {leadStory.name}: Career &amp; Net Worth Dossier
                   </Link>
                 </h2>
 
@@ -259,31 +257,31 @@ export default function HomePage() {
               All
             </Link>
             <Link
-              href="/celebrities?category=actors"
+              href="/celebrities"
               className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
             >
               Actors
             </Link>
             <Link
-              href="/celebrities?category=music"
+              href="/celebrities"
               className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
             >
               Musicians
             </Link>
             <Link
-              href="/celebrities?category=sports"
+              href="/celebrities"
               className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
             >
               Athletes
             </Link>
             <Link
-              href="/celebrities?category=creators"
+              href="/celebrities"
               className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
             >
               Creators
             </Link>
             <Link
-              href="/celebrities?category=legends"
+              href="/celebrities"
               className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
             >
               Legends

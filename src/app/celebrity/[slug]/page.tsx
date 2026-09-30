@@ -358,7 +358,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                 <div className="relative h-full w-full">
                   <Image
                     src={celebrity.contentImage}
-                    alt={`${celebrity.name} - ${celebrity.contentImageCaption}`}
+                    alt={`${celebrity.name} - ${(celebrity.contentImageCaption || 'Photo').split('.')[0]}`.slice(0, 85).trim()}
                     fill
                     sizes="(max-width: 1024px) 100vw, 896px"
                     className="object-contain object-center z-10 drop-shadow-2xl"

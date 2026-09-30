@@ -48,9 +48,9 @@ export default function CelebrityCompareClient({
           <span className="text-xs font-bold text-amber-700 uppercase tracking-widest block mb-1">
             Interactive Head-to-Head Engine
           </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+          <h3 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
             Select Two Celebrities to Compare
-          </h2>
+          </h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-11 gap-4 items-center max-w-4xl mx-auto">

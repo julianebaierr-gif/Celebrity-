@@ -145,7 +145,7 @@ export default function PrivacyPage() {
             <p>
               <strong>Third-Party Advertising Compliance:</strong> CelebLedger may display advertisements served through Google AdSense or certified programmatic partners. These partners adhere to Google Publisher Policies, the Interactive Advertising Bureau (IAB) Transparency and Consent Framework, and applicable consumer privacy regulations. Readers may manage personalized advertising preferences or opt out entirely via the{" "}
               <a
-                href="https://optout.aboutads.info"
+                href="https://www.aboutads.info"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-700 font-bold hover:underline"
