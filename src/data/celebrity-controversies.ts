@@ -1,0 +1,210 @@
+import { ControversyItem } from "./celebrities";
+
+export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
+  "will-smith": [
+    {
+      incident: "94th Academy Awards Altercation (The Oscars Slap)",
+      year: "2022",
+      resolutionOrOutcome: "Smith publicly apologized to Chris Rock, the Academy, and viewers, resigned from the Academy of Motion Picture Arts and Sciences, and accepted a 10-year ban from all Academy events.",
+      impactAnalysis: "Following a period of personal reflection and public introspection, Smith returned to cinemas with Bad Boys: Ride or Die in summer 2024, grossing over $404 Million worldwide and proving his enduring global box office appeal."
+    },
+    {
+      incident: "Early Career IRS Tax Garnishment",
+      year: "1989",
+      resolutionOrOutcome: "Faced with a $2.8 Million USD tax assessment following rapid early rap success, the IRS garnished 70% of his Fresh Prince of Bel-Air salary during seasons 1 through 3 until the debt was fully satisfied.",
+      impactAnalysis: "The experience instilled rigorous lifelong financial discipline, leading Smith to establish institutional wealth management protocols and build one of Hollywood's most robust multi-asset portfolios."
+    }
+  ],
+
+  "robert-redford": [
+    {
+      incident: "Kaiparowits Plateau Coal Plant Opposition & Utah Boycott",
+      year: "1975–1976",
+      resolutionOrOutcome: "Redford led successful environmental coalitions that blocked the construction of a 3,000-megawatt coal power plant near Utah's national parks, resulting in effigy burnings by pro-industry groups.",
+      impactAnalysis: "Demonstrated unprecedented willingness by a top box office star to risk commercial popularity for environmental conservation; today recognized as a visionary preservation milestone."
+    },
+    {
+      incident: "Cultural Debate Over Indecent Proposal",
+      year: "1993",
+      resolutionOrOutcome: "Addressed intense media debates regarding the morality of the film's premise through thoughtful, objective interviews on relationship dynamics.",
+      impactAnalysis: "The intense cultural conversation propelled the film to $266.6 Million at the worldwide box office, ranking among the biggest hits of the year."
+    }
+  ],
+
+  "leonardo-dicaprio": [
+    {
+      incident: "1MDB Malaysian Sovereign Wealth Fund Investigation",
+      year: "2016",
+      resolutionOrOutcome: "Cooperated fully with the US Department of Justice upon learning that production company Red Granite Pictures had ties to misappropriated Malaysian state funds, surrendering gifted artwork and Marlon Brando's Oscar statuette.",
+      impactAnalysis: "Federal prosecutors explicitly cleared DiCaprio of any personal culpability, and Appian Way strengthened compliance protocols for international co-financiers."
+    },
+    {
+      incident: "Private Aviation vs Environmental Scrutiny",
+      year: "2016–2022",
+      resolutionOrOutcome: "Responded to public criticism of private jet travel by utilizing commercial flights whenever feasible and purchasing comprehensive carbon offsets.",
+      impactAnalysis: "Maintained credibility by directing over $100 Million in verified grant disbursements through Re:wild and Earth Alliance toward global biodiversity protection."
+    }
+  ],
+
+  "keanu-reeves": [
+    {
+      incident: "Speed 2 Refusal & Studio Blacklisting",
+      year: "1995",
+      resolutionOrOutcome: "Turned down a $12 Million USD offer to star in Speed 2: Cruise Control in order to portray Hamlet at the Manitoba Theatre Centre in Winnipeg.",
+      impactAnalysis: "20th Century Fox placed Reeves in unofficial studio exile for nearly 14 years, but the decision preserved his artistic credibility until The Matrix launched him to unprecedented global heights."
+    }
+  ],
+
+  "matt-damon": [
+    {
+      incident: "Crypto.com 'Fortune Favors the Brave' Super Bowl Ad",
+      year: "2021",
+      resolutionOrOutcome: "Faced significant media commentary when cryptocurrency valuations collapsed following the 2022 Super Bowl campaign.",
+      impactAnalysis: "Damon clarified that his personal appearance fee had been donated entirely to Water.org to supply clean water access to vulnerable communities in developing nations."
+    }
+  ],
+
+  "margot-robbie": [
+    {
+      incident: "Birds of Prey Box Office Headwinds",
+      year: "2020",
+      resolutionOrOutcome: "Navigated studio scrutiny when Birds of Prey opened to $205 Million worldwide against expectations of a larger comic book haul.",
+      impactAnalysis: "Demonstrated exceptional producing resilience through LuckyChap Entertainment, developing Emerald Fennell's Promising Young Woman (Oscar winner) and championing Barbie into a $1.44 Billion cultural phenomenon."
+    }
+  ],
+
+  "cillian-murphy": [
+    {
+      incident: "Batman Screen Test & Non-Traditional Casting",
+      year: "2003",
+      resolutionOrOutcome: "Auditioned for Bruce Wayne / Batman in Christopher Nolan's Batman Begins; although Christian Bale was selected, Nolan was so captivated that he wrote Dr. Jonathan Crane for Murphy.",
+      impactAnalysis: "Turned an initial casting shortfall into a celebrated six-film collaborative partnership that culminated twenty years later in Oppenheimer's Best Actor Academy Award."
+    }
+  ],
+
+  "zendaya": [
+    {
+      incident: "2015 Academy Awards Red Carpet Commentary",
+      year: "2015",
+      resolutionOrOutcome: "Responded to derogatory remarks regarding her dreadlocks hairstyle with a widely praised, dignified written essay celebrating cultural identity and heritage.",
+      impactAnalysis: "The eloquent response generated universal support across the entertainment industry, prompting Mattel to honor her with a one-of-a-kind Barbie doll replicating her red-carpet silhouette."
+    }
+  ],
+
+  "pedro-pascal": [
+    {
+      incident: "Public Political Advocacy & Online Polarization",
+      year: "2020",
+      resolutionOrOutcome: "Faced targeted online campaigns from partisan critics over his vocal political stances and human rights advocacy.",
+      impactAnalysis: "Lucasfilm and industry studios reaffirmed their complete confidence in Pascal, whose widespread critical acclaim across The Mandalorian and The Last of Us solidified him as a leading cinematic talent."
+    }
+  ],
+
+  "jeremy-allen-white": [
+    {
+      incident: "Custody Agreement Monitoring Protocols",
+      year: "2023",
+      resolutionOrOutcome: "Agreed to daily Soberlink breathalyzer testing as part of a joint custody agreement during his divorce proceedings with actress Addison Timlin.",
+      impactAnalysis: "Complied fully with all court-supervised parameters while maintaining an uninterrupted, award-winning shooting schedule for The Bear and expanding his family co-parenting partnership."
+    }
+  ],
+
+  "finn-wolfhard": [
+    {
+      incident: "Child Actor Boundary Violations by Adult Fans",
+      year: "2017",
+      resolutionOrOutcome: "Addressed public incidents where adult autograph hounds criticized him for declining to interact while entering hotels unaccompanied.",
+      impactAnalysis: "Sparked an industry-wide discussion led by veteran actors like Sophie Turner regarding boundary protections, security measures, and working conditions for young performers."
+    }
+  ],
+
+  "jenna-ortega": [
+    {
+      incident: "Wednesday Script Critique During 2023 WGA Context",
+      year: "2023",
+      resolutionOrOutcome: "Discussed on a podcast her hands-on revisions to character dialogue on the set of Wednesday, which drew commentary from writers' room veterans during union labor tensions.",
+      impactAnalysis: "Addressed the discourse constructively with showrunners, resulting in her official elevation to executive producer for Wednesday Season 2."
+    }
+  ],
+
+  "tom-holland": [
+    {
+      incident: "Marvel Plot Disclosure Reputation",
+      year: "2017–2019",
+      resolutionOrOutcome: "Gained an affectionate public reputation for inadvertently revealing sensitive Marvel film secrets during press junkets.",
+      impactAnalysis: "Marvel Studios leaned into the narrative by assigning media chaperones like Benedict Cumberbatch during interviews, transforming the tendency into a beloved promotional running joke."
+    }
+  ],
+
+  "tim-curry": [
+    {
+      incident: "Initial Critical Rejection of The Rocky Horror Picture Show",
+      year: "1975",
+      resolutionOrOutcome: "20th Century Fox briefly pulled the film from general theatrical distribution after mainstream reviewers panned the film's camp rock sensibility.",
+      impactAnalysis: "Curry's charismatic central performance fueled an underground midnight movie revolution that became the longest continuous theatrical release in history."
+    }
+  ],
+
+  "rosalia": [
+    {
+      incident: "Flamenco Cultural Representation Debate",
+      year: "2018",
+      resolutionOrOutcome: "Encountered debate in Spain regarding whether a Catalan-born artist should incorporate traditional Andalusian and Romani flamenco cadences into mainstream music.",
+      impactAnalysis: "Rosalía articulated her rigorous eight-year formal training under flamenco master Chiqui de La Línea at ESMUC, winning two Grammy Awards and universal respect from traditional masters."
+    }
+  ],
+
+  "travis-kelce": [
+    {
+      incident: "Super Bowl LVIII Sideline Altercation",
+      year: "2024",
+      resolutionOrOutcome: "Experienced an emotional outburst on the sideline bumping head coach Andy Reid during a tense first half in Super Bowl LVIII.",
+      impactAnalysis: "Both Kelce and Coach Reid addressed the incident with profound mutual affection post-game, rallying the team to an overtime championship victory and cementing their hall-of-fame partnership."
+    }
+  ],
+
+  "billy-bob-thornton": [
+    {
+      incident: "Tabloid Sensationalism During Jolie Marriage",
+      year: "2000–2003",
+      resolutionOrOutcome: "Endured non-stop tabloid coverage regarding blood vials and eccentric declarations during his high-profile marriage to Angelina Jolie.",
+      impactAnalysis: "Following their amicable 2003 divorce, Thornton redirected public attention entirely to his acclaimed dramatic acting, earning multiple Golden Globe Awards for Goliath and Fargo."
+    }
+  ],
+
+  "winona-ryder": [
+    {
+      incident: "2001 Beverly Hills Shoplifting Trial & Media Circus",
+      year: "2001",
+      resolutionOrOutcome: "Convicted of grand theft following an arrest at Saks Fifth Avenue, completing 480 hours of community service and paying full restitution.",
+      impactAnalysis: "Chose to step back from Hollywood for several years to prioritize mental wellbeing, subsequently staging one of the most celebrated career resurgences in modern television as Joyce Byers in Stranger Things."
+    }
+  ],
+
+  "drake": [
+    {
+      incident: "2024 Kendrick Lamar Rap Feud",
+      year: "2024",
+      resolutionOrOutcome: "Engaged in an explosive series of exchange diss tracks that culminated in Lamar's chart-topping single Not Like Us.",
+      impactAnalysis: "The feud generated historic global streaming metrics, while Drake retained his position as the highest-certified digital singles artist in RIAA history and completed massive stadium tours."
+    }
+  ],
+
+  "kylie-jenner": [
+    {
+      incident: "Forbes 'Youngest Self-Made Billionaire' Revision",
+      year: "2020",
+      resolutionOrOutcome: "Forbes published an updated investigation adjusting Jenner's net worth following public regulatory filings by Coty Inc.",
+      impactAnalysis: "Jenner addressed the report with poise on social media, continuing to retain 49% equity in Kylie Cosmetics and expanding new consumer product lines with audited $750M personal net worth."
+    }
+  ],
+
+  "taylor-swift-wedding": [
+    {
+      incident: "Master Recordings Catalog Dispute & Re-Recording Campaign",
+      year: "2019",
+      resolutionOrOutcome: "After her original master recordings were sold to Ithaca Holdings without her opportunity to purchase, Swift announced a plan to re-record her entire early catalog.",
+      impactAnalysis: "The Taylor's Version releases broke worldwide streaming records, reclaimed full artistic ownership, and permanently reshaped artist-label negotiation standards in the modern recording industry."
+    }
+  ]
+};

@@ -242,6 +242,48 @@ export function validateAndHealCelebrityProfile(profile: CelebrityProfile): Vali
     }
   }
 
+  if (healed.financialDossier) {
+    if (healed.financialDossier.salaryMilestones) {
+      healed.financialDossier.salaryMilestones = healed.financialDossier.salaryMilestones.map((m) => ({
+        ...m,
+        notes: sanitizeAiVocabulary(m.notes),
+      }));
+    }
+    if (healed.financialDossier.realEstateAssets) {
+      healed.financialDossier.realEstateAssets = healed.financialDossier.realEstateAssets.map((a) => ({
+        ...a,
+        description: sanitizeAiVocabulary(a.description),
+      }));
+    }
+    if (healed.financialDossier.businessVentures) {
+      healed.financialDossier.businessVentures = healed.financialDossier.businessVentures.map((v) => ({
+        ...v,
+        description: sanitizeAiVocabulary(v.description),
+      }));
+    }
+    if (healed.financialDossier.wealthProgression) {
+      healed.financialDossier.wealthProgression = healed.financialDossier.wealthProgression.map((w) => ({
+        ...w,
+        milestoneDescription: sanitizeAiVocabulary(w.milestoneDescription),
+      }));
+    }
+  }
+
+  if (healed.philanthropy && Array.isArray(healed.philanthropy)) {
+    healed.philanthropy = healed.philanthropy.map((p) => ({
+      ...p,
+      description: sanitizeAiVocabulary(p.description),
+    }));
+  }
+
+  if (healed.controversies && Array.isArray(healed.controversies)) {
+    healed.controversies = healed.controversies.map((c) => ({
+      ...c,
+      resolutionOrOutcome: sanitizeAiVocabulary(c.resolutionOrOutcome),
+      impactAnalysis: sanitizeAiVocabulary(c.impactAnalysis),
+    }));
+  }
+
   // 8. Google FAQs Age & Net Worth Synchronization
   if (healed.faqs && Array.isArray(healed.faqs)) {
     healed.faqs = healed.faqs.map((f) => {

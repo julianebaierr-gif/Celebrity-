@@ -14,6 +14,9 @@ import FaqSection from "@/components/profile/FaqSection";
 import EditorialBadge from "@/components/profile/EditorialBadge";
 import EditorialBiography from "@/components/profile/EditorialBiography";
 import RelationshipSection from "@/components/profile/RelationshipSection";
+import FinancialDossierSection from "@/components/profile/FinancialDossierSection";
+import PhilanthropySection from "@/components/profile/PhilanthropySection";
+import ControversiesSection from "@/components/profile/ControversiesSection";
 import { ChevronRight, ExternalLink } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
@@ -206,6 +209,20 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
     { name: celebrity.name, url: `${baseUrl}/celebrity/${celebrity.slug}` },
   ];
 
+  const tocSections = [
+    { id: "fast-facts", title: "Official Facts & Executive Summary" },
+    { id: "financial-metrics", title: "Economic Impact & Financial Benchmarks" },
+    ...(celebrity.financialDossier ? [{ id: "financial-architecture", title: "Financial & Wealth Architecture" }] : []),
+    { id: "career-milestones", title: "Career Breakthroughs & Timeline" },
+    { id: "biographical-retrospective", title: "Full Biography & Career Analysis" },
+    { id: "filmography-credits", title: "Filmography & Box Office History" },
+    ...(celebrity.philanthropy && celebrity.philanthropy.length > 0 ? [{ id: "philanthropy-impact", title: "Philanthropy, Endowments & Causes" }] : []),
+    ...(celebrity.controversies && celebrity.controversies.length > 0 ? [{ id: "industry-resilience", title: "Legal History & Career Resilience" }] : []),
+    { id: "relationship-profile", title: "Relationship Timeline & Personal Life" },
+    { id: "frequently-asked-questions", title: "Frequently Asked Questions" },
+    { id: "editorial-attribution", title: "Photo Credits & Primary Sources" },
+  ];
+
   return (
     <>
       <JsonLd celebrity={celebrity} breadcrumbs={breadcrumbs} />
@@ -326,11 +343,17 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
           <QuickFactBox celebrity={celebrity} />
 
           {/* 2. Interactive Table of Contents */}
-          <TableOfContents />
+          <TableOfContents sections={tocSections} />
 
           {/* 3. Economic Impact & Comparison Metrics */}
           <ComparisonMetrics
             metrics={celebrity.metrics}
+            celebrityName={celebrity.name}
+          />
+
+          {/* 4. Financial & Wealth Architecture (Pillar 2) */}
+          <FinancialDossierSection
+            financialDossier={celebrity.financialDossier}
             celebrityName={celebrity.name}
           />
 
@@ -365,7 +388,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
             </figure>
           )}
 
-          {/* 4. Career Milestones & Breakthrough Timeline */}
+          {/* 5. Career Milestones & Breakthrough Timeline */}
           <section id="career-milestones" className="my-10 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
             <div className="mb-6">
               <h2 className="text-xl font-bold text-slate-900 tracking-tight">
@@ -391,32 +414,44 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
             </div>
           </section>
 
-          {/* 4. Full Biographical Analysis & Critical Retrospective */}
+          {/* 6. Full Biographical Analysis & Critical Retrospective */}
           <EditorialBiography
             celebrityName={celebrity.name}
             celebritySlug={celebrity.slug}
             sections={celebrity.biographySections}
           />
 
-          {/* 5. Complete Filmography Table */}
+          {/* 7. Complete Filmography Table */}
           <FilmographyTable
             filmography={celebrity.filmography}
             celebrityName={celebrity.name}
           />
 
-          {/* 6. Relationship Profile & Personal Life */}
+          {/* 8. Philanthropy, Endowments & Causes (Pillar 5) */}
+          <PhilanthropySection
+            philanthropy={celebrity.philanthropy}
+            celebrityName={celebrity.name}
+          />
+
+          {/* 9. Legal History, Industry Disputes & Resilience (Pillar 6) */}
+          <ControversiesSection
+            controversies={celebrity.controversies}
+            celebrityName={celebrity.name}
+          />
+
+          {/* 10. Relationship Profile & Personal Life */}
           <RelationshipSection
             relationshipProfile={celebrity.relationshipProfile}
             celebrityName={celebrity.name}
           />
 
-          {/* 7. Frequently Asked Questions (PAA Accordion) */}
+          {/* 11. Frequently Asked Questions (PAA Accordion - Pillar 7) */}
           <FaqSection
             faqs={celebrity.faqs}
             celebrityName={celebrity.name}
           />
 
-          {/* 8. Editorial Attributions & E-E-A-T Signature */}
+          {/* 12. Editorial Attributions & E-E-A-T Signature */}
           <EditorialBadge celebrity={celebrity} />
         </div>
       </article>

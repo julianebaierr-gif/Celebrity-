@@ -934,6 +934,9 @@ async function main() {
   let metrics = [];
   let filmography = dossier.realWorks.length >= 2 ? dossier.realWorks.slice(0, 6) : [];
   let biographySections = [];
+  let financialDossier = null;
+  let philanthropy = null;
+  let controversies = null;
   let quickFacts = {
     fullName: dossier.fullName,
     birthDate: dossier.birthDate,
@@ -1236,6 +1239,26 @@ Return STRICT JSON with the following structure:
       "paragraphs": ["[Paragraph 1 with specific facts]", "[Paragraph 2 with specific facts]"],
       "keyTakeaway": "[One-sentence factual takeaway]"
     }
+  ],
+  "financialDossier": {
+    "salaryMilestones": [
+      { "project": "[Project Title]", "year": 2020, "salary": "[e.g. $5.0 Million USD]", "boxOfficeOrBudget": "[Gross]", "notes": "[Factual deal mechanics]" }
+    ],
+    "realEstateAssets": [
+      { "property": "[Property Name]", "location": "[Location]", "purchasedYear": "[Year]", "purchasePrice": "[Price]", "currentEstimatedValue": "[Value]", "description": "[Factual details]" }
+    ],
+    "businessVentures": [
+      { "name": "[Company]", "role": "[Role]", "valuationOrRevenue": "[Valuation]", "description": "[Factual details]" }
+    ],
+    "wealthProgression": [
+      { "period": "[e.g. 2010s]", "estimatedNetWorth": "[Net Worth]", "milestoneDescription": "[Factual driver]" }
+    ]
+  },
+  "philanthropy": [
+    { "organizationOrCause": "[Cause/Foundation]", "focusArea": "[Focus]", "verifiedContribution": "[Contribution]", "description": "[Factual notes]" }
+  ],
+  "controversies": [
+    { "incident": "[Incident]", "year": "[Year]", "resolutionOrOutcome": "[Outcome]", "impactAnalysis": "[Impact and resilience]" }
   ]
 }
 `;
@@ -1251,6 +1274,9 @@ Return STRICT JSON with the following structure:
       if (parsed.careerMilestones && parsed.careerMilestones.length) careerMilestones = parsed.careerMilestones;
       if (parsed.relationshipProfile) relationshipProfile = parsed.relationshipProfile;
       if (parsed.biographySections && parsed.biographySections.length) biographySections = parsed.biographySections;
+      if (parsed.financialDossier) financialDossier = parsed.financialDossier;
+      if (parsed.philanthropy && parsed.philanthropy.length) philanthropy = parsed.philanthropy;
+      if (parsed.controversies && parsed.controversies.length) controversies = parsed.controversies;
       if (parsed.faqs && parsed.faqs.length) parsedFaqs = parsed.faqs;
       console.log(`[Gemini] ✓ Enriched full biographical profile with 100% human-crafted journalism via Gemini AI.`);
     }
@@ -1445,6 +1471,9 @@ Return STRICT JSON with the following structure:
     careerMilestones,
     filmography,
     relationshipProfile,
+    ...(financialDossier ? { financialDossier } : {}),
+    ...(philanthropy && philanthropy.length ? { philanthropy } : {}),
+    ...(controversies && controversies.length ? { controversies } : {}),
     faqs,
     sameAs: {
       imdb: `https://www.imdb.com/find/?q=${encodeURIComponent(targetCandidate.entity)}`,

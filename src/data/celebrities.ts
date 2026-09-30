@@ -1,4 +1,8 @@
 import { CELEBRITY_BIOGRAPHIES } from "./celebrity-biographies";
+import { CELEBRITY_FINANCIALS } from "./celebrity-financials";
+import { CELEBRITY_PHILANTHROPY } from "./celebrity-philanthropy";
+import { CELEBRITY_CONTROVERSIES } from "./celebrity-controversies";
+import { CELEBRITY_FAQS } from "./celebrity-faqs";
 
 export interface FilmRole {
   title: string;
@@ -47,6 +51,56 @@ export interface RelationshipProfile {
   partners?: RelationshipPartner[];
   datingHistorySummary: string;
 }
+export interface SalaryMilestone {
+  project: string;
+  year: number;
+  salary: string;
+  boxOfficeOrBudget?: string;
+  notes: string;
+}
+
+export interface RealEstateAsset {
+  property: string;
+  location: string;
+  purchasedYear: string;
+  purchasePrice: string;
+  currentEstimatedValue: string;
+  description: string;
+}
+
+export interface BusinessVenture {
+  name: string;
+  role: string;
+  valuationOrRevenue?: string;
+  description: string;
+}
+
+export interface WealthProgressionItem {
+  period: string;
+  estimatedNetWorth: string;
+  milestoneDescription: string;
+}
+
+export interface FinancialDossier {
+  salaryMilestones?: SalaryMilestone[];
+  realEstateAssets?: RealEstateAsset[];
+  businessVentures?: BusinessVenture[];
+  wealthProgression?: WealthProgressionItem[];
+}
+
+export interface PhilanthropyItem {
+  organizationOrCause: string;
+  focusArea: string;
+  verifiedContribution?: string;
+  description: string;
+}
+
+export interface ControversyItem {
+  incident: string;
+  year: string;
+  resolutionOrOutcome: string;
+  impactAnalysis: string;
+}
 
 export interface CelebrityProfile {
   slug: string;
@@ -90,6 +144,9 @@ export interface CelebrityProfile {
   }[];
   filmography: FilmRole[];
   relationshipProfile: RelationshipProfile;
+  financialDossier?: FinancialDossier;
+  philanthropy?: PhilanthropyItem[];
+  controversies?: ControversyItem[];
   faqs: FaqItem[];
   sameAs: {
     imdb?: string;
@@ -4146,6 +4203,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
   ...c,
   biographySections: CELEBRITY_BIOGRAPHIES[c.slug] || c.biographySections || [],
+  financialDossier: CELEBRITY_FINANCIALS[c.slug] || c.financialDossier,
+  philanthropy: CELEBRITY_PHILANTHROPY[c.slug] || c.philanthropy,
+  controversies: CELEBRITY_CONTROVERSIES[c.slug] || c.controversies,
+  faqs: CELEBRITY_FAQS[c.slug] || c.faqs,
 }));
 
 export function getCelebrityBySlug(slug: string): CelebrityProfile | undefined {
