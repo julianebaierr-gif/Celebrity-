@@ -2,8 +2,9 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Search, Menu, X } from "lucide-react";
+import { Menu, X, ArrowLeftRight } from "lucide-react";
 import CelebLedgerLogo from "@/components/ui/CelebLedgerLogo";
+import InstantSearch from "@/components/layout/InstantSearch";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-semibold text-slate-700 shrink-0">
+        <nav className="hidden md:flex items-center gap-5 lg:gap-7 text-sm font-semibold text-slate-700 shrink-0">
           <Link
             href="/"
             className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
@@ -29,6 +30,13 @@ export default function Navbar() {
             className="hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
           >
             All Celebrities
+          </Link>
+          <Link
+            href="/compare"
+            className="flex items-center gap-1.5 hover:text-amber-600 transition-colors whitespace-nowrap focus:outline-hidden"
+          >
+            <ArrowLeftRight className="h-3.5 w-3.5 text-amber-600" />
+            <span>Compare</span>
           </Link>
           <Link
             href="/blog"
@@ -52,15 +60,9 @@ export default function Navbar() {
 
         {/* Search Bar */}
         <div className="flex items-center gap-3">
-          <form action="/celebrities" method="GET" className="hidden sm:flex items-center relative w-48 md:w-56 lg:w-64 xl:w-72 shrink-0">
-            <input
-              type="text"
-              name="q"
-              placeholder="Search celebrities..."
-              className="w-full bg-slate-100 text-slate-900 placeholder-slate-400 text-xs rounded-full pl-9 pr-4 py-2 border border-slate-200 focus:outline-none focus:border-amber-500 focus:bg-white focus:ring-2 focus:ring-amber-500/20 transition"
-            />
-            <Search className="absolute left-3 h-3.5 w-3.5 text-slate-400 pointer-events-none" />
-          </form>
+          <div className="hidden sm:block w-48 md:w-56 lg:w-64 xl:w-72 shrink-0">
+            <InstantSearch placeholder="Quick search..." />
+          </div>
 
           {/* Mobile menu button */}
           <button
@@ -76,16 +78,10 @@ export default function Navbar() {
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
         <div className="md:hidden border-b border-slate-200 bg-white px-5 py-5 space-y-3.5 shadow-lg">
-          {/* Mobile search bar */}
-          <form action="/celebrities" method="GET" className="sm:hidden flex items-center relative w-full pb-2">
-            <input
-              type="text"
-              name="q"
-              placeholder="Search celebrities..."
-              className="w-full bg-slate-100 text-slate-900 placeholder-slate-400 text-xs rounded-full pl-9 pr-4 py-2.5 border border-slate-200 focus:outline-none focus:border-amber-500 focus:bg-white"
-            />
-            <Search className="absolute left-3 top-3 h-3.5 w-3.5 text-slate-400 pointer-events-none" />
-          </form>
+          {/* Mobile live search */}
+          <div className="sm:hidden pb-2">
+            <InstantSearch onSelect={() => setMobileMenuOpen(false)} />
+          </div>
           <Link
             href="/"
             onClick={() => setMobileMenuOpen(false)}
@@ -99,6 +95,14 @@ export default function Navbar() {
             className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
           >
             All Celebrities
+          </Link>
+          <Link
+            href="/compare"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
+          >
+            <ArrowLeftRight className="h-4 w-4 text-amber-600" />
+            <span>Compare Tool (Vs)</span>
           </Link>
           <Link
             href="/blog"

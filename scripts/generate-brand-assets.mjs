@@ -253,8 +253,8 @@ async function run() {
     <text x="600" y="470" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="20" fill="#CBD5E1">Official Celebrity Profiles • Financial Ledgers • Cultural Biographies</text>
 
     <!-- URL Tagline -->
-    <rect x="490" y="515" width="220" height="38" rx="19" fill="#F59E0B" fill-opacity="0.12" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.3" />
-    <text x="600" y="540" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="15" letter-spacing="0.05em" fill="#F59E0B">celebledger.com</text>
+    <rect x="475" y="515" width="250" height="38" rx="19" fill="#F59E0B" fill-opacity="0.12" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.3" />
+    <text x="600" y="540" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="15" letter-spacing="0.05em" fill="#F59E0B">www.celebledger.com</text>
   </svg>`;
 
   const ogBuffer = await sharp(Buffer.from(ogSvg))

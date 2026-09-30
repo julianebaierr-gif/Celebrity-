@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Editorial articles, film analysis, Hollywood financial investigations, and cultural retrospectives written by our editorial team.",
   alternates: {
-    canonical: "https://celebledger.com/blog",
+    canonical: "https://www.celebledger.com/blog",
   },
 };
 

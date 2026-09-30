@@ -528,7 +528,7 @@ export async function runDailyAutoPostPipeline(keyword: string): Promise<{
     slug: profile.slug,
     name: profile.name,
     category: profile.silo,
-    canonicalUrl: `https://celebledger.com/celebrity/${profile.slug}`,
+    canonicalUrl: `https://www.celebledger.com/celebrity/${profile.slug}`,
     publishedDate: profile.editorialMetadata?.publishedDate || new Date().toISOString().replace("T", " ").slice(0, 19),
     tags: profile.secondaryKeywords || [],
   });

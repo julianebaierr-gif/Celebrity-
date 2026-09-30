@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import CelebLedgerLogo from "@/components/ui/CelebLedgerLogo";
+import NewsletterBox from "@/components/layout/NewsletterBox";
+import { ArrowLeftRight } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,19 +10,49 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand Info */}
-          <div className="space-y-3.5 md:col-span-1">
+          <div className="space-y-4 md:col-span-1">
             <Link href="/" className="inline-block focus:outline-hidden">
               <CelebLedgerLogo size="sm" />
             </Link>
             <p className="text-slate-500 leading-relaxed text-xs">
               An authoritative journalistic archive for official celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.
             </p>
+            {/* Social Links */}
+            <div className="flex items-center gap-3 pt-1">
+              <a
+                href="https://x.com/CelebLedgerLive"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-8 w-8 rounded-lg bg-slate-200/80 hover:bg-slate-900 hover:text-white text-slate-700 flex items-center justify-center transition-colors font-bold text-xs"
+                aria-label="CelebLedger on X (Twitter)"
+              >
+                𝕏
+              </a>
+              <a
+                href="https://youtube.com/@CelebLedger"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-8 w-8 rounded-lg bg-slate-200/80 hover:bg-red-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors font-bold text-xs"
+                aria-label="CelebLedger on YouTube"
+              >
+                ▶
+              </a>
+              <a
+                href="https://instagram.com/CelebLedger"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-8 w-8 rounded-lg bg-slate-200/80 hover:bg-pink-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors font-bold text-xs"
+                aria-label="CelebLedger on Instagram"
+              >
+                📷
+              </a>
+            </div>
           </div>
 
           {/* Quick Navigation */}
           <div>
             <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
-              Directory & Articles
+              Directory &amp; Articles
             </h4>
             <ul className="space-y-2.5 text-slate-600">
               <li>
@@ -31,6 +63,12 @@ export default function Footer() {
               <li>
                 <Link href="/celebrities" className="hover:text-amber-600 transition-colors">
                   All Celebrities
+                </Link>
+              </li>
+              <li>
+                <Link href="/compare" className="hover:text-amber-600 transition-colors flex items-center gap-1.5 font-semibold text-slate-800">
+                  <ArrowLeftRight className="h-3 w-3 text-amber-600" />
+                  <span>Compare Tool (Vs)</span>
                 </Link>
               </li>
               <li>
@@ -54,7 +92,7 @@ export default function Footer() {
           {/* Editorial & Policies */}
           <div>
             <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
-              Editorial & Transparency
+              Editorial &amp; Transparency
             </h4>
             <ul className="space-y-2.5 text-slate-600">
               <li>
@@ -77,22 +115,17 @@ export default function Footer() {
                   Editorial Team
                 </Link>
               </li>
+              <li>
+                <Link href="/sitemap.xml" className="hover:text-amber-600 transition-colors">
+                  XML Sitemap
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Legal & About */}
-          <div>
-            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
-              About CelebLedger
-            </h4>
-            <p className="text-slate-500 leading-relaxed mb-3 text-xs">
-              Providing accurate biographical profiles and career documentation. All media and data referenced from public records, official agencies, and authorized archives.
-            </p>
-            <div className="flex items-center gap-3 text-slate-500 text-[11px]">
-              <Link href="/sitemap.xml" className="hover:underline text-amber-700">
-                XML Sitemap
-              </Link>
-            </div>
+          {/* Column 4: Newsletter Box */}
+          <div className="md:col-span-1">
+            <NewsletterBox />
           </div>
         </div>
 

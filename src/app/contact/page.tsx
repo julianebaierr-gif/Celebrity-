@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Direct contact directory for CelebLedger newsroom. Submit factual corrections, talent agency updates, media licensing inquiries, and reach our editorial bureaus in Los Angeles, New York, and London.",
   alternates: {
-    canonical: "https://celebledger.com/contact",
+    canonical: "https://www.celebledger.com/contact",
   },
   openGraph: {
     title: "Contact CelebLedger Newsroom & Fact-Checking Bureau",
     description:
       "Submit factual corrections, publicist inquiries, or reach our investigative editors. 24-48 hour turnaround on verifiable public record audits.",
-    url: "https://celebledger.com/contact",
+    url: "https://www.celebledger.com/contact",
     type: "website",
   },
 };

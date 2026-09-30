@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebLedger's certified biographical and financial archives.",
   alternates: {
-    canonical: "https://celebledger.com/about",
+    canonical: "https://www.celebledger.com/about",
   },
 };
 
@@ -17,29 +17,29 @@ const aboutJsonLd = {
   "@graph": [
     {
       "@type": "AboutPage",
-      "@id": "https://celebledger.com/about#webpage",
-      url: "https://celebledger.com/about",
+      "@id": "https://www.celebledger.com/about#webpage",
+      url: "https://www.celebledger.com/about",
       name: "About CelebLedger | Independent Entertainment Editorial & Biographical Archive",
       description:
         "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebLedger's certified biographical and financial archives.",
       inLanguage: "en-US",
       isPartOf: {
         "@type": "WebSite",
-        "@id": "https://celebledger.com/#website",
+        "@id": "https://www.celebledger.com/#website",
         name: "CelebLedger",
-        url: "https://celebledger.com",
+        url: "https://www.celebledger.com",
       },
       about: {
         "@type": "NewsMediaOrganization",
-        "@id": "https://celebledger.com/#organization",
+        "@id": "https://www.celebledger.com/#organization",
         name: "CelebLedger Publishing Inc.",
-        url: "https://celebledger.com",
-        publishingPrinciples: "https://celebledger.com/editorial-standards",
-        correctionsPolicy: "https://celebledger.com/editorial-standards#corrections-framework",
+        url: "https://www.celebledger.com",
+        publishingPrinciples: "https://www.celebledger.com/editorial-standards",
+        correctionsPolicy: "https://www.celebledger.com/editorial-standards#corrections-framework",
         employee: [
           {
             "@type": "Person",
-            "@id": "https://celebledger.com/about#author-marcus-vance",
+            "@id": "https://www.celebledger.com/about#author-marcus-vance",
             name: "Marcus Vance",
             jobTitle: "Senior Industry Writer",
             description:
@@ -58,7 +58,7 @@ const aboutJsonLd = {
           },
           {
             "@type": "Person",
-            "@id": "https://celebledger.com/about#author-elena-rostova",
+            "@id": "https://www.celebledger.com/about#author-elena-rostova",
             name: "Elena Rostova",
             jobTitle: "Chief Biographer",
             description:
@@ -77,7 +77,7 @@ const aboutJsonLd = {
           },
           {
             "@type": "Person",
-            "@id": "https://celebledger.com/about#author-sarah-jenkins",
+            "@id": "https://www.celebledger.com/about#author-sarah-jenkins",
             name: "Sarah Jenkins",
             jobTitle: "Fact-Checking Director",
             description:
@@ -96,7 +96,7 @@ const aboutJsonLd = {
           },
           {
             "@type": "Person",
-            "@id": "https://celebledger.com/about#author-david-thorne",
+            "@id": "https://www.celebledger.com/about#author-david-thorne",
             name: "David Thorne",
             jobTitle: "Entertainment Economist",
             description:

@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "Review CelebLedger's journalistic charter: our 4-tier sourcing hierarchy, financial forensics methodology, net worth calculation formula, right-of-reply protocol, and image licensing ethics.",
   alternates: {
-    canonical: "https://celebledger.com/editorial-standards",
+    canonical: "https://www.celebledger.com/editorial-standards",
   },
   openGraph: {
     title: "Editorial Standards & Verification Policy | CelebLedger",
     description:
       "Our uncompromising commitment to forensic verification, independent cultural research, and accurate financial estimations.",
-    url: "https://celebledger.com/editorial-standards",
+    url: "https://www.celebledger.com/editorial-standards",
     type: "website",
   },
 };

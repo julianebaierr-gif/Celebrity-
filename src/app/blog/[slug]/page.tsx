@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     metaDescription = (lastSpace !== -1 ? metaDescription.slice(0, lastSpace) : metaDescription) + ".";
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.celebledger.com";
   const postUrl = `${siteUrl}/blog/${slug}`;
   const imageUrl = post.coverImage.startsWith("http") ? post.coverImage : `${siteUrl}${post.coverImage}`;
 
@@ -185,7 +185,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.celebledger.com";
   const postUrl = `${siteUrl}/blog/${slug}`;
   const imageUrl = post.coverImage.startsWith("http") ? post.coverImage : `${siteUrl}${post.coverImage}`;
 

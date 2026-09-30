@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: "Celebrity Dossier Not Found | CelebLedger" };
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.celebledger.com";
   const canonicalUrl = `${baseUrl}/celebrity/${celebrity.slug}`;
 
   // Google SERP Strict Title Optimization (Target: 50-58 characters maximum)
@@ -206,7 +206,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.celebledger.com";
   const breadcrumbs = [
     { name: "Home", url: `${baseUrl}` },
     { name: "All Celebrities", url: `${baseUrl}/celebrities` },

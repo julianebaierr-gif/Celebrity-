@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Official privacy policy of CelebLedger detailing how we safeguard user data, uphold GDPR and CCPA/CPRA standards, enforce cookie transparency, and protect public archive integrity.",
   alternates: {
-    canonical: "https://celebledger.com/privacy",
+    canonical: "https://www.celebledger.com/privacy",
   },
   openGraph: {
     title: "Privacy Policy | CelebLedger",
     description:
       "Our data protection charter, user rights under GDPR/CCPA, cookie policies, and transparent information practices.",
-    url: "https://celebledger.com/privacy",
+    url: "https://www.celebledger.com/privacy",
     type: "website",
   },
 };

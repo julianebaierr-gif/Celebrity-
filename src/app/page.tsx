@@ -9,13 +9,14 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
+import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "CelebLedger | Celebrity Financial Profiles, Net Worth & Career Archives",
   description:
     "Browse official celebrity profiles, career timelines, filmography records, net worth analysis, and personal biographies.",
   alternates: {
-    canonical: "https://celebledger.com",
+    canonical: "https://www.celebledger.com",
   },
 };
 
@@ -44,8 +45,16 @@ export default function HomePage() {
     .filter((c) => c.quickFacts?.netWorth?.includes("Million") || c.quickFacts?.netWorth?.includes("Billion"))
     .slice(0, 4);
 
+  const itemList = allCelebrities.slice(0, 20).map((c) => ({
+    name: c.name,
+    url: `https://www.celebledger.com/celebrity/${c.slug}`,
+    description: c.executiveSummary,
+  }));
+
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
+    <>
+      <JsonLd isHomePage={true} itemList={itemList} />
+      <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
       {/* Hero Magazine Feature Section */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 pb-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
@@ -218,7 +227,7 @@ export default function HomePage() {
 
       {/* Latest Celebrity Stories Grid */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
-        <div className="flex items-center justify-between mb-8 pb-3 border-b border-slate-200">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 pb-4 border-b border-slate-200">
           <div>
             <span className="text-xs font-bold text-amber-800 uppercase tracking-wider block mb-1">
               Celebrity Biographies
@@ -227,9 +236,46 @@ export default function HomePage() {
               Latest Profiles
             </h2>
           </div>
-          <Link href="/celebrities" className="text-xs font-bold text-amber-700 hover:underline">
-            View All ({allCelebrities.length})
-          </Link>
+
+          {/* Quick Category Navigation Tabs */}
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+            <Link
+              href="/celebrities"
+              className="px-3 py-1 rounded-full text-xs font-bold bg-slate-900 text-white hover:bg-slate-800 transition"
+            >
+              All
+            </Link>
+            <Link
+              href="/celebrities?category=actors"
+              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
+            >
+              Actors
+            </Link>
+            <Link
+              href="/celebrities?category=music"
+              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
+            >
+              Musicians
+            </Link>
+            <Link
+              href="/celebrities?category=sports"
+              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
+            >
+              Athletes
+            </Link>
+            <Link
+              href="/celebrities?category=creators"
+              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
+            >
+              Creators
+            </Link>
+            <Link
+              href="/celebrities?category=legends"
+              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
+            >
+              Legends
+            </Link>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -430,5 +476,6 @@ export default function HomePage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

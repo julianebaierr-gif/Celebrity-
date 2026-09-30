@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://celebledger.com"),
+  metadataBase: new URL("https://www.celebledger.com"),
   title: {
     default: "CelebLedger | Official Celebrity Profiles & Financial Archives",
     template: "%s",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "hollywood intel",
     "entertainment research"
   ],
-  authors: [{ name: "CelebLedger Editorial Board", url: "https://celebledger.com/about" }],
+  authors: [{ name: "CelebLedger Editorial Board", url: "https://www.celebledger.com/about" }],
   creator: "CelebLedger Editorial Network",
   publisher: "CelebLedger Publishing Inc.",
   robots: {
@@ -41,6 +41,12 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "google-site-verification-pending",
+    other: {
+      "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION || "bing-verification-pending",
     },
   },
   icons: {
@@ -60,7 +66,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://celebledger.com",
+    url: "https://www.celebledger.com",
     siteName: "CelebLedger",
     title: "CelebLedger | Official Celebrity Profiles & Financial Archives",
     description: "The authoritative entertainment intelligence portal. Confirmed celebrity net worth, relationship records, and filmographies.",

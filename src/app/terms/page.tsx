@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Review the terms governing access to CelebLedger's public biographical dossiers, intellectual property rights, financial net worth disclaimers, anti-scraping policies, and statutory DMCA copyright notice protocols.",
   alternates: {
-    canonical: "https://celebledger.com/terms",
+    canonical: "https://www.celebledger.com/terms",
   },
   openGraph: {
     title: "Terms of Use & Service | CelebLedger",
     description:
       "Legal terms of service, intellectual property ownership, financial disclaimer, and DMCA copyright enforcement procedures.",
-    url: "https://celebledger.com/terms",
+    url: "https://www.celebledger.com/terms",
     type: "website",
   },
 };

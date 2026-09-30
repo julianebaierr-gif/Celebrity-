@@ -4,14 +4,21 @@ import { CelebrityProfile } from "@/data/celebrities";
 interface JsonLdProps {
   celebrity?: CelebrityProfile;
   breadcrumbs?: { name: string; url: string }[];
+  itemList?: { name: string; url: string; description?: string }[];
+  isHomePage?: boolean;
 }
 
-export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
+export default function JsonLd({
+  celebrity,
+  breadcrumbs,
+  itemList,
+  isHomePage = false,
+}: JsonLdProps) {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.celebledger.com";
 
   const schemas: object[] = [];
 
-  // WebSite Schema with SearchAction
+  // 1. WebSite Schema with SearchAction
   schemas.push({
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -30,7 +37,59 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
     },
   });
 
-  // Breadcrumbs Schema
+  // 2. Primary NewsMediaOrganization Schema (Homepage & Brand Knowledge Graph)
+  if (isHomePage || !celebrity) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      name: "CelebLedger Publishing Inc.",
+      alternateName: ["CelebLedger", "The Celebrity Ledger"],
+      url: baseUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${baseUrl}/favicon-512x512.png`,
+        width: 512,
+        height: 512,
+      },
+      sameAs: [
+        "https://x.com/CelebLedgerLive",
+        "https://www.youtube.com/@CelebLedger",
+        "https://www.instagram.com/CelebLedger"
+      ],
+      publishingPrinciples: `${baseUrl}/editorial-standards`,
+      correctionsPolicy: `${baseUrl}/editorial-standards#corrections`,
+      diversityPolicy: `${baseUrl}/editorial-standards#diversity`,
+      ethicsPolicy: `${baseUrl}/editorial-standards#ethics`,
+      description:
+        "The authoritative entertainment economic intelligence portal. Verified celebrity net worth, contract evaluations, relationship archives, and biographical records.",
+      foundingDate: "2024",
+    });
+  }
+
+  // 3. CollectionPage & ItemList Schema (For Homepage / Celebrities Index)
+  if (itemList && itemList.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: isHomePage
+        ? "CelebLedger Featured Celebrity Dossiers & Economic Ledger"
+        : "CelebLedger Complete Celebrity Directory",
+      url: isHomePage ? baseUrl : `${baseUrl}/celebrities`,
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: itemList.length,
+        itemListElement: itemList.map((item, idx) => ({
+          "@type": "ListItem",
+          position: idx + 1,
+          url: item.url,
+          name: item.name,
+          description: item.description,
+        })),
+      },
+    });
+  }
+
+  // 4. Breadcrumbs Schema
   if (breadcrumbs && breadcrumbs.length > 0) {
     schemas.push({
       "@context": "https://schema.org",
