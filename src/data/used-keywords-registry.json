@@ -1,7 +1,7 @@
 {
   "description": "CelebEdge Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 21,
-  "lastUpdated": "2026-09-30T10:07:21.901Z",
+  "totalLocked": 22,
+  "lastUpdated": "2026-09-30T11:16:42.923Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -311,6 +311,20 @@
         "robert redford age",
         "robert redford career",
         "robert redford 2026"
+      ]
+    },
+    {
+      "keyword": "david harbour",
+      "slug": "david-harbour",
+      "name": "David Harbour",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/david-harbour",
+      "publishedAt": "2026-09-30 11:16:42",
+      "associatedTags": [
+        "david harbour net worth",
+        "david harbour age",
+        "david harbour career",
+        "david harbour 2026"
       ]
     }
   ],

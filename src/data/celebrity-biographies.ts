@@ -1047,4 +1047,6 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   }
 ],
 
+  "david-harbour": [],
+
 };

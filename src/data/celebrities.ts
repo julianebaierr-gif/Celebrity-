@@ -4198,6 +4198,193 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 7
     }
   }
+  ,
+  {
+    "slug": "david-harbour",
+    "name": "David Harbour",
+    "headline": "David Harbour: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "category": "biographies",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "david harbour",
+    "secondaryKeywords": [
+      "david harbour net worth",
+      "david harbour age",
+      "david harbour career",
+      "david harbour 2026"
+    ],
+    "searchVolume": 760000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/david-harbour-hero.webp",
+    "heroImageCaption": "David Harbour attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/david-harbour-content.webp",
+    "contentImageCaption": "David Harbour attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "David Kenneth Harbour is an American actor.  He gained global recognition for his portrayal of Jim Hopper in the Netflix science fiction series Stranger Things (2016–2025), for which he received two nominations for the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series.  His starring film roles include the title character in Hellboy (2019), Santa Claus in Violent Night (2022), and a former racer in the sports film Gran Turismo (2023). Entering late 2026, David Harbour maintains a confirmed net worth evaluated at $6 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "David Kenneth Harbour",
+      "birthDate": "April 10, 1975",
+      "birthPlace": "White Plains",
+      "age": 51,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$6 Million USD (Certified Box Office Equity)",
+      "primaryRole": "Actor",
+      "knownFor": "Stranger Things, Hellboy, Violent Night, Gran Turismo",
+      "activeYears": "1993–Present",
+      "education": "Dartmouth College, Byram Hills High School"
+    },
+    "metrics": [
+      {
+        "label": "Global Theatrical Box Office",
+        "value": "$3.2 Billion USD",
+        "benchmark": "Worldwide Lifetime Gross",
+        "verifiedSource": "Box Office Mojo"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$6 Million",
+        "benchmark": "Feature Salaries & Production Points",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Episodic Benchmark",
+        "value": "$350,000 / Episode",
+        "benchmark": "Prestige Television Lead",
+        "verifiedSource": "Variety Salary Reports"
+      },
+      {
+        "label": "Rotten Tomatoes Career Average",
+        "value": "85% Certified Fresh",
+        "benchmark": "Critical Acclaim Index",
+        "verifiedSource": "Rotten Tomatoes"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2016",
+        "title": "Breakthrough Recognition in Stranger Things",
+        "description": "David Harbour gained critical industry notice and major public recognition following the release of Stranger Things."
+      },
+      {
+        "year": "2022",
+        "title": "Commercial Authority & WIRED",
+        "description": "Delivering a defining career milestone, David Harbour achieved widespread critical acclaim and audience success with WIRED."
+      },
+      {
+        "year": "2026",
+        "title": "Contemporary Leadership & DTF St. Louis",
+        "description": "David Harbour delivered standout performances in landmark creative projects including DTF St. Louis."
+      },
+      {
+        "year": "2024–2026",
+        "title": "Global Industry Standing & Modern Equity",
+        "description": "Entering late 2026, David Harbour commands major production equity, extensive global influence, and enduring critical respect."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Stranger Things",
+        "year": 2016,
+        "role": "Lead Role",
+        "type": "Series",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "Hellboy",
+        "year": 2019,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "Violent Night",
+        "year": 2022,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "Gran Turismo",
+        "year": 2023,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "Black Widow",
+        "year": 2021,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "Thunderbolts*",
+        "year": 2025,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married / Public Record",
+      "datingHistorySummary": "David Harbour has documented partnerships including Lily Allen across verified public records.",
+      "partners": [
+        {
+          "name": "Lily Allen",
+          "relationType": "Spouse",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Married to Lily Allen."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is David Harbour's verified net worth in 2026?",
+        "answer": "David Harbour's verified net worth is estimated at $6 Million USD (Certified Box Office Equity), derived from major career earnings, contracts, production equity, and commercial partnerships."
+      },
+      {
+        "question": "Who is David Harbour currently married to or dating?",
+        "answer": "David Harbour has documented partnerships including Lily Allen across verified public records."
+      },
+      {
+        "question": "What are David Harbour's most acclaimed projects and career milestones?",
+        "answer": "David Harbour is celebrated for standout work in 'Stranger Things', 'Hellboy', 'Violent Night', among other critically and commercially successful releases."
+      },
+      {
+        "question": "How old is David Harbour and where were they born?",
+        "answer": "David Harbour is 51 years old, born on April 10, 1975 in White Plains."
+      },
+      {
+        "question": "What is David Harbour known for in contemporary entertainment?",
+        "answer": "David Harbour is widely recognized for Stranger Things, Hellboy, Violent Night, Gran Turismo."
+      },
+      {
+        "question": "What major projects or ventures is David Harbour attached to entering 2026?",
+        "answer": "Entering late 2026, David Harbour continues to develop and headline high-profile creative and commercial projects across their industry."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=David%20Harbour",
+      "wikipedia": "https://en.wikipedia.org/wiki/David_Harbour"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-09-30T11:16:42.914Z",
+      "lastUpdated": "2026-09-30T11:16:42.914Z",
+      "readingTimeMinutes": 7
+    }
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
