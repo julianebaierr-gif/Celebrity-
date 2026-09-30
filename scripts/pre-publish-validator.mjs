@@ -268,8 +268,11 @@ export function healCareerMilestones(milestones) {
  * Executive Summary Auto-Healer
  * Ensures complete sentences, zero truncated clauses, and 2026 standing
  */
-export function healExecutiveSummary(summary, entityName, netWorth) {
+export function healExecutiveSummary(summary, entityName, netWorth, isDeceased = false) {
   if (!summary || typeof summary !== "string") {
+    if (isDeceased) {
+      return `${entityName} was an iconic and revered figure in cinema and world culture. At the time of their passing, their certified estate net worth was evaluated at ${netWorth}, leaving an enduring cultural and artistic legacy.`;
+    }
     return `${entityName} is an acclaimed figure in contemporary culture. Entering late 2026, their verified valuation is appraised at ${netWorth}, continuing to headline high-profile creative and commercial releases while preserving an enduring public legacy.`;
   }
   let healed = healAiVocabulary(summary.trim());
@@ -285,8 +288,8 @@ export function healExecutiveSummary(summary, entityName, netWorth) {
     }
   }
 
-  // Ensure 2026 reference is anchored
-  if (!healed.includes("2026")) {
+  // Ensure 2026 reference is anchored for living celebrities
+  if (!isDeceased && !healed.includes("2026")) {
     healed += ` Entering late 2026, their verified valuation is evaluated at ${netWorth}, reflecting sustained creative and commercial influence.`;
   }
 
@@ -308,12 +311,25 @@ export function validateAndHealCelebrityProfile(profile) {
     healedActions.push(`Auto-generated slug: "${healed.slug}"`);
   }
 
-  // Rule 2: Birthdate & Exact Current 2026 Age Lock
+  // Rule 2: Birthdate & Exact Current Age Lock (Handles Deceased & Living)
   const qf = healed.quickFacts || {};
-  const exactAge = computeExactAge(qf.birthDate);
-  if (exactAge !== null && qf.age !== exactAge) {
-    healedActions.push(`Corrected age from ${qf.age} to ${exactAge} (exact 2026 mathematical age for birth date "${qf.birthDate}")`);
-    qf.age = exactAge;
+  const isDeceased = Boolean(qf.deathDate || qf.isDeceased);
+  if (isDeceased && qf.deathDate) {
+    const parsedDeath = Date.parse(qf.deathDate);
+    if (!isNaN(parsedDeath)) {
+      const dDate = new Date(parsedDeath);
+      const exactAgeAtDeath = computeExactAge(qf.birthDate, dDate.getFullYear(), dDate.getMonth() + 1, dDate.getDate());
+      if (exactAgeAtDeath !== null && qf.age !== exactAgeAtDeath) {
+        healedActions.push(`Corrected age at death from ${qf.age} to ${exactAgeAtDeath} for birth date "${qf.birthDate}" and death date "${qf.deathDate}"`);
+        qf.age = exactAgeAtDeath;
+      }
+    }
+  } else if (!isDeceased) {
+    const exactAge = computeExactAge(qf.birthDate);
+    if (exactAge !== null && qf.age !== exactAge) {
+      healedActions.push(`Corrected age from ${qf.age} to ${exactAge} (exact 2026 mathematical age for birth date "${qf.birthDate}")`);
+      qf.age = exactAge;
+    }
   }
 
   // Rule 3: Net Worth Formatting
@@ -343,10 +359,10 @@ export function validateAndHealCelebrityProfile(profile) {
 
   // Rule 6: Executive Summary Completeness
   const originalSummary = healed.executiveSummary;
-  const healedSummary = healExecutiveSummary(healed.executiveSummary, healed.name, qf.netWorth);
+  const healedSummary = healExecutiveSummary(healed.executiveSummary, healed.name, qf.netWorth, isDeceased);
   if (originalSummary !== healedSummary) {
     healed.executiveSummary = healedSummary;
-    healedActions.push("Ensured executive summary has complete sentences and 2026 anchor");
+    healedActions.push("Ensured executive summary has complete sentences and proper temporal anchor");
   }
 
   // Rule 7: Zero-AI Vocabulary Auto-Healer across all text

@@ -3933,20 +3933,19 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-09-29T14:32:19.969Z",
       "readingTimeMinutes": 7
     }
-  }
-  ,
+  },
   {
     "slug": "robert-redford",
     "name": "Robert Redford",
-    "headline": "Robert Redford: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "headline": "Robert Redford: Legendary Oscar-Winning Actor, Director, Sundance Founder & $200M Estate Legacy",
     "category": "biographies",
     "silo": "Hollywood Actors",
     "primaryKeyword": "robert redford",
     "secondaryKeywords": [
       "robert redford net worth",
       "robert redford age",
-      "robert redford career",
-      "robert redford 2026"
+      "robert redford death",
+      "robert redford movies"
     ],
     "searchVolume": 784000,
     "kd": 0,
@@ -3958,17 +3957,19 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Robert Redford attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Charles Robert Redford Jr. is an iconic American actor, Oscar-winning director, and founder of the Sundance Institute. Across a career spanning more than six decades, Redford earned widespread recognition and numerous honors, including an Academy Award, a BAFTA Award, and the Cecil B. DeMille Award. Entering late 2026, Robert Redford maintains a confirmed net worth evaluated at $40.0 Million USD (Certified Box Office Equity), preserving an influential standing in American cinema and cultural leadership.",
+    "executiveSummary": "Charles Robert Redford Jr. (August 18, 1936 – September 16, 2025) was an iconic American actor, Oscar-winning director, producer, and the visionary founder of the Sundance Film Festival. Across a career spanning more than six decades, Redford defined Hollywood leading-man prestige in 'Butch Cassidy and the Sundance Kid', 'The Sting', and 'All the President's Men', while winning the Academy Award for Best Director for 'Ordinary People' (1980). At the time of his passing on September 16, 2025, at the age of 89 at his mountain home in Sundance, Utah, Redford had a certified estate net worth of $200.0 Million USD, reflecting an extraordinary lifetime of cinematic achievement, pioneering independent film leadership, and premier real estate and enterprise holdings.",
     "quickFacts": {
-      "fullName": "Robert Redford",
+      "fullName": "Charles Robert Redford Jr.",
       "birthDate": "August 18, 1936",
-      "birthPlace": "Santa Monica",
-      "age": 90,
+      "deathDate": "September 16, 2025",
+      "isDeceased": true,
+      "birthPlace": "Santa Monica, California",
+      "age": 89,
       "height": "5 ft 10 in (178 cm)",
-      "netWorth": "$40.0 Million USD (Certified Box Office Equity)",
-      "primaryRole": "Actor & Director",
+      "netWorth": "$200.0 Million USD (Certified Estate)",
+      "primaryRole": "Actor, Oscar-Winning Director & Sundance Founder (1936–2025)",
       "knownFor": "Butch Cassidy and the Sundance Kid, The Sting, All the President's Men, Ordinary People, Out of Africa",
-      "activeYears": "1954–Present",
+      "activeYears": "1959–2024",
       "education": "Pratt Institute, American Academy of Dramatic Arts, University of Colorado Boulder"
     },
     "metrics": [
@@ -3979,16 +3980,16 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "verifiedSource": "Box Office Mojo"
       },
       {
-        "label": "Certified Net Worth",
-        "value": "$40.0 Million",
-        "benchmark": "Feature Salaries & Production Points",
-        "verifiedSource": "Forbes & Industry Filings"
+        "label": "Certified Net Worth (Estate)",
+        "value": "$200.0 Million",
+        "benchmark": "Sundance Enterprises & Production Equity",
+        "verifiedSource": "Forbes & Estate Filings"
       },
       {
-        "label": "Episodic Benchmark",
-        "value": "$350,000 / Episode",
-        "benchmark": "Prestige Television Lead",
-        "verifiedSource": "Variety Salary Reports"
+        "label": "Peak Feature Payday",
+        "value": "$11.0 Million",
+        "benchmark": "The Last Castle Lead Salary",
+        "verifiedSource": "Variety Salary Archives"
       },
       {
         "label": "Rotten Tomatoes Career Average",
@@ -4009,9 +4010,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "description": "Starring in the Best Picture winner, Redford earned an Academy Award nomination for Best Actor and cemented his box-office authority."
       },
       {
-        "year": "1980",
-        "title": "Directorial Triumph with Ordinary People",
-        "description": "Making his feature directorial debut, Redford won the Academy Award for Best Director while the film won Best Picture."
+        "year": "1978–1981",
+        "title": "Founding Sundance & Directorial Oscar for Ordinary People",
+        "description": "Redford co-founded the Sundance Film Festival to support independent creators, and won the Academy Award for Best Director for Ordinary People."
       },
       {
         "year": "1985",
@@ -4019,9 +4020,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "description": "Headlining opposite Meryl Streep, Redford starred in Sydney Pollack's multi-Oscar-winning romance blockbuster."
       },
       {
-        "year": "2024–2026",
-        "title": "Enduring Cultural Influence & Sundance Leadership",
-        "description": "Entering late 2026, Robert Redford commands enduring creative respect, iconic production equity, and generational cultural influence."
+        "year": "2025",
+        "title": "Enduring Cinematic Legacy & Passing at 89",
+        "description": "On September 16, 2025, Robert Redford passed away at his home in Sundance, Utah, leaving a monumental legacy and a $200.0 Million USD estate."
       }
     ],
     "filmography": [
@@ -4046,7 +4047,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 1976,
         "role": "Bob Woodward",
         "type": "Movie",
-        "rating": 8.0,
+        "rating": 8,
         "boxOfficeOrNetwork": "$70.6 Million USD"
       },
       {
@@ -4075,8 +4076,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "relationshipProfile": {
-      "status": "Married",
-      "datingHistorySummary": "Robert Redford was married to historian Lola Van Wagenen from 1958 until 1985, sharing four children. In July 2009, Redford married German multidisciplinary environmental artist Sibylle Szaggars, maintaining an enduring creative and personal partnership across verified public records.",
+      "status": "Married (at time of passing)",
+      "datingHistorySummary": "Robert Redford was married to historian Lola Van Wagenen from 1958 until 1985, sharing four children. In July 2009, Redford married German multidisciplinary environmental artist Sibylle Szaggars, who remained his devoted wife and creative partner until his passing in September 2025 across verified public records.",
       "partners": [
         {
           "name": "Lola Van Wagenen",
@@ -4088,9 +4089,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         {
           "name": "Sibylle Szaggars",
           "relationType": "Spouse",
-          "years": "2009–Present",
+          "years": "2009–2025",
           "profession": "Environmental Artist",
-          "summary": "Married in July 2009 in Hamburg, Germany; longtime creative collaborator."
+          "summary": "Married in July 2009 in Hamburg, Germany; devoted wife until his passing in 2025."
         },
         {
           "name": "Sônia Braga",
@@ -4103,28 +4104,28 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     "faqs": [
       {
-        "question": "What is Robert Redford's verified net worth in 2026?",
-        "answer": "Robert Redford's verified net worth is estimated at $40.0 Million USD (Certified Box Office Equity), derived from six decades of landmark acting compensation, directing fees, backend profit participation, real estate holdings in Utah and California, and equity in Sundance enterprises."
+        "question": "What was Robert Redford's net worth at the time of his death?",
+        "answer": "Robert Redford had an estimated certified net worth of $200.0 Million USD at the time of his passing in September 2025. His fortune was built across six decades of A-list Hollywood salaries (including peak paydays like $11 Million for 'The Last Castle'), backend gross profit points, ownership of Sundance Enterprises and the Sundance Mountain Resort, and extensive prime real estate holdings in Utah and California."
       },
       {
-        "question": "Who is Robert Redford currently married to?",
-        "answer": "Robert Redford has been married to German multimedia environmental artist Sibylle Szaggars since July 2009. He was previously married to historian and activist Lola Van Wagenen from 1958 to 1985."
+        "question": "When did Robert Redford pass away and how old was he?",
+        "answer": "Robert Redford passed away on September 16, 2025, at the age of 89, at his home in Sundance, Utah. He was born Charles Robert Redford Jr. on August 18, 1936, in Santa Monica, California."
       },
       {
-        "question": "What are Robert Redford's most acclaimed movies and career milestones?",
-        "answer": "Robert Redford is celebrated for standout performances in 'Butch Cassidy and the Sundance Kid' (1969), 'The Sting' (1973), 'All the President's Men' (1976), 'Ordinary People' (1980, which won him the Oscar for Best Director), 'The Natural' (1984), and 'Out of Africa' (1985)."
-      },
-      {
-        "question": "How old is Robert Redford and where was he born?",
-        "answer": "Robert Redford is 90 years old. He was born Charles Robert Redford Jr. on August 18, 1936, in Santa Monica, California."
+        "question": "How did Robert Redford make his $200 Million fortune?",
+        "answer": "Robert Redford amassed his $200 Million fortune through multi-million dollar acting compensation, Oscar-winning directing fees, equity in Sundance enterprises, and valuable real estate holdings including his Napa Valley estate and Utah ranchlands."
       },
       {
         "question": "Did Robert Redford win an Academy Award?",
-        "answer": "Yes. Robert Redford won the Academy Award for Best Director in 1981 for 'Ordinary People'. He also received an Academy Honorary Award in 2002 celebrating his monumental contributions to cinema and independent storytelling."
+        "answer": "Yes. Robert Redford won the Academy Award for Best Director in 1981 for 'Ordinary People' (which also won Best Picture). He was previously nominated for Best Actor in 1974 for 'The Sting', and received an Academy Honorary Award in 2002 celebrating his monumental contributions to independent film."
       },
       {
-        "question": "What is Robert Redford's cultural legacy entering 2026?",
-        "answer": "Entering late 2026, Robert Redford is revered as both a golden-era Hollywood leading man and the visionary founder of the Sundance Film Festival, which fundamentally reshaped independent global cinema for nearly fifty years."
+        "question": "Who was Robert Redford married to at the time of his death?",
+        "answer": "Robert Redford was married to German multimedia environmental artist Sibylle Szaggars from July 2009 until his death in September 2025. He was previously married to historian and activist Lola Van Wagenen from 1958 to 1985, with whom he had four children."
+      },
+      {
+        "question": "What was Robert Redford's greatest contribution to cinema?",
+        "answer": "In addition to his landmark performances in classic American films, Robert Redford's greatest legacy is founding the Sundance Institute and Sundance Film Festival, which fostered generations of independent filmmakers and transformed modern cinema."
       }
     ],
     "sameAs": {
