@@ -1047,6 +1047,38 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   }
 ],
 
-  "david-harbour": [],
-
+  "david-harbour": [
+    {
+      "heading": "Formative Theater Roots, Dartmouth Education & Broadway Tony Acclaim (1975–2015)",
+      "paragraphs": [
+        "David Kenneth Harbour was born on April 10, 1975, in White Plains, New York, raised in an environment anchored by residential real estate professionals. Harbour pursued formal performing arts training at Dartmouth College in Hanover, New Hampshire, where he double-majored in drama and Italian, graduating in 1997. Following college, he immersed himself in the competitive New York theatrical circuit, debuting professionally on Broadway in 1999 in the revival of 'The Rainmaker'.",
+        "Over the subsequent decade, Harbour established an esteemed reputation as a formidable stage actor, culminating in a 2005 Tony Award nomination for Best Featured Actor in a Play for his searing portrayal of Nick in Edward Albee's 'Who's Afraid of Virginia Woolf?'. Parallel to his theater achievements, Harbour worked steadily as a character actor across major Hollywood productions, earning credits in Ang Lee's 'Brokeback Mountain' (2005), the James Bond installment 'Quantum of Solace' (2008), Sam Mendes' 'Revolutionary Road' (2008), and HBO's 'The Newsroom'."
+      ],
+      "keyTakeaway": "Dartmouth performing arts training and a 2005 Broadway Tony nomination established Harbour as an elite dramatic talent."
+    },
+    {
+      "heading": "The Stranger Things Breakthrough & Cultural Stardom as Jim Hopper (2016–2020)",
+      "paragraphs": [
+        "In 2016, Harbour's professional trajectory altered permanently when the Duffer Brothers cast him as Police Chief Jim Hopper in Netflix's supernatural series 'Stranger Things'. Anchoring the emotional center of the small town of Hawkins, Indiana, Harbour transformed the gruff, traumatized investigator into one of contemporary television's most beloved father figures, earning two Primetime Emmy Award nominations for Outstanding Supporting Actor in a Drama Series and winning a Critics' Choice Television Award.",
+        "The worldwide cultural sensation generated unprecedented commercial leverage for Harbour. Starting with an episodic fee of $80,000 during the first two seasons, Harbour led cast renegotiations ahead of Season 3, securing $350,000 per episode. His impassioned acceptance speech at the 2017 Screen Actors Guild Awards, celebrating artistic unity when the cast took home Outstanding Performance by an Ensemble in a Drama Series, further cemented his cultural stature as an authentic Hollywood voice."
+      ],
+      "keyTakeaway": "Portraying Jim Hopper in Stranger Things earned two Emmy nominations and elevated Harbour to global household recognition."
+    },
+    {
+      "heading": "Marvel Cinematic Universe, Violent Night & Leading Man Range (2021–2025)",
+      "paragraphs": [
+        "Leveraging his television stardom into theatrical features, Harbour joined the Marvel Cinematic Universe in 2021 as Alexei Shostakov, the boisterous super-soldier known as the Red Guardian, in Cate Shortland's 'Black Widow' alongside Scarlett Johansson and Florence Pugh. His comedic timing and emotional vulnerability earned widespread praise, leading Marvel Studios to sign him as a central headliner for the ensemble action blockbuster 'Thunderbolts*' (2025).",
+        "Harbour demonstrated exceptional standalone box office drawing power in 2022 starring as an authentic, battle-weary Santa Claus in Universal Pictures' holiday action-comedy 'Violent Night'. Produced on a modest $20 Million budget, the film grossed $76.6 Million worldwide, establishing a lucrative holiday action franchise. He subsequently headlined Sony Pictures' sports adaptation 'Gran Turismo' (2023) as veteran trainer Jack Salter, grossing $122 Million globally and proving his commanding versatility across action, comedy, and sports drama."
+      ],
+      "keyTakeaway": "Headlining Black Widow, Violent Night ($76M), and Gran Turismo ($122M) solidified Harbour as a bankable Hollywood leading man."
+    },
+    {
+      "heading": "Personal Resilience, Architectural Showcase, Marriage & 2026 Standing",
+      "paragraphs": [
+        "Parallel to his creative accomplishments, Harbour has earned widespread admiration for his candor regarding personal challenges. Diagnosed with bipolar disorder at age 25, Harbour has maintained continuous sobriety for more than two decades, utilizing his platform to dismantle public stigma surrounding psychiatric health and addiction recovery through national appearances and panel discussions with mental health organizations.",
+        "In September 2020, Harbour married British pop singer-songwriter Lily Allen in Las Vegas, presided over by an Elvis impersonator. The couple shares a widely celebrated multi-story townhouse in Carroll Gardens, Brooklyn, highlighted in Architectural Digest for its whimsical interior design. Entering late 2026, Harbour commands a verified net worth of $6.0M to $8.0M USD, underpinned by a $7.0 Million package ($875,000 per episode) for the fifth and final season of 'Stranger Things' and an expanding slate of studio feature films."
+      ],
+      "keyTakeaway": "A $7M final season package for Stranger Things, verified $6M–$8M net worth, and open advocacy highlight his 2026 standing."
+    }
+  ],
 };

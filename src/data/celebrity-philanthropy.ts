@@ -380,5 +380,27 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       verifiedContribution: "Endowment Benefactor",
       description: "Supports the Wasserman Campus in Woodland Hills providing residential and supportive care to aging entertainment industry professionals."
     }
+  ],
+
+  "david-harbour": [
+    {
+      organizationOrCause: "Greenpeace Ocean Sanctuaries",
+      focusArea: "Antarctic Marine Sanctuary & Wildlife Conservation",
+      verifiedContribution: "Ocean Ambassador & Antarctic Expedition",
+      description: "Partnered with Greenpeace in 2018 to travel to the Antarctic aboard the Arctic Sunrise, campaigning internationally for the establishment of marine sanctuaries to protect emperor penguins and ocean ecosystems."
+    },
+    {
+      organizationOrCause: "National Alliance on Mental Illness (NAMI)",
+      focusArea: "Bipolar Disorder Destigmatization & Psychiatric Healthcare",
+      verifiedContribution: "Keynote Advocate & Public Campaigner",
+      description: "Openly shares his personal lived experience being diagnosed with bipolar disorder at age 25, actively advocating to end psychiatric stigma and promote community-based mental healthcare resources."
+    },
+    {
+      organizationOrCause: "The Trevor Project",
+      focusArea: "LGBTQ+ Youth Crisis Intervention & Suicide Prevention",
+      verifiedContribution: "Charitable Benefactor & Campaign Supporter",
+      description: "Supports life-saving 24/7 crisis intervention services and suicide prevention initiatives for LGBTQ+ youth across North America."
+    }
   ]
 };
+

@@ -447,7 +447,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
 
           {/* 11. Frequently Asked Questions (PAA Accordion - Pillar 7) */}
           <FaqSection
-            faqs={celebrity.faqs}
+            faqs={celebrity.faqs || []}
             celebrityName={celebrity.name}
           />
 

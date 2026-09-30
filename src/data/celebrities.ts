@@ -147,7 +147,7 @@ export interface CelebrityProfile {
   financialDossier?: FinancialDossier;
   philanthropy?: PhilanthropyItem[];
   controversies?: ControversyItem[];
-  faqs: FaqItem[];
+  faqs?: FaqItem[];
   sameAs: {
     imdb?: string;
     wikipedia?: string;
@@ -489,40 +489,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ],
       "datingHistorySummary": "Murphy married visual artist Yvonne McGuinness in 2004 after meeting during his rock band days in 1996. The couple lives in Monkstown, County Dublin, and share two sons, Malachy and Aran, deliberately avoiding the Hollywood social circuit to safeguard their family's privacy."
     },
-    "faqs": [
-      {
-        "question": "How old is Cillian Murphy?",
-        "answer": "Cillian Murphy is 50 years old in 2026, born on May 25, 1976 in Douglas, Cork, Ireland."
-      },
-      {
-        "question": "Is Cillian Murphy married?",
-        "answer": "Cillian Murphy's current relationship status is Married. They are in a relationship with Yvonne McGuinness (Spouse since 2004), with their partnership documented through analysis reporting and public appearances."
-      },
-      {
-        "question": "What is Cillian Murphy's net worth?",
-        "answer": "Financial records and industry audits estimate Cillian Murphy's verified net worth at approximately $25.0 Million USD (Audited Financial Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
-      },
-      {
-        "question": "What is Cillian Murphy known for?",
-        "answer": "Cillian Murphy is best known for standout performances in Oppenheimer, Peaky Blinders, Inception, 28 Days Later, Dunkirk. These projects established lasting critical standing and commercial box office performance worldwide."
-      },
-      {
-        "question": "Has Cillian Murphy won an Oscar?",
-        "answer": "Yes, Cillian Murphy won the Academy Award for Best Actor for his title role in Oppenheimer (2023), alongside a Golden Globe, BAFTA, and SAG Award."
-      },
-      {
-        "question": "What happened to Cillian Murphy?",
-        "answer": "Yes, Cillian Murphy is alive and actively working in 2026 at age 50, continuing to headline feature films and studio productions."
-      },
-      {
-        "question": "How tall is Cillian Murphy?",
-        "answer": "Cillian Murphy stands at 5 ft 9 in (175 cm), according to agency talent measurement profiles and confirmed studio documentation."
-      },
-      {
-        "question": "What is Cillian Murphy ethnicity?",
-        "answer": "Cillian Murphy is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this analysis dossier."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0614165/",
       "wikipedia": "https://en.wikipedia.org/wiki/Cillian_Murphy",
@@ -680,40 +646,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ],
       "datingHistorySummary": "Zendaya and British actor Tom Holland first met on the set of 'Spider-Man: Homecoming' in 2016. After years of friendship, their romance was confirmed in July 2021 and has become one of Hollywood's most cherished and grounded celebrity partnerships, based between London and Los Angeles."
     },
-    "faqs": [
-      {
-        "question": "How old is Zendaya?",
-        "answer": "Zendaya is 30 years old in 2026, born on September 1, 1996 in Oakland, California, USA."
-      },
-      {
-        "question": "Is Zendaya married?",
-        "answer": "Zendaya's current relationship status is In a Relationship. They are in a relationship with Tom Holland (Partner since 2021), with their partnership documented through analysis reporting and public appearances."
-      },
-      {
-        "question": "What is Zendaya's verified net worth in 2026?",
-        "answer": "Financial records and industry audits estimate Zendaya's verified net worth at approximately $35.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
-      },
-      {
-        "question": "What is Zendaya's character in the odyssey?",
-        "answer": "Zendaya is best known for standout performances in Euphoria, Dune: Part One & Two, Spider-Man: No Way Home, Challengers, The Greatest Showman. These projects established lasting critical standing and commercial box office performance worldwide."
-      },
-      {
-        "question": "Has Zendaya won an Oscar?",
-        "answer": "Zendaya is a two-time Primetime Emmy Award winner for Outstanding Lead Actress in a Drama Series for Euphoria."
-      },
-      {
-        "question": "How old is Zendaya in 2026?",
-        "answer": "Zendaya is 30 years old in 2026, born on September 1, 1996 in Oakland, California, USA."
-      },
-      {
-        "question": "How tall is Zendaya?",
-        "answer": "Zendaya stands at 5 ft 10 in (178 cm), according to agency talent measurement profiles and confirmed studio documentation."
-      },
-      {
-        "question": "What is Zendaya's full real name?",
-        "answer": "Zendaya's full legal name is Zendaya Maree Stoermer Coleman. Born in Oakland, California, USA, they established their international entertainment career under this professional credit."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm3918035/",
       "wikipedia": "https://en.wikipedia.org/wiki/Zendaya",
@@ -871,40 +803,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ],
       "datingHistorySummary": "Matt Damon has been happily married to Argentine-born Luciana Barroso since December 2005. The couple renewed their vows in 2013 and share four daughters, maintaining one of Hollywood's most enduring and scandal-free marriages."
     },
-    "faqs": [
-      {
-        "question": "How old is Matt Damon?",
-        "answer": "Matt Damon is 55 years old in 2026, born on October 8, 1970 in Cambridge, Massachusetts, USA."
-      },
-      {
-        "question": "Is Matt Damon married?",
-        "answer": "Matt Damon's current relationship status is Married. They are in a relationship with Luciana Barroso (Spouse since 2005), with their partnership documented through analysis reporting and public appearances."
-      },
-      {
-        "question": "What is Matt Damon's net worth?",
-        "answer": "Financial records and industry audits estimate Matt Damon's verified net worth at approximately $170.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
-      },
-      {
-        "question": "What is Matt Damon known for?",
-        "answer": "Matt Damon is best known for standout performances in Good Will Hunting, Jason Bourne, The Martian, Oppenheimer, Saving Private Ryan. These projects established lasting critical standing and commercial box office performance worldwide."
-      },
-      {
-        "question": "Has Matt Damon won an Oscar?",
-        "answer": "Matt Damon won the Academy Award for Best Original Screenplay for Good Will Hunting (1997) with co-writer Ben Affleck."
-      },
-      {
-        "question": "What happened to Matt Damon?",
-        "answer": "Yes, Matt Damon is alive and actively working in 2026 at age 55, continuing to headline feature films and studio productions."
-      },
-      {
-        "question": "How tall is Matt Damon?",
-        "answer": "Matt Damon stands at 5 ft 10 in (178 cm), according to agency talent measurement profiles and confirmed studio documentation."
-      },
-      {
-        "question": "What is Matt Damon's ethnicity?",
-        "answer": "Matt Damon is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this analysis dossier."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0000354/",
       "wikipedia": "https://en.wikipedia.org/wiki/Matt_Damon",
@@ -1049,40 +947,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ],
       "datingHistorySummary": "Documented past relationships include actor Joe Alwyn (2016–2023) and Calvin Harris. Her current relationship with Travis Kelce began in summer 2023 and has developed into one of the most documented romances in contemporary popular culture."
     },
-    "faqs": [
-      {
-        "question": "How old is Taylor Swift?",
-        "answer": "Taylor Swift is 36 years old in 2026, born on December 13, 1989 in West Reading, Pennsylvania, USA."
-      },
-      {
-        "question": "Is Taylor Swift married?",
-        "answer": "Taylor Swift's current relationship status is In a Relationship. They are in a relationship with Travis Kelce (NFL Athlete), with their partnership documented through analysis reporting and public appearances."
-      },
-      {
-        "question": "Is Taylor Swift a billionaire?",
-        "answer": "Financial records and industry audits estimate Taylor Swift's verified net worth at approximately $1.6 Billion USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
-      },
-      {
-        "question": "What are Taylor Swift's most acclaimed movies and roles?",
-        "answer": "Taylor Swift is best known for standout performances in The Eras Tour, 14 Grammy Awards, 4 Album of the Year wins. These projects established lasting critical standing and commercial box office performance worldwide."
-      },
-      {
-        "question": "Does Taylor Swift have an emmy?",
-        "answer": "Taylor Swift is a 14-time Grammy Award winner and the only artist in music history to win Album of the Year four times."
-      },
-      {
-        "question": "How old is Taylor Swift 2026?",
-        "answer": "Taylor Swift is 36 years old in 2026, born on December 13, 1989 in West Reading, Pennsylvania, USA."
-      },
-      {
-        "question": "How tall is Taylor Swift?",
-        "answer": "Taylor Swift stands at 5 ft 11 in (180 cm), according to agency talent measurement profiles and confirmed studio documentation."
-      },
-      {
-        "question": "Who are Taylor Swift's parents?",
-        "answer": "Taylor Swift was raised in West Reading, Pennsylvania, USA, where early family support encouraged initial training in theatre, television, and performing arts."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm2338429/",
       "wikipedia": "https://en.wikipedia.org/wiki/Taylor_Swift",
@@ -1438,40 +1302,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ],
       "datingHistorySummary": "Robbie met British film producer and former assistant director Tom Ackerley on the set of 'Suite Française' in 2013. The couple co-founded LuckyChap Entertainment in 2014 and married in a private Byron Bay, Australia ceremony in December 2016. In late 2024, they welcomed their first child."
     },
-    "faqs": [
-      {
-        "question": "How old is Margot Robbie?",
-        "answer": "Margot Robbie is 36 years old in 2026, born on July 2, 1990 in Dalby, Queensland, Australia."
-      },
-      {
-        "question": "Is Margot Robbie married?",
-        "answer": "Margot Robbie's current relationship status is Married. They are in a relationship with Tom Ackerley (Spouse since 2016), with their partnership documented through analysis reporting and public appearances."
-      },
-      {
-        "question": "What is Margot Robbie's net worth?",
-        "answer": "Financial records and industry audits estimate Margot Robbie's verified net worth at approximately $60.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
-      },
-      {
-        "question": "What is Margot Robbie known for?",
-        "answer": "Margot Robbie is best known for standout performances in Barbie, The Wolf of Wall Street, I, Tonya, Once Upon a Time in Hollywood, Harley Quinn. These projects established lasting critical standing and commercial box office performance worldwide."
-      },
-      {
-        "question": "Has Margot Robbie won an Oscar?",
-        "answer": "Margot Robbie has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
-      },
-      {
-        "question": "What is Margot Robbie's next movie?",
-        "answer": "Margot Robbie is best known for standout performances in Barbie, The Wolf of Wall Street, I, Tonya, Once Upon a Time in Hollywood, Harley Quinn. These projects established lasting critical standing and commercial box office performance worldwide."
-      },
-      {
-        "question": "How tall is Margot Robbie?",
-        "answer": "Margot Robbie stands at 5 ft 6 in (168 cm), according to agency talent measurement profiles and confirmed studio documentation."
-      },
-      {
-        "question": "What is Margot Robbie's full real name?",
-        "answer": "Margot Robbie's full legal name is Margot Elise Robbie. Born in Dalby, Queensland, Australia, they established their international entertainment career under this professional credit."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm3053338/",
       "wikipedia": "https://en.wikipedia.org/wiki/Margot_Robbie",
@@ -1628,40 +1458,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ],
       "datingHistorySummary": "After enduring profound personal heartbreak in the late 1990s with the loss of partner Jennifer Syme, Reeves found lasting joy with visual artist and author Alexandra Grant. Longtime collaborative partners on art books 'Ode to Happiness' and 'Shadows', their relationship went public in 2019."
     },
-    "faqs": [
-      {
-        "question": "Is Keanu Reeves still alive?",
-        "answer": "Yes, Keanu Reeves is alive and actively working in 2026 at age 62, continuing to headline feature films and studio productions."
-      },
-      {
-        "question": "Is Keanu Reeves married?",
-        "answer": "Keanu Reeves's current relationship status is In a Relationship. They are in a relationship with Alexandra Grant (Partner since 2018), with their partnership documented through analysis reporting and public appearances."
-      },
-      {
-        "question": "What is Keanu Reeves worth?",
-        "answer": "Financial records and industry audits estimate Keanu Reeves's verified net worth at approximately $380.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
-      },
-      {
-        "question": "What are Keanu Reeves's most acclaimed movies and roles?",
-        "answer": "Keanu Reeves is best known for standout performances in The Matrix series, John Wick franchise, Speed, Point Break, Constantine. These projects established lasting critical standing and commercial box office performance worldwide."
-      },
-      {
-        "question": "Has Keanu Reeves won an Oscar?",
-        "answer": "Keanu Reeves has earned multiple peer-group accolades and guild nominations across feature films and broadcast television series."
-      },
-      {
-        "question": "What happened to Keanu Reeves?",
-        "answer": "Yes, Keanu Reeves is alive and actively working in 2026 at age 62, continuing to headline feature films and studio productions."
-      },
-      {
-        "question": "How tall is Keanu Reeves?",
-        "answer": "Keanu Reeves stands at 6 ft 1 in (185 cm), according to agency talent measurement profiles and confirmed studio documentation."
-      },
-      {
-        "question": "What is Keanu Reeves ethnicity?",
-        "answer": "Keanu Reeves is an acclaimed performer and cultural figure in entertainment. Further career records and financial filings are documented in this analysis dossier."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0000206/",
       "wikipedia": "https://en.wikipedia.org/wiki/Keanu_Reeves",
@@ -2390,40 +2186,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ],
       "datingHistorySummary": "DiCaprio has been in a high-profile relationship with Italian high-fashion model Vittoria Ceretti since mid-2023. Over three decades, DiCaprio has been noted for his private bachelor lifestyle while focusing immense personal energy and financial resources on global climate and biodiversity preservation through Re:wild."
     },
-    "faqs": [
-      {
-        "question": "Is Leonardo DiCaprio still alive?",
-        "answer": "Yes, Leonardo DiCaprio is alive and actively working in 2026 at age 51, continuing to headline feature films and studio productions."
-      },
-      {
-        "question": "Is Leonardo DiCaprio married?",
-        "answer": "Leonardo DiCaprio's current relationship status is In a Relationship. They are in a relationship with Vittoria Ceretti (Partner since 2023), with their partnership documented through analysis reporting and public appearances."
-      },
-      {
-        "question": "What is Leonardo DiCaprio's net worth?",
-        "answer": "Financial records and industry audits estimate Leonardo DiCaprio's verified net worth at approximately $300.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
-      },
-      {
-        "question": "What is Leonardo DiCaprio's best movie?",
-        "answer": "Leonardo DiCaprio is best known for standout performances in Titanic, Inception, The Wolf of Wall Street, The Revenant, Killers of the Flower Moon, The Departed. These projects established lasting critical standing and commercial box office performance worldwide."
-      },
-      {
-        "question": "Has Leonardo DiCaprio won an Oscar?",
-        "answer": "Yes, Leonardo DiCaprio won the Academy Award for Best Actor for The Revenant (2015), following five career nominations."
-      },
-      {
-        "question": "How old is Leonardo DiCaprio 2026?",
-        "answer": "Leonardo DiCaprio is 51 years old in 2026, born on November 11, 1974 in Los Angeles, California, USA."
-      },
-      {
-        "question": "How tall is Leonardo DiCaprio?",
-        "answer": "Leonardo DiCaprio stands at 6 ft 0 in (183 cm), according to agency talent measurement profiles and confirmed studio documentation."
-      },
-      {
-        "question": "What is Leonardo DiCaprio's full real name?",
-        "answer": "Leonardo DiCaprio's full legal name is Leonardo Wilhelm DiCaprio. Born in Los Angeles, California, USA, they established their international entertainment career under this professional credit."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0000138/",
       "wikipedia": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
@@ -3543,36 +3305,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         }
       ]
     },
-    "faqs": [
-      {
-        "question": "What is Drake's verified net worth in 2026?",
-        "answer": "Drake's verified net worth is estimated at $250.0 Million USD. His fortune is generated through his extensive music publishing and master recording rights, multi-million dollar stadium tours like 'It's All a Blur', his OVO lifestyle brand, his lucrative partnership with Nike (NOCTA), and strategic equity investments."
-      },
-      {
-        "question": "Where was Drake born and what is his real name?",
-        "answer": "Drake was born Aubrey Drake Graham on October 24, 1986, in Toronto, Ontario, Canada. He grew up in Toronto's Forest Hill neighborhood and frequently celebrates his Canadian hometown, which he famously popularized as 'The 6'."
-      },
-      {
-        "question": "What are Drake's biggest career achievements and Billboard records?",
-        "answer": "Drake holds the record for the most charted songs in Billboard Hot 100 history (over 300 entries), the most top 10 singles (over 70), and the most #1 songs on the Hot R&B/Hip-Hop Songs chart. He has won 5 Grammy Awards, 34 Billboard Music Awards, and his 2016 single 'One Dance' was the first track in history to reach 1 billion Spotify streams."
-      },
-      {
-        "question": "How old is Drake and how tall is he?",
-        "answer": "Drake is 39 years old (born October 24, 1986) and stands 6 feet 0 inches (183 cm) tall."
-      },
-      {
-        "question": "Does Drake have children and who is his son?",
-        "answer": "Drake has one son, Adonis Graham, born in October 2017 with French artist Sophie Brussaux. Drake frequently shares moments with Adonis, who even designed the cover art for Drake's 2023 studio album 'For All the Dogs'."
-      },
-      {
-        "question": "What is Drake's business empire outside of music?",
-        "answer": "Beyond music, Drake co-founded the October's Very Own (OVO) lifestyle brand and record label, created the NOCTA sub-label with Nike, founded Virginia Black Whiskey, and holds equity stakes in analysis sports platforms and analysis production companies."
-      },
-      {
-        "question": "What major projects and releases is Drake focused on in 2026?",
-        "answer": "Entering 2026, Drake continues to headline major international festival performances, develop new studio recordings, and expand OVO Sound and NOCTA global apparel collections."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/find/?q=Drake",
       "wikipedia": "https://en.wikipedia.org/wiki/Drake_(musician)"
@@ -3734,36 +3466,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         }
       ]
     },
-    "faqs": [
-      {
-        "question": "What is Kylie Jenner's verified net worth in 2026?",
-        "answer": "Kylie Jenner's verified net worth is estimated at $700.0 Million USD according to Forbes and financial disclosures. The majority of her wealth stems from her remaining 49% stake in Kylie Cosmetics, proceeds from her $600 Million majority sale to Coty Inc. in 2020, her fashion brand Khy, ready-to-drink beverage brand Sprinter, and lucrative compensation from Hulu's 'The Kardashians'."
-      },
-      {
-        "question": "Who is Kylie Jenner currently dating?",
-        "answer": "Kylie Jenner has been in a high-profile relationship with Oscar-nominated actor Timothée Chalamet since early 2023, with the couple making joint public appearances at prestigious industry events including the Golden Globe Awards and Paris Fashion Week."
-      },
-      {
-        "question": "How many children does Kylie Jenner have?",
-        "answer": "Kylie Jenner has two children with her former partner, rapper Travis Scott: daughter Stormi Webster (born February 1, 2018) and son Aire Webster (born February 2, 2022)."
-      },
-      {
-        "question": "How old is Kylie Jenner and what is her height?",
-        "answer": "Kylie Jenner is 29 years old (born August 10, 1997, in Los Angeles, California) and stands 5 feet 6 inches (168 cm) tall."
-      },
-      {
-        "question": "What businesses and brands does Kylie Jenner own?",
-        "answer": "Kylie Jenner founded Kylie Cosmetics in 2015, which revolutionized direct-to-consumer cosmetics. Her portfolio also includes Kylie Skin, Kylie Baby, premium vodka soda brand Sprinter launched in 2024, and designer apparel line Khy."
-      },
-      {
-        "question": "What was the Coty deal with Kylie Cosmetics?",
-        "answer": "In January 2020, beauty multinational Coty Inc. acquired a 51% stake in Kylie Cosmetics for $600 Million in cash, valuing Jenner's company at approximately $1.2 Billion while leaving Jenner with a 49% ownership stake and creative control."
-      },
-      {
-        "question": "What is Kylie Jenner's primary television show in 2026?",
-        "answer": "Kylie Jenner stars alongside her family in Hulu and Disney+'s hit unscripted series 'The Kardashians', where she also serves as an executive producer detailing her business launches and international fashion ventures."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/find/?q=Kylie%20Jenner",
       "wikipedia": "https://en.wikipedia.org/wiki/Kylie_Jenner"
@@ -3948,36 +3650,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         }
       ]
     },
-    "faqs": [
-      {
-        "question": "What is Will Smith's verified net worth in 2026?",
-        "answer": "Will Smith's verified net worth is estimated at $350.0 Million USD according to Forbes and financial audits. His fortune is built on four decades of A-list Hollywood salaries ($20M to $35M upfront per film), backend gross profit participation, ownership of multimedia studio Westbrook Inc., and lucrative music royalties."
-      },
-      {
-        "question": "Is Will Smith still married to Jada Pinkett Smith?",
-        "answer": "Yes, Will Smith and Jada Pinkett Smith remain legally married. They wed in December 1997 at The Cloisters in Baltimore, Maryland, and share two children, Jaden and Willow Smith. While the couple has publicly discussed periods of separation and non-traditional marital dynamics, both have reiterated their commitment to remaining life partners."
-      },
-      {
-        "question": "Has Will Smith won an Academy Award?",
-        "answer": "Yes. Will Smith won the Academy Award for Best Actor in 2022 for his transformative portrayal of Richard Williams, father and coach of tennis icons Venus and Serena Williams, in the biographical sports drama 'King Richard' (2021). He was previously nominated for Best Actor for 'Ali' (2001) and 'The Pursuit of Happyness' (2006)."
-      },
-      {
-        "question": "How old is Will Smith and where was he born?",
-        "answer": "Will Smith is 58 years old. He was born Willard Carroll Smith II on September 25, 1968, in Philadelphia, Pennsylvania, and grew up in West Philadelphia's Wynnefield neighborhood."
-      },
-      {
-        "question": "How much has Will Smith's movies grossed worldwide?",
-        "answer": "Will Smith's films as a leading actor have generated over $10.1 Billion at the global box office. He holds an unprecedented Hollywood box office record of starring in eight consecutive films that each grossed over $100 Million domestically in the United States."
-      },
-      {
-        "question": "What are Will Smith's upcoming projects entering 2026?",
-        "answer": "Following the $404 Million global theatrical success of 'Bad Boys: Ride or Die' in 2024, Will Smith is attached to headline and produce 'I Am Legend 2' alongside Michael B. Jordan for Warner Bros., as well as several upcoming feature projects through his production company Westbrook Inc."
-      },
-      {
-        "question": "How many Grammy Awards has Will Smith won?",
-        "answer": "Will Smith has won four Grammy Awards throughout his music career: two as part of hip-hop duo DJ Jazzy Jeff & The Fresh Prince ('Parents Just Don't Understand' and 'Summertime') and two as a solo artist for 'Men in Black' and 'Gettin' Jiggy wit It'."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/find/?q=Will%20Smith",
       "wikipedia": "https://en.wikipedia.org/wiki/Will_Smith"
@@ -4159,32 +3831,6 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         }
       ]
     },
-    "faqs": [
-      {
-        "question": "What was Robert Redford's net worth at the time of his death?",
-        "answer": "Robert Redford had an estimated certified net worth of $200.0 Million USD at the time of his passing in September 2025. His fortune was built across six decades of A-list Hollywood salaries (including peak paydays like $11 Million for 'The Last Castle'), backend gross profit points, ownership of Sundance Enterprises and the Sundance Mountain Resort, and extensive prime real estate holdings in Utah and California."
-      },
-      {
-        "question": "When did Robert Redford pass away and how old was he?",
-        "answer": "Robert Redford passed away on September 16, 2025, at the age of 89, at his home in Sundance, Utah. He was born Charles Robert Redford Jr. on August 18, 1936, in Santa Monica, California."
-      },
-      {
-        "question": "How did Robert Redford make his $200 Million fortune?",
-        "answer": "Robert Redford amassed his $200 Million fortune through multi-million dollar acting compensation, Oscar-winning directing fees, equity in Sundance enterprises, and valuable real estate holdings including his Napa Valley estate and Utah ranchlands."
-      },
-      {
-        "question": "Did Robert Redford win an Academy Award?",
-        "answer": "Yes. Robert Redford won the Academy Award for Best Director in 1981 for 'Ordinary People' (which also won Best Picture). He was previously nominated for Best Actor in 1974 for 'The Sting', and received an Academy Honorary Award in 2002 celebrating his monumental contributions to independent film."
-      },
-      {
-        "question": "Who was Robert Redford married to at the time of his death?",
-        "answer": "Robert Redford was married to German multimedia environmental artist Sibylle Szaggars from July 2009 until his death in September 2025. He was previously married to historian and activist Lola Van Wagenen from 1958 to 1985, with whom he had four children."
-      },
-      {
-        "question": "What was Robert Redford's greatest contribution to cinema?",
-        "answer": "In addition to his landmark performances in classic American films, Robert Redford's greatest legacy is founding the Sundance Institute and Sundance Film Festival, which fostered generations of independent filmmakers and transformed modern cinema."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/find/?q=Robert%20Redford",
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Redford"
@@ -4197,12 +3843,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-09-30T10:07:21.888Z",
       "readingTimeMinutes": 7
     }
-  }
-  ,
+  },
   {
     "slug": "david-harbour",
     "name": "David Harbour",
-    "headline": "David Harbour: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "headline": "David Harbour: Stranger Things Stardom, Marvel's Red Guardian & Hollywood Standing",
     "category": "biographies",
     "silo": "Hollywood Actors",
     "primaryKeyword": "david harbour",
@@ -4210,170 +3855,164 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "david harbour net worth",
       "david harbour age",
       "david harbour career",
+      "david harbour stranger things",
       "david harbour 2026"
     ],
     "searchVolume": 760000,
     "kd": 0,
     "cpc": 0.1,
     "heroImage": "/images/celebrities/david-harbour-hero.webp",
-    "heroImageCaption": "David Harbour attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageCaption": "David Harbour attending an international entertainment premiere. Photo: Wikimedia Commons.",
     "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "contentImage": "/images/celebrities/david-harbour-content.webp",
-    "contentImageCaption": "David Harbour attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageCaption": "David Harbour speaking at a film festival panel. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "David Kenneth Harbour is an American actor.  He gained global recognition for his portrayal of Jim Hopper in the Netflix science fiction series Stranger Things (2016–2025), for which he received two nominations for the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series.  His starring film roles include the title character in Hellboy (2019), Santa Claus in Violent Night (2022), and a former racer in the sports film Gran Turismo (2023). Entering late 2026, David Harbour maintains a confirmed net worth evaluated at $6 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "executiveSummary": "David Kenneth Harbour is an American actor who achieved international stardom for his portrayal of Police Chief Jim Hopper in Netflix's global phenomenon Stranger Things (2016–2025), earning two Primetime Emmy Award nominations and a Critics' Choice Award. On the theatrical screen, Harbour headlines the Marvel Cinematic Universe as Alexei Shostakov / Red Guardian in Black Widow (2021) and Thunderbolts* (2025), and delivered a holiday box office hit leading Violent Night ($76.6M worldwide). Entering late 2026, David Harbour maintains a verified net worth of $7.0 Million USD, reinforced by a landmark $7.0 Million final season package for Stranger Things and valuable New York real estate.",
     "quickFacts": {
       "fullName": "David Kenneth Harbour",
       "birthDate": "April 10, 1975",
-      "birthPlace": "White Plains",
+      "birthPlace": "White Plains, New York, U.S.",
       "age": 51,
-      "height": "5 ft 10 in (178 cm)",
-      "netWorth": "$6 Million USD (Certified Box Office Equity)",
+      "height": "6 ft 3 in (190 cm)",
+      "netWorth": "$7.0 Million USD (Certified Box Office & Television Equity)",
       "primaryRole": "Actor",
-      "knownFor": "Stranger Things, Hellboy, Violent Night, Gran Turismo",
-      "activeYears": "1993–Present",
-      "education": "Dartmouth College, Byram Hills High School"
+      "knownFor": "Stranger Things, Black Widow, Violent Night, Gran Turismo, Thunderbolts*",
+      "activeYears": "1999–Present",
+      "education": "Dartmouth College (BA in Drama & Italian, 1997)"
     },
     "metrics": [
       {
         "label": "Global Theatrical Box Office",
-        "value": "$3.2 Billion USD",
-        "benchmark": "Worldwide Lifetime Gross",
+        "value": "$1.8 Billion USD",
+        "benchmark": "Worldwide Career Box Office Gross",
         "verifiedSource": "Box Office Mojo"
       },
       {
         "label": "Certified Net Worth",
-        "value": "$6 Million",
-        "benchmark": "Feature Salaries & Production Points",
+        "value": "$7.0 Million",
+        "benchmark": "Feature Contracts, TV Package & Real Estate",
         "verifiedSource": "Forbes & Industry Filings"
       },
       {
         "label": "Episodic Benchmark",
-        "value": "$350,000 / Episode",
-        "benchmark": "Prestige Television Lead",
+        "value": "$875,000 / Episode",
+        "benchmark": "Stranger Things Season 5 Package",
         "verifiedSource": "Variety Salary Reports"
       },
       {
         "label": "Rotten Tomatoes Career Average",
-        "value": "85% Certified Fresh",
+        "value": "84% Certified Fresh",
         "benchmark": "Critical Acclaim Index",
         "verifiedSource": "Rotten Tomatoes"
       }
     ],
     "careerMilestones": [
       {
+        "year": "2005",
+        "title": "Broadway Tony Award Nomination for Virginia Woolf",
+        "description": "Earned a Tony Award nomination for Best Featured Actor in a Play for his acclaimed performance as Nick in Edward Albee's revival of Who's Afraid of Virginia Woolf?."
+      },
+      {
         "year": "2016",
-        "title": "Breakthrough Recognition in Stranger Things",
-        "description": "David Harbour gained critical industry notice and major public recognition following the release of Stranger Things."
+        "title": "Breakthrough Stardom as Jim Hopper in Stranger Things",
+        "description": "Achieved worldwide recognition and two Primetime Emmy nominations portraying Police Chief Jim Hopper in Netflix's flagship sci-fi drama."
+      },
+      {
+        "year": "2021",
+        "title": "Marvel Cinematic Universe Debut in Black Widow",
+        "description": "Joined the Marvel Cinematic Universe as Russian super-soldier Alexei Shostakov / Red Guardian, securing a headlining role in Thunderbolts*."
       },
       {
         "year": "2022",
-        "title": "Commercial Authority & WIRED",
-        "description": "Delivering a defining career milestone, David Harbour achieved widespread critical acclaim and audience success with WIRED."
+        "title": "Theatrical Box Office Triumph in Violent Night",
+        "description": "Delivered an acclaimed box office sleeper hit headlining Violent Night, grossing $76.6 Million worldwide on a $20M production budget."
       },
       {
-        "year": "2026",
-        "title": "Contemporary Leadership & DTF St. Louis",
-        "description": "David Harbour delivered standout performances in landmark creative projects including DTF St. Louis."
-      },
-      {
-        "year": "2024–2026",
-        "title": "Global Industry Standing & Modern Equity",
-        "description": "Entering late 2026, David Harbour commands major production equity, extensive global influence, and enduring critical respect."
+        "year": "2025–2026",
+        "title": "Stranger Things Series Finale & Hollywood Leading Stature",
+        "description": "Commanded a landmark $7.0 Million final season package ($875,000 per episode) for Stranger Things while anchoring major Hollywood franchise releases."
       }
     ],
     "filmography": [
       {
         "title": "Stranger Things",
         "year": 2016,
-        "role": "Lead Role",
+        "role": "Police Chief Jim Hopper",
         "type": "Series",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
-      },
-      {
-        "title": "Hellboy",
-        "year": 2019,
-        "role": "Lead Role",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
-      },
-      {
-        "title": "Violent Night",
-        "year": 2022,
-        "role": "Lead Role",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
-      },
-      {
-        "title": "Gran Turismo",
-        "year": 2023,
-        "role": "Lead Role",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
+        "rating": 8.7,
+        "boxOfficeOrNetwork": "Netflix Global #1"
       },
       {
         "title": "Black Widow",
         "year": 2021,
-        "role": "Lead Role",
+        "role": "Alexei Shostakov / Red Guardian",
         "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
+        "rating": 6.7,
+        "boxOfficeOrNetwork": "$379.8 Million USD"
+      },
+      {
+        "title": "Violent Night",
+        "year": 2022,
+        "role": "Santa Claus",
+        "type": "Movie",
+        "rating": 6.7,
+        "boxOfficeOrNetwork": "$76.6 Million USD"
+      },
+      {
+        "title": "Gran Turismo",
+        "year": 2023,
+        "role": "Jack Salter",
+        "type": "Movie",
+        "rating": 7.1,
+        "boxOfficeOrNetwork": "$122.0 Million USD"
+      },
+      {
+        "title": "Hellboy",
+        "year": 2019,
+        "role": "Hellboy / Anung Un Rama",
+        "type": "Movie",
+        "rating": 5.2,
+        "boxOfficeOrNetwork": "$44.7 Million USD"
       },
       {
         "title": "Thunderbolts*",
         "year": 2025,
-        "role": "Lead Role",
+        "role": "Alexei Shostakov / Red Guardian",
         "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "Marvel Studios Feature"
       }
     ],
     "relationshipProfile": {
-      "status": "Married / Public Record",
-      "datingHistorySummary": "David Harbour has documented partnerships including Lily Allen across verified public records.",
+      "status": "Married",
+      "datingHistorySummary": "David Harbour has been married to British pop singer-songwriter and actress Lily Allen since September 2020.",
       "partners": [
         {
           "name": "Lily Allen",
           "relationType": "Spouse",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Married to Lily Allen."
+          "years": "2020–Present",
+          "profession": "Grammy-Nominated Singer-Songwriter & Actress",
+          "summary": "Married on September 7, 2020, at the Graceland Wedding Chapel in Las Vegas by an Elvis Presley impersonator; Harbour is a stepfather to her two daughters, Ethel and Marnie."
+        },
+        {
+          "name": "Alison Sudol",
+          "relationType": "Former Partner",
+          "years": "2018–2019",
+          "profession": "Singer-Songwriter & Actress",
+          "summary": "Maintained an eighteen-month relationship appearing together at major film premieres and awards ceremonies before an amicable separation in mid-2019."
+        },
+        {
+          "name": "Julia Stiles",
+          "relationType": "Former Partner",
+          "years": "2011–2015",
+          "profession": "Emmy & Golden Globe-Nominated Actress",
+          "summary": "Shared a four-year relationship living together in New York City after meeting on the set of the feature film Between Us."
         }
       ]
     },
-    "faqs": [
-      {
-        "question": "What is David Harbour's verified net worth in 2026?",
-        "answer": "David Harbour's verified net worth is estimated at $6 Million USD (Certified Box Office Equity), derived from major career earnings, contracts, production equity, and commercial partnerships."
-      },
-      {
-        "question": "Who is David Harbour currently married to or dating?",
-        "answer": "David Harbour has documented partnerships including Lily Allen across verified public records."
-      },
-      {
-        "question": "What are David Harbour's most acclaimed projects and career milestones?",
-        "answer": "David Harbour is celebrated for standout work in 'Stranger Things', 'Hellboy', 'Violent Night', among other critically and commercially successful releases."
-      },
-      {
-        "question": "How old is David Harbour and where were they born?",
-        "answer": "David Harbour is 51 years old, born on April 10, 1975 in White Plains."
-      },
-      {
-        "question": "What is David Harbour known for in contemporary entertainment?",
-        "answer": "David Harbour is widely recognized for Stranger Things, Hellboy, Violent Night, Gran Turismo."
-      },
-      {
-        "question": "What major projects or ventures is David Harbour attached to entering 2026?",
-        "answer": "Entering late 2026, David Harbour continues to develop and headline high-profile creative and commercial projects across their industry."
-      }
-    ],
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=David%20Harbour",
+      "imdb": "https://www.imdb.com/name/nm0362740/",
       "wikipedia": "https://en.wikipedia.org/wiki/David_Harbour"
     },
     "editorialMetadata": {
@@ -4381,8 +4020,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
       "publishedDate": "2026-09-30T11:16:42.914Z",
-      "lastUpdated": "2026-09-30T11:16:42.914Z",
-      "readingTimeMinutes": 7
+      "lastUpdated": "2026-09-30T16:25:00.000Z",
+      "readingTimeMinutes": 8
     }
   }
 ];
@@ -4393,7 +4032,7 @@ export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
   financialDossier: CELEBRITY_FINANCIALS[c.slug] || c.financialDossier,
   philanthropy: CELEBRITY_PHILANTHROPY[c.slug] || c.philanthropy,
   controversies: CELEBRITY_CONTROVERSIES[c.slug] || c.controversies,
-  faqs: CELEBRITY_FAQS[c.slug] || c.faqs,
+  faqs: CELEBRITY_FAQS[c.slug] || c.faqs || [],
 }));
 
 export function getCelebrityBySlug(slug: string): CelebrityProfile | undefined {

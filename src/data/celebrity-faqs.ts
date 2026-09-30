@@ -384,5 +384,45 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       question: "How much does Taylor Swift earn from streaming and royalties?",
       answer: "Taylor Swift generates over $100.0 Million USD annually from global streaming platforms like Spotify and Apple Music, with 'The Tortured Poets Department' (2024) surpassing 1 billion streams in its debut week alone."
     }
+  ],
+
+  "david-harbour": [
+    {
+      question: "What is David Harbour's verified net worth in 2026?",
+      answer: "David Harbour has an estimated verified net worth of $6.0M to $8.0M USD in 2026. His wealth is derived from his landmark Stranger Things salary (reaching $875,000 per episode for Season 5), Marvel Cinematic Universe paychecks as Red Guardian, box office backend participation from Violent Night, and prime New York real estate."
+    },
+    {
+      question: "How much does David Harbour earn per episode for Stranger Things?",
+      answer: "David Harbour earned $80,000 per episode for Seasons 1 and 2, which escalated to $350,000 per episode for Seasons 3 and 4 ($2.8M–$3.15M per season). For the fifth and final season, Harbour negotiated a landmark $7.0 Million package, translating to approximately $875,000 per episode across the 8-episode conclusion."
+    },
+    {
+      question: "Who is David Harbour married to?",
+      answer: "David Harbour has been married to British pop singer-songwriter and actress Lily Allen since September 7, 2020. The couple married at the Graceland Wedding Chapel in Las Vegas in a ceremony officiated by an Elvis Presley impersonator, and Harbour is a devoted step-father to Allen's two daughters, Ethel and Marnie."
+    },
+    {
+      question: "What character does David Harbour play in the Marvel Cinematic Universe (MCU)?",
+      answer: "David Harbour portrays Alexei Shostakov, also known as the Red Guardian—the Russian super-soldier counterpart to Captain America. He debuted in 'Black Widow' (2021) and reprises his leading role in Marvel Studios' ensemble blockbuster 'Thunderbolts*' (2025)."
+    },
+    {
+      question: "How old is David Harbour and where was he born?",
+      answer: "David Harbour is 51 years old. He was born on April 10, 1975, in White Plains, New York, and grew up in Westchester County before attending Dartmouth College."
+    },
+    {
+      question: "What is David Harbour's height?",
+      answer: "David Harbour stands 6 feet 3 inches tall (190 cm), an imposing physical stature that has defined his roles as Chief Jim Hopper, Red Guardian, and Santa Claus in 'Violent Night'."
+    },
+    {
+      question: "Did David Harbour receive a Tony Award nomination?",
+      answer: "Yes. Before achieving global television fame, David Harbour was a decorated Broadway actor who received a 2005 Tony Award nomination for Best Featured Actor in a Play for his performance as Nick in Edward Albee's revival of 'Who's Afraid of Virginia Woolf?'."
+    },
+    {
+      question: "What real estate properties does David Harbour own?",
+      answer: "David Harbour co-owns a multi-story historic townhouse in Carroll Gardens, Brooklyn with wife Lily Allen, valued at approximately $7.5 Million USD and featured in Architectural Digest. He also acquired a $3.5 Million USD industrial loft apartment in the Nolita neighborhood of Lower Manhattan."
+    },
+    {
+      question: "What philanthropic and advocacy causes does David Harbour champion?",
+      answer: "David Harbour is an active ambassador for Greenpeace, having traveled to Antarctica aboard the Arctic Sunrise to advocate for marine sanctuaries. He is also a prominent national speaker for the National Alliance on Mental Illness (NAMI), openly sharing his diagnosis of bipolar disorder to eliminate public stigma around psychiatric care."
+    }
   ]
 };
+

@@ -41,6 +41,9 @@ jobs:
           TARGET_ACTOR: ${{ github.event.inputs.actor_name }}
         run: node scripts/run-actor-pipeline.mjs
 
+      - name: Run Pre-Publish Quality Assurance Audit
+        run: npm run qa:audit
+
       - name: Verify Next.js Static Build & Routes
         run: npm run build
 

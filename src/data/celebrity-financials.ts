@@ -1744,5 +1744,107 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
         milestoneDescription: "Certified estate valuation upon his peaceful passing in August 2026 at age 80."
       }
     ]
+  },
+
+  "david-harbour": {
+    salaryMilestones: [
+      {
+        project: "Stranger Things (Seasons 1–2)",
+        year: 2016,
+        salary: "$80,000 / Episode",
+        boxOfficeOrBudget: "Netflix Flagship Series",
+        notes: "Initial series agreement that established his breakthrough role as Hawkins Police Chief Jim Hopper."
+      },
+      {
+        project: "Stranger Things (Seasons 3–4)",
+        year: 2019,
+        salary: "$350,000 / Episode",
+        boxOfficeOrBudget: "Global Streaming Benchmark",
+        notes: "Major tier-one cast renegotiation delivering approximately $2.8 Million to $3.15 Million per season."
+      },
+      {
+        project: "Hellboy",
+        year: 2019,
+        salary: "$2.0 Million USD",
+        boxOfficeOrBudget: "$50.0 Million Budget",
+        notes: "First major studio superhero headline feature upfront acting salary."
+      },
+      {
+        project: "Black Widow",
+        year: 2021,
+        salary: "$2.0 Million USD",
+        boxOfficeOrBudget: "$379.8 Million USD Box Office",
+        notes: "Marvel Cinematic Universe introduction portraying Alexei Shostakov / Red Guardian."
+      },
+      {
+        project: "Violent Night",
+        year: 2022,
+        salary: "$4.0 Million USD + Backend",
+        boxOfficeOrBudget: "$76.6 Million USD Box Office",
+        notes: "Substantial box office return on a $20M budget generated lucrative theatrical profit points."
+      },
+      {
+        project: "Stranger Things (Season 5)",
+        year: 2025,
+        salary: "$875,000 / Episode ($7.0 Million Total)",
+        boxOfficeOrBudget: "8-Episode Series Finale",
+        notes: "Historic television finale package representing among the highest per-episode rates in streaming history."
+      }
+    ],
+    realEstateAssets: [
+      {
+        property: "Carroll Gardens Townhouse",
+        location: "Brooklyn, New York",
+        purchasedYear: "2021",
+        purchasePrice: "$4.5 Million USD",
+        currentEstimatedValue: "$7.5 Million USD",
+        description: "Historic multi-story Italianate townhouse shared with wife Lily Allen, celebrated in Architectural Digest for custom English country-inspired maximalist decor."
+      },
+      {
+        property: "Nolita Loft Apartment",
+        location: "Lower Manhattan, New York",
+        purchasedYear: "2019",
+        purchasePrice: "$3.5 Million USD",
+        currentEstimatedValue: "$4.2 Million USD",
+        description: "Classic Manhattan loft featuring exposed brick, twelve-foot ceilings, and high-end industrial finishes."
+      }
+    ],
+    businessVentures: [
+      {
+        name: "National Brand Campaigns",
+        role: "Brand Ambassador & Talent",
+        valuationOrRevenue: "Multi-Million Annual Endorsements",
+        description: "Commercial endorsements for major global brands, including high-profile Super Bowl campaigns for T-Mobile."
+      },
+      {
+        name: "Netflix & Theatrical Residuals",
+        role: "Principal Talent",
+        valuationOrRevenue: "Recurring Streaming Royalty Pool",
+        description: "Worldwide streaming participation agreements from Stranger Things syndication and theatrical backend contracts."
+      }
+    ],
+    wealthProgression: [
+      {
+        period: "2015",
+        estimatedNetWorth: "$500,000 USD",
+        milestoneDescription: "Prolific stage career and supporting character actor credits."
+      },
+      {
+        period: "2018",
+        estimatedNetWorth: "$2.5 Million USD",
+        milestoneDescription: "Stranger Things breakout recognition and Season 3 contract escalation."
+      },
+      {
+        period: "2022",
+        estimatedNetWorth: "$5.0 Million USD",
+        milestoneDescription: "MCU Black Widow payday and theatrical return from Violent Night."
+      },
+      {
+        period: "2026",
+        estimatedNetWorth: "$7.0 Million USD",
+        milestoneDescription: "Historic $7M Stranger Things finale payout and prime New York real estate equity."
+      }
+    ]
   }
 };
+

@@ -206,5 +206,21 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       resolutionOrOutcome: "After her original master recordings were sold to Ithaca Holdings without her opportunity to purchase, Swift announced a plan to re-record her entire early catalog.",
       impactAnalysis: "The Taylor's Version releases broke worldwide streaming records, reclaimed full artistic ownership, and permanently reshaped artist-label negotiation standards in the modern recording industry."
     }
+  ],
+
+  "david-harbour": [
+    {
+      incident: "2019 Hellboy Reboot Critical & Box Office Underperformance",
+      year: "2019",
+      resolutionOrOutcome: "The high-profile comic adaptation received sharp critical reviews and grossed $44 Million globally against a $50 Million production budget.",
+      impactAnalysis: "Harbour addressed the commercial setback with candid perspective, rebounding emphatically with an acclaimed MCU debut in Black Widow and the theatrical sleeper hit Violent Night."
+    },
+    {
+      incident: "Public Discourse on Bipolar Diagnosis & Early Addiction Recovery",
+      year: "2018–2020",
+      resolutionOrOutcome: "Openly disclosed his psychiatric hospitalization at age 25, his diagnosis of bipolar disorder, and his continuous decades-long sobriety from alcohol.",
+      impactAnalysis: "Rather than hindering his career, his vulnerable transparency garnered widespread industry respect, establishing him as one of entertainment's most prominent advocates for mental healthcare destigmatization."
+    }
   ]
 };
+
