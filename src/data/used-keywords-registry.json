@@ -1,5 +1,5 @@
 {
-  "description": "CelebEdge Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
+  "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
   "totalLocked": 22,
   "lastUpdated": "2026-09-30T11:16:42.923Z",
   "lockedKeywords": [
@@ -8,7 +8,7 @@
       "slug": "tim-curry",
       "name": "Tim Curry",
       "category": "Hollywood Legends",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/tim-curry",
+      "canonicalUrl": "https://celebledger.com/celebrity/tim-curry",
       "publishedAt": "2026-02-10 10:00:00",
       "associatedTags": [
         "tim curry movies",
@@ -23,7 +23,7 @@
       "slug": "cillian-murphy",
       "name": "Cillian Murphy",
       "category": "Biographies & Profiles",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/cillian-murphy",
+      "canonicalUrl": "https://celebledger.com/celebrity/cillian-murphy",
       "publishedAt": "2026-02-14 09:00:00",
       "associatedTags": [
         "cillian murphy oscar oppenheimer",
@@ -38,7 +38,7 @@
       "slug": "zendaya",
       "name": "Zendaya",
       "category": "Movies & Television",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/zendaya",
+      "canonicalUrl": "https://celebledger.com/celebrity/zendaya",
       "publishedAt": "2026-02-18 11:00:00",
       "associatedTags": [
         "zendaya movies and tv shows",
@@ -53,7 +53,7 @@
       "slug": "matt-damon",
       "name": "Matt Damon",
       "category": "Net Worth & Wealth",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/matt-damon",
+      "canonicalUrl": "https://celebledger.com/celebrity/matt-damon",
       "publishedAt": "2026-01-20 10:00:00",
       "associatedTags": [
         "matt damon net worth",
@@ -68,7 +68,7 @@
       "slug": "taylor-swift-wedding",
       "name": "Taylor Swift",
       "category": "Relationships & Marriages",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/taylor-swift-wedding",
+      "canonicalUrl": "https://celebledger.com/celebrity/taylor-swift-wedding",
       "publishedAt": "2026-03-01 12:00:00",
       "associatedTags": [
         "is taylor swift married",
@@ -83,7 +83,7 @@
       "slug": "pedro-pascal",
       "name": "Pedro Pascal",
       "category": "Biographies & Profiles",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/pedro-pascal",
+      "canonicalUrl": "https://celebledger.com/celebrity/pedro-pascal",
       "publishedAt": "2026-02-22 10:00:00",
       "associatedTags": [
         "pedro pascal movies and tv shows",
@@ -98,7 +98,7 @@
       "slug": "margot-robbie",
       "name": "Margot Robbie",
       "category": "Net Worth & Wealth",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/margot-robbie",
+      "canonicalUrl": "https://celebledger.com/celebrity/margot-robbie",
       "publishedAt": "2026-02-12 10:00:00",
       "associatedTags": [
         "margot robbie net worth",
@@ -113,7 +113,7 @@
       "slug": "keanu-reeves",
       "name": "Keanu Reeves",
       "category": "Hollywood Legends",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/keanu-reeves",
+      "canonicalUrl": "https://celebledger.com/celebrity/keanu-reeves",
       "publishedAt": "2026-01-25 10:00:00",
       "associatedTags": [
         "keanu reeves net worth",
@@ -128,7 +128,7 @@
       "slug": "jeremy-allen-white",
       "name": "Jeremy Allen White",
       "category": "Movies & Television",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/jeremy-allen-white",
+      "canonicalUrl": "https://celebledger.com/celebrity/jeremy-allen-white",
       "publishedAt": "2026-02-18 10:00:00",
       "associatedTags": [
         "jeremy allen white movies and tv shows",
@@ -143,7 +143,7 @@
       "slug": "finn-wolfhard",
       "name": "Finn Wolfhard",
       "category": "Biographies & Profiles",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/finn-wolfhard",
+      "canonicalUrl": "https://celebledger.com/celebrity/finn-wolfhard",
       "publishedAt": "2026-01-15 08:00:00",
       "associatedTags": [
         "is finn wolfhard jewish",
@@ -159,7 +159,7 @@
       "slug": "jenna-ortega",
       "name": "Jenna Ortega",
       "category": "Movies & Television",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/jenna-ortega",
+      "canonicalUrl": "https://celebledger.com/celebrity/jenna-ortega",
       "publishedAt": "2026-02-25 11:00:00",
       "associatedTags": [
         "jenna ortega movies and tv shows",
@@ -174,7 +174,7 @@
       "slug": "leonardo-dicaprio",
       "name": "Leonardo DiCaprio",
       "category": "Hollywood Legends",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/leonardo-dicaprio",
+      "canonicalUrl": "https://celebledger.com/celebrity/leonardo-dicaprio",
       "publishedAt": "2026-01-18 10:00:00",
       "associatedTags": [
         "leonardo dicaprio movies",
@@ -189,7 +189,7 @@
       "slug": "tom-holland",
       "name": "Tom Holland",
       "category": "Movies & Television",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/tom-holland",
+      "canonicalUrl": "https://celebledger.com/celebrity/tom-holland",
       "publishedAt": "2026-02-15 08:00:00",
       "associatedTags": [
         "tom holland movies",
@@ -204,7 +204,7 @@
       "slug": "rosalia",
       "name": "Rosalía",
       "category": "Music & Performing Arts",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/rosalia",
+      "canonicalUrl": "https://celebledger.com/celebrity/rosalia",
       "publishedAt": "2026-02-15 08:00:00",
       "associatedTags": [
         "rosalia songs",
@@ -219,7 +219,7 @@
       "slug": "travis-kelce",
       "name": "Travis Kelce",
       "category": "Sports & Culture",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/travis-kelce",
+      "canonicalUrl": "https://celebledger.com/celebrity/travis-kelce",
       "publishedAt": "2026-02-15 08:00:00",
       "associatedTags": [
         "travis kelce stats",
@@ -234,7 +234,7 @@
       "slug": "billy-bob-thornton",
       "name": "Billy Bob Thornton",
       "category": "Celebrity Profiles & Bios",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/billy-bob-thornton",
+      "canonicalUrl": "https://celebledger.com/celebrity/billy-bob-thornton",
       "publishedAt": "2026-09-29 11:58:58",
       "associatedTags": [
         "billy bob thornton movies",
@@ -248,7 +248,7 @@
       "slug": "winona-ryder",
       "name": "Winona Ryder",
       "category": "Hollywood Actors",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/winona-ryder",
+      "canonicalUrl": "https://celebledger.com/celebrity/winona-ryder",
       "publishedAt": "2026-09-29 12:19:42",
       "associatedTags": [
         "winona ryder net worth",
@@ -262,7 +262,7 @@
       "slug": "drake",
       "name": "Drake",
       "category": "Music & Performing Arts",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/drake",
+      "canonicalUrl": "https://celebledger.com/celebrity/drake",
       "publishedAt": "2026-09-29 12:20:14",
       "associatedTags": [
         "drake net worth",
@@ -276,7 +276,7 @@
       "slug": "kylie-jenner",
       "name": "Kylie Jenner",
       "category": "Digital Culture & Creators",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/kylie-jenner",
+      "canonicalUrl": "https://celebledger.com/celebrity/kylie-jenner",
       "publishedAt": "2026-09-29 12:21:02",
       "associatedTags": [
         "kylie jenner net worth",
@@ -290,7 +290,7 @@
       "slug": "will-smith",
       "name": "Will Smith",
       "category": "Music & Performing Arts",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/will-smith",
+      "canonicalUrl": "https://celebledger.com/celebrity/will-smith",
       "publishedAt": "2026-09-29 14:32:19",
       "associatedTags": [
         "will smith net worth",
@@ -304,7 +304,7 @@
       "slug": "robert-redford",
       "name": "Robert Redford",
       "category": "Hollywood Actors",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/robert-redford",
+      "canonicalUrl": "https://celebledger.com/celebrity/robert-redford",
       "publishedAt": "2026-09-30 10:07:21",
       "associatedTags": [
         "robert redford net worth",
@@ -318,7 +318,7 @@
       "slug": "david-harbour",
       "name": "David Harbour",
       "category": "Hollywood Actors",
-      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/david-harbour",
+      "canonicalUrl": "https://celebledger.com/celebrity/david-harbour",
       "publishedAt": "2026-09-30 11:16:42",
       "associatedTags": [
         "david harbour net worth",

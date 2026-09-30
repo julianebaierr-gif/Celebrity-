@@ -1,9 +1,9 @@
 /**
  * Pre-Publish Quality Assurance, Integrity Verification & Auto-Healing Engine
- * CelebEdge Automated Publishing Gatekeeper
+ * CelebLedger Automated Publishing Gatekeeper
  *
  * This system validates every generated Celebrity Profile and Blog Post against ALL
- * established CelebEdge editorial, SEO, algorithmic, and programmatic rules.
+ * established CelebLedger editorial, SEO, algorithmic, and programmatic rules.
  * If any requirement is not met, it automatically self-heals / corrects the data
  * before permitting publication.
  */
@@ -293,7 +293,7 @@ export function healExecutiveSummary(summary, entityName, netWorth, isDeceased =
 
 /**
  * MASTER CELEBRITY PROFILE VALIDATOR & AUTO-HEALER
- * Validates against all 10 CelebEdge system rules and auto-heals any defects.
+ * Validates against all 10 CelebLedger system rules and auto-heals any defects.
  */
 export function validateAndHealCelebrityProfile(profile) {
   const healed = JSON.parse(JSON.stringify(profile));
@@ -665,11 +665,11 @@ export function validateAndHealBlogPost(blogPost) {
 
   // Rule 3: SEO Title Strict Length (50–58 characters or clean format)
   if (!healed.seoTitle || healed.seoTitle.length < 45 || healed.seoTitle.length > 60) {
-    const raw = `${healed.title} | CelebEdge`;
+    const raw = `${healed.title} | CelebLedger`;
     if (raw.length <= 58) {
       healed.seoTitle = raw;
     } else {
-      healed.seoTitle = `${healed.title.slice(0, 44)} | CelebEdge`;
+      healed.seoTitle = `${healed.title.slice(0, 44)} | CelebLedger`;
     }
     healedActions.push(`Optimized SEO Title: "${healed.seoTitle}" (${healed.seoTitle.length} chars)`);
   }
@@ -713,7 +713,7 @@ export function validateAndHealBlogPost(blogPost) {
  */
 export async function auditAndHealEntireDatabase() {
   console.log("===================================================================");
-  console.log("🛡️ CelebEdge Pre-Publish Quality Assurance & Auto-Healing Engine");
+  console.log("🛡️ CelebLedger Pre-Publish Quality Assurance & Auto-Healing Engine");
   console.log("===================================================================");
 
   const celebsPath = path.resolve(process.cwd(), "src/data/celebrities.ts");

@@ -335,7 +335,7 @@ function buildStrictSeoDesc(name, summary) {
 // 6. Main Weekly Content Update Routine
 async function main() {
   console.log("===================================================================");
-  console.log("📰 CelebEdge Weekly Entertainment News & Spoke Blog Engine");
+  console.log("📰 CelebLedger Weekly Entertainment News & Spoke Blog Engine");
   console.log("===================================================================");
 
   const registryPath = path.resolve(process.cwd(), "src/data/used-keywords-registry.json");

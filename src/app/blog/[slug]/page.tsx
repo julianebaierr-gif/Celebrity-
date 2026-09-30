@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const post = getBlogPostBySlug(slug);
 
   if (!post) {
-    return { title: "Article Not Found | CelebEdge" };
+    return { title: "Article Not Found | CelebLedger" };
   }
 
   // Google SERP Strict Title Optimization (Target: 50-58 characters maximum)
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     metaDescription = (lastSpace !== -1 ? metaDescription.slice(0, lastSpace) : metaDescription) + ".";
   }
 
-  const siteUrl = "https://celebrity-beta.vercel.app";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
   const postUrl = `${siteUrl}/blog/${slug}`;
   const imageUrl = post.coverImage.startsWith("http") ? post.coverImage : `${siteUrl}${post.coverImage}`;
 
@@ -73,7 +73,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       title: metaTitle,
       description: metaDescription,
       url: postUrl,
-      siteName: "CelebEdge",
+      siteName: "CelebLedger",
       type: "article",
       publishedTime: post.publishedDate,
       modifiedTime: post.publishedDate,
@@ -185,7 +185,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
 
-  const siteUrl = "https://celebrity-beta.vercel.app";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
   const postUrl = `${siteUrl}/blog/${slug}`;
   const imageUrl = post.coverImage.startsWith("http") ? post.coverImage : `${siteUrl}${post.coverImage}`;
 
@@ -220,7 +220,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     ],
     publisher: {
       "@type": "Organization",
-      name: "CelebEdge",
+      name: "CelebLedger",
       url: siteUrl,
     },
     mainEntityOfPage: {
@@ -544,7 +544,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </div>
               <span className="text-slate-500 text-xs block mt-0.5">{post.author.role}</span>
               <span className="text-[11px] text-slate-400 block mt-1">
-                Fact-checked under CelebEdge Zero-Rumor Editorial Standards.
+                Fact-checked under CelebLedger Zero-Rumor Editorial Standards.
               </span>
             </div>
           </div>

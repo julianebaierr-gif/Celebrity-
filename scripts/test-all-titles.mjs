@@ -37,28 +37,28 @@ function generateCleanTitle(celebrity) {
   }
 
   const titleCandidates = [
-    `${celebrity.name} Net Worth, Age, ${domainKeyword} & Full Bio | CelebEdge`,
-    `${celebrity.name} Net Worth, Age, Bio & ${domainKeyword} | CelebEdge`,
-    `${celebrity.name} Net Worth, Age, Career, Movies & Bio | CelebEdge`,
-    `${celebrity.name} Net Worth, Age, Music Career & Bio | CelebEdge`,
-    `${celebrity.name} Net Worth, Age, Career & Biography | CelebEdge`,
-    `${celebrity.name} Net Worth, Age, ${specificKeywords[0]} | CelebEdge`,
-    `${celebrity.name} Net Worth, Age, ${specificKeywords[1]} | CelebEdge`,
-    `${celebrity.name} Net Worth, Age & ${domainKeyword} | CelebEdge`,
-    `${celebrity.name} Net Worth, Age, Bio & Career | CelebEdge`,
-    `${celebrity.name} Net Worth, Age, Career & Bio | CelebEdge`,
-    `${celebrity.name} Net Worth, Full Bio & Career | CelebEdge`,
-    `${celebrity.name} Net Worth, Career & Biography | CelebEdge`,
-    `${celebrity.name} Net Worth, Age & Career Guide | CelebEdge`,
-    `${celebrity.name} Net Worth, Career & Bio | CelebEdge`,
-    `${celebrity.name} Net Worth, Age & 2026 Bio | CelebEdge`,
-    `${celebrity.name} Net Worth & Verified Bio | CelebEdge`,
-    `${celebrity.name} Net Worth & Complete Bio | CelebEdge`,
-    `${celebrity.name} Net Worth & 2026 Dossier | CelebEdge`,
-    `${celebrity.name} Net Worth & Biography | CelebEdge`,
-    `${celebrity.name} Net Worth, Age & Bio | CelebEdge`,
-    `${celebrity.name} Net Worth & Career | CelebEdge`,
-    `${celebrity.name} Net Worth & Bio | CelebEdge`
+    `${celebrity.name} Net Worth, Age, ${domainKeyword} & Full Bio | CelebLedger`,
+    `${celebrity.name} Net Worth, Age, Bio & ${domainKeyword} | CelebLedger`,
+    `${celebrity.name} Net Worth, Age, Career, Movies & Bio | CelebLedger`,
+    `${celebrity.name} Net Worth, Age, Music Career & Bio | CelebLedger`,
+    `${celebrity.name} Net Worth, Age, Career & Biography | CelebLedger`,
+    `${celebrity.name} Net Worth, Age, ${specificKeywords[0]} | CelebLedger`,
+    `${celebrity.name} Net Worth, Age, ${specificKeywords[1]} | CelebLedger`,
+    `${celebrity.name} Net Worth, Age & ${domainKeyword} | CelebLedger`,
+    `${celebrity.name} Net Worth, Age, Bio & Career | CelebLedger`,
+    `${celebrity.name} Net Worth, Age, Career & Bio | CelebLedger`,
+    `${celebrity.name} Net Worth, Full Bio & Career | CelebLedger`,
+    `${celebrity.name} Net Worth, Career & Biography | CelebLedger`,
+    `${celebrity.name} Net Worth, Age & Career Guide | CelebLedger`,
+    `${celebrity.name} Net Worth, Career & Bio | CelebLedger`,
+    `${celebrity.name} Net Worth, Age & 2026 Bio | CelebLedger`,
+    `${celebrity.name} Net Worth & Verified Bio | CelebLedger`,
+    `${celebrity.name} Net Worth & Complete Bio | CelebLedger`,
+    `${celebrity.name} Net Worth & 2026 Dossier | CelebLedger`,
+    `${celebrity.name} Net Worth & Biography | CelebLedger`,
+    `${celebrity.name} Net Worth, Age & Bio | CelebLedger`,
+    `${celebrity.name} Net Worth & Career | CelebLedger`,
+    `${celebrity.name} Net Worth & Bio | CelebLedger`
   ];
 
   for (const c of titleCandidates) {
@@ -72,27 +72,27 @@ function generateCleanTitle(celebrity) {
   if (valid.length > 0) {
     let best = valid[0];
     if (best.length < 50) {
-      let padded = best.replace(" & Bio | CelebEdge", " & Full Bio | CelebEdge");
+      let padded = best.replace(" & Bio | CelebLedger", " & Full Bio | CelebLedger");
       if (padded.length >= 50 && padded.length <= 58) return padded;
       padded = best.replace("Net Worth, Age", "Net Worth, Age, Career");
       if (padded.length >= 50 && padded.length <= 58) return padded;
       padded = best.replace("Net Worth &", "Net Worth, Career &");
       if (padded.length >= 50 && padded.length <= 58) return padded;
-      padded = best.replace("| CelebEdge", "& Full Bio | CelebEdge");
+      padded = best.replace("| CelebLedger", "& Full Bio | CelebLedger");
       if (padded.length >= 50 && padded.length <= 58) return padded;
     }
     return best;
   }
-  return `${celebrity.name.slice(0, 35)} Net Worth & Bio | CelebEdge`;
+  return `${celebrity.name.slice(0, 35)} Net Worth & Bio | CelebLedger`;
 }
 
 console.log("=== AUDITING ALL CELEBRITY TITLES ===");
 let allPassed = true;
 celebrities.forEach(c => {
   const title = generateCleanTitle(c);
-  const countCelebEdge = (title.match(/CelebEdge/g) || []).length;
-  const isPass = title.length >= 50 && title.length <= 58 && countCelebEdge === 1 && title.endsWith(" | CelebEdge");
+  const countCelebLedger = (title.match(/CelebLedger/g) || []).length;
+  const isPass = title.length >= 50 && title.length <= 58 && countCelebLedger === 1 && title.endsWith(" | CelebLedger");
   if (!isPass) allPassed = false;
-  console.log(`${c.name} (${title.length} chars) [CelebEdge: ${countCelebEdge}]: "${title}" -> ${isPass ? 'PASS' : 'FAIL'}`);
+  console.log(`${c.name} (${title.length} chars) [CelebLedger: ${countCelebLedger}]: "${title}" -> ${isPass ? 'PASS' : 'FAIL'}`);
 });
 console.log(`\nOVERALL STATUS: ${allPassed ? "ALL 100% PASSED" : "SOME FAILED"}`);

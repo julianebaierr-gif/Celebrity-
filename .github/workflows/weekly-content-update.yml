@@ -47,7 +47,7 @@ jobs:
       - name: Commit and Push Weekly Update to GitHub
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "CelebEdge Weekly Content Engine"
+          git config --local user.name "CelebLedger Weekly Content Engine"
           git add src/data/ public/images/
           if git diff --staged --quiet; then
             echo "No weekly updates to commit."

@@ -11,11 +11,11 @@ import {
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 export const metadata: Metadata = {
-  title: "CelebEdge | Celebrity Biographies, Filmographies & Profiles",
+  title: "CelebLedger | Celebrity Financial Profiles, Net Worth & Career Archives",
   description:
     "Browse official celebrity profiles, career timelines, filmography records, net worth analysis, and personal biographies.",
   alternates: {
-    canonical: "https://celeb-edge.vercel.app",
+    canonical: "https://celebledger.com",
   },
 };
 

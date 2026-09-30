@@ -4,11 +4,11 @@ import Link from "next/link";
 import { ArrowRight, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About CelebEdge | Celebrity Biographies & Profiles",
+  title: "About CelebLedger | Celebrity Biographies & Profiles",
   description:
-    "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebEdge's certified biographical and financial archives.",
+    "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebLedger's certified biographical and financial archives.",
   alternates: {
-    canonical: "https://celeb-edge.vercel.app/about",
+    canonical: "https://celebledger.com/about",
   },
 };
 
@@ -17,34 +17,34 @@ const aboutJsonLd = {
   "@graph": [
     {
       "@type": "AboutPage",
-      "@id": "https://celeb-edge.vercel.app/about#webpage",
-      url: "https://celeb-edge.vercel.app/about",
-      name: "About CelebEdge | Independent Entertainment Editorial & Biographical Archive",
+      "@id": "https://celebledger.com/about#webpage",
+      url: "https://celebledger.com/about",
+      name: "About CelebLedger | Independent Entertainment Editorial & Biographical Archive",
       description:
-        "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebEdge's certified biographical and financial archives.",
+        "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebLedger's certified biographical and financial archives.",
       inLanguage: "en-US",
       isPartOf: {
         "@type": "WebSite",
-        "@id": "https://celeb-edge.vercel.app/#website",
-        name: "CelebEdge",
-        url: "https://celeb-edge.vercel.app",
+        "@id": "https://celebledger.com/#website",
+        name: "CelebLedger",
+        url: "https://celebledger.com",
       },
       about: {
         "@type": "NewsMediaOrganization",
-        "@id": "https://celeb-edge.vercel.app/#organization",
-        name: "CelebEdge Publishing Inc.",
-        url: "https://celeb-edge.vercel.app",
-        publishingPrinciples: "https://celeb-edge.vercel.app/editorial-standards",
-        correctionsPolicy: "https://celeb-edge.vercel.app/editorial-standards#corrections-framework",
+        "@id": "https://celebledger.com/#organization",
+        name: "CelebLedger Publishing Inc.",
+        url: "https://celebledger.com",
+        publishingPrinciples: "https://celebledger.com/editorial-standards",
+        correctionsPolicy: "https://celebledger.com/editorial-standards#corrections-framework",
         employee: [
           {
             "@type": "Person",
-            "@id": "https://celeb-edge.vercel.app/about#author-marcus-vance",
+            "@id": "https://celebledger.com/about#author-marcus-vance",
             name: "Marcus Vance",
             jobTitle: "Senior Industry Writer",
             description:
               "Marcus oversees studio film history, box office tracking, and creative leadership profiles with 7 years of specialized entertainment reporting experience.",
-            email: "marcus.vance@celeb-edge.com",
+            email: "marcus.vance@celebledger.com",
             knowsAbout: ["Studio Film History", "Box Office Tracking", "Hollywood Studio Financing", "Film Industry Economics"],
             alumniOf: {
               "@type": "EducationalOrganization",
@@ -58,12 +58,12 @@ const aboutJsonLd = {
           },
           {
             "@type": "Person",
-            "@id": "https://celeb-edge.vercel.app/about#author-elena-rostova",
+            "@id": "https://celebledger.com/about#author-elena-rostova",
             name: "Elena Rostova",
             jobTitle: "Chief Biographer",
             description:
               "Elena leads biographical investigations, archival interviews, and cultural impact assessments with 6 years of academic film scholarship and reporting.",
-            email: "elena.rostova@celeb-edge.com",
+            email: "elena.rostova@celebledger.com",
             knowsAbout: ["European Film Studies", "West End Stage History", "Auteur Film Directors", "Biographical Archiving"],
             alumniOf: {
               "@type": "EducationalOrganization",
@@ -77,12 +77,12 @@ const aboutJsonLd = {
           },
           {
             "@type": "Person",
-            "@id": "https://celeb-edge.vercel.app/about#author-sarah-jenkins",
+            "@id": "https://celebledger.com/about#author-sarah-jenkins",
             name: "Sarah Jenkins",
             jobTitle: "Fact-Checking Director",
             description:
               "Sarah directs our fact-checking desk and copyright verification workflows with 5 years of legal research in media law and intellectual property.",
-            email: "sarah.jenkins@celeb-edge.com",
+            email: "sarah.jenkins@celebledger.com",
             knowsAbout: ["Media Law", "Copyright Verification", "Primary Source Citations", "Fair Use Doctrine"],
             alumniOf: {
               "@type": "EducationalOrganization",
@@ -96,12 +96,12 @@ const aboutJsonLd = {
           },
           {
             "@type": "Person",
-            "@id": "https://celeb-edge.vercel.app/about#author-david-thorne",
+            "@id": "https://celebledger.com/about#author-david-thorne",
             name: "David Thorne",
             jobTitle: "Entertainment Economist",
             description:
               "David heads our celebrity financial forensics desk with 4 years of entertainment equity analysis and forensic accounting experience.",
-            email: "david.thorne@celeb-edge.com",
+            email: "david.thorne@celebledger.com",
             knowsAbout: ["Forensic Accounting", "Celebrity Net Worth Valuation", "Streaming Residuals", "Real Estate Deeds"],
             alumniOf: {
               "@type": "EducationalOrganization",
@@ -131,10 +131,10 @@ export default function AboutPage() {
         {/* Header */}
         <header className="border-b border-slate-200 pb-8 space-y-4">
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-            About CelebEdge
+            About CelebLedger
           </h1>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-            CelebEdge is an authoritative digital reference portal and independent biographical publication dedicated to delivering forensic celebrity profiles, verified career benchmarks, historical filmographies, and authenticated net worth analysis.
+            CelebLedger is an authoritative digital reference portal and independent biographical publication dedicated to delivering forensic celebrity profiles, verified career benchmarks, historical filmographies, and authenticated net worth analysis.
           </p>
         </header>
 
@@ -145,13 +145,13 @@ export default function AboutPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              In an era dominated by algorithmic aggregators, unchecked social media speculation, and sensationalist tabloid clickbait, authentic public records have become increasingly difficult to distinguish from fiction. CelebEdge was established with a singular editorial charter: to serve as the definitive, dignified, and forensic record of performing artists, cinematic architects, cultural icons, and living legends.
+              In an era dominated by algorithmic aggregators, unchecked social media speculation, and sensationalist tabloid clickbait, authentic public records have become increasingly difficult to distinguish from fiction. CelebLedger was established with a singular editorial charter: to serve as the definitive, dignified, and forensic record of performing artists, cinematic architects, cultural icons, and living legends.
             </p>
             <p>
               We believe that public curiosity surrounding prominent cultural figures deserves rigorous journalistic standards. Whether documenting an actor’s classical theater training, dissecting studio backend profit participation formulas, or chronicling an artist’s lifelong philanthropic advocacy, our profiles are anchored in primary public documentation, authorized trade releases, and historical archives.
             </p>
             <p>
-              CelebEdge is operated by an independent collective of cinema historians, cultural reporters, and entertainment financial analysts. We do not participate in sensationalized gossip, unauthorized surveillance, or invasive paparazzi coverage. Every profile hosted on our service represents an exhaustive biographical examination designed to inform researchers, industry executives, journalists, and film enthusiasts alike.
+              CelebLedger is operated by an independent collective of cinema historians, cultural reporters, and entertainment financial analysts. We do not participate in sensationalized gossip, unauthorized surveillance, or invasive paparazzi coverage. Every profile hosted on our service represents an exhaustive biographical examination designed to inform researchers, industry executives, journalists, and film enthusiasts alike.
             </p>
           </div>
         </section>
@@ -210,7 +210,7 @@ export default function AboutPage() {
             Editorial Masthead & Senior Researchers
           </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            CelebEdge is staffed by credentialed entertainment researchers, film scholars, and financial analysts who bring specialized investigative training, academic rigor, and dedicated archival methodology across contemporary entertainment journalism:
+            CelebLedger is staffed by credentialed entertainment researchers, film scholars, and financial analysts who bring specialized investigative training, academic rigor, and dedicated archival methodology across contemporary entertainment journalism:
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -228,14 +228,14 @@ export default function AboutPage() {
                 Marcus Vance
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Marcus oversees studio film history, box office tracking, and creative leadership profiles. Prior to CelebEdge, he served as an entertainment studio analyst in Los Angeles, contributing extensively to trade retrospectives on Hollywood studio financing and independent cinema distribution models.
+                Marcus oversees studio film history, box office tracking, and creative leadership profiles. Prior to CelebLedger, he served as an entertainment studio analyst in Los Angeles, contributing extensively to trade retrospectives on Hollywood studio financing and independent cinema distribution models.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] text-slate-500 font-medium">Beat: Studio History & Box Office</span>
                 <a
-                  href="mailto:marcus.vance@celeb-edge.com"
+                  href="mailto:marcus.vance@celebledger.com"
                   className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
-                  aria-label="Send editorial inquiry to Marcus Vance via email (marcus.vance@celeb-edge.com)"
+                  aria-label="Send editorial inquiry to Marcus Vance via email (marcus.vance@celebledger.com)"
                 >
                   <Mail className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>Contact</span>
@@ -262,9 +262,9 @@ export default function AboutPage() {
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] text-slate-500 font-medium">Beat: Cultural Impact & Archival Profiles</span>
                 <a
-                  href="mailto:elena.rostova@celeb-edge.com"
+                  href="mailto:elena.rostova@celebledger.com"
                   className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
-                  aria-label="Send biographical inquiry to Elena Rostova via email (elena.rostova@celeb-edge.com)"
+                  aria-label="Send biographical inquiry to Elena Rostova via email (elena.rostova@celebledger.com)"
                 >
                   <Mail className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>Contact</span>
@@ -291,9 +291,9 @@ export default function AboutPage() {
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] text-slate-500 font-medium">Beat: Copyright Verification & Sourcing</span>
                 <a
-                  href="mailto:sarah.jenkins@celeb-edge.com"
+                  href="mailto:sarah.jenkins@celebledger.com"
                   className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
-                  aria-label="Send verification or corrections inquiry to Sarah Jenkins via email (sarah.jenkins@celeb-edge.com)"
+                  aria-label="Send verification or corrections inquiry to Sarah Jenkins via email (sarah.jenkins@celebledger.com)"
                 >
                   <Mail className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>Contact</span>
@@ -320,9 +320,9 @@ export default function AboutPage() {
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] text-slate-500 font-medium">Beat: Net Worth Audits & Financial Forensics</span>
                 <a
-                  href="mailto:david.thorne@celeb-edge.com"
+                  href="mailto:david.thorne@celebledger.com"
                   className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
-                  aria-label="Send financial valuation inquiry to David Thorne via email (david.thorne@celeb-edge.com)"
+                  aria-label="Send financial valuation inquiry to David Thorne via email (david.thorne@celebledger.com)"
                 >
                   <Mail className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>Contact</span>
@@ -339,7 +339,7 @@ export default function AboutPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              Unlike conventional celebrity gossip blogs that profit from intrusive paparazzi photos, unconfirmed marital speculation, or manufactured feuds, CelebEdge enforces strict ethical guardrails:
+              Unlike conventional celebrity gossip blogs that profit from intrusive paparazzi photos, unconfirmed marital speculation, or manufactured feuds, CelebLedger enforces strict ethical guardrails:
             </p>
             <ul className="space-y-2 text-xs text-slate-700 pl-4 list-disc marker:text-slate-400">
               <li>
@@ -364,7 +364,7 @@ export default function AboutPage() {
             Transparent Corrections & Reader Feedback
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-            Accuracy is a continuous discipline. When historical records are revised, civil documents are updated, or new studio data becomes available, CelebEdge reviews and publishes corrections promptly. If you represent an artist, estate, or archival organization and have verifiable documentation to update an existing profile, please contact our editorial desk.
+            Accuracy is a continuous discipline. When historical records are revised, civil documents are updated, or new studio data becomes available, CelebLedger reviews and publishes corrections promptly. If you represent an artist, estate, or archival organization and have verifiable documentation to update an existing profile, please contact our editorial desk.
           </p>
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <Link

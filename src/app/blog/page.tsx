@@ -6,11 +6,11 @@ import { getAllBlogPosts } from "@/data/blog-posts";
 import { ArrowRight, ChevronRight, Calendar, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Editorial Blog | Entertainment Industry News | CelebEdge",
+  title: "Editorial Blog | Entertainment Industry News | CelebLedger",
   description:
     "Editorial articles, film analysis, Hollywood financial investigations, and cultural retrospectives written by our editorial team.",
   alternates: {
-    canonical: "https://celeb-edge.vercel.app/blog",
+    canonical: "https://celebledger.com/blog",
   },
 };
 

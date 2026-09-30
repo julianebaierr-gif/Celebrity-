@@ -37,7 +37,7 @@ export function getUsedKeywordsRegistry(): AntiCannibalizationRegistry {
   }
 
   return {
-    description: "CelebEdge Master Anti-Cannibalization Registry",
+    description: "CelebLedger Master Anti-Cannibalization Registry",
     totalLocked: 0,
     lastUpdated: new Date().toISOString(),
     lockedKeywords: [],

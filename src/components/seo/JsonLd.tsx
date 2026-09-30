@@ -7,7 +7,7 @@ interface JsonLdProps {
 }
 
 export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celeb-edge.vercel.app";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
 
   const schemas: object[] = [];
 
@@ -15,7 +15,7 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
   schemas.push({
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "CelebEdge",
+    name: "CelebLedger",
     url: baseUrl,
     potentialAction: {
       "@type": "SearchAction",
@@ -62,7 +62,7 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
       },
       publisher: {
         "@type": "NewsMediaOrganization",
-        name: "CelebEdge Publishing Inc.",
+        name: "CelebLedger Publishing Inc.",
         url: baseUrl,
         publishingPrinciples: `${baseUrl}/editorial-standards`,
       },

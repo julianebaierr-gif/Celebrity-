@@ -13,7 +13,7 @@ export default function Footer() {
                 ⚡
               </div>
               <span className="text-lg font-black text-slate-900 tracking-tight">
-                CELEB<span className="text-amber-600">EDGE</span>
+                CELEB<span className="text-amber-600">LEDGER</span>
               </span>
             </Link>
             <p className="text-slate-500 leading-relaxed text-xs">
@@ -87,7 +87,7 @@ export default function Footer() {
           {/* Legal & About */}
           <div>
             <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3.5 text-[11px]">
-              About CelebEdge
+              About CelebLedger
             </h4>
             <p className="text-slate-500 leading-relaxed mb-3 text-xs">
               Providing accurate biographical profiles and career documentation. All media and data referenced from public records, official agencies, and authorized archives.
@@ -101,7 +101,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-slate-200 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between text-slate-500 text-[11px] gap-3">
-          <p>© {new Date().getFullYear()} CelebEdge. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} CelebLedger. All rights reserved.</p>
           <div className="flex gap-5 font-medium">
             <Link href="/editorial-standards" className="hover:text-slate-800">Editorial Policy</Link>
             <Link href="/privacy" className="hover:text-slate-800">Privacy Policy</Link>

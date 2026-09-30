@@ -16,7 +16,7 @@ export interface InternalLinkGraph {
 }
 
 /**
- * Builds the real-time live graph of only entities that ACTUALLY EXIST on CelebEdge.
+ * Builds the real-time live graph of only entities that ACTUALLY EXIST on CelebLedger.
  * If a celebrity, movie, or topic is NOT published yet, it will NOT be in this graph.
  */
 export function getLiveLinkGraph(): InternalLinkGraph {
@@ -71,7 +71,7 @@ export function getLiveLinkGraph(): InternalLinkGraph {
 
 /**
  * Strict Existence Gatekeeper:
- * Returns true ONLY if the entity is an active published page on CelebEdge.
+ * Returns true ONLY if the entity is an active published page on CelebLedger.
  * If it's a person/topic not yet published on our site, returns false.
  */
 export function isEntityPublished(slugOrName: string): boolean {
@@ -81,7 +81,7 @@ export function isEntityPublished(slugOrName: string): boolean {
 }
 
 /**
- * Retrieves the published URL for an entity if it exists on CelebEdge, or null.
+ * Retrieves the published URL for an entity if it exists on CelebLedger, or null.
  */
 export function getPublishedEntityUrl(slugOrName: string): string | null {
   if (!slugOrName) return null;

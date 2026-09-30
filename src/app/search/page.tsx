@@ -7,7 +7,7 @@ import { Search, ArrowRight, DollarSign } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 export const metadata: Metadata = {
-  title: "Search Celebrity Net Worth, Age & Profiles | CelebEdge",
+  title: "Search Celebrity Net Worth, Age & Profiles | CelebLedger",
   description: "Search our directory of celebrity profiles, filmographies, and career overviews.",
 };
 

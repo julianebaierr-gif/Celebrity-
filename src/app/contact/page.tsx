@@ -3,17 +3,17 @@ import { Metadata } from "next";
 import { ContactForm } from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact CelebEdge | Editorial Directory, Fact Verification & Bureau Inquiries",
+  title: "Contact CelebLedger | Editorial Directory, Fact Verification & Bureau Inquiries",
   description:
-    "Direct contact directory for CelebEdge newsroom. Submit factual corrections, talent agency updates, media licensing inquiries, and reach our editorial bureaus in Los Angeles, New York, and London.",
+    "Direct contact directory for CelebLedger newsroom. Submit factual corrections, talent agency updates, media licensing inquiries, and reach our editorial bureaus in Los Angeles, New York, and London.",
   alternates: {
-    canonical: "https://celeb-edge.vercel.app/contact",
+    canonical: "https://celebledger.com/contact",
   },
   openGraph: {
-    title: "Contact CelebEdge Newsroom & Fact-Checking Bureau",
+    title: "Contact CelebLedger Newsroom & Fact-Checking Bureau",
     description:
       "Submit factual corrections, publicist inquiries, or reach our investigative editors. 24-48 hour turnaround on verifiable public record audits.",
-    url: "https://celeb-edge.vercel.app/contact",
+    url: "https://celebledger.com/contact",
     type: "website",
   },
 };
@@ -25,10 +25,10 @@ export default function ContactPage() {
         {/* Header */}
         <header className="border-b border-slate-200 pb-8 space-y-4">
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-            Contact CelebEdge
+            Contact CelebLedger
           </h1>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-            CelebEdge maintains an open, transparent line of communication with readers, academic researchers, talent representatives, and industry archivists. We welcome verified factual corrections, agency submissions, syndication inquiries, and secure investigative tips.
+            CelebLedger maintains an open, transparent line of communication with readers, academic researchers, talent representatives, and industry archivists. We welcome verified factual corrections, agency submissions, syndication inquiries, and secure investigative tips.
           </p>
         </header>
 
@@ -39,7 +39,7 @@ export default function ContactPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              As an independent biographical reference and entertainment economics publication, CelebEdge operates under strict standards of accountability. Every inquiry sent to our editorial desk is routed through a monitored ticketing system to ensure that claims regarding public figures, financial estimations, and historical filmographies are evaluated fairly, promptly, and impartially.
+              As an independent biographical reference and entertainment economics publication, CelebLedger operates under strict standards of accountability. Every inquiry sent to our editorial desk is routed through a monitored ticketing system to ensure that claims regarding public figures, financial estimations, and historical filmographies are evaluated fairly, promptly, and impartially.
             </p>
             <p>
               Our standard Service Level Agreement (SLA) prioritizes factual accuracy above all else. For verifiable biographical record audits or urgent right-of-reply submissions, our duty editors acknowledge receipts within <strong>24 business hours</strong> and complete secondary forensic verification within <strong>48 to 72 business hours</strong>. General correspondence, syndication inquiries, and academic citation requests are handled within three to five business days.
@@ -77,9 +77,9 @@ export default function ContactPage() {
                 Dedicated exclusively to investigating discrepancies in birth dates, ancestry, career filmographies, awards, and economic estimates.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">corrections@celeb-edge.com</span>
+                <span className="text-slate-500 font-mono">corrections@celebledger.com</span>
                 <a
-                  href="mailto:corrections@celeb-edge.com"
+                  href="mailto:corrections@celebledger.com"
                   className="font-bold text-amber-700 hover:text-amber-900 hover:underline"
                 >
                   Email Desk &rarr;
@@ -95,9 +95,9 @@ export default function ContactPage() {
                 For pitching biographical essays, reporting cultural milestones, press releases regarding industry retrospectives, or author queries.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">editorial@celeb-edge.com</span>
+                <span className="text-slate-500 font-mono">editorial@celebledger.com</span>
                 <a
-                  href="mailto:editorial@celeb-edge.com"
+                  href="mailto:editorial@celebledger.com"
                   className="font-bold text-slate-900 hover:text-amber-700 hover:underline"
                 >
                   Email Newsroom &rarr;
@@ -113,9 +113,9 @@ export default function ContactPage() {
                 Reserved for accredited talent representatives (CAA, WME, UTA, 42 West, Rogers & Cowan PMK) and legal estate executors submitting on-record documentation.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">talent-relations@celeb-edge.com</span>
+                <span className="text-slate-500 font-mono">talent-relations@celebledger.com</span>
                 <a
-                  href="mailto:talent-relations@celeb-edge.com"
+                  href="mailto:talent-relations@celebledger.com"
                   className="font-bold text-emerald-700 hover:text-emerald-900 hover:underline"
                 >
                   Contact Liaison &rarr;
@@ -131,9 +131,9 @@ export default function ContactPage() {
                 For publishers, documentary filmmakers, research institutes, and academic institutions seeking permission to syndicate biographical narratives or database excerpts.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">licensing@celeb-edge.com</span>
+                <span className="text-slate-500 font-mono">licensing@celebledger.com</span>
                 <a
-                  href="mailto:licensing@celeb-edge.com"
+                  href="mailto:licensing@celebledger.com"
                   className="font-bold text-purple-700 hover:text-purple-900 hover:underline"
                 >
                   Request License &rarr;
@@ -149,9 +149,9 @@ export default function ContactPage() {
                 To submit formal DMCA notifications of claimed copyright infringement under 17 U.S.C. 512(c) or legal service of process.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">legal@celeb-edge.com</span>
+                <span className="text-slate-500 font-mono">legal@celebledger.com</span>
                 <a
-                  href="mailto:legal@celeb-edge.com"
+                  href="mailto:legal@celebledger.com"
                   className="font-bold text-rose-700 hover:text-rose-900 hover:underline"
                 >
                   Contact Legal &rarr;
@@ -167,9 +167,9 @@ export default function ContactPage() {
                 For exercising consumer privacy rights under GDPR, CCPA/CPRA, and state privacy statues (Access, Deletion, or Correction of personal telemetry).
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">privacy@celeb-edge.com</span>
+                <span className="text-slate-500 font-mono">privacy@celebledger.com</span>
                 <a
-                  href="mailto:privacy@celeb-edge.com"
+                  href="mailto:privacy@celebledger.com"
                   className="font-bold text-indigo-700 hover:text-indigo-900 hover:underline"
                 >
                   Privacy Officer &rarr;
@@ -186,7 +186,7 @@ export default function ContactPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge maintains an uncompromising commitment to accuracy. Unlike crowd-sourced wikis that allow unvetted live edits, our publication enforces a rigorous three-stage verification lifecycle before modifying any certified biographical entry:
+              CelebLedger maintains an uncompromising commitment to accuracy. Unlike crowd-sourced wikis that allow unvetted live edits, our publication enforces a rigorous three-stage verification lifecycle before modifying any certified biographical entry:
             </p>
 
             <div className="space-y-4">
@@ -227,7 +227,7 @@ export default function ContactPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge maintains productive professional relationships with artist representation agencies, management firms, and legacy estate trustees worldwide. We welcome official biographical updates, verified charitable endeavors, major theatrical casting notices, and philanthropic foundations.
+              CelebLedger maintains productive professional relationships with artist representation agencies, management firms, and legacy estate trustees worldwide. We welcome official biographical updates, verified charitable endeavors, major theatrical casting notices, and philanthropic foundations.
             </p>
             <p>
               To ensure authenticity, submissions sent on behalf of public figures must adhere to the following protocol:
@@ -240,7 +240,7 @@ export default function ContactPage() {
                 <strong>Verifiable Supporting Material:</strong> Include official press releases, studio credit sheets, call-sheets, or authenticated contract milestones.
               </li>
               <li>
-                <strong>Financial Valuations & Confidentiality:</strong> While we appreciate on-record commentary regarding contractual compensation, CelebEdge maintains independent valuation models. Publicists may provide guidance on divested assets, private foundation contributions, or corporate ownership stakes to refine our public interest estimates.
+                <strong>Financial Valuations & Confidentiality:</strong> While we appreciate on-record commentary regarding contractual compensation, CelebLedger maintains independent valuation models. Publicists may provide guidance on divested assets, private foundation contributions, or corporate ownership stakes to refine our public interest estimates.
               </li>
               <li>
                 <strong>Embargoes & Exclusive Briefings:</strong> Our editorial desk respects standard journalistic embargoes when agreed to in writing prior to confidential disclosure.
@@ -255,7 +255,7 @@ export default function ContactPage() {
             Physical Bureau Locations & Operational Desks
           </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            While CelebEdge operates a modern digital newsroom with remote investigative contributors across four continents, our administrative headquarters and regional research desks are stationed in major entertainment and financial capitals:
+            While CelebLedger operates a modern digital newsroom with remote investigative contributors across four continents, our administrative headquarters and regional research desks are stationed in major entertainment and financial capitals:
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
@@ -298,7 +298,7 @@ export default function ContactPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge maintains an encrypted channel for industry whistleblowers, former production personnel, guild representatives, and archival researchers who possess primary documentary evidence concerning public records, intellectual property litigation, or contract forensics.
+              CelebLedger maintains an encrypted channel for industry whistleblowers, former production personnel, guild representatives, and archival researchers who possess primary documentary evidence concerning public records, intellectual property litigation, or contract forensics.
             </p>
             <div className="rounded-2xl border border-slate-200 bg-slate-900 text-slate-100 p-6 space-y-3">
               <div className="text-xs font-bold uppercase tracking-wider text-slate-300">
@@ -308,7 +308,7 @@ export default function ContactPage() {
                 We vigorously protect journalistic source confidentiality under applicable state and federal Reporter&apos;s Shield Laws. For highly sensitive documentary submissions, do not contact us using corporate email networks or employer-owned devices.
               </p>
               <div className="text-xs text-slate-400 font-mono space-y-1 pt-1">
-                <div>Encrypted Secure Dispatch: tips@celeb-edge.com</div>
+                <div>Encrypted Secure Dispatch: tips@celebledger.com</div>
                 <div>PGP Fingerprint: 4E9A B102 89FC 341D 77EA 9980 BC41 62D9 1F08 A5E2</div>
               </div>
             </div>
@@ -324,28 +324,28 @@ export default function ContactPage() {
           <div className="space-y-4 text-sm">
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2">
               <h3 className="font-bold text-slate-900 text-sm">
-                Does CelebEdge remove biographical profiles upon request?
+                Does CelebLedger remove biographical profiles upon request?
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                CelebEdge chronicles public figures whose careers, achievements, and creative output are matters of established public and cultural record. While we do not delete legitimate historical profiles of notable public figures, we immediately update, clarify, or rectify any specific factual claim or personal detail that is demonstrably inaccurate or violates our privacy guidelines.
+                CelebLedger chronicles public figures whose careers, achievements, and creative output are matters of established public and cultural record. While we do not delete legitimate historical profiles of notable public figures, we immediately update, clarify, or rectify any specific factual claim or personal detail that is demonstrably inaccurate or violates our privacy guidelines.
               </p>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2">
               <h3 className="font-bold text-slate-900 text-sm">
-                Can educational institutions, students, or journalists cite CelebEdge?
+                Can educational institutions, students, or journalists cite CelebLedger?
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Yes. CelebEdge profiles may be cited in academic research, film criticism, and media reports. We recommend utilizing standard Chicago Manual of Style or APA bibliographic formats, citing the specific URL and the &ldquo;Last Updated&rdquo; timestamp displayed at the top of each biographical dossier.
+                Yes. CelebLedger profiles may be cited in academic research, film criticism, and media reports. We recommend utilizing standard Chicago Manual of Style or APA bibliographic formats, citing the specific URL and the &ldquo;Last Updated&rdquo; timestamp displayed at the top of each biographical dossier.
               </p>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-2">
               <h3 className="font-bold text-slate-900 text-sm">
-                How does CelebEdge respond to copyright claims regarding portrait imagery?
+                How does CelebLedger respond to copyright claims regarding portrait imagery?
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                CelebEdge sources visual media through licensed archives, authorized promotional releases, and Creative Commons public repositories with mandatory photographer attribution. If you believe your copyrighted image has been utilized without appropriate authorization or attribution, please submit a notice to <span className="font-mono text-slate-800">legal@celeb-edge.com</span> with proof of ownership for immediate rectification.
+                CelebLedger sources visual media through licensed archives, authorized promotional releases, and Creative Commons public repositories with mandatory photographer attribution. If you believe your copyrighted image has been utilized without appropriate authorization or attribution, please submit a notice to <span className="font-mono text-slate-800">legal@celebledger.com</span> with proof of ownership for immediate rectification.
               </p>
             </div>
           </div>

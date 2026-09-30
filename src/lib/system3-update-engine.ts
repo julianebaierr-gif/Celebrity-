@@ -281,7 +281,7 @@ async function generateAntiCannibalizedBlogPost(
 
   try {
     const prompt = `
-You are a Senior Entertainment Journalist at CelebEdge.
+You are a Senior Entertainment Journalist at CelebLedger.
 Write an in-depth, authoritative 800+ word journalistic news report.
 
 Subject Celebrity: "${celebrity.name}"
@@ -625,7 +625,7 @@ Verified sources confirm that all slated studio commitments, theatrical premiere
 Industry analysts project enhanced brand affinity and heightened media visibility, reinforcing ${celebrity.name}'s status among Hollywood's elite cultural leaders.
 
 ### Where can I access ${celebrity.name}'s complete biography, box office gross, and career records?
-CelebEdge maintains a continuously updated, fact-checked archive covering net worth, filmography, and relationship archives. Read the full [${celebrity.name} Official Career Profile](/celebrity/${celebrity.slug}).
+CelebLedger maintains a continuously updated, fact-checked archive covering net worth, filmography, and relationship archives. Read the full [${celebrity.name} Official Career Profile](/celebrity/${celebrity.slug}).
 `.trim();
 
   return {
@@ -672,7 +672,7 @@ export async function processCelebrityUpdate(
       blogPostCreated: false,
       antiCannibalizationPassed: false,
       lastUpdatedTimestamp: new Date().toISOString(),
-      error: `Celebrity with slug '${celebritySlug}' does not exist on CelebEdge.`,
+      error: `Celebrity with slug '${celebritySlug}' does not exist on CelebLedger.`,
     };
   }
 

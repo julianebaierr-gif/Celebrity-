@@ -299,7 +299,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
     try {
       const summaryUrl = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(t.replace(/ /g, "_"))}`;
       const res = await fetch(summaryUrl, {
-        headers: { "User-Agent": "CelebEdgeBot/1.0 (info@celeb-edge.com)" },
+        headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
         signal: AbortSignal.timeout(8000)
       });
       if (res.ok) {
@@ -427,7 +427,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
   try {
     const pagepropsUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts|pageprops&exintro=true&explaintext=true&titles=${encodeURIComponent(canonicalTitle)}&format=json`;
     const ppRes = await fetch(pagepropsUrl, {
-      headers: { "User-Agent": "CelebEdgeBot/1.0 (info@celeb-edge.com)" },
+      headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
       signal: AbortSignal.timeout(8000)
     });
     if (ppRes.ok) {
@@ -440,7 +440,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
       if (qid) {
         try {
           const wdRes = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`, {
-            headers: { "User-Agent": "CelebEdgeBot/1.0 (info@celeb-edge.com)" },
+            headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
             signal: AbortSignal.timeout(8000)
           });
           if (wdRes.ok) {
@@ -510,7 +510,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
               for (const id of idList.slice(0, 3)) {
                 try {
                   const r = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`, {
-                    headers: { "User-Agent": "CelebEdgeBot/1.0 (info@celeb-edge.com)" },
+                    headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
                     signal: AbortSignal.timeout(5000)
                   });
                   if (r.ok) {
@@ -557,7 +557,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
   try {
     const parseUrl = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(canonicalTitle)}&prop=text&section=0&format=json`;
     const parseRes = await fetch(parseUrl, {
-      headers: { "User-Agent": "CelebEdgeBot/1.0 (info@celeb-edge.com)" },
+      headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
       signal: AbortSignal.timeout(8000)
     });
     if (parseRes.ok) {
@@ -740,7 +740,7 @@ async function resolveCelebrityImages(entityName, slug, directImageUrl = null) {
           q
         )}&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size&format=json`;
 
-        const res = await fetch(url, { headers: { "User-Agent": "CelebEdgeBot/1.0 (info@celeb-edge.com)" } });
+        const res = await fetch(url, { headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" } });
         if (!res.ok) continue;
         const data = await res.json();
         const pages = Object.values(data.query?.pages || {});
@@ -774,7 +774,7 @@ async function resolveCelebrityImages(entityName, slug, directImageUrl = null) {
     try {
       console.log(`[ImagePipeline] Downloading verified photo: ${imageUrl}`);
       const imgRes = await fetch(imageUrl, {
-        headers: { "User-Agent": "CelebEdgeBot/1.0 (info@celeb-edge.com)" },
+        headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
         signal: AbortSignal.timeout(10000)
       });
       if (imgRes.ok) {
@@ -835,7 +835,7 @@ function applyInternalLinks(text, currentSlug) {
 // 9. Main Universal Celebrity Publishing Routine
 async function main() {
   console.log("===================================================================");
-  console.log("🌟 CelebEdge Universal Celebrity Publishing Engine");
+  console.log("🌟 CelebLedger Universal Celebrity Publishing Engine");
   console.log("   (Actors, Rappers, Athletes, Musicians, Creators & Influencers)");
   console.log("===================================================================");
 
@@ -1199,7 +1199,7 @@ ${dossier.fullLeadText || dossier.extract}
 `;
 
     const geminiPrompt = `
-You are a senior entertainment investigative journalist and biographical analyst for CelebEdge.
+You are a senior entertainment investigative journalist and biographical analyst for CelebLedger.
 Generate comprehensive, 100% factually accurate, human-quality biographical details for ${dossier.archetype} "${targetCandidate.entity}".
 DO NOT use template phrases, generic placeholders, or vague boilerplate. Every detail must be factual and specific to ${targetCandidate.entity}.
 Ensure ZERO AI words (no delve, beacon, testament, powerhouse, tapestry, elevate, pivotal, cornerstone, landscape).
@@ -1756,7 +1756,7 @@ Return STRICT JSON with the following structure:
 
   // 13. Lock in Registry & CSVs
   const publishedDate = new Date().toISOString().replace("T", " ").slice(0, 19);
-  const canonicalUrl = `https://celeb-edge.vercel.app/celebrity/${verifiedProfile.slug}`;
+  const canonicalUrl = `https://celebledger.com/celebrity/${verifiedProfile.slug}`;
   const tagsFormatted = verifiedProfile.secondaryKeywords.slice(0, 4).join(" | ");
 
   registry.lockedKeywords.push({

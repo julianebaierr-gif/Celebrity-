@@ -27,9 +27,9 @@ export function ContactForm() {
           Inquiry Successfully Dispatched to Editorial Queue
         </h3>
         <p className="text-sm text-slate-700 max-w-lg mx-auto leading-relaxed">
-          Thank you for communicating with the CelebEdge newsroom. Your docket has been assigned ticket ID{" "}
+          Thank you for communicating with the CelebLedger newsroom. Your docket has been assigned ticket ID{" "}
           <span className="font-mono font-semibold text-slate-900">
-            CE-{Math.floor(100000 + Math.random() * 900000)}
+            CL-{Math.floor(100000 + Math.random() * 900000)}
           </span>
           . Our editorial review team will evaluate your submission against verified public archives within 24 to 48 business hours.
         </p>
@@ -50,7 +50,7 @@ export function ContactForm() {
     <form onSubmit={handleSubmit} className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 space-y-6 shadow-xs">
       <div className="border-b border-slate-100 pb-4">
         <h3 className="text-lg font-bold text-slate-900 tracking-tight">
-          Direct Dispatch to CelebEdge Newsroom
+          Direct Dispatch to CelebLedger Newsroom
         </h3>
         <p className="text-xs text-slate-500 mt-1">
           Submissions are routed directly to duty editors and assigned an automated tracking ticket.

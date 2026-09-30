@@ -3,17 +3,17 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Use & Service | CelebEdge - Intellectual Property, Disclaimers & DMCA",
+  title: "Terms of Use & Service | CelebLedger - Intellectual Property, Disclaimers & DMCA",
   description:
-    "Review the terms governing access to CelebEdge's public biographical dossiers, intellectual property rights, financial net worth disclaimers, anti-scraping policies, and statutory DMCA copyright notice protocols.",
+    "Review the terms governing access to CelebLedger's public biographical dossiers, intellectual property rights, financial net worth disclaimers, anti-scraping policies, and statutory DMCA copyright notice protocols.",
   alternates: {
-    canonical: "https://celeb-edge.vercel.app/terms",
+    canonical: "https://celebledger.com/terms",
   },
   openGraph: {
-    title: "Terms of Use & Service | CelebEdge",
+    title: "Terms of Use & Service | CelebLedger",
     description:
       "Legal terms of service, intellectual property ownership, financial disclaimer, and DMCA copyright enforcement procedures.",
-    url: "https://celeb-edge.vercel.app/terms",
+    url: "https://celebledger.com/terms",
     type: "website",
   },
 };
@@ -28,7 +28,7 @@ export default function TermsPage() {
             Terms of Use & Service
           </h1>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-            Please read these Terms of Use carefully before accessing or browsing CelebEdge. By using this website, you confirm your unconditional acceptance of these terms, our privacy policy, and our institutional editorial guidelines.
+            Please read these Terms of Use carefully before accessing or browsing CelebLedger. By using this website, you confirm your unconditional acceptance of these terms, our privacy policy, and our institutional editorial guidelines.
           </p>
           <div className="flex flex-wrap items-center gap-3 text-xs text-slate-500 font-mono pt-2">
             <span>Effective Date: January 1, 2026</span>
@@ -46,7 +46,7 @@ export default function TermsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              These Terms of Use (&ldquo;Terms&rdquo;) constitute a legally binding agreement between you (&ldquo;User,&rdquo; &ldquo;Reader,&rdquo; or &ldquo;You&rdquo;) and CelebEdge (&ldquo;CelebEdge,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), governing your access to and interaction with the website located at <code>celeb-edge.vercel.app</code> and all associated digital subdomains, APIs, RSS feeds, and editorial archives (collectively, the &ldquo;Service&rdquo;).
+              These Terms of Use (&ldquo;Terms&rdquo;) constitute a legally binding agreement between you (&ldquo;User,&rdquo; &ldquo;Reader,&rdquo; or &ldquo;You&rdquo;) and CelebLedger (&ldquo;CelebLedger,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), governing your access to and interaction with the website located at <code>celebledger.com</code> and all associated digital subdomains, APIs, RSS feeds, and editorial archives (collectively, the &ldquo;Service&rdquo;).
             </p>
             <p>
               By accessing, browsing, reading, or caching any page on the Service, you represent and warrant that you have reached the age of majority in your jurisdiction of residence, possess the legal capacity to enter into binding agreements, and consent to comply with all provisions contained herein. If you do not agree to every term of this agreement, you must immediately terminate access to the Service.
@@ -61,10 +61,10 @@ export default function TermsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              All proprietary editorial text, original biographical narratives, critical analytical synthesis, structured tabular data, bespoke UI designs, icons, graphics, audio, code, and overall compilation architecture hosted on the Service are the exclusive intellectual property of CelebEdge and are protected by United States and international copyright, trademark, patent, and trade dress laws.
+              All proprietary editorial text, original biographical narratives, critical analytical synthesis, structured tabular data, bespoke UI designs, icons, graphics, audio, code, and overall compilation architecture hosted on the Service are the exclusive intellectual property of CelebLedger and are protected by United States and international copyright, trademark, patent, and trade dress laws.
             </p>
             <p>
-              <strong>Limited Grant of License:</strong> CelebEdge grants you a limited, non-exclusive, revocable, non-transferable license to access, read, and locally cache pages of the Service strictly for your individual, personal, non-commercial educational, or research purposes.
+              <strong>Limited Grant of License:</strong> CelebLedger grants you a limited, non-exclusive, revocable, non-transferable license to access, read, and locally cache pages of the Service strictly for your individual, personal, non-commercial educational, or research purposes.
             </p>
             <p>
               <strong>Restrictions:</strong> Except as explicitly permitted by fair use provisions under Section 107 of the U.S. Copyright Act, you may not republish, broadcast, syndicate, sell, sublicense, commercially exploit, or redistribute substantial portions of our biographical dossiers without prior written authorization from our <Link href="/contact" className="text-amber-700 font-bold hover:underline">Licensing Desk</Link>.
@@ -98,7 +98,7 @@ export default function TermsPage() {
             </ul>
 
             <p className="text-xs text-slate-600">
-              CelebEdge actively deploys automated threat-intelligence filters to identify and throttle unauthorized scraping traffic. Violations of this section may result in permanent IP blacklisting and referral to legal counsel under the Computer Fraud and Abuse Act (CFAA) (18 U.S.C. § 1030).
+              CelebLedger actively deploys automated threat-intelligence filters to identify and throttle unauthorized scraping traffic. Violations of this section may result in permanent IP blacklisting and referral to legal counsel under the Computer Fraud and Abuse Act (CFAA) (18 U.S.C. § 1030).
             </p>
           </div>
         </section>
@@ -114,10 +114,10 @@ export default function TermsPage() {
                 Informational & Educational Purpose Only
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Biographical dossiers, economic timelines, and net worth estimations published across CelebEdge are compiled strictly for journalistic, cultural, historical, and educational purposes. Net worth figures represent our independent analytical models synthesized from public corporate filings, municipal deed records, and industry benchmarks.
+                Biographical dossiers, economic timelines, and net worth estimations published across CelebLedger are compiled strictly for journalistic, cultural, historical, and educational purposes. Net worth figures represent our independent analytical models synthesized from public corporate filings, municipal deed records, and industry benchmarks.
               </p>
               <p className="text-xs text-slate-600 leading-relaxed">
-                <strong>NO FINANCIAL OR LEGAL COUNSEL:</strong> Nothing contained within the Service constitutes investment advice, tax planning, financial counsel, accounting advice, or legal recommendation. You should not make financial or investment decisions based upon information found on CelebEdge. We disclaim all liability for any actions taken in reliance upon economic valuations published on this website.
+                <strong>NO FINANCIAL OR LEGAL COUNSEL:</strong> Nothing contained within the Service constitutes investment advice, tax planning, financial counsel, accounting advice, or legal recommendation. You should not make financial or investment decisions based upon information found on CelebLedger. We disclaim all liability for any actions taken in reliance upon economic valuations published on this website.
               </p>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function TermsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge complies fully with the provisions of Title 17, United States Code, Section 512(c) (the Digital Millennium Copyright Act). If you are a copyright owner or an agent authorized to act on their behalf, and you believe that material hosted on CelebEdge infringes your copyright, you may submit a formal notification containing the following elements:
+              CelebLedger complies fully with the provisions of Title 17, United States Code, Section 512(c) (the Digital Millennium Copyright Act). If you are a copyright owner or an agent authorized to act on their behalf, and you believe that material hosted on CelebLedger infringes your copyright, you may submit a formal notification containing the following elements:
             </p>
 
             <ol className="space-y-2 text-xs text-slate-700 pl-5 list-decimal marker:font-bold marker:text-slate-800">
@@ -141,7 +141,7 @@ export default function TermsPage() {
                 <strong>Identification of the Copyrighted Work:</strong> Identification of the copyrighted work claimed to have been infringed, or, if multiple works are covered by a single notification, a representative list of such works.
               </li>
               <li>
-                <strong>Identification of the Infringing Material:</strong> Specific identification of the material that is claimed to be infringing, including the exact URL or link on CelebEdge where the material is located.
+                <strong>Identification of the Infringing Material:</strong> Specific identification of the material that is claimed to be infringing, including the exact URL or link on CelebLedger where the material is located.
               </li>
               <li>
                 <strong>Complainant Contact Information:</strong> Your direct mailing address, telephone number, and email address.
@@ -159,14 +159,14 @@ export default function TermsPage() {
                 Designated DMCA Agent for Notice:
               </h3>
               <p className="text-slate-600">
-                DMCA Compliance Director, CelebEdge Legal Operations<br />
-                Email: <a href="mailto:legal@celeb-edge.com" className="text-amber-700 font-bold hover:underline">legal@celeb-edge.com</a><br />
+                DMCA Compliance Director, CelebLedger Legal Operations<br />
+                Email: <a href="mailto:legal@celebledger.com" className="text-amber-700 font-bold hover:underline">legal@celebledger.com</a><br />
                 Address: Century City Media Center, Legal Suite 1400, Los Angeles, CA 90067
               </p>
             </div>
 
             <p className="text-xs text-slate-600">
-              Upon receipt of a valid, compliant DMCA notice, CelebEdge will promptly remove or disable access to the challenged material and notify the content contributor. In accordance with Section 512(i), CelebEdge maintains a policy of terminating access for repeat infringers in appropriate circumstances.
+              Upon receipt of a valid, compliant DMCA notice, CelebLedger will promptly remove or disable access to the challenged material and notify the content contributor. In accordance with Section 512(i), CelebLedger maintains a policy of terminating access for repeat infringers in appropriate circumstances.
             </p>
           </div>
         </section>
@@ -181,7 +181,7 @@ export default function TermsPage() {
               The Service contains hyperlinks to external third-party repositories, including Box Office Mojo, IMDb, the British Film Institute, the Academy of Motion Picture Arts and Sciences, and government regulatory registries. These links are provided solely as bibliographic citations for your convenience.
             </p>
             <p>
-              CelebEdge does not endorse, control, or assume responsibility for the content, privacy policies, or business practices of third-party platforms. Accessing third-party resources is done entirely at your own risk.
+              CelebLedger does not endorse, control, or assume responsibility for the content, privacy policies, or business practices of third-party platforms. Accessing third-party resources is done entirely at your own risk.
             </p>
           </div>
         </section>
@@ -196,13 +196,13 @@ export default function TermsPage() {
               &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; PROVISION:
             </p>
             <p className="text-xs text-slate-600 leading-relaxed">
-              TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, CELEBEDGE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR COMPLETELY ERROR-FREE.
+              TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, CELEBLEDGER DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR COMPLETELY ERROR-FREE.
             </p>
             <p className="uppercase text-xs font-semibold text-slate-600 pt-2">
               LIMITATION OF DAMAGES:
             </p>
             <p className="text-xs text-slate-600 leading-relaxed">
-              IN NO EVENT SHALL CELEBEDGE, ITS DIRECTORS, EDITORS, OFFICERS, EMPLOYEES, AFFILIATES, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN ANY WAY CONNECTED WITH YOUR USE OF, OR INABILITY TO USE, THE SERVICE OR ANY RELIANCE UPON BIOGRAPHICAL AND FINANCIAL CONTENT PUBLISHED HEREIN.
+              IN NO EVENT SHALL CELEBLEDGER, ITS DIRECTORS, EDITORS, OFFICERS, EMPLOYEES, AFFILIATES, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN ANY WAY CONNECTED WITH YOUR USE OF, OR INABILITY TO USE, THE SERVICE OR ANY RELIANCE UPON BIOGRAPHICAL AND FINANCIAL CONTENT PUBLISHED HEREIN.
             </p>
           </div>
         </section>
@@ -217,7 +217,7 @@ export default function TermsPage() {
               These Terms and any dispute arising out of or related to your use of the Service shall be governed by, construed, and enforced in accordance with the laws of the State of California and the federal laws of the United States of America, without regard to conflict of law principles.
             </p>
             <p>
-              <strong>Informal Resolution Period:</strong> Prior to filing any legal claim or demand, you agree to contact CelebEdge via <span className="font-mono text-slate-800">legal@celeb-edge.com</span> and attempt in good faith to resolve the dispute informally for a period of not less than thirty (30) calendar days.
+              <strong>Informal Resolution Period:</strong> Prior to filing any legal claim or demand, you agree to contact CelebLedger via <span className="font-mono text-slate-800">legal@celebledger.com</span> and attempt in good faith to resolve the dispute informally for a period of not less than thirty (30) calendar days.
             </p>
           </div>
         </section>

@@ -3,7 +3,7 @@ import { CELEBRITIES } from "@/data/celebrities";
 import { BLOG_POSTS } from "@/data/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celeb-edge.vercel.app";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://celebledger.com";
 
   // Static core routes
   const staticRoutes: MetadataRoute.Sitemap = [

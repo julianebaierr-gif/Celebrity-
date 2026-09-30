@@ -25,7 +25,7 @@ export const BLOG_POSTS: BlogPost[] = [
     headline: "An inside look into municipal public filings, box office backend points, and corporate royalties.",
     excerpt: "From real estate deed registries to studio profit-participation audits, discover the rigorous financial journalism methodology behind certified celebrity valuations.",
     content: `
-When public inquiries surge around celebrity wealth, internet estimations often lean on unchecked speculation. At CelebEdge, calculating an authentic valuation demands a disciplined forensic approach grounded strictly in primary records.
+When public inquiries surge around celebrity wealth, internet estimations often lean on unchecked speculation. At CelebLedger, calculating an authentic valuation demands a disciplined forensic approach grounded strictly in primary records.
 
 ### 1. Municipal Deed Registries & Real Estate Deeds
 Real estate forms the bedrock of tangible celebrity assets. County assessor offices and municipal property deeds across California, New York, and international jurisdictions reveal verified acquisition costs, property transfers, and mortgage liabilities.

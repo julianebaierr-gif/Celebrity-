@@ -48,7 +48,7 @@ for (let i = 1; i < rawChunks.length; i++) {
     tags: tags.slice(0, 4).join(" | "),
     allTags: tags,
     status: "Published",
-    url: `https://celeb-edge.vercel.app/celebrity/${slug}`,
+    url: `https://celebledger.com/celebrity/${slug}`,
     publishedDate: formattedDate
   });
 }
@@ -84,7 +84,7 @@ console.log("Wrote src/data/sheet1-pasteable.tsv successfully!");
 
 // Create the used-keywords registry JSON
 const registry = {
-  description: "CelebEdge Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
+  description: "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
   totalLocked: entries.length,
   lastUpdated: new Date().toISOString(),
   lockedKeywords: entries.map(e => ({

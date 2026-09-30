@@ -2,17 +2,17 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Editorial Standards, Fact-Checking & Verification Policy | CelebEdge",
+  title: "Editorial Standards, Fact-Checking & Verification Policy | CelebLedger",
   description:
-    "Review CelebEdge's journalistic charter: our 4-tier sourcing hierarchy, financial forensics methodology, net worth calculation formula, right-of-reply protocol, and image licensing ethics.",
+    "Review CelebLedger's journalistic charter: our 4-tier sourcing hierarchy, financial forensics methodology, net worth calculation formula, right-of-reply protocol, and image licensing ethics.",
   alternates: {
-    canonical: "https://celeb-edge.vercel.app/editorial-standards",
+    canonical: "https://celebledger.com/editorial-standards",
   },
   openGraph: {
-    title: "Editorial Standards & Verification Policy | CelebEdge",
+    title: "Editorial Standards & Verification Policy | CelebLedger",
     description:
       "Our uncompromising commitment to forensic verification, independent cultural research, and accurate financial estimations.",
-    url: "https://celeb-edge.vercel.app/editorial-standards",
+    url: "https://celebledger.com/editorial-standards",
     type: "website",
   },
 };
@@ -27,7 +27,7 @@ export default function EditorialStandardsPage() {
             Editorial Guidelines & Standards
           </h1>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-            CelebEdge is dedicated to establishing the highest standard of verification, historical precision, and analytical integrity in contemporary entertainment journalism. This living document details our investigative protocols, sourcing hierarchies, economic valuation models, and corrections policies.
+            CelebLedger is dedicated to establishing the highest standard of verification, historical precision, and analytical integrity in contemporary entertainment journalism. This living document details our investigative protocols, sourcing hierarchies, economic valuation models, and corrections policies.
           </p>
         </header>
 
@@ -38,7 +38,7 @@ export default function EditorialStandardsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              Contemporary digital entertainment media is saturated with hyper-accelerated gossip, unverified social media conjecture, and invasive paparazzi stalking. CelebEdge was founded as an antidote to this ecosystem. We treat the careers, intellectual output, and cultural resonance of performing artists with the same forensic rigor and dignity historically accorded to figures in science, literature, and governance.
+              Contemporary digital entertainment media is saturated with hyper-accelerated gossip, unverified social media conjecture, and invasive paparazzi stalking. CelebLedger was founded as an antidote to this ecosystem. We treat the careers, intellectual output, and cultural resonance of performing artists with the same forensic rigor and dignity historically accorded to figures in science, literature, and governance.
             </p>
             <p>
               We adhere strictly to the Society of Professional Journalists (SPJ) Code of Ethics: seek truth and report it, minimize harm, act independently, and be accountable and transparent. We do not participate in &ldquo;blind items,&rdquo; unauthorized medical disclosures, surreptitious personal surveillance, or domestic litigation speculation. Our journalism focuses squarely on verifiable professional trajectories, artistic contributions, business architectures, and public interest philanthropy.
@@ -52,7 +52,7 @@ export default function EditorialStandardsPage() {
             The Four-Tier Sourcing Hierarchy
           </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            To satisfy Google&apos;s Search Quality Rater Guidelines for Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T), CelebEdge requires that all assertions of fact be corroborated through a strict hierarchy of verified sources:
+            To satisfy Google&apos;s Search Quality Rater Guidelines for Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T), CelebLedger requires that all assertions of fact be corroborated through a strict hierarchy of verified sources:
           </p>
 
           <div className="space-y-4">
@@ -101,7 +101,7 @@ export default function EditorialStandardsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              Unlike automated websites that publish arbitrary round figures, CelebEdge approaches celebrity economics through forensic accounting principles. Celebrity net worth is inherently dynamic and largely private; therefore, we present our estimates as forensic valuations rather than liquid bank account balances.
+              Unlike automated websites that publish arbitrary round figures, CelebLedger approaches celebrity economics through forensic accounting principles. Celebrity net worth is inherently dynamic and largely private; therefore, we present our estimates as forensic valuations rather than liquid bank account balances.
             </p>
             <p>
               Our valuation algorithm models celebrity net worth through the following formula:
@@ -132,7 +132,7 @@ export default function EditorialStandardsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge takes full editorial responsibility for every word published on our platform. When a factual discrepancy is identified, we act swiftly and transparently to correct the record. We do not quietly &ldquo;stealth edit&rdquo; errors without acknowledging them to our readers.
+              CelebLedger takes full editorial responsibility for every word published on our platform. When a factual discrepancy is identified, we act swiftly and transparently to correct the record. We do not quietly &ldquo;stealth edit&rdquo; errors without acknowledging them to our readers.
             </p>
             <p>
               Our correction classifications are structured as follows:
@@ -162,7 +162,7 @@ export default function EditorialStandardsPage() {
             </div>
 
             <p>
-              <strong>Right-of-Reply Guarantee:</strong> Any living public figure, or their accredited legal or public relations representative, possesses an unfettered right-of-reply. If an individual believes a profile contains an unfair characterization or incomplete financial picture, they may submit on-the-record statements via <span className="font-mono text-slate-800">corrections@celeb-edge.com</span>. When corroborated, their clarification is incorporated directly into the biographical text.
+              <strong>Right-of-Reply Guarantee:</strong> Any living public figure, or their accredited legal or public relations representative, possesses an unfettered right-of-reply. If an individual believes a profile contains an unfair characterization or incomplete financial picture, they may submit on-the-record statements via <span className="font-mono text-slate-800">corrections@celebledger.com</span>. When corroborated, their clarification is incorporated directly into the biographical text.
             </p>
           </div>
         </section>
@@ -174,7 +174,7 @@ export default function EditorialStandardsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge maintains a strict zero-tolerance policy against copyright infringement. Photography published across our dossiers is obtained through legal, documented, and properly licensed channels:
+              CelebLedger maintains a strict zero-tolerance policy against copyright infringement. Photography published across our dossiers is obtained through legal, documented, and properly licensed channels:
             </p>
             <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
@@ -187,7 +187,7 @@ export default function EditorialStandardsPage() {
                 <strong>Studio Promotional Electronic Press Kits (EPK):</strong> Publicity stills issued by studios, distributors, and film festivals for editorial press coverage are utilized strictly in compliance with Section 107 of the U.S. Copyright Act (Fair Use) for news reporting, cultural commentary, and educational scholarship.
               </li>
               <li>
-                <strong>Paparazzi Prohibition:</strong> CelebEdge strictly bans the purchase, display, or hosting of paparazzi photography depicting artists in private settings, off-duty residences, or distressing personal circumstances.
+                <strong>Paparazzi Prohibition:</strong> CelebLedger strictly bans the purchase, display, or hosting of paparazzi photography depicting artists in private settings, off-duty residences, or distressing personal circumstances.
               </li>
             </ul>
           </div>
@@ -200,7 +200,7 @@ export default function EditorialStandardsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              While CelebEdge deploys advanced natural language models and data indexing systems to assist our research staff in cataloging thousands of film releases, box office tables, and regulatory filings, we maintain an uncompromising &ldquo;human-in-the-loop&rdquo; editorial standard.
+              While CelebLedger deploys advanced natural language models and data indexing systems to assist our research staff in cataloging thousands of film releases, box office tables, and regulatory filings, we maintain an uncompromising &ldquo;human-in-the-loop&rdquo; editorial standard.
             </p>
             <p>
               No biographical profile, critical evaluation, or financial assessment is ever published through unattended automated generation. Every sentence, credit, and dollar figure is reviewed, fact-checked, and approved by qualified human journalists. Large language models serve solely as investigative research assistants—not as authoritative sources of factual truth.
@@ -215,10 +215,10 @@ export default function EditorialStandardsPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge maintains an impenetrable barrier between editorial judgment and commercial revenue operations. We do not accept payment, gifts, sponsored travel, or consideration of any kind in exchange for creating, altering, or removing a biographical dossier.
+              CelebLedger maintains an impenetrable barrier between editorial judgment and commercial revenue operations. We do not accept payment, gifts, sponsored travel, or consideration of any kind in exchange for creating, altering, or removing a biographical dossier.
             </p>
             <p>
-              All advertising displayed across CelebEdge is served through standardized programmatic networks and is distinctly labeled. Advertisers exercise zero influence over newsroom coverage, editorial tone, or financial net worth estimations. Our staff members are prohibited from holding active equity stakes in private entertainment talent management agencies or production entities they directly cover.
+              All advertising displayed across CelebLedger is served through standardized programmatic networks and is distinctly labeled. Advertisers exercise zero influence over newsroom coverage, editorial tone, or financial net worth estimations. Our staff members are prohibited from holding active equity stakes in private entertainment talent management agencies or production entities they directly cover.
             </p>
           </div>
         </section>

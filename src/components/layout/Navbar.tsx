@@ -17,10 +17,10 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col">
             <span className="text-2xl font-black tracking-tight text-slate-900 flex items-center">
-              CELEB<span className="text-amber-600">EDGE</span>
+              CELEB<span className="text-amber-600">LEDGER</span>
             </span>
             <span className="text-[10px] uppercase tracking-widest text-slate-500 -mt-1 font-bold whitespace-nowrap">
-              The Celebrity Journal
+              The Celebrity Ledger
             </span>
           </div>
         </Link>

@@ -2,7 +2,7 @@
  * Anti-AI Vocabulary Registry & Sanitizer
  * 
  * Strict blacklist of clichéd AI buzzwords and automated phrasing.
- * Ensures 100% authentic, human journalistic voice across CelebEdge.
+ * Ensures 100% authentic, human journalistic voice across CelebLedger.
  */
 
 export const BANNED_AI_WORDS_AND_PHRASES: string[] = [

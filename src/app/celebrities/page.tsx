@@ -7,11 +7,11 @@ import { Search, ArrowRight, ChevronRight, DollarSign } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 export const metadata: Metadata = {
-  title: "All Celebrities Directory & Net Worth Bios | CelebEdge",
+  title: "All Celebrities Directory & Net Worth Bios | CelebLedger",
   description:
     "Browse our official directory of celebrity profiles. Detailed biographies, net worth analysis, career highlights, and filmographies.",
   alternates: {
-    canonical: "https://celeb-edge.vercel.app/celebrities",
+    canonical: "https://celebledger.com/celebrities",
   },
 };
 

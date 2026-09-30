@@ -105,13 +105,13 @@ export default function RelationshipSection({
                     )}
                   </div>
 
-                  {/* System 4 Autonomous Gatekeeper: Only link if published on CelebEdge */}
+                  {/* System 4 Autonomous Gatekeeper: Only link if published on CelebLedger */}
                   {partner.profileSlug && isEntityPublished(partner.profileSlug) ? (
                     <div className="pt-2">
                       <Link
                         href={`/celebrity/${partner.profileSlug}`}
                         className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-800 hover:text-amber-900 underline-offset-2 hover:underline focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-0.5 transition-colors group"
-                        aria-label={`Read ${partner.name}'s biographical profile on CelebEdge`}
+                        aria-label={`Read ${partner.name}'s biographical profile on CelebLedger`}
                       >
                         <span>View {partner.name}&apos;s Official Profile</span>
                         <ArrowRight
@@ -149,7 +149,7 @@ export default function RelationshipSection({
       <div className="flex items-center gap-2 pt-2 text-[11px] text-slate-400">
         <ShieldCheck className="h-3.5 w-3.5 text-slate-400 shrink-0" aria-hidden="true" />
         <span>
-          Privacy Note: CelebEdge verifies relationship milestones strictly through authorized public statements, certified marriage licenses, and direct on-record interviews to prevent unverified gossip.
+          Privacy Note: CelebLedger verifies relationship milestones strictly through authorized public statements, certified marriage licenses, and direct on-record interviews to prevent unverified gossip.
         </span>
       </div>
     </section>

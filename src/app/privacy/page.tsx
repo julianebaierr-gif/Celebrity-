@@ -3,17 +3,17 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | CelebEdge - Data Protection, GDPR, CCPA/CPRA & Cookie Standards",
+  title: "Privacy Policy | CelebLedger - Data Protection, GDPR, CCPA/CPRA & Cookie Standards",
   description:
-    "Official privacy policy of CelebEdge detailing how we safeguard user data, uphold GDPR and CCPA/CPRA standards, enforce cookie transparency, and protect public archive integrity.",
+    "Official privacy policy of CelebLedger detailing how we safeguard user data, uphold GDPR and CCPA/CPRA standards, enforce cookie transparency, and protect public archive integrity.",
   alternates: {
-    canonical: "https://celeb-edge.vercel.app/privacy",
+    canonical: "https://celebledger.com/privacy",
   },
   openGraph: {
-    title: "Privacy Policy | CelebEdge",
+    title: "Privacy Policy | CelebLedger",
     description:
       "Our data protection charter, user rights under GDPR/CCPA, cookie policies, and transparent information practices.",
-    url: "https://celeb-edge.vercel.app/privacy",
+    url: "https://celebledger.com/privacy",
     type: "website",
   },
 };
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-            CelebEdge is committed to transparent data practices, rigorous cybersecurity standards, and the protection of user privacy. This policy explains what information is processed when you visit our public reference portal, how it is utilized, and your legal rights under global privacy frameworks.
+            CelebLedger is committed to transparent data practices, rigorous cybersecurity standards, and the protection of user privacy. This policy explains what information is processed when you visit our public reference portal, how it is utilized, and your legal rights under global privacy frameworks.
           </p>
           <div className="flex flex-wrap items-center gap-3 text-xs text-slate-500 font-mono pt-2">
             <span>Effective Date: January 1, 2026</span>
@@ -46,7 +46,7 @@ export default function PrivacyPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge is an open-access public reference archive and biographical journal. Unlike many digital publications, <strong>we do not require user account registration, subscription logins, credit card numbers, or passwords</strong> to read our biographies, filmographies, or financial analyses.
+              CelebLedger is an open-access public reference archive and biographical journal. Unlike many digital publications, <strong>we do not require user account registration, subscription logins, credit card numbers, or passwords</strong> to read our biographies, filmographies, or financial analyses.
             </p>
             <p>
               Our fundamental principle is data minimization: we process only the minimum technical telemetry necessary to deliver fast, secure, and reliable web pages to your browser, monitor site availability, and safeguard our infrastructure against distributed denial-of-service (DDoS) attacks and malicious automated data scrapers.
@@ -65,7 +65,7 @@ export default function PrivacyPage() {
                 A. Technical Telemetry & Automated Server Logs
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                When you navigate through CelebEdge, our edge network (powered by Vercel and Cloudflare) automatically logs standard technical metadata transmitted by your browser. This includes your Internet Protocol (IP) address (truncated/pseudonymized for geographic region estimation), browser type and version, operating system, referring URL, pages viewed, time spent per dossier, and HTTP response codes. This telemetry is processed strictly for infrastructure health, bot mitigation, and Core Web Vitals optimization.
+                When you navigate through CelebLedger, our edge network (powered by Vercel and Cloudflare) automatically logs standard technical metadata transmitted by your browser. This includes your Internet Protocol (IP) address (truncated/pseudonymized for geographic region estimation), browser type and version, operating system, referring URL, pages viewed, time spent per dossier, and HTTP response codes. This telemetry is processed strictly for infrastructure health, bot mitigation, and Core Web Vitals optimization.
               </p>
             </div>
 
@@ -83,7 +83,7 @@ export default function PrivacyPage() {
                 C. Information We Explicitly DO NOT Collect
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                CelebEdge <strong>never</strong> collects government identification numbers (Social Security numbers, national ID numbers), biometric data, health records, financial payment details, or precise GPS mobile geolocation. We do not engage in cross-site keystroke logging or covert behavioral profiling.
+                CelebLedger <strong>never</strong> collects government identification numbers (Social Security numbers, national ID numbers), biometric data, health records, financial payment details, or precise GPS mobile geolocation. We do not engage in cross-site keystroke logging or covert behavioral profiling.
               </p>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function PrivacyPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              Cookies are small text files placed on your device to ensure web functionality and measure reader engagement. CelebEdge categorizes cookies as follows:
+              Cookies are small text files placed on your device to ensure web functionality and measure reader engagement. CelebLedger categorizes cookies as follows:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
@@ -143,7 +143,7 @@ export default function PrivacyPage() {
             </div>
 
             <p>
-              <strong>Third-Party Advertising Compliance:</strong> CelebEdge may display advertisements served through Google AdSense or certified programmatic partners. These partners adhere to Google Publisher Policies, the Interactive Advertising Bureau (IAB) Transparency and Consent Framework, and applicable consumer privacy regulations. Readers may manage personalized advertising preferences or opt out entirely via the{" "}
+              <strong>Third-Party Advertising Compliance:</strong> CelebLedger may display advertisements served through Google AdSense or certified programmatic partners. These partners adhere to Google Publisher Policies, the Interactive Advertising Bureau (IAB) Transparency and Consent Framework, and applicable consumer privacy regulations. Readers may manage personalized advertising preferences or opt out entirely via the{" "}
               <a
                 href="https://optout.aboutads.info"
                 target="_blank"
@@ -186,7 +186,7 @@ export default function PrivacyPage() {
                 <strong>Right to Correction:</strong> The right to request rectification of inaccurate personal telemetry maintained in our records.
               </li>
               <li>
-                <strong>Right to Opt-Out of Sale or Sharing:</strong> <em>CelebEdge does not sell personal information for monetary compensation, nor do we share consumer information with data brokers.</em>
+                <strong>Right to Opt-Out of Sale or Sharing:</strong> <em>CelebLedger does not sell personal information for monetary compensation, nor do we share consumer information with data brokers.</em>
               </li>
               <li>
                 <strong>Right to Non-Discrimination:</strong> We do not deny services, adjust quality, or charge different rates based upon the exercise of your statutory privacy rights.
@@ -194,7 +194,7 @@ export default function PrivacyPage() {
             </ul>
 
             <p className="text-xs text-slate-600">
-              To exercise any of these California privacy rights, submit a verifiable consumer request to <span className="font-mono text-slate-800">privacy@celeb-edge.com</span> with the subject line &ldquo;California Privacy Rights Request.&rdquo;
+              To exercise any of these California privacy rights, submit a verifiable consumer request to <span className="font-mono text-slate-800">privacy@celebledger.com</span> with the subject line &ldquo;California Privacy Rights Request.&rdquo;
             </p>
           </div>
         </section>
@@ -221,7 +221,7 @@ export default function PrivacyPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge enforces stringent security protocols to protect all operational data against unauthorized access, disclosure, alteration, or destruction. Our technical posture includes:
+              CelebLedger enforces stringent security protocols to protect all operational data against unauthorized access, disclosure, alteration, or destruction. Our technical posture includes:
             </p>
             <ul className="space-y-2 text-xs text-slate-700 pl-5 list-disc marker:text-slate-400">
               <li>
@@ -244,7 +244,7 @@ export default function PrivacyPage() {
           </h2>
           <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
             <p>
-              CelebEdge is an informational publication intended for general audiences and film researchers. We do not knowingly solicit or collect personal information from children under the age of 13 (or under 16 in certain European jurisdictions). If we determine that a minor under 13 has transmitted personal data through our contact forms without verifiable parental consent, we will promptly delete that information from our active queues.
+              CelebLedger is an informational publication intended for general audiences and film researchers. We do not knowingly solicit or collect personal information from children under the age of 13 (or under 16 in certain European jurisdictions). If we determine that a minor under 13 has transmitted personal data through our contact forms without verifiable parental consent, we will promptly delete that information from our active queues.
             </p>
           </div>
         </section>
@@ -260,11 +260,11 @@ export default function PrivacyPage() {
             </p>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3 text-xs">
-              <div className="font-bold text-slate-900 text-sm">CelebEdge Data Protection Officer (DPO)</div>
+              <div className="font-bold text-slate-900 text-sm">CelebLedger Data Protection Officer (DPO)</div>
               <div className="text-slate-600 space-y-1">
-                <div>Email: <a href="mailto:privacy@celeb-edge.com" className="text-amber-700 font-bold hover:underline">privacy@celeb-edge.com</a></div>
-                <div>Legal Operations Desk: <a href="mailto:legal@celeb-edge.com" className="text-slate-900 font-bold hover:underline">legal@celeb-edge.com</a></div>
-                <div>Postal Service: CelebEdge Legal & Privacy Operations, Century City Media Center, Los Angeles, CA 90067</div>
+                <div>Email: <a href="mailto:privacy@celebledger.com" className="text-amber-700 font-bold hover:underline">privacy@celebledger.com</a></div>
+                <div>Legal Operations Desk: <a href="mailto:legal@celebledger.com" className="text-slate-900 font-bold hover:underline">legal@celebledger.com</a></div>
+                <div>Postal Service: CelebLedger Legal & Privacy Operations, Century City Media Center, Los Angeles, CA 90067</div>
               </div>
             </div>
           </div>

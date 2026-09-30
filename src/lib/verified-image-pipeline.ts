@@ -38,7 +38,7 @@ const BANNED_DOMAINS = [
   "placeholder.com",
 ];
 
-const WIKI_USER_AGENT = "CelebEdgeBot/1.0 (https://celebrity-beta.vercel.app; info@celeb-edge.com)";
+const WIKI_USER_AGENT = "CelebLedgerBot/1.0 (https://celebledger.com; info@celebledger.com)";
 
 function isSafeUrl(url: string): boolean {
   if (!url) return false;

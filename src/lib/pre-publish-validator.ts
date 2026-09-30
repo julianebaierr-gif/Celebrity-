@@ -1,6 +1,6 @@
 /**
  * Pre-Publish Quality Assurance, Integrity Verification & Auto-Healing Engine
- * CelebEdge Automated Publishing Gatekeeper (TypeScript Module)
+ * CelebLedger Automated Publishing Gatekeeper (TypeScript Module)
  */
 
 import { CelebrityProfile } from "@/data/celebrities";
@@ -358,11 +358,11 @@ export function validateAndHealBlogPost(blogPost: BlogPostData): ValidationResul
 
   // 3. SEO Title Strict Length
   if (!healed.seoTitle || healed.seoTitle.length < 45 || healed.seoTitle.length > 60) {
-    const raw = `${healed.title} | CelebEdge`;
+    const raw = `${healed.title} | CelebLedger`;
     if (raw.length <= 58) {
       healed.seoTitle = raw;
     } else {
-      healed.seoTitle = `${healed.title.slice(0, 44)} | CelebEdge`;
+      healed.seoTitle = `${healed.title.slice(0, 44)} | CelebLedger`;
     }
     healedActions.push(`Optimized SEO Title: "${healed.seoTitle}" (${healed.seoTitle.length} chars)`);
   }

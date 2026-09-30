@@ -4,7 +4,7 @@ async function test() {
   console.log("Testing Google Apps Script Webhook...");
   // Let's test what it accepts
   try {
-    const testRow = ["test_kw", "Category", "tag1 | tag2", "Published", "https://celeb-edge.vercel.app/test", "2026-02-14 09:00:00"];
+    const testRow = ["test_kw", "Category", "tag1 | tag2", "Published", "https://celebledger.com/test", "2026-02-14 09:00:00"];
     const res = await fetch(WEBHOOK_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
