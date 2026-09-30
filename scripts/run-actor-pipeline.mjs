@@ -940,19 +940,24 @@ async function main() {
   }
 
   // Synthesize Executive Summary directly from real encyclopedic extract with complete sentences
-  const rawSentences = dossier.extract.match(/[^.!?]+[.!?]+/g) || [dossier.extract];
+  // Avoid splitting on abbreviations like Jr., Sr., Mr., Dr., or middle initials like Cecil B.
+  const rawSentences = dossier.extract.match(/(?:[^.!?]|\b(?:[A-Z]|Jr|Sr|Mr|Mrs|Ms|Dr|vs)\.)+[.!?]+/gi) || [dossier.extract];
   const cleanLead = rawSentences.slice(0, 3).join(" ").trim();
   let executiveSummary = `${cleanLead} Entering late 2026, ${targetCandidate.entity} maintains a confirmed net worth evaluated at ${quickFacts.netWorth}, continuing to headline high-profile releases while preserving an influential standing in contemporary culture.`;
 
   // Relationship Profile fallback from real Wikidata/Wikipedia records
+  const uniqueSpouses = Array.from(new Set(dossier.spouses || []));
+  const uniquePartners = Array.from(new Set(dossier.partners || [])).filter((p) => !uniqueSpouses.includes(p));
+  const combinedPartnersList = [...uniqueSpouses, ...uniquePartners];
+
   let relationshipProfile = {
-    status: dossier.spouses.length > 0 ? "Married / Public Record" : (dossier.partners.length > 0 ? "In a Relationship / Public Record" : "Private / Public Record"),
-    datingHistorySummary: (dossier.spouses.length > 0 || dossier.partners.length > 0)
-      ? `${targetCandidate.entity} has documented partnerships including ${[...dossier.spouses, ...dossier.partners].join(" and ")} across verified public records.`
+    status: uniqueSpouses.length > 0 ? "Married / Public Record" : (uniquePartners.length > 0 ? "In a Relationship / Public Record" : "Private / Public Record"),
+    datingHistorySummary: combinedPartnersList.length > 0
+      ? `${targetCandidate.entity} has documented partnerships including ${combinedPartnersList.join(" and ")} across verified public records.`
       : `${targetCandidate.entity} maintains a private personal life, with public milestones confirmed across verified entertainment records.`,
     partners: [
-      ...dossier.spouses.map((s) => ({ name: s, relationType: "Spouse", years: "Public Record", profession: "Entertainment / Public Record", summary: `Married to ${s}.` })),
-      ...dossier.partners.map((p) => ({ name: p, relationType: "Partner", years: "Public Record", profession: "Entertainment / Public Record", summary: `Partner with ${p}.` }))
+      ...uniqueSpouses.map((s) => ({ name: s, relationType: "Spouse", years: "Public Record", profession: "Entertainment / Public Record", summary: `Married to ${s}.` })),
+      ...uniquePartners.map((p) => ({ name: p, relationType: "Partner", years: "Public Record", profession: "Entertainment / Public Record", summary: `Partner with ${p}.` }))
     ]
   };
 
@@ -1153,14 +1158,18 @@ Return STRICT JSON with the following structure:
       .trim();
   }
 
-  // 3. Primary Role Clean formatting (strip nationality prefixes)
+  // 3. Primary Role Clean formatting (strip nationality prefixes & dates)
   if (quickFacts.primaryRole) {
     quickFacts.primaryRole = quickFacts.primaryRole
       .replace(/^(American|British|English|Canadian|Australian)\s+/i, "")
+      .replace(/\s*\(\d{4}[^)]*\)/g, "")
       .replace(/\band\b/gi, "&")
       .replace(/\s+/g, " ")
       .trim();
-    quickFacts.primaryRole = quickFacts.primaryRole.charAt(0).toUpperCase() + quickFacts.primaryRole.slice(1);
+    quickFacts.primaryRole = quickFacts.primaryRole
+      .split(" ")
+      .map((w) => (w === "&" ? "&" : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()))
+      .join(" ");
   }
 
   // 4. Milestone Year Deduplication in Titles

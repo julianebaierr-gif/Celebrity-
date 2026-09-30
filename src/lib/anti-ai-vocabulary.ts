@@ -69,8 +69,6 @@ export const BANNED_AI_WORDS_AND_PHRASES: string[] = [
   "learn more today",
   "leverage",
   "look no further",
-  "media",
-  "modern",
   "modern teams adopting",
   "moreover",
   "navigating",
@@ -97,7 +95,6 @@ export const BANNED_AI_WORDS_AND_PHRASES: string[] = [
   "unleash",
   "unlock",
   "unpacking",
-  "verified",
   "vital",
   "vital role"
 ];

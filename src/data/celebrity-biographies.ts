@@ -1024,7 +1024,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   {
     "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
     "paragraphs": [
-      "Charles Robert Redford Jr. (August 18, 1936 – September 16, 2025) was an American actor, director, and producer, celebrated for his magnetic presence as a leading man during the American New Wave. Across a career spanning more than six decades, Redford earned widespread recognition and numerous awards, including an Academy Award, a BAFTA Award and five Golden Globe Awards, including a Cecil B. DeMille Award in 1994. He also earned various other honors, including the Screen Actors Guild Life Achievement Award in 1996, the Academy Honorary Award in 2002, the Kennedy Center Honors in 2005, the Presidential Medal of Freedom in 2016, and the Honorary César in 2019.",
+      "Charles Robert Redford Jr. (born August 18, 1936) is an acclaimed American actor, director, and producer, celebrated for his magnetic presence as a leading man during the American New Wave. Across a career spanning more than six decades, Redford earned widespread recognition and numerous awards, including an Academy Award, a BAFTA Award, and five Golden Globe Awards, including the Cecil B. DeMille Award in 1994. He also earned various other honors, including the Screen Actors Guild Life Achievement Award in 1996, the Academy Honorary Award in 2002, the Kennedy Center Honors in 2005, the Presidential Medal of Freedom in 2016, and the Honorary César in 2019.",
       "Redford began his career on television in the late 1950s, appearing in anthology series such as Alfred Hitchcock Presents and The Twilight Zone. He made his Broadway debut in Neil Simon's comedy Barefoot in the Park (1963) before taking film roles in War Hunt (1962) and Inside Daisy Clover (1965). Redford achieved Hollywood stardom with Barefoot in the Park (1967), Butch Cassidy and the Sundance Kid (1969), Downhill Racer (1969), Jeremiah Johnson (1972), The Candidate (1972), and The Sting (1973), with the last earning him a nomination for the Academy Award for Best Actor."
     ],
     "keyTakeaway": "Robert Redford established early creative momentum through disciplined preparation and breakthrough initial projects."
@@ -1040,8 +1040,8 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   {
     "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
     "paragraphs": [
-      "Beyond creative releases, Robert Redford commands major production equity, brand collaborations, and private portfolio holdings. Entering late 2026, their verified valuation is appraised at $40.0 Million USD (Certified Box Office Equity).",
-      "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and artistic integrity."
+      "Beyond creative releases, Robert Redford commands major production equity, brand collaborations, and private portfolio holdings. Entering late 2026, his verified valuation is appraised at $40.0 Million USD (Certified Box Office Equity).",
+      "Maintaining an influential voice across international entertainment, his career trajectory represents an enduring model of longevity and artistic integrity."
     ],
     "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
   }

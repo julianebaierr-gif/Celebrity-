@@ -29,12 +29,12 @@ export const BANNED_AI_WORDS = [
   "it is important to note", "it is important to remember", "key insights",
   "landscape", "learn", "learn how", "learn more", "learn more details",
   "learn more now", "learn more today", "leverage", "look no further",
-  "media", "modern", "modern teams adopting", "moreover", "navigating",
+  "modern teams adopting", "moreover", "navigating",
   "navigating the", "orchestrate", "paradigm shift", "pipeline", "pipelines", "pivotal",
   "plethora", "powerhouse", "realm", "robust", "seamless", "seamlessly",
   "tapestry", "technical", "testament", "the ultimate", "ultimate",
   "ultimate guide", "ultra-high", "uncover", "unleash", "unlock",
-  "unpacking", "verified", "vital", "vital role"
+  "unpacking", "vital", "vital role"
 ];
 
 export const HUMAN_REPLACEMENTS = {
@@ -159,12 +159,14 @@ export function healAiVocabulary(text) {
     });
   }
 
-  // Secondary sweep for any remaining case-insensitive variants
+  // Secondary sweep for any remaining case-insensitive variants that have human replacements
   for (const banned of BANNED_AI_WORDS) {
-    const regex = new RegExp(`\\b${banned.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&")}\\b`, "gi");
-    if (regex.test(result)) {
-      const rep = HUMAN_REPLACEMENTS[banned] || "analysis";
-      result = result.replace(regex, rep);
+    const rep = HUMAN_REPLACEMENTS[banned];
+    if (rep) {
+      const regex = new RegExp(`\\b${banned.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&")}\\b`, "gi");
+      if (regex.test(result)) {
+        result = result.replace(regex, rep);
+      }
     }
   }
 

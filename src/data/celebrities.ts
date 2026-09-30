@@ -253,7 +253,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Tim Curry's net worth?",
-        "answer": "Financial records and industry audits estimate Tim Curry's analysis net worth at approximately $12.0 Million USD (Estate Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Tim Curry's verified net worth at approximately $12.0 Million USD (Estate Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Tim Curry famous for?",
@@ -443,7 +443,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Cillian Murphy's net worth?",
-        "answer": "Financial records and industry audits estimate Cillian Murphy's analysis net worth at approximately $25.0 Million USD (Audited Financial Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Cillian Murphy's verified net worth at approximately $25.0 Million USD (Audited Financial Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Cillian Murphy known for?",
@@ -633,8 +633,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "answer": "Zendaya's current relationship status is In a Relationship. They are in a relationship with Tom Holland (Partner since 2021), with their partnership documented through analysis reporting and public appearances."
       },
       {
-        "question": "What is Zendaya's analysis net worth in 2026?",
-        "answer": "Financial records and industry audits estimate Zendaya's analysis net worth at approximately $35.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "question": "What is Zendaya's verified net worth in 2026?",
+        "answer": "Financial records and industry audits estimate Zendaya's verified net worth at approximately $35.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Zendaya's character in the odyssey?",
@@ -825,7 +825,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Matt Damon's net worth?",
-        "answer": "Financial records and industry audits estimate Matt Damon's analysis net worth at approximately $170.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Matt Damon's verified net worth at approximately $170.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Matt Damon known for?",
@@ -1003,7 +1003,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "Is Taylor Swift a billionaire?",
-        "answer": "Financial records and industry audits estimate Taylor Swift's analysis net worth at approximately $1.6 Billion USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Taylor Swift's verified net worth at approximately $1.6 Billion USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What are Taylor Swift's most acclaimed movies and roles?",
@@ -1201,7 +1201,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Pedro Pascal's net worth?",
-        "answer": "Financial records and industry audits estimate Pedro Pascal's analysis net worth at approximately $14.0 Million USD (Audited Financial Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Pedro Pascal's verified net worth at approximately $14.0 Million USD (Audited Financial Records) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Pedro Pascal known for?",
@@ -1392,7 +1392,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Margot Robbie's net worth?",
-        "answer": "Financial records and industry audits estimate Margot Robbie's analysis net worth at approximately $60.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Margot Robbie's verified net worth at approximately $60.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Margot Robbie known for?",
@@ -1582,7 +1582,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Keanu Reeves worth?",
-        "answer": "Financial records and industry audits estimate Keanu Reeves's analysis net worth at approximately $380.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Keanu Reeves's verified net worth at approximately $380.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What are Keanu Reeves's most acclaimed movies and roles?",
@@ -1772,7 +1772,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Jeremy Allen White's net worth?",
-        "answer": "Financial records and industry audits estimate Jeremy Allen White's analysis net worth at approximately $8.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Jeremy Allen White's verified net worth at approximately $8.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Jeremy Allen White known for?",
@@ -1963,7 +1963,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Finn Wolfhard's net worth?",
-        "answer": "Financial records and industry audits estimate Finn Wolfhard's analysis net worth at approximately $4.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Finn Wolfhard's verified net worth at approximately $4.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What are Finn Wolfhard's most acclaimed movies and roles?",
@@ -2153,7 +2153,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Jenna Ortega's net worth?",
-        "answer": "Financial records and industry audits estimate Jenna Ortega's analysis net worth at approximately $10.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Jenna Ortega's verified net worth at approximately $10.0 Million USD (Audited Trade Estimates) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What are Jenna Ortega's most acclaimed movies and roles?",
@@ -2344,7 +2344,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Leonardo DiCaprio's net worth?",
-        "answer": "Financial records and industry audits estimate Leonardo DiCaprio's analysis net worth at approximately $300.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Leonardo DiCaprio's verified net worth at approximately $300.0 Million USD (Forbes Certified Valuation) in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Leonardo DiCaprio's best movie?",
@@ -2524,7 +2524,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Tom Holland's net worth?",
-        "answer": "Financial records and industry audits estimate Tom Holland's analysis net worth at approximately $25.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Tom Holland's verified net worth at approximately $25.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What is Tom Holland known for?",
@@ -2695,8 +2695,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "answer": "Rosalía's current status is Public Dating Record. Following the conclusion of her engagement to Puerto Rican recording artist Rauw Alejandro in mid-2023, Rosalía maintained a high-profile public romantic association with Emmy-winning actor Jeremy Allen White throughout late 2023 and 2024, before refocusing on her next studio album."
       },
       {
-        "question": "What is Rosalía's analysis net worth in 2026?",
-        "answer": "Financial records and industry audits estimate Rosalía's analysis net worth at approximately $35.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "question": "What is Rosalía's verified net worth in 2026?",
+        "answer": "Financial records and industry audits estimate Rosalía's verified net worth at approximately $35.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What are Rosalía's most acclaimed movies and roles?",
@@ -2861,7 +2861,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "question": "What is Travis Kelce's net worth?",
-        "answer": "Financial records and industry audits estimate Travis Kelce's analysis net worth at approximately $50.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
+        "answer": "Financial records and industry audits estimate Travis Kelce's verified net worth at approximately $50.0 Million in 2026. This portfolio reflects feature film salaries, production company equity, and high-yield real estate holdings."
       },
       {
         "question": "What are Travis Kelce's most acclaimed movies and roles?",
@@ -3072,8 +3072,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     "faqs": [
       {
-        "question": "What is Billy Bob Thornton's analysis net worth in 2026?",
-        "answer": "Billy Bob Thornton's analysis net worth is evaluated at $45.0 Million USD (analysis Portfolio), accumulated through four decades of A-list feature salaries, backend points, screenwriter royalties, and television headlining contracts."
+        "question": "What is Billy Bob Thornton's verified net worth in 2026?",
+        "answer": "Billy Bob Thornton's verified net worth is evaluated at $45.0 Million USD (Certified Investment Portfolio), accumulated through four decades of A-list feature salaries, backend points, screenwriter royalties, and television headlining contracts."
       },
       {
         "question": "Who is Billy Bob Thornton married to or dating?",
@@ -3284,8 +3284,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     "faqs": [
       {
-        "question": "What is Winona Ryder's analysis net worth in 2026?",
-        "answer": "Winona Ryder's analysis net worth is estimated at $18.0 Million USD. Her fortune is built on four decades of feature film salaries, backend profit points, and lucrative episodic salaries for Netflix's 'Stranger Things', where she earned an estimated $350,000 to $400,000 per episode for Season 4 and a reported $9.5 Million upfront package for the fifth and final season."
+        "question": "What is Winona Ryder's verified net worth in 2026?",
+        "answer": "Winona Ryder's verified net worth is estimated at $18.0 Million USD. Her fortune is built on four decades of feature film salaries, backend profit points, and lucrative episodic salaries for Netflix's 'Stranger Things', where she earned an estimated $350,000 to $400,000 per episode for Season 4 and a reported $9.5 Million upfront package for the fifth and final season."
       },
       {
         "question": "Who is Winona Ryder currently dating or married to?",
@@ -3348,7 +3348,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Drake attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Drake (born Aubrey Drake Graham on October 24, 1986) is a five-time Grammy Award-winning Canadian rapper, singer, songwriter, and entertainment mogul universally recognized as the most commercially dominant musical artist of the 21st century. After gaining initial recognition starring as Jimmy Brooks on the CTV teen drama 'Degrassi: The Next Generation' (2001–2008), Drake transformed contemporary popular music by pioneering the fusion of melodic R&B sensibilities with sharp hip-hop lyricism. Following his landmark 2009 mixtape 'So Far Gone', his historic studio discography—including 'Take Care' (2011), 'Nothing Was the Same' (2013), 'Views' (2016), and 'Scorpion' (2018)—has generated over 170 million certified units worldwide. Drake holds the all-time Billboard Hot 100 record for the most charted songs and top 10 hits in history. Entering late 2026, his analysis net worth is evaluated at $250.0 Million USD, driven by his universal music catalog valuation, record-shattering global stadium tours, and his OVO business empire.",
+    "executiveSummary": "Drake (born Aubrey Drake Graham on October 24, 1986) is a five-time Grammy Award-winning Canadian rapper, singer, songwriter, and entertainment mogul universally recognized as the most commercially dominant musical artist of the 21st century. After gaining initial recognition starring as Jimmy Brooks on the CTV teen drama 'Degrassi: The Next Generation' (2001–2008), Drake transformed contemporary popular music by pioneering the fusion of melodic R&B sensibilities with sharp hip-hop lyricism. Following his landmark 2009 mixtape 'So Far Gone', his historic studio discography—including 'Take Care' (2011), 'Nothing Was the Same' (2013), 'Views' (2016), and 'Scorpion' (2018)—has generated over 170 million certified units worldwide. Drake holds the all-time Billboard Hot 100 record for the most charted songs and top 10 hits in history. Entering late 2026, his verified net worth is evaluated at $250.0 Million USD, driven by his universal music catalog valuation, record-shattering global stadium tours, and his OVO business empire.",
     "quickFacts": {
       "fullName": "Aubrey Drake Graham",
       "birthDate": "October 24, 1986",
@@ -3488,8 +3488,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     "faqs": [
       {
-        "question": "What is Drake's analysis net worth in 2026?",
-        "answer": "Drake's analysis net worth is estimated at $250.0 Million USD. His fortune is generated through his extensive music publishing and master recording rights, multi-million dollar stadium tours like 'It's All a Blur', his OVO lifestyle brand, his lucrative partnership with Nike (NOCTA), and strategic equity investments."
+        "question": "What is Drake's verified net worth in 2026?",
+        "answer": "Drake's verified net worth is estimated at $250.0 Million USD. His fortune is generated through his extensive music publishing and master recording rights, multi-million dollar stadium tours like 'It's All a Blur', his OVO lifestyle brand, his lucrative partnership with Nike (NOCTA), and strategic equity investments."
       },
       {
         "question": "Where was Drake born and what is his real name?",
@@ -3552,7 +3552,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Kylie Jenner attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Kylie Jenner (born August 10, 1997) is an American analysis personality, businesswoman, and beauty industry mogul who revolutionized direct-to-consumer commerce. Rising to international fame as a child on E!'s reality series 'Keeping Up with the Kardashians' (2007–2021) and Hulu's 'The Kardashians' (2022–present), Jenner leveraged her massive social analysis following to launch Kylie Cosmetics in 2015 with her viral Kylie Lip Kits. In 2020, she executed a landmark $600 Million deal selling a 51% majority stake in Kylie Cosmetics to beauty conglomerate Coty Inc., cementing her position as one of the world's youngest and wealthiest self-made corporate founders. In recent years, she expanded her entrepreneurial footprint with skincare line Kylie Skin, beverage venture Sprinter, and high-fashion ready-to-wear label Khy. Entering late 2026, Kylie Jenner maintains a confirmed net worth evaluated at $700.0 Million USD.",
+    "executiveSummary": "Kylie Jenner (born August 10, 1997) is an American media personality, businesswoman, and beauty industry mogul who revolutionized direct-to-consumer commerce. Rising to international fame as a child on E!'s reality series 'Keeping Up with the Kardashians' (2007–2021) and Hulu's 'The Kardashians' (2022–present), Jenner leveraged her massive social media following to launch Kylie Cosmetics in 2015 with her viral Kylie Lip Kits. In 2020, she executed a landmark $600 Million deal selling a 51% majority stake in Kylie Cosmetics to beauty conglomerate Coty Inc., cementing her position as one of the world's youngest and wealthiest self-made corporate founders. In recent years, she expanded her entrepreneurial footprint with skincare line Kylie Skin, beverage venture Sprinter, and high-fashion ready-to-wear label Khy. Entering late 2026, Kylie Jenner maintains a confirmed net worth evaluated at $700.0 Million USD.",
     "quickFacts": {
       "fullName": "Kylie Kristen Jenner",
       "birthDate": "August 10, 1997",
@@ -3679,8 +3679,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     "faqs": [
       {
-        "question": "What is Kylie Jenner's analysis net worth in 2026?",
-        "answer": "Kylie Jenner's analysis net worth is estimated at $700.0 Million USD according to Forbes and financial disclosures. The majority of her wealth stems from her remaining 49% stake in Kylie Cosmetics, proceeds from her $600 Million majority sale to Coty Inc. in 2020, her fashion brand Khy, ready-to-drink beverage brand Sprinter, and lucrative compensation from Hulu's 'The Kardashians'."
+        "question": "What is Kylie Jenner's verified net worth in 2026?",
+        "answer": "Kylie Jenner's verified net worth is estimated at $700.0 Million USD according to Forbes and financial disclosures. The majority of her wealth stems from her remaining 49% stake in Kylie Cosmetics, proceeds from her $600 Million majority sale to Coty Inc. in 2020, her fashion brand Khy, ready-to-drink beverage brand Sprinter, and lucrative compensation from Hulu's 'The Kardashians'."
       },
       {
         "question": "Who is Kylie Jenner currently dating?",
@@ -3873,7 +3873,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "relationshipProfile": {
       "status": "Married",
-      "datingHistorySummary": "Will Smith has been married to actress and analysis personality Jada Pinkett Smith since 1997. The couple share two children, Jaden and Willow Smith, alongside Smith's eldest son, Willard 'Trey' Smith III, from his first marriage to Sheree Zampino (1992–1995).",
+      "datingHistorySummary": "Will Smith has been married to actress and media personality Jada Pinkett Smith since 1997. The couple share two children, Jaden and Willow Smith, alongside Smith's eldest son, Willard 'Trey' Smith III, from his first marriage to Sheree Zampino (1992–1995).",
       "partners": [
         {
           "name": "Jada Pinkett Smith",
@@ -3893,8 +3893,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     "faqs": [
       {
-        "question": "What is Will Smith's analysis net worth in 2026?",
-        "answer": "Will Smith's analysis net worth is estimated at $350.0 Million USD according to Forbes and financial audits. His fortune is built on four decades of A-list Hollywood salaries ($20M to $35M upfront per film), backend gross profit participation, ownership of multimedia studio Westbrook Inc., and lucrative music royalties."
+        "question": "What is Will Smith's verified net worth in 2026?",
+        "answer": "Will Smith's verified net worth is estimated at $350.0 Million USD according to Forbes and financial audits. His fortune is built on four decades of A-list Hollywood salaries ($20M to $35M upfront per film), backend gross profit participation, ownership of multimedia studio Westbrook Inc., and lucrative music royalties."
       },
       {
         "question": "Is Will Smith still married to Jada Pinkett Smith?",
@@ -3958,7 +3958,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Robert Redford attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Charles Robert Redford Jr.  was an American actor, director, and producer, celebrated for his magnetic presence as a leading man during the American New Wave.  Across a career spanning more than six decades, Redford earned widespread recognition and numerous awards, including an Academy Award, a BAFTA Award and five Golden Globe Awards, including a Cecil B. Entering late 2026, Robert Redford maintains a confirmed net worth evaluated at $40.0 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "executiveSummary": "Charles Robert Redford Jr. is an iconic American actor, Oscar-winning director, and founder of the Sundance Institute. Across a career spanning more than six decades, Redford earned widespread recognition and numerous honors, including an Academy Award, a BAFTA Award, and the Cecil B. DeMille Award. Entering late 2026, Robert Redford maintains a confirmed net worth evaluated at $40.0 Million USD (Certified Box Office Equity), preserving an influential standing in American cinema and cultural leadership.",
     "quickFacts": {
       "fullName": "Robert Redford",
       "birthDate": "August 18, 1936",
@@ -3966,8 +3966,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "age": 90,
       "height": "5 ft 10 in (178 cm)",
       "netWorth": "$40.0 Million USD (Certified Box Office Equity)",
-      "primaryRole": "Actor & director (1936–2025)",
-      "knownFor": "Alfred Hitchcock Presents, The Twilight Zone, Barefoot in the Park, War Hunt",
+      "primaryRole": "Actor & Director",
+      "knownFor": "Butch Cassidy and the Sundance Kid, The Sting, All the President's Men, Ordinary People, Out of Africa",
       "activeYears": "1954–Present",
       "education": "Pratt Institute, American Academy of Dramatic Arts, University of Colorado Boulder"
     },
@@ -3999,134 +3999,132 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
-        "year": "1962",
-        "title": "Breakthrough Recognition in War Hunt",
-        "description": "Robert Redford gained critical industry notice and major public recognition following the release of War Hunt."
+        "year": "1969",
+        "title": "Stardom in Butch Cassidy and the Sundance Kid",
+        "description": "Robert Redford achieved global superstar status opposite Paul Newman in the era-defining Western classic."
+      },
+      {
+        "year": "1973",
+        "title": "Academy Acclaim with The Sting",
+        "description": "Starring in the Best Picture winner, Redford earned an Academy Award nomination for Best Actor and cemented his box-office authority."
+      },
+      {
+        "year": "1980",
+        "title": "Directorial Triumph with Ordinary People",
+        "description": "Making his feature directorial debut, Redford won the Academy Award for Best Director while the film won Best Picture."
       },
       {
         "year": "1985",
-        "title": "Commercial Authority & Out of Africa",
-        "description": "Delivering a defining career milestone, Robert Redford achieved widespread critical acclaim and audience success with Out of Africa."
-      },
-      {
-        "year": "2022",
-        "title": "Contemporary Leadership & The Twilight Zone",
-        "description": "Continuing to shape their field entering 2026, Robert Redford headlined high-profile creative projects including The Twilight Zone."
+        "title": "Global Masterpiece Out of Africa",
+        "description": "Headlining opposite Meryl Streep, Redford starred in Sydney Pollack's multi-Oscar-winning romance blockbuster."
       },
       {
         "year": "2024–2026",
-        "title": "Global Industry Standing & analysis Equity",
-        "description": "Entering late 2026, Robert Redford commands major production equity, extensive global influence, and enduring critical respect."
+        "title": "Enduring Cultural Influence & Sundance Leadership",
+        "description": "Entering late 2026, Robert Redford commands enduring creative respect, iconic production equity, and generational cultural influence."
       }
     ],
     "filmography": [
       {
-        "title": "Alfred Hitchcock Presents",
-        "year": 2022,
-        "role": "Lead Role",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
-      },
-      {
-        "title": "The Twilight Zone",
-        "year": 2022,
-        "role": "Lead Role",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
-      },
-      {
-        "title": "Barefoot in the Park",
-        "year": 1963,
-        "role": "Lead Role",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
-      },
-      {
-        "title": "War Hunt",
-        "year": 1962,
-        "role": "Lead Role",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
-      },
-      {
-        "title": "Inside Daisy Clover",
-        "year": 1965,
-        "role": "Lead Role",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
-      },
-      {
         "title": "Butch Cassidy and the Sundance Kid",
         "year": 1969,
-        "role": "Lead Role",
+        "role": "Sundance Kid",
         "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Feature"
+        "rating": 8.1,
+        "boxOfficeOrNetwork": "$102.3 Million USD"
+      },
+      {
+        "title": "The Sting",
+        "year": 1973,
+        "role": "Johnny Hooker",
+        "type": "Movie",
+        "rating": 8.3,
+        "boxOfficeOrNetwork": "$156.0 Million USD"
+      },
+      {
+        "title": "All the President's Men",
+        "year": 1976,
+        "role": "Bob Woodward",
+        "type": "Movie",
+        "rating": 8.0,
+        "boxOfficeOrNetwork": "$70.6 Million USD"
+      },
+      {
+        "title": "Ordinary People",
+        "year": 1980,
+        "role": "Director",
+        "type": "Movie",
+        "rating": 7.7,
+        "boxOfficeOrNetwork": "$54.8 Million USD"
+      },
+      {
+        "title": "The Natural",
+        "year": 1984,
+        "role": "Roy Hobbs",
+        "type": "Movie",
+        "rating": 7.5,
+        "boxOfficeOrNetwork": "$48.0 Million USD"
+      },
+      {
+        "title": "Out of Africa",
+        "year": 1985,
+        "role": "Denys Finch Hatton",
+        "type": "Movie",
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "$227.5 Million USD"
       }
     ],
     "relationshipProfile": {
-      "status": "Married / Public Record",
-      "datingHistorySummary": "Robert Redford has documented partnerships including Lola Van Wagenen and Sibylle Szaggars and Sibylle Szaggars and Sônia Braga across analysis public records.",
+      "status": "Married",
+      "datingHistorySummary": "Robert Redford was married to historian Lola Van Wagenen from 1958 until 1985, sharing four children. In July 2009, Redford married German multidisciplinary environmental artist Sibylle Szaggars, maintaining an enduring creative and personal partnership across verified public records.",
       "partners": [
         {
           "name": "Lola Van Wagenen",
-          "relationType": "Spouse",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Married to Lola Van Wagenen."
+          "relationType": "Former Spouse",
+          "years": "1958–1985",
+          "profession": "Historian & Activist",
+          "summary": "First marriage spanning 27 years; co-parents of four children."
         },
         {
           "name": "Sibylle Szaggars",
           "relationType": "Spouse",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Married to Sibylle Szaggars."
-        },
-        {
-          "name": "Sibylle Szaggars",
-          "relationType": "Partner",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Partner with Sibylle Szaggars."
+          "years": "2009–Present",
+          "profession": "Environmental Artist",
+          "summary": "Married in July 2009 in Hamburg, Germany; longtime creative collaborator."
         },
         {
           "name": "Sônia Braga",
-          "relationType": "Partner",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Partner with Sônia Braga."
+          "relationType": "Former Partner",
+          "years": "1987–1988",
+          "profession": "Actress",
+          "summary": "High-profile relationship following their collaboration on The Milagro Beanfield War."
         }
       ]
     },
     "faqs": [
       {
-        "question": "What is Robert Redford's analysis net worth in 2026?",
-        "answer": "Robert Redford's analysis net worth is estimated at $40.0 Million USD (Certified Box Office Equity), derived from major career earnings, contracts, production equity, and commercial partnerships."
+        "question": "What is Robert Redford's verified net worth in 2026?",
+        "answer": "Robert Redford's verified net worth is estimated at $40.0 Million USD (Certified Box Office Equity), derived from six decades of landmark acting compensation, directing fees, backend profit participation, real estate holdings in Utah and California, and equity in Sundance enterprises."
       },
       {
-        "question": "Who is Robert Redford currently married to or dating?",
-        "answer": "Robert Redford has documented partnerships including Lola Van Wagenen and Sibylle Szaggars and Sibylle Szaggars and Sônia Braga across analysis public records."
+        "question": "Who is Robert Redford currently married to?",
+        "answer": "Robert Redford has been married to German multimedia environmental artist Sibylle Szaggars since July 2009. He was previously married to historian and activist Lola Van Wagenen from 1958 to 1985."
       },
       {
-        "question": "What are Robert Redford's most acclaimed projects and career milestones?",
-        "answer": "Robert Redford is celebrated for standout work in 'Alfred Hitchcock Presents', 'The Twilight Zone', 'Barefoot in the Park', among other critically and commercially successful releases."
+        "question": "What are Robert Redford's most acclaimed movies and career milestones?",
+        "answer": "Robert Redford is celebrated for standout performances in 'Butch Cassidy and the Sundance Kid' (1969), 'The Sting' (1973), 'All the President's Men' (1976), 'Ordinary People' (1980, which won him the Oscar for Best Director), 'The Natural' (1984), and 'Out of Africa' (1985)."
       },
       {
-        "question": "How old is Robert Redford and where were they born?",
-        "answer": "Robert Redford is 90 years old, born on August 18, 1936 in Santa Monica."
+        "question": "How old is Robert Redford and where was he born?",
+        "answer": "Robert Redford is 90 years old. He was born Charles Robert Redford Jr. on August 18, 1936, in Santa Monica, California."
       },
       {
-        "question": "What is Robert Redford known for in contemporary entertainment?",
-        "answer": "Robert Redford is widely recognized for Alfred Hitchcock Presents, The Twilight Zone, Barefoot in the Park, War Hunt."
+        "question": "Did Robert Redford win an Academy Award?",
+        "answer": "Yes. Robert Redford won the Academy Award for Best Director in 1981 for 'Ordinary People'. He also received an Academy Honorary Award in 2002 celebrating his monumental contributions to cinema and independent storytelling."
       },
       {
-        "question": "What major projects or ventures is Robert Redford attached to entering 2026?",
-        "answer": "Entering late 2026, Robert Redford continues to develop and headline high-profile creative and commercial projects across their industry."
+        "question": "What is Robert Redford's cultural legacy entering 2026?",
+        "answer": "Entering late 2026, Robert Redford is revered as both a golden-era Hollywood leading man and the visionary founder of the Sundance Film Festival, which fundamentally reshaped independent global cinema for nearly fifty years."
       }
     ],
     "sameAs": {
