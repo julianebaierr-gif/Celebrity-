@@ -1,7 +1,7 @@
 {
   "description": "CelebEdge Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 20,
-  "lastUpdated": "2026-09-29T14:32:19.971Z",
+  "totalLocked": 21,
+  "lastUpdated": "2026-09-30T10:07:21.901Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -297,6 +297,20 @@
         "will smith age",
         "will smith career",
         "will smith 2026"
+      ]
+    },
+    {
+      "keyword": "robert redford",
+      "slug": "robert-redford",
+      "name": "Robert Redford",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://celeb-edge.vercel.app/celebrity/robert-redford",
+      "publishedAt": "2026-09-30 10:07:21",
+      "associatedTags": [
+        "robert redford net worth",
+        "robert redford age",
+        "robert redford career",
+        "robert redford 2026"
       ]
     }
   ],

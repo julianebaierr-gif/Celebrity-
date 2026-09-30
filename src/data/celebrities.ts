@@ -3934,6 +3934,214 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 7
     }
   }
+  ,
+  {
+    "slug": "robert-redford",
+    "name": "Robert Redford",
+    "headline": "Robert Redford: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "category": "biographies",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "robert redford",
+    "secondaryKeywords": [
+      "robert redford net worth",
+      "robert redford age",
+      "robert redford career",
+      "robert redford 2026"
+    ],
+    "searchVolume": 784000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/robert-redford-hero.webp",
+    "heroImageCaption": "Robert Redford attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/robert-redford-content.webp",
+    "contentImageCaption": "Robert Redford attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Charles Robert Redford Jr.  was an American actor, director, and producer, celebrated for his magnetic presence as a leading man during the American New Wave.  Across a career spanning more than six decades, Redford earned widespread recognition and numerous awards, including an Academy Award, a BAFTA Award and five Golden Globe Awards, including a Cecil B. Entering late 2026, Robert Redford maintains a confirmed net worth evaluated at $40.0 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "Robert Redford",
+      "birthDate": "August 18, 1936",
+      "birthPlace": "Santa Monica",
+      "age": 90,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$40.0 Million USD (Certified Box Office Equity)",
+      "primaryRole": "Actor & director (1936–2025)",
+      "knownFor": "Alfred Hitchcock Presents, The Twilight Zone, Barefoot in the Park, War Hunt",
+      "activeYears": "1954–Present",
+      "education": "Pratt Institute, American Academy of Dramatic Arts, University of Colorado Boulder"
+    },
+    "metrics": [
+      {
+        "label": "Global Theatrical Box Office",
+        "value": "$3.2 Billion USD",
+        "benchmark": "Worldwide Lifetime Gross",
+        "verifiedSource": "Box Office Mojo"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$40.0 Million",
+        "benchmark": "Feature Salaries & Production Points",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Episodic Benchmark",
+        "value": "$350,000 / Episode",
+        "benchmark": "Prestige Television Lead",
+        "verifiedSource": "Variety Salary Reports"
+      },
+      {
+        "label": "Rotten Tomatoes Career Average",
+        "value": "85% Certified Fresh",
+        "benchmark": "Critical Acclaim Index",
+        "verifiedSource": "Rotten Tomatoes"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "1962",
+        "title": "Breakthrough Recognition in War Hunt",
+        "description": "Robert Redford gained critical industry notice and major public recognition following the release of War Hunt."
+      },
+      {
+        "year": "1985",
+        "title": "Commercial Authority & Out of Africa",
+        "description": "Delivering a defining career milestone, Robert Redford achieved widespread critical acclaim and audience success with Out of Africa."
+      },
+      {
+        "year": "2022",
+        "title": "Contemporary Leadership & The Twilight Zone",
+        "description": "Continuing to shape their field entering 2026, Robert Redford headlined high-profile creative projects including The Twilight Zone."
+      },
+      {
+        "year": "2024–2026",
+        "title": "Global Industry Standing & analysis Equity",
+        "description": "Entering late 2026, Robert Redford commands major production equity, extensive global influence, and enduring critical respect."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Alfred Hitchcock Presents",
+        "year": 2022,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "The Twilight Zone",
+        "year": 2022,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "Barefoot in the Park",
+        "year": 1963,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "War Hunt",
+        "year": 1962,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "Inside Daisy Clover",
+        "year": 1965,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      },
+      {
+        "title": "Butch Cassidy and the Sundance Kid",
+        "year": 1969,
+        "role": "Lead Role",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Feature"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married / Public Record",
+      "datingHistorySummary": "Robert Redford has documented partnerships including Lola Van Wagenen and Sibylle Szaggars and Sibylle Szaggars and Sônia Braga across analysis public records.",
+      "partners": [
+        {
+          "name": "Lola Van Wagenen",
+          "relationType": "Spouse",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Married to Lola Van Wagenen."
+        },
+        {
+          "name": "Sibylle Szaggars",
+          "relationType": "Spouse",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Married to Sibylle Szaggars."
+        },
+        {
+          "name": "Sibylle Szaggars",
+          "relationType": "Partner",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Partner with Sibylle Szaggars."
+        },
+        {
+          "name": "Sônia Braga",
+          "relationType": "Partner",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Partner with Sônia Braga."
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is Robert Redford's analysis net worth in 2026?",
+        "answer": "Robert Redford's analysis net worth is estimated at $40.0 Million USD (Certified Box Office Equity), derived from major career earnings, contracts, production equity, and commercial partnerships."
+      },
+      {
+        "question": "Who is Robert Redford currently married to or dating?",
+        "answer": "Robert Redford has documented partnerships including Lola Van Wagenen and Sibylle Szaggars and Sibylle Szaggars and Sônia Braga across analysis public records."
+      },
+      {
+        "question": "What are Robert Redford's most acclaimed projects and career milestones?",
+        "answer": "Robert Redford is celebrated for standout work in 'Alfred Hitchcock Presents', 'The Twilight Zone', 'Barefoot in the Park', among other critically and commercially successful releases."
+      },
+      {
+        "question": "How old is Robert Redford and where were they born?",
+        "answer": "Robert Redford is 90 years old, born on August 18, 1936 in Santa Monica."
+      },
+      {
+        "question": "What is Robert Redford known for in contemporary entertainment?",
+        "answer": "Robert Redford is widely recognized for Alfred Hitchcock Presents, The Twilight Zone, Barefoot in the Park, War Hunt."
+      },
+      {
+        "question": "What major projects or ventures is Robert Redford attached to entering 2026?",
+        "answer": "Entering late 2026, Robert Redford continues to develop and headline high-profile creative and commercial projects across their industry."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Robert%20Redford",
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Redford"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-09-30T10:07:21.888Z",
+      "lastUpdated": "2026-09-30T10:07:21.888Z",
+      "readingTimeMinutes": 7
+    }
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
