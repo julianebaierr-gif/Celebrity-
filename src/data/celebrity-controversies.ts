@@ -224,13 +224,24 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
   ]
 ,
   "youngboy-never-broke-again": [
-  {
-    "incident": "Studio Production Delays & Industry Strike Navigation",
-    "year": "2023",
-    "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
-    "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
-  }
-],
-
+    {
+      incident: "2020 Baton Rouge Video Shoot Arrest & Federal Firearm Indictment",
+      year: "2020–2024",
+      resolutionOrOutcome: "Arrested with 15 others in Baton Rouge during a video shoot over firearms possession allegations, leading to multi-year federal scrutiny regarding search warrant validity.",
+      impactAnalysis: "The charges severely restricted his national touring ability during his peak commercial years, confining his creative output to studio-based home recording."
+    },
+    {
+      incident: "2021 California Federal Gun Case & Complete Jury Acquittal",
+      year: "2021–2022",
+      resolutionOrOutcome: "Indicted by federal prosecutors in Los Angeles, Gaulden took the case to trial and was found 'Not Guilty' on all counts by a federal jury in July 2022 due to lack of forensic evidence.",
+      impactAnalysis: "The acquittal avoided a mandatory federal prison term, granting him conditional bail to continue releasing studio music from his Utah residence."
+    },
+    {
+      incident: "2024 Utah Prescription Investigation & Consolidated Federal Plea",
+      year: "2024–2025",
+      resolutionOrOutcome: "Following an investigation at his Weber County residence, defense counsel finalized a global plea agreement in late 2024 resolving both Utah state matters and the 2020 Louisiana indictment with a structured 27-month term and time-served credits.",
+      impactAnalysis: "The coordinated settlement provided definitive closure to five years of multi-jurisdictional legal proceedings, creating a clear pathway toward full release by late 2026."
+    }
+  ]
 };
 

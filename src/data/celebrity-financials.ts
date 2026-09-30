@@ -1848,58 +1848,84 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   }
 ,
   "youngboy-never-broke-again": {
-  "salaryMilestones": [
-    {
-      "project": "YoungBoy Never Broke Again Debut LP",
-      "year": 2011,
-      "salary": "$500,000 USD",
-      "boxOfficeOrBudget": "Multi-Platinum",
-      "notes": "Early career landmark compensation establishing bankable industry status."
-    },
-    {
-      "project": "YoungBoy Never Broke Again Major Studio Release",
-      "year": 2023,
-      "salary": "$2.5 Million USD",
-      "boxOfficeOrBudget": "Billboard 200 Top 5",
-      "notes": "Peak compensation tier reflecting established leading status."
-    }
-  ],
-  "realEstateAssets": [
-    {
-      "property": "Primary Luxury Residence",
-      "location": "Baton Rouge, United States",
-      "purchasedYear": "2019",
-      "purchasePrice": "$3.5 Million USD",
-      "currentEstimatedValue": "$5.0 Million USD",
-      "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
-    }
-  ],
-  "businessVentures": [
-    {
-      "name": "Commercial Brand Partnerships & Production Equity",
-      "role": "Principal Talent & Equity Partner",
-      "valuationOrRevenue": "Multi-Million Portfolio",
-      "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
-    }
-  ],
-  "wealthProgression": [
-    {
-      "period": "2015",
-      "estimatedNetWorth": "$2.0 Million USD",
-      "milestoneDescription": "Early breakthrough projects and rising industry demand."
-    },
-    {
-      "period": "2020",
-      "estimatedNetWorth": "$10.0 Million USD",
-      "milestoneDescription": "Mainstream leading roles and commercial endorsements."
-    },
-    {
-      "period": "2026",
-      "estimatedNetWorth": "$30 Million USD (Certified Assets & Catalog)",
-      "milestoneDescription": "Global box office equity, production points, and prime real estate."
-    }
-  ]
-},
+    "salaryMilestones": [
+      {
+        "project": "Atlantic Records Initial Multi-Album Agreement",
+        "year": 2017,
+        "salary": "$2.0 Million USD (Advance Pool)",
+        "boxOfficeOrBudget": "Five-Album Term",
+        "notes": "Groundbreaking early teenage major label signing via Artist Partner Group."
+      },
+      {
+        "project": "Motown Records Catalog & Imprint Partnership",
+        "year": 2022,
+        "salary": "$20.0 Million USD (Multi-Year Deal)",
+        "boxOfficeOrBudget": "Never Broke Again Imprint",
+        "notes": "High-value distribution contract secured following the conclusion of his Atlantic Records contractual slate."
+      },
+      {
+        "project": "Annual YouTube & Digital DSP Streaming Royalties",
+        "year": 2023,
+        "salary": "$8.5 Million USD (Annual Net Pool)",
+        "boxOfficeOrBudget": "3B+ Annual Streams",
+        "notes": "Top-tier ad-supported streaming payouts driven by dedicated independent fan demographic."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Grave Digger Mountain Compound",
+        "location": "Huntsville, Weber County, Utah",
+        "purchasedYear": "2022",
+        "purchasePrice": "$5.2 Million USD",
+        "currentEstimatedValue": "$6.5 Million USD",
+        "description": "A secluded 8,800-square-foot luxury mountaintop retreat featuring extensive security checkpoints, an in-house commercial recording facility, and panoramic mountain acreage utilized during federal house arrest."
+      },
+      {
+        "property": "Baton Rouge Residential Holdings",
+        "location": "Baton Rouge, Louisiana",
+        "purchasedYear": "2018",
+        "purchasePrice": "$1.4 Million USD",
+        "currentEstimatedValue": "$1.8 Million USD",
+        "description": "Suburban residential holdings secured for family members and early production associates."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "Never Broke Again LLC (Record Label)",
+        "role": "Founder & Chief Executive Officer",
+        "valuationOrRevenue": "$15.0 Million Enterprise Value",
+        "description": "Independent record imprint launched in 2015; signed prominent Southern artists including NoCap, Quando Rondo, and Big B, distributed via Motown and Virgin Music Group."
+      },
+      {
+        "name": "NBA Merchandise & Direct-to-Consumer Apparel",
+        "role": "Sole Proprietor",
+        "valuationOrRevenue": "$3.0 Million Annual Run Rate",
+        "description": "High-volume direct-to-consumer apparel and merchandise line fueled by viral organic drops."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2017",
+        "estimatedNetWorth": "$1.5 Million USD",
+        "milestoneDescription": "Atlantic Records signing bonus and breakout singles 'Untouchable' and 'No Smoke'."
+      },
+      {
+        "period": "2020",
+        "estimatedNetWorth": "$6.0 Million USD",
+        "milestoneDescription": "Back-to-back #1 albums 'AI YoungBoy 2' and 'Top' with surge in YouTube monetized video plays."
+      },
+      {
+        "period": "2023",
+        "estimatedNetWorth": "$12.0 Million USD",
+        "milestoneDescription": "Motown distribution agreement advance, Utah luxury real estate acquisition, and steady streaming dividends."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$11.0 Million USD",
+        "milestoneDescription": "Normalized post-litigation equity: steady catalog income offset by multi-million dollar federal legal expenditures and private security overhead."
+      }
+    ]
+  },
 
 };
 

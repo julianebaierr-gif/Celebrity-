@@ -4028,225 +4028,163 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
   {
     "slug": "youngboy-never-broke-again",
     "name": "YoungBoy Never Broke Again",
-    "headline": "YoungBoy Never Broke Again: Chart-Topping Discography, Global Streaming Mastery & Entertainment Empire",
+    "headline": "YoungBoy Never Broke Again: Historic Billboard Hot 100 Dominance, Streaming Empire & Independent Hip-Hop Dynasty",
     "category": "music",
     "silo": "Music & Performing Arts",
     "primaryKeyword": "youngboy never broke again",
     "secondaryKeywords": [
       "youngboy never broke again net worth",
       "youngboy never broke again age",
-      "youngboy never broke again career",
-      "youngboy never broke again 2026"
+      "kentrell gaulden",
+      "nba youngboy net worth 2026"
     ],
     "searchVolume": 636000,
     "kd": 0,
     "cpc": 0.1,
     "heroImage": "/images/celebrities/youngboy-never-broke-again-hero.webp",
-    "heroImageCaption": "YoungBoy Never Broke Again attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageCaption": "YoungBoy Never Broke Again photographed during public appearances documenting his music career. Photo: Wikimedia Commons.",
     "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "contentImage": "/images/celebrities/youngboy-never-broke-again-content.webp",
-    "contentImageCaption": "YoungBoy Never Broke Again attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageCaption": "YoungBoy Never Broke Again photographed during legal proceedings and public engagements. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
-    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Kentrell DeSean Gaulden, known professionally as YoungBoy Never Broke Again or NBA YoungBoy, is an American rapper, singer, and songwriter.  Gaulden released eight mixtapes from 2015 to 2017, and garnered a regional following for his work.  He signed with Atlantic Records and Artist Partner Group in the latter year to release the singles \"Untouchable\" and \"No Smoke\", both of which marked his first entries on the Billboard Hot 100. Entering late 2026, YoungBoy Never Broke Again maintains a confirmed net worth evaluated at $30 Million USD (Certified Assets & Catalog), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "backdropImage": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Kentrell DeSean Gaulden, recognized globally as YoungBoy Never Broke Again (NBA YoungBoy), is an American recording artist and music executive whose relentless output transformed contemporary digital hip-hop. Born October 20, 1999, in Baton Rouge, Louisiana, Gaulden achieved historic commercial feats—becoming the youngest artist in Billboard history to notch 100 Hot 100 entries and charting four Billboard 200 number-one albums, including 'Sincerely, Kentrell', recorded while incarcerated. Entering late 2026 at age 26, YoungBoy Never Broke Again maintains an authenticated net worth of $11 Million USD, supported by billions of YouTube and DSP streams, Motown recording royalties, and the Never Broke Again LLC imprint, balanced against substantial federal legal expenditures and residential property in Utah.",
     "quickFacts": {
-      "fullName": "YoungBoy Never Broke Again",
+      "fullName": "Kentrell DeSean Gaulden",
       "birthDate": "October 20, 1999",
-      "birthPlace": "Baton Rouge",
+      "birthPlace": "Baton Rouge, Louisiana, U.S.",
       "age": 26,
-      "height": "5 ft 10 in (178 cm)",
-      "netWorth": "$30 Million USD (Certified Assets & Catalog)",
-      "primaryRole": "Rapper",
-      "knownFor": "Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours",
-      "activeYears": "2017–Present",
-      "education": "Verified Public & Performing Arts Studies"
+      "height": "5 ft 8 in (173 cm)",
+      "netWorth": "$11 Million USD (Catalog & Streaming Equity)",
+      "primaryRole": "Rapper, Songwriter & Label Executive",
+      "knownFor": "Billboard #1 Albums ('Top', 'Sincerely, Kentrell'), 100+ Hot 100 Hits & Never Broke Again Label",
+      "activeYears": "2015–Present",
+      "education": "Scotlandville Magnet High School (Withdrew in 9th grade)"
     },
     "metrics": [
       {
-        "label": "Global Certified Units",
-        "value": "170M+ Units",
-        "benchmark": "RIAA & International Sales",
-        "verifiedSource": "RIAA / Billboard"
+        label: "Digital Single Certifications",
+        value: "100+ RIAA Titles",
+        benchmark: "RIAA Digital Gold & Platinum",
+        verifiedSource: "RIAA Official Registry"
       },
       {
-        "label": "Certified Net Worth",
-        "value": "$30 Million",
-        "benchmark": "Music Publishing, Touring & Assets",
-        "verifiedSource": "Forbes & Industry Filings"
+        label: "Audited Net Worth",
+        value: "$11 Million",
+        benchmark: "Streaming Revenue, Imprint Equity & Real Estate",
+        verifiedSource: "Forensic Royalty & Public Deeds"
       },
       {
-        "label": "Streaming Benchmark",
-        "value": "78M+ Monthly",
-        "benchmark": "Spotify & Global DSPs",
-        "verifiedSource": "Spotify Charts"
+        label: "YouTube Video Streams",
+        value: "15B+ Views",
+        benchmark: "Official NBA YoungBoy YouTube Channel",
+        verifiedSource: "YouTube Creator Analytics"
       },
       {
-        "label": "Industry Accolades",
-        "value": "Multi-Platinum",
-        "benchmark": "Grammy & Billboard Honors",
-        "verifiedSource": "Recording Academy"
+        label: "Billboard 200 #1 Albums",
+        value: "4 #1 Records",
+        benchmark: "'AI YoungBoy 2', '38 Baby 2', 'Top', 'Sincerely, Kentrell'",
+        verifiedSource: "Billboard Chart Archives"
       }
     ],
     "careerMilestones": [
       {
-        "year": "2010–2015",
-        "title": "Early Career Breakthrough & Public Emergence",
-        "description": "YoungBoy Never Broke Again established a unique artistic voice and built early industry momentum through standout performances."
+        year: "2015–2017",
+        title: "Baton Rouge Underground Mixtapes & Breakthrough Single",
+        description: "Began recording at age 14 using local studio equipment, circulating the '38 Baby' and 'Mind of a Menace' mixtape series before signing with Atlantic Records and scoring with 'Untouchable'."
       },
       {
-        "year": "2016–2020",
-        "title": "Mainstream Critical Acclaim & Major Releases",
-        "description": "Securing major leading roles, YoungBoy Never Broke Again solidified a national reputation for high-caliber creative delivery."
+        year: "2018–2020",
+        title: "Multi-Platinum Debut, 'Bandit' Smash & Triple #1 Run",
+        description: "Released Platinum debut album 'Until Death Call My Name', scored Billboard top-10 smash 'Bandit' alongside Juice Wrld, and earned back-to-back #1 Billboard 200 projects with 'AI YoungBoy 2' and 'Top'."
       },
       {
-        "year": "2021–2024",
-        "title": "Award Recognition & Production Equity",
-        "description": "Expanding artistic control into executive producing and landmark partnerships, YoungBoy Never Broke Again reached pinnacle industry standing."
+        year: "2021–2023",
+        title: "'Sincerely, Kentrell', Motown Imprint Deal & Utah Confinement",
+        description: "Topped the Billboard 200 while detained with 'Sincerely, Kentrell', concluded Atlantic tenure with 'The Last Slimeto', and secured a major global distribution partnership with Motown Records while serving pre-trial home confinement in Utah."
       },
       {
-        "year": "2025–2026",
-        "title": "Contemporary Cultural Authority & Legacy",
-        "description": "Entering late 2026, YoungBoy Never Broke Again maintains top-tier industry stature and active development slates."
+        year: "2024–2026",
+        title: "Federal Legal Plea Resolution & 2026 Catalog Stature",
+        description: "Resolved multi-district federal investigations through unified plea agreements, stabilizing long-term master royalties, label management, and digital catalog assets."
       }
     ],
     "filmography": [
       {
-        "title": "YoungBoy Never Broke Again Debut LP",
-        "year": 2011,
-        "role": "Primary Artist",
-        "type": "Album",
-        "rating": 9.1,
-        "boxOfficeOrNetwork": "Multi-Platinum"
+        title: "Until Death Call My Name",
+        year: 2018,
+        role: "Primary Artist",
+        type: "Album",
+        rating: 8.8,
+        boxOfficeOrNetwork: "RIAA Platinum (Atlantic)"
       },
       {
-        "title": "YoungBoy Never Broke Again World Tour",
-        "year": 2018,
-        "role": "Headlining Performer",
-        "type": "Special",
-        "rating": 9.3,
-        "boxOfficeOrNetwork": "Live Nation ($120M)"
+        title: "AI YoungBoy 2",
+        year: 2019,
+        role: "Primary Artist",
+        type: "Album",
+        rating: 9.3,
+        boxOfficeOrNetwork: "Billboard 200 #1 (2x Platinum)"
       },
       {
-        "title": "YoungBoy Never Broke Again Major Studio Release",
-        "year": 2023,
-        "role": "Executive Producer",
-        "type": "Album",
-        "rating": 8.8,
-        "boxOfficeOrNetwork": "Billboard 200 Top 5"
+        title: "Top",
+        year: 2020,
+        role: "Primary Artist",
+        type: "Album",
+        rating: 9.1,
+        boxOfficeOrNetwork: "Billboard 200 #1 (Platinum)"
+      },
+      {
+        title: "Sincerely, Kentrell",
+        year: 2021,
+        role: "Primary Artist",
+        type: "Album",
+        rating: 9.4,
+        boxOfficeOrNetwork: "Billboard 200 #1 (Platinum)"
+      },
+      {
+        title: "The Last Slimeto",
+        year: 2022,
+        role: "Primary Artist",
+        type: "Album",
+        rating: 8.9,
+        boxOfficeOrNetwork: "Billboard 200 #2 (Gold)"
+      },
+      {
+        title: "I Rest My Case & Don't Try This at Home",
+        year: 2023,
+        role: "Primary Artist & Producer",
+        type: "Album",
+        rating: 8.6,
+        boxOfficeOrNetwork: "Billboard 200 Top 10 (Motown)"
       }
     ],
     "relationshipProfile": {
-      "status": "Private / Public Record",
-      "datingHistorySummary": "YoungBoy Never Broke Again maintains a private personal life, with public milestones confirmed across verified entertainment records.",
-      "partners": []
-    },
-    "financialDossier": {
-      "salaryMilestones": [
+      status: "Married",
+      datingHistorySummary: "Kentrell Gaulden has maintained a publicly documented personal life marked by multiple long-term partnerships and a large family. In January 2023, Gaulden married his longtime partner Jazlyn Mychelle Hayes in Utah. He is the father of eleven documented children with several former partners, including high-profile relationships with social media personality Jania Meshell and Iyanna 'Yaya' Mayweather.",
+      partners: [
         {
-          "project": "YoungBoy Never Broke Again Debut LP",
-          "year": 2011,
-          "salary": "$500,000 USD",
-          "boxOfficeOrBudget": "Multi-Platinum",
-          "notes": "Early career landmark compensation establishing bankable industry status."
+          name: "Jazlyn Mychelle Hayes",
+          relationType: "Spouse",
+          years: "2020–Present (Married Jan 2023)",
+          summary: "Married in a private Utah ceremony on January 7, 2023; the couple share two children, daughter Alice and son Klemenza."
         },
         {
-          "project": "YoungBoy Never Broke Again Major Studio Release",
-          "year": 2023,
-          "salary": "$2.5 Million USD",
-          "boxOfficeOrBudget": "Billboard 200 Top 5",
-          "notes": "Peak compensation tier reflecting established leading status."
-        }
-      ],
-      "realEstateAssets": [
-        {
-          "property": "Primary Luxury Residence",
-          "location": "Baton Rouge, United States",
-          "purchasedYear": "2019",
-          "purchasePrice": "$3.5 Million USD",
-          "currentEstimatedValue": "$5.0 Million USD",
-          "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
-        }
-      ],
-      "businessVentures": [
-        {
-          "name": "Commercial Brand Partnerships & Production Equity",
-          "role": "Principal Talent & Equity Partner",
-          "valuationOrRevenue": "Multi-Million Portfolio",
-          "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
-        }
-      ],
-      "wealthProgression": [
-        {
-          "period": "2015",
-          "estimatedNetWorth": "$2.0 Million USD",
-          "milestoneDescription": "Early breakthrough projects and rising industry demand."
+          name: "Iyanna 'Yaya' Mayweather",
+          relationType: "Former Partner",
+          years: "2019–2021",
+          summary: "Daughter of championship boxer Floyd Mayweather Jr.; the former couple share a son, Kentrell Jr., born in January 2021."
         },
         {
-          "period": "2020",
-          "estimatedNetWorth": "$10.0 Million USD",
-          "milestoneDescription": "Mainstream leading roles and commercial endorsements."
-        },
-        {
-          "period": "2026",
-          "estimatedNetWorth": "$30 Million USD (Certified Assets & Catalog)",
-          "milestoneDescription": "Global box office equity, production points, and prime real estate."
+          name: "Jania Meshell",
+          relationType: "Former Partner",
+          years: "2017–2018",
+          summary: "Social media entrepreneur and influencer; share son Kacey Alexander Gaulden, born in 2019."
         }
       ]
     },
-    "philanthropy": [
-      {
-        "organizationOrCause": "The Entertainment Community Fund",
-        "focusArea": "Performing Arts Safety Net & Emergency Relief",
-        "verifiedContribution": "Active Industry Supporter",
-        "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
-      },
-      {
-        "organizationOrCause": "SAG-AFTRA Foundation",
-        "focusArea": "Children's Literacy & Artists Assistance",
-        "verifiedContribution": "Campaign Contributor & Patron",
-        "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
-      }
-    ],
-    "controversies": [
-      {
-        "incident": "Studio Production Delays & Industry Strike Navigation",
-        "year": "2023",
-        "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
-        "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is YoungBoy Never Broke Again's verified net worth in 2026?",
-        "answer": "YoungBoy Never Broke Again commands a confirmed net worth evaluated at $30 Million USD (Certified Assets & Catalog), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
-      },
-      {
-        "question": "How old is YoungBoy Never Broke Again and what is their date of birth?",
-        "answer": "YoungBoy Never Broke Again is 26 years old, born on October 20, 1999 in Baton Rouge."
-      },
-      {
-        "question": "What are YoungBoy Never Broke Again's most acclaimed movies and roles?",
-        "answer": "YoungBoy Never Broke Again is widely celebrated for standout performances in Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours."
-      },
-      {
-        "question": "Who is YoungBoy Never Broke Again married to or dating?",
-        "answer": "YoungBoy Never Broke Again maintains a private personal life, with public milestones confirmed across verified entertainment records."
-      },
-      {
-        "question": "What is YoungBoy Never Broke Again's verified height and physical stature?",
-        "answer": "YoungBoy Never Broke Again stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
-      },
-      {
-        "question": "Where did YoungBoy Never Broke Again complete their education and training?",
-        "answer": "YoungBoy Never Broke Again completed studies at Verified Public & Performing Arts Studies, honing their artistic craft prior to major commercial breakthroughs."
-      },
-      {
-        "question": "What major projects is YoungBoy Never Broke Again working on entering late 2026?",
-        "answer": "Entering late 2026, YoungBoy Never Broke Again continues to headline major film and television productions while maintaining an influential cultural standing."
-      }
-    ],
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=YoungBoy%20Never%20Broke%20Again",
+      "imdb": "https://www.imdb.com/name/nm10080645/",
       "wikipedia": "https://en.wikipedia.org/wiki/YoungBoy_Never_Broke_Again"
     },
     "editorialMetadata": {
@@ -4254,35 +4192,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
       "publishedDate": "2026-09-30T11:56:42.083Z",
-      "lastUpdated": "2026-09-30T11:56:42.084Z",
-      "readingTimeMinutes": 7
-    },
-    "biographySections": [
-      {
-        "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
-        "paragraphs": [
-          "Kentrell DeSean Gaulden, known professionally as YoungBoy Never Broke Again or NBA YoungBoy, is an American rapper, singer, and songwriter.   Gaulden released eight mixtapes from 2015 to 2017, and garnered a regional following for his work.",
-          "Capturing critical attention early in their career, YoungBoy Never Broke Again quickly demonstrated exceptional technical range and presence across major productions."
-        ],
-        "keyTakeaway": "YoungBoy Never Broke Again built early creative momentum through disciplined preparation and breakthrough initial projects."
-      },
-      {
-        "heading": "Commercial Authority, Signature Works & Critical Acclaim",
-        "paragraphs": [
-          "  He signed with Atlantic Records and Artist Partner Group in the latter year to release the singles \"Untouchable\" and \"No Smoke\", both of which marked his first entries on the Billboard Hot 100.  Entering late 2026, YoungBoy Never Broke Again maintains a confirmed net worth evaluated at $30 Million USD (Certified Assets & Catalog), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
-          "Delivering standout performances across landmark features, YoungBoy Never Broke Again expanded their artistic range while commanding major box office presence."
-        ],
-        "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
-      },
-      {
-        "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
-        "paragraphs": [
-          "Entering late 2026, YoungBoy Never Broke Again commands major production equity, strategic brand collaborations, and a confirmed net worth of $30 Million USD (Certified Assets & Catalog).",
-          "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and creative leadership."
-        ],
-        "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
-      }
-    ]
+      "lastUpdated": "2026-09-30T17:05:00.000Z",
+      "readingTimeMinutes": 10
+    }
   }
 ];
 

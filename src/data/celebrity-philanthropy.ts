@@ -404,19 +404,18 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
   ]
 ,
   "youngboy-never-broke-again": [
-  {
-    "organizationOrCause": "The Entertainment Community Fund",
-    "focusArea": "Performing Arts Safety Net & Emergency Relief",
-    "verifiedContribution": "Active Industry Supporter",
-    "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
-  },
-  {
-    "organizationOrCause": "SAG-AFTRA Foundation",
-    "focusArea": "Children's Literacy & Artists Assistance",
-    "verifiedContribution": "Campaign Contributor & Patron",
-    "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
-  }
-],
-
+    {
+      "organizationOrCause": "Baton Rouge Youth Relief & Holiday Giveaways",
+      "focusArea": "Underprivileged Youth Assistance & Holiday Community Support",
+      "verifiedContribution": "Independent Community Benefactor & Food/Toy Drives",
+      "description": "Regularly funds grassroots holiday turkey giveaways, school supply drives, and toy distributions across North Baton Rouge neighborhoods through his Never Broke Again team, providing direct assistance to low-income families in his hometown."
+    },
+    {
+      "organizationOrCause": "Direct Community Grants & Emergency Relief",
+      "focusArea": "Emergency Family Relief & Funeral Expense Grants",
+      "verifiedContribution": "Private Philanthropic Donor",
+      "description": "Provides direct financial assistance covering medical expenses, emergency housing relief, and funeral costs for underprivileged families and neighborhood peers across Louisiana communities."
+    }
+  ]
 };
 

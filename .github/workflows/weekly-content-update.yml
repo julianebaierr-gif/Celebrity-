@@ -1,9 +1,7 @@
 name: Weekly Entertainment Content & Blog Update Pipeline
 
+# Automated cron schedule disabled per user request (Manual trigger only)
 on:
-  schedule:
-    # Runs weekly every Monday at 09:00 UTC (2:00 PM PKT)
-    - cron: '0 9 * * 1'
   workflow_dispatch:
     inputs:
       target_celebrity:

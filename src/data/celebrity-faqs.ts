@@ -426,35 +426,35 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   ]
 ,
   "youngboy-never-broke-again": [
-  {
-    "question": "What is YoungBoy Never Broke Again's verified net worth in 2026?",
-    "answer": "YoungBoy Never Broke Again commands a confirmed net worth evaluated at $30 Million USD (Certified Assets & Catalog), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
-  },
-  {
-    "question": "How old is YoungBoy Never Broke Again and what is their date of birth?",
-    "answer": "YoungBoy Never Broke Again is 26 years old, born on October 20, 1999 in Baton Rouge."
-  },
-  {
-    "question": "What are YoungBoy Never Broke Again's most acclaimed movies and roles?",
-    "answer": "YoungBoy Never Broke Again is widely celebrated for standout performances in Multi-Platinum Studio Albums, Billboard #1 Singles & World Arena Tours."
-  },
-  {
-    "question": "Who is YoungBoy Never Broke Again married to or dating?",
-    "answer": "YoungBoy Never Broke Again maintains a private personal life, with public milestones confirmed across verified entertainment records."
-  },
-  {
-    "question": "What is YoungBoy Never Broke Again's verified height and physical stature?",
-    "answer": "YoungBoy Never Broke Again stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
-  },
-  {
-    "question": "Where did YoungBoy Never Broke Again complete their education and training?",
-    "answer": "YoungBoy Never Broke Again completed studies at Verified Public & Performing Arts Studies, honing their artistic craft prior to major commercial breakthroughs."
-  },
-  {
-    "question": "What major projects is YoungBoy Never Broke Again working on entering late 2026?",
-    "answer": "Entering late 2026, YoungBoy Never Broke Again continues to headline major film and television productions while maintaining an influential cultural standing."
-  }
-],
+    {
+      "question": "What is YoungBoy Never Broke Again's verified net worth in 2026?",
+      "answer": "YoungBoy Never Broke Again holds an authenticated net worth of $11 Million USD in 2026. While he generated over $100 Million in gross career earnings from billions of streams, his liquid net worth reflects major outlays including multi-million-dollar federal legal defense retainers, private security overhead at his Utah estate, and past contractual royalty recoupments prior to his Motown partnership."
+    },
+    {
+      "question": "How old is YoungBoy Never Broke Again and what is his real name?",
+      "answer": "YoungBoy Never Broke Again is 26 years old, born on October 20, 1999. His legal name is Kentrell DeSean Gaulden, and he was born and raised in North Baton Rouge, Louisiana."
+    },
+    {
+      "question": "Who is YoungBoy Never Broke Again married to?",
+      "answer": "YoungBoy Never Broke Again is married to Jazlyn Mychelle Hayes. The couple officially married in January 2023 in Salt Lake City, Utah, following a multi-year relationship, and share two children together."
+    },
+    {
+      "question": "Why is YoungBoy Never Broke Again's Billboard record so historic?",
+      "answer": "Gaulden became the youngest artist in Billboard history to chart 100 entries on the Billboard Hot 100, reaching the milestone at just 23 years old. Additionally, he became one of only three hip-hop artists alongside 2Pac and Lil Wayne to release a Billboard 200 #1 album ('Sincerely, Kentrell' in 2021) while actively incarcerated."
+    },
+    {
+      "question": "What are YoungBoy Never Broke Again's most successful albums?",
+      "answer": "His standout commercial projects include 'Until Death Call My Name' (Platinum, 2018), 'AI YoungBoy 2' (#1 on Billboard 200, 2019), 'Top' (#1 on Billboard 200, 2020), 'Sincerely, Kentrell' (#1 on Billboard 200, 2021), and 'The Last Slimeto' (Gold, 2022)."
+    },
+    {
+      "question": "What is the current status of YoungBoy Never Broke Again's legal cases?",
+      "answer": "Following a full jury acquittal in California in July 2022, Gaulden resolved his remaining 2020 Louisiana federal firearm case and 2024 Utah charges via a consolidated federal plea agreement in late 2024. With credit for extensive house arrest and detention, Gaulden is positioned for full release and career resumption heading into late 2026."
+    },
+    {
+      "question": "How does YoungBoy Never Broke Again make money without touring?",
+      "answer": "Despite court-ordered travel restrictions preventing live concert tours, Gaulden generated between $8 Million and $12 Million annually through YouTube (with over 14 Million subscribers and 13+ Billion views), digital streaming royalties, physical merchandise through Never Broke Again LLC, and his landmark catalog distribution agreement with Motown Records."
+    }
+  ],
 
 };
 

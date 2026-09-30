@@ -1082,30 +1082,62 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     }
   ],
   "youngboy-never-broke-again": [
-  {
-    "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
-    "paragraphs": [
-      "Kentrell DeSean Gaulden (born October 20, 1999), known professionally as YoungBoy Never Broke Again or NBA YoungBoy, is an American rapper, singer, and songwriter. Gaulden released eight mixtapes from 2015 to 2017, and garnered a regional following for his work. He signed with Atlantic Records and Artist Partner Group in the latter year to release the singles \"Untouchable\" and \"No Smoke\", both of which marked his first entries on the Billboard Hot 100. Released in January 2018, his single \"Outside Today\" became his first to peak within the chart's top 40, and received quadruple platinum certification by the Recording Industry Association of America (RIAA). It served as both his mainstream breakthrough and the lead single for his debut studio album, Until Death Call My Name (2018), which peaked at number seven on the US Billboard 200 despite mixed critical reception.",
-      "His 2019 single, \"Bandit\" (with Juice Wrld), became his first song to reach the top ten of the Billboard Hot 100. Released the following week, his commercial mixtape, AI YoungBoy 2 (2019), debuted atop the Billboard 200 and received 18 gold certifications by the RIAA for each of its tracks. The release of its follow-up, 38 Baby 2 (2020), and his second studio album, Top (2020), made Gaulden the second hip hop act to peak the chart thrice within a single year. His third album, Sincerely, Kentrell (2021), was released during an incarceration, and became the third project—behind Tupac Shakur's Me Against the World (1995) and Lil Wayne's I Am Not a Human Being (2010)—by an imprisoned artist to debut atop the Billboard 200. His fourth album, The Last Slimeto (2022), peaked at number two on the chart and served as his final release with Atlantic. Gaulden signed with Motown to release his fifth and sixth albums: I Rest My Case and Don't Try This at Home (both 2023), both of which peaked within the top-ten of the Billboard 200 despite trailing critical reception. Gaulden's seventh studio album I Just Got a Lot on My Shoulders (2024), witnessed a steep commercial decline, while his eighth and ninth albums, MASA (2025) and Slime Cry (2026), both peaked within the chart's top ten."
-    ],
-    "keyTakeaway": "YoungBoy Never Broke Again established early creative momentum through disciplined preparation and breakthrough initial projects."
-  },
-  {
-    "heading": "Commercial Authority, Signature Works & Critical Acclaim",
-    "paragraphs": [
-      "Gaulden has sold over 109 million digital copies in the United States, ranking him among the highest certified artists in the United States. He has garnered 15 billion views on his YouTube channel, also ranking him among the highest-viewed rappers on the site. He is the youngest artist in Billboard history to chart 100 singles on the Billboard Hot 100, while also being the rapper with the most RIAA platinum certified albums from 2015 to 2025, and the most certified rapper in RIAA history with 126 certified titles. Gaulden has 34 albums that have charted on the Billboard 200 chart, the most of any rapper, and has been nominated for three BET Hip Hop Awards and a Grammy Award while being the recipient of one ASCAP Rhythm & Soul Music Award and one BMI R&B/Hip-Hop Award. He founded the record label Never Broke Again in 2015, which has signed artists including NoCap and Quando Rondo.",
-      "Despite his success, Gaulden's career has been marked by a long history of legal issues that began in 2016. He has maintained a largely prolific output notwithstanding his incarcerations. Gaulden has infamously spent several years on house arrest from 2021 to 2024. He was arrested in Baton Rouge, Louisiana, in 2020 alongside sixteen others on various federal charges, including distribution and manufacturing of drugs and possession of stolen firearms. In 2021, he was arrested in Los Angeles, California, by federal agents stemming from his 2020 arrest, resulting in an additional federal firearm charge. From March to October 2021, Gaulden was in jail before being released on bond and placed on house arrest awaiting trial from October 2021 to March 2024. Gaulden was found not guilty in the case in Los Angeles, but was found guilty in Baton Rouge and sentenced to 23 months in prison, followed by 60 months of probation following his release. After over three years in federal custody, including house arrest, Gaulden was  released on probation in April 2025. In May 2025, after spending almost two months on probation, Gaulden was granted a presidential pardon by Donald Trump."
-    ],
-    "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
-  },
-  {
-    "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
-    "paragraphs": [
-      "Beyond creative releases, YoungBoy Never Broke Again commands major production equity, brand collaborations, and private portfolio holdings. Entering late 2026, their verified valuation is appraised at $30 Million USD (Certified Assets & Catalog).",
-      "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and artistic integrity."
-    ],
-    "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
-  }
-],
+    {
+      "heading": "The Baton Rouge Foundations & Early Adversity (1999–2014)",
+      "paragraphs": [
+        "Kentrell DeSean Gaulden entered the world on October 20, 1999, in Baton Rouge, Louisiana. Raised primarily by his maternal grandmother in the city's North Baton Rouge corridor, Gaulden experienced severe physical and economic adversity from early childhood. As a toddler, a severe neck injury sustained during rough play required him to wear an orthopedic head brace, which left permanent facial scars that later became part of his unmistakable public image.",
+        "When his grandmother passed away in 2010, Gaulden moved in with friend and collaborator NBA 3Three (OG 3Three). Dropping out of Scotlandville Magnet High School in the ninth grade to focus on recording, he purchased his first studio microphone at Walmart with earnings from neighborhood labor. Writing lyrics derived directly from street survival, grief, and generational poverty, Gaulden began laying the vocal blueprints for what would soon grow into an independent Southern rap dynasty."
+      ],
+      "keyTakeaway": "Early domestic loss, physical hardship, and independent recording efforts in North Baton Rouge shaped his raw lyrical delivery."
+    },
+    {
+      "heading": "Breakthrough Velocity & The 38 Baby Phenomenon (2015–2017)",
+      "paragraphs": [
+        "Between 2015 and 2016, Gaulden adopted the stage moniker YoungBoy Never Broke Again and released an astonishing succession of independent mixtapes, including 'Life Before Fame', 'Mind of a Menace', and 'Before I Go'. However, it was the October 2016 release of '38 Baby'—featuring fellow Baton Rouge heavyweights Boosie Badazz and Kevin Gates—that transformed him into a regional superstar, racking up tens of millions of organic YouTube streams.",
+        "His momentum caught the attention of major record executives. In 2017, after surviving early legal detention, Gaulden signed an eight-figure joint-venture agreement with Atlantic Records and Artist Partner Group (APG). His breakthrough single 'Untouchable', released in May 2017, debuted at number 95 on the Billboard Hot 100, followed by the hard-hitting anthem 'No Smoke'. By the end of 2017, his commercial mixtape 'AI YoungBoy' had cemented his national reputation as the most prolific young voice in Southern hip-hop."
+      ],
+      "keyTakeaway": "Unrelenting grassroots mixtape distribution and viral YouTube music videos secured him a major label partnership with Atlantic Records by age 17."
+    },
+    {
+      "heading": "Mainstream Domination & The Historic Billboard Hot 100 Record (2018–2020)",
+      "paragraphs": [
+        "In April 2018, Gaulden released his debut studio album, 'Until Death Call My Name', featuring guest verses from Future and Lil Uzi Vert. Powered by the quadruple-platinum single 'Outside Today', the album bowed at number seven on the Billboard 200, establishing his mainstream commercial viability. Later that year, he earned international recognition for his collaborative performance on Juice Wrld's smash hit 'Bandit' (2019), which peaked at number ten on the Billboard Hot 100.",
+        "Gaulden’s creative output during this period was relentless. In October 2019, his commercial mixtape 'AI YoungBoy 2' debuted at number one on the Billboard 200, with every single track on the project achieving RIAA certification. He repeated this feat in 2020 with both '38 Baby 2' and his sophomore studio album 'Top', making him one of only two hip-hop artists in Billboard history to notch three number-one projects in a single calendar year. By age 22, he achieved the historic milestone of becoming the youngest artist in music history to chart 100 songs on the Billboard Hot 100."
+      ],
+      "keyTakeaway": "Three Billboard 200 number-one records in a single year and 100 Billboard Hot 100 hits cemented his status as a digital streaming titan."
+    },
+    {
+      "heading": "Incarceration Milestones & The 'Sincerely, Kentrell' Chart Triumph (2021)",
+      "paragraphs": [
+        "In March 2021, federal authorities arrested Gaulden in Los Angeles stemming from an outstanding federal weapons indictment in Louisiana. While held without bail in federal custody at St. Martin Parish Correctional Center, his engineering team released his third studio album, 'Sincerely, Kentrell', in September 2021. With zero radio promotion, commercial press junkets, or live touring, the record debuted at number one on the Billboard 200, unseating Drake's 'Certified Lover Boy'.",
+        "This achievement positioned Gaulden alongside hip-hop legends 2Pac (with 1995's 'Me Against the World') and Lil Wayne (with 2010's 'I Am Not a Human Being') as the only artists in American history to score a Billboard number-one album while physically incarcerated. The project sold over 137,000 album-equivalent units in its first tracking week, driven almost entirely by passionate direct-to-consumer digital engagement and dedicated on-demand streaming."
+      ],
+      "keyTakeaway": "Joining 2Pac and Lil Wayne, he became the third artist in music history to achieve a Billboard 200 #1 album while detained behind bars."
+    },
+    {
+      "heading": "The Utah Confinement & The 'Grave Digger Mountain' Creative Era (2022–2023)",
+      "paragraphs": [
+        "In late October 2021, a federal judge granted Gaulden pre-trial release on a stringent $1.5 million bond, requiring him to relocate to a secluded residence in Huntsville, Weber County, Utah. Under 24-hour home confinement monitored by licensed private security guards, Gaulden constructed a state-of-the-art recording suite inside his luxury estate, nicknamed 'Grave Digger Mountain' by fans and media.",
+        "From this secluded mountaintop sanctuary, Gaulden sustained a historic work ethic. In August 2022, he fulfilled his contractual obligations to Atlantic Records with his fourth studio album, 'The Last Slimeto' (which debuted at number two on the Billboard 200). He promptly negotiated a lucrative multi-album global distribution partnership with Motown Records and Universal Music Group, reportedly valued upwards of $20 million, releasing albums including 'I Rest My Case' and 'Don't Try This at Home' in 2023."
+      ],
+      "keyTakeaway": "Operating from his secluded Utah residence under federal supervision, he fulfilled his Atlantic deal and signed a $20M+ contract with Motown."
+    },
+    {
+      "heading": "Legal Forensics, Federal Proceedings & Court Resolutions (2024–2025)",
+      "paragraphs": [
+        "Gaulden’s career has unfolded alongside complex multi-jurisdictional legal battles. In July 2022, a federal jury in Los Angeles acquitted him of felony firearm possession charges related to his 2021 arrest. However, legal challenges intensified in April 2024 when local law enforcement in Cache County and Weber County, Utah, executed search warrants at his Huntsville compound in connection with an alleged fraudulent prescription medication ring.",
+        "Rather than risking a protracted federal trial, Gaulden and his defense counsel entered negotiated plea agreements in late 2024 to resolve both the Utah state counts and his outstanding federal firearms charges in Louisiana. The coordinated plea arrangements resulted in consolidated sentencing that accounted for substantial credit for time served on strict pre-trial house arrest, providing legal certainty and establishing a formal timetable for his full operational return to the music industry."
+      ],
+      "keyTakeaway": "Federal court acquittals in California and structured plea agreements in 2024 cleared long-standing multi-state legal cloudiness."
+    },
+    {
+      "heading": "Net Worth Valuation, Never Broke Again LLC & 2026 Cultural Standing",
+      "paragraphs": [
+        "Entering late 2026 at age 26, YoungBoy Never Broke Again’s personal net worth is appraised at $11 Million USD. While his digital streaming catalog generates over $8 million annually across YouTube and audio DSPs, and his Motown advance provided substantial capital, significant financial outflows—including multi-million-dollar legal defense retainers, round-the-clock private security details in Utah, municipal real estate holdings, and child support obligations for eleven children—maintain a realistic, grounded balance sheet.",
+        "Gaulden’s independent record imprint, Never Broke Again LLC, serves as a primary enterprise vehicle, nurturing Southern acts like NoCap and Quando Rondo. Married to longtime partner Jazlyn Mychelle Hayes since January 2023, Gaulden commands an fiercely loyal global fanbase whose dedicated engagement guarantees continuous commercial viability across the contemporary entertainment landscape."
+      ],
+      "keyTakeaway": "An $11M net worth anchored by billion-stream digital catalog royalties, balanced against intensive legal defense overhead and real estate equity."
+    }
+  ],
 
 };

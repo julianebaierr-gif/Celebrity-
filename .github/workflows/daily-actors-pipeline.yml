@@ -1,9 +1,7 @@
 name: Daily Hollywood Actors & Actresses Pipeline
 
+# Automated cron schedule disabled per user request (Manual trigger only)
 on:
-  schedule:
-    # Runs daily at 06:00 UTC (11:00 AM PKT)
-    - cron: '0 6 * * *'
   workflow_dispatch:
     inputs:
       actor_name:
