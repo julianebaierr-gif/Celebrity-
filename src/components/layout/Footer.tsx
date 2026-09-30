@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import CelebLedgerLogo from "@/components/ui/CelebLedgerLogo";
 
 export default function Footer() {
   return (
@@ -8,13 +9,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand Info */}
           <div className="space-y-3.5 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2.5">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-tr from-amber-500 to-rose-500 text-white font-black text-sm shadow-sm">
-                ⚡
-              </div>
-              <span className="text-lg font-black text-slate-900 tracking-tight">
-                CELEB<span className="text-amber-600">LEDGER</span>
-              </span>
+            <Link href="/" className="inline-block focus:outline-hidden">
+              <CelebLedgerLogo size="sm" />
             </Link>
             <p className="text-slate-500 leading-relaxed text-xs">
               An authoritative journalistic archive for official celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.

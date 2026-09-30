@@ -17,6 +17,12 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
     "@type": "WebSite",
     name: "CelebLedger",
     url: baseUrl,
+    publisher: {
+      "@type": "Organization",
+      name: "CelebLedger Publishing Inc.",
+      url: baseUrl,
+      logo: `${baseUrl}/favicon-512x512.png`,
+    },
     potentialAction: {
       "@type": "SearchAction",
       target: `${baseUrl}/search?q={search_term_string}`,
@@ -64,6 +70,12 @@ export default function JsonLd({ celebrity, breadcrumbs }: JsonLdProps) {
         "@type": "NewsMediaOrganization",
         name: "CelebLedger Publishing Inc.",
         url: baseUrl,
+        logo: {
+          "@type": "ImageObject",
+          url: `${baseUrl}/favicon-512x512.png`,
+          width: 512,
+          height: 512,
+        },
         publishingPrinciples: `${baseUrl}/editorial-standards`,
       },
       mainEntity: {

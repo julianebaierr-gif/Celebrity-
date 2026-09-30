@@ -43,6 +43,20 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-48x48.png", type: "image/png", sizes: "48x48" },
+      { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },
+      { url: "/favicon-192x192.png", type: "image/png", sizes: "192x192" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: ["/favicon.ico"],
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -52,7 +66,7 @@ export const metadata: Metadata = {
     description: "The authoritative entertainment intelligence portal. Confirmed celebrity net worth, relationship records, and filmographies.",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&h=630&q=80",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "CelebLedger - Official Celebrity Profiles Network",

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+  <defs>
+    <linearGradient id="hBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1526" />
+      <stop offset="100%" stop-color="#020308" />
+    </linearGradient>
+    <linearGradient id="hGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="35%" stop-color="#F59E0B" />
+      <stop offset="75%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#92400E" />
+    </linearGradient>
+    <linearGradient id="hChampagne" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon Emblem (Scale 100x100 at x=10, y=10) -->
+  <g transform="translate(10, 10)">
+    <rect width="100" height="100" rx="24" fill="url(#hBg)" />
+    <rect x="3" y="3" width="94" height="94" rx="21" fill="none" stroke="url(#hGold)" stroke-width="1.5" stroke-opacity="0.4" />
+    
+    <!-- Mini Centered Monogram -->
+    <g transform="translate(4, 4) scale(0.18)">
+      <path d="M 346 150 A 152 152 0 1 0 346 362 L 312 328 A 104 104 0 1 1 312 184 Z" fill="url(#hGold)" />
+      <path d="M 216 182 L 254 182 L 254 288 L 348 288 L 348 326 L 216 326 Z" fill="url(#hChampagne)" />
+      <rect x="270" y="200" width="68" height="8" rx="4" fill="url(#hGold)" opacity="0.95" />
+      <rect x="270" y="228" width="54" height="8" rx="4" fill="url(#hGold)" opacity="0.8" />
+      <rect x="270" y="256" width="62" height="8" rx="4" fill="url(#hGold)" opacity="0.65" />
+      <path d="M 358 108 Q 358 140 378 148 Q 358 156 358 188 Q 358 156 338 148 Q 358 140 358 108 Z" fill="url(#hChampagne)" />
+      <circle cx="358" cy="148" r="4.5" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="130" y="65" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="44" letter-spacing="-0.03em" fill="#0F172A">CELEB<tspan fill="#D97706">LEDGER</tspan></text>
+  <text x="132" y="88" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" letter-spacing="0.28em" fill="#64748B">THE CELEBRITY LEDGER • VERIFIED ARCHIVES</text>
+</svg>

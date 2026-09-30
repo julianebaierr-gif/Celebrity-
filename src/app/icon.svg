@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Deep obsidian luxury background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1526" />
+      <stop offset="50%" stop-color="#070b16" />
+      <stop offset="100%" stop-color="#020308" />
+    </linearGradient>
+
+    <!-- Warm Metallic Gold Gradient for 'C' and Accents -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="25%" stop-color="#F59E0B" />
+      <stop offset="70%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#92400E" />
+    </linearGradient>
+
+    <!-- Pale Champagne Gold for 'L' (Creates Contrast and Readability) -->
+    <linearGradient id="champagneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#FEF3C7" />
+      <stop offset="75%" stop-color="#FDE68A" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <!-- Inset Frame Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#D97706" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#92400E" stop-opacity="0.5" />
+    </linearGradient>
+
+    <filter id="subtleGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#F59E0B" flood-opacity="0.28" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="10" y="10" width="492" height="492" rx="114" fill="url(#bgGrad)" />
+
+  <!-- Outer Precision Inset Border -->
+  <rect x="22" y="22" width="468" height="468" rx="102" fill="none" stroke="url(#borderGrad)" stroke-width="3" />
+  <rect x="32" y="32" width="448" height="448" rx="92" fill="none" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.12" />
+
+  <!-- Monogram Group (Centered at 256, 256) -->
+  <g filter="url(#subtleGlow)">
+    <!-- THE 'C': Majestic Architectural Arch -->
+    <path d="
+      M 346 150
+      A 152 152 0 1 0 346 362
+      L 312 328
+      A 104 104 0 1 1 312 184
+      Z"
+      fill="url(#goldGrad)" />
+
+    <!-- THE 'L': Refined Financial Pillar &amp; Ledger Baseline -->
+    <path d="
+      M 216 182
+      L 254 182
+      L 254 288
+      L 348 288
+      L 348 326
+      L 216 326
+      Z"
+      fill="url(#champagneGrad)" />
+
+    <!-- LEDGER HORIZONTAL BALANCE LINES (3 Certified Statement Ticks) -->
+    <rect x="270" y="200" width="68" height="8" rx="4" fill="url(#goldGrad)" opacity="0.95" />
+    <rect x="270" y="228" width="54" height="8" rx="4" fill="url(#goldGrad)" opacity="0.8" />
+    <rect x="270" y="256" width="62" height="8" rx="4" fill="url(#goldGrad)" opacity="0.65" />
+
+    <!-- THE NORTH STAR OF CELEBRITY TRUTH -->
+    <path d="
+      M 358 108
+      Q 358 140 378 148
+      Q 358 156 358 188
+      Q 358 156 338 148
+      Q 358 140 358 108 Z"
+      fill="url(#champagneGrad)" />
+    <circle cx="358" cy="148" r="4.5" fill="#FFFFFF" />
+  </g>
+</svg>
