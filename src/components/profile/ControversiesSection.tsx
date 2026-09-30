@@ -18,7 +18,7 @@ export default function ControversiesSection({
       <div className="mb-2">
         <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2.5">
           <Scale className="h-6 w-6 text-slate-700" />
-          <span>Legal History, Industry Disputes & Resilience</span>
+          <span>{celebrityName}: Legal History &amp; Industry Disputes</span>
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-8 leading-relaxed">

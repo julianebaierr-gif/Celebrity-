@@ -20,7 +20,7 @@ export default function FaqSection({ faqs, celebrityName }: FaqSectionProps) {
     <section id="frequently-asked-questions" className="my-10">
       <div className="mb-3">
         <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-          Frequently Asked Questions
+          Frequently Asked Questions About {celebrityName}
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-6 leading-relaxed">

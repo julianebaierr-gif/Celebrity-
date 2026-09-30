@@ -68,7 +68,7 @@ export default function EditorialBiography({
       {/* Section Header */}
       <div className="mb-2">
         <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-          Full Biography & Career Analysis
+          {celebrityName}: Full Biography &amp; Career Analysis
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-8 leading-relaxed">

@@ -45,8 +45,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const c2 = getCompleteOrDynamicProfile(parsed.slug2);
   if (!c1 || !c2) return {};
 
-  const metaTitle = `${c1.name} vs ${c2.name} Net Worth & Bio | CelebLedger`;
-  const metaDescription = `Compare ${c1.name} (${formatNetWorth(c1.quickFacts.netWorth)}) vs ${c2.name} (${formatNetWorth(c2.quickFacts.netWorth)}) net worth, career milestones, box office, and 2026 earnings.`;
+  const rawPair = `${c1.name} vs ${c2.name}`;
+  let metaTitle = `${rawPair} Net Worth | CelebLedger`;
+  if (metaTitle.length > 58) {
+    metaTitle = `${rawPair} Bio | CelebLedger`;
+    if (metaTitle.length > 58) {
+      metaTitle = `${rawPair.slice(0, 42)} | CelebLedger`;
+    }
+  }
+
+  let metaDescription = `Compare ${c1.name} (${formatNetWorth(c1.quickFacts.netWorth)}) vs ${c2.name} (${formatNetWorth(c2.quickFacts.netWorth)}) net worth, career milestones, and 2026 earnings.`;
+  if (metaDescription.length > 154) {
+    metaDescription = `Compare ${c1.name} vs ${c2.name} net worth, career assets, box office earnings, and wealth milestones in our 2026 ledger.`;
+  }
 
   return {
     title: metaTitle,
@@ -115,7 +126,7 @@ export default async function MatchupComparePage({ params }: PageProps) {
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-              {c1.name} vs {c2.name}: Net Worth, Career &amp; Earnings Comparison (2026)
+              {c1.name} vs {c2.name}: Net Worth &amp; Career (2026)
             </h1>
 
             <p className="text-base text-slate-600 max-w-3xl font-normal leading-relaxed">

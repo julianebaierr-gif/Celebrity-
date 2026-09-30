@@ -20,7 +20,7 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex items-center gap-3 pt-1">
               <a
-                href="https://x.com/CelebLedgerLive"
+                href="https://x.com/search?q=CelebLedger"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-8 w-8 rounded-lg bg-slate-200/80 hover:bg-slate-900 hover:text-white text-slate-700 flex items-center justify-center transition-colors font-bold text-xs"
@@ -29,7 +29,7 @@ export default function Footer() {
                 𝕏
               </a>
               <a
-                href="https://youtube.com/@CelebLedger"
+                href="https://www.youtube.com/results?search_query=CelebLedger"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-8 w-8 rounded-lg bg-slate-200/80 hover:bg-red-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors font-bold text-xs"
@@ -38,7 +38,7 @@ export default function Footer() {
                 ▶
               </a>
               <a
-                href="https://instagram.com/CelebLedger"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-8 w-8 rounded-lg bg-slate-200/80 hover:bg-pink-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors font-bold text-xs"

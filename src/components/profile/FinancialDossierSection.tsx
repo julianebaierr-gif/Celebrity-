@@ -34,7 +34,7 @@ export default function FinancialDossierSection({
       <div className="mb-2">
         <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2.5">
           <DollarSign className="h-6 w-6 text-emerald-600" />
-          <span>Financial & Wealth Architecture</span>
+          <span>{celebrityName}: Financial &amp; Wealth Architecture</span>
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-8 leading-relaxed">

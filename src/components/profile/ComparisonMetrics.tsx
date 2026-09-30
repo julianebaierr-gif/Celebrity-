@@ -12,7 +12,7 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
     <section id="financial-metrics" className="my-10">
       <div className="mb-2">
         <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-          Career Milestones & Performance Benchmarks
+          {celebrityName}: Career Milestones &amp; Performance Benchmarks
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-6 leading-relaxed">

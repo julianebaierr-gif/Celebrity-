@@ -20,7 +20,7 @@ export default function QuickFactBox({ celebrity }: QuickFactBoxProps) {
       {/* Header */}
       <div className="mb-4">
         <h2 className="text-lg font-bold text-slate-900 tracking-tight">
-          Executive Summary & Quick Facts
+          {celebrity.name}: Executive Summary &amp; Quick Facts
         </h2>
       </div>
 

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: "CelebLedger | Official Celebrity Profiles & Financial Archives",
     template: "%s",
   },
-  description: "The authoritative entertainment intelligence portal. Confirmed celebrity net worth, relationship records, filmographies, and zero-rumor biographical archives.",
+  description: "The official entertainment intelligence portal. Confirmed celebrity net worth, relationship records, filmographies, and biographical dossiers.",
   keywords: [
     "celebrity net worth",
     "confirmed celebrity biography",

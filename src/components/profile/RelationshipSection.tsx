@@ -29,7 +29,7 @@ export default function RelationshipSection({
             id="relationship-heading"
             className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight"
           >
-            Relationship Timeline & Personal Life
+            {celebrityName}: Relationship Timeline &amp; Personal Life
           </h2>
           <p className="text-xs text-slate-500 mt-1">
             Documented marital records, confirmed partnerships, and personal milestones for {celebrityName}.

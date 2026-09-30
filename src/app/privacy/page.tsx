@@ -3,9 +3,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | CelebLedger - Data Protection, GDPR, CCPA/CPRA & Cookie Standards",
+  title: "Privacy Policy | CelebLedger Data Protection & GDPR",
   description:
-    "Official privacy policy of CelebLedger detailing how we safeguard user data, uphold GDPR and CCPA/CPRA standards, enforce cookie transparency, and protect public archive integrity.",
+    "CelebLedger privacy policy: how we safeguard user data, uphold GDPR and CCPA standards, and enforce transparent privacy practices.",
   alternates: {
     canonical: "https://www.celebledger.com/privacy",
   },

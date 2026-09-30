@@ -7,17 +7,30 @@ import { Search, ArrowRight, ChevronRight, DollarSign } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 import JsonLd from "@/components/seo/JsonLd";
 
-export const metadata: Metadata = {
-  title: "All Celebrities Directory & Net Worth Bios | CelebLedger",
-  description:
-    "Browse our official directory of celebrity profiles. Detailed biographies, net worth analysis, career highlights, and filmographies.",
-  alternates: {
-    canonical: "https://www.celebledger.com/celebrities",
-  },
-};
-
 interface CelebritiesPageProps {
   searchParams: Promise<{ q?: string; category?: string }>;
+}
+
+export async function generateMetadata({ searchParams }: CelebritiesPageProps): Promise<Metadata> {
+  const params = await searchParams;
+  const isFiltered = (params.category && params.category !== "all") || (params.q && params.q.trim().length > 0);
+
+  return {
+    title: "All Celebrities Directory & Net Worth Bios | CelebLedger",
+    description:
+      "Browse our official directory of celebrity profiles. Detailed biographies, net worth analysis, career highlights, and filmographies.",
+    alternates: {
+      canonical: "https://www.celebledger.com/celebrities",
+    },
+    ...(isFiltered
+      ? {
+          robots: {
+            index: false,
+            follow: true,
+          },
+        }
+      : {}),
+  };
 }
 
 const CATEGORIES = [
@@ -245,8 +258,9 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
                   <Link
                     href={`/celebrity/${item.slug}`}
                     className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
+                    aria-label={`View full dossier and net worth for ${item.name}`}
                   >
-                    <span>View Profile</span>
+                    <span>View Dossier</span>
                     <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>

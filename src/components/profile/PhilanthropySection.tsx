@@ -18,7 +18,7 @@ export default function PhilanthropySection({
       <div className="mb-2">
         <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2.5">
           <HeartHandshake className="h-6 w-6 text-rose-600" />
-          <span>Philanthropy, Endowments & Social Causes</span>
+          <span>{celebrityName}: Philanthropy &amp; Social Causes</span>
         </h2>
       </div>
       <p className="text-sm text-slate-500 mb-8 leading-relaxed">

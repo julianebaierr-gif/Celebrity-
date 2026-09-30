@@ -2,9 +2,9 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Editorial Standards, Fact-Checking & Verification Policy | CelebLedger",
+  title: "Editorial Standards & Verification Policy | CelebLedger",
   description:
-    "Review CelebLedger's journalistic charter: our 4-tier sourcing hierarchy, financial forensics methodology, net worth calculation formula, right-of-reply protocol, and image licensing ethics.",
+    "CelebLedger editorial charter: 4-tier sourcing hierarchy, financial verification formula, right-of-reply protocol, and archival standards.",
   alternates: {
     canonical: "https://www.celebledger.com/editorial-standards",
   },

@@ -6,7 +6,7 @@ import { ArrowRight, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "About CelebLedger | Celebrity Biographies & Profiles",
   description:
-    "Review the mission, editorial leadership, research methodology, and rigorous verification standards powering CelebLedger's certified biographical and financial archives.",
+    "Review the mission, editorial leadership, and verification standards powering CelebLedger's certified celebrity biographical and financial archives.",
   alternates: {
     canonical: "https://www.celebledger.com/about",
   },

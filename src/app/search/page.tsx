@@ -130,8 +130,9 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                   <Link
                     href={`/celebrity/${item.slug}`}
                     className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
+                    aria-label={`View full dossier and net worth for ${item.name}`}
                   >
-                    <span>View Profile</span>
+                    <span>View Dossier</span>
                     <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>

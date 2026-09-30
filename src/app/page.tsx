@@ -12,7 +12,7 @@ import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "CelebLedger | Celebrity Financial Profiles, Net Worth & Career Archives",
+  title: "CelebLedger | Celebrity Net Worth & Career Dossiers",
   description:
     "Browse official celebrity profiles, career timelines, filmography records, net worth analysis, and personal biographies.",
   alternates: {
@@ -55,8 +55,20 @@ export default function HomePage() {
     <>
       <JsonLd isHomePage={true} itemList={itemList} />
       <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
+      {/* Top Banner with clean semantic H1 under 50 characters */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 pb-2">
+        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-slate-200/80 pb-3">
+          <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+            Celebrity Net Worth &amp; Financial Dossiers
+          </h1>
+          <p className="text-xs text-slate-500 font-medium">
+            Forensically audited biographies, assets, and career ledgers
+          </p>
+        </div>
+      </section>
+
       {/* Hero Magazine Feature Section */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 pb-12">
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-4 pb-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           {/* Main Lead Feature (7 Columns) */}
           <article className="lg:col-span-7 bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between h-full">
@@ -98,13 +110,13 @@ export default function HomePage() {
                   </span>
                 </div>
 
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 group-hover:text-amber-700 transition tracking-tight leading-tight">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 group-hover:text-amber-700 transition tracking-tight leading-tight">
                   <Link href={`/celebrity/${leadStory.slug}`}>
                     {leadStory.headline.startsWith(leadStory.name)
                       ? leadStory.headline
                       : `${leadStory.name}: ${leadStory.headline}`}
                   </Link>
-                </h1>
+                </h2>
 
                 <p className="text-sm sm:text-base text-slate-600 mt-3 leading-relaxed font-normal">
                   {leadStory.executiveSummary}
@@ -212,8 +224,9 @@ export default function HomePage() {
                       <Link
                         href={`/celebrity/${story.slug}`}
                         className="font-bold text-slate-900 group-hover:text-amber-700 inline-flex items-center gap-1 text-[11px]"
+                        aria-label={`Read full biography and net worth dossier for ${story.name}`}
                       >
-                        <span>Read More</span>
+                        <span>View Dossier</span>
                         <ArrowRight className="h-3 w-3" />
                       </Link>
                     </div>
@@ -341,8 +354,9 @@ export default function HomePage() {
                 <Link
                   href={`/celebrity/${item.slug}`}
                   className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
+                  aria-label={`View full dossier and net worth analysis for ${item.name}`}
                 >
-                  <span>View Profile</span>
+                  <span>View Dossier</span>
                   <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>

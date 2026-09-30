@@ -96,56 +96,37 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     `${celebrity.name} Net Worth & Bio | CelebLedger`
   ];
 
+  const htmlLen = (s: string) => s.replace(/&/g, "&amp;").length;
   let metaTitle = "";
   for (const c of titleCandidates) {
-    if (c.length >= 50 && c.length <= 58) {
+    if (htmlLen(c) >= 48 && htmlLen(c) <= 58) {
       metaTitle = c;
       break;
     }
   }
 
   if (!metaTitle) {
-    const valid = titleCandidates.filter((c) => c.length <= 58);
+    const valid = titleCandidates.filter((c) => htmlLen(c) <= 58);
     if (valid.length > 0) {
-      let best = valid[0];
-      if (best.length < 50) {
-        let padded = best.replace(" & Bio | CelebLedger", " & Full Bio | CelebLedger");
-        if (padded.length >= 50 && padded.length <= 58) best = padded;
-        else {
-          padded = best.replace("Net Worth, Age", "Net Worth, Age, Career");
-          if (padded.length >= 50 && padded.length <= 58) best = padded;
-          else {
-            padded = best.replace("Net Worth &", "Net Worth, Career &");
-            if (padded.length >= 50 && padded.length <= 58) best = padded;
-            else {
-              padded = best.replace("| CelebLedger", "& Full Bio | CelebLedger");
-              if (padded.length >= 50 && padded.length <= 58) best = padded;
-            }
-          }
-        }
-      }
-      metaTitle = best;
+      metaTitle = valid[0];
     } else {
-      metaTitle = `${celebrity.name.slice(0, 35)} Net Worth & Bio | CelebLedger`;
+      metaTitle = `${celebrity.name.slice(0, 30)} Net Worth | CelebLedger`;
     }
   }
 
-  // Google SERP Strict Meta Description (Target: 145-155 characters ending with a full stop)
+  // Google SERP Strict Meta Description (Target: 135-148 characters to stay safely under 155 chars and 985px)
   const roleName = celebrity.quickFacts.primaryRole.split(",")[0].trim();
   const descTemplates = [
-    `Explore ${celebrity.name}'s verified net worth, age, career milestones, biography, and confirmed public records as an acclaimed ${roleName}. Read the full 2026 dossier.`,
-    `Explore ${celebrity.name}'s verified net worth, age, career milestones, and confirmed public records as an acclaimed ${roleName}. Read our comprehensive 2026 dossier.`,
-    `Explore ${celebrity.name}'s verified net worth, age, career milestones, and confirmed public records as an acclaimed ${roleName}. Read the complete 2026 dossier.`,
-    `Explore ${celebrity.name}'s verified net worth, age, career milestones, and confirmed public records as an acclaimed ${roleName}. Read the full 2026 dossier.`,
-    `Explore ${celebrity.name}'s verified net worth, age, career history, and public records as an acclaimed ${roleName}. Read our comprehensive 2026 dossier.`,
-    `Explore ${celebrity.name}'s verified net worth, age, career history, and public records as an acclaimed ${roleName}. Read the complete 2026 dossier.`,
-    `Explore ${celebrity.name}'s verified net worth, age, career history, and public records as an acclaimed ${roleName}. Read the full 2026 dossier.`,
-    `Explore ${celebrity.name}'s verified net worth, age, career history, and public records as an acclaimed ${roleName}. Full 2026 dossier.`
+    `Explore ${celebrity.name} verified net worth, age, career milestones, and public records as an acclaimed ${roleName}. Read the full 2026 dossier.`,
+    `Explore ${celebrity.name} verified net worth, career milestones, and public records as an acclaimed ${roleName}. Read the complete 2026 dossier.`,
+    `Explore ${celebrity.name} net worth, age, career milestones, and public records as an acclaimed ${roleName}. Read our full 2026 dossier.`,
+    `Explore ${celebrity.name} net worth, age, career history, and public records as an acclaimed ${roleName}. Read the official 2026 dossier.`,
+    `Explore ${celebrity.name} net worth, career records, and biography as an acclaimed ${roleName}. Read our verified 2026 dossier.`
   ];
 
   let metaDescription = "";
   for (const t of descTemplates) {
-    if (t.length >= 145 && t.length <= 155 && t.endsWith(".")) {
+    if (t.length >= 130 && t.length <= 148 && t.endsWith(".")) {
       metaDescription = t;
       break;
     }
@@ -153,8 +134,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!metaDescription) {
     let desc = descTemplates[0];
-    if (desc.length > 155) {
-      desc = desc.slice(0, 154);
+    if (desc.length > 148) {
+      desc = desc.slice(0, 147);
       const lastSpace = desc.lastIndexOf(" ");
       desc = (lastSpace !== -1 ? desc.slice(0, lastSpace) : desc) + ".";
     }
@@ -396,7 +377,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
           <section id="career-milestones" className="my-10 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
             <div className="mb-6">
               <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-                Career Breakthroughs & Timeline
+                {celebrity.name}: Career Breakthroughs &amp; Timeline
               </h2>
             </div>
 

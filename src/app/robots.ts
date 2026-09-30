@@ -11,9 +11,10 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [
           "/api/",
           "/*?s=*",
+          "/*?q=*",
+          "/*?*category=*",
           "/*?*filter=*",
           "/*?*sort=*",
-          "/_next/",
         ],
       },
     ],

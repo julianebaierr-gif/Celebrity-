@@ -3,9 +3,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Use & Service | CelebLedger - Intellectual Property, Disclaimers & DMCA",
+  title: "Terms of Use & Service | CelebLedger Legal Guidelines",
   description:
-    "Review the terms governing access to CelebLedger's public biographical dossiers, intellectual property rights, financial net worth disclaimers, anti-scraping policies, and statutory DMCA copyright notice protocols.",
+    "Terms governing CelebLedger dossiers, intellectual property rights, financial disclaimers, and statutory DMCA copyright protocols.",
   alternates: {
     canonical: "https://www.celebledger.com/terms",
   },

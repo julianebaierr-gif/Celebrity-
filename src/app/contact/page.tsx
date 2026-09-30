@@ -3,9 +3,9 @@ import { Metadata } from "next";
 import { ContactForm } from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact CelebLedger | Editorial Directory, Fact Verification & Bureau Inquiries",
+  title: "Contact CelebLedger | Editorial & Newsroom Directory",
   description:
-    "Direct contact directory for CelebLedger newsroom. Submit factual corrections, talent agency updates, media licensing inquiries, and reach our editorial bureaus in Los Angeles, New York, and London.",
+    "Contact the CelebLedger newsroom. Submit factual corrections, agency updates, media inquiries, or contact our bureaus in Los Angeles, New York, and London.",
   alternates: {
     canonical: "https://www.celebledger.com/contact",
   },
