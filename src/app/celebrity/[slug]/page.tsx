@@ -232,34 +232,28 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
 
   const CELEB_BLOG_REPORTS: Record<string, { slug: string; title: string; category: string }[]> = {
     "drake": [
-      { slug: "drake-2026-music-and-tour-analysis", title: "Drake 2026 Arena Tour & Music Economics", category: "Touring Economics" },
-      { slug: "economics-of-streaming-royalties-rap-catalogs", title: "Streaming Royalties & Rap Catalog Valuations", category: "Publishing Rights" },
+      { slug: "drake-2026-music-and-tour-analysis", title: "Drake 2026 Tour Dates, Album Slate & Streaming Data", category: "Touring Economics" },
     ],
     "youngboy-never-broke-again": [
-      { slug: "economics-of-streaming-royalties-rap-catalogs", title: "Independent Streaming Economics & Digital Royalties", category: "Publishing Rights" },
-      { slug: "creator-economy-billion-dollar-brands", title: "Direct-to-Consumer Digital Monetization", category: "Digital Royalties" },
+      { slug: "drake-2026-music-and-tour-analysis", title: "Drake 2026 Tour Dates, Album Slate & Streaming Data", category: "Music Industry" },
     ],
     "tim-curry": [
-      { slug: "tim-curry-2026-slate-and-analysis", title: "Tim Curry 2026 Career Slate & Theatrical Retrospective", category: "Cultural Archive" },
-      { slug: "post-strike-hollywood-economics-residuals", title: "Theatrical Residuals & Voice Royalty Archives", category: "Hollywood Residuals" },
+      { slug: "tim-curry-2026-slate-and-analysis", title: "Tim Curry 2026 Retrospective & Career Analysis", category: "Cultural Archive" },
     ],
     "kylie-jenner": [
-      { slug: "kylie-jenner-2026-media-and-brand-analysis", title: "Kylie Jenner 2026 Media & Brand Valuation", category: "Brand Equity" },
-      { slug: "creator-economy-billion-dollar-brands", title: "Creator Economy & Billion-Dollar Consumer Brands", category: "Consumer Brands" },
+      { slug: "kylie-jenner-2026-media-and-brand-analysis", title: "Kylie Jenner 2026 Brand Ventures & Wealth Analysis", category: "Brand Equity" },
     ],
     "travis-kelce": [
-      { slug: "travis-kelce-2026-season-and-contract-analysis", title: "Travis Kelce 2026 Season & Contract Economics", category: "Sports Business" },
-      { slug: "celebrity-real-estate-most-expensive-compounds", title: "Celebrity Real Estate Compounds: Kansas City & Beyond", category: "Real Estate" },
+      { slug: "travis-kelce-2026-season-and-contract-analysis", title: "Travis Kelce 2026 Contract & Career Analysis", category: "Sports Business" },
     ],
     "taylor-swift-wedding": [
-      { slug: "travis-kelce-2026-season-and-contract-analysis", title: "Travis Kelce 2026 Season & Contract Economics", category: "Sports Business" },
-      { slug: "economics-of-streaming-royalties-rap-catalogs", title: "Eras Tour Economics & Catalog Ownership Strategy", category: "Music Business" },
+      { slug: "travis-kelce-2026-season-and-contract-analysis", title: "Travis Kelce 2026 Contract & Career Analysis", category: "Sports Business" },
     ],
   };
 
   const defaultReports = [
-    { slug: "highest-grossing-actors-2020s-box-office-ledger", title: "Highest-Grossing Actors of the 2020s Box Office Ledger", category: "Box Office Analysis" },
-    { slug: "post-strike-hollywood-economics-residuals", title: "Post-Strike Hollywood Economics & Backend Residuals", category: "Hollywood Economics" },
+    { slug: "drake-2026-music-and-tour-analysis", title: "Drake 2026 Tour Dates, Album Slate & Streaming Data", category: "Touring Economics" },
+    { slug: "tim-curry-2026-slate-and-analysis", title: "Tim Curry 2026 Retrospective & Career Analysis", category: "Cultural Archive" },
   ];
 
   const relatedReports = CELEB_BLOG_REPORTS[celebrity.slug] || defaultReports;
