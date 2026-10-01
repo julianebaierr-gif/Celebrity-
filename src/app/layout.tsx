@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   verification: {
     google: "q2emKewZlbhbSRbaQl44k4BqviYm0__f4ki9sdtRan0",
     other: {
-      "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION || "bing-verification-pending",
+      "msvalidate.01": "98533D5A610C8BB068BDE589D75E9C6F",
     },
   },
   icons: {
