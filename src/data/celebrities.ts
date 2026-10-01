@@ -342,8 +342,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Sarah Jenkins",
       "authorRole": "Cinema Historian & Editorial Director",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-02-10T10:00:00Z",
-      "lastUpdated": "2026-09-26T14:00:00Z",
+      "publishedDate": "2026-09-12T09:00:00.000Z",
+      "lastUpdated": "2026-09-12T16:30:00.000Z",
       "readingTimeMinutes": 6
     }
   },
@@ -498,8 +498,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Sarah Jenkins",
       "authorRole": "Cinema Historian & Editorial Director",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-02-14T09:00:00Z",
-      "lastUpdated": "2026-09-26T16:00:00Z",
+      "publishedDate": "2026-09-14T09:00:00.000Z",
+      "lastUpdated": "2026-09-14T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -656,8 +656,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Elena Rostova",
       "authorRole": "Culture & Pop Music Investigative Lead",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-02-18T11:00:00Z",
-      "lastUpdated": "2026-09-26T15:00:00Z",
+      "publishedDate": "2026-09-19T09:00:00.000Z",
+      "lastUpdated": "2026-09-19T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -812,8 +812,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Sarah Jenkins",
       "authorRole": "Cinema Historian & Editorial Director",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-01-20T10:00:00Z",
-      "lastUpdated": "2026-09-26T14:30:00Z",
+      "publishedDate": "2026-09-10T09:00:00.000Z",
+      "lastUpdated": "2026-09-10T16:30:00.000Z",
       "readingTimeMinutes": 6
     }
   },
@@ -957,8 +957,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Elena Rostova",
       "authorRole": "Culture & Pop Music Investigative Lead",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-03-01T12:00:00Z",
-      "lastUpdated": "2026-09-26T15:30:00Z",
+      "publishedDate": "2026-09-22T09:00:00.000Z",
+      "lastUpdated": "2026-09-22T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -1155,8 +1155,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "Elena Rostova",
-      "publishedDate": "2026-02-22T10:00:00Z",
-      "lastUpdated": "2026-09-26T15:15:00Z",
+      "publishedDate": "2026-09-20T09:00:00.000Z",
+      "lastUpdated": "2026-09-20T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -1311,8 +1311,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Sarah Jenkins",
       "authorRole": "Cinema Historian & Editorial Director",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-02-12T10:00:00Z",
-      "lastUpdated": "2026-09-26T14:45:00Z",
+      "publishedDate": "2026-09-13T09:00:00.000Z",
+      "lastUpdated": "2026-09-13T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -1467,8 +1467,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Sarah Jenkins",
       "authorRole": "Cinema Historian & Editorial Director",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-01-25T10:00:00Z",
-      "lastUpdated": "2026-09-26T15:40:00Z",
+      "publishedDate": "2026-09-11T09:00:00.000Z",
+      "lastUpdated": "2026-09-11T16:30:00.000Z",
       "readingTimeMinutes": 6
     }
   },
@@ -1657,8 +1657,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "Elena Rostova",
-      "publishedDate": "2026-02-18T10:00:00Z",
-      "lastUpdated": "2026-09-26T14:00:00Z",
+      "publishedDate": "2026-09-18T09:00:00.000Z",
+      "lastUpdated": "2026-09-18T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -1849,8 +1849,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "Elena Rostova (Senior Editor)",
-      "publishedDate": "2026-01-15T08:00:00Z",
-      "lastUpdated": "2026-09-26T12:00:00Z",
+      "publishedDate": "2026-09-08T09:00:00.000Z",
+      "lastUpdated": "2026-09-08T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -2039,8 +2039,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Elena Rostova",
       "authorRole": "Culture & Pop Music Investigative Lead",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-02-25T11:00:00Z",
-      "lastUpdated": "2026-09-26T16:10:00Z",
+      "publishedDate": "2026-09-21T09:00:00.000Z",
+      "lastUpdated": "2026-09-21T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -2195,8 +2195,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Sarah Jenkins",
       "authorRole": "Cinema Historian & Editorial Director",
       "factCheckedBy": "Marcus Vance",
-      "publishedDate": "2026-01-18T10:00:00Z",
-      "lastUpdated": "2026-09-26T16:20:00Z",
+      "publishedDate": "2026-09-09T09:00:00.000Z",
+      "lastUpdated": "2026-09-09T16:30:00.000Z",
       "readingTimeMinutes": 6
     }
   },
@@ -2376,8 +2376,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Industry Writer",
       "factCheckedBy": "Elena Rostova",
-      "publishedDate": "2026-02-15T08:00:00Z",
-      "lastUpdated": "2026-03-01T10:00:00Z",
+      "publishedDate": "2026-09-17T09:00:00.000Z",
+      "lastUpdated": "2026-09-17T16:30:00.000Z",
       "readingTimeMinutes": 6
     }
   },
@@ -2548,8 +2548,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Elena Rostova",
       "authorRole": "Chief Biographer",
       "factCheckedBy": "Sarah Jenkins",
-      "publishedDate": "2026-02-15T08:00:00Z",
-      "lastUpdated": "2026-03-01T10:00:00Z",
+      "publishedDate": "2026-09-16T09:00:00.000Z",
+      "lastUpdated": "2026-09-16T16:30:00.000Z",
       "readingTimeMinutes": 5
     }
   },
@@ -2713,8 +2713,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Industry Writer",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-02-15T08:00:00Z",
-      "lastUpdated": "2026-03-01T10:00:00Z",
+      "publishedDate": "2026-09-15T09:00:00.000Z",
+      "lastUpdated": "2026-09-15T16:30:00.000Z",
       "readingTimeMinutes": 6
     }
   },
@@ -2927,8 +2927,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Film Historian",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-09-29T11:58:58.838Z",
-      "lastUpdated": "2026-09-29T11:58:58.839Z",
+      "publishedDate": "2026-09-23T09:00:00.000Z",
+      "lastUpdated": "2026-09-23T16:30:00.000Z",
       "readingTimeMinutes": 7
     }
   },
@@ -3139,8 +3139,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-09-29T12:19:42.355Z",
-      "lastUpdated": "2026-09-29T12:19:42.356Z",
+      "publishedDate": "2026-09-24T09:00:00.000Z",
+      "lastUpdated": "2026-09-24T16:30:00.000Z",
       "readingTimeMinutes": 7
     }
   },
@@ -3313,8 +3313,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-09-29T12:20:14.320Z",
-      "lastUpdated": "2026-09-29T12:20:14.321Z",
+      "publishedDate": "2026-09-25T09:00:00.000Z",
+      "lastUpdated": "2026-09-25T16:30:00.000Z",
       "readingTimeMinutes": 7
     }
   },
@@ -3474,8 +3474,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-09-29T12:21:02.710Z",
-      "lastUpdated": "2026-09-29T12:21:02.711Z",
+      "publishedDate": "2026-09-26T09:00:00.000Z",
+      "lastUpdated": "2026-09-26T16:30:00.000Z",
       "readingTimeMinutes": 7
     }
   },
@@ -3658,8 +3658,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-09-29T14:32:19.969Z",
-      "lastUpdated": "2026-09-29T14:32:19.969Z",
+      "publishedDate": "2026-09-27T09:00:00.000Z",
+      "lastUpdated": "2026-09-27T16:30:00.000Z",
       "readingTimeMinutes": 7
     }
   },
@@ -3839,8 +3839,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-09-30T10:07:21.888Z",
-      "lastUpdated": "2026-09-30T10:07:21.888Z",
+      "publishedDate": "2026-09-28T09:00:00.000Z",
+      "lastUpdated": "2026-09-28T16:30:00.000Z",
       "readingTimeMinutes": 7
     }
   },
@@ -4019,8 +4019,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-09-30T11:16:42.914Z",
-      "lastUpdated": "2026-09-30T16:25:00.000Z",
+      "publishedDate": "2026-09-29T09:00:00.000Z",
+      "lastUpdated": "2026-09-29T16:30:00.000Z",
       "readingTimeMinutes": 8
     }
   }
@@ -4191,8 +4191,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorName": "Marcus Vance",
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
-      "publishedDate": "2026-09-30T11:56:42.083Z",
-      "lastUpdated": "2026-09-30T17:05:00.000Z",
+      "publishedDate": "2026-09-30T09:00:00.000Z",
+      "lastUpdated": "2026-09-30T16:30:00.000Z",
       "readingTimeMinutes": 10
     }
   }
