@@ -17,7 +17,7 @@ import RelationshipSection from "@/components/profile/RelationshipSection";
 import FinancialDossierSection from "@/components/profile/FinancialDossierSection";
 import PhilanthropySection from "@/components/profile/PhilanthropySection";
 import ControversiesSection from "@/components/profile/ControversiesSection";
-import { ChevronRight, ExternalLink } from "lucide-react";
+import { ChevronRight, ExternalLink, ArrowLeftRight } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 interface PageProps {
@@ -205,8 +205,64 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
     ...(celebrity.controversies && celebrity.controversies.length > 0 ? [{ id: "industry-resilience", title: "Legal History & Career Resilience" }] : []),
     { id: "relationship-profile", title: "Relationship Timeline & Personal Life" },
     { id: "frequently-asked-questions", title: "Frequently Asked Questions" },
+    { id: "comparative-ledgers", title: "Comparative Intelligence & Market Reports" },
     { id: "editorial-attribution", title: "Photo Credits & Primary Sources" },
   ];
+
+  const MATCHUP_MAP: Record<string, { slug: string; opponent: string; title: string }> = {
+    "drake": { slug: "drake-vs-youngboy-never-broke-again", opponent: "YoungBoy Never Broke Again", title: "Drake vs YoungBoy Never Broke Again" },
+    "youngboy-never-broke-again": { slug: "drake-vs-youngboy-never-broke-again", opponent: "Drake", title: "YoungBoy Never Broke Again vs Drake" },
+    "zendaya": { slug: "zendaya-vs-jenna-ortega", opponent: "Jenna Ortega", title: "Zendaya vs Jenna Ortega" },
+    "jenna-ortega": { slug: "zendaya-vs-jenna-ortega", opponent: "Zendaya", title: "Jenna Ortega vs Zendaya" },
+    "cillian-murphy": { slug: "cillian-murphy-vs-keanu-reeves", opponent: "Keanu Reeves", title: "Cillian Murphy vs Keanu Reeves" },
+    "keanu-reeves": { slug: "cillian-murphy-vs-keanu-reeves", opponent: "Cillian Murphy", title: "Keanu Reeves vs Cillian Murphy" },
+    "leonardo-dicaprio": { slug: "leonardo-dicaprio-vs-robert-redford", opponent: "Robert Redford", title: "Leonardo DiCaprio vs Robert Redford" },
+    "robert-redford": { slug: "leonardo-dicaprio-vs-robert-redford", opponent: "Leonardo DiCaprio", title: "Robert Redford vs Leonardo DiCaprio" },
+    "margot-robbie": { slug: "margot-robbie-vs-winona-ryder", opponent: "Winona Ryder", title: "Margot Robbie vs Winona Ryder" },
+    "winona-ryder": { slug: "margot-robbie-vs-winona-ryder", opponent: "Margot Robbie", title: "Winona Ryder vs Margot Robbie" },
+    "travis-kelce": { slug: "travis-kelce-vs-taylor-swift-wedding", opponent: "Taylor Swift", title: "Travis Kelce vs Taylor Swift" },
+    "taylor-swift-wedding": { slug: "travis-kelce-vs-taylor-swift-wedding", opponent: "Travis Kelce", title: "Taylor Swift vs Travis Kelce" },
+    "david-harbour": { slug: "david-harbour-vs-pedro-pascal", opponent: "Pedro Pascal", title: "David Harbour vs Pedro Pascal" },
+    "pedro-pascal": { slug: "david-harbour-vs-pedro-pascal", opponent: "David Harbour", title: "Pedro Pascal vs David Harbour" },
+    "matt-damon": { slug: "matt-damon-vs-will-smith", opponent: "Will Smith", title: "Matt Damon vs Will Smith" },
+    "will-smith": { slug: "matt-damon-vs-will-smith", opponent: "Matt Damon", title: "Will Smith vs Matt Damon" },
+  };
+
+  const matchedComparison = MATCHUP_MAP[celebrity.slug];
+
+  const CELEB_BLOG_REPORTS: Record<string, { slug: string; title: string; category: string }[]> = {
+    "drake": [
+      { slug: "drake-2026-music-and-tour-analysis", title: "Drake 2026 Arena Tour & Music Economics", category: "Touring Economics" },
+      { slug: "economics-of-streaming-royalties-rap-catalogs", title: "Streaming Royalties & Rap Catalog Valuations", category: "Publishing Rights" },
+    ],
+    "youngboy-never-broke-again": [
+      { slug: "economics-of-streaming-royalties-rap-catalogs", title: "Independent Streaming Economics & Digital Royalties", category: "Publishing Rights" },
+      { slug: "creator-economy-billion-dollar-brands", title: "Direct-to-Consumer Digital Monetization", category: "Digital Royalties" },
+    ],
+    "tim-curry": [
+      { slug: "tim-curry-2026-slate-and-analysis", title: "Tim Curry 2026 Career Slate & Theatrical Retrospective", category: "Cultural Archive" },
+      { slug: "post-strike-hollywood-economics-residuals", title: "Theatrical Residuals & Voice Royalty Archives", category: "Hollywood Residuals" },
+    ],
+    "kylie-jenner": [
+      { slug: "kylie-jenner-2026-media-and-brand-analysis", title: "Kylie Jenner 2026 Media & Brand Valuation", category: "Brand Equity" },
+      { slug: "creator-economy-billion-dollar-brands", title: "Creator Economy & Billion-Dollar Consumer Brands", category: "Consumer Brands" },
+    ],
+    "travis-kelce": [
+      { slug: "travis-kelce-2026-season-and-contract-analysis", title: "Travis Kelce 2026 Season & Contract Economics", category: "Sports Business" },
+      { slug: "celebrity-real-estate-most-expensive-compounds", title: "Celebrity Real Estate Compounds: Kansas City & Beyond", category: "Real Estate" },
+    ],
+    "taylor-swift-wedding": [
+      { slug: "travis-kelce-2026-season-and-contract-analysis", title: "Travis Kelce 2026 Season & Contract Economics", category: "Sports Business" },
+      { slug: "economics-of-streaming-royalties-rap-catalogs", title: "Eras Tour Economics & Catalog Ownership Strategy", category: "Music Business" },
+    ],
+  };
+
+  const defaultReports = [
+    { slug: "highest-grossing-actors-2020s-box-office-ledger", title: "Highest-Grossing Actors of the 2020s Box Office Ledger", category: "Box Office Analysis" },
+    { slug: "post-strike-hollywood-economics-residuals", title: "Post-Strike Hollywood Economics & Backend Residuals", category: "Hollywood Economics" },
+  ];
+
+  const relatedReports = CELEB_BLOG_REPORTS[celebrity.slug] || defaultReports;
 
   return (
     <>
@@ -435,6 +491,70 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
             faqs={celebrity.faqs || []}
             celebrityName={celebrity.name}
           />
+
+          {/* 11.5 Comparative Intelligence & Investigative Market Ledgers */}
+          <section id="comparative-ledgers" className="my-12 space-y-6">
+            <div className="border-b border-slate-200 pb-3">
+              <span className="text-xs font-bold text-amber-700 uppercase tracking-widest block mb-1">
+                Comparative Intelligence &amp; Market Ledgers
+              </span>
+              <h2 className="text-xl font-bold text-slate-900 tracking-tight">
+                {celebrity.name}: Benchmark Matchups &amp; Industry Economics
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* Matchup Link Card */}
+              {matchedComparison && (
+                <Link
+                  href={`/compare/${matchedComparison.slug}`}
+                  className="rounded-2xl border border-slate-200 bg-white p-5 shadow-xs hover:border-amber-400 hover:shadow-md transition-all flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex items-center gap-2 text-xs font-bold text-amber-700 uppercase tracking-wider mb-2">
+                      <ArrowLeftRight className="h-3.5 w-3.5" />
+                      <span>Head-to-Head Comparison</span>
+                    </div>
+                    <h3 className="text-base font-bold text-slate-900">
+                      {matchedComparison.title}
+                    </h3>
+                    <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                      Compare verified net worth, career milestones, catalog royalties, and lifetime box office receipts side-by-side.
+                    </p>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-amber-700">
+                    <span>View Head-to-Head Dossier</span>
+                    <span>&rarr;</span>
+                  </div>
+                </Link>
+              )}
+
+              {/* Related Market Reports Cards */}
+              {relatedReports.map((report) => (
+                <Link
+                  key={report.slug}
+                  href={`/blog/${report.slug}`}
+                  className="rounded-2xl border border-slate-200 bg-white p-5 shadow-xs hover:border-amber-400 hover:shadow-md transition-all flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex items-center gap-2 text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
+                      <span>{report.category}</span>
+                    </div>
+                    <h3 className="text-base font-bold text-slate-900">
+                      {report.title}
+                    </h3>
+                    <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                      Forensic newsroom investigation analyzing contract economics, backend residuals, streaming models, and capital allocations.
+                    </p>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-amber-700">
+                    <span>Read Market Analysis</span>
+                    <span>&rarr;</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
 
           {/* 12. Editorial Attributions & E-E-A-T Signature */}
           <EditorialBadge celebrity={celebrity} />

@@ -4,11 +4,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { CelebrityProfile } from "@/data/celebrities";
+import { CompareCelebrityItem } from "@/data/celebrity-service";
 import { ArrowLeftRight, CheckCircle2, TrendingUp, DollarSign, Calendar, Film } from "lucide-react";
 import { formatNetWorth } from "@/lib/celebrity-utils";
 
 interface CompareClientProps {
-  celebrities: CelebrityProfile[];
+  celebrities: (CompareCelebrityItem | CelebrityProfile)[];
   initialSlug1?: string;
   initialSlug2?: string;
 }
@@ -284,8 +285,12 @@ export default function CelebrityCompareClient({
               </tr>
               <tr className="bg-slate-50/50">
                 <td className="py-3.5 px-6 font-semibold text-slate-600">Career Filmography / Discography Size</td>
-                <td className="py-3.5 px-6 font-medium text-slate-800">{celeb1.filmography.length} Verified Entries</td>
-                <td className="py-3.5 px-6 font-medium text-slate-800">{celeb2.filmography.length} Verified Entries</td>
+                <td className="py-3.5 px-6 font-medium text-slate-800">
+                  {'filmographyLength' in celeb1 ? (celeb1 as CompareCelebrityItem).filmographyLength : celeb1.filmography?.length || 0} Verified Entries
+                </td>
+                <td className="py-3.5 px-6 font-medium text-slate-800">
+                  {'filmographyLength' in celeb2 ? (celeb2 as CompareCelebrityItem).filmographyLength : celeb2.filmography?.length || 0} Verified Entries
+                </td>
               </tr>
             </tbody>
           </table>

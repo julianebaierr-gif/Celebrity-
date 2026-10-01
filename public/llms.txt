@@ -1,0 +1,57 @@
+# CelebLedger
+
+> CelebLedger is the authoritative financial intelligence registry and investigative newsroom tracking verified celebrity net worth valuations, contract economics, box office ledgers, streaming royalty breakdowns, and career milestones. All dossiers are fact-checked under strict zero-rumor editorial governance.
+
+## Core Documentation & Methodology
+- [Editorial Standards & Methodology](https://www.celebledger.com/editorial-standards): Forensic methodology for verifying net worth, contracts, and public asset registries.
+- [About CelebLedger](https://www.celebledger.com/about): Newsroom mission, editorial board, and journalistic principles.
+- [Celebrity Directory](https://www.celebledger.com/celebrities): Complete directory of verified entertainment, music, sports, and creator figures.
+- [Head-to-Head Compare Tool](https://www.celebledger.com/compare): Interactive wealth and career comparison engine.
+- [Industry Analysis & Market Reports](https://www.celebledger.com/blog): In-depth reporting on streaming economics, box office contracts, and creator equity.
+
+## Verified Celebrity Financial Dossiers
+- [Drake Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/drake): Rapper, Singer, Producer, certified net worth $250 Million. Drake Net Worth: His Empire, Music Catalogs, and Real Estate.
+- [YoungBoy Never Broke Again Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/youngboy-never-broke-again): Rapper, Songwriter, certified net worth $12 Million. YoungBoy Never Broke Again: His Music Catalogs and Streaming Earnings.
+- [Zendaya Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/zendaya): Actress, Producer, Model, certified net worth $30 Million. Zendaya Net Worth: Career Milestones, Endorsements, and Real Estate.
+- [Jenna Ortega Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/jenna-ortega): Actress, Producer, certified net worth $10 Million. Jenna Ortega Net Worth: Career Milestones, Brand Endorsements, and Television Residuals.
+- [Cillian Murphy Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/cillian-murphy): Actor, Producer, certified net worth $25 Million. Cillian Murphy Net Worth: Oscar Victory, Filmography, and Career Assets.
+- [Keanu Reeves Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/keanu-reeves): Actor, Producer, Musician, certified net worth $380 Million. Keanu Reeves Net Worth: Matrix Royalties, John Wick Earnings, and Real Estate.
+- [Leonardo DiCaprio Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/leonardo-dicaprio): Actor, Producer, Environmentalist, certified net worth $300 Million. Leonardo DiCaprio Net Worth: Box Office Residuals, Production Companies, and Eco-Ventures.
+- [Robert Redford Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/robert-redford): Actor, Director, Producer, certified net worth $200 Million. Robert Redford Net Worth: Sundance Institute, Real Estate, and Hollywood Legacy.
+- [Margot Robbie Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/margot-robbie): Actress, Producer, certified net worth $60 Million. Margot Robbie Net Worth: LuckyChap Productions, Barbie Residuals, and Real Estate.
+- [Winona Ryder Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/winona-ryder): Actress, certified net worth $18 Million. Winona Ryder Net Worth: Stranger Things Salaries, 90s Film Earnings, and Property.
+- [Travis Kelce Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/travis-kelce): NFL Tight End, Podcaster, Entrepreneur, certified net worth $70 Million. Travis Kelce Net Worth: Chiefs Contract, Endorsement Portfolio, and Media Ventures.
+- [Taylor Swift Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/taylor-swift-wedding): Singer-Songwriter, Producer, Director, certified net worth $1.6 Billion. Taylor Swift Net Worth: Eras Tour Economics, Music Catalogs, and Real Estate.
+- [David Harbour Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/david-harbour): Actor, certified net worth $12 Million. David Harbour Net Worth: Stranger Things Paychecks, MCU Roles, and Real Estate.
+- [Pedro Pascal Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/pedro-pascal): Actor, certified net worth $15 Million. Pedro Pascal Net Worth: The Last of Us, The Mandalorian, and Feature Film Contracts.
+- [Matt Damon Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/matt-damon): Actor, Producer, Screenwriter, certified net worth $170 Million. Matt Damon Net Worth: Artists Equity, Bourne Royalties, and Box Office Backend.
+- [Will Smith Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/will-smith): Actor, Producer, Musician, certified net worth $350 Million. Will Smith Net Worth: Westbrook Studios, Blockbuster Salaries, and Global Assets.
+- [Kylie Jenner Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/kylie-jenner): Entrepreneur, Media Personality, certified net worth $750 Million. Kylie Jenner Net Worth: Kylie Cosmetics, Coty Deal, and Real Estate Portfolio.
+- [Tim Curry Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/tim-curry): Actor, Singer, Voice Artist, certified net worth $10 Million. Tim Curry Net Worth: Rocky Horror Legacy, Voice Acting Royalties, and Theater Estate.
+- [Tom Holland Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/tom-holland): Actor, certified net worth $25 Million. Tom Holland Net Worth: Spider-Man Salaries, West End Contracts, and Brand Partnerships.
+- [Rosalia Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/rosalia): Singer, Songwriter, Producer, certified net worth $50 Million. Rosalia Net Worth: Motomami World Tour, Global Endorsements, and Publishing Rights.
+- [Jeremy Allen White Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/jeremy-allen-white): Actor, certified net worth $18 Million. Jeremy Allen White Net Worth: The Bear Salaries, Calvin Klein Campaign, and Film Contracts.
+- [Finn Wolfhard Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/finn-wolfhard): Actor, Musician, Director, certified net worth $12 Million. Finn Wolfhard Net Worth: Stranger Things Backend, Directing Projects, and Music Earnings.
+- [Billy Bob Thornton Net Worth & Financial Dossier](https://www.celebledger.com/celebrity/billy-bob-thornton): Actor, Screenwriter, Director, certified net worth $45 Million. Billy Bob Thornton Net Worth: Sling Blade Royalties, Television Contracts, and Property Holdings.
+
+## Certified Comparative Matchups (Head-to-Head)
+- [Drake vs YoungBoy Never Broke Again](https://www.celebledger.com/compare/drake-vs-youngboy-never-broke-again): Comparative hip-hop catalog economics, streaming royalties, and net worth.
+- [Zendaya vs Jenna Ortega](https://www.celebledger.com/compare/zendaya-vs-jenna-ortega): Next-gen Hollywood leading women box office milestones and equity contracts.
+- [Cillian Murphy vs Keanu Reeves](https://www.celebledger.com/compare/cillian-murphy-vs-keanu-reeves): Oscar-winning box office backend points vs iconic action franchise equity.
+- [Leonardo DiCaprio vs Robert Redford](https://www.celebledger.com/compare/leonardo-dicaprio-vs-robert-redford): Cinema legends, career box office valuations, and environmental philanthropy.
+- [Margot Robbie vs Winona Ryder](https://www.celebledger.com/compare/margot-robbie-vs-winona-ryder): Blockbuster producer equity vs iconic 90s cult cinema stardom.
+- [Travis Kelce vs Taylor Swift](https://www.celebledger.com/compare/travis-kelce-vs-taylor-swift-wedding): NFL Super Bowl champion vs billionaire music icon financial economics.
+- [David Harbour vs Pedro Pascal](https://www.celebledger.com/compare/david-harbour-vs-pedro-pascal): Prestige television powerhouses and global franchise leading men economics.
+- [Matt Damon vs Will Smith](https://www.celebledger.com/compare/matt-damon-vs-will-smith): Oscar winners, production studio ownership, and global box office history.
+
+## Forensic Market Reports & Industry Economics
+- [Economics of Streaming Royalties & Rap Catalogs](https://www.celebledger.com/blog/economics-of-streaming-royalties-rap-catalogs): Comprehensive audit of master ownership vs distribution deals.
+- [Post-Strike Hollywood Economics & Residuals](https://www.celebledger.com/blog/post-strike-hollywood-economics-residuals): SAG-AFTRA and WGA backend compensation restructuring analysis.
+- [Highest-Grossing Actors of the 2020s Box Office Ledger](https://www.celebledger.com/blog/highest-grossing-actors-2020s-box-office-ledger): Global box office rankings and guaranteed upfront fee benchmarks.
+- [Creator Economy & Billion-Dollar Brands](https://www.celebledger.com/blog/creator-economy-billion-dollar-brands): Consumer brand valuation metrics and equity stakes among modern digital creators.
+- [Celebrity Real Estate: Most Expensive Compounds](https://www.celebledger.com/blog/celebrity-real-estate-most-expensive-compounds): Audited valuations of Beverly Hills, Malibu, and London celebrity architectural compounds.
+- [Net Worth Verification: Forensic Methodology](https://www.celebledger.com/blog/net-worth-verification-forensic-methodology): Step-by-step forensic standard used by CelebLedger editors to audit celebrity financial dossiers.
+- [Drake 2026 Tour Economics & Music Analysis](https://www.celebledger.com/blog/drake-2026-music-and-tour-analysis): Deep dive into arena gross receipts, streaming distributions, and catalog leverage.
+- [Travis Kelce 2026 Season & Contract Analysis](https://www.celebledger.com/blog/travis-kelce-2026-season-and-contract-analysis): NFL salary structure, commercial backend equity, and brand portfolio valuation.
+- [Kylie Jenner 2026 Media & Brand Valuation](https://www.celebledger.com/blog/kylie-jenner-2026-media-and-brand-analysis): Evaluation of cosmetic licensing rights, personal branding capital, and real estate liquidity.
+- [Tim Curry 2026 Career Slate & Retrospective](https://www.celebledger.com/blog/tim-curry-2026-slate-and-analysis): Comprehensive archive of theatrical milestones, voice residuals, and cultural legacy.

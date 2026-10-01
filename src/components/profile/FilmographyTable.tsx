@@ -1,6 +1,5 @@
 import React from "react";
 import { FilmRole } from "@/data/celebrities";
-import { Star } from "lucide-react";
 
 interface FilmographyTableProps {
   filmography: FilmRole[];
@@ -44,7 +43,7 @@ export default function FilmographyTable({ filmography, celebrityName }: Filmogr
                 </td>
                 <td className="py-4 px-5">
                   <div className="flex items-center gap-1 font-bold text-amber-700">
-                    <Star className="h-3.5 w-3.5 fill-amber-500 text-amber-500" />
+                    <span className="text-amber-500 text-sm leading-none" aria-hidden="true">★</span>
                     <span>{item.rating.toFixed(1)}/10</span>
                   </div>
                 </td>

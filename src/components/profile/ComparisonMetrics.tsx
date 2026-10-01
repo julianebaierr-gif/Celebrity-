@@ -1,6 +1,5 @@
 import React from "react";
 import { MetricItem } from "@/data/celebrities";
-import { CheckCircle2 } from "lucide-react";
 
 interface ComparisonMetricsProps {
   metrics: MetricItem[];
@@ -50,7 +49,7 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
 
             {/* Pinned verified source footer with checkmark */}
             <div className="mt-5 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] text-slate-400 font-medium">
-              <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 shrink-0" />
+              <span className="text-emerald-600 font-bold" aria-hidden="true">✓</span>
               <span className="truncate">{metric.verifiedSource}</span>
             </div>
           </div>

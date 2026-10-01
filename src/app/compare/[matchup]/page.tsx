@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-import { getAllCelebrities, getCompleteOrDynamicProfile } from "@/data/celebrity-service";
+import { getCompleteOrDynamicProfile, getCompareCelebrities } from "@/data/celebrity-service";
 import CelebrityCompareClient from "@/components/compare/CelebrityCompareClient";
 import JsonLd from "@/components/seo/JsonLd";
 import { ChevronRight, ArrowRight, ArrowLeftRight, CheckCircle2, DollarSign } from "lucide-react";
@@ -91,7 +91,7 @@ export default async function MatchupComparePage({ params }: PageProps) {
   const c2 = getCompleteOrDynamicProfile(parsed.slug2);
   if (!c1 || !c2) notFound();
 
-  const allCelebrities = getAllCelebrities();
+  const compareCelebrities = getCompareCelebrities();
 
   const breadcrumbs = [
     { name: "Home", url: "https://www.celebledger.com" },
@@ -139,7 +139,7 @@ export default async function MatchupComparePage({ params }: PageProps) {
         <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 space-y-12">
           {/* Interactive Comparison Component */}
           <CelebrityCompareClient
-            celebrities={allCelebrities}
+            celebrities={compareCelebrities}
             initialSlug1={c1.slug}
             initialSlug2={c2.slug}
           />
@@ -187,11 +187,11 @@ export default async function MatchupComparePage({ params }: PageProps) {
               Explore More Celebrity Comparisons
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {POPULAR_MATCHUPS.filter((m) => m !== matchup).slice(0, 4).map((otherMatchup) => {
+              {POPULAR_MATCHUPS.filter((m) => m !== matchup).map((otherMatchup) => {
                 const parts = parseMatchup(otherMatchup);
                 if (!parts) return null;
-                const oc1 = allCelebrities.find((c) => c.slug === parts.slug1);
-                const oc2 = allCelebrities.find((c) => c.slug === parts.slug2);
+                const oc1 = compareCelebrities.find((c) => c.slug === parts.slug1);
+                const oc2 = compareCelebrities.find((c) => c.slug === parts.slug2);
                 if (!oc1 || !oc2) return null;
 
                 return (

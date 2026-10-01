@@ -64,6 +64,50 @@ export function getCompleteOrDynamicProfile(slug: string): CelebrityProfile | un
   return getAllCelebrities().find((c) => c.slug === slug);
 }
 
+export interface CompareCelebrityItem {
+  slug: string;
+  name: string;
+  heroImage: string;
+  silo: string;
+  quickFacts: {
+    netWorth: string;
+    primaryRole: string;
+    age: number | string;
+    birthPlace: string;
+    knownFor: string;
+    birthDate: string;
+    height: string;
+    activeYears: string;
+  };
+  relationshipProfile: {
+    status: string;
+  };
+  filmographyLength: number;
+}
+
+export function getCompareCelebrities(): CompareCelebrityItem[] {
+  return getAllCelebrities().map((c) => ({
+    slug: c.slug,
+    name: c.name,
+    heroImage: c.heroImage,
+    silo: c.silo,
+    quickFacts: {
+      netWorth: c.quickFacts.netWorth,
+      primaryRole: c.quickFacts.primaryRole,
+      age: c.quickFacts.age,
+      birthPlace: c.quickFacts.birthPlace,
+      knownFor: c.quickFacts.knownFor,
+      birthDate: c.quickFacts.birthDate,
+      height: c.quickFacts.height,
+      activeYears: c.quickFacts.activeYears,
+    },
+    relationshipProfile: {
+      status: c.relationshipProfile?.status || "Private",
+    },
+    filmographyLength: c.filmography?.length || 0,
+  }));
+}
+
 export function searchCelebrities(
   query: string = ""
 ): { items: CelebrityProfile[]; total: number } {

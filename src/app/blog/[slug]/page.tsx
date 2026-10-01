@@ -197,6 +197,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   const { articleBlocks, faqs } = parseArticleAndFaqs(interlinkedContent);
 
+  const allPosts = getAllBlogPosts();
+  const currentIndex = allPosts.findIndex((p) => p.slug === post.slug);
+  const relatedPosts = [
+    allPosts[(currentIndex + 1) % allPosts.length],
+    allPosts[(currentIndex + 2) % allPosts.length],
+    allPosts[(currentIndex + 3) % allPosts.length],
+  ];
+
   // Extract primary celebrity slug if present in tags or content
   let primaryCelebritySlug = "zendaya";
   if (slug.startsWith("cillian")) primaryCelebritySlug = "cillian-murphy";
@@ -527,6 +535,64 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           celebrityName="Zendaya"
           celebritySlug={primaryCelebritySlug}
         />
+
+        {/* Related Industry Intelligence & Market Reports */}
+        <section className="mt-14 space-y-6">
+          <div className="border-b border-slate-200 pb-3 flex items-center justify-between">
+            <div>
+              <span className="text-xs font-bold text-amber-700 uppercase tracking-widest block mb-1">
+                Deep Dive Intelligence
+              </span>
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                Related Market Reports &amp; Financial Ledgers
+              </h2>
+            </div>
+            <Link
+              href="/blog"
+              className="text-xs font-bold text-slate-700 hover:text-amber-700 flex items-center gap-1 transition"
+            >
+              <span>View All Reports</span>
+              <ArrowRight className="h-3 w-3" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {relatedPosts.map((rPost) => (
+              <Link
+                key={rPost.slug}
+                href={`/blog/${rPost.slug}`}
+                className="group flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-5 shadow-xs hover:border-amber-400 hover:shadow-md transition-all"
+              >
+                <div>
+                  <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-slate-950 mb-3 border border-slate-100">
+                    <Image
+                      src={rPost.coverImage}
+                      alt={rPost.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <span className="text-[10px] font-bold text-amber-700 uppercase tracking-wider block mb-1">
+                    {rPost.tags[0] || "Analysis"}
+                  </span>
+                  <h3 className="text-sm font-bold text-slate-900 group-hover:text-amber-700 transition leading-snug line-clamp-2">
+                    {rPost.title}
+                  </h3>
+                  <p className="text-xs text-slate-500 mt-1.5 line-clamp-2 leading-relaxed">
+                    {rPost.excerpt}
+                  </p>
+                </div>
+                <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400 font-medium">
+                  <span>{rPost.readingTimeMinutes} min read</span>
+                  <span className="text-amber-700 font-bold group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
+                    Read Report &rarr;
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         {/* Author Dossier & Trust Seal Card */}
         <div className="mt-10 rounded-3xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">

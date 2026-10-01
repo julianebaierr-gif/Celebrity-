@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
-import { getAllCelebrities } from "@/data/celebrity-service";
+import { getCompareCelebrities } from "@/data/celebrity-service";
 import CelebrityCompareClient from "@/components/compare/CelebrityCompareClient";
 import JsonLd from "@/components/seo/JsonLd";
 import { ArrowRight, ChevronRight, ArrowLeftRight, TrendingUp } from "lucide-react";
@@ -67,10 +67,24 @@ const FEATURED_MATCHUPS = [
     sub: "NFL Super Bowl Champion vs Billionaire Pop Icon Economics",
     category: "Culture & Entertainment",
   },
+  {
+    slug1: "david-harbour",
+    slug2: "pedro-pascal",
+    title: "David Harbour vs Pedro Pascal",
+    sub: "Television Powerhouses & Franchise Leading Men Economics",
+    category: "Hollywood Leading Men",
+  },
+  {
+    slug1: "matt-damon",
+    slug2: "will-smith",
+    title: "Matt Damon vs Will Smith",
+    sub: "Oscar Winners, Production Houses & Global Box Office Titans",
+    category: "Cinema Titans",
+  },
 ];
 
 export default function CompareHubPage() {
-  const allCelebrities = getAllCelebrities();
+  const compareCelebrities = getCompareCelebrities();
 
   const breadcrumbs = [
     { name: "Home", url: "https://www.celebledger.com" },
@@ -111,7 +125,7 @@ export default function CompareHubPage() {
         {/* Interactive Comparison Application */}
         <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 space-y-14">
           <CelebrityCompareClient
-            celebrities={allCelebrities}
+            celebrities={compareCelebrities}
             initialSlug1="drake"
             initialSlug2="youngboy-never-broke-again"
           />
@@ -131,8 +145,8 @@ export default function CompareHubPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {FEATURED_MATCHUPS.map((matchup) => {
-                const c1 = allCelebrities.find((c) => c.slug === matchup.slug1);
-                const c2 = allCelebrities.find((c) => c.slug === matchup.slug2);
+                const c1 = compareCelebrities.find((c) => c.slug === matchup.slug1);
+                const c2 = compareCelebrities.find((c) => c.slug === matchup.slug2);
                 if (!c1 || !c2) return null;
 
                 return (
@@ -195,6 +209,63 @@ export default function CompareHubPage() {
                   </div>
                 );
               })}
+            </div>
+          </section>
+
+          {/* Forensic Methodology & Comparative Wealth Architecture Guide */}
+          <section className="bg-white rounded-3xl border border-slate-200 p-8 sm:p-12 shadow-xs space-y-8">
+            <div className="max-w-3xl space-y-2 border-b border-slate-100 pb-5">
+              <span className="text-xs font-bold text-amber-700 uppercase tracking-widest block">
+                Newsroom Intelligence
+              </span>
+              <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                Comparative Celebrity Economics: How Net Worth Gaps Are Audited
+              </h2>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Evaluating the financial gap between two high-profile cultural icons requires disentangling reported headline earnings from underlying balance-sheet realities. CelebLedger utilizes a four-pillar comparative forensic framework to analyze wealth accumulation, liquidity, and asset durability.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-slate-700 leading-relaxed">
+              <div className="space-y-3 rounded-2xl bg-slate-50/60 p-6 border border-slate-200/80">
+                <h3 className="font-bold text-slate-900 text-base flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-amber-600" />
+                  1. Theatrical Backend Points vs. Streaming Buyouts
+                </h3>
+                <p>
+                  In Hollywood comparisons (e.g., Cillian Murphy vs. Keanu Reeves or Matt Damon vs. Will Smith), upfront talent compensation represents only a baseline. Premier talent often negotiates first-dollar gross participation—commanding 10% to 20% of theatrical film rentals once production costs break even. In contrast, direct-to-consumer streaming productions utilize flat buyout fees that front-load compensation but eliminate generational backend residual streams.
+                </p>
+              </div>
+
+              <div className="space-y-3 rounded-2xl bg-slate-50/60 p-6 border border-slate-200/80">
+                <h3 className="font-bold text-slate-900 text-base flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-amber-600" />
+                  2. Master Rights Ownership vs. Distribution Advances
+                </h3>
+                <p>
+                  In music industry comparisons (e.g., Drake vs. YoungBoy Never Broke Again), net worth velocity is driven by publishing equity and master recording ownership. Independent creators retaining 100% master rights capture up to $3,500 to $4,200 per million Spotify streams, whereas traditional major-label signees often yield only 15% to 22% after royalty recoupment of upfront marketing advances.
+                </p>
+              </div>
+
+              <div className="space-y-3 rounded-2xl bg-slate-50/60 p-6 border border-slate-200/80">
+                <h3 className="font-bold text-slate-900 text-base flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-amber-600" />
+                  3. Commercial Brand Endorsements &amp; Consumer Equity
+                </h3>
+                <p>
+                  Modern icon dossiers demonstrate that long-term enterprise value outpaces performance salaries. A-list luxury ambassadors (such as Zendaya for Bulgari and Louis Vuitton or Jeremy Allen White for Calvin Klein) combine multi-year guaranteed retainers with performance bonuses. Meanwhile, creator-entrepreneurs (such as Kylie Jenner with Kylie Cosmetics) construct balance sheets anchored in institutional private equity recapitalizations.
+                </p>
+              </div>
+
+              <div className="space-y-3 rounded-2xl bg-slate-50/60 p-6 border border-slate-200/80">
+                <h3 className="font-bold text-slate-900 text-base flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-amber-600" />
+                  4. Architectural Compounds &amp; Tangible Asset Reserves
+                </h3>
+                <p>
+                  Wealth preservation is heavily dependent on tangible real estate holdings in tier-one metropolitan enclaves including Beverly Hills, Malibu, Tribeca, and London. CelebLedger cross-checks county deed registries and LLC title filings to authenticate asset cost basis, outstanding mortgages, and estimated market appreciation across all evaluated portfolios.
+                </p>
+              </div>
             </div>
           </section>
         </main>
