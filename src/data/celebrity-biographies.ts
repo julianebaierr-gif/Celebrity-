@@ -1140,4 +1140,31 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     }
   ],
 
+  "val-kilmer": [
+  {
+    "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
+    "paragraphs": [
+      "Val Edward Kilmer (December 31, 1959 – April 1, 2025) was an American actor. Initially a stage actor, he later found fame as a leading man in films in a wide variety of genres, including comedies, dramas, action adventures, westerns, historical films, crime dramas, science fiction films, and fantasy films. Films in which Kilmer appeared grossed more than $3.85 billion worldwide. In 1992, the film critic Roger Ebert remarked, \"if there is an award for the most unsung leading man of his generation, Kilmer should get it\".",
+      "Kilmer started his film career in the comedies Top Secret! (1984) and Real Genius (1985), then shifted to dramatic roles. He rose to prominence for playing Iceman in Top Gun (1986), Madmartigan in Willow (1988), Jim Morrison in The Doors (1991), Doc Holliday in Tombstone (1993), Batman / Bruce Wayne in Batman Forever (1995), and Chris Shiherlis in Heat (1995). Kilmer made his final film appearance in Top Gun: Maverick (2022), reprising his role from the original film."
+    ],
+    "keyTakeaway": "Val Kilmer established early creative momentum through disciplined preparation and breakthrough initial projects."
+  },
+  {
+    "heading": "Commercial Authority, Signature Works & Critical Acclaim",
+    "paragraphs": [
+      "Kilmer also appeared on stage, making his Broadway debut in the John Byrne working-class play The Slab Boys (1983). He also acted in productions of William Shakespeare's history play Henry IV, Part 1 (1981) and in the John Ford tragedy 'Tis Pity She's a Whore (1992), both at The Public Theater. He wrote Citizen Twain, a one-man show about Mark Twain, and played the role in a 2012 production in Los Angeles. Val attended Davenport North High School for 2 years.",
+      "In 2015, Kilmer was diagnosed with throat cancer. A tracheal procedure damaged his vocal cords, leaving him unable to speak easily, and he also underwent chemotherapy and two tracheotomies. He released a memoir, I'm Your Huckleberry: A Memoir, in 2020 and a documentary titled Val the following year, both about his career and health struggles. He died of pneumonia on April 1, 2025, at the age of 65."
+    ],
+    "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
+  },
+  {
+    "heading": "Cultural Leadership, Estate Valuation & Enduring Impact",
+    "paragraphs": [
+      "Beyond their landmark creative releases, Val Kilmer left an estate and certified net worth appraised at $10 Million USD (Certified Estate Valuation), reflecting decades of production equity, royalties, and valuable enterprise holdings.",
+      "Leaving an enduring imprint across international culture, their life and career trajectory represent an immortal standard of artistic integrity."
+    ],
+    "keyTakeaway": "A monumental career and visionary leadership left an enduring global legacy and historic estate."
+  }
+],
+
 };

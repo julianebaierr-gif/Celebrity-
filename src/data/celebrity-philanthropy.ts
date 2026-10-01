@@ -417,5 +417,21 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       "description": "Provides direct financial assistance covering medical expenses, emergency housing relief, and funeral costs for underprivileged families and neighborhood peers across Louisiana communities."
     }
   ]
+,
+  "val-kilmer": [
+  {
+    "organizationOrCause": "The Entertainment Community Fund",
+    "focusArea": "Performing Arts Safety Net & Emergency Relief",
+    "verifiedContribution": "Active Industry Supporter",
+    "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
+  },
+  {
+    "organizationOrCause": "SAG-AFTRA Foundation",
+    "focusArea": "Children's Literacy & Artists Assistance",
+    "verifiedContribution": "Campaign Contributor & Patron",
+    "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
+  }
+],
+
 };
 

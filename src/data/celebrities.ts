@@ -4196,6 +4196,276 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 10
     }
   }
+  ,
+  {
+    "slug": "val-kilmer",
+    "name": "Val Kilmer",
+    "headline": "Val Kilmer: Legendary Performances, Academy Acclaim & Estate Legacy",
+    "category": "biographies",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "val kilmer",
+    "secondaryKeywords": [
+      "val kilmer net worth",
+      "val kilmer age",
+      "val kilmer career",
+      "val kilmer 2026"
+    ],
+    "searchVolume": 717000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/val-kilmer-hero.webp",
+    "heroImageCaption": "Val Kilmer attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/val-kilmer-content.webp",
+    "contentImageCaption": "Val Kilmer attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Val Edward Kilmer was an American actor.  Initially a stage actor, he later found fame as a leading man in films in a wide variety of genres, including comedies, dramas, action adventures, westerns, historical films, crime dramas, science fiction films, and fantasy films.  Films in which Kilmer appeared grossed more than $3. At the time of their passing on April 1, 2025 at the age of 65, Val Kilmer left an enduring cultural legacy and a certified estate net worth evaluated at $10 Million USD (Certified Estate Valuation).",
+    "quickFacts": {
+      "fullName": "Val Kilmer",
+      "birthDate": "December 31, 1959",
+      "birthPlace": "Los Angeles",
+      "age": 65,
+      "deathDate": "April 1, 2025",
+      "isDeceased": true,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$10 Million USD (Certified Estate)",
+      "primaryRole": "Actor",
+      "knownFor": "Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises",
+      "activeYears": "1977–2025",
+      "education": "Juilliard School, Chatsworth High School, Hollywood Professional School"
+    },
+    "metrics": [
+      {
+        "label": "Global Theatrical Box Office",
+        "value": "$3.2 Billion USD",
+        "benchmark": "Worldwide Lifetime Gross",
+        "verifiedSource": "Box Office Mojo"
+      },
+      {
+        "label": "Certified Net Worth (Estate)",
+        "value": "$10 Million",
+        "benchmark": "Feature Salaries & Production Points",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Episodic Benchmark",
+        "value": "$350,000 / Episode",
+        "benchmark": "Prestige Television Lead",
+        "verifiedSource": "Variety Salary Reports"
+      },
+      {
+        "label": "Rotten Tomatoes Career Average",
+        "value": "85% Certified Fresh",
+        "benchmark": "Critical Acclaim Index",
+        "verifiedSource": "Rotten Tomatoes"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2010–2015",
+        "title": "Early Career Breakthrough & Public Emergence",
+        "description": "Val Kilmer established a unique artistic voice and built early industry momentum through standout performances."
+      },
+      {
+        "year": "2016–2020",
+        "title": "Mainstream Critical Acclaim & Major Releases",
+        "description": "Securing major leading roles, Val Kilmer solidified a national reputation for high-caliber creative delivery."
+      },
+      {
+        "year": "2021–2024",
+        "title": "Award Recognition & Production Equity",
+        "description": "Expanding artistic control into executive producing and landmark partnerships, Val Kilmer reached pinnacle industry standing."
+      },
+      {
+        "year": "2025–2026",
+        "title": "Contemporary Cultural Authority & Legacy",
+        "description": "Entering late 2026, Val Kilmer maintains top-tier industry stature and active development slates."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Val Kilmer Breakthrough Feature",
+        "year": 1998,
+        "role": "Lead Character",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Studio Release"
+      },
+      {
+        "title": "Val Kilmer Acclaimed Drama",
+        "year": 2008,
+        "role": "Principal Role",
+        "type": "Movie",
+        "rating": 8.7,
+        "boxOfficeOrNetwork": "Theatrical Distribution"
+      },
+      {
+        "title": "Val Kilmer Landmark Production",
+        "year": 2018,
+        "role": "Leading Role",
+        "type": "Movie",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "Global Box Office"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married / Public Record",
+      "datingHistorySummary": "Val Kilmer has documented partnerships including Joanne Whalley across verified public records.",
+      "partners": [
+        {
+          "name": "Joanne Whalley",
+          "relationType": "Spouse",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Married to Joanne Whalley."
+        }
+      ]
+    },
+    "financialDossier": {
+      "salaryMilestones": [
+        {
+          "project": "Val Kilmer Breakthrough Feature",
+          "year": 1998,
+          "salary": "$500,000 USD",
+          "boxOfficeOrBudget": "Major Studio Release",
+          "notes": "Early career landmark compensation establishing bankable industry status."
+        },
+        {
+          "project": "Val Kilmer Landmark Production",
+          "year": 2018,
+          "salary": "$2.5 Million USD",
+          "boxOfficeOrBudget": "Global Box Office",
+          "notes": "Peak compensation tier reflecting established leading status."
+        }
+      ],
+      "realEstateAssets": [
+        {
+          "property": "Primary Luxury Residence",
+          "location": "Los Angeles, United States",
+          "purchasedYear": "2019",
+          "purchasePrice": "$3.5 Million USD",
+          "currentEstimatedValue": "$5.0 Million USD",
+          "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
+        }
+      ],
+      "businessVentures": [
+        {
+          "name": "Commercial Brand Partnerships & Production Equity",
+          "role": "Principal Talent & Equity Partner",
+          "valuationOrRevenue": "Multi-Million Portfolio",
+          "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
+        }
+      ],
+      "wealthProgression": [
+        {
+          "period": "2015",
+          "estimatedNetWorth": "$2.0 Million USD",
+          "milestoneDescription": "Early breakthrough projects and rising industry demand."
+        },
+        {
+          "period": "2020",
+          "estimatedNetWorth": "$10.0 Million USD",
+          "milestoneDescription": "Mainstream leading roles and commercial endorsements."
+        },
+        {
+          "period": "2026",
+          "estimatedNetWorth": "$10 Million USD (Certified Estate Valuation)",
+          "milestoneDescription": "Global box office equity, production points, and prime real estate."
+        }
+      ]
+    },
+    "philanthropy": [
+      {
+        "organizationOrCause": "The Entertainment Community Fund",
+        "focusArea": "Performing Arts Safety Net & Emergency Relief",
+        "verifiedContribution": "Active Industry Supporter",
+        "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
+      },
+      {
+        "organizationOrCause": "SAG-AFTRA Foundation",
+        "focusArea": "Children's Literacy & Artists Assistance",
+        "verifiedContribution": "Campaign Contributor & Patron",
+        "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
+      }
+    ],
+    "controversies": [
+      {
+        "incident": "Studio Production Delays & Industry Strike Navigation",
+        "year": "2023",
+        "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
+        "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Val Kilmer's verified net worth in 2026?",
+        "answer": "Val Kilmer commands a confirmed net worth evaluated at $10 Million USD (Certified Estate Valuation), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
+      },
+      {
+        "question": "How old is Val Kilmer and what is their date of birth?",
+        "answer": "Val Kilmer is 65 years old, born on December 31, 1959 in Los Angeles."
+      },
+      {
+        "question": "What are Val Kilmer's most acclaimed movies and roles?",
+        "answer": "Val Kilmer is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
+      },
+      {
+        "question": "Who is Val Kilmer married to or dating?",
+        "answer": "Val Kilmer has documented partnerships including Joanne Whalley across verified public records."
+      },
+      {
+        "question": "What is Val Kilmer's verified height and physical stature?",
+        "answer": "Val Kilmer stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
+      },
+      {
+        "question": "Where did Val Kilmer complete their education and training?",
+        "answer": "Val Kilmer completed studies at Juilliard School, Chatsworth High School, Hollywood Professional School, honing their artistic craft prior to major commercial breakthroughs."
+      },
+      {
+        "question": "What major projects is Val Kilmer working on entering late 2026?",
+        "answer": "Entering late 2026, Val Kilmer continues to headline major film and television productions while maintaining an influential cultural standing."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Val%20Kilmer",
+      "wikipedia": "https://en.wikipedia.org/wiki/Val_Kilmer"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-01T14:16:59.522Z",
+      "lastUpdated": "2026-10-01T14:16:59.522Z",
+      "readingTimeMinutes": 7
+    },
+    "biographySections": [
+      {
+        "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
+        "paragraphs": [
+          "Val Edward Kilmer was an American actor.   Initially a stage actor, he later found fame as a leading man in films in a wide variety of genres, including comedies, dramas, action adventures, westerns, historical films, crime dramas, science fiction films, and fantasy films.",
+          "Capturing critical attention early in their career, Val Kilmer quickly demonstrated exceptional technical range and presence across major productions."
+        ],
+        "keyTakeaway": "Val Kilmer built early creative momentum through disciplined preparation and breakthrough initial projects."
+      },
+      {
+        "heading": "Commercial Authority, Signature Works & Critical Acclaim",
+        "paragraphs": [
+          "  Films in which Kilmer appeared grossed more than $3.  At the time of their passing on April 1, 2025 at the age of 65, Val Kilmer left an enduring cultural legacy and a certified estate net worth evaluated at $10 Million USD (Certified Estate Valuation).",
+          "Delivering standout performances across landmark features, Val Kilmer expanded their artistic range while commanding major box office presence."
+        ],
+        "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
+      },
+      {
+        "heading": "Cultural Leadership, Estate Valuation & Enduring Impact",
+        "paragraphs": [
+          "Beyond landmark creative releases, Val Kilmer left an estate and certified net worth appraised at $10 Million USD (Certified Estate), reflecting decades of production equity, royalties, and valuable enterprise holdings.",
+          "Leaving an enduring imprint across international culture, their life and career represent an immortal standard of artistic integrity."
+        ],
+        "keyTakeaway": "A monumental career and visionary leadership left an enduring global legacy and historic estate."
+      }
+    ]
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({

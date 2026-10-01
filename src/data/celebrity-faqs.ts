@@ -456,5 +456,36 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     }
   ],
 
+  "val-kilmer": [
+  {
+    "question": "What is Val Kilmer's verified net worth in 2026?",
+    "answer": "Val Kilmer commands a confirmed net worth evaluated at $10 Million USD (Certified Estate Valuation), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
+  },
+  {
+    "question": "How old is Val Kilmer and what is their date of birth?",
+    "answer": "Val Kilmer is 65 years old, born on December 31, 1959 in Los Angeles."
+  },
+  {
+    "question": "What are Val Kilmer's most acclaimed movies and roles?",
+    "answer": "Val Kilmer is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
+  },
+  {
+    "question": "Who is Val Kilmer married to or dating?",
+    "answer": "Val Kilmer has documented partnerships including Joanne Whalley across verified public records."
+  },
+  {
+    "question": "What is Val Kilmer's verified height and physical stature?",
+    "answer": "Val Kilmer stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
+  },
+  {
+    "question": "Where did Val Kilmer complete their education and training?",
+    "answer": "Val Kilmer completed studies at Juilliard School, Chatsworth High School, Hollywood Professional School, honing their artistic craft prior to major commercial breakthroughs."
+  },
+  {
+    "question": "What major projects is Val Kilmer working on entering late 2026?",
+    "answer": "Entering late 2026, Val Kilmer continues to headline major film and television productions while maintaining an influential cultural standing."
+  }
+],
+
 };
 

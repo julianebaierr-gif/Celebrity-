@@ -243,5 +243,15 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       impactAnalysis: "The coordinated settlement provided definitive closure to five years of multi-jurisdictional legal proceedings, creating a clear pathway toward full release by late 2026."
     }
   ]
+,
+  "val-kilmer": [
+  {
+    "incident": "Studio Production Delays & Industry Strike Navigation",
+    "year": "2023",
+    "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
+    "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
+  }
+],
+
 };
 

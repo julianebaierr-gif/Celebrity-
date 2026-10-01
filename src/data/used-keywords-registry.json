@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 23,
-  "lastUpdated": "2026-09-30T11:56:42.101Z",
+  "totalLocked": 24,
+  "lastUpdated": "2026-10-01T14:16:59.537Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -339,6 +339,20 @@
         "youngboy never broke again age",
         "youngboy never broke again career",
         "youngboy never broke again 2026"
+      ]
+    },
+    {
+      "keyword": "val kilmer",
+      "slug": "val-kilmer",
+      "name": "Val Kilmer",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://celebledger.com/celebrity/val-kilmer",
+      "publishedAt": "2026-10-01 14:16:59",
+      "associatedTags": [
+        "val kilmer net worth",
+        "val kilmer age",
+        "val kilmer career",
+        "val kilmer 2026"
       ]
     }
   ],
