@@ -5,12 +5,18 @@ import {
   getUpdatesStore,
   UpdateEventRequest,
 } from "@/lib/system3-update-engine";
+import { verifyPipelineAuth } from "@/lib/pipeline-auth";
 
 /**
  * System 3: Smart Freshness, Update & Anti-Cannibalization Engine API
  * POST /api/pipeline/update-engine
  */
 export async function POST(req: NextRequest) {
+  const auth = verifyPipelineAuth(req);
+  if (!auth.authorized) {
+    return auth.response!;
+  }
+
   try {
     const body = (await req.json()) as UpdateEventRequest & { action?: "monitor" };
 
@@ -61,6 +67,11 @@ export async function POST(req: NextRequest) {
  * Query updates-store or test specific slug
  */
 export async function GET(req: NextRequest) {
+  const auth = verifyPipelineAuth(req);
+  if (!auth.authorized) {
+    return auth.response!;
+  }
+
   const { searchParams } = new URL(req.url);
   const action = searchParams.get("action");
 

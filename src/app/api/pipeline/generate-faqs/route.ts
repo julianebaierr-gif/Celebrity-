@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { generateGoogleSearchFaqs, harvestGoogleQuestions } from "@/lib/google-faq-engine";
 import { getCompleteOrDynamicProfile } from "@/data/celebrity-service";
+import { verifyPipelineAuth } from "@/lib/pipeline-auth";
 
 /**
  * System 5: Google High-Intent PAA & Autocomplete FAQ Engine
@@ -14,6 +15,11 @@ import { getCompleteOrDynamicProfile } from "@/data/celebrity-service";
  * }
  */
 export async function POST(req: NextRequest) {
+  const auth = verifyPipelineAuth(req);
+  if (!auth.authorized) {
+    return auth.response!;
+  }
+
   try {
     const body = await req.json();
     const keyword = body.keyword || body.name;
@@ -49,6 +55,11 @@ export async function POST(req: NextRequest) {
 }
 
 export async function GET(req: NextRequest) {
+  const auth = verifyPipelineAuth(req);
+  if (!auth.authorized) {
+    return auth.response!;
+  }
+
   try {
     const { searchParams } = new URL(req.url);
     const keyword = searchParams.get("keyword") || searchParams.get("name");

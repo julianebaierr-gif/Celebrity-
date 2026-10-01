@@ -1,7 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { processBatchUpdates, UpdateEventRequest, BatchUpdateOptions } from "@/lib/system3-update-engine";
+import { verifyPipelineAuth } from "@/lib/pipeline-auth";
 
 export async function POST(req: NextRequest) {
+  const auth = verifyPipelineAuth(req);
+  if (!auth.authorized) {
+    return auth.response!;
+  }
+
   try {
     const body = await req.json();
     const { events, options } = body as {

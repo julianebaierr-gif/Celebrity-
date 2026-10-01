@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { resolveAndSaveEntityImage, ImageResolveRequest } from "@/lib/verified-image-pipeline";
+import { verifyPipelineAuth } from "@/lib/pipeline-auth";
 
 /**
  * Auto-Posting Image Ingestion API Route
@@ -13,6 +14,11 @@ import { resolveAndSaveEntityImage, ImageResolveRequest } from "@/lib/verified-i
  * }
  */
 export async function POST(req: NextRequest) {
+  const auth = verifyPipelineAuth(req);
+  if (!auth.authorized) {
+    return auth.response!;
+  }
+
   try {
     const body = (await req.json()) as ImageResolveRequest;
 

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { runDailyAutoPostPipeline } from "@/lib/auto-content-engine";
+import { verifyPipelineAuth } from "@/lib/pipeline-auth";
 
 /**
  * System 1: Daily Auto-Research, Competitor Gap & High-Authority Content Generator
@@ -11,6 +12,11 @@ import { runDailyAutoPostPipeline } from "@/lib/auto-content-engine";
  * }
  */
 export async function POST(req: NextRequest) {
+  const auth = verifyPipelineAuth(req);
+  if (!auth.authorized) {
+    return auth.response!;
+  }
+
   try {
     const body = await req.json();
     const keyword = body.keyword;
@@ -52,6 +58,11 @@ export async function POST(req: NextRequest) {
 }
 
 export async function GET(req: NextRequest) {
+  const auth = verifyPipelineAuth(req);
+  if (!auth.authorized) {
+    return auth.response!;
+  }
+
   const { searchParams } = new URL(req.url);
   const keyword = searchParams.get("keyword");
 
