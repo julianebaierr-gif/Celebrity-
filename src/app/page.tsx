@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Browse official celebrity profiles, career timelines, filmography records, net worth analysis, and personal biographies.",
   alternates: {
-    canonical: "https://www.celebledger.com",
+    canonical: "https://www.celebledger.com/",
   },
 };
 
@@ -248,45 +248,14 @@ export default function HomePage() {
             </h2>
           </div>
 
-          {/* Quick Category Navigation Tabs */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
-            <Link
-              href="/celebrities"
-              className="px-3 py-1 rounded-full text-xs font-bold bg-slate-900 text-white hover:bg-slate-800 transition"
-            >
-              All
-            </Link>
-            <Link
-              href="/celebrities"
-              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
-            >
-              Actors
-            </Link>
-            <Link
-              href="/celebrities"
-              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
-            >
-              Musicians
-            </Link>
-            <Link
-              href="/celebrities"
-              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
-            >
-              Athletes
-            </Link>
-            <Link
-              href="/celebrities"
-              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
-            >
-              Creators
-            </Link>
-            <Link
-              href="/celebrities"
-              className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80 transition"
-            >
-              Legends
-            </Link>
-          </div>
+          {/* View Directory Link */}
+          <Link
+            href="/celebrities"
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 hover:text-amber-800 transition"
+          >
+            <span>View All Celebrities</span>
+            <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -46,6 +46,21 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/celebrities",
+        has: [
+          {
+            type: "query",
+            key: "category",
+          },
+        ],
+        destination: "/celebrities",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

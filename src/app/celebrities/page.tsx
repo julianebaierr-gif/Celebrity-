@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
+import { permanentRedirect } from "next/navigation";
 import { getAllCelebrities } from "@/data/celebrity-service";
 import { Search, ArrowRight, ChevronRight, DollarSign } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
@@ -13,7 +14,7 @@ interface CelebritiesPageProps {
 
 export async function generateMetadata({ searchParams }: CelebritiesPageProps): Promise<Metadata> {
   const params = await searchParams;
-  const isFiltered = (params.category && params.category !== "all") || (params.q && params.q.trim().length > 0);
+  const isFiltered = Boolean(params.q && params.q.trim().length > 0);
 
   return {
     title: "All Celebrities Directory & Net Worth Bios | CelebLedger",
@@ -33,48 +34,17 @@ export async function generateMetadata({ searchParams }: CelebritiesPageProps): 
   };
 }
 
-const CATEGORIES = [
-  { label: "All Profiles", value: "all" },
-  { label: "Actors & Cinema", value: "actors" },
-  { label: "Music & Artists", value: "music" },
-  { label: "Sports & Athletics", value: "sports" },
-  { label: "Creators & Media", value: "creators" },
-  { label: "Hollywood Legends", value: "legends" },
-];
-
 export default async function AllCelebritiesPage({ searchParams }: CelebritiesPageProps) {
-  const { q = "", category = "all" } = await searchParams;
+  const { q = "", category } = await searchParams;
+
+  if (category) {
+    permanentRedirect("/celebrities");
+  }
 
   const allCelebrities = getAllCelebrities();
   const query = q.trim().toLowerCase();
-  const catFilter = category.trim().toLowerCase();
 
   let celebrities = allCelebrities;
-
-  // Category filter
-  if (catFilter && catFilter !== "all") {
-    celebrities = celebrities.filter((c) => {
-      const cCat = (c.category || "").toLowerCase();
-      const cSilo = (c.silo || "").toLowerCase();
-      const cRole = (c.quickFacts.primaryRole || "").toLowerCase();
-      if (catFilter === "actors") {
-        return cCat.includes("actor") || cSilo.includes("actor") || cRole.includes("actor") || cRole.includes("actress");
-      }
-      if (catFilter === "music") {
-        return cCat.includes("music") || cSilo.includes("music") || cRole.includes("singer") || cRole.includes("rapper") || cRole.includes("musician");
-      }
-      if (catFilter === "sports") {
-        return cCat.includes("sport") || cSilo.includes("sport") || cRole.includes("nfl") || cRole.includes("athlete");
-      }
-      if (catFilter === "creators") {
-        return cCat.includes("creator") || cSilo.includes("creator") || cRole.includes("influencer") || cRole.includes("entrepreneur");
-      }
-      if (catFilter === "legends") {
-        return cCat.includes("legend") || cSilo.includes("legend") || (c.quickFacts.age && c.quickFacts.age >= 60);
-      }
-      return cCat === catFilter;
-    });
-  }
 
   // Keyword search filter
   if (query) {
@@ -136,9 +106,6 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
                   className="w-full bg-slate-50 text-slate-900 placeholder-slate-400 text-sm rounded-xl pl-11 pr-4 py-3 border border-slate-300 focus:outline-hidden focus:border-amber-600 focus:bg-white focus:ring-2 focus:ring-amber-500/10 transition"
                 />
                 <Search className="absolute left-3.5 top-3.5 h-4 w-4 text-slate-400 pointer-events-none" />
-                {catFilter !== "all" && (
-                  <input type="hidden" name="category" value={catFilter} />
-                )}
               </div>
               <button
                 type="submit"
@@ -147,29 +114,6 @@ export default async function AllCelebritiesPage({ searchParams }: CelebritiesPa
                 Search
               </button>
             </form>
-
-            {/* Category Filter Pills */}
-            <div className="pt-2 flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
-              {CATEGORIES.map((cat) => {
-                const isActive = (catFilter || "all") === cat.value;
-                const targetUrl = cat.value === "all"
-                  ? `/celebrities${q ? `?q=${encodeURIComponent(q)}` : ""}`
-                  : `/celebrities?category=${cat.value}${q ? `&q=${encodeURIComponent(q)}` : ""}`;
-                return (
-                  <Link
-                    key={cat.value}
-                    href={targetUrl}
-                    className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
-                      isActive
-                        ? "bg-slate-900 text-white shadow-xs"
-                        : "bg-slate-100 text-slate-700 hover:bg-amber-100/70 hover:text-amber-900 border border-slate-200/80"
-                    }`}
-                  >
-                    {cat.label}
-                  </Link>
-                );
-              })}
-            </div>
           </div>
         </header>
 
