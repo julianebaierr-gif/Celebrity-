@@ -1152,7 +1152,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   {
     "heading": "Commercial Authority, Signature Works & Critical Acclaim",
     "paragraphs": [
-      "Kilmer also appeared on stage, making his Broadway debut in the John Byrne working-class play The Slab Boys (1983). He also acted in productions of William Shakespeare's history play Henry IV, Part 1 (1981) and in the John Ford tragedy 'Tis Pity She's a Whore (1992), both at The Public Theater. He wrote Citizen Twain, a one-man show about Mark Twain, and played the role in a 2012 production in Los Angeles. Val attended Davenport North High School for 2 years.",
+      "Kilmer also appeared on stage, making his Broadway debut in the John Byrne working-class play The Slab Boys (1983) opposite Sean Penn and Kevin Bacon. He also acted in celebrated productions of William Shakespeare's Henry IV, Part 1 (1981) and in John Ford's 'Tis Pity She's a Whore (1992) at The Public Theater. He later conceived and authored Citizen Twain, a one-man stage production about Mark Twain, performing the role to acclaim in Los Angeles.",
       "In 2015, Kilmer was diagnosed with throat cancer. A tracheal procedure damaged his vocal cords, leaving him unable to speak easily, and he also underwent chemotherapy and two tracheotomies. He released a memoir, I'm Your Huckleberry: A Memoir, in 2020 and a documentary titled Val the following year, both about his career and health struggles. He died of pneumonia on April 1, 2025, at the age of 65."
     ],
     "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."

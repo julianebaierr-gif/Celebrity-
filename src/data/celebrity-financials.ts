@@ -1928,58 +1928,105 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   },
 
   "val-kilmer": {
-  "salaryMilestones": [
-    {
-      "project": "Val Kilmer Breakthrough Feature",
-      "year": 1998,
-      "salary": "$500,000 USD",
-      "boxOfficeOrBudget": "Major Studio Release",
-      "notes": "Early career landmark compensation establishing bankable industry status."
-    },
-    {
-      "project": "Val Kilmer Landmark Production",
-      "year": 2018,
-      "salary": "$2.5 Million USD",
-      "boxOfficeOrBudget": "Global Box Office",
-      "notes": "Peak compensation tier reflecting established leading status."
-    }
-  ],
-  "realEstateAssets": [
-    {
-      "property": "Primary Luxury Residence",
-      "location": "Los Angeles, United States",
-      "purchasedYear": "2019",
-      "purchasePrice": "$3.5 Million USD",
-      "currentEstimatedValue": "$5.0 Million USD",
-      "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
-    }
-  ],
-  "businessVentures": [
-    {
-      "name": "Commercial Brand Partnerships & Production Equity",
-      "role": "Principal Talent & Equity Partner",
-      "valuationOrRevenue": "Multi-Million Portfolio",
-      "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
-    }
-  ],
-  "wealthProgression": [
-    {
-      "period": "2015",
-      "estimatedNetWorth": "$2.0 Million USD",
-      "milestoneDescription": "Early breakthrough projects and rising industry demand."
-    },
-    {
-      "period": "2020",
-      "estimatedNetWorth": "$10.0 Million USD",
-      "milestoneDescription": "Mainstream leading roles and commercial endorsements."
-    },
-    {
-      "period": "2026",
-      "estimatedNetWorth": "$10 Million USD (Certified Estate Valuation)",
-      "milestoneDescription": "Global box office equity, production points, and prime real estate."
-    }
-  ]
-},
+    "salaryMilestones": [
+      {
+        "project": "Top Gun",
+        "year": 1986,
+        "salary": "$400,000 USD",
+        "boxOfficeOrBudget": "$357.3 Million USD Box Office",
+        "notes": "Breakthrough studio contract establishing him as a top-billed Hollywood leading man."
+      },
+      {
+        "project": "Tombstone",
+        "year": 1993,
+        "salary": "$2.0 Million USD",
+        "boxOfficeOrBudget": "$56.5 Million USD Box Office",
+        "notes": "Acclaimed studio package solidifying his position as one of the era's most bankable dramatic performers."
+      },
+      {
+        "project": "Batman Forever",
+        "year": 1995,
+        "salary": "$7.0 Million USD",
+        "boxOfficeOrBudget": "$336.5 Million USD Box Office",
+        "notes": "Career-high upfront compensation package to don the cowl as Bruce Wayne / Batman."
+      },
+      {
+        "project": "The Island of Dr. Moreau",
+        "year": 1996,
+        "salary": "$6.0 Million USD",
+        "boxOfficeOrBudget": "$40.0 Million Budget",
+        "notes": "Headline cast agreement with New Line Cinema for the John Frankenheimer adaptation."
+      },
+      {
+        "project": "The Saint",
+        "year": 1997,
+        "salary": "$7.0 Million USD",
+        "boxOfficeOrBudget": "$169.4 Million USD Box Office",
+        "notes": "Top-tier studio headline fee for the espionage franchise reboot with Paramount Pictures."
+      },
+      {
+        "project": "Top Gun: Maverick",
+        "year": 2022,
+        "salary": "$2.0 Million USD (Reprisal Package)",
+        "boxOfficeOrBudget": "$1.496 Billion USD Box Office",
+        "notes": "Milestone cameo reprisal secured by co-star Tom Cruise, delivering one of modern cinema's most poignant sequences."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Pecos River Ranch",
+        "location": "San Miguel County, New Mexico",
+        "purchasedYear": "1996",
+        "purchasePrice": "$10.0 Million USD (Total Acreage)",
+        "currentEstimatedValue": "$18.5 Million USD (Divested in 2011)",
+        "description": "Legendary 6,000-acre wilderness sanctuary featuring six miles of river frontage, guest lodges, and equestrian facilities, the majority of which he sold in 2011."
+      },
+      {
+        "property": "Brentwood Creative Studio & Estate",
+        "location": "Los Angeles, California",
+        "purchasedYear": "2012",
+        "purchasePrice": "$2.8 Million USD",
+        "currentEstimatedValue": "$4.5 Million USD",
+        "description": "Private Southern California residence and HelMel creative studio dedicated to his visual painting collections and artistic archives."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "HelMel Studios & Visual Art Exhibitions",
+        "role": "Founder & Visual Artist",
+        "valuationOrRevenue": "Multi-Million Fine Art Catalog",
+        "description": "Dedicated exhibition space and art gallery in Los Angeles showcasing Kilmer's original enamel paintings, stencils, and limited edition fine art."
+      },
+      {
+        "name": "Catalog Royalties & Streaming Syndication",
+        "role": "Beneficiary & Estate Holdings",
+        "valuationOrRevenue": "Continuous Worldwide Royalty Stream",
+        "description": "Lifetime SAG-AFTRA residuals and theatrical profit participation across perennially streamed classics including Top Gun, Heat, and Tombstone."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "1988",
+        "estimatedNetWorth": "$2.0 Million USD",
+        "milestoneDescription": "Early breakthrough paydays from Top Gun, Real Genius, and Willow."
+      },
+      {
+        "period": "1997",
+        "estimatedNetWorth": "$25.0 Million USD",
+        "milestoneDescription": "Peak career earnings driven by consecutive $7M salaries for Batman Forever, The Saint, and his 6,000-acre New Mexico ranch."
+      },
+      {
+        "period": "2015",
+        "estimatedNetWorth": "$12.0 Million USD",
+        "milestoneDescription": "Divestment of New Mexico ranch acreage and personal allocations toward specialized cancer healthcare therapies."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$10 Million USD (Certified Estate Valuation)",
+        "milestoneDescription": "Certified estate net worth comprising Los Angeles real estate, fine art catalog, and ongoing film residual streams."
+      }
+    ]
+  },
 
 };
 

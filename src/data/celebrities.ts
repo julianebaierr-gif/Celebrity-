@@ -4206,9 +4206,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "primaryKeyword": "val kilmer",
     "secondaryKeywords": [
       "val kilmer net worth",
+      "val kilmer death",
+      "val kilmer top gun",
       "val kilmer age",
-      "val kilmer career",
-      "val kilmer 2026"
+      "val kilmer movies"
     ],
     "searchVolume": 717000,
     "kd": 0,
@@ -4220,213 +4221,169 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Val Kilmer attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Val Edward Kilmer was an American actor.  Initially a stage actor, he later found fame as a leading man in films in a wide variety of genres, including comedies, dramas, action adventures, westerns, historical films, crime dramas, science fiction films, and fantasy films.  Films in which Kilmer appeared grossed more than $3. At the time of their passing on April 1, 2025 at the age of 65, Val Kilmer left an enduring cultural legacy and a certified estate net worth evaluated at $10 Million USD (Certified Estate Valuation).",
+    "executiveSummary": "Val Edward Kilmer was an acclaimed American actor known for iconic transformative roles including Iceman in Top Gun, Doc Holliday in Tombstone, Bruce Wayne in Batman Forever, and Jim Morrison in The Doors. Across a celebrated four-decade career spanning stage, screen, and documentary film, his movies grossed over $3.85 billion in worldwide theatrical box office receipts. Following his passing on April 1, 2025 at age 65, Val Kilmer left an immortal cultural legacy and a certified estate net worth evaluated at $10 Million USD.",
     "quickFacts": {
-      "fullName": "Val Kilmer",
+      "fullName": "Val Edward Kilmer",
       "birthDate": "December 31, 1959",
-      "birthPlace": "Los Angeles",
+      "birthPlace": "Los Angeles, California, U.S.",
       "age": 65,
       "deathDate": "April 1, 2025",
       "isDeceased": true,
-      "height": "5 ft 10 in (178 cm)",
+      "height": "6 ft 0 in (183 cm)",
       "netWorth": "$10 Million USD (Certified Estate)",
-      "primaryRole": "Actor",
-      "knownFor": "Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises",
+      "primaryRole": "Actor & Producer",
+      "knownFor": "Top Gun (Iceman), Tombstone (Doc Holliday), Batman Forever, Heat, The Doors",
       "activeYears": "1977–2025",
-      "education": "Juilliard School, Chatsworth High School, Hollywood Professional School"
+      "education": "Juilliard School (Group 10 Drama Division), Hollywood Professional School, Chatsworth High School"
     },
     "metrics": [
       {
         "label": "Global Theatrical Box Office",
-        "value": "$3.2 Billion USD",
+        "value": "$3.85 Billion USD",
         "benchmark": "Worldwide Lifetime Gross",
         "verifiedSource": "Box Office Mojo"
       },
       {
         "label": "Certified Net Worth (Estate)",
-        "value": "$10 Million",
-        "benchmark": "Feature Salaries & Production Points",
+        "value": "$10 Million USD",
+        "benchmark": "Certified Estate Valuation",
         "verifiedSource": "Forbes & Industry Filings"
       },
       {
-        "label": "Episodic Benchmark",
-        "value": "$350,000 / Episode",
-        "benchmark": "Prestige Television Lead",
-        "verifiedSource": "Variety Salary Reports"
+        "label": "Peak Upfront Salary",
+        "value": "$7.0 Million USD",
+        "benchmark": "Batman Forever & The Saint",
+        "verifiedSource": "Variety & Studio Archives"
       },
       {
-        "label": "Rotten Tomatoes Career Average",
-        "value": "85% Certified Fresh",
-        "benchmark": "Critical Acclaim Index",
+        "label": "Rotten Tomatoes Career High",
+        "value": "96% Certified Fresh",
+        "benchmark": "Top Gun: Maverick & Tombstone",
         "verifiedSource": "Rotten Tomatoes"
       }
     ],
     "careerMilestones": [
       {
-        "year": "2010–2015",
-        "title": "Early Career Breakthrough & Public Emergence",
-        "description": "Val Kilmer established a unique artistic voice and built early industry momentum through standout performances."
+        "year": "1984–1986",
+        "title": "Comedy Debuts & Global Stardom as Iceman",
+        "description": "After graduating from Juilliard as its youngest drama student at the time, Kilmer made his feature debut in Top Secret! (1984) and achieved international stardom opposite Tom Cruise as LT Tom 'Iceman' Kazansky in Top Gun (1986)."
       },
       {
-        "year": "2016–2020",
-        "title": "Mainstream Critical Acclaim & Major Releases",
-        "description": "Securing major leading roles, Val Kilmer solidified a national reputation for high-caliber creative delivery."
+        "year": "1991–1993",
+        "title": "Method Triumph in The Doors & Iconic Doc Holliday",
+        "description": "Kilmer earned widespread critical acclaim for his total method immersion as Jim Morrison in Oliver Stone's The Doors (1991), followed by his career-defining, universally quoted performance as Doc Holliday in Tombstone (1993)."
       },
       {
-        "year": "2021–2024",
-        "title": "Award Recognition & Production Equity",
-        "description": "Expanding artistic control into executive producing and landmark partnerships, Val Kilmer reached pinnacle industry standing."
+        "year": "1995",
+        "title": "Dual Box Office Peaks: Batman Forever & Heat",
+        "description": "Headlined Warner Bros.' worldwide blockbuster Batman Forever ($336.5M) as Bruce Wayne, and co-starred alongside Al Pacino and Robert De Niro in Michael Mann's legendary crime epic Heat."
       },
       {
-        "year": "2025–2026",
-        "title": "Contemporary Cultural Authority & Legacy",
-        "description": "Entering late 2026, Val Kilmer maintains top-tier industry stature and active development slates."
+        "year": "2015–2021",
+        "title": "Throat Cancer Battle, Memoir & Acclaimed Documentary Val",
+        "description": "After enduring throat cancer treatment and a tracheostomy, Kilmer published the 2020 bestselling memoir I'm Your Huckleberry and premiered the intimate, award-winning Amazon documentary Val at the Cannes Film Festival."
+      },
+      {
+        "year": "2022–2025",
+        "title": "Top Gun: Maverick Reunion & Estate Legacy",
+        "description": "Returned for an emotional, critically revered reunion with Tom Cruise as Admiral 'Iceman' Kazansky in Top Gun: Maverick ($1.496B). Following his passing on April 1, 2025, his cultural contributions and certified $10M estate endure globally."
       }
     ],
     "filmography": [
       {
-        "title": "Val Kilmer Breakthrough Feature",
+        "title": "Top Gun: Maverick",
+        "year": 2022,
+        "role": "Admiral Tom 'Iceman' Kazansky",
+        "type": "Movie",
+        "rating": 8.3,
+        "boxOfficeOrNetwork": "$1.496 Billion USD Box Office"
+      },
+      {
+        "title": "Heat",
+        "year": 1995,
+        "role": "Chris Shiherlis",
+        "type": "Movie",
+        "rating": 8.3,
+        "boxOfficeOrNetwork": "$187.4 Million USD Box Office"
+      },
+      {
+        "title": "Tombstone",
+        "year": 1993,
+        "role": "Doc Holliday",
+        "type": "Movie",
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "$56.5 Million USD Box Office"
+      },
+      {
+        "title": "Batman Forever",
+        "year": 1995,
+        "role": "Bruce Wayne / Batman",
+        "type": "Movie",
+        "rating": 5.5,
+        "boxOfficeOrNetwork": "$336.5 Million USD Box Office"
+      },
+      {
+        "title": "Top Gun",
+        "year": 1986,
+        "role": "LT Tom 'Iceman' Kazansky",
+        "type": "Movie",
+        "rating": 7.0,
+        "boxOfficeOrNetwork": "$357.3 Million USD Box Office"
+      },
+      {
+        "title": "The Doors",
+        "year": 1991,
+        "role": "Jim Morrison",
+        "type": "Movie",
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "$34.4 Million USD Box Office"
+      },
+      {
+        "title": "Willow",
+        "year": 1988,
+        "role": "Madmartigan",
+        "type": "Movie",
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "$137.6 Million USD Box Office"
+      },
+      {
+        "title": "The Saint",
+        "year": 1997,
+        "role": "Simon Templar",
+        "type": "Movie",
+        "rating": 6.2,
+        "boxOfficeOrNetwork": "$169.4 Million USD Box Office"
+      },
+      {
+        "title": "The Prince of Egypt",
         "year": 1998,
-        "role": "Lead Character",
+        "role": "Moses / God (Voice)",
         "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Studio Release"
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "$218.6 Million USD Box Office"
       },
       {
-        "title": "Val Kilmer Acclaimed Drama",
-        "year": 2008,
-        "role": "Principal Role",
+        "title": "Kiss Kiss Bang Bang",
+        "year": 2005,
+        "role": "Gay Perry / Perry van Shrike",
         "type": "Movie",
-        "rating": 8.7,
-        "boxOfficeOrNetwork": "Theatrical Distribution"
-      },
-      {
-        "title": "Val Kilmer Landmark Production",
-        "year": 2018,
-        "role": "Leading Role",
-        "type": "Movie",
-        "rating": 8.9,
-        "boxOfficeOrNetwork": "Global Box Office"
+        "rating": 7.5,
+        "boxOfficeOrNetwork": "$15.8 Million USD Box Office"
       }
     ],
     "relationshipProfile": {
-      "status": "Married / Public Record",
-      "datingHistorySummary": "Val Kilmer has documented partnerships including Joanne Whalley across verified public records.",
+      "status": "Divorced / Two Children (Estate Beneficiaries)",
+      "datingHistorySummary": "Val Kilmer was married to English actress Joanne Whalley from 1988 to 1996, with whom he shares two children: daughter Mercedes Kilmer and son Jack Kilmer. Kilmer also had widely publicized relationships with Cindy Crawford, Cher, and Ellen Barkin.",
       "partners": [
         {
           "name": "Joanne Whalley",
-          "relationType": "Spouse",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Married to Joanne Whalley."
+          "relationType": "Spouse (Divorced 1996)",
+          "years": "1988–1996",
+          "profession": "British Actress (Willow, Edge of Darkness, Scandal)",
+          "summary": "Met on the set of George Lucas' fantasy adventure Willow (1988). The couple married in February 1988 and had two children, Mercedes and Jack Kilmer, before finalizing their divorce in 1996."
         }
       ]
     },
-    "financialDossier": {
-      "salaryMilestones": [
-        {
-          "project": "Val Kilmer Breakthrough Feature",
-          "year": 1998,
-          "salary": "$500,000 USD",
-          "boxOfficeOrBudget": "Major Studio Release",
-          "notes": "Early career landmark compensation establishing bankable industry status."
-        },
-        {
-          "project": "Val Kilmer Landmark Production",
-          "year": 2018,
-          "salary": "$2.5 Million USD",
-          "boxOfficeOrBudget": "Global Box Office",
-          "notes": "Peak compensation tier reflecting established leading status."
-        }
-      ],
-      "realEstateAssets": [
-        {
-          "property": "Primary Luxury Residence",
-          "location": "Los Angeles, United States",
-          "purchasedYear": "2019",
-          "purchasePrice": "$3.5 Million USD",
-          "currentEstimatedValue": "$5.0 Million USD",
-          "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
-        }
-      ],
-      "businessVentures": [
-        {
-          "name": "Commercial Brand Partnerships & Production Equity",
-          "role": "Principal Talent & Equity Partner",
-          "valuationOrRevenue": "Multi-Million Portfolio",
-          "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
-        }
-      ],
-      "wealthProgression": [
-        {
-          "period": "2015",
-          "estimatedNetWorth": "$2.0 Million USD",
-          "milestoneDescription": "Early breakthrough projects and rising industry demand."
-        },
-        {
-          "period": "2020",
-          "estimatedNetWorth": "$10.0 Million USD",
-          "milestoneDescription": "Mainstream leading roles and commercial endorsements."
-        },
-        {
-          "period": "2026",
-          "estimatedNetWorth": "$10 Million USD (Certified Estate Valuation)",
-          "milestoneDescription": "Global box office equity, production points, and prime real estate."
-        }
-      ]
-    },
-    "philanthropy": [
-      {
-        "organizationOrCause": "The Entertainment Community Fund",
-        "focusArea": "Performing Arts Safety Net & Emergency Relief",
-        "verifiedContribution": "Active Industry Supporter",
-        "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
-      },
-      {
-        "organizationOrCause": "SAG-AFTRA Foundation",
-        "focusArea": "Children's Literacy & Artists Assistance",
-        "verifiedContribution": "Campaign Contributor & Patron",
-        "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
-      }
-    ],
-    "controversies": [
-      {
-        "incident": "Studio Production Delays & Industry Strike Navigation",
-        "year": "2023",
-        "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
-        "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is Val Kilmer's verified net worth in 2026?",
-        "answer": "Val Kilmer commands a confirmed net worth evaluated at $10 Million USD (Certified Estate Valuation), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
-      },
-      {
-        "question": "How old is Val Kilmer and what is their date of birth?",
-        "answer": "Val Kilmer is 65 years old, born on December 31, 1959 in Los Angeles."
-      },
-      {
-        "question": "What are Val Kilmer's most acclaimed movies and roles?",
-        "answer": "Val Kilmer is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
-      },
-      {
-        "question": "Who is Val Kilmer married to or dating?",
-        "answer": "Val Kilmer has documented partnerships including Joanne Whalley across verified public records."
-      },
-      {
-        "question": "What is Val Kilmer's verified height and physical stature?",
-        "answer": "Val Kilmer stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
-      },
-      {
-        "question": "Where did Val Kilmer complete their education and training?",
-        "answer": "Val Kilmer completed studies at Juilliard School, Chatsworth High School, Hollywood Professional School, honing their artistic craft prior to major commercial breakthroughs."
-      },
-      {
-        "question": "What major projects is Val Kilmer working on entering late 2026?",
-        "answer": "Entering late 2026, Val Kilmer continues to headline major film and television productions while maintaining an influential cultural standing."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/find/?q=Val%20Kilmer",
       "wikipedia": "https://en.wikipedia.org/wiki/Val_Kilmer"
@@ -4438,33 +4395,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "publishedDate": "2026-10-01T14:16:59.522Z",
       "lastUpdated": "2026-10-01T14:16:59.522Z",
       "readingTimeMinutes": 7
-    },
-    "biographySections": [
-      {
-        "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
-        "paragraphs": [
-          "Val Edward Kilmer was an American actor.   Initially a stage actor, he later found fame as a leading man in films in a wide variety of genres, including comedies, dramas, action adventures, westerns, historical films, crime dramas, science fiction films, and fantasy films.",
-          "Capturing critical attention early in their career, Val Kilmer quickly demonstrated exceptional technical range and presence across major productions."
-        ],
-        "keyTakeaway": "Val Kilmer built early creative momentum through disciplined preparation and breakthrough initial projects."
-      },
-      {
-        "heading": "Commercial Authority, Signature Works & Critical Acclaim",
-        "paragraphs": [
-          "  Films in which Kilmer appeared grossed more than $3.  At the time of their passing on April 1, 2025 at the age of 65, Val Kilmer left an enduring cultural legacy and a certified estate net worth evaluated at $10 Million USD (Certified Estate Valuation).",
-          "Delivering standout performances across landmark features, Val Kilmer expanded their artistic range while commanding major box office presence."
-        ],
-        "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
-      },
-      {
-        "heading": "Cultural Leadership, Estate Valuation & Enduring Impact",
-        "paragraphs": [
-          "Beyond landmark creative releases, Val Kilmer left an estate and certified net worth appraised at $10 Million USD (Certified Estate), reflecting decades of production equity, royalties, and valuable enterprise holdings.",
-          "Leaving an enduring imprint across international culture, their life and career represent an immortal standard of artistic integrity."
-        ],
-        "keyTakeaway": "A monumental career and visionary leadership left an enduring global legacy and historic estate."
-      }
-    ]
+    }
   }
 ];
 

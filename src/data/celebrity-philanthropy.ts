@@ -419,19 +419,25 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
   ]
 ,
   "val-kilmer": [
-  {
-    "organizationOrCause": "The Entertainment Community Fund",
-    "focusArea": "Performing Arts Safety Net & Emergency Relief",
-    "verifiedContribution": "Active Industry Supporter",
-    "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
-  },
-  {
-    "organizationOrCause": "SAG-AFTRA Foundation",
-    "focusArea": "Children's Literacy & Artists Assistance",
-    "verifiedContribution": "Campaign Contributor & Patron",
-    "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
-  }
-],
+    {
+      organizationOrCause: "TwainMania Foundation",
+      focusArea: "Youth Education & Literary Literacy",
+      verifiedContribution: "Founder & Creative Benefactor",
+      description: "Founded by Val Kilmer to educate elementary, middle, and high school students across the United States about American history, democracy, and literature through the works and legacy of Mark Twain."
+    },
+    {
+      organizationOrCause: "First Nations & Indigenous Community Support",
+      focusArea: "Native American Cultural Preservation & Youth Programs",
+      verifiedContribution: "Longtime New Mexico Patron",
+      description: "During his decades residing in San Miguel County, New Mexico, Kilmer was an active advocate and benefactor for local Pueblo and tribal communities, donating land easements and supporting youth cultural programs."
+    },
+    {
+      organizationOrCause: "The Entertainment Community Fund",
+      focusArea: "Performing Arts Safety Net & Emergency Relief",
+      verifiedContribution: "Lifetime Industry Supporter",
+      description: "Supported healthcare funds, emergency financial grants, and vocal health resources for stage actors and entertainment industry professionals."
+    }
+  ],
 
 };
 

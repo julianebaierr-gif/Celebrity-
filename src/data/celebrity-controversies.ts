@@ -245,13 +245,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
   ]
 ,
   "val-kilmer": [
-  {
-    "incident": "Studio Production Delays & Industry Strike Navigation",
-    "year": "2023",
-    "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
-    "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
-  }
-],
+    {
+      incident: "1990s Perfectionist Reputation & Batman Forever Set Friction",
+      year: "1995–1996",
+      resolutionOrOutcome: "Media reports highlighted creative friction between Kilmer and director Joel Schumacher on Batman Forever, as well as director John Frankenheimer on The Island of Dr. Moreau (1996). Kilmer later reflected with frank humor, humility, and nuance in his 2020 memoir I'm Your Huckleberry and the 2021 documentary Val.",
+      impactAnalysis: "While the reputation of being 'demanding' briefly impacted studio casting in the late 1990s, his intense commitment to craft was later celebrated by fellow actors and filmmakers as an uncompromising pursuit of theatrical excellence."
+    },
+    {
+      incident: "Pecos River Ranch Hospitality & Zoning Hearings",
+      year: "2009–2010",
+      resolutionOrOutcome: "Kilmer applied to operate guest houses on his 6,000-acre New Mexico ranch as a small bed-and-breakfast, prompting public hearings with county commissioners regarding local zoning rules. Kilmer addressed the community directly before withdrawing the application and subsequently selling the ranch in 2011.",
+      impactAnalysis: "The dispute had minimal impact on his national stature, and his multi-decade stewardship of Pecos River wilderness conservation remains widely praised."
+    }
+  ],
 
 };
 
