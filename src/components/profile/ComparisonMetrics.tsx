@@ -27,7 +27,7 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
             <div>
               {/* Fixed-height label container for 100% horizontal alignment */}
               <div className="h-9 flex items-center mb-1">
-                <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 group-hover:text-amber-700 transition-colors line-clamp-2 leading-tight">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-amber-700 transition-colors line-clamp-2 leading-tight">
                   {metric.label}
                 </span>
               </div>
@@ -41,14 +41,14 @@ export default function ComparisonMetrics({ metrics, celebrityName }: Comparison
 
               {/* Fixed-height benchmark container with clean text */}
               <div className="h-10 flex items-center">
-                <span className="text-[11px] text-slate-500 font-medium line-clamp-1">
+                <span className="text-[11px] text-slate-600 font-medium line-clamp-1">
                   {metric.benchmark}
                 </span>
               </div>
             </div>
 
             {/* Pinned verified source footer with checkmark */}
-            <div className="mt-5 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] text-slate-400 font-medium">
+            <div className="mt-5 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] text-slate-500 font-medium">
               <span className="text-emerald-600 font-bold" aria-hidden="true">✓</span>
               <span className="truncate">{metric.verifiedSource}</span>
             </div>

@@ -176,7 +176,7 @@ export default function CompareHubPage() {
                             />
                           </div>
                         </div>
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-100 px-2 py-0.5 rounded">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-2 py-0.5 rounded">
                           {matchup.category}
                         </span>
                       </div>
@@ -184,7 +184,7 @@ export default function CompareHubPage() {
                       <h3 className="text-base font-bold text-slate-900 leading-snug">
                         {matchup.title}
                       </h3>
-                      <p className="text-xs text-slate-500 mt-1 line-clamp-2 leading-relaxed">
+                      <p className="text-xs text-slate-600 mt-1 line-clamp-2 leading-relaxed">
                         {matchup.sub}
                       </p>
 

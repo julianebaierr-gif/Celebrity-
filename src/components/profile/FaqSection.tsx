@@ -41,7 +41,7 @@ export default function FaqSection({ faqs, celebrityName }: FaqSectionProps) {
               >
                 <span>{faq.question}</span>
                 <ChevronDown
-                  className={`h-4 w-4 text-slate-400 transition-transform duration-200 ${
+                  className={`h-4 w-4 text-slate-500 transition-transform duration-200 ${
                     isOpen ? "rotate-180 text-amber-600" : ""
                   }`}
                 />

@@ -85,10 +85,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
               >
                 <div>
                   <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-950 flex items-center justify-center">
-                    <div
-                      className="absolute inset-0 bg-cover bg-center blur-xl opacity-30 scale-110 pointer-events-none"
-                      style={{ backgroundImage: `url(${item.heroImage})` }}
-                    />
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.15)_0%,transparent_70%)] pointer-events-none" />
                     <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                     <Image
                       src={item.heroImage}
@@ -105,7 +102,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                         <DollarSign className="h-3 w-3" />
                         {formatNetWorth(item.quickFacts.netWorth)} Net Worth
                       </span>
-                      <span className="text-slate-400 font-mono">
+                      <span className="text-slate-500 font-mono">
                         {getAgeBadgeText(item.quickFacts)}
                       </span>
                     </div>
@@ -130,7 +127,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                   <Link
                     href={`/celebrity/${item.slug}`}
                     className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
-                    aria-label={`View full dossier and net worth for ${item.name}`}
+                    aria-label={`View Dossier for ${item.name}`}
                   >
                     <span>View Dossier</span>
                     <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />

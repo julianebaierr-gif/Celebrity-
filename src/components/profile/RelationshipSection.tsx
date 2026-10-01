@@ -39,7 +39,7 @@ export default function RelationshipSection({
         <div className="flex items-center gap-2 self-start sm:self-center px-3.5 py-1.5 rounded-xl bg-slate-50 border border-slate-200">
           <HeartHandshake className="h-4 w-4 text-amber-600 shrink-0" aria-hidden="true" />
           <div className="text-xs">
-            <span className="text-slate-400 block text-[10px] font-bold uppercase tracking-wider">
+            <span className="text-slate-500 block text-[10px] font-bold uppercase tracking-wider">
               Marital Record
             </span>
             <span className="font-bold text-slate-900">{status}</span>
@@ -50,7 +50,7 @@ export default function RelationshipSection({
       {/* Featured Partner Cards (with portrait images and internal links) */}
       {partners && partners.length > 0 && (
         <div className="space-y-4">
-          <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">
+          <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider">
             Documented Partnerships & Spousal History
           </h3>
 
@@ -67,10 +67,7 @@ export default function RelationshipSection({
                 {/* Partner Portrait Image */}
                 {partner.image && (
                   <div className="relative h-48 w-full sm:h-40 sm:w-40 shrink-0 rounded-xl overflow-hidden border border-slate-200 bg-slate-950 shadow-2xs flex items-center justify-center">
-                    <div
-                      className="absolute inset-0 bg-cover bg-center blur-lg opacity-30 scale-110 pointer-events-none"
-                      style={{ backgroundImage: `url(${partner.image})` }}
-                    />
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.12)_0%,transparent_70%)] pointer-events-none" />
                     <Image
                       src={partner.image}
                       alt={`${partner.name} - ${partner.relationType} of ${celebrityName}`}
@@ -146,8 +143,8 @@ export default function RelationshipSection({
       </div>
 
       {/* Sourcing & Verification Standard Footnote */}
-      <div className="flex items-center gap-2 pt-2 text-[11px] text-slate-400">
-        <ShieldCheck className="h-3.5 w-3.5 text-slate-400 shrink-0" aria-hidden="true" />
+      <div className="flex items-center gap-2 pt-2 text-[11px] text-slate-500">
+        <ShieldCheck className="h-3.5 w-3.5 text-slate-500 shrink-0" aria-hidden="true" />
         <span>
           Privacy Note: CelebLedger verifies relationship milestones strictly through authorized public statements, certified marriage licenses, and direct on-record interviews to prevent unverified gossip.
         </span>

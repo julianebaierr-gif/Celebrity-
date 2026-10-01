@@ -290,16 +290,14 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
               {/* High-Resolution Hero Portrait (min 1200px WebP compliant) */}
               <div className="relative h-64 w-52 sm:h-72 sm:w-56 shrink-0 rounded-2xl overflow-hidden border-2 border-slate-200 shadow-md bg-slate-950 flex items-center justify-center">
-                <div
-                  className="absolute inset-0 bg-cover bg-center blur-xl opacity-30 scale-110 pointer-events-none"
-                  style={{ backgroundImage: `url(${celebrity.heroImage})` }}
-                />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.15)_0%,transparent_70%)] pointer-events-none" />
                 <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                 <Image
                   src={celebrity.heroImage}
                   alt={`${celebrity.name} official portrait - ${celebrity.quickFacts.primaryRole}`}
                   fill
                   priority
+                  fetchPriority="high"
                   sizes="(max-width: 640px) 208px, 224px"
                   className="object-contain object-center z-10 drop-shadow-md"
                 />
@@ -403,11 +401,8 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
             <figure className="my-10 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xs">
               {/* Clean, 100% Unobstructed Photo Container */}
               <div className="relative h-80 sm:h-[460px] md:h-[520px] w-full overflow-hidden bg-slate-950 flex items-center justify-center">
-                {/* Ambient Blurred Backdrop matching photo palette */}
-                <div
-                  className="absolute inset-0 bg-cover bg-center blur-2xl opacity-35 scale-110 pointer-events-none"
-                  style={{ backgroundImage: `url(${celebrity.contentImage})` }}
-                />
+                {/* Ambient Subtle Glow */}
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.12)_0%,transparent_70%)] pointer-events-none" />
                 <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
 
                 {/* Primary Uncropped Photo */}
@@ -423,7 +418,7 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
               </div>
 
               {/* Minimal 1-line corner credit */}
-              <figcaption className="px-4 py-2 bg-slate-50 border-t border-slate-100 flex items-center justify-end text-[11px] text-slate-400 font-normal">
+              <figcaption className="px-4 py-2 bg-slate-50 border-t border-slate-100 flex items-center justify-end text-[11px] text-slate-500 font-normal">
                 <span>Photo: Wikimedia</span>
               </figcaption>
             </figure>

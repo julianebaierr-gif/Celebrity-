@@ -114,7 +114,7 @@ export default function EditorialStandardsPage() {
               <div className="bg-slate-800 p-4 rounded-xl leading-relaxed text-slate-200 border border-slate-700">
                 Net Worth = (Gross Career Earnings + Backend Royalties + Real Estate Equity + Catalog/IP Rights + Private Equity Holdings) &minus; (Taxes + Agency/Management Commissions + Production Overhead + Known Liabilities)
               </div>
-              <p className="text-slate-400 text-[11px] font-sans leading-relaxed pt-1">
+              <p className="text-slate-300 text-[11px] font-sans leading-relaxed pt-1">
                 Where gross career contracts are discounted by estimated federal, state, and international tax obligations (averaging 37% to 50%), talent agency fees (10%), personal management fees (10%), legal representation fees (5%), and public relations retainers.
               </p>
             </div>

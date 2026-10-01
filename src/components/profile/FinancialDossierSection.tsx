@@ -112,11 +112,11 @@ export default function FinancialDossierSection({
                   </div>
                   <div className="text-xs text-slate-600 space-y-1 mb-3 pt-2 border-t border-slate-200/60">
                     <div className="flex justify-between">
-                      <span className="text-slate-400">Acquired:</span>
+                      <span className="text-slate-500">Acquired:</span>
                       <span className="font-medium text-slate-800">{asset.purchasedYear}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-slate-400">Acquisition Price:</span>
+                      <span className="text-slate-500">Acquisition Price:</span>
                       <span className="font-medium text-slate-800">{asset.purchasePrice}</span>
                     </div>
                   </div>

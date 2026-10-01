@@ -74,17 +74,15 @@ export default function HomePage() {
           <article className="lg:col-span-7 bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs hover:border-amber-400 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between h-full">
             <div>
               <div className="relative h-80 sm:h-96 lg:h-[440px] w-full overflow-hidden bg-slate-950 flex items-center justify-center">
-                <div
-                  className="absolute inset-0 bg-cover bg-center blur-2xl opacity-30 scale-110 pointer-events-none"
-                  style={{ backgroundImage: `url(${leadStory.heroImage})` }}
-                />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.15)_0%,transparent_70%)] pointer-events-none" />
                 <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                 <Image
                   src={leadStory.heroImage}
                   alt={`${leadStory.name} official portrait - ${leadStory.quickFacts.primaryRole}`.slice(0, 75)}
                   fill
                   priority
-                  sizes="(max-width: 1024px) 100vw, 60vw"
+                  fetchPriority="high"
+                  sizes="(max-width: 640px) 384px, (max-width: 1024px) 600px, 50vw"
                   className="object-contain object-center z-10 drop-shadow-md group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -96,7 +94,7 @@ export default function HomePage() {
                   </span>
                   <span>•</span>
                   <span className="flex items-center gap-1">
-                    <Calendar className="h-3.5 w-3.5 text-slate-400" />
+                    <Calendar className="h-3.5 w-3.5 text-slate-500" />
                     {new Date(leadStory.editorialMetadata.publishedDate).toLocaleDateString("en-US", {
                       month: "short",
                       day: "numeric",
@@ -105,7 +103,7 @@ export default function HomePage() {
                   </span>
                   <span>•</span>
                   <span className="flex items-center gap-1">
-                    <Clock className="h-3.5 w-3.5 text-slate-400" />
+                    <Clock className="h-3.5 w-3.5 text-slate-500" />
                     {leadStory.editorialMetadata.readingTimeMinutes} min read
                   </span>
                 </div>
@@ -123,17 +121,17 @@ export default function HomePage() {
                 {/* Quick Facts Preview - 3 Clean Columns without truncation */}
                 <div className="grid grid-cols-3 gap-3 mt-6 p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs">
                   <div>
-                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Age</span>
+                    <span className="text-[10px] uppercase font-bold text-slate-500 block">Age</span>
                     <span className="font-bold text-slate-900">{getAgeBadgeText(leadStory.quickFacts)}</span>
                   </div>
                   <div>
-                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Net Worth</span>
+                    <span className="text-[10px] uppercase font-bold text-slate-500 block">Net Worth</span>
                     <span className="font-bold text-emerald-700">
                       {formatNetWorth(leadStory.quickFacts.netWorth)}
                     </span>
                   </div>
                   <div>
-                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Profession</span>
+                    <span className="text-[10px] uppercase font-bold text-slate-500 block">Profession</span>
                     <span className="font-bold text-slate-900 truncate block">
                       {leadStory.quickFacts.primaryRole.split(",")[0]}
                     </span>
@@ -180,10 +178,7 @@ export default function HomePage() {
                   className="group rounded-2xl border border-slate-200 bg-white p-3.5 sm:p-4 shadow-xs hover:border-amber-400 hover:shadow-md transition flex gap-4 items-center"
                 >
                   <div className="relative h-24 w-24 sm:h-28 sm:w-28 rounded-2xl overflow-hidden bg-slate-950 shrink-0 flex items-center justify-center">
-                    <div
-                      className="absolute inset-0 bg-cover bg-center blur-lg opacity-35 scale-110 pointer-events-none"
-                      style={{ backgroundImage: `url(${story.heroImage})` }}
-                    />
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.12)_0%,transparent_70%)] pointer-events-none" />
                     <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                     <Image
                       src={story.heroImage}
@@ -200,7 +195,7 @@ export default function HomePage() {
                         {story.quickFacts.primaryRole.split(",")[0]}
                       </span>
                       <span className="text-slate-300">•</span>
-                      <span className="text-[10px] text-slate-400 font-medium">
+                      <span className="text-[10px] text-slate-500 font-medium">
                         {story.editorialMetadata.readingTimeMinutes} min read
                       </span>
                     </div>
@@ -222,7 +217,7 @@ export default function HomePage() {
                       <Link
                         href={`/celebrity/${story.slug}`}
                         className="font-bold text-slate-900 group-hover:text-amber-700 inline-flex items-center gap-1 text-[11px]"
-                        aria-label={`Read full biography and net worth dossier for ${story.name}`}
+                        aria-label={`View Dossier for ${story.name}`}
                       >
                         <span>View Dossier</span>
                         <ArrowRight className="h-3 w-3" />
@@ -266,16 +261,13 @@ export default function HomePage() {
             >
               <div>
                 <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-950 flex items-center justify-center">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center blur-xl opacity-30 scale-110 pointer-events-none"
-                    style={{ backgroundImage: `url(${item.heroImage})` }}
-                  />
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.15)_0%,transparent_70%)] pointer-events-none" />
                   <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
                   <Image
                     src={item.heroImage}
                     alt={`${item.name} portrait`}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    sizes="(max-width: 640px) 384px, (max-width: 1024px) 50vw, 33vw"
                     className="object-contain object-center z-10 drop-shadow-md group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -287,7 +279,7 @@ export default function HomePage() {
                     </span>
                     <span>•</span>
                     <span className="flex items-center gap-1">
-                      <Calendar className="h-3 w-3 text-slate-400" />
+                      <Calendar className="h-3 w-3 text-slate-500" />
                       {new Date(item.editorialMetadata.publishedDate).toLocaleDateString("en-US", {
                         month: "short",
                         day: "numeric",
@@ -296,7 +288,7 @@ export default function HomePage() {
                     </span>
                     <span>•</span>
                     <span className="flex items-center gap-1">
-                      <Clock className="h-3 w-3 text-slate-400" />
+                      <Clock className="h-3 w-3 text-slate-500" />
                       {item.editorialMetadata.readingTimeMinutes} min read
                     </span>
                   </div>
@@ -321,7 +313,7 @@ export default function HomePage() {
                 <Link
                   href={`/celebrity/${item.slug}`}
                   className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800 transition"
-                  aria-label={`View full dossier and net worth analysis for ${item.name}`}
+                  aria-label={`View Dossier for ${item.name}`}
                 >
                   <span>View Dossier</span>
                   <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
@@ -406,7 +398,7 @@ export default function HomePage() {
 
                     {/* Net Worth Box */}
                     <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200/90 mb-3.5">
-                      <div className="flex items-center justify-between text-[10px] uppercase font-bold text-slate-400 gap-1.5 mb-1">
+                      <div className="flex items-center justify-between text-[10px] uppercase font-bold text-slate-500 gap-1.5 mb-1">
                         <span className="tracking-wider">Estimated Wealth</span>
                         <span className="text-emerald-700 font-bold text-[9px] uppercase tracking-wider bg-emerald-100/70 border border-emerald-200/70 px-2 py-0.5 rounded-full shrink-0 leading-tight">
                           {getNetWorthBadge(cleanSource)}
@@ -420,7 +412,7 @@ export default function HomePage() {
                     {/* Career Milestone & Industry Benchmark */}
                     <div className="space-y-2.5 text-xs border-t border-slate-100 pt-3">
                       <div>
-                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                        <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">
                           Career Milestone
                         </span>
                         <span className="font-bold text-slate-900 text-[11px] block mt-0.5 leading-snug break-words min-h-[34px]">
@@ -429,7 +421,7 @@ export default function HomePage() {
                       </div>
 
                       <div>
-                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                        <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">
                           Industry Benchmark
                         </span>
                         <p className="font-bold text-slate-900 text-[11px] mt-0.5 leading-snug break-words min-h-[34px]">

@@ -21,7 +21,7 @@ export default function ControversiesSection({
           <span>{celebrityName}: Legal History &amp; Industry Disputes</span>
         </h2>
       </div>
-      <p className="text-sm text-slate-500 mb-8 leading-relaxed">
+      <p className="text-sm text-slate-600 mb-8 leading-relaxed">
         An objective, neutral journalistic overview of significant industry disputes, legal proceedings, public controversies, and subsequent career developments involving {celebrityName}.
       </p>
 
@@ -35,7 +35,7 @@ export default function ControversiesSection({
               <h3 className="font-bold text-slate-900 text-base sm:text-lg">
                 {item.incident}
               </h3>
-              <span className="font-mono text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md shrink-0 w-fit">
+              <span className="font-mono text-xs font-bold text-slate-700 bg-slate-100 px-2.5 py-1 rounded-md shrink-0 w-fit">
                 {item.year}
               </span>
             </div>

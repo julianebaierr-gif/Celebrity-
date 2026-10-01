@@ -62,10 +62,7 @@ export default function BlogIndexPage() {
               <div>
                 <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-slate-950 flex items-center justify-center">
                   {/* Ambient backdrop for letterbox spaces */}
-                  <div
-                    className="absolute inset-0 bg-cover bg-center blur-xl opacity-30 scale-110 pointer-events-none"
-                    style={{ backgroundImage: `url(${post.coverImage})` }}
-                  />
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.15)_0%,transparent_70%)] pointer-events-none" />
                   <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
 
                   <Image
@@ -84,7 +81,7 @@ export default function BlogIndexPage() {
                     </span>
                     <span>•</span>
                     <span className="flex items-center gap-1">
-                      <Calendar className="h-3 w-3 text-slate-400" />
+                      <Calendar className="h-3 w-3 text-slate-500" />
                       {new Date(post.publishedDate).toLocaleDateString("en-US", {
                         month: "short",
                         day: "numeric",
@@ -93,7 +90,7 @@ export default function BlogIndexPage() {
                     </span>
                     <span>•</span>
                     <span className="flex items-center gap-1">
-                      <Clock className="h-3 w-3 text-slate-400" />
+                      <Clock className="h-3 w-3 text-slate-500" />
                       {post.readingTimeMinutes} min read
                     </span>
                   </div>

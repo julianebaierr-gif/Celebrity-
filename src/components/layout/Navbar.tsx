@@ -67,7 +67,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden text-slate-600 hover:text-slate-900 p-2 rounded-lg border border-slate-200 hover:bg-slate-100"
+            className="md:hidden text-slate-600 hover:text-slate-900 p-2.5 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-lg border border-slate-200 hover:bg-slate-100"
             aria-label="Toggle navigation menu"
           >
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -77,7 +77,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-b border-slate-200 bg-white px-5 py-5 space-y-3.5 shadow-lg">
+        <div className="md:hidden border-b border-slate-200 bg-white px-5 py-5 space-y-2 shadow-lg">
           {/* Mobile live search */}
           <div className="sm:hidden pb-2">
             <InstantSearch onSelect={() => setMobileMenuOpen(false)} />
@@ -85,21 +85,21 @@ export default function Navbar() {
           <Link
             href="/"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
+            className="flex items-center text-sm font-semibold text-slate-700 hover:text-amber-600 min-h-[44px] px-2"
           >
             Home
           </Link>
           <Link
             href="/celebrities"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
+            className="flex items-center text-sm font-semibold text-slate-700 hover:text-amber-600 min-h-[44px] px-2"
           >
             All Celebrities
           </Link>
           <Link
             href="/compare"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
+            className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-amber-600 min-h-[44px] px-2"
           >
             <ArrowLeftRight className="h-4 w-4 text-amber-600" />
             <span>Compare Tool (Vs)</span>
@@ -107,21 +107,21 @@ export default function Navbar() {
           <Link
             href="/blog"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
+            className="flex items-center text-sm font-semibold text-slate-700 hover:text-amber-600 min-h-[44px] px-2"
           >
             Blog
           </Link>
           <Link
             href="/about"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
+            className="flex items-center text-sm font-semibold text-slate-700 hover:text-amber-600 min-h-[44px] px-2"
           >
             About
           </Link>
           <Link
             href="/contact"
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-semibold text-slate-700 hover:text-amber-600 py-1"
+            className="flex items-center text-sm font-semibold text-slate-700 hover:text-amber-600 min-h-[44px] px-2"
           >
             Contact
           </Link>

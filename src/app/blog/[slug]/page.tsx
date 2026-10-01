@@ -343,7 +343,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
             <div className="flex items-center gap-3 font-medium">
               <span className="flex items-center gap-1.5">
-                <Calendar className="h-3.5 w-3.5 text-slate-400" />
+                <Calendar className="h-3.5 w-3.5 text-slate-500" />
                 {new Date(post.publishedDate).toLocaleDateString("en-US", {
                   month: "long",
                   day: "numeric",
@@ -352,7 +352,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </span>
               <span>•</span>
               <span className="flex items-center gap-1.5">
-                <Clock className="h-3.5 w-3.5 text-slate-400" />
+                <Clock className="h-3.5 w-3.5 text-slate-500" />
                 {post.readingTimeMinutes} min read
               </span>
             </div>
@@ -364,11 +364,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <main className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-8">
         {/* Cover Image - 100% Full Uncropped Showcase */}
         <div className="relative w-full h-[380px] sm:h-[480px] md:h-[540px] rounded-3xl overflow-hidden border border-slate-200 bg-slate-950 mb-8 flex items-center justify-center shadow-md">
-          {/* Ambient soft blurred backdrop for letterbox spaces */}
-          <div
-            className="absolute inset-0 bg-cover bg-center blur-2xl opacity-35 scale-110 pointer-events-none"
-            style={{ backgroundImage: `url(${post.coverImage})` }}
-          />
+          {/* Ambient soft glow for letterbox spaces */}
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.12)_0%,transparent_70%)] pointer-events-none" />
           <div className="absolute inset-0 bg-slate-950/25 pointer-events-none" />
 
           {/* 100% Full Uncropped Image */}
@@ -378,6 +375,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               alt={post.title}
               fill
               priority
+              fetchPriority="high"
               sizes="(max-width: 1024px) 100vw, 896px"
               className="object-contain object-center z-10 drop-shadow-2xl"
             />
@@ -423,10 +421,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <figure key={idx} className="my-10 rounded-3xl overflow-hidden border border-slate-200/90 bg-white p-3 sm:p-5 shadow-xs">
                   <div className="relative w-full h-[420px] sm:h-[500px] md:h-[560px] rounded-2xl overflow-hidden bg-slate-950 flex items-center justify-center">
                     {/* Ambient subtle glow for letterbox area */}
-                    <div
-                      className="absolute inset-0 bg-cover bg-center blur-2xl opacity-30 scale-110 pointer-events-none"
-                      style={{ backgroundImage: `url(${src})` }}
-                    />
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.12)_0%,transparent_70%)] pointer-events-none" />
                     <div className="absolute inset-0 bg-slate-950/25 pointer-events-none" />
 
                     {/* 100% Full Uncropped Image */}
@@ -583,7 +578,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     {rPost.excerpt}
                   </p>
                 </div>
-                <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400 font-medium">
+                <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 font-medium">
                   <span>{rPost.readingTimeMinutes} min read</span>
                   <span className="text-amber-700 font-bold group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
                     Read Report &rarr;
@@ -609,7 +604,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </span>
               </div>
               <span className="text-slate-500 text-xs block mt-0.5">{post.author.role}</span>
-              <span className="text-[11px] text-slate-400 block mt-1">
+              <span className="text-[11px] text-slate-500 block mt-1">
                 Fact-checked under CelebLedger Zero-Rumor Editorial Standards.
               </span>
             </div>

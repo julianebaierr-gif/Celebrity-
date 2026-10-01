@@ -307,7 +307,7 @@ export default function ContactPage() {
               <p className="text-xs text-slate-300 leading-relaxed">
                 We vigorously protect journalistic source confidentiality under applicable state and federal Reporter&apos;s Shield Laws. For highly sensitive documentary submissions, do not contact us using corporate email networks or employer-owned devices.
               </p>
-              <div className="text-xs text-slate-400 font-mono space-y-1 pt-1">
+              <div className="text-xs text-slate-300 font-mono space-y-1 pt-1">
                 <div>Encrypted Secure Dispatch: tips@celebledger.com</div>
                 <div>PGP Fingerprint: 4E9A B102 89FC 341D 77EA 9980 BC41 62D9 1F08 A5E2</div>
               </div>
