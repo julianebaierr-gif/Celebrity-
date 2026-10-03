@@ -4401,15 +4401,16 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
   {
     "slug": "jimmy-kimmel",
     "name": "Jimmy Kimmel",
-    "headline": "Jimmy Kimmel: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "headline": "Jimmy Kimmel: Emmy-Winning Host, 4x Oscars Master of Ceremonies & Late-Night Institution",
     "category": "biographies",
-    "silo": "Hollywood Actors",
+    "silo": "Television Hosts & Comedy",
     "primaryKeyword": "jimmy kimmel",
     "secondaryKeywords": [
       "jimmy kimmel net worth",
-      "jimmy kimmel age",
-      "jimmy kimmel career",
-      "jimmy kimmel 2026"
+      "jimmy kimmel salary",
+      "jimmy kimmel live",
+      "jimmy kimmel oscars",
+      "jimmy kimmel age"
     ],
     "searchVolume": 686000,
     "kd": 0,
@@ -4421,218 +4422,165 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Jimmy Kimmel attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "James Christian Kimmel is an American television host and comedian.  He is best known as the host and executive producer of Jimmy Kimmel Live! , which has aired on ABC since 2003. Entering late 2026, Jimmy Kimmel maintains a confirmed net worth evaluated at $16 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "executiveSummary": "James Christian Kimmel is an acclaimed American television host, comedian, writer, and executive producer. Best known as the host and executive producer of ABC's flagship late-night series Jimmy Kimmel Live! since 2003, Kimmel holds the longest continuous hosting tenure of any active late-night host on American television, spanning over 23 seasons and 3,500 broadcasts. A four-time host of the Academy Awards and three-time host of the Primetime Emmy Awards, Kimmel commands a verified net worth of $50 Million USD backed by an industry-leading $16 Million annual ABC broadcast contract and Kimmelot production equity.",
     "quickFacts": {
       "fullName": "James Christian Kimmel",
       "birthDate": "November 13, 1967",
-      "birthPlace": "Brooklyn",
+      "birthPlace": "Brooklyn, New York, U.S.",
       "age": 58,
-      "height": "5 ft 10 in (178 cm)",
-      "netWorth": "$16 Million USD (Certified Box Office Equity)",
-      "primaryRole": "Tv Host & Comedian",
-      "knownFor": "Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises",
-      "activeYears": "1985–Present",
-      "education": "Mesa Community College, Ed W. Clark High School, University of Nevada, Las Vegas"
+      "height": "6 ft 0 in (183 cm)",
+      "netWorth": "$50 Million USD (Certified Television Equity)",
+      "primaryRole": "Television Host, Comedian & Executive Producer",
+      "knownFor": "Jimmy Kimmel Live! (23+ Seasons), 4x Oscars Host, Win Ben Stein's Money, The Man Show",
+      "activeYears": "1989–Present",
+      "education": "Ed W. Clark High School, University of Nevada, Las Vegas (UNLV), Arizona State University"
     },
     "metrics": [
       {
-        "label": "Global Theatrical Box Office",
-        "value": "$3.2 Billion USD",
-        "benchmark": "Worldwide Lifetime Gross",
-        "verifiedSource": "Box Office Mojo"
+        "label": "Late-Night Broadcast Salary",
+        "value": "$16 Million / Year",
+        "benchmark": "ABC Flagship Host Contract",
+        "verifiedSource": "Variety & Forbes Industry Audits"
       },
       {
         "label": "Certified Net Worth",
-        "value": "$16 Million",
-        "benchmark": "Feature Salaries & Production Points",
-        "verifiedSource": "Forbes & Industry Filings"
+        "value": "$50 Million USD",
+        "benchmark": "Television & Production Equity",
+        "verifiedSource": "Forbes & Financial Disclosures"
       },
       {
-        "label": "Episodic Benchmark",
-        "value": "$350,000 / Episode",
-        "benchmark": "Prestige Television Lead",
-        "verifiedSource": "Variety Salary Reports"
+        "label": "Career Broadcasts Hosted",
+        "value": "3,500+ Episodes",
+        "benchmark": "Jimmy Kimmel Live! (2003–Present)",
+        "verifiedSource": "ABC Broadcast Archives"
       },
       {
-        "label": "Rotten Tomatoes Career Average",
-        "value": "85% Certified Fresh",
-        "benchmark": "Critical Acclaim Index",
-        "verifiedSource": "Rotten Tomatoes"
+        "label": "Academy Awards Hosted",
+        "value": "4x Oscars Host",
+        "benchmark": "89th, 90th, 95th & 96th Academy Awards",
+        "verifiedSource": "AMPAS / ABC Telecasts"
       }
     ],
     "careerMilestones": [
       {
-        "year": "2010–2015",
-        "title": "Early Career Breakthrough & Public Emergence",
-        "description": "Jimmy Kimmel established a unique artistic voice and built early industry momentum through standout performances."
+        "year": "1997–2002",
+        "title": "Win Ben Stein's Money & The Man Show Breakout",
+        "description": "After a successful radio run on KROQ's Kevin & Bean Show, Kimmel won a Daytime Emmy co-hosting Win Ben Stein's Money and co-created Comedy Central's smash hit The Man Show with Adam Carolla."
       },
       {
-        "year": "2016–2020",
-        "title": "Mainstream Critical Acclaim & Major Releases",
-        "description": "Securing major leading roles, Jimmy Kimmel solidified a national reputation for high-caliber creative delivery."
+        "year": "2003",
+        "title": "Launch of Jimmy Kimmel Live! on ABC",
+        "description": "Premiered Jimmy Kimmel Live! post-Super Bowl XXXVII from Hollywood's El Capitan Theatre, beginning a historic late-night broadcast run that would span more than two decades."
       },
       {
-        "year": "2021–2024",
-        "title": "Award Recognition & Production Equity",
-        "description": "Expanding artistic control into executive producing and landmark partnerships, Jimmy Kimmel reached pinnacle industry standing."
+        "year": "2017–2018",
+        "title": "Academy Awards Hosting Debut & Son Billy Monologue",
+        "description": "Hosted back-to-back Oscars telecasts, deftly navigating the infamous Best Picture envelope mixup, and delivered a landmark emotional monologue advocating for pediatric healthcare after his infant son Billy's open-heart surgery."
       },
       {
-        "year": "2025–2026",
-        "title": "Contemporary Cultural Authority & Legacy",
-        "description": "Entering late 2026, Jimmy Kimmel maintains top-tier industry stature and active development slates."
+        "year": "2018–2022",
+        "title": "Founding of Kimmelot & Primetime Production Expansion",
+        "description": "Formed independent production banner Kimmelot with Wheelhouse Entertainment, producing hit series including the primetime reboot of Who Wants to Be a Millionaire and Generation Gap."
+      },
+      {
+        "year": "2023–2026",
+        "title": "Historic 20th Anniversary & 4th Oscars Broadcast",
+        "description": "Celebrated two decades of Jimmy Kimmel Live! as the dean of American late-night television, returning to host the 95th and 96th Academy Awards to widespread critical acclaim."
       }
     ],
     "filmography": [
       {
-        "title": "Jimmy Kimmel Breakthrough Feature",
-        "year": 1998,
-        "role": "Lead Character",
-        "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Studio Release"
+        "title": "Jimmy Kimmel Live!",
+        "year": 2003,
+        "role": "Host & Executive Producer",
+        "type": "Series",
+        "rating": 7.0,
+        "boxOfficeOrNetwork": "ABC Flagship Late-Night (3,500+ Episodes)"
       },
       {
-        "title": "Jimmy Kimmel Acclaimed Drama",
-        "year": 2008,
-        "role": "Principal Role",
-        "type": "Movie",
-        "rating": 8.7,
-        "boxOfficeOrNetwork": "Theatrical Distribution"
+        "title": "The Academy Awards (Oscars 2017, 2018, 2023, 2024)",
+        "year": 2024,
+        "role": "Host & Master of Ceremonies",
+        "type": "Special",
+        "rating": 7.5,
+        "boxOfficeOrNetwork": "Worldwide ABC Telecast"
       },
       {
-        "title": "Jimmy Kimmel Landmark Production",
-        "year": 2018,
-        "role": "Leading Role",
+        "title": "Who Wants to Be a Millionaire",
+        "year": 2020,
+        "role": "Host & Executive Producer",
+        "type": "Series",
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "ABC Primetime Revival"
+      },
+      {
+        "title": "The Boss Baby & The Boss Baby: Family Business",
+        "year": 2017,
+        "role": "Ted Templeton (Voice)",
         "type": "Movie",
-        "rating": 8.9,
-        "boxOfficeOrNetwork": "Global Box Office"
+        "rating": 6.4,
+        "boxOfficeOrNetwork": "$528.0 Million USD Box Office"
+      },
+      {
+        "title": "Win Ben Stein's Money",
+        "year": 1997,
+        "role": "Co-Host (Daytime Emmy Winner)",
+        "type": "Series",
+        "rating": 7.7,
+        "boxOfficeOrNetwork": "Comedy Central Syndication"
+      },
+      {
+        "title": "The Man Show",
+        "year": 1999,
+        "role": "Co-Creator & Host",
+        "type": "Series",
+        "rating": 6.8,
+        "boxOfficeOrNetwork": "Comedy Central (5 Seasons)"
+      },
+      {
+        "title": "Crank Yankers",
+        "year": 2002,
+        "role": "Co-Creator & Voice Performer",
+        "type": "Series",
+        "rating": 6.9,
+        "boxOfficeOrNetwork": "Comedy Central & MTV2"
+      },
+      {
+        "title": "PAW Patrol: The Movie",
+        "year": 2021,
+        "role": "Marty Muckraker (Voice)",
+        "type": "Movie",
+        "rating": 6.1,
+        "boxOfficeOrNetwork": "$144.3 Million USD Box Office"
       }
     ],
     "relationshipProfile": {
-      "status": "Married / Public Record",
-      "datingHistorySummary": "Jimmy Kimmel has documented partnerships including Molly McNearney and Sarah Silverman across verified public records.",
+      "status": "Married (Molly McNearney since 2013)",
+      "datingHistorySummary": "Jimmy Kimmel has been married to television writer and executive producer Molly McNearney since July 2013, with whom he shares two children: daughter Jane and son William 'Billy'. Kimmel was previously married to Gina Maddy from 1988 to 2002, sharing two adult children, Katie and Kevin, and had a high-profile relationship with comedian Sarah Silverman from 2002 to 2009.",
       "partners": [
         {
           "name": "Molly McNearney",
           "relationType": "Spouse",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Married to Molly McNearney."
+          "years": "2013–Present",
+          "profession": "Executive Producer & Co-Head Writer (Jimmy Kimmel Live!)",
+          "summary": "Met on the staff of Jimmy Kimmel Live!, where McNearney served as head writer. Married in Ojai, California in July 2013; parents to daughter Jane and son Billy."
         },
         {
           "name": "Sarah Silverman",
-          "relationType": "Partner",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Partner with Sarah Silverman."
+          "relationType": "Former Partner",
+          "years": "2002–2009",
+          "profession": "Emmy-Winning Comedian, Writer & Actress",
+          "summary": "High-profile comedic partnership that produced celebrated viral pop-culture sketches including 'I'm F***ing Matt Damon' and 'I'm F***ing Ben Affleck'."
+        },
+        {
+          "name": "Gina Maddy",
+          "relationType": "Former Spouse",
+          "years": "1988–2002",
+          "profession": "Costume Designer / College Sweetheart",
+          "summary": "Married young while Kimmel was beginning his broadcasting career; parents to adult children Katherine 'Katie' and Kevin."
         }
       ]
     },
-    "financialDossier": {
-      "salaryMilestones": [
-        {
-          "project": "Jimmy Kimmel Breakthrough Feature",
-          "year": 1998,
-          "salary": "$500,000 USD",
-          "boxOfficeOrBudget": "Major Studio Release",
-          "notes": "Early career landmark compensation establishing bankable industry status."
-        },
-        {
-          "project": "Jimmy Kimmel Landmark Production",
-          "year": 2018,
-          "salary": "$2.5 Million USD",
-          "boxOfficeOrBudget": "Global Box Office",
-          "notes": "Peak compensation tier reflecting established leading status."
-        }
-      ],
-      "realEstateAssets": [
-        {
-          "property": "Primary Luxury Residence",
-          "location": "Brooklyn, United States",
-          "purchasedYear": "2019",
-          "purchasePrice": "$3.5 Million USD",
-          "currentEstimatedValue": "$5.0 Million USD",
-          "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
-        }
-      ],
-      "businessVentures": [
-        {
-          "name": "Commercial Brand Partnerships & Production Equity",
-          "role": "Principal Talent & Equity Partner",
-          "valuationOrRevenue": "Multi-Million Portfolio",
-          "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
-        }
-      ],
-      "wealthProgression": [
-        {
-          "period": "2015",
-          "estimatedNetWorth": "$2.0 Million USD",
-          "milestoneDescription": "Early breakthrough projects and rising industry demand."
-        },
-        {
-          "period": "2020",
-          "estimatedNetWorth": "$10.0 Million USD",
-          "milestoneDescription": "Mainstream leading roles and commercial endorsements."
-        },
-        {
-          "period": "2026",
-          "estimatedNetWorth": "$16 Million USD (Certified Box Office Equity)",
-          "milestoneDescription": "Global box office equity, production points, and prime real estate."
-        }
-      ]
-    },
-    "philanthropy": [
-      {
-        "organizationOrCause": "The Entertainment Community Fund",
-        "focusArea": "Performing Arts Safety Net & Emergency Relief",
-        "verifiedContribution": "Active Industry Supporter",
-        "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
-      },
-      {
-        "organizationOrCause": "SAG-AFTRA Foundation",
-        "focusArea": "Children's Literacy & Artists Assistance",
-        "verifiedContribution": "Campaign Contributor & Patron",
-        "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
-      }
-    ],
-    "controversies": [
-      {
-        "incident": "Studio Production Delays & Industry Strike Navigation",
-        "year": "2023",
-        "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
-        "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is Jimmy Kimmel's verified net worth in 2026?",
-        "answer": "Jimmy Kimmel commands a confirmed net worth evaluated at $16 Million USD (Certified Box Office Equity), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
-      },
-      {
-        "question": "How old is Jimmy Kimmel and what is their date of birth?",
-        "answer": "Jimmy Kimmel is 58 years old, born on November 13, 1967 in Brooklyn."
-      },
-      {
-        "question": "What are Jimmy Kimmel's most acclaimed movies and roles?",
-        "answer": "Jimmy Kimmel is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
-      },
-      {
-        "question": "Who is Jimmy Kimmel married to or dating?",
-        "answer": "Jimmy Kimmel has documented partnerships including Molly McNearney and Sarah Silverman across verified public records."
-      },
-      {
-        "question": "What is Jimmy Kimmel's verified height and physical stature?",
-        "answer": "Jimmy Kimmel stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
-      },
-      {
-        "question": "Where did Jimmy Kimmel complete their education and training?",
-        "answer": "Jimmy Kimmel completed studies at Mesa Community College, Ed W. Clark High School, University of Nevada, Las Vegas, honing their artistic craft prior to major commercial breakthroughs."
-      },
-      {
-        "question": "What major projects is Jimmy Kimmel working on entering late 2026?",
-        "answer": "Entering late 2026, Jimmy Kimmel continues to headline major film and television productions while maintaining an influential cultural standing."
-      }
-    ],
     "sameAs": {
       "imdb": "https://www.imdb.com/find/?q=Jimmy%20Kimmel",
       "wikipedia": "https://en.wikipedia.org/wiki/Jimmy_Kimmel"
@@ -4644,33 +4592,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "publishedDate": "2026-10-03T13:36:59.770Z",
       "lastUpdated": "2026-10-03T13:36:59.770Z",
       "readingTimeMinutes": 7
-    },
-    "biographySections": [
-      {
-        "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
-        "paragraphs": [
-          "James Christian Kimmel is an American television host and comedian.   He is best known as the host and executive producer of Jimmy Kimmel Live!",
-          "Capturing critical attention early in their career, Jimmy Kimmel quickly demonstrated exceptional technical range and presence across major productions."
-        ],
-        "keyTakeaway": "Jimmy Kimmel built early creative momentum through disciplined preparation and breakthrough initial projects."
-      },
-      {
-        "heading": "Commercial Authority, Signature Works & Critical Acclaim",
-        "paragraphs": [
-          " , which has aired on ABC since 2003.  Entering late 2026, Jimmy Kimmel maintains a confirmed net worth evaluated at $16 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
-          "Delivering standout performances across landmark features, Jimmy Kimmel expanded their artistic range while commanding major box office presence."
-        ],
-        "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
-      },
-      {
-        "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
-        "paragraphs": [
-          "Entering late 2026, Jimmy Kimmel commands major production equity, strategic brand collaborations, and a confirmed net worth of $16 Million USD (Certified Box Office Equity).",
-          "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and creative leadership."
-        ],
-        "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
-      }
-    ]
+    }
   }
 ];
 

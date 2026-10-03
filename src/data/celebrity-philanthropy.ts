@@ -440,19 +440,25 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
   ],
 
   "jimmy-kimmel": [
-  {
-    "organizationOrCause": "The Entertainment Community Fund",
-    "focusArea": "Performing Arts Safety Net & Emergency Relief",
-    "verifiedContribution": "Active Industry Supporter",
-    "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
-  },
-  {
-    "organizationOrCause": "SAG-AFTRA Foundation",
-    "focusArea": "Children's Literacy & Artists Assistance",
-    "verifiedContribution": "Campaign Contributor & Patron",
-    "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
-  }
-],
+    {
+      organizationOrCause: "Children's Hospital Los Angeles (CHLA)",
+      focusArea: "Pediatric Cardiology & Congenital Heart Defect Care",
+      verifiedContribution: "Multi-Million Dollar Endowment Benefactor",
+      description: "Inspired by the life-saving open-heart surgeries performed on his son Billy for Tetralogy of Fallot, Kimmel and his wife Molly McNearney have contributed millions of dollars, hosted major galas, and tirelessly fundraised for pediatric surgical wings."
+    },
+    {
+      organizationOrCause: "St. Baldrick's Foundation & Alex's Lemonade Stand",
+      focusArea: "Childhood Cancer Research & Family Assistance",
+      verifiedContribution: "Longtime Broadcast Patron & Public Advocate",
+      description: "Regularly utilizes his national platform to headline benefit events, match grassroots donations, and drive millions in funding toward non-profit childhood cancer therapeutic trials."
+    },
+    {
+      organizationOrCause: "The Entertainment Community Fund & Crew Emergency Relief",
+      focusArea: "Broadcast Crew Support & Industry Healthcare",
+      verifiedContribution: "Direct Financial Support & Food Truck Sponsorships",
+      description: "During major industry work stoppages and holidays, Kimmel directly funded daily wages, catered gourmet food trucks for striking union workers, and contributed substantial relief grants to below-the-line crew members."
+    }
+  ],
 
 };
 

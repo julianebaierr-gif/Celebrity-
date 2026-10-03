@@ -260,13 +260,25 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
   ],
 
   "jimmy-kimmel": [
-  {
-    "incident": "Studio Production Delays & Industry Strike Navigation",
-    "year": "2023",
-    "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
-    "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
-  }
-],
+    {
+      incident: "The Man Show Early Era Retrospectives & 2020 Apology",
+      year: "2020",
+      resolutionOrOutcome: "In June 2020, Kimmel issued a sincere public apology addressing past recurring comedy sketches and celebrity impressions from his late-1990s radio and Comedy Central broadcasts, acknowledging that the dated material was regrettable and hurtful.",
+      impactAnalysis: "His transparent and reflective response was widely respected across the industry, reinforcing his credibility and evolving maturity as a late-night statesman."
+    },
+    {
+      incident: "The Two-Decade Mock Rivalry with Matt Damon",
+      year: "2005–Present",
+      resolutionOrOutcome: "Beginning spontaneously in 2005 with Kimmel's improvised sign-off 'Apologies to Matt Damon, we ran out of time', the mock feud escalated into an iconic cultural running gag featuring Emmy-winning viral music videos ('I'm F***ing Matt Damon') and memorable Oscars interruptions.",
+      impactAnalysis: "The playful rivalry became one of the most commercially successful comedic running bits in television history, driving hundreds of millions of digital views and cementing both stars' comedic legacies."
+    },
+    {
+      incident: "September 2025 Affiliate Preemption & Broadcast Reinstatement",
+      year: "2025",
+      resolutionOrOutcome: "Following sharp political commentary in his nightly monologue that sparked debate among broadcast affiliate groups, Disney and ABC briefly preempted the show before swiftly reinstating normal broadcasts the following week after Kimmel clarified his intentions.",
+      impactAnalysis: "The episode underscored Kimmel's fearlessness in addressing high-stakes national political discourse and affirmed ABC's enduring commitment to his late-night leadership."
+    }
+  ],
 
 };
 

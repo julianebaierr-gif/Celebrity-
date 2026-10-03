@@ -488,35 +488,35 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   ],
 
   "jimmy-kimmel": [
-  {
-    "question": "What is Jimmy Kimmel's verified net worth in 2026?",
-    "answer": "Jimmy Kimmel commands a confirmed net worth evaluated at $16 Million USD (Certified Box Office Equity), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
-  },
-  {
-    "question": "How old is Jimmy Kimmel and what is their date of birth?",
-    "answer": "Jimmy Kimmel is 58 years old, born on November 13, 1967 in Brooklyn."
-  },
-  {
-    "question": "What are Jimmy Kimmel's most acclaimed movies and roles?",
-    "answer": "Jimmy Kimmel is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
-  },
-  {
-    "question": "Who is Jimmy Kimmel married to or dating?",
-    "answer": "Jimmy Kimmel has documented partnerships including Molly McNearney and Sarah Silverman across verified public records."
-  },
-  {
-    "question": "What is Jimmy Kimmel's verified height and physical stature?",
-    "answer": "Jimmy Kimmel stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
-  },
-  {
-    "question": "Where did Jimmy Kimmel complete their education and training?",
-    "answer": "Jimmy Kimmel completed studies at Mesa Community College, Ed W. Clark High School, University of Nevada, Las Vegas, honing their artistic craft prior to major commercial breakthroughs."
-  },
-  {
-    "question": "What major projects is Jimmy Kimmel working on entering late 2026?",
-    "answer": "Entering late 2026, Jimmy Kimmel continues to headline major film and television productions while maintaining an influential cultural standing."
-  }
-],
+    {
+      "question": "What is Jimmy Kimmel's verified net worth and annual salary?",
+      "answer": "Entering 2026, Jimmy Kimmel commands a verified net worth of $50 Million USD. His primary income stream is an annual salary of $15 Million to $16 Million from ABC for hosting Jimmy Kimmel Live!, supplemented by executive producer royalties through his production company Kimmelot and extensive Southern California real estate equity."
+    },
+    {
+      "question": "How long has Jimmy Kimmel been hosting Jimmy Kimmel Live!?",
+      "answer": "Jimmy Kimmel has hosted Jimmy Kimmel Live! on ABC since January 26, 2003. Spanning over 23 seasons and more than 3,500 broadcasts, Kimmel holds the longest continuous tenure of any currently active late-night talk show host in the United States."
+    },
+    {
+      "question": "How many times has Jimmy Kimmel hosted the Oscars?",
+      "answer": "Jimmy Kimmel has hosted the Academy Awards four times: the 89th Oscars (2017), the 90th Oscars (2018), the 95th Oscars (2023), and the 96th Oscars (2024), establishing him among the most prolific live broadcast masters of ceremonies in Hollywood history."
+    },
+    {
+      "question": "Who is Jimmy Kimmel married to and who are his children?",
+      "answer": "Jimmy Kimmel has been married to writer and television producer Molly McNearney since July 2013. He has four children: daughter Katie and son Kevin from his first marriage to Gina Maddy (1988–2002), and daughter Jane (born 2014) and son William 'Billy' (born 2017) with McNearney."
+    },
+    {
+      "question": "What is the story behind Jimmy Kimmel's son Billy and his healthcare advocacy?",
+      "answer": "In May 2017, Kimmel's son Billy was born with a rare congenital heart defect called Tetralogy of Fallot with pulmonary atresia. Kimmel delivered an emotional, widely praised monologue describing his son's successful emergency open-heart surgeries at Children's Hospital Los Angeles, transforming him into a passionate national advocate for pediatric healthcare funding and insurance protections."
+    },
+    {
+      "question": "What is the origin of the Jimmy Kimmel and Matt Damon feud?",
+      "answer": "The famous mock rivalry began spontaneously in 2005 during a lackluster episode of Jimmy Kimmel Live!, when Kimmel playfully ended the broadcast by saying, 'Apologies to Matt Damon, we ran out of time.' The ad-libbed joke evolved into an iconic two-decade cultural running gag featuring Emmy-winning musical parody sketches and Oscars interruptions."
+    },
+    {
+      "question": "Where does Jimmy Kimmel tape his show and where does he live?",
+      "answer": "Jimmy Kimmel Live! is taped before a live studio audience at the historic El Capitan Entertainment Centre on Hollywood Boulevard in Los Angeles. Kimmel resides in a private, custom luxury compound in the coastal community of Hermosa Beach, California."
+    }
+  ],
 
 };
 

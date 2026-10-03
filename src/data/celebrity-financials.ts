@@ -2029,58 +2029,98 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   },
 
   "jimmy-kimmel": {
-  "salaryMilestones": [
-    {
-      "project": "Jimmy Kimmel Breakthrough Feature",
-      "year": 1998,
-      "salary": "$500,000 USD",
-      "boxOfficeOrBudget": "Major Studio Release",
-      "notes": "Early career landmark compensation establishing bankable industry status."
-    },
-    {
-      "project": "Jimmy Kimmel Landmark Production",
-      "year": 2018,
-      "salary": "$2.5 Million USD",
-      "boxOfficeOrBudget": "Global Box Office",
-      "notes": "Peak compensation tier reflecting established leading status."
-    }
-  ],
-  "realEstateAssets": [
-    {
-      "property": "Primary Luxury Residence",
-      "location": "Brooklyn, United States",
-      "purchasedYear": "2019",
-      "purchasePrice": "$3.5 Million USD",
-      "currentEstimatedValue": "$5.0 Million USD",
-      "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
-    }
-  ],
-  "businessVentures": [
-    {
-      "name": "Commercial Brand Partnerships & Production Equity",
-      "role": "Principal Talent & Equity Partner",
-      "valuationOrRevenue": "Multi-Million Portfolio",
-      "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
-    }
-  ],
-  "wealthProgression": [
-    {
-      "period": "2015",
-      "estimatedNetWorth": "$2.0 Million USD",
-      "milestoneDescription": "Early breakthrough projects and rising industry demand."
-    },
-    {
-      "period": "2020",
-      "estimatedNetWorth": "$10.0 Million USD",
-      "milestoneDescription": "Mainstream leading roles and commercial endorsements."
-    },
-    {
-      "period": "2026",
-      "estimatedNetWorth": "$16 Million USD (Certified Box Office Equity)",
-      "milestoneDescription": "Global box office equity, production points, and prime real estate."
-    }
-  ]
-},
+    "salaryMilestones": [
+      {
+        "project": "Jimmy Kimmel Live! (Current ABC Contract)",
+        "year": 2024,
+        "salary": "$15.0M – $16.0M / Year",
+        "boxOfficeOrBudget": "Flagship ABC Late-Night Franchise",
+        "notes": "Premier late-night broadcast contract granting executive producer points and international digital distribution rights."
+      },
+      {
+        "project": "Jimmy Kimmel Live! (Contract Escalation)",
+        "year": 2016,
+        "salary": "$12.0 Million USD / Year",
+        "boxOfficeOrBudget": "ABC Multi-Year Extension",
+        "notes": "Renegotiated agreement solidifying his position among television's highest-paid personalities."
+      },
+      {
+        "project": "The Academy Awards (Oscars 2017, 2018, 2023, 2024)",
+        "year": 2024,
+        "salary": "$15,000 / Broadcast",
+        "boxOfficeOrBudget": "Worldwide Live Telecast",
+        "notes": "Union standard scale payment for hosting Hollywood's biggest live broadcast night."
+      },
+      {
+        "project": "Who Wants to Be a Millionaire (ABC Primetime)",
+        "year": 2020,
+        "salary": "$2.5 Million USD / Season",
+        "boxOfficeOrBudget": "Primetime Game Show Revival",
+        "notes": "Combined hosting and executive producer compensation package through Kimmelot."
+      },
+      {
+        "project": "The Man Show & Win Ben Stein's Money",
+        "year": 2000,
+        "salary": "$40,000 / Episode",
+        "boxOfficeOrBudget": "Comedy Central Syndication",
+        "notes": "Early television breakthrough contracts that laid the foundation for his broadcast network transition."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Hermosa Beach Custom Oceanfront Compound",
+        "location": "Hermosa Beach, California",
+        "purchasedYear": "2018",
+        "purchasePrice": "$8.0 Million USD (Combined Parcels)",
+        "currentEstimatedValue": "$12.5 Million USD",
+        "description": "Custom modern coastal retreat boasting panoramic Pacific views, expansive outdoor entertaining spaces, and commercial-grade pizza kitchen."
+      },
+      {
+        "property": "Hermosa Beach Second Home",
+        "location": "Hermosa Beach, California",
+        "purchasedYear": "2020",
+        "purchasePrice": "$7.1 Million USD",
+        "currentEstimatedValue": "$8.5 Million USD",
+        "description": "Luxury South Bay residential holding situated steps from the Strand, retained for family and visiting guests."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "Kimmelot Production Company",
+        "role": "Founder & Principal Equity Partner",
+        "valuationOrRevenue": "$25.0 Million Enterprise Value",
+        "description": "Production studio formed in 2018 in partnership with Wheelhouse Entertainment, producing Who Wants to Be a Millionaire, Generation Gap, and digital series."
+      },
+      {
+        "name": "Jimmy Kimmel Live! YouTube & Digital Streaming Pool",
+        "role": "Executive Producer & Royalty Participant",
+        "valuationOrRevenue": "19M+ Subscribers / Multi-Million DSP Revenue",
+        "description": "Massive global digital ecosystem generating tens of millions of monthly views through viral segments like Celebrities Read Mean Tweets."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2003",
+        "estimatedNetWorth": "$3.0 Million USD",
+        "milestoneDescription": "Debut of Jimmy Kimmel Live! following Comedy Central syndication success."
+      },
+      {
+        "period": "2012",
+        "estimatedNetWorth": "$18.0 Million USD",
+        "milestoneDescription": "ABC contract escalation and initial South Bay luxury real estate acquisitions."
+      },
+      {
+        "period": "2018",
+        "estimatedNetWorth": "$35.0 Million USD",
+        "milestoneDescription": "Dual Oscars hosting triumphs, signature ABC extension, and launch of Kimmelot production company."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$50.0 Million USD",
+        "milestoneDescription": "Historic 23-season late-night dominance, premier $16M annual salary, and prime coastal California real estate."
+      }
+    ]
+  },
 
 };
 
