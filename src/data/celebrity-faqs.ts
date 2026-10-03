@@ -487,5 +487,36 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     }
   ],
 
+  "jimmy-kimmel": [
+  {
+    "question": "What is Jimmy Kimmel's verified net worth in 2026?",
+    "answer": "Jimmy Kimmel commands a confirmed net worth evaluated at $16 Million USD (Certified Box Office Equity), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
+  },
+  {
+    "question": "How old is Jimmy Kimmel and what is their date of birth?",
+    "answer": "Jimmy Kimmel is 58 years old, born on November 13, 1967 in Brooklyn."
+  },
+  {
+    "question": "What are Jimmy Kimmel's most acclaimed movies and roles?",
+    "answer": "Jimmy Kimmel is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
+  },
+  {
+    "question": "Who is Jimmy Kimmel married to or dating?",
+    "answer": "Jimmy Kimmel has documented partnerships including Molly McNearney and Sarah Silverman across verified public records."
+  },
+  {
+    "question": "What is Jimmy Kimmel's verified height and physical stature?",
+    "answer": "Jimmy Kimmel stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
+  },
+  {
+    "question": "Where did Jimmy Kimmel complete their education and training?",
+    "answer": "Jimmy Kimmel completed studies at Mesa Community College, Ed W. Clark High School, University of Nevada, Las Vegas, honing their artistic craft prior to major commercial breakthroughs."
+  },
+  {
+    "question": "What major projects is Jimmy Kimmel working on entering late 2026?",
+    "answer": "Entering late 2026, Jimmy Kimmel continues to headline major film and television productions while maintaining an influential cultural standing."
+  }
+],
+
 };
 

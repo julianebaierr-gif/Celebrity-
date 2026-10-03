@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 24,
-  "lastUpdated": "2026-10-01T14:16:59.537Z",
+  "totalLocked": 25,
+  "lastUpdated": "2026-10-03T13:36:59.787Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -353,6 +353,20 @@
         "val kilmer age",
         "val kilmer career",
         "val kilmer 2026"
+      ]
+    },
+    {
+      "keyword": "jimmy kimmel",
+      "slug": "jimmy-kimmel",
+      "name": "Jimmy Kimmel",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://celebledger.com/celebrity/jimmy-kimmel",
+      "publishedAt": "2026-10-03 13:36:59",
+      "associatedTags": [
+        "jimmy kimmel net worth",
+        "jimmy kimmel age",
+        "jimmy kimmel career",
+        "jimmy kimmel 2026"
       ]
     }
   ],

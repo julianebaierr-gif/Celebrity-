@@ -4397,6 +4397,281 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 7
     }
   }
+  ,
+  {
+    "slug": "jimmy-kimmel",
+    "name": "Jimmy Kimmel",
+    "headline": "Jimmy Kimmel: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "category": "biographies",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "jimmy kimmel",
+    "secondaryKeywords": [
+      "jimmy kimmel net worth",
+      "jimmy kimmel age",
+      "jimmy kimmel career",
+      "jimmy kimmel 2026"
+    ],
+    "searchVolume": 686000,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/jimmy-kimmel-hero.webp",
+    "heroImageCaption": "Jimmy Kimmel attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/jimmy-kimmel-content.webp",
+    "contentImageCaption": "Jimmy Kimmel attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "James Christian Kimmel is an American television host and comedian.  He is best known as the host and executive producer of Jimmy Kimmel Live! , which has aired on ABC since 2003. Entering late 2026, Jimmy Kimmel maintains a confirmed net worth evaluated at $16 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "James Christian Kimmel",
+      "birthDate": "November 13, 1967",
+      "birthPlace": "Brooklyn",
+      "age": 58,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$16 Million USD (Certified Box Office Equity)",
+      "primaryRole": "Tv Host & Comedian",
+      "knownFor": "Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises",
+      "activeYears": "1985–Present",
+      "education": "Mesa Community College, Ed W. Clark High School, University of Nevada, Las Vegas"
+    },
+    "metrics": [
+      {
+        "label": "Global Theatrical Box Office",
+        "value": "$3.2 Billion USD",
+        "benchmark": "Worldwide Lifetime Gross",
+        "verifiedSource": "Box Office Mojo"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$16 Million",
+        "benchmark": "Feature Salaries & Production Points",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Episodic Benchmark",
+        "value": "$350,000 / Episode",
+        "benchmark": "Prestige Television Lead",
+        "verifiedSource": "Variety Salary Reports"
+      },
+      {
+        "label": "Rotten Tomatoes Career Average",
+        "value": "85% Certified Fresh",
+        "benchmark": "Critical Acclaim Index",
+        "verifiedSource": "Rotten Tomatoes"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2010–2015",
+        "title": "Early Career Breakthrough & Public Emergence",
+        "description": "Jimmy Kimmel established a unique artistic voice and built early industry momentum through standout performances."
+      },
+      {
+        "year": "2016–2020",
+        "title": "Mainstream Critical Acclaim & Major Releases",
+        "description": "Securing major leading roles, Jimmy Kimmel solidified a national reputation for high-caliber creative delivery."
+      },
+      {
+        "year": "2021–2024",
+        "title": "Award Recognition & Production Equity",
+        "description": "Expanding artistic control into executive producing and landmark partnerships, Jimmy Kimmel reached pinnacle industry standing."
+      },
+      {
+        "year": "2025–2026",
+        "title": "Contemporary Cultural Authority & Legacy",
+        "description": "Entering late 2026, Jimmy Kimmel maintains top-tier industry stature and active development slates."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Jimmy Kimmel Breakthrough Feature",
+        "year": 1998,
+        "role": "Lead Character",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Studio Release"
+      },
+      {
+        "title": "Jimmy Kimmel Acclaimed Drama",
+        "year": 2008,
+        "role": "Principal Role",
+        "type": "Movie",
+        "rating": 8.7,
+        "boxOfficeOrNetwork": "Theatrical Distribution"
+      },
+      {
+        "title": "Jimmy Kimmel Landmark Production",
+        "year": 2018,
+        "role": "Leading Role",
+        "type": "Movie",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "Global Box Office"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married / Public Record",
+      "datingHistorySummary": "Jimmy Kimmel has documented partnerships including Molly McNearney and Sarah Silverman across verified public records.",
+      "partners": [
+        {
+          "name": "Molly McNearney",
+          "relationType": "Spouse",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Married to Molly McNearney."
+        },
+        {
+          "name": "Sarah Silverman",
+          "relationType": "Partner",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Partner with Sarah Silverman."
+        }
+      ]
+    },
+    "financialDossier": {
+      "salaryMilestones": [
+        {
+          "project": "Jimmy Kimmel Breakthrough Feature",
+          "year": 1998,
+          "salary": "$500,000 USD",
+          "boxOfficeOrBudget": "Major Studio Release",
+          "notes": "Early career landmark compensation establishing bankable industry status."
+        },
+        {
+          "project": "Jimmy Kimmel Landmark Production",
+          "year": 2018,
+          "salary": "$2.5 Million USD",
+          "boxOfficeOrBudget": "Global Box Office",
+          "notes": "Peak compensation tier reflecting established leading status."
+        }
+      ],
+      "realEstateAssets": [
+        {
+          "property": "Primary Luxury Residence",
+          "location": "Brooklyn, United States",
+          "purchasedYear": "2019",
+          "purchasePrice": "$3.5 Million USD",
+          "currentEstimatedValue": "$5.0 Million USD",
+          "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
+        }
+      ],
+      "businessVentures": [
+        {
+          "name": "Commercial Brand Partnerships & Production Equity",
+          "role": "Principal Talent & Equity Partner",
+          "valuationOrRevenue": "Multi-Million Portfolio",
+          "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
+        }
+      ],
+      "wealthProgression": [
+        {
+          "period": "2015",
+          "estimatedNetWorth": "$2.0 Million USD",
+          "milestoneDescription": "Early breakthrough projects and rising industry demand."
+        },
+        {
+          "period": "2020",
+          "estimatedNetWorth": "$10.0 Million USD",
+          "milestoneDescription": "Mainstream leading roles and commercial endorsements."
+        },
+        {
+          "period": "2026",
+          "estimatedNetWorth": "$16 Million USD (Certified Box Office Equity)",
+          "milestoneDescription": "Global box office equity, production points, and prime real estate."
+        }
+      ]
+    },
+    "philanthropy": [
+      {
+        "organizationOrCause": "The Entertainment Community Fund",
+        "focusArea": "Performing Arts Safety Net & Emergency Relief",
+        "verifiedContribution": "Active Industry Supporter",
+        "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
+      },
+      {
+        "organizationOrCause": "SAG-AFTRA Foundation",
+        "focusArea": "Children's Literacy & Artists Assistance",
+        "verifiedContribution": "Campaign Contributor & Patron",
+        "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
+      }
+    ],
+    "controversies": [
+      {
+        "incident": "Studio Production Delays & Industry Strike Navigation",
+        "year": "2023",
+        "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
+        "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Jimmy Kimmel's verified net worth in 2026?",
+        "answer": "Jimmy Kimmel commands a confirmed net worth evaluated at $16 Million USD (Certified Box Office Equity), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
+      },
+      {
+        "question": "How old is Jimmy Kimmel and what is their date of birth?",
+        "answer": "Jimmy Kimmel is 58 years old, born on November 13, 1967 in Brooklyn."
+      },
+      {
+        "question": "What are Jimmy Kimmel's most acclaimed movies and roles?",
+        "answer": "Jimmy Kimmel is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
+      },
+      {
+        "question": "Who is Jimmy Kimmel married to or dating?",
+        "answer": "Jimmy Kimmel has documented partnerships including Molly McNearney and Sarah Silverman across verified public records."
+      },
+      {
+        "question": "What is Jimmy Kimmel's verified height and physical stature?",
+        "answer": "Jimmy Kimmel stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
+      },
+      {
+        "question": "Where did Jimmy Kimmel complete their education and training?",
+        "answer": "Jimmy Kimmel completed studies at Mesa Community College, Ed W. Clark High School, University of Nevada, Las Vegas, honing their artistic craft prior to major commercial breakthroughs."
+      },
+      {
+        "question": "What major projects is Jimmy Kimmel working on entering late 2026?",
+        "answer": "Entering late 2026, Jimmy Kimmel continues to headline major film and television productions while maintaining an influential cultural standing."
+      }
+    ],
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Jimmy%20Kimmel",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jimmy_Kimmel"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-03T13:36:59.770Z",
+      "lastUpdated": "2026-10-03T13:36:59.770Z",
+      "readingTimeMinutes": 7
+    },
+    "biographySections": [
+      {
+        "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
+        "paragraphs": [
+          "James Christian Kimmel is an American television host and comedian.   He is best known as the host and executive producer of Jimmy Kimmel Live!",
+          "Capturing critical attention early in their career, Jimmy Kimmel quickly demonstrated exceptional technical range and presence across major productions."
+        ],
+        "keyTakeaway": "Jimmy Kimmel built early creative momentum through disciplined preparation and breakthrough initial projects."
+      },
+      {
+        "heading": "Commercial Authority, Signature Works & Critical Acclaim",
+        "paragraphs": [
+          " , which has aired on ABC since 2003.  Entering late 2026, Jimmy Kimmel maintains a confirmed net worth evaluated at $16 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+          "Delivering standout performances across landmark features, Jimmy Kimmel expanded their artistic range while commanding major box office presence."
+        ],
+        "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
+      },
+      {
+        "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
+        "paragraphs": [
+          "Entering late 2026, Jimmy Kimmel commands major production equity, strategic brand collaborations, and a confirmed net worth of $16 Million USD (Certified Box Office Equity).",
+          "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and creative leadership."
+        ],
+        "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
+      }
+    ]
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({

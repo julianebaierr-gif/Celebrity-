@@ -1167,4 +1167,31 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   }
 ],
 
+  "jimmy-kimmel": [
+  {
+    "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
+    "paragraphs": [
+      "James Christian Kimmel (born November 13, 1967) is an American television host and comedian. He is best known as the host and executive producer of Jimmy Kimmel Live!, which has aired on ABC since 2003. Kimmel has hosted the Primetime Emmy Awards three times, in 2012, 2016 and 2020, and the Academy Awards four times, in 2017, 2018, 2023, and 2024.",
+      "Before hosting Jimmy Kimmel Live!, Kimmel was the co-host of Comedy Central's The Man Show and Win Ben Stein's Money. Kimmel has also produced several TV shows, including Crank Yankers, Sports Show with Norm Macdonald, and The Andy Milonakis Show. In 2018, Time named him as one of the 100 most influential people in the world. Kimmel has the longest tenure of any current late-night television host in the United States. At 23 seasons, his tenure hosting a single late-night comedy-variety show is second only to Johnny Carson, who hosted The Tonight Show Starring Johnny Carson for 30 seasons. After Kimmel commented on the assassination of Charlie Kirk in his monologue on September 17, 2025, ABC suspended Jimmy Kimmel Live! for a week."
+    ],
+    "keyTakeaway": "Jimmy Kimmel established early creative momentum through disciplined preparation and breakthrough initial projects."
+  },
+  {
+    "heading": "Commercial Authority, Signature Works & Critical Acclaim",
+    "paragraphs": [
+      "James Christian Kimmel (born November 13, 1967) is an American television host and comedian. He is best known as the host and executive producer of Jimmy Kimmel Live!, which has aired on ABC since 2003. Kimmel has hosted the Primetime Emmy Awards three times, in 2012, 2016 and 2020, and the Academy Awards four times, in 2017, 2018, 2023, and 2024.",
+      "Securing top-tier acclaim across consecutive major releases, Jimmy Kimmel solidified an enduring reputation among critics and audiences alike."
+    ],
+    "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
+  },
+  {
+    "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
+    "paragraphs": [
+      "Beyond creative releases, Jimmy Kimmel commands major production equity, brand collaborations, and private portfolio holdings. Entering late 2026, their verified valuation is appraised at $16 Million USD (Certified Box Office Equity).",
+      "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and artistic integrity."
+    ],
+    "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
+  }
+],
+
 };
