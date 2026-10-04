@@ -412,6 +412,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
+        "year": "2026",
+        "title": "28 Years Later Trilogy Return Confirmed",
+        "description": "Danny Boyle officially confirmed Murphy's major headline return as Jim for '28 Years Later: The Bone Temple' / Part 3, completing the legendary post-apocalyptic cinematic saga."
+      },
+      {
         "year": "2002",
         "title": "28 Days Later Breakthrough",
         "description": "Starred in Danny Boyle's landmark post-apocalyptic thriller, launching his international film profile."
@@ -567,6 +572,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "Second On Footwear & Apparel Co-Creation Drop",
+        "description": "Launched her second co-created footwear and lifestyle apparel capsule with Swiss sportswear brand On, backed by an action-cinema inspired global campaign styled by Law Roach."
+      },
       {
         "year": "2017",
         "title": "Spider-Man & Musical Breakthrough",
@@ -726,6 +736,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
+        "year": "2026",
+        "title": "Animals Los Angeles Red Carpet Premiere",
+        "description": "Attended the star-studded Los Angeles premiere of crime thriller 'Animals', starring Damon and directed by long-time creative partner Ben Affleck for Netflix."
+      },
+      {
         "year": "1997",
         "title": "Good Will Hunting Triumph",
         "description": "Won the Academy Award for Best Original Screenplay alongside Ben Affleck, earning worldwide acclaim."
@@ -882,6 +897,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
+        "year": "2026",
+        "title": "SNL Cameo & All-Time VMA Record Benchmark",
+        "description": "Made surprise appearance during Saturday Night Live Season 50 while solidifying her standing as the all-time most decorated solo recipient in MTV Video Music Awards history."
+      },
+      {
         "year": "2023",
         "title": "Travis Kelce Relationship Public Debut",
         "description": "Swift's appearance at NFL games sparked an unprecedented bridge between music and professional sports."
@@ -1026,6 +1046,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "Behemoth! Newport Beach Premiere & Acclaim",
+        "description": "Headlined Tony Gilroy's musical drama 'Behemoth!' as closing film of the Newport Beach Film Festival, earning widespread critical acclaim for his dedicated cello performance."
+      },
       {
         "year": "2014",
         "title": "Game of Thrones (Oberyn Martell)",
@@ -1380,6 +1405,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "SCAD Savannah Film Festival Honors",
+        "description": "Received premier Career Spotlight and Lifetime Achievement recognition at the 2026 SCAD Savannah Film Festival, celebrating four decades of pioneering sci-fi and action cinema."
+      },
       {
         "year": "1994",
         "title": "Speed Action Stardom",
@@ -1919,6 +1949,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
+        "year": "2026",
+        "title": "Wednesday Season 3 Production Wrap",
+        "description": "Concluded principal photography on 'Wednesday' Season 3 in Ireland, with Netflix showcasing high-anticipation teasers as Ortega expands executive producer duties."
+      },
+      {
         "year": "2021",
         "title": "The Fallout Acclaim",
         "description": "Delivered a devastating, nuanced dramatic performance in Megan Park's SXSW Grand Jury Prize winner."
@@ -2259,6 +2294,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
+        "year": "2026",
+        "title": "Fred Astaire Biopic Casting Advancement",
+        "description": "Advanced pre-production on Sony and Pascal Pictures' highly anticipated Fred Astaire biopic, with Talia Ryder joining the ensemble opposite Holland's leading performance."
+      },
+      {
         "year": "2008",
         "title": "West End Breakthrough",
         "description": "Cast in 'Billy Elliot The Musical' at London's Victoria Palace Theatre after two years of rigorous ballet training."
@@ -2439,6 +2479,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "Billboard Hall of Fame Award Honor",
+        "description": "Selected to receive the prestigious Billboard Hall of Fame Award at the 2026 Billboard Latin Music Awards, honoring her revolutionary global flamenco-pop career and cultural influence."
+      },
       {
         "year": "2018",
         "title": "El Mal Querer Masterpiece",
@@ -2781,6 +2826,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "Landman Season 3 Production Kickoff",
+        "description": "Commenced principal photography on Season 3 of Taylor Sheridan's Paramount+ hit 'Landman' across Texas, commanding lead performance as Tommy Norris."
+      },
       {
         "year": "1996",
         "title": "Sling Blade Academy Award Triumph",
@@ -3207,6 +3257,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "HABIBTI (FOMO) Deluxe Release",
+        "description": "Released the expanded four-track deluxe edition of 'HABIBTI (FOMO)', confirming extensive upcoming streaming drops and reinforcing his Billboard Hot 100 leadership."
+      },
       {
         "year": "2009–2010",
         "title": "So Far Gone & Thank Me Later Breakthrough",
@@ -4264,6 +4319,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
+        "year": "2026",
+        "title": "As Deep as the Grave Trailer Unveil",
+        "description": "Featured in the newly released official trailer for 'As Deep as the Grave', utilizing state-of-the-art AI vocal reconstruction licensed and overseen by his creative estate."
+      },
+      {
         "year": "1984–1986",
         "title": "Comedy Debuts & Global Stardom as Iceman",
         "description": "After graduating from Juilliard as its youngest drama student at the time, Kilmer made his feature debut in Top Secret! (1984) and achieved international stardom opposite Tom Cruise as LT Tom 'Iceman' Kazansky in Top Gun (1986)."
@@ -4462,6 +4522,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "Brooklyn Academy of Music Residency Taping",
+        "description": "Wrapped a celebrated week of high-energy New York City broadcasts from the Brooklyn Academy of Music featuring guests Jon Stewart and Paul McCartney."
+      },
       {
         "year": "1997–2002",
         "title": "Win Ben Stein's Money & The Man Show Breakout",
