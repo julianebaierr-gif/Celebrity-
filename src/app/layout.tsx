@@ -101,10 +101,26 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
       <head>
+        {/* Google AdSense */}
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2350272227833258"
           crossOrigin="anonymous"
+        />
+        {/* Google Analytics (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-GJRMVZ94D2"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GJRMVZ94D2');
+            `,
+          }}
         />
       </head>
       <body className="min-h-full flex flex-col bg-neutral-950 text-neutral-100 font-sans selection:bg-amber-500 selection:text-neutral-950">
