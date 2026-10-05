@@ -49,6 +49,7 @@ export const metadata: Metadata = {
     google: "q2emKewZlbhbSRbaQl44k4BqviYm0__f4ki9sdtRan0",
     other: {
       "msvalidate.01": "98533D5A610C8BB068BDE589D75E9C6F",
+      "google-adsense-account": "ca-pub-2350272227833258",
     },
   },
   icons: {
@@ -99,6 +100,13 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2350272227833258"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-neutral-950 text-neutral-100 font-sans selection:bg-amber-500 selection:text-neutral-950">
         <Navbar />
         <main className="flex-1">{children}</main>
