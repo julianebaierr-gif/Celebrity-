@@ -520,32 +520,36 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
 
   "dakota-johnson": [
     {
-      "question": "What is Dakota Johnson's verified net worth in 2026?",
-      "answer": "Dakota Johnson commands a certified net worth of $14.0 Million USD. Her wealth is built on starring roles in the $1.3B Fifty Shades trilogy, a $5 Million upfront studio salary for Madame Web, equity in her production company TeaTime Pictures, and multi-year luxury partnerships including Gucci."
+      "question": "How much is Dakota Johnson worth and what is her verified net worth in 2026?",
+      "answer": "Dakota Johnson commands a verified net worth of $14.0 Million USD entering 2026. For readers asking how much Dakota Johnson is worth or researching Dakota Johnson net worth milestones, her fortune originates from her starring role as Anastasia Steele across the $1.325B Fifty Shades franchise, a $5 Million upfront studio salary for Madame Web, executive equity in her production company TeaTime Pictures, and lucrative multi-year global endorsements including Gucci."
     },
     {
       "question": "How old is Dakota Johnson and when was she born?",
-      "answer": "Dakota Johnson is 37 years old. She was born on October 4, 1989, in Austin, Texas."
+      "answer": "Dakota Johnson is 37 years old as of 2026. She was born on October 4, 1989, in Austin, Texas. Fans inquiring how old Dakota is should note she began professional acting and modeling during her late teens before breaking out as a major Hollywood headliner in her mid-twenties."
     },
     {
-      "question": "Who are Dakota Johnson's famous parents and family members?",
-      "answer": "Dakota Johnson belongs to Hollywood dynasty: her parents are Golden Globe winner Don Johnson (Miami Vice) and Academy Award nominee Melanie Griffith (Working Girl). Her maternal grandmother is Hitchcock screen icon Tippi Hedren (The Birds), and actor Antonio Banderas was her stepfather."
+      "question": "What movies has Dakota Johnson played in and what movies does she play in?",
+      "answer": "Fans exploring what movies Dakota Johnson has played in or seeking a comprehensive guide to films with Dakota Johnson will find a versatile filmography spanning studio blockbusters and auteur indies: the Fifty Shades trilogy (Fifty Shades of Grey, Fifty Shades Darker, Fifty Shades Freed); Luca Guadagnino's Suspiria and A Bigger Splash; Scott Cooper's Black Mass; Maggie Gyllenhaal's The Lost Daughter; The Peanut Butter Falcon; Cha Cha Real Smooth; Am I OK?; Daddio; Sony/Marvel's Madame Web; Celine Song's Materialists (2025); and the 2026 psychological thriller Verity alongside Anne Hathaway."
     },
     {
-      "question": "What are Dakota Johnson's most famous movies and breakthrough roles?",
-      "answer": "Dakota Johnson's most prominent works include portraying Anastasia Steele in the Fifty Shades trilogy (2015–2018), Susie Bannion in Luca Guadagnino's Suspiria (2018), Nina in Maggie Gyllenhaal's The Lost Daughter (2021), Eleanor in The Peanut Butter Falcon (2019), Domino in Cha Cha Real Smooth (2022), and Cassandra Webb in Madame Web (2024)."
+      "question": "Who plays Anastasia Steele in Fifty Shades of Grey?",
+      "answer": "Dakota Johnson plays Anastasia Steele across the entire Fifty Shades cinematic trilogy: Fifty Shades of Grey (widely searched as 50 shades of grey), Fifty Shades Darker (2017), and Fifty Shades Freed (2018). Starring opposite Jamie Dornan, Johnson's performance propelled Dakota Johnson fifty shades into a $1.325 Billion worldwide cultural phenomenon and earned her a BAFTA Rising Star Award nomination."
     },
     {
-      "question": "Who is Dakota Johnson currently dating?",
-      "answer": "Dakota Johnson has been in a long-term relationship with Coldplay frontman Chris Martin since October 2017. The couple resides together in Point Dume, Malibu, California."
+      "question": "How tall is Dakota Johnson, how much does she weigh, and what are her vital statistics and body measurements?",
+      "answer": "Dakota Johnson height is officially recorded at 5 feet 7½ inches (171 cm), and she weighs approximately 119 lbs (54 kg). For queries concerning how tall is Dakota, how much does Dakota Johnson weigh, or Dakota Johnson vital statistics: her documented body measurements are approximately 34-24-34 inches (86-61-86 cm), with a US dress size of 4 and shoe size of 8. Her lean physique is maintained through classical dance conditioning, resistance training, and Pilates."
     },
     {
-      "question": "What is Dakota Johnson's verified height?",
-      "answer": "Dakota Johnson stands 5 feet 7½ inches tall (171 cm)."
+      "question": "Who are Dakota Johnson's parents and did young Dakota do modeling?",
+      "answer": "Dakota Johnson's mom and dad are Hollywood icons Don Johnson (Miami Vice) and Melanie Griffith (Working Girl). As Don Johnson's daughter, Dakota represents third-generation Hollywood royalty; her grandmother is screen legend Tippi Hedren (The Birds) and Antonio Banderas was her longtime stepfather. During her teenage years, modeling was an early focus for young Dakota Johnson; she signed with IMG Models at 17, walking runways and fronting major campaigns for MANGO jeans prior to committing full-time to acting."
     },
     {
-      "question": "What is TeaTime Pictures?",
-      "answer": "TeaTime Pictures is an independent film and television production company co-founded in 2019 by Dakota Johnson and Ro Donnelly. The company produced Cha Cha Real Smooth (Sundance Audience Award winner, acquired by Apple), Am I OK?, and Daddio starring Sean Penn."
+      "question": "Who is Dakota: Is Dakota Johnson related to Dakota Fanning, and what happened to Dakota Fanning?",
+      "answer": "Dakota Johnson and Dakota Fanning are completely different, unrelated actresses who frequently appear together in 'who is Dakota' search queries. Dakota Johnson was born in Austin, Texas (age 37) to Don Johnson and Melanie Griffith, while Dakota Fanning is from Conyers, Georgia (age 32) and is the older sister of Elle Fanning. Addressing common misconceptions: Dakota Fanning is alive, healthy, and thriving—searches asking is Dakota Fanning dead or what happened to Dakota Fanning are unfounded rumors. Dakota Fanning still acts extensively; after rising as an acclaimed little child star in I Am Sam, Man on Fire, and War of the Worlds, her prominent Dakota Fanning movies and TV shows include Netflix's Ripley (2024), The Perfect Couple (2024), The Alienist, Once Upon a Time in Hollywood, and The Equalizer 3."
+    },
+    {
+      "question": "Who is Dakota Johnson currently dating and what is TeaTime Pictures?",
+      "answer": "Dakota Johnson has been in a long-term relationship with Coldplay frontman Chris Martin since October 2017; the pair resides in an ocean-view estate in Point Dume, Malibu. Professionally, she is the co-founder of TeaTime Pictures, an independent production company formed with Ro Donnelly that produced Sundance Audience Award winner Cha Cha Real Smooth, Am I OK?, and Daddio."
     }
   ],
 
