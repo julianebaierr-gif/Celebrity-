@@ -61,25 +61,45 @@ export default function ContactPage() {
 
         {/* Section 3: Specialized Departmental Bureaus */}
         <section className="space-y-6">
+          <div className="rounded-2xl border-2 border-amber-500/30 bg-amber-50/50 p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xs">
+            <div>
+              <span className="text-xs font-bold uppercase tracking-wider text-amber-800">
+                Official Newsroom &amp; Support Inbox
+              </span>
+              <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mt-1">
+                contact.celebledger.com@gmail.com
+              </h3>
+              <p className="text-xs text-slate-600 mt-1">
+                Primary monitored inbox for general correspondence, verified corrections, talent representatives, and syndication requests.
+              </p>
+            </div>
+            <a
+              href="mailto:contact.celebledger.com@gmail.com"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-slate-900 hover:bg-amber-600 text-white font-bold text-xs transition shadow-xs whitespace-nowrap"
+            >
+              Send Direct Email &rarr;
+            </a>
+          </div>
+
           <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-            Specialized Departmental Bureaus & Direct Inboxes
+            Specialized Departmental Bureaus &amp; Direct Inboxes
           </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            For direct email correspondence, bypass the automated form and contact the specific desk handling your domain:
+            For direct email correspondence, bypass the automated form and contact our editorial staff directly at <span className="font-mono font-semibold text-slate-800">contact.celebledger.com@gmail.com</span> with your topic in the subject:
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3 shadow-xs">
               <div className="text-xs font-bold uppercase tracking-wider text-slate-900">
-                Fact-Checking & Corrections Desk (Priority 24h)
+                Fact-Checking &amp; Corrections Desk (Priority 24h)
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Dedicated exclusively to investigating discrepancies in birth dates, ancestry, career filmographies, awards, and economic estimates.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">corrections@celebledger.com</span>
+                <span className="text-slate-500 font-mono">contact.celebledger.com@gmail.com</span>
                 <a
-                  href="mailto:corrections@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Correction%20Request"
                   className="font-bold text-amber-700 hover:text-amber-900 hover:underline"
                 >
                   Email Desk &rarr;
@@ -89,15 +109,15 @@ export default function ContactPage() {
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3 shadow-xs">
               <div className="text-xs font-bold uppercase tracking-wider text-slate-900">
-                Newsroom & Investigative Inquiries
+                Newsroom &amp; Investigative Inquiries
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
                 For pitching biographical essays, reporting cultural milestones, press releases regarding industry retrospectives, or author queries.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">editorial@celebledger.com</span>
+                <span className="text-slate-500 font-mono">contact.celebledger.com@gmail.com</span>
                 <a
-                  href="mailto:editorial@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Editorial%20Inquiry"
                   className="font-bold text-slate-900 hover:text-amber-700 hover:underline"
                 >
                   Email Newsroom &rarr;
@@ -107,15 +127,15 @@ export default function ContactPage() {
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3 shadow-xs">
               <div className="text-xs font-bold uppercase tracking-wider text-slate-900">
-                Talent Publicists & Estate Managers
+                Talent Publicists &amp; Estate Managers
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Reserved for accredited talent representatives (CAA, WME, UTA, 42 West, Rogers & Cowan PMK) and legal estate executors submitting on-record documentation.
+                Reserved for accredited talent representatives (CAA, WME, UTA, 42 West, Rogers &amp; Cowan PMK) and legal estate executors submitting on-record documentation.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">talent-relations@celebledger.com</span>
+                <span className="text-slate-500 font-mono">contact.celebledger.com@gmail.com</span>
                 <a
-                  href="mailto:talent-relations@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Talent%20Liaison"
                   className="font-bold text-emerald-700 hover:text-emerald-900 hover:underline"
                 >
                   Contact Liaison &rarr;
@@ -125,15 +145,15 @@ export default function ContactPage() {
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3 shadow-xs">
               <div className="text-xs font-bold uppercase tracking-wider text-slate-900">
-                Licensing, Syndication & Rights
+                Licensing, Syndication &amp; Rights
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
                 For publishers, documentary filmmakers, research institutes, and academic institutions seeking permission to syndicate biographical narratives or database excerpts.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">licensing@celebledger.com</span>
+                <span className="text-slate-500 font-mono">contact.celebledger.com@gmail.com</span>
                 <a
-                  href="mailto:licensing@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Licensing%20Request"
                   className="font-bold text-purple-700 hover:text-purple-900 hover:underline"
                 >
                   Request License &rarr;
@@ -143,15 +163,15 @@ export default function ContactPage() {
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3 shadow-xs">
               <div className="text-xs font-bold uppercase tracking-wider text-slate-900">
-                Legal Compliance & DMCA Desk
+                Legal Compliance &amp; DMCA Desk
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
                 To submit formal DMCA notifications of claimed copyright infringement under 17 U.S.C. 512(c) or legal service of process.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">legal@celebledger.com</span>
+                <span className="text-slate-500 font-mono">contact.celebledger.com@gmail.com</span>
                 <a
-                  href="mailto:legal@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Legal%20%2F%20DMCA%20Notice"
                   className="font-bold text-rose-700 hover:text-rose-900 hover:underline"
                 >
                   Contact Legal &rarr;
@@ -161,15 +181,15 @@ export default function ContactPage() {
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3 shadow-xs">
               <div className="text-xs font-bold uppercase tracking-wider text-slate-900">
-                Privacy & Data Subject Rights (DPO Desk)
+                Privacy &amp; Data Subject Rights (DPO Desk)
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
                 For exercising consumer privacy rights under GDPR, CCPA/CPRA, and state privacy statues (Access, Deletion, or Correction of personal telemetry).
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-mono">privacy@celebledger.com</span>
+                <span className="text-slate-500 font-mono">contact.celebledger.com@gmail.com</span>
                 <a
-                  href="mailto:privacy@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Privacy%20Request"
                   className="font-bold text-indigo-700 hover:text-indigo-900 hover:underline"
                 >
                   Privacy Officer &rarr;
@@ -308,7 +328,7 @@ export default function ContactPage() {
                 We vigorously protect journalistic source confidentiality under applicable state and federal Reporter&apos;s Shield Laws. For highly sensitive documentary submissions, do not contact us using corporate email networks or employer-owned devices.
               </p>
               <div className="text-xs text-slate-300 font-mono space-y-1 pt-1">
-                <div>Encrypted Secure Dispatch: tips@celebledger.com</div>
+                <div>Encrypted Secure Dispatch: contact.celebledger.com@gmail.com</div>
                 <div>PGP Fingerprint: 4E9A B102 89FC 341D 77EA 9980 BC41 62D9 1F08 A5E2</div>
               </div>
             </div>
@@ -345,7 +365,7 @@ export default function ContactPage() {
                 How does CelebLedger respond to copyright claims regarding portrait imagery?
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                CelebLedger sources visual media through licensed archives, authorized promotional releases, and Creative Commons public repositories with mandatory photographer attribution. If you believe your copyrighted image has been utilized without appropriate authorization or attribution, please submit a notice to <span className="font-mono text-slate-800">legal@celebledger.com</span> with proof of ownership for immediate rectification.
+                CelebLedger sources visual media through licensed archives, authorized promotional releases, and Creative Commons public repositories with mandatory photographer attribution. If you believe your copyrighted image has been utilized without appropriate authorization or attribution, please submit a notice to <a href="mailto:contact.celebledger.com@gmail.com?subject=Copyright%20Notice" className="font-mono text-slate-800 hover:text-amber-700 underline">contact.celebledger.com@gmail.com</a> with proof of ownership for immediate rectification.
               </p>
             </div>
           </div>

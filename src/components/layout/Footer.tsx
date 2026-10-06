@@ -17,6 +17,15 @@ export default function Footer() {
             <p className="text-slate-500 leading-relaxed text-xs">
               An authoritative journalistic archive for official celebrity biographies, industry economic evaluations, filmography records, and cultural timelines.
             </p>
+            <div className="pt-1 text-xs">
+              <span className="text-slate-400 block text-[11px] font-semibold uppercase tracking-wider mb-0.5">Contact &amp; Inquiries:</span>
+              <a
+                href="mailto:contact.celebledger.com@gmail.com"
+                className="text-slate-600 hover:text-amber-600 font-mono transition-colors break-all"
+              >
+                contact.celebledger.com@gmail.com
+              </a>
+            </div>
             {/* Social Links */}
             <div className="flex items-center gap-3 pt-1">
               <a

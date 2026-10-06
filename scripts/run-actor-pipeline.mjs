@@ -299,7 +299,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
     try {
       const summaryUrl = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(t.replace(/ /g, "_"))}`;
       const res = await fetch(summaryUrl, {
-        headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
+        headers: { "User-Agent": "CelebLedgerBot/1.0 (contact.celebledger.com@gmail.com)" },
         signal: AbortSignal.timeout(8000)
       });
       if (res.ok) {
@@ -427,7 +427,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
   try {
     const pagepropsUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts|pageprops&exintro=true&explaintext=true&titles=${encodeURIComponent(canonicalTitle)}&format=json`;
     const ppRes = await fetch(pagepropsUrl, {
-      headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
+      headers: { "User-Agent": "CelebLedgerBot/1.0 (contact.celebledger.com@gmail.com)" },
       signal: AbortSignal.timeout(8000)
     });
     if (ppRes.ok) {
@@ -440,7 +440,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
       if (qid) {
         try {
           const wdRes = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`, {
-            headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
+            headers: { "User-Agent": "CelebLedgerBot/1.0 (contact.celebledger.com@gmail.com)" },
             signal: AbortSignal.timeout(8000)
           });
           if (wdRes.ok) {
@@ -510,7 +510,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
               for (const id of idList.slice(0, 3)) {
                 try {
                   const r = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`, {
-                    headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
+                    headers: { "User-Agent": "CelebLedgerBot/1.0 (contact.celebledger.com@gmail.com)" },
                     signal: AbortSignal.timeout(5000)
                   });
                   if (r.ok) {
@@ -557,7 +557,7 @@ async function fetchWikipediaDossier(entityName, siloHint = "") {
   try {
     const parseUrl = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(canonicalTitle)}&prop=text&section=0&format=json`;
     const parseRes = await fetch(parseUrl, {
-      headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
+      headers: { "User-Agent": "CelebLedgerBot/1.0 (contact.celebledger.com@gmail.com)" },
       signal: AbortSignal.timeout(8000)
     });
     if (parseRes.ok) {
@@ -740,7 +740,7 @@ async function resolveCelebrityImages(entityName, slug, directImageUrl = null) {
           q
         )}&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size&format=json`;
 
-        const res = await fetch(url, { headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" } });
+        const res = await fetch(url, { headers: { "User-Agent": "CelebLedgerBot/1.0 (contact.celebledger.com@gmail.com)" } });
         if (!res.ok) continue;
         const data = await res.json();
         const pages = Object.values(data.query?.pages || {});
@@ -774,7 +774,7 @@ async function resolveCelebrityImages(entityName, slug, directImageUrl = null) {
     try {
       console.log(`[ImagePipeline] Downloading verified photo: ${imageUrl}`);
       const imgRes = await fetch(imageUrl, {
-        headers: { "User-Agent": "CelebLedgerBot/1.0 (info@celebledger.com)" },
+        headers: { "User-Agent": "CelebLedgerBot/1.0 (contact.celebledger.com@gmail.com)" },
         signal: AbortSignal.timeout(10000)
       });
       if (imgRes.ok) {

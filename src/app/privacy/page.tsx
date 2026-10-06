@@ -194,7 +194,7 @@ export default function PrivacyPage() {
             </ul>
 
             <p className="text-xs text-slate-600">
-              To exercise any of these California privacy rights, submit a verifiable consumer request to <span className="font-mono text-slate-800">privacy@celebledger.com</span> with the subject line &ldquo;California Privacy Rights Request.&rdquo;
+              To exercise any of these California privacy rights, submit a verifiable consumer request to <a href="mailto:contact.celebledger.com@gmail.com?subject=California%20Privacy%20Rights%20Request" className="font-mono text-slate-800 hover:text-amber-700 underline">contact.celebledger.com@gmail.com</a> with the subject line &ldquo;California Privacy Rights Request.&rdquo;
             </p>
           </div>
         </section>
@@ -262,9 +262,9 @@ export default function PrivacyPage() {
             <div className="rounded-2xl border border-slate-200 bg-white p-6 space-y-3 text-xs">
               <div className="font-bold text-slate-900 text-sm">CelebLedger Data Protection Officer (DPO)</div>
               <div className="text-slate-600 space-y-1">
-                <div>Email: <a href="mailto:privacy@celebledger.com" className="text-amber-700 font-bold hover:underline">privacy@celebledger.com</a></div>
-                <div>Legal Operations Desk: <a href="mailto:legal@celebledger.com" className="text-slate-900 font-bold hover:underline">legal@celebledger.com</a></div>
-                <div>Postal Service: CelebLedger Legal & Privacy Operations, Century City Media Center, Los Angeles, CA 90067</div>
+                <div>Email: <a href="mailto:contact.celebledger.com@gmail.com?subject=Privacy%20%26%20DPO%20Inquiry" className="text-amber-700 font-bold hover:underline">contact.celebledger.com@gmail.com</a></div>
+                <div>Legal Operations Desk: <a href="mailto:contact.celebledger.com@gmail.com?subject=Legal%20Operations%20Inquiry" className="text-slate-900 font-bold hover:underline">contact.celebledger.com@gmail.com</a></div>
+                <div>Postal Service: CelebLedger Legal &amp; Privacy Operations, Century City Media Center, Los Angeles, CA 90067</div>
               </div>
             </div>
           </div>

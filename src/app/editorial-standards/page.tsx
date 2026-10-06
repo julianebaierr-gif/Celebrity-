@@ -162,7 +162,7 @@ export default function EditorialStandardsPage() {
             </div>
 
             <p>
-              <strong>Right-of-Reply Guarantee:</strong> Any living public figure, or their accredited legal or public relations representative, possesses an unfettered right-of-reply. If an individual believes a profile contains an unfair characterization or incomplete financial picture, they may submit on-the-record statements via <span className="font-mono text-slate-800">corrections@celebledger.com</span>. When corroborated, their clarification is incorporated directly into the biographical text.
+              <strong>Right-of-Reply Guarantee:</strong> Any living public figure, or their accredited legal or public relations representative, possesses an unfettered right-of-reply. If an individual believes a profile contains an unfair characterization or incomplete financial picture, they may submit on-the-record statements via <a href="mailto:contact.celebledger.com@gmail.com?subject=Right-of-Reply%20Statement" className="font-mono text-slate-800 hover:text-amber-700 underline">contact.celebledger.com@gmail.com</a>. When corroborated, their clarification is incorporated directly into the biographical text.
             </p>
           </div>
         </section>

@@ -1,9 +1,9 @@
 # CelebLedger (https://www.celebledger.com) - Official Authorized Digital Sellers (ads.txt)
 # Specification: IAB Tech Lab Ads.txt v1.1
-# Contact: ads@celebledger.com
+# Contact: contact.celebledger.com@gmail.com
 
 # Google AdSense / Google Ad Manager
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-2350272227833258, DIRECT, f08c47fec0942fa0
 
 # Programmatic Advertising Exchanges (Pre-Configured for Direct & Reseller Monetization)
 # Mediavine / Monetag / Magnite / AppNexus / OpenX placeholders

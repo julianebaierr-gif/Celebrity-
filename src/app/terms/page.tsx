@@ -160,7 +160,7 @@ export default function TermsPage() {
               </h3>
               <p className="text-slate-600">
                 DMCA Compliance Director, CelebLedger Legal Operations<br />
-                Email: <a href="mailto:legal@celebledger.com" className="text-amber-700 font-bold hover:underline">legal@celebledger.com</a><br />
+                Email: <a href="mailto:contact.celebledger.com@gmail.com?subject=DMCA%20Notice" className="text-amber-700 font-bold hover:underline">contact.celebledger.com@gmail.com</a><br />
                 Address: Century City Media Center, Legal Suite 1400, Los Angeles, CA 90067
               </p>
             </div>
@@ -217,7 +217,7 @@ export default function TermsPage() {
               These Terms and any dispute arising out of or related to your use of the Service shall be governed by, construed, and enforced in accordance with the laws of the State of California and the federal laws of the United States of America, without regard to conflict of law principles.
             </p>
             <p>
-              <strong>Informal Resolution Period:</strong> Prior to filing any legal claim or demand, you agree to contact CelebLedger via <span className="font-mono text-slate-800">legal@celebledger.com</span> and attempt in good faith to resolve the dispute informally for a period of not less than thirty (30) calendar days.
+              <strong>Informal Resolution Period:</strong> Prior to filing any legal claim or demand, you agree to contact CelebLedger via <a href="mailto:contact.celebledger.com@gmail.com?subject=Legal%20Dispute%20Resolution" className="font-mono text-slate-800 hover:text-amber-700 underline">contact.celebledger.com@gmail.com</a> and attempt in good faith to resolve the dispute informally for a period of not less than thirty (30) calendar days.
             </p>
           </div>
         </section>

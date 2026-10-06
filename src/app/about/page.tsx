@@ -44,7 +44,7 @@ const aboutJsonLd = {
             jobTitle: "Senior Industry Writer",
             description:
               "Marcus oversees studio film history, box office tracking, and creative leadership profiles with 7 years of specialized entertainment reporting experience.",
-            email: "marcus.vance@celebledger.com",
+            email: "contact.celebledger.com@gmail.com",
             knowsAbout: ["Studio Film History", "Box Office Tracking", "Hollywood Studio Financing", "Film Industry Economics"],
             alumniOf: {
               "@type": "EducationalOrganization",
@@ -63,7 +63,7 @@ const aboutJsonLd = {
             jobTitle: "Chief Biographer",
             description:
               "Elena leads biographical investigations, archival interviews, and cultural impact assessments with 6 years of academic film scholarship and reporting.",
-            email: "elena.rostova@celebledger.com",
+            email: "contact.celebledger.com@gmail.com",
             knowsAbout: ["European Film Studies", "West End Stage History", "Auteur Film Directors", "Biographical Archiving"],
             alumniOf: {
               "@type": "EducationalOrganization",
@@ -82,7 +82,7 @@ const aboutJsonLd = {
             jobTitle: "Fact-Checking Director",
             description:
               "Sarah directs our fact-checking desk and copyright verification workflows with 5 years of legal research in media law and intellectual property.",
-            email: "sarah.jenkins@celebledger.com",
+            email: "contact.celebledger.com@gmail.com",
             knowsAbout: ["Media Law", "Copyright Verification", "Primary Source Citations", "Fair Use Doctrine"],
             alumniOf: {
               "@type": "EducationalOrganization",
@@ -101,7 +101,7 @@ const aboutJsonLd = {
             jobTitle: "Entertainment Economist",
             description:
               "David heads our celebrity financial forensics desk with 4 years of entertainment equity analysis and forensic accounting experience.",
-            email: "david.thorne@celebledger.com",
+            email: "contact.celebledger.com@gmail.com",
             knowsAbout: ["Forensic Accounting", "Celebrity Net Worth Valuation", "Streaming Residuals", "Real Estate Deeds"],
             alumniOf: {
               "@type": "EducationalOrganization",
@@ -233,9 +233,9 @@ export default function AboutPage() {
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] text-slate-500 font-medium">Beat: Studio History & Box Office</span>
                 <a
-                  href="mailto:marcus.vance@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Inquiry%20for%20Marcus%20Vance"
                   className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
-                  aria-label="Send editorial inquiry to Marcus Vance via email (marcus.vance@celebledger.com)"
+                  aria-label="Send editorial inquiry to Marcus Vance via email (contact.celebledger.com@gmail.com)"
                 >
                   <Mail className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>Contact</span>
@@ -262,9 +262,9 @@ export default function AboutPage() {
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] text-slate-500 font-medium">Beat: Cultural Impact & Archival Profiles</span>
                 <a
-                  href="mailto:elena.rostova@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Inquiry%20for%20Elena%20Rostova"
                   className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
-                  aria-label="Send biographical inquiry to Elena Rostova via email (elena.rostova@celebledger.com)"
+                  aria-label="Send biographical inquiry to Elena Rostova via email (contact.celebledger.com@gmail.com)"
                 >
                   <Mail className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>Contact</span>
@@ -291,9 +291,9 @@ export default function AboutPage() {
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] text-slate-500 font-medium">Beat: Copyright Verification & Sourcing</span>
                 <a
-                  href="mailto:sarah.jenkins@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Inquiry%20for%20Sarah%20Jenkins"
                   className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
-                  aria-label="Send verification or corrections inquiry to Sarah Jenkins via email (sarah.jenkins@celebledger.com)"
+                  aria-label="Send verification or corrections inquiry to Sarah Jenkins via email (contact.celebledger.com@gmail.com)"
                 >
                   <Mail className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>Contact</span>
@@ -320,9 +320,9 @@ export default function AboutPage() {
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                 <span className="text-[11px] text-slate-500 font-medium">Beat: Net Worth Audits & Financial Forensics</span>
                 <a
-                  href="mailto:david.thorne@celebledger.com"
+                  href="mailto:contact.celebledger.com@gmail.com?subject=Inquiry%20for%20David%20Thorne"
                   className="inline-flex items-center gap-1 text-amber-800 hover:text-amber-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500 rounded px-1 transition-colors"
-                  aria-label="Send financial valuation inquiry to David Thorne via email (david.thorne@celebledger.com)"
+                  aria-label="Send financial valuation inquiry to David Thorne via email (contact.celebledger.com@gmail.com)"
                 >
                   <Mail className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>Contact</span>
@@ -380,6 +380,13 @@ export default function AboutPage() {
             >
               <span>Submit a Correction Request</span>
             </Link>
+            <a
+              href="mailto:contact.celebledger.com@gmail.com"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-amber-50 text-amber-800 text-xs font-bold hover:bg-amber-100 border border-amber-200 transition"
+            >
+              <Mail className="h-3.5 w-3.5" />
+              <span>contact.celebledger.com@gmail.com</span>
+            </a>
           </div>
         </section>
       </div>
