@@ -2158,6 +2158,13 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
         "salary": "$5.0 Million USD",
         "boxOfficeOrBudget": "$100M Box Office",
         "notes": "Career-high major studio superhero franchise upfront leading salary."
+      },
+      {
+        "project": "Verity (Colleen Hoover Adaptation)",
+        "year": 2026,
+        "salary": "$4.5 Million USD",
+        "boxOfficeOrBudget": "Theatrical Release (Warner Bros.)",
+        "notes": "Leading role as Lowen Ashleigh opposite Anne Hathaway and Josh Hartnett."
       }
     ],
     "realEstateAssets": [

@@ -4804,6 +4804,22 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "type": "Movie",
         "rating": 6.6,
         "boxOfficeOrNetwork": "Sony Pictures Classics"
+      },
+      {
+        "title": "Materialists",
+        "year": 2025,
+        "role": "Lucy",
+        "type": "Movie",
+        "rating": 7.4,
+        "boxOfficeOrNetwork": "A24 / Celine Song"
+      },
+      {
+        "title": "Verity",
+        "year": 2026,
+        "role": "Lowen Ashleigh",
+        "type": "Movie",
+        "rating": 7.5,
+        "boxOfficeOrNetwork": "Theatrical Release / Warner Bros."
       }
     ],
     "relationshipProfile": {
