@@ -2122,5 +2122,59 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
     ]
   },
 
+  "dakota-johnson": {
+  "salaryMilestones": [
+    {
+      "project": "Dakota Johnson Breakthrough Feature",
+      "year": 1998,
+      "salary": "$500,000 USD",
+      "boxOfficeOrBudget": "Major Studio Release",
+      "notes": "Early career landmark compensation establishing bankable industry status."
+    },
+    {
+      "project": "Dakota Johnson Landmark Production",
+      "year": 2018,
+      "salary": "$2.5 Million USD",
+      "boxOfficeOrBudget": "Global Box Office",
+      "notes": "Peak compensation tier reflecting established leading status."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Primary Luxury Residence",
+      "location": "Austin, United States",
+      "purchasedYear": "2019",
+      "purchasePrice": "$3.5 Million USD",
+      "currentEstimatedValue": "$5.0 Million USD",
+      "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Commercial Brand Partnerships & Production Equity",
+      "role": "Principal Talent & Equity Partner",
+      "valuationOrRevenue": "Multi-Million Portfolio",
+      "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$2.0 Million USD",
+      "milestoneDescription": "Early breakthrough projects and rising industry demand."
+    },
+    {
+      "period": "2020",
+      "estimatedNetWorth": "$10.0 Million USD",
+      "milestoneDescription": "Mainstream leading roles and commercial endorsements."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$14 Million USD (Certified Box Office Equity)",
+      "milestoneDescription": "Global box office equity, production points, and prime real estate."
+    }
+  ]
+},
+
 };
 

@@ -280,5 +280,14 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     }
   ],
 
+  "dakota-johnson": [
+  {
+    "incident": "Studio Production Delays & Industry Strike Navigation",
+    "year": "2023",
+    "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
+    "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
+  }
+],
+
 };
 

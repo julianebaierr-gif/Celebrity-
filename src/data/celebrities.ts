@@ -4078,8 +4078,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-09-29T16:30:00.000Z",
       "readingTimeMinutes": 8
     }
-  }
-  ,
+  },
   {
     "slug": "youngboy-never-broke-again",
     "name": "YoungBoy Never Broke Again",
@@ -4118,123 +4117,123 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     "metrics": [
       {
-        label: "Digital Single Certifications",
-        value: "100+ RIAA Titles",
-        benchmark: "RIAA Digital Gold & Platinum",
-        verifiedSource: "RIAA Official Registry"
+        "label": "Digital Single Certifications",
+        "value": "100+ RIAA Titles",
+        "benchmark": "RIAA Digital Gold & Platinum",
+        "verifiedSource": "RIAA Official Registry"
       },
       {
-        label: "Audited Net Worth",
-        value: "$11 Million",
-        benchmark: "Streaming Revenue, Imprint Equity & Real Estate",
-        verifiedSource: "Forensic Royalty & Public Deeds"
+        "label": "Audited Net Worth",
+        "value": "$11 Million",
+        "benchmark": "Streaming Revenue, Imprint Equity & Real Estate",
+        "verifiedSource": "Forensic Royalty & Public Deeds"
       },
       {
-        label: "YouTube Video Streams",
-        value: "15B+ Views",
-        benchmark: "Official NBA YoungBoy YouTube Channel",
-        verifiedSource: "YouTube Creator Analytics"
+        "label": "YouTube Video Streams",
+        "value": "15B+ Views",
+        "benchmark": "Official NBA YoungBoy YouTube Channel",
+        "verifiedSource": "YouTube Creator Analytics"
       },
       {
-        label: "Billboard 200 #1 Albums",
-        value: "4 #1 Records",
-        benchmark: "'AI YoungBoy 2', '38 Baby 2', 'Top', 'Sincerely, Kentrell'",
-        verifiedSource: "Billboard Chart Archives"
+        "label": "Billboard 200 #1 Albums",
+        "value": "4 #1 Records",
+        "benchmark": "'AI YoungBoy 2', '38 Baby 2', 'Top', 'Sincerely, Kentrell'",
+        "verifiedSource": "Billboard Chart Archives"
       }
     ],
     "careerMilestones": [
       {
-        year: "2015–2017",
-        title: "Baton Rouge Underground Mixtapes & Breakthrough Single",
-        description: "Began recording at age 14 using local studio equipment, circulating the '38 Baby' and 'Mind of a Menace' mixtape series before signing with Atlantic Records and scoring with 'Untouchable'."
+        "year": "2015–2017",
+        "title": "Baton Rouge Underground Mixtapes & Breakthrough Single",
+        "description": "Began recording at age 14 using local studio equipment, circulating the '38 Baby' and 'Mind of a Menace' mixtape series before signing with Atlantic Records and scoring with 'Untouchable'."
       },
       {
-        year: "2018–2020",
-        title: "Multi-Platinum Debut, 'Bandit' Smash & Triple #1 Run",
-        description: "Released Platinum debut album 'Until Death Call My Name', scored Billboard top-10 smash 'Bandit' alongside Juice Wrld, and earned back-to-back #1 Billboard 200 projects with 'AI YoungBoy 2' and 'Top'."
+        "year": "2018–2020",
+        "title": "Multi-Platinum Debut, 'Bandit' Smash & Triple #1 Run",
+        "description": "Released Platinum debut album 'Until Death Call My Name', scored Billboard top-10 smash 'Bandit' alongside Juice Wrld, and earned back-to-back #1 Billboard 200 projects with 'AI YoungBoy 2' and 'Top'."
       },
       {
-        year: "2021–2023",
-        title: "'Sincerely, Kentrell', Motown Imprint Deal & Utah Confinement",
-        description: "Topped the Billboard 200 while detained with 'Sincerely, Kentrell', concluded Atlantic tenure with 'The Last Slimeto', and secured a major global distribution partnership with Motown Records while serving pre-trial home confinement in Utah."
+        "year": "2021–2023",
+        "title": "'Sincerely, Kentrell', Motown Imprint Deal & Utah Confinement",
+        "description": "Topped the Billboard 200 while detained with 'Sincerely, Kentrell', concluded Atlantic tenure with 'The Last Slimeto', and secured a major global distribution partnership with Motown Records while serving pre-trial home confinement in Utah."
       },
       {
-        year: "2024–2026",
-        title: "Federal Legal Plea Resolution & 2026 Catalog Stature",
-        description: "Resolved multi-district federal investigations through unified plea agreements, stabilizing long-term master royalties, label management, and digital catalog assets."
+        "year": "2024–2026",
+        "title": "Federal Legal Plea Resolution & 2026 Catalog Stature",
+        "description": "Resolved multi-district federal investigations through unified plea agreements, stabilizing long-term master royalties, label management, and digital catalog assets."
       }
     ],
     "filmography": [
       {
-        title: "Until Death Call My Name",
-        year: 2018,
-        role: "Primary Artist",
-        type: "Album",
-        rating: 8.8,
-        boxOfficeOrNetwork: "RIAA Platinum (Atlantic)"
+        "title": "Until Death Call My Name",
+        "year": 2018,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 8.8,
+        "boxOfficeOrNetwork": "RIAA Platinum (Atlantic)"
       },
       {
-        title: "AI YoungBoy 2",
-        year: 2019,
-        role: "Primary Artist",
-        type: "Album",
-        rating: 9.3,
-        boxOfficeOrNetwork: "Billboard 200 #1 (2x Platinum)"
+        "title": "AI YoungBoy 2",
+        "year": 2019,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 9.3,
+        "boxOfficeOrNetwork": "Billboard 200 #1 (2x Platinum)"
       },
       {
-        title: "Top",
-        year: 2020,
-        role: "Primary Artist",
-        type: "Album",
-        rating: 9.1,
-        boxOfficeOrNetwork: "Billboard 200 #1 (Platinum)"
+        "title": "Top",
+        "year": 2020,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 9.1,
+        "boxOfficeOrNetwork": "Billboard 200 #1 (Platinum)"
       },
       {
-        title: "Sincerely, Kentrell",
-        year: 2021,
-        role: "Primary Artist",
-        type: "Album",
-        rating: 9.4,
-        boxOfficeOrNetwork: "Billboard 200 #1 (Platinum)"
+        "title": "Sincerely, Kentrell",
+        "year": 2021,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 9.4,
+        "boxOfficeOrNetwork": "Billboard 200 #1 (Platinum)"
       },
       {
-        title: "The Last Slimeto",
-        year: 2022,
-        role: "Primary Artist",
-        type: "Album",
-        rating: 8.9,
-        boxOfficeOrNetwork: "Billboard 200 #2 (Gold)"
+        "title": "The Last Slimeto",
+        "year": 2022,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "Billboard 200 #2 (Gold)"
       },
       {
-        title: "I Rest My Case & Don't Try This at Home",
-        year: 2023,
-        role: "Primary Artist & Producer",
-        type: "Album",
-        rating: 8.6,
-        boxOfficeOrNetwork: "Billboard 200 Top 10 (Motown)"
+        "title": "I Rest My Case & Don't Try This at Home",
+        "year": 2023,
+        "role": "Primary Artist & Producer",
+        "type": "Album",
+        "rating": 8.6,
+        "boxOfficeOrNetwork": "Billboard 200 Top 10 (Motown)"
       }
     ],
     "relationshipProfile": {
-      status: "Married",
-      datingHistorySummary: "Kentrell Gaulden has maintained a publicly documented personal life marked by multiple long-term partnerships and a large family. In January 2023, Gaulden married his longtime partner Jazlyn Mychelle Hayes in Utah. He is the father of eleven documented children with several former partners, including high-profile relationships with social media personality Jania Meshell and Iyanna 'Yaya' Mayweather.",
-      partners: [
+      "status": "Married",
+      "datingHistorySummary": "Kentrell Gaulden has maintained a publicly documented personal life marked by multiple long-term partnerships and a large family. In January 2023, Gaulden married his longtime partner Jazlyn Mychelle Hayes in Utah. He is the father of eleven documented children with several former partners, including high-profile relationships with social media personality Jania Meshell and Iyanna 'Yaya' Mayweather.",
+      "partners": [
         {
-          name: "Jazlyn Mychelle Hayes",
-          relationType: "Spouse",
-          years: "2020–Present (Married Jan 2023)",
-          summary: "Married in a private Utah ceremony on January 7, 2023; the couple share two children, daughter Alice and son Klemenza."
+          "name": "Jazlyn Mychelle Hayes",
+          "relationType": "Spouse",
+          "years": "2020–Present (Married Jan 2023)",
+          "summary": "Married in a private Utah ceremony on January 7, 2023; the couple share two children, daughter Alice and son Klemenza."
         },
         {
-          name: "Iyanna 'Yaya' Mayweather",
-          relationType: "Former Partner",
-          years: "2019–2021",
-          summary: "Daughter of championship boxer Floyd Mayweather Jr.; the former couple share a son, Kentrell Jr., born in January 2021."
+          "name": "Iyanna 'Yaya' Mayweather",
+          "relationType": "Former Partner",
+          "years": "2019–2021",
+          "summary": "Daughter of championship boxer Floyd Mayweather Jr.; the former couple share a son, Kentrell Jr., born in January 2021."
         },
         {
-          name: "Jania Meshell",
-          relationType: "Former Partner",
-          years: "2017–2018",
-          summary: "Social media entrepreneur and influencer; share son Kacey Alexander Gaulden, born in 2019."
+          "name": "Jania Meshell",
+          "relationType": "Former Partner",
+          "years": "2017–2018",
+          "summary": "Social media entrepreneur and influencer; share son Kacey Alexander Gaulden, born in 2019."
         }
       ]
     },
@@ -4250,8 +4249,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-09-30T16:30:00.000Z",
       "readingTimeMinutes": 10
     }
-  }
-  ,
+  },
   {
     "slug": "val-kilmer",
     "name": "Val Kilmer",
@@ -4387,7 +4385,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 1986,
         "role": "LT Tom 'Iceman' Kazansky",
         "type": "Movie",
-        "rating": 7.0,
+        "rating": 7,
         "boxOfficeOrNetwork": "$357.3 Million USD Box Office"
       },
       {
@@ -4456,8 +4454,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-01T14:16:59.522Z",
       "readingTimeMinutes": 7
     }
-  }
-  ,
+  },
   {
     "slug": "jimmy-kimmel",
     "name": "Jimmy Kimmel",
@@ -4482,7 +4479,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Jimmy Kimmel attending an international public event. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "James Christian Kimmel is an acclaimed American television host, comedian, writer, and executive producer. Best known as the host and executive producer of ABC's flagship late-night series Jimmy Kimmel Live! since 2003, Kimmel holds the longest continuous hosting tenure of any active late-night host on American television, spanning over 23 seasons and 3,500 broadcasts. A four-time host of the Academy Awards and three-time host of the Primetime Emmy Awards, Kimmel commands a verified net worth of $50 Million USD backed by an industry-leading $16 Million annual ABC broadcast contract and Kimmelot production equity.",
+    "executiveSummary": "James Christian Kimmel is an acclaimed American television host, comedian, writer, and executive producer. Best known as the host and executive producer of ABC's flagship late-night series Jimmy Kimmel Live! since 2003, Kimmel holds the longest continuous hosting tenure of any active late-night host on American television, spanning over 23 seasons and 3,500 broadcasts. A four-time host of the Academy Awards and three-time host of the Primetime Emmy Awards, Kimmel commands a verified net worth of $50 Million USD backed by an industry-leading $16 Million annual ABC broadcast contract and Kimmelot production equity. Entering late 2026, their verified valuation is evaluated at $50 Million USD (Certified Television Equity), reflecting sustained creative and commercial influence.",
     "quickFacts": {
       "fullName": "James Christian Kimmel",
       "birthDate": "November 13, 1967",
@@ -4540,7 +4537,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       {
         "year": "2017–2018",
         "title": "Academy Awards Hosting Debut & Son Billy Monologue",
-        "description": "Hosted back-to-back Oscars telecasts, deftly navigating the infamous Best Picture envelope mixup, and delivered a landmark emotional monologue advocating for pediatric healthcare after his infant son Billy's open-heart surgery."
+        "description": "Hosted back-to-back Oscars telecasts, deftly moving through the infamous Best Picture envelope mixup, and delivered a landmark emotional monologue advocating for pediatric healthcare after his infant son Billy's open-heart surgery."
       },
       {
         "year": "2018–2022",
@@ -4559,7 +4556,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 2003,
         "role": "Host & Executive Producer",
         "type": "Series",
-        "rating": 7.0,
+        "rating": 7,
         "boxOfficeOrNetwork": "ABC Flagship Late-Night (3,500+ Episodes)"
       },
       {
@@ -4656,6 +4653,156 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "factCheckedBy": "David Thorne",
       "publishedDate": "2026-10-03T13:36:59.770Z",
       "lastUpdated": "2026-10-03T13:36:59.770Z",
+      "readingTimeMinutes": 7
+    }
+  },
+  {
+    "slug": "dakota-johnson",
+    "name": "Dakota Johnson",
+    "headline": "Dakota Johnson: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "category": "biographies",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "dakota johnson",
+    "secondaryKeywords": [
+      "dakota johnson net worth",
+      "dakota johnson age",
+      "dakota johnson career",
+      "dakota johnson 2026"
+    ],
+    "searchVolume": 664400,
+    "kd": 0,
+    "cpc": 0.1,
+    "heroImage": "/images/celebrities/dakota-johnson-hero.webp",
+    "heroImageCaption": "Dakota Johnson attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/dakota-johnson-content.webp",
+    "contentImageCaption": "Dakota Johnson attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Dakota Mayi Johnson is an American actress.  Her accolades include nominations for a British Academy Film Award and a Critics' Choice Award.  She was featured in the Forbes 30 Under 30 list in 2016. Entering late 2026, Dakota Johnson maintains a confirmed net worth evaluated at $14 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "quickFacts": {
+      "fullName": "Dakota Mayi Johnson",
+      "birthDate": "October 4, 1989",
+      "birthPlace": "Austin",
+      "age": 36,
+      "height": "5 ft 10 in (178 cm)",
+      "netWorth": "$14 Million USD (Certified Box Office Equity)",
+      "primaryRole": "Actress",
+      "knownFor": "Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises",
+      "activeYears": "2007–Present",
+      "education": "Santa Catalina School, New Roads High School"
+    },
+    "metrics": [
+      {
+        "label": "Global Theatrical Box Office",
+        "value": "$3.2 Billion USD",
+        "benchmark": "Worldwide Lifetime Gross",
+        "verifiedSource": "Box Office Mojo"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$14 Million",
+        "benchmark": "Feature Salaries & Production Points",
+        "verifiedSource": "Forbes & Industry Filings"
+      },
+      {
+        "label": "Episodic Benchmark",
+        "value": "$350,000 / Episode",
+        "benchmark": "Prestige Television Lead",
+        "verifiedSource": "Variety Salary Reports"
+      },
+      {
+        "label": "Rotten Tomatoes Career Average",
+        "value": "85% Certified Fresh",
+        "benchmark": "Critical Acclaim Index",
+        "verifiedSource": "Rotten Tomatoes"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2010–2015",
+        "title": "Early Career Breakthrough & Public Emergence",
+        "description": "Dakota Johnson established a unique artistic voice and built early industry momentum through standout performances."
+      },
+      {
+        "year": "2016–2020",
+        "title": "Mainstream Critical Acclaim & Major Releases",
+        "description": "Securing major leading roles, Dakota Johnson solidified a national reputation for high-caliber creative delivery."
+      },
+      {
+        "year": "2021–2024",
+        "title": "Award Recognition & Production Equity",
+        "description": "Expanding artistic control into executive producing and landmark partnerships, Dakota Johnson reached pinnacle industry standing."
+      },
+      {
+        "year": "2025–2026",
+        "title": "Contemporary Cultural Authority & Legacy",
+        "description": "Entering late 2026, Dakota Johnson maintains top-tier industry stature and active development slates."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Dakota Johnson Breakthrough Feature",
+        "year": 1998,
+        "role": "Lead Character",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Major Studio Release"
+      },
+      {
+        "title": "Dakota Johnson Acclaimed Drama",
+        "year": 2008,
+        "role": "Principal Role",
+        "type": "Movie",
+        "rating": 8.7,
+        "boxOfficeOrNetwork": "Theatrical Distribution"
+      },
+      {
+        "title": "Dakota Johnson Landmark Production",
+        "year": 2018,
+        "role": "Leading Role",
+        "type": "Movie",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "Global Box Office"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "In a Relationship / Public Record",
+      "datingHistorySummary": "Dakota Johnson has documented partnerships including Chris Martin and Jordan Masterson and Matthew Hitt across verified public records.",
+      "partners": [
+        {
+          "name": "Chris Martin",
+          "relationType": "Partner",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Partner with Chris Martin."
+        },
+        {
+          "name": "Jordan Masterson",
+          "relationType": "Partner",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Partner with Jordan Masterson."
+        },
+        {
+          "name": "Matthew Hitt",
+          "relationType": "Partner",
+          "years": "Public Record",
+          "profession": "Entertainment / Public Record",
+          "summary": "Partner with Matthew Hitt."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/find/?q=Dakota%20Johnson",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dakota_Johnson"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Entertainment & Industry Analyst",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-06T12:55:05.155Z",
+      "lastUpdated": "2026-10-06T12:55:05.156Z",
       "readingTimeMinutes": 7
     }
   }

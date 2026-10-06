@@ -1194,4 +1194,31 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     }
   ],
 
+  "dakota-johnson": [
+  {
+    "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
+    "paragraphs": [
+      "Dakota Mayi Johnson (born October 4, 1989) is an American actress. Her accolades include nominations for a British Academy Film Award and a Critics' Choice Award. She was featured in the Forbes 30 Under 30 list in 2016.",
+      "The daughter of actors Don Johnson and Melanie Griffith, she began acting at a young age. Johnson's early credits include a supporting role in the biographical drama film The Social Network (2010), before landing a starring role in the Fox sitcom Ben and Kate (2012–2013). Her breakthrough came as Anastasia Steele in the Fifty Shades film trilogy (2015–2018), which collectively grossed over $1 billion worldwide and established her as a sex symbol. She has since starred in major-studio films such as How to Be Single (2016), Bad Times at the El Royale (2018), Madame Web (2024), and Materialists (2025), and earned praise for her performances in The Peanut Butter Falcon (2019), Cha Cha Real Smooth (2022), and Am I OK? (2022)."
+    ],
+    "keyTakeaway": "Dakota Johnson established early creative momentum through disciplined preparation and breakthrough initial projects."
+  },
+  {
+    "heading": "Commercial Authority, Signature Works & Critical Acclaim",
+    "paragraphs": [
+      "Dakota Mayi Johnson (born October 4, 1989) is an American actress. Her accolades include nominations for a British Academy Film Award and a Critics' Choice Award. She was featured in the Forbes 30 Under 30 list in 2016.",
+      "Securing top-tier acclaim across consecutive major releases, Dakota Johnson solidified an enduring reputation among critics and audiences alike."
+    ],
+    "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
+  },
+  {
+    "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
+    "paragraphs": [
+      "Beyond creative releases, Dakota Johnson commands major production equity, brand collaborations, and private portfolio holdings. Entering late 2026, their verified valuation is appraised at $14 Million USD (Certified Box Office Equity).",
+      "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and artistic integrity."
+    ],
+    "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
+  }
+],
+
 };

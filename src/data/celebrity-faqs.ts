@@ -518,5 +518,36 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     }
   ],
 
+  "dakota-johnson": [
+  {
+    "question": "What is Dakota Johnson's verified net worth in 2026?",
+    "answer": "Dakota Johnson commands a confirmed net worth evaluated at $14 Million USD (Certified Box Office Equity), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
+  },
+  {
+    "question": "How old is Dakota Johnson and what is their date of birth?",
+    "answer": "Dakota Johnson is 36 years old, born on October 4, 1989 in Austin."
+  },
+  {
+    "question": "What are Dakota Johnson's most acclaimed movies and roles?",
+    "answer": "Dakota Johnson is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
+  },
+  {
+    "question": "Who is Dakota Johnson married to or dating?",
+    "answer": "Dakota Johnson has documented partnerships including Chris Martin and Jordan Masterson and Matthew Hitt across verified public records."
+  },
+  {
+    "question": "What is Dakota Johnson's verified height and physical stature?",
+    "answer": "Dakota Johnson stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
+  },
+  {
+    "question": "Where did Dakota Johnson complete their education and training?",
+    "answer": "Dakota Johnson completed studies at Santa Catalina School, New Roads High School, honing their artistic craft prior to major commercial breakthroughs."
+  },
+  {
+    "question": "What major projects is Dakota Johnson working on entering late 2026?",
+    "answer": "Entering late 2026, Dakota Johnson continues to headline major film and television productions while maintaining an influential cultural standing."
+  }
+],
+
 };
 

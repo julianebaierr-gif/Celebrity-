@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 25,
-  "lastUpdated": "2026-10-03T13:36:59.787Z",
+  "totalLocked": 26,
+  "lastUpdated": "2026-10-06T12:55:05.167Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -368,6 +368,20 @@
         "jimmy kimmel live",
         "jimmy kimmel oscars",
         "jimmy kimmel age"
+      ]
+    },
+    {
+      "keyword": "dakota johnson",
+      "slug": "dakota-johnson",
+      "name": "Dakota Johnson",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://celebledger.com/celebrity/dakota-johnson",
+      "publishedAt": "2026-10-06 12:55:05",
+      "associatedTags": [
+        "dakota johnson net worth",
+        "dakota johnson age",
+        "dakota johnson career",
+        "dakota johnson 2026"
       ]
     }
   ],
