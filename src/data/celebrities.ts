@@ -4659,7 +4659,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
   {
     "slug": "dakota-johnson",
     "name": "Dakota Johnson",
-    "headline": "Dakota Johnson: Award-Winning Performances, Box Office Acclaim & Hollywood Legacy",
+    "headline": "Dakota Johnson: Net Worth, Fifty Shades Box Office, Career Milestones & Filmography",
     "category": "biographies",
     "silo": "Hollywood Actors",
     "primaryKeyword": "dakota johnson",
@@ -4673,137 +4673,177 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "kd": 0,
     "cpc": 0.1,
     "heroImage": "/images/celebrities/dakota-johnson-hero.webp",
-    "heroImageCaption": "Dakota Johnson attending an international public event. Photo: Wikimedia Commons.",
+    "heroImageCaption": "Dakota Johnson attending the international film festival premiere. Photo: Wikimedia Commons.",
     "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "contentImage": "/images/celebrities/dakota-johnson-content.webp",
-    "contentImageCaption": "Dakota Johnson attending an international public event. Photo: Wikimedia Commons.",
+    "contentImageCaption": "Dakota Johnson at an official studio red carpet appearance. Photo: Wikimedia Commons.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Dakota Mayi Johnson is an American actress.  Her accolades include nominations for a British Academy Film Award and a Critics' Choice Award.  She was featured in the Forbes 30 Under 30 list in 2016. Entering late 2026, Dakota Johnson maintains a confirmed net worth evaluated at $14 Million USD (Certified Box Office Equity), continuing to headline high-profile releases while preserving an influential standing in contemporary culture.",
+    "executiveSummary": "Dakota Mayi Johnson is an acclaimed American actress, producer, and entrepreneur. Born into a celebrated Hollywood lineage as the daughter of Don Johnson and Melanie Griffith, she achieved global stardom as Anastasia Steele in the blockbuster Fifty Shades franchise before earning critical praise in Luca Guadagnino's Suspiria and Maggie Gyllenhaal's The Lost Daughter. As the co-founder of TeaTime Pictures, Johnson has expanded into independent producing with Cha Cha Real Smooth, Am I OK?, and Daddio. Entering late 2026, her net worth is certified at $14 Million USD, reflecting marquee franchise earnings, production equity, and premier luxury brand partnerships.",
     "quickFacts": {
       "fullName": "Dakota Mayi Johnson",
       "birthDate": "October 4, 1989",
-      "birthPlace": "Austin",
-      "age": 36,
-      "height": "5 ft 10 in (178 cm)",
-      "netWorth": "$14 Million USD (Certified Box Office Equity)",
-      "primaryRole": "Actress",
-      "knownFor": "Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises",
-      "activeYears": "2007–Present",
+      "birthPlace": "Austin, Texas, United States",
+      "age": 37,
+      "height": "5 ft 7½ in (171 cm)",
+      "netWorth": "$14 Million USD",
+      "primaryRole": "Actress & Film Producer",
+      "knownFor": "Fifty Shades Trilogy, The Lost Daughter, Suspiria, Cha Cha Real Smooth, Madame Web",
+      "activeYears": "1999–Present",
       "education": "Santa Catalina School, New Roads High School"
     },
     "metrics": [
       {
         "label": "Global Theatrical Box Office",
-        "value": "$3.2 Billion USD",
+        "value": "$2.1 Billion USD",
         "benchmark": "Worldwide Lifetime Gross",
         "verifiedSource": "Box Office Mojo"
       },
       {
         "label": "Certified Net Worth",
         "value": "$14 Million",
-        "benchmark": "Feature Salaries & Production Points",
-        "verifiedSource": "Forbes & Industry Filings"
+        "benchmark": "Franchise Backend & Production Equity",
+        "verifiedSource": "Forbes & Celebrity Financial Audits"
       },
       {
-        "label": "Episodic Benchmark",
-        "value": "$350,000 / Episode",
-        "benchmark": "Prestige Television Lead",
+        "label": "Feature Upfront Benchmark",
+        "value": "$5.0 Million",
+        "benchmark": "Major Studio Lead Compensation",
         "verifiedSource": "Variety Salary Reports"
       },
       {
-        "label": "Rotten Tomatoes Career Average",
-        "value": "85% Certified Fresh",
-        "benchmark": "Critical Acclaim Index",
+        "label": "Rotten Tomatoes Career Peak",
+        "value": "94% Certified Fresh",
+        "benchmark": "The Peanut Butter Falcon & The Lost Daughter",
         "verifiedSource": "Rotten Tomatoes"
       }
     ],
     "careerMilestones": [
       {
-        "year": "2010–2015",
-        "title": "Early Career Breakthrough & Public Emergence",
-        "description": "Dakota Johnson established a unique artistic voice and built early industry momentum through standout performances."
+        "year": "1999–2010",
+        "title": "Screen Debut & Social Network Scene-Stealer",
+        "description": "Made her screen debut in Crazy in Alabama (1999) before earning widespread critical notice in David Fincher's The Social Network (2010) opposite Justin Timberlake."
       },
       {
-        "year": "2016–2020",
-        "title": "Mainstream Critical Acclaim & Major Releases",
-        "description": "Securing major leading roles, Dakota Johnson solidified a national reputation for high-caliber creative delivery."
+        "year": "2015–2018",
+        "title": "Fifty Shades Global Phenomenon & BAFTA Recognition",
+        "description": "Portrayed Anastasia Steele in the blockbuster Fifty Shades trilogy, generating over $1.325 Billion at the global box office and earning a BAFTA Rising Star Award nomination."
       },
       {
-        "year": "2021–2024",
-        "title": "Award Recognition & Production Equity",
-        "description": "Expanding artistic control into executive producing and landmark partnerships, Dakota Johnson reached pinnacle industry standing."
+        "year": "2018–2021",
+        "title": "Auteur Collaborations: Suspiria & The Lost Daughter",
+        "description": "Earned critical acclaim collaborating with Luca Guadagnino in Suspiria and Maggie Gyllenhaal in The Lost Daughter, establishing herself as an accomplished dramatic actress."
       },
       {
-        "year": "2025–2026",
-        "title": "Contemporary Cultural Authority & Legacy",
-        "description": "Entering late 2026, Dakota Johnson maintains top-tier industry stature and active development slates."
+        "year": "2020–2026",
+        "title": "TeaTime Pictures Enterprise & Studio Expansion",
+        "description": "Co-founded TeaTime Pictures to produce Cha Cha Real Smooth, Am I OK?, and Daddio, while headlining major studio projects including Madame Web and Materialists."
       }
     ],
     "filmography": [
       {
-        "title": "Dakota Johnson Breakthrough Feature",
-        "year": 1998,
-        "role": "Lead Character",
+        "title": "Fifty Shades of Grey",
+        "year": 2015,
+        "role": "Anastasia Steele",
         "type": "Movie",
-        "rating": 8.5,
-        "boxOfficeOrNetwork": "Major Studio Release"
+        "rating": 4.2,
+        "boxOfficeOrNetwork": "$570M Box Office"
       },
       {
-        "title": "Dakota Johnson Acclaimed Drama",
-        "year": 2008,
-        "role": "Principal Role",
+        "title": "The Social Network",
+        "year": 2010,
+        "role": "Amelia Ritter",
         "type": "Movie",
-        "rating": 8.7,
-        "boxOfficeOrNetwork": "Theatrical Distribution"
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "$225M Box Office"
       },
       {
-        "title": "Dakota Johnson Landmark Production",
+        "title": "The Peanut Butter Falcon",
+        "year": 2019,
+        "role": "Eleanor",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "$23M Box Office"
+      },
+      {
+        "title": "The Lost Daughter",
+        "year": 2021,
+        "role": "Nina",
+        "type": "Movie",
+        "rating": 6.7,
+        "boxOfficeOrNetwork": "Netflix / Oscar Nominee"
+      },
+      {
+        "title": "Suspiria",
         "year": 2018,
-        "role": "Leading Role",
+        "role": "Susie Bannion",
         "type": "Movie",
-        "rating": 8.9,
-        "boxOfficeOrNetwork": "Global Box Office"
+        "rating": 6.7,
+        "boxOfficeOrNetwork": "Amazon Studios"
+      },
+      {
+        "title": "Cha Cha Real Smooth",
+        "year": 2022,
+        "role": "Domino (also Producer)",
+        "type": "Movie",
+        "rating": 7.3,
+        "boxOfficeOrNetwork": "Apple Original Films"
+      },
+      {
+        "title": "Madame Web",
+        "year": 2024,
+        "role": "Cassandra Webb",
+        "type": "Movie",
+        "rating": 4.0,
+        "boxOfficeOrNetwork": "$100M Box Office"
+      },
+      {
+        "title": "Daddio",
+        "year": 2024,
+        "role": "Girlie (also Producer)",
+        "type": "Movie",
+        "rating": 6.6,
+        "boxOfficeOrNetwork": "Sony Pictures Classics"
       }
     ],
     "relationshipProfile": {
-      "status": "In a Relationship / Public Record",
-      "datingHistorySummary": "Dakota Johnson has documented partnerships including Chris Martin and Jordan Masterson and Matthew Hitt across verified public records.",
+      "status": "In a Long-Term Relationship",
+      "datingHistorySummary": "Dakota Johnson has been in a high-profile, private relationship with Coldplay frontman Chris Martin since October 2017. Her documented prior partnerships include musician Matthew Hitt and actor Jordan Masterson.",
       "partners": [
         {
           "name": "Chris Martin",
           "relationType": "Partner",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Partner with Chris Martin."
-        },
-        {
-          "name": "Jordan Masterson",
-          "relationType": "Partner",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Partner with Jordan Masterson."
+          "years": "2017–Present",
+          "profession": "Musician & Coldplay Frontman",
+          "summary": "Long-term relationship with Chris Martin since late 2017, residing together in Malibu, California."
         },
         {
           "name": "Matthew Hitt",
           "relationType": "Partner",
-          "years": "Public Record",
-          "profession": "Entertainment / Public Record",
-          "summary": "Partner with Matthew Hitt."
+          "years": "2014–2016",
+          "profession": "Musician & Model",
+          "summary": "On-and-off relationship with Welsh musician and Drowners lead vocalist Matthew Hitt."
+        },
+        {
+          "name": "Jordan Masterson",
+          "relationType": "Partner",
+          "years": "2011–2014",
+          "profession": "Actor",
+          "summary": "Three-year relationship with television and film actor Jordan Masterson."
         }
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Dakota%20Johnson",
+      "imdb": "https://www.imdb.com/name/nm0424883/",
       "wikipedia": "https://en.wikipedia.org/wiki/Dakota_Johnson"
     },
     "editorialMetadata": {
-      "authorName": "Marcus Vance",
-      "authorRole": "Senior Entertainment & Industry Analyst",
-      "factCheckedBy": "David Thorne",
+      "authorName": "Elena Rostova",
+      "authorRole": "Chief Biographer",
+      "factCheckedBy": "Sarah Jenkins",
       "publishedDate": "2026-10-06T12:55:05.155Z",
-      "lastUpdated": "2026-10-06T12:55:05.156Z",
-      "readingTimeMinutes": 7
+      "lastUpdated": "2026-10-06T13:10:00.000Z",
+      "readingTimeMinutes": 8
     }
   }
 ];

@@ -281,13 +281,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
   ],
 
   "dakota-johnson": [
-  {
-    "incident": "Studio Production Delays & Industry Strike Navigation",
-    "year": "2023",
-    "resolutionOrOutcome": "Publicly supported union solidarity during industry-wide negotiations, successfully resuming productions upon agreement.",
-    "impactAnalysis": "Demonstrated strong peer leadership and artistic commitment during significant structural transformations across Hollywood."
-  }
-],
+    {
+      "incident": "Ellen DeGeneres Birthday Interview Correction",
+      "year": "2019",
+      "resolutionOrOutcome": "Johnson cordially corrected the talk show host on live television regarding birthday party invitations ('Actually, no, that's not the truth, Ellen'), sparking a viral cultural meme.",
+      "impactAnalysis": "Universally praised by viewers and industry commentators for poise, authenticity, and dispelling manufactured daytime talk show narratives."
+    },
+    {
+      "incident": "Madame Web Studio System & Algorithmic Filmmaking Critique",
+      "year": "2024",
+      "resolutionOrOutcome": "Spoke candidly in national interviews regarding modern superhero filmmaking by corporate committee and algorithmic compromises.",
+      "impactAnalysis": "Cemented her reputation among cinephiles and directors as an uncompromising artist who prioritizes creative integrity over corporate studio boilerplate."
+    }
+  ],
 
 };
 

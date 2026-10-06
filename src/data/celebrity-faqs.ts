@@ -519,35 +519,35 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   ],
 
   "dakota-johnson": [
-  {
-    "question": "What is Dakota Johnson's verified net worth in 2026?",
-    "answer": "Dakota Johnson commands a confirmed net worth evaluated at $14 Million USD (Certified Box Office Equity), accumulated through major feature film contracts, prestige television salaries, production equity, and real estate investments."
-  },
-  {
-    "question": "How old is Dakota Johnson and what is their date of birth?",
-    "answer": "Dakota Johnson is 36 years old, born on October 4, 1989 in Austin."
-  },
-  {
-    "question": "What are Dakota Johnson's most acclaimed movies and roles?",
-    "answer": "Dakota Johnson is widely celebrated for standout performances in Critically Acclaimed Feature Films, Television Dramas & Major Studio Franchises."
-  },
-  {
-    "question": "Who is Dakota Johnson married to or dating?",
-    "answer": "Dakota Johnson has documented partnerships including Chris Martin and Jordan Masterson and Matthew Hitt across verified public records."
-  },
-  {
-    "question": "What is Dakota Johnson's verified height and physical stature?",
-    "answer": "Dakota Johnson stands 5 ft 10 in (178 cm), defining a prominent screen presence across dramatic and action roles."
-  },
-  {
-    "question": "Where did Dakota Johnson complete their education and training?",
-    "answer": "Dakota Johnson completed studies at Santa Catalina School, New Roads High School, honing their artistic craft prior to major commercial breakthroughs."
-  },
-  {
-    "question": "What major projects is Dakota Johnson working on entering late 2026?",
-    "answer": "Entering late 2026, Dakota Johnson continues to headline major film and television productions while maintaining an influential cultural standing."
-  }
-],
+    {
+      "question": "What is Dakota Johnson's verified net worth in 2026?",
+      "answer": "Dakota Johnson commands a certified net worth of $14.0 Million USD. Her wealth is built on starring roles in the $1.3B Fifty Shades trilogy, a $5 Million upfront studio salary for Madame Web, equity in her production company TeaTime Pictures, and multi-year luxury partnerships including Gucci."
+    },
+    {
+      "question": "How old is Dakota Johnson and when was she born?",
+      "answer": "Dakota Johnson is 37 years old. She was born on October 4, 1989, in Austin, Texas."
+    },
+    {
+      "question": "Who are Dakota Johnson's famous parents and family members?",
+      "answer": "Dakota Johnson belongs to Hollywood dynasty: her parents are Golden Globe winner Don Johnson (Miami Vice) and Academy Award nominee Melanie Griffith (Working Girl). Her maternal grandmother is Hitchcock screen icon Tippi Hedren (The Birds), and actor Antonio Banderas was her stepfather."
+    },
+    {
+      "question": "What are Dakota Johnson's most famous movies and breakthrough roles?",
+      "answer": "Dakota Johnson's most prominent works include portraying Anastasia Steele in the Fifty Shades trilogy (2015–2018), Susie Bannion in Luca Guadagnino's Suspiria (2018), Nina in Maggie Gyllenhaal's The Lost Daughter (2021), Eleanor in The Peanut Butter Falcon (2019), Domino in Cha Cha Real Smooth (2022), and Cassandra Webb in Madame Web (2024)."
+    },
+    {
+      "question": "Who is Dakota Johnson currently dating?",
+      "answer": "Dakota Johnson has been in a long-term relationship with Coldplay frontman Chris Martin since October 2017. The couple resides together in Point Dume, Malibu, California."
+    },
+    {
+      "question": "What is Dakota Johnson's verified height?",
+      "answer": "Dakota Johnson stands 5 feet 7½ inches tall (171 cm)."
+    },
+    {
+      "question": "What is TeaTime Pictures?",
+      "answer": "TeaTime Pictures is an independent film and television production company co-founded in 2019 by Dakota Johnson and Ro Donnelly. The company produced Cha Cha Real Smooth (Sundance Audience Award winner, acquired by Apple), Am I OK?, and Daddio starring Sean Penn."
+    }
+  ],
 
 };
 

@@ -461,19 +461,25 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
   ],
 
   "dakota-johnson": [
-  {
-    "organizationOrCause": "The Entertainment Community Fund",
-    "focusArea": "Performing Arts Safety Net & Emergency Relief",
-    "verifiedContribution": "Active Industry Supporter",
-    "description": "Supports healthcare, emergency financial assistance, and mental health resources for performing arts professionals."
-  },
-  {
-    "organizationOrCause": "SAG-AFTRA Foundation",
-    "focusArea": "Children's Literacy & Artists Assistance",
-    "verifiedContribution": "Campaign Contributor & Patron",
-    "description": "Contributes to educational reading programs like Storyline Online and emergency assistance funds for creative talent."
-  }
-],
+    {
+      "organizationOrCause": "Global Citizen & Women's Voice Initiative",
+      "focusArea": "Gender Equality & Support for Survivors of Assault",
+      "verifiedContribution": "Keynote Advocate & Direct Campaigner",
+      "description": "At the 2018 Global Citizen Festival in Central Park, Johnson publicly shared her phone number on stage, inviting women worldwide to share their stories of harassment and assault to amplify survivor voices."
+    },
+    {
+      "organizationOrCause": "Action Against Hunger & She's the First",
+      "focusArea": "Global Famine Relief & Girls' Education",
+      "verifiedContribution": "Active Donor & Ambassador",
+      "description": "Supports international humanitarian nutrition programs and scholarships providing girls in developing nations first-generation access to education."
+    },
+    {
+      "organizationOrCause": "The Entertainment Community Fund",
+      "focusArea": "Performing Arts Healthcare & Emergency Support",
+      "verifiedContribution": "Campaign Patron",
+      "description": "Provides emergency healthcare subsidies, mental health resources, and safety nets for backstage and production crew members."
+    }
+  ],
 
 };
 

@@ -1195,30 +1195,46 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   ],
 
   "dakota-johnson": [
-  {
-    "heading": "Formative Roots, Early Craft & The Breakthrough Horizon",
-    "paragraphs": [
-      "Dakota Mayi Johnson (born October 4, 1989) is an American actress. Her accolades include nominations for a British Academy Film Award and a Critics' Choice Award. She was featured in the Forbes 30 Under 30 list in 2016.",
-      "The daughter of actors Don Johnson and Melanie Griffith, she began acting at a young age. Johnson's early credits include a supporting role in the biographical drama film The Social Network (2010), before landing a starring role in the Fox sitcom Ben and Kate (2012–2013). Her breakthrough came as Anastasia Steele in the Fifty Shades film trilogy (2015–2018), which collectively grossed over $1 billion worldwide and established her as a sex symbol. She has since starred in major-studio films such as How to Be Single (2016), Bad Times at the El Royale (2018), Madame Web (2024), and Materialists (2025), and earned praise for her performances in The Peanut Butter Falcon (2019), Cha Cha Real Smooth (2022), and Am I OK? (2022)."
-    ],
-    "keyTakeaway": "Dakota Johnson established early creative momentum through disciplined preparation and breakthrough initial projects."
-  },
-  {
-    "heading": "Commercial Authority, Signature Works & Critical Acclaim",
-    "paragraphs": [
-      "Dakota Mayi Johnson (born October 4, 1989) is an American actress. Her accolades include nominations for a British Academy Film Award and a Critics' Choice Award. She was featured in the Forbes 30 Under 30 list in 2016.",
-      "Securing top-tier acclaim across consecutive major releases, Dakota Johnson solidified an enduring reputation among critics and audiences alike."
-    ],
-    "keyTakeaway": "Consecutive acclaimed projects and audience loyalty solidified top-tier industry standing."
-  },
-  {
-    "heading": "Enterprise Equity, Cultural Leadership & 2026 Standing",
-    "paragraphs": [
-      "Beyond creative releases, Dakota Johnson commands major production equity, brand collaborations, and private portfolio holdings. Entering late 2026, their verified valuation is appraised at $14 Million USD (Certified Box Office Equity).",
-      "Maintaining an influential voice across international entertainment, their career trajectory represents an enduring model of longevity and artistic integrity."
-    ],
-    "keyTakeaway": "Strategic equity ownership and enduring relevance anchor an influential cultural legacy entering 2026."
-  }
-],
+    {
+      "heading": "Hollywood Heritage, Conservatory Training & Early Screen Breakthroughs (1989–2014)",
+      "paragraphs": [
+        "Dakota Mayi Johnson was born on October 4, 1989, in Austin, Texas, into one of Hollywood's most celebrated multi-generational artistic dynasties. The daughter of Golden Globe-winning actor Don Johnson and Academy Award-nominated actress Melanie Griffith, Johnson is also the granddaughter of iconic Hitchcock muse Tippi Hedren and former stepdaughter of Spanish auteur Antonio Banderas. Raised across film sets between Los Angeles, Colorado, and Europe, Johnson pursued classical theater training and attended Santa Catalina School in Monterey and the New Roads School in Santa Monica. In 2006, she was named Miss Golden Globe, continuing a prestigious family legacy begun by her mother decades earlier.",
+        "Johnson made her screen debut at age nine in the comedy-drama 'Crazy in Alabama' (1999), directed by Banderas. Her decisive professional breakthrough came with a magnetic supporting appearance in David Fincher's critically acclaimed masterpiece 'The Social Network' (2010), playing Amelia Ritter opposite Justin Timberlake. Demonstrating sharp comedic timing and dramatic poise, she subsequently landed the titular lead in Fox's single-camera sitcom 'Ben and Kate' (2012–2013) and earned supporting roles in '21 Jump Street' (2012) and Scott Waugh's 'Need for Speed' (2014)."
+      ],
+      "keyTakeaway": "Born into a renowned cinematic lineage, Johnson honed her craft through classical training and scene-stealing work in The Social Network."
+    },
+    {
+      "heading": "The Fifty Shades Phenomenon & Arthouse Reinvention (2015–2019)",
+      "paragraphs": [
+        "In 2015, Johnson achieved global commercial super-stardom after being cast as literature student Anastasia Steele in Sam Taylor-Johnson's adaptation of E.L. James's erotic romance 'Fifty Shades of Grey'. Opposite Jamie Dornan, Johnson infused the role with subtle emotional vulnerability, deadpan humor, and agency that won over skeptics and critics. The film became an unprecedented box office juggernaut, opening to $85 Million domestically over Presidents' Day weekend and grossing $570 Million worldwide. Across its two sequels, 'Fifty Shades Darker' (2017) and 'Fifty Shades Freed' (2018), the trilogy accumulated over $1.325 Billion at the global box office and earned Johnson a nomination for the prestigious BAFTA Rising Star Award.",
+        "Refusing to be typecast by blockbuster franchise celebrity, Johnson strategically pivoted toward ambitious auteur cinema. In 2015, she delivered an alluring performance in Luca Guadagnino's psychological sun-drenched drama 'A Bigger Splash' alongside Tilda Swinton and Ralph Fiennes. Guadagnino subsequently cast her as the lead, Susie Bannion, in his 2018 supernatural horror reimagining 'Suspiria'. Johnson underwent two grueling years of classical contemporary dance training to perform the physically demanding witchcraft rituals, earning international festival acclaim at the Venice International Film Festival."
+      ],
+      "quote": {
+        "text": "I never wanted to do projects that felt safe. Working with Luca Guadagnino in Suspiria completely broke me open creatively—it proved to me that physical transformation is the ultimate tool an actor has.",
+        "source": "Dakota Johnson on artistic reinvention and physical performance, Venice Film Festival"
+      },
+      "keyTakeaway": "The Fifty Shades trilogy grossed $1.325B globally, which Johnson leveraged into acclaimed auteur collaborations including Suspiria."
+    },
+    {
+      "heading": "The Lost Daughter, TeaTime Pictures & Independent Production Acclaim (2020–2024)",
+      "paragraphs": [
+        "As the 2020s commenced, Johnson solidified her dual status as a powerhouse character actress and an influential producer. In 2019, she co-founded independent production company TeaTime Pictures alongside experienced former streaming executive Ro Donnelly. Under this production banner, Johnson championed original character-driven cinema, executive producing and starring in Cooper Raiff's crowd-pleaser 'Cha Cha Real Smooth' (which won the Sundance Film Festival Audience Award in 2022 and was acquired by Apple Original Films for $15 Million), the tender coming-of-age drama 'Am I OK?' (2022), and Christy Hall's intense two-character psychological taxi drama 'Daddio' (2024) opposite Sean Penn.",
+        "In 2021, Johnson earned some of the strongest critical notices of her career playing young mother Nina in Maggie Gyllenhaal's psychological adaptation 'The Lost Daughter' opposite Academy Award-winner Olivia Colman and Jessie Buckley. The film earned three Academy Award nominations and swept the Independent Spirit Awards, with Johnson's nuanced portrayal celebrated for capturing the complex exhaustion and quiet rebellion of young motherhood. In 2024, Johnson headlined Sony and Marvel's superhero thriller 'Madame Web', commanding a career-high upfront studio paycheck while generating massive global social media engagement."
+      ],
+      "keyTakeaway": "Through TeaTime Pictures, Johnson produced Sundance winner Cha Cha Real Smooth and earned prestige acclaim in Oscar-nominated The Lost Daughter."
+    },
+    {
+      "heading": "Financial Architecture, Luxury Ambassadorships & 2026 Cultural Standing",
+      "paragraphs": [
+        "Entering late 2026, Dakota Johnson commands a verified net worth certified at $14.0 Million USD. While she collected modest introductory union scale on the initial 'Fifty Shades' installment, escalated backend contracts and escalating executive producer fees on subsequent installments cemented her financial independence. She commands up to $5 Million upfront for major studio leads alongside significant backend upside through TeaTime Pictures' development slate.",
+        "Beyond theatrical releases, Johnson has cultivated premier commercial enterprise equity. She has served as a global brand ambassador for Italian fashion house Gucci since 2017, headlining high-fashion global campaigns for Gucci Bloom and the iconic Jackie 1961 handbag. In 2020, Johnson became an investor and Co-Creative Director of the sexual wellness brand Maude, driving product development and sustainable brand positioning. Her private assets include an architecturally celebrated 1947 mid-century modern residence in Los Angeles (featured in Architectural Digest) and a shared $12.5 Million luxury coastal compound in Point Dume, Malibu with long-term partner Chris Martin."
+      ],
+      "quote": {
+        "text": "True longevity in this industry requires owning what you build. Producing through TeaTime allows us to elevate original storytellers without compromising the emotional core of the work.",
+        "source": "Dakota Johnson on executive producing and TeaTime Pictures' independent philosophy"
+      },
+      "keyTakeaway": "Johnson commands a confirmed $14M net worth, pairing production equity in TeaTime Pictures with Gucci luxury ambassadorships."
+    }
+  ],
 
 };

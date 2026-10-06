@@ -2123,58 +2123,104 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   },
 
   "dakota-johnson": {
-  "salaryMilestones": [
-    {
-      "project": "Dakota Johnson Breakthrough Feature",
-      "year": 1998,
-      "salary": "$500,000 USD",
-      "boxOfficeOrBudget": "Major Studio Release",
-      "notes": "Early career landmark compensation establishing bankable industry status."
-    },
-    {
-      "project": "Dakota Johnson Landmark Production",
-      "year": 2018,
-      "salary": "$2.5 Million USD",
-      "boxOfficeOrBudget": "Global Box Office",
-      "notes": "Peak compensation tier reflecting established leading status."
-    }
-  ],
-  "realEstateAssets": [
-    {
-      "property": "Primary Luxury Residence",
-      "location": "Austin, United States",
-      "purchasedYear": "2019",
-      "purchasePrice": "$3.5 Million USD",
-      "currentEstimatedValue": "$5.0 Million USD",
-      "description": "Private residential estate featuring extensive architectural customization and privacy infrastructure."
-    }
-  ],
-  "businessVentures": [
-    {
-      "name": "Commercial Brand Partnerships & Production Equity",
-      "role": "Principal Talent & Equity Partner",
-      "valuationOrRevenue": "Multi-Million Portfolio",
-      "description": "Selective brand partnerships, syndication participation, and enterprise production equity."
-    }
-  ],
-  "wealthProgression": [
-    {
-      "period": "2015",
-      "estimatedNetWorth": "$2.0 Million USD",
-      "milestoneDescription": "Early breakthrough projects and rising industry demand."
-    },
-    {
-      "period": "2020",
-      "estimatedNetWorth": "$10.0 Million USD",
-      "milestoneDescription": "Mainstream leading roles and commercial endorsements."
-    },
-    {
-      "period": "2026",
-      "estimatedNetWorth": "$14 Million USD (Certified Box Office Equity)",
-      "milestoneDescription": "Global box office equity, production points, and prime real estate."
-    }
-  ]
-},
+    "salaryMilestones": [
+      {
+        "project": "Fifty Shades of Grey",
+        "year": 2015,
+        "salary": "$250,000 USD",
+        "boxOfficeOrBudget": "$570M Box Office",
+        "notes": "Introductory franchise scale upfront with subsequent escalating box office bonuses."
+      },
+      {
+        "project": "Fifty Shades Darker & Freed",
+        "year": 2017,
+        "salary": "$7.0 Million USD",
+        "boxOfficeOrBudget": "$755M Combined Gross",
+        "notes": "Renegotiated franchise parity scale with lucrative global box office gross backend points."
+      },
+      {
+        "project": "Suspiria & Arthouse Projects",
+        "year": 2018,
+        "salary": "$1.5 Million USD",
+        "boxOfficeOrBudget": "Amazon Studios Distribution",
+        "notes": "Prestige dramatic scale reflecting artistic reinvention in festival cinema."
+      },
+      {
+        "project": "The Lost Daughter",
+        "year": 2021,
+        "salary": "$1.2 Million USD",
+        "boxOfficeOrBudget": "Netflix Global Acquisition",
+        "notes": "Prestige dramatic ensemble compensation and Oscar campaign participation."
+      },
+      {
+        "project": "Madame Web",
+        "year": 2024,
+        "salary": "$5.0 Million USD",
+        "boxOfficeOrBudget": "$100M Box Office",
+        "notes": "Career-high major studio superhero franchise upfront leading salary."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Mid-Century Modern Landmark Residence",
+        "location": "Hollywood Hills, Los Angeles, California",
+        "purchasedYear": "2016",
+        "purchasePrice": "$3.55 Million USD",
+        "currentEstimatedValue": "$5.5 Million USD",
+        "description": "Celebrated 1947 mid-century modern home designed by Carl Maston, featured prominently in Architectural Digest."
+      },
+      {
+        "property": "Point Dume Coastal Gated Compound",
+        "location": "Malibu, California",
+        "purchasedYear": "2021",
+        "purchasePrice": "$12.5 Million USD",
+        "currentEstimatedValue": "$16.0 Million USD",
+        "description": "5,300-square-foot modern Cape Cod compound co-purchased with Chris Martin featuring ocean views and guest cottage."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "TeaTime Pictures",
+        "role": "Co-Founder & Executive Producer",
+        "valuationOrRevenue": "Independent Production Slate",
+        "description": "Production company founded with Ro Donnelly; produced Cha Cha Real Smooth, Am I OK?, and Daddio."
+      },
+      {
+        "name": "Maude (Sexual Wellness Enterprise)",
+        "role": "Investor & Co-Creative Director",
+        "valuationOrRevenue": "Venture Equity Portfolio",
+        "description": "Joined in 2020 as investor and co-creative director guiding creative direction and marketing strategy."
+      },
+      {
+        "name": "Gucci Global Brand Ambassadorship",
+        "role": "Global Luxury Brand Ambassador",
+        "valuationOrRevenue": "Multi-Million Annual Endorsement",
+        "description": "Longstanding high-fashion ambassadorship headlining Gucci Bloom fragrance and Jackie 1961 handbag campaigns."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2014",
+        "estimatedNetWorth": "$1.0 Million USD",
+        "milestoneDescription": "Early career momentum prior to major studio franchise casting."
+      },
+      {
+        "period": "2018",
+        "estimatedNetWorth": "$7.5 Million USD",
+        "milestoneDescription": "Completion of the $1.3B Fifty Shades trilogy and renegotiated profit participation."
+      },
+      {
+        "period": "2022",
+        "estimatedNetWorth": "$11.0 Million USD",
+        "milestoneDescription": "TeaTime Pictures launch, Sundance acquisition sale to Apple, and Gucci luxury contract."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$14 Million USD",
+        "milestoneDescription": "Madame Web upfront earnings, active production equity, and high-value California real estate holdings."
+      }
+    ]
+  },
 
 };
 
