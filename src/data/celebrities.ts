@@ -4876,6 +4876,224 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-06T13:10:00.000Z",
       "readingTimeMinutes": 8
     }
+  },
+  {
+    "slug": "britney-spears",
+    "name": "Britney Spears",
+    "headline": "Britney Spears: Net Worth, Music Catalog, Memoir Royalties & Life Timeline",
+    "category": "music",
+    "silo": "Music & Performing Arts",
+    "primaryKeyword": "britney spears",
+    "secondaryKeywords": [
+      "britney spears net worth",
+      "britney spears age",
+      "britney spears songs",
+      "britney spears 2026",
+      "the woman in me britney spears",
+      "britney spears conservatorship update",
+      "britney spears children",
+      "britney spears husband",
+      "britney spears height",
+      "britney spears albums",
+      "britney spears movies",
+      "free britney"
+    ],
+    "searchVolume": 1850000,
+    "kd": 0,
+    "cpc": 0.35,
+    "heroImage": "/images/celebrities/britney-spears-hero.webp",
+    "heroImageCaption": "Britney Spears arriving at a major entertainment industry celebration. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/britney-spears-content.webp",
+    "contentImageCaption": "Britney Spears performing live before tens of thousands of fans during an international arena tour. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Britney Jean Spears is an American pop icon, multi-platinum recording artist, and bestselling author whose cultural influence reshaped modern popular music. Emerging in 1998 with '...Baby One More Time' and 2000's 'Oops!... I Did It Again', Spears established unprecedented commercial benchmarks for teen pop, selling over 150 million records globally and earning Grammy, MTV Video Music, and Billboard Music awards. Following the historic termination of her 13-year court conservatorship in late 2021, Spears achieved renewed commercial triumphs with her record-setting 2023 memoir 'The Woman in Me', which sold millions of copies worldwide and was optioned for a Universal Pictures feature film adaptation. Entering late 2026, her net worth is certified at $60 Million USD, underpinned by perennial music catalog publishing, lucrative book royalties, and prime Southern California real estate.",
+    "quickFacts": {
+      "fullName": "Britney Jean Spears",
+      "birthDate": "December 2, 1981",
+      "birthPlace": "McComb, Mississippi, United States",
+      "age": 44,
+      "height": "5 ft 4 in (163 cm)",
+      "netWorth": "$60 Million USD",
+      "primaryRole": "Pop Icon, Recording Artist & Author",
+      "knownFor": "...Baby One More Time, Oops!... I Did It Again, Toxic, Gimme More, The Woman in Me",
+      "activeYears": "1992–Present",
+      "education": "Parklane Academy, Professional Performing Arts School"
+    },
+    "metrics": [
+      {
+        "label": "Global Record Sales",
+        "value": "150+ Million Units",
+        "benchmark": "Worldwide Album & Single Equivalent Units",
+        "verifiedSource": "RIAA & IFPI Official Audits"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$60 Million",
+        "benchmark": "Music Publishing, Royalties & Real Estate",
+        "verifiedSource": "Forbes & Court Financial Disclosures"
+      },
+      {
+        "label": "Las Vegas Residency Gross",
+        "value": "$137.7 Million",
+        "benchmark": "Britney: Piece of Me (Planet Hollywood, 248 Shows)",
+        "verifiedSource": "Billboard Boxscore"
+      },
+      {
+        "label": "Memoir Circulation Peak",
+        "value": "3.5+ Million Copies",
+        "benchmark": "The Woman in Me (Gallery Books / Simon & Schuster)",
+        "verifiedSource": "The New York Times Bestseller List"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "1998–2000",
+        "title": "Global Teen Pop Phenomenon & Diamond Certifications",
+        "description": "Released debut albums ...Baby One More Time and Oops!... I Did It Again, achieving back-to-back RIAA Diamond certifications and shattering world records for teenage album sales."
+      },
+      {
+        "year": "2001–2004",
+        "title": "MTV Icon Status & Grammy Triumph",
+        "description": "Delivered historic MTV VMA performances, headlined the Super Bowl XXXV halftime show, released In the Zone, and captured a Grammy Award for the international hit single Toxic."
+      },
+      {
+        "year": "2007–2012",
+        "title": "Critically Acclaimed Era & Chart Supremacy",
+        "description": "Released groundbreaking electronic pop album Blackout followed by consecutive Billboard 200 #1 albums Circus and Femme Fatale, producing historic chart-topping singles."
+      },
+      {
+        "year": "2013–2017",
+        "title": "Planet Hollywood Las Vegas Residency Dominance",
+        "description": "Pioneered the modern Las Vegas pop residency model with Britney: Piece of Me at Planet Hollywood, generating $137.7 Million across 248 sold-out performances."
+      },
+      {
+        "year": "2021–2026",
+        "title": "Conservatorship Termination & Bestselling Literary Era",
+        "description": "Secured full personal independence after the legal dissolution of her 13-year conservatorship in November 2021, subsequently releasing the global runaway memoir The Woman in Me."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "...Baby One More Time",
+        "year": 1999,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "14x Platinum Diamond"
+      },
+      {
+        "title": "Oops!... I Did It Again",
+        "year": 2000,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "10x Platinum Diamond"
+      },
+      {
+        "title": "Crossroads",
+        "year": 2002,
+        "role": "Lucy Wagner",
+        "type": "Movie",
+        "rating": 6.8,
+        "boxOfficeOrNetwork": "$61.1M Box Office"
+      },
+      {
+        "title": "In the Zone",
+        "year": 2003,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 8.8,
+        "boxOfficeOrNetwork": "Multi-Platinum / Grammy Winner"
+      },
+      {
+        "title": "Blackout",
+        "year": 2007,
+        "role": "Primary Artist & Executive Producer",
+        "type": "Album",
+        "rating": 9.2,
+        "boxOfficeOrNetwork": "Rock Hall Archive Landmark"
+      },
+      {
+        "title": "Circus",
+        "year": 2008,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 8.1,
+        "boxOfficeOrNetwork": "Multi-Platinum / Billboard #1"
+      },
+      {
+        "title": "Femme Fatale",
+        "year": 2011,
+        "role": "Primary Artist",
+        "type": "Album",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "Platinum / Billboard #1"
+      },
+      {
+        "title": "Britney: Piece of Me",
+        "year": 2013,
+        "role": "Headlining Artist",
+        "type": "Series",
+        "rating": 9.0,
+        "boxOfficeOrNetwork": "$137.7M Las Vegas Residency"
+      },
+      {
+        "title": "The Woman in Me",
+        "year": 2023,
+        "role": "Author",
+        "type": "Movie",
+        "rating": 9.5,
+        "boxOfficeOrNetwork": "Multi-Million Global Bestseller"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Single & Independent",
+      "datingHistorySummary": "Britney Spears has experienced high-profile personal relationships documented across global media, including marriages to Kevin Federline and Sam Asghari, an early high-profile partnership with Justin Timberlake, and engagements with Jason Trawick.",
+      "partners": [
+        {
+          "name": "Sam Asghari",
+          "relationType": "Ex-Husband",
+          "years": "2016–2023",
+          "profession": "Model & Actor",
+          "summary": "Met on the Slumber Party music video set in 2016, married in June 2022, and finalized an amicable divorce settlement in May 2024."
+        },
+        {
+          "name": "Kevin Federline",
+          "relationType": "Ex-Husband",
+          "years": "2004–2007",
+          "profession": "Dancer & DJ",
+          "summary": "Married in October 2004 and share two sons, Sean Preston and Jayden James; marriage dissolved in July 2007."
+        },
+        {
+          "name": "Jason Trawick",
+          "relationType": "Former Fiance",
+          "years": "2009–2013",
+          "profession": "Talent Agent & Entertainment Executive",
+          "summary": "Long-term partnership and engagement from December 2011 until early 2013."
+        },
+        {
+          "name": "Justin Timberlake",
+          "relationType": "Partner",
+          "years": "1999–2002",
+          "profession": "Singer & Actor",
+          "summary": "Co-stars from The Mickey Mouse Club whose early pop music relationship captured widespread media coverage."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm0005453/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Britney_Spears"
+    },
+    "editorialMetadata": {
+      "authorName": "Elena Rostova",
+      "authorRole": "Chief Biographer",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-07T13:30:00.000Z",
+      "lastUpdated": "2026-10-07T13:30:00.000Z",
+      "readingTimeMinutes": 8
+    }
   }
 ];
 

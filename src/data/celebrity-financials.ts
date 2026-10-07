@@ -2229,5 +2229,110 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
     ]
   },
 
+  "britney-spears": {
+    "salaryMilestones": [
+      {
+        "project": "...Baby One More Time Era & Tour",
+        "year": 1999,
+        "salary": "$15.0 Million USD",
+        "boxOfficeOrBudget": "Jive Records / Live Theatrical Tour",
+        "notes": "Debut breakout album sales, international stadium touring, and commercial merchandise."
+      },
+      {
+        "project": "The X Factor US (Season 2)",
+        "year": 2012,
+        "salary": "$15.0 Million USD",
+        "boxOfficeOrBudget": "Fox Broadcasting Network",
+        "notes": "Record-setting judge salary for prime-time televised talent competition."
+      },
+      {
+        "project": "Las Vegas Residency: Britney: Piece of Me",
+        "year": 2013,
+        "salary": "$137.7 Million USD Gross (~$500K / Show)",
+        "boxOfficeOrBudget": "Planet Hollywood Resort & Casino",
+        "notes": "Historic 248-show run that fundamentally modernized the economics of Las Vegas headliner residencies."
+      },
+      {
+        "project": "The Woman in Me Memoir Publishing",
+        "year": 2023,
+        "salary": "$15.0M+ USD Advance & Global Royalties",
+        "boxOfficeOrBudget": "Gallery Books / Simon & Schuster",
+        "notes": "International runaway bestseller selling over 3.5 million copies worldwide."
+      },
+      {
+        "project": "Universal Pictures Biopic Adaptation Rights",
+        "year": 2024,
+        "salary": "$8.0 Million USD Guaranteed Package",
+        "boxOfficeOrBudget": "Universal Pictures / Marc Platt Productions",
+        "notes": "Feature film screen rights package for The Woman in Me directed by Jon M. Chu."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Thousand Oaks Gated Italianate Villa",
+        "location": "Thousand Oaks, California",
+        "purchasedYear": "2015",
+        "purchasePrice": "$7.4 Million USD",
+        "currentEstimatedValue": "$10.5 Million USD",
+        "description": "21-acre private estate featuring a 13,264-square-foot Italianate residence, infinity pool, tennis court, and 3,500-bottle wine cellar."
+      },
+      {
+        "property": "Calabasas Luxury Estate (Former)",
+        "location": "Calabasas, California",
+        "purchasedYear": "2022",
+        "purchasePrice": "$11.8 Million USD",
+        "currentEstimatedValue": "$10.1 Million USD (Sold 2023)",
+        "description": "11,650-square-foot custom mansion on 1.6 acres acquired following marriage, subsequently divested to consolidate in Thousand Oaks."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "Elizabeth Arden Fragrance Empire",
+        "role": "Brand Creator & Equity Licensor",
+        "valuationOrRevenue": "$1.5B+ Lifetime Retail Sales",
+        "description": "Launched with Curious in 2004, spanning over thirty global fragrance lines including Fantasy."
+      },
+      {
+        "name": "The Woman in Me Intellectual Property",
+        "role": "Author & Rights Holder",
+        "valuationOrRevenue": "Multi-Million Global Royalty Stream",
+        "description": "Publishing entity capturing ongoing international print, translation, and audiobook revenue."
+      },
+      {
+        "name": "Sony / RCA Catalog Master & Publishing Royalties",
+        "role": "Primary Artist & Rights Holder",
+        "valuationOrRevenue": "Perennial Multi-Million Annual Streaming Flow",
+        "description": "Continuous digital streaming, sync licensing, and physical catalog rights across nine studio albums."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2002",
+        "estimatedNetWorth": "$40.0 Million USD",
+        "milestoneDescription": "Peak millennium pop stardom, stadium tours, and major Pepsi global corporate endorsement."
+      },
+      {
+        "period": "2008",
+        "estimatedNetWorth": "$35.0 Million USD",
+        "milestoneDescription": "Probate court financial inventory filed at the inception of the California conservatorship."
+      },
+      {
+        "period": "2018",
+        "estimatedNetWorth": "$59.0 Million USD",
+        "milestoneDescription": "Accumulation of Las Vegas residency earnings and global fragrance licensing revenue."
+      },
+      {
+        "period": "2021",
+        "estimatedNetWorth": "$60.0 Million USD",
+        "milestoneDescription": "Certified asset total audited upon legal termination of the 13-year conservatorship."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$60.0 Million USD",
+        "milestoneDescription": "Sustained through bestselling memoir royalties, Universal biopic deal, and debt-free real estate."
+      }
+    ]
+  },
+
 };
 

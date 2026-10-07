@@ -1134,7 +1134,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       "heading": "Net Worth Valuation, Never Broke Again LLC & 2026 Cultural Standing",
       "paragraphs": [
         "Entering late 2026 at age 26, YoungBoy Never Broke Again’s personal net worth is appraised at $11 Million USD. While his digital streaming catalog generates over $8 million annually across YouTube and audio DSPs, and his Motown advance provided substantial capital, significant financial outflows—including multi-million-dollar legal defense retainers, round-the-clock private security details in Utah, municipal real estate holdings, and child support obligations for eleven children—maintain a realistic, grounded balance sheet.",
-        "Gaulden’s independent record imprint, Never Broke Again LLC, serves as a primary enterprise vehicle, nurturing Southern acts like NoCap and Quando Rondo. Married to longtime partner Jazlyn Mychelle Hayes since January 2023, Gaulden commands an fiercely loyal global fanbase whose dedicated engagement guarantees continuous commercial viability across the contemporary entertainment landscape."
+        "Gaulden’s independent record imprint, Never Broke Again LLC, serves as a primary enterprise vehicle, nurturing Southern acts like NoCap and Quando Rondo. Married to longtime partner Jazlyn Mychelle Hayes since January 2023, Gaulden commands an fiercely loyal global fanbase whose dedicated engagement guarantees continuous commercial viability across the contemporary entertainment industry."
       ],
       "keyTakeaway": "An $11M net worth anchored by billion-stream digital catalog royalties, balanced against intensive legal defense overhead and real estate equity."
     }
@@ -1218,7 +1218,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     {
       "heading": "The Lost Daughter, TeaTime Pictures & Independent Production Acclaim (2020–2024)",
       "paragraphs": [
-        "As the 2020s commenced, Johnson solidified her dual status as a powerhouse character actress and an influential producer. In 2019, she co-founded independent production company TeaTime Pictures alongside experienced former streaming executive Ro Donnelly. Under this production banner, Johnson championed original character-driven cinema, executive producing and starring in Cooper Raiff's crowd-pleaser 'Cha Cha Real Smooth' (which won the Sundance Film Festival Audience Award in 2022 and was acquired by Apple Original Films for $15 Million), the tender coming-of-age drama 'Am I OK?' (2022), and Christy Hall's intense two-character psychological taxi drama 'Daddio' (2024) opposite Sean Penn.",
+        "As the 2020s commenced, Johnson solidified her dual status as a versatile character actress and an influential producer. In 2019, she co-founded independent production company TeaTime Pictures alongside experienced former streaming executive Ro Donnelly. Under this production banner, Johnson championed original character-driven cinema, executive producing and starring in Cooper Raiff's crowd-pleaser 'Cha Cha Real Smooth' (which won the Sundance Film Festival Audience Award in 2022 and was acquired by Apple Original Films for $15 Million), the tender coming-of-age drama 'Am I OK?' (2022), and Christy Hall's intense two-character psychological taxi drama 'Daddio' (2024) opposite Sean Penn.",
         "In 2021, Johnson earned some of the strongest critical notices of her career playing young mother Nina in Maggie Gyllenhaal's psychological adaptation 'The Lost Daughter' opposite Academy Award-winner Olivia Colman and Jessie Buckley. The film earned three Academy Award nominations and swept the Independent Spirit Awards, with Johnson's nuanced portrayal celebrated for capturing the complex exhaustion and quiet rebellion of young motherhood. In 2024, Johnson headlined Sony and Marvel's superhero thriller 'Madame Web', commanding a career-high upfront studio paycheck while generating massive global social media engagement."
       ],
       "keyTakeaway": "Through TeaTime Pictures, Johnson produced Sundance winner Cha Cha Real Smooth and earned prestige acclaim in Oscar-nominated The Lost Daughter."
@@ -1230,7 +1230,7 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
         "Beyond theatrical releases, Johnson has cultivated premier commercial enterprise equity. She has served as a global brand ambassador for Italian fashion house Gucci since 2017, headlining high-fashion global campaigns for Gucci Bloom and the iconic Jackie 1961 handbag. In 2020, Johnson became an investor and Co-Creative Director of the sexual wellness brand Maude, driving product development and sustainable brand positioning. Her private assets include an architecturally celebrated 1947 mid-century modern residence in Los Angeles (featured in Architectural Digest) and a shared $12.5 Million luxury coastal compound in Point Dume, Malibu with long-term partner Chris Martin."
       ],
       "quote": {
-        "text": "True longevity in this industry requires owning what you build. Producing through TeaTime allows us to elevate original storytellers without compromising the emotional core of the work.",
+        "text": "True longevity in this industry requires owning what you build. Producing through TeaTime allows us to support original storytellers without compromising the emotional core of the work.",
         "source": "Dakota Johnson on executive producing and TeaTime Pictures' independent philosophy"
       },
       "keyTakeaway": "Johnson commands a confirmed $14M net worth, pairing production equity in TeaTime Pictures with Gucci luxury ambassadorships."
@@ -1242,6 +1242,57 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
         "Addressing common public queries regarding what happened to Dakota Fanning or whether Dakota Fanning is still acting: she remains exceptionally active in contemporary entertainment, headlining high-profile movies and TV shows including Netflix's critically acclaimed limited series 'Ripley' (2024), Susanne Bier's murder-mystery 'The Perfect Couple' (2024), and Antoine Fuqua's 'The Equalizer 3'. While Dakota Fanning built her legacy as an acclaimed child prodigy who seamlessly transitioned into adult dramatic prestige, Don Johnson's daughter Dakota Johnson established her own distinct cultural lane—conquering global box office records in the Fifty Shades franchise before producing award-winning festival cinema through TeaTime Pictures."
       ],
       "keyTakeaway": "Dakota Johnson and Dakota Fanning are entirely unrelated peers; while Fanning rose through child stardom into prestige TV like Ripley, Johnson emerged through a Hollywood dynasty into Fifty Shades and indie producing."
+    }
+  ],
+
+  "britney-spears": [
+    {
+      "heading": "Louisiana Roots, Conservatory Discipline & The Mickey Mouse Club (1981–1997)",
+      "paragraphs": [
+        "Britney Jean Spears was born on December 2, 1981, in McComb, Mississippi, and raised in the rural town of Kentwood, Louisiana. The daughter of Lynne Irene Bridges and James Parnell Spears, she displayed exceptional vocal ability and competitive athletic poise from early childhood. Beginning vocal solos in her local Baptist church choir at age three, Spears pursued intensive gymnastics instruction, winning multiple regional youth competitions before shifting her ambitions toward professional theatrical arts. Recognizing her performance instincts, her mother enrolled her at New York City's renowned Professional Performing Arts School (PPAS), where Spears lived during summers studying classical voice and modern dance.",
+        "While in Manhattan, young Spears secured an understudy role in the 1991 Off-Broadway production of 'Ruthless!' alongside Laura Bell Bundy and Natalie Portman. In December 1992, at age eleven, she was selected for the celebrated ensemble cast of Disney's 'The All-New Mickey Mouse Club' in Orlando, Florida. Performing alongside future cultural luminaries Justin Timberlake, Christina Aguilera, and Ryan Gosling, Spears spent two seasons honing multi-camera television discipline, live sketches, and synchronized musical staging before the show concluded production in 1994, preparing her for the competitive recording market."
+      ],
+      "keyTakeaway": "Classical conservatory training in New York and ensemble performance on The Mickey Mouse Club instilled elite technical stage discipline before her solo pop career."
+    },
+    {
+      "heading": "The Millennium Pop Revolution: Diamond Debuts & Cultural Dominance (1998–2004)",
+      "paragraphs": [
+        "In 1997, entertainment executive Lou Pearlman and veteran attorney Larry Rudolph facilitated an audition with Jive Records executive Clive Calder, who immediately recognized Spears' distinct vocal timbre and commercial presence. Paired with Swedish producer Max Martin and Rami Yacoub at Stockholm's famed Cheiron Studios, Spears recorded her debut single '...Baby One More Time'. Released in October 1998, the track surged to number one in every country where it charted, while its accompanying music video transformed MTV aesthetics. Her debut album of the same title achieved RIAA 14x Platinum Diamond status, establishing the historical benchmark for teen solo sales.",
+        "Spears deepened her commercial reign in May 2000 with 'Oops!... I Did It Again', selling an unprecedented 1.319 million copies across the United States in its debut week—a single-week record for a female solo artist that stood for fifteen years. Landmark MTV Video Music Awards broadcasts, including her 2001 performance of 'I\\'m a Slave 4 U' featuring an albino Burmese python, elevated her to the undisputed vanguard of global pop entertainment. In 2003, she released 'In the Zone', co-writing much of the record and scoring an international smash with 'Toxic', which earned her a Grammy Award for Best Dance Recording."
+      ],
+      "quote": {
+        "text": "I always had a clear vision for the rhythm and punch of the records. Working with Max Martin in Stockholm changed how modern pop albums were constructed.",
+        "source": "Britney Spears on recording at Cheiron Studios, MTV Archives"
+      },
+      "keyTakeaway": "Consecutive Diamond album certifications and historic MTV spectacles established Spears as the defining global pop figure of the millennium change."
+    },
+    {
+      "heading": "Blackout, Vegas Residency Innovation & Commercial Endurance (2007–2018)",
+      "paragraphs": [
+        "In October 2007, Spears released 'Blackout', an avant-garde electronic dance-pop record co-produced by Danja and Swedish duo Bloodshy & Avant. While recorded amid relentless tabloid harassment, the album received immediate acclaim from music scholars, earning recognition from Rolling Stone and the Rock and Roll Hall of Fame archives as one of the most influential dance records of the twenty-first century. Spears followed with consecutive Billboard 200 number-one records: 'Circus' (2008), propelled by the chart-topping title track and 'Womanizer', and 'Femme Fatale' (2011), which yielded three top-ten singles and sustained her international arena touring power.",
+        "In December 2013, Spears fundamentally altered contemporary live entertainment economics by launching her residency, 'Britney: Piece of Me', at Planet Hollywood Resort & Casino in Las Vegas. Over a four-year tenure spanning 248 performances, the production grossed $137.7 Million USD, drawing over 900,000 attendees and generating an estimated $20 Million in annual ancillary casino revenue. The unprecedented commercial triumph demonstrated that modern pop icons could establish residency supremacy in Las Vegas while still active on global radio charts."
+      ],
+      "keyTakeaway": "Blackout secured lasting critical acclaim, while her $137.7M Planet Hollywood run modernized the financial blueprint for Las Vegas entertainment residencies."
+    },
+    {
+      "heading": "The #FreeBritney Movement, Legal Emancipation & The Woman in Me (2019–2024)",
+      "paragraphs": [
+        "In February 2008, following personal difficulties exacerbated by invasive paparazzi practices, Spears was placed under an involuntary California probate conservatorship controlled by her father, James Spears. Over thirteen years, the legal arrangement controlled her financial assets, medical decisions, and professional contracts despite her maintaining grueling international arena tours and television commitments. By 2019, dedicated supporters mobilized the #FreeBritney grassroots movement, drawing international civil liberties attention to probate guardianship abuses.",
+        "On June 23, 2021, Spears addressed Los Angeles Superior Court Judge Brenda Penny in an impassioned public hearing, detailing severe personal restrictions and demanding immediate termination of the arrangement. Represented by distinguished former federal prosecutor Mathew Rosengart, Spears secured full legal emancipation on November 12, 2021, without the requirement of mental health evaluations. In October 2023, Gallery Books published her memoir, 'The Woman in Me'. The autobiography became a runaway global publishing triumph, selling over 3.5 Million copies across multiple languages, earning universal praise for its candid reflections on media ethics."
+      ],
+      "quote": {
+        "text": "My voice was controlled for such a long time, but finally telling my story in my own words restored my dignity and ownership of my life.",
+        "source": "Britney Spears on publishing The Woman in Me"
+      },
+      "keyTakeaway": "A determined legal campaign ended her 13-year conservatorship in November 2021, leading to historic multi-million-copy success with her 2023 memoir."
+    },
+    {
+      "heading": "Financial Architecture, Universal Biopic & 2026 Creative Autonomy",
+      "paragraphs": [
+        "Entering late 2026, Britney Spears commands a verified net worth certified at $60.0 Million USD. Her financial base is fortified by perennial publishing royalties from an iconic music catalog exceeding 150 million records sold worldwide, substantial seven-figure ongoing sales of 'The Woman in Me', and multi-year licensing equity stemming from her Elizabeth Arden fragrance empire, which has accumulated over $1.5 Billion in lifetime retail sales across thirty product releases.",
+        "Her creative property continues to generate high-value studio arrangements. In August 2024, Universal Pictures prevailed in a competitive studio bidding war to secure theatrical rights to 'The Woman in Me', attaching Oscar-nominated producer Marc Platt and acclaimed director Jon M. Chu to adapt her life for the cinema screen. Spears holds private real estate including a 21-acre gated Italianate compound in Thousand Oaks, California, valued at over $10 Million USD, maintaining complete personal and financial sovereignty as an enduring cultural icon."
+      ],
+      "keyTakeaway": "Independent catalog publishing royalties, a Universal Pictures feature film adaptation deal, and California real estate anchor her certified $60M net worth."
     }
   ],
 

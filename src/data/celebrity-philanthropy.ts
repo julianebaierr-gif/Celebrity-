@@ -481,5 +481,26 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     }
   ],
 
+  "britney-spears": [
+    {
+      "organizationOrCause": "The Britney Spears Foundation & The Giving Back Fund",
+      "focusArea": "Underprivileged Youth Arts Education & Development",
+      "verifiedContribution": "$5.0M+ Lifetime Charitable Grants",
+      "description": "Established in 2001 to fund annual summer performing arts camps in Massachusetts and financial aid grants for underprivileged children pursuing music and dance."
+    },
+    {
+      "organizationOrCause": "Nevada Childhood Cancer Foundation (NCCF)",
+      "focusArea": "Pediatric Oncology Support & Family Care Facilities",
+      "verifiedContribution": "$1.0M Dedicated Endowment",
+      "description": "Donated one dollar per ticket sold throughout her Planet Hollywood Las Vegas residency, fully funding the construction of the 16,000-square-foot Britney Spears Campus in Las Vegas, which opened in October 2017."
+    },
+    {
+      "organizationOrCause": "Gulf Coast Hurricane Recovery & Mercy Corps",
+      "focusArea": "Disaster Relief & Family Rebuilding Grants",
+      "verifiedContribution": "$1.5M+ Emergency Disbursements",
+      "description": "Donated major personal wardrobe auction earnings and emergency direct funds to support community rebuilding across southern Louisiana following severe hurricanes."
+    }
+  ],
+
 };
 

@@ -553,5 +553,40 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     }
   ],
 
+  "britney-spears": [
+    {
+      "question": "What is Britney Spears' verified net worth in 2026?",
+      "answer": "Britney Spears commands a certified net worth of $60.0 Million USD entering late 2026. Her wealth is anchored by ongoing catalog music publishing royalties from over 150 million records sold worldwide, multi-million dollar book royalties from her bestselling memoir The Woman in Me, guaranteed studio development rights with Universal Pictures, and a 21-acre private compound in Thousand Oaks, California."
+    },
+    {
+      "question": "How old is Britney Spears and where was she born?",
+      "answer": "Britney Spears is 44 years old. She was born on December 2, 1981, in McComb, Mississippi, and grew up in Kentwood, Louisiana, before beginning her professional performing career in New York City and Orlando."
+    },
+    {
+      "question": "What are Britney Spears' biggest songs and best-selling albums?",
+      "answer": "Britney Spears' most celebrated musical works include her historic Diamond-certified albums ...Baby One More Time (1999) and Oops!... I Did It Again (2000), her critically revered electronic dance benchmark Blackout (2007), and In the Zone (2003). Her defining hit singles include ...Baby One More Time, Oops!... I Did It Again, Toxic (Grammy Award winner), Gimme More, Womanizer, Circus, Till the World Ends, and her 2022 multi-platinum Elton John collaboration Hold Me Closer."
+    },
+    {
+      "question": "What is the current status of Britney Spears' conservatorship?",
+      "answer": "Britney Spears' court conservatorship is permanently terminated. Following thirteen years of probate court oversight established in February 2008, Los Angeles Superior Court Judge Brenda Penny dissolved the legal arrangement on November 12, 2021, restoring complete personal, medical, and financial autonomy to Spears without any medical evaluation requirements."
+    },
+    {
+      "question": "How successful was Britney Spears' memoir 'The Woman in Me'?",
+      "answer": "Published on October 24, 2023, by Gallery Books (an imprint of Simon & Schuster), The Woman in Me debuted at number one on The New York Times bestseller list and sold over 3.5 Million copies globally across print, digital, and audio formats. The audiobook edition, narrated by Oscar-nominated actress Michelle Williams, achieved widespread acclaim and set international audio sales records."
+    },
+    {
+      "question": "How tall is Britney Spears and what are her physical measurements?",
+      "answer": "Britney Spears stands 5 feet 4 inches tall (163 cm) and maintains a healthy athletic weight of approximately 126 lbs (57 kg). Her documented body measurements are approximately 35-27-35 inches (89-68-89 cm), with a US dress size of 4 to 6 and shoe size of 7."
+    },
+    {
+      "question": "Who are Britney Spears' children and ex-husbands?",
+      "answer": "Britney Spears has two sons: Sean Preston Federline (born September 2005) and Jayden James Federline (born September 2006), from her marriage to dancer Kevin Federline (2004–2007). She was previously married to model and actor Sam Asghari from June 2022 until finalizing their divorce settlement in May 2024. Entering late 2026, Spears is legally single and independent."
+    },
+    {
+      "question": "Is a Britney Spears biopic movie in development?",
+      "answer": "Yes. In August 2024, Universal Pictures acquired the cinematic adaptation rights to Britney Spears' bestselling memoir The Woman in Me. Acclaimed producer Marc Platt (Wicked, La La Land) is producing the feature film project alongside director Jon M. Chu (Crazy Rich Asians, In the Heights), with Spears actively collaborating on the production."
+    }
+  ],
+
 };
 

@@ -295,5 +295,20 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     }
   ],
 
+  "britney-spears": [
+    {
+      incident: "13-Year Probate Conservatorship & Free Britney Civil Rights Campaign",
+      year: "2008–2021",
+      resolutionOrOutcome: "Following persistent public advocacy by the grassroots #FreeBritney movement and explosive June 2021 testimony from Spears, attorney Mathew Rosengart secured the permanent dissolution of the conservatorship in Los Angeles Superior Court on November 12, 2021.",
+      impactAnalysis: "The case catalyzed landmark federal legislation proposals and spurred state legislative statutory reforms in California governing adult guardianship accountability and financial transparency."
+    },
+    {
+      incident: "Paparazzi Stalking Era & Tabloid Industry Reckoning",
+      year: "2006–2008",
+      resolutionOrOutcome: "Spears subsequently chronicled the psychological impact of round-the-clock paparazzi pursuit in her bestselling 2023 memoir The Woman in Me.",
+      impactAnalysis: "Spurred widespread international media introspection regarding the predatory treatment of young female stars in early-2000s entertainment journalism, inspiring stricter California anti-stalking laws."
+    }
+  ],
+
 };
 

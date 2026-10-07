@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-28T13:23:22.580Z",
-  "totalUniqueImages": 57,
+  "lastUpdated": "2026-10-07T13:30:00.000Z",
+  "totalUniqueImages": 59,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -412,6 +412,22 @@
       "pageSlug": "keanu-reeves-keanu-reeves-signs-five-picture-deal-with-legendary-enter",
       "assignedAt": "2026-09-28T11:51:38.544Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/DogstarKentish190624_%2819_of_69%29_%2853803219643%29_Cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "/images/celebrities/britney-spears-hero.webp": {
+      "filePath": "/images/celebrities/britney-spears-hero.webp",
+      "entity": "Britney Spears",
+      "placement": "profile_hero",
+      "pageSlug": "britney-spears",
+      "assignedAt": "2026-10-07T13:30:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Britney_Spears_2013_%28Straighten_Crop%29.jpg"
+    },
+    "/images/celebrities/britney-spears-content.webp": {
+      "filePath": "/images/celebrities/britney-spears-content.webp",
+      "entity": "Britney Spears",
+      "placement": "profile_content",
+      "pageSlug": "britney-spears",
+      "assignedAt": "2026-10-07T13:30:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Concert_Britney_Spears_AccorHotels_Arena_13.jpg"
     }
   }
 }
