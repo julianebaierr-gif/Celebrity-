@@ -2232,7 +2232,7 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   "britney-spears": {
     "salaryMilestones": [
       {
-        "project": "...Baby One More Time Era & Tour",
+        "project": "Baby One More Time Era & Tour",
         "year": 1999,
         "salary": "$15.0 Million USD",
         "boxOfficeOrBudget": "Jive Records / Live Theatrical Tour",

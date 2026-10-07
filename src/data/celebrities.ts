@@ -4934,7 +4934,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "height": "5 ft 4 in (163 cm)",
       "netWorth": "$60 Million USD",
       "primaryRole": "Pop Icon, Recording Artist & Author",
-      "knownFor": "...Baby One More Time, Oops!... I Did It Again, Toxic, Gimme More, The Woman in Me",
+      "knownFor": "Baby One More Time, Oops! I Did It Again, Toxic, Gimme More, The Woman in Me",
       "activeYears": "1992–Present",
       "education": "Parklane Academy, Professional Performing Arts School"
     },
@@ -4968,7 +4968,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       {
         "year": "1998–2000",
         "title": "Global Teen Pop Phenomenon & Diamond Certifications",
-        "description": "Released debut albums ...Baby One More Time and Oops!... I Did It Again, achieving back-to-back RIAA Diamond certifications and shattering world records for teenage album sales."
+        "description": "Released debut albums Baby One More Time and Oops! I Did It Again, achieving back-to-back RIAA Diamond certifications and shattering world records for teenage album sales."
       },
       {
         "year": "2001–2004",
@@ -4993,7 +4993,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "filmography": [
       {
-        "title": "...Baby One More Time",
+        "title": "Baby One More Time",
         "year": 1999,
         "role": "Primary Artist",
         "type": "Album",
@@ -5001,7 +5001,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "boxOfficeOrNetwork": "14x Platinum Diamond"
       },
       {
-        "title": "Oops!... I Did It Again",
+        "title": "Oops! I Did It Again",
         "year": 2000,
         "role": "Primary Artist",
         "type": "Album",
