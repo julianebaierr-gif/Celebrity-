@@ -4922,8 +4922,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "heroImageCaption": "Britney Spears arriving at a major entertainment industry celebration. Photo: Wikimedia Commons.",
     "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "contentImage": "/images/celebrities/britney-spears-content.webp",
-    "contentImageCaption": "Britney Spears performing live before tens of thousands of fans during an international arena tour. Photo: Wikimedia Commons.",
-    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImageCaption": "Britney Spears performing live on stage during her record-breaking residency, anchoring her iconic stage career and 2026 legacy. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY 2.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1920&q=80",
     "executiveSummary": "Britney Jean Spears is an American pop icon, multi-platinum recording artist, and bestselling author whose cultural influence reshaped modern popular music. Emerging in 1998 with '...Baby One More Time' and 2000's 'Oops!... I Did It Again', Spears established unprecedented commercial benchmarks for teen pop, selling over 150 million records globally and earning Grammy, MTV Video Music, and Billboard Music awards. Following the historic termination of her 13-year court conservatorship in late 2021, Spears achieved renewed commercial triumphs with her record-setting 2023 memoir 'The Woman in Me', which sold millions of copies worldwide and was optioned for a Universal Pictures feature film adaptation. Entering late 2026, her net worth is certified at $60 Million USD, underpinned by perennial music catalog publishing, lucrative book royalties, and prime Southern California real estate.",
     "quickFacts": {
