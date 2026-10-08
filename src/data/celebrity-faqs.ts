@@ -593,38 +593,54 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   ],
 
 
-  "jennifer-lawrence": [
+    "jennifer-lawrence": [
   {
     "question": "What is Jennifer Lawrence's verified net worth in 2026?",
-    "answer": "Jennifer Lawrence commands a certified net worth of $160.0 Million USD entering late 2026. Her wealth is built on historic upfront salaries of $20M to $25M per picture for blockbusters such as Passengers, Don't Look Up, and No Hard Feelings, backend profit participation from The Hunger Games franchise, Christian Dior ambassadorship contracts, and prime real estate assets in Manhattan and Beverly Hills."
+    "answer": "Jennifer Lawrence commands a certified net worth of $160.0 Million USD entering late 2026. Her wealth is built on historic upfront salaries of $20M to $25M per picture for blockbusters such as Passengers, Don't Look Up, and No Hard Feelings, over $40 Million in career compensation from The Hunger Games franchise, multi-million dollar annual Christian Dior ambassadorship contracts, and prime real estate assets including a $21.9 Million townhouse in Manhattan's West Village and an estate in Beverly Hills."
   },
   {
     "question": "How old is Jennifer Lawrence and where was she born?",
-    "answer": "Jennifer Lawrence is 36 years old. She was born on August 15, 1990, in Indian Hills, Kentucky, and grew up in the Louisville area before moving to New York City at age fourteen to begin her professional acting career."
-  },
-  {
-    "question": "Who is Jennifer Lawrence married to and does she have children?",
-    "answer": "Jennifer Lawrence is married to Cooke Maroney, an art gallery director. The couple married on October 19, 2019, in Newport, Rhode Island, and welcomed their first child, a son named Cy, in February 2022. They reside primarily in Manhattan's West Village."
+    "answer": "Jennifer Lawrence is 36 years old. She was born on August 15, 1990, in Indian Hills, Kentucky, and grew up in the Louisville area. She was discovered at age fourteen during a family vacation to New York City in 2004, beginning her professional screen career as a young teenager in 2007 before earning her breakthrough Academy Award nomination for Winter's Bone in 2010."
   },
   {
     "question": "How many Oscars has Jennifer Lawrence won and for what movie?",
-    "answer": "Jennifer Lawrence has won one Academy Award from four career nominations. She won the Oscar for Best Actress at age twenty-two for her role as Tiffany Maxwell in Silver Linings Playbook (2012), making her the second-youngest Best Actress winner in Academy history. Her other Oscar nominations were for Winter's Bone (2010), American Hustle (2013), and Joy (2015)."
+    "answer": "Jennifer Lawrence has won one Academy Award from four career Oscar nominations. She won the Academy Award for Best Actress at age twenty-two for her performance as Tiffany Maxwell in Silver Linings Playbook (2012), making her the second-youngest Best Actress winner in Oscar history. Her three other Academy Award nominations were for Winter's Bone (2010), American Hustle (2013), and Joy (2015)."
   },
   {
-    "question": "How much money was Jennifer Lawrence paid for The Hunger Games films?",
-    "answer": "Jennifer Lawrence was paid $500,000 plus box office bonuses for the first Hunger Games film in 2012. Following its massive global success, her salary jumped to $10.0 Million for Catching Fire (2013) and $15.0 Million per film for Mockingjay Part 1 and Part 2, totaling over $40.0 Million in base compensation across the quadrology."
+    "question": "Who is Jennifer Lawrence's husband and when did they get married?",
+    "answer": "Jennifer Lawrence is married to Cooke Maroney, an art gallery director and director of Gladstone Gallery in New York City. The couple met in spring 2018 through a mutual friend, became engaged in February 2019, and married on October 19, 2019, at the historic Belcourt of Newport estate in Rhode Island. Previously, Lawrence had relationships with actor Nicholas Hoult (2010–2014) and director Darren Aronofsky (2016–2017)."
   },
   {
-    "question": "What is Jennifer Lawrence's production company?",
-    "answer": "Jennifer Lawrence co-founded the production company Excellent Cadaver in 2018 alongside producing partner Justine Ciarrocchi. The company has produced the Apple/A24 psychological drama Causeway (2022), the hit theatrical comedy No Hard Feelings (2023), the Cannes documentary Bread and Roses (2023), and the psychological drama Die, My Love (2025)."
+    "question": "How many children does Jennifer Lawrence have and what are their names?",
+    "answer": "Jennifer Lawrence has one child and is expecting her second child with husband Cooke Maroney. Their first child, a son named Cy Maroney, was born in February 2022 and named after the celebrated American post-war painter Cy Twombly. In late 2024, Lawrence confirmed she was pregnant and expecting their second baby, raising her family in New York City."
+  },
+  {
+    "question": "What role did Jennifer Lawrence play in the X-Men movies?",
+    "answer": "Jennifer Lawrence portrayed the Marvel mutant character Raven Darkhölme, widely known as Mystique, in four 20th Century Fox X-Men feature films: X-Men: First Class (2011), X-Men: Days of Future Past (2014), X-Men: Apocalypse (2016), and Dark Phoenix (2019). Lawrence took over the role from original Mystique actress Rebecca Romijn, portraying the character's early relationship with Charles Xavier (Professor X) and Magneto."
+  },
+  {
+    "question": "What is Jennifer Lawrence's 2018 spy movie 'Red Sparrow'?",
+    "answer": "Red Sparrow is a 2018 espionage thriller directed by Francis Lawrence, in which Jennifer Lawrence stars as Dominika Egorova, a former prima ballerina recruited into the Russian 'Sparrow School' to become a seductive intelligence operative. Lawrence trained for months in classical ballet and Russian dialect work, delivering an intense performance that grossed over $151 Million worldwide."
+  },
+  {
+    "question": "What is the psychological horror film 'Mother!' starring Jennifer Lawrence?",
+    "answer": "Mother! is a 2017 psychological horror film directed by Darren Aronofsky, starring Jennifer Lawrence alongside Javier Bardem, Ed Harris, and Michelle Pfeiffer. In the film, Lawrence portrays a woman whose tranquil country home is disrupted by invasive strangers, serving as a biblical and ecological allegory for mother earth. Lawrence's emotionally intense performance received widespread critical acclaim and ignited major international debate upon its premiere at the Venice Film Festival."
   },
   {
     "question": "How tall is Jennifer Lawrence and what are her physical measurements?",
-    "answer": "Jennifer Lawrence stands 5 feet 9 inches tall (175 cm) and maintains a natural athletic weight of approximately 139 lbs (63 kg). Her documented body measurements are approximately 35-26-36 inches (89-66-91 cm)."
+    "answer": "Jennifer Lawrence stands 5 feet 9 inches tall (175 cm) and maintains a healthy athletic weight of approximately 139 lbs (63 kg), with body measurements of approximately 35-26-36 inches. She is a natural blonde who has dyed her hair brunette and platinum for various screen roles. In interviews, Lawrence has addressed public interest regarding her face and appearance, explaining that natural aging from her twenties to her thirties combined with expert makeup artistry and contouring accounted for her visual evolution rather than plastic surgery."
   },
   {
-    "question": "What upcoming films is Jennifer Lawrence working on entering late 2026?",
-    "answer": "Entering late 2026, Jennifer Lawrence is headlining and producing Lynne Ramsay's psychological drama Die, My Love alongside Robert Pattinson, while developing multiple feature adaptations through Excellent Cadaver with major studio partners."
+    "question": "What television shows and early series did Jennifer Lawrence star in?",
+    "answer": "Before her movie breakthroughs, Jennifer Lawrence starred as teenager Lauren Pearson on the TBS family sitcom 'The Bill Engvall Show' across three seasons from 2007 to 2009, winning a Young Artist Award. She also made guest appearances on television series including 'Monk' (2006) and 'Cold Case' (2007) before transitioning exclusively to feature film productions."
+  },
+  {
+    "question": "How much money did Jennifer Lawrence make for The Hunger Games movies?",
+    "answer": "Jennifer Lawrence earned over $40.0 Million in guaranteed base salary across The Hunger Games film franchise. She received $500,000 plus box office bonuses for the first film in 2012, which was renegotiated to $10.0 Million for The Hunger Games: Catching Fire (2013), and $15.0 Million each for Mockingjay Part 1 (2014) and Mockingjay Part 2 (2015)."
+  },
+  {
+    "question": "What is Jennifer Lawrence's production company and upcoming 2026 films?",
+    "answer": "Jennifer Lawrence co-founded the independent production company Excellent Cadaver in 2018 with producing partner Justine Ciarrocchi. The company produced Causeway (2022) with Apple/A24, No Hard Feelings (2023) with Sony Pictures, and the Cannes-selected Afghan women's rights documentary Bread and Roses (2023). Entering late 2026, Excellent Cadaver's primary feature is Lynne Ramsay's psychological drama 'Die, My Love', starring Lawrence opposite Robert Pattinson."
   }
 ],
 
