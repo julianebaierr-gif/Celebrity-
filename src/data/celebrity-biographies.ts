@@ -1296,4 +1296,56 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     }
   ],
 
+
+  "jennifer-lawrence": [
+  {
+    "heading": "Kentucky Roots, Early Auditions & Winter's Bone Breakthrough (1990–2011)",
+    "paragraphs": [
+      "Jennifer Shrader Lawrence was born on August 15, 1990, in Indian Hills, Kentucky, to Karen Lawrence, a children's camp manager, and Gary Lawrence, owner of Lawrence & Associates construction company. Raised alongside older brothers Ben and Blaine, Lawrence displayed boundless creative energy and participated in local youth theater productions at the Actors Theatre of Louisville. During a family spring vacation to New York City at age fourteen, Lawrence was discovered by a talent scout on the street, leading to immediate cold-reading auditions that stunned casting directors with her natural emotional clarity.",
+      "Convinced that professional screen acting was her calling, Lawrence persuaded her parents to allow her to spend the summer in Manhattan. She graduated two years early from Kammerer Middle School with a 3.9 GPA via home tutoring and the GED to focus completely on film and television auditions. Early roles in the TBS sitcom The Bill Engvall Show established her comic timing, but her decisive arrival came with Debra Granik's 2010 Ozark noir drama Winter's Bone. Portraying Ree Dolly, an impoverished teenage girl navigating dangerous criminal networks to protect her family, Lawrence earned her first Academy Award nomination for Best Actress at age twenty, signaling an extraordinary natural screen talent."
+    ],
+    "keyTakeaway": "Early discovery in New York and her raw, natural performance in Winter's Bone earned Lawrence an Academy Award nomination at age twenty."
+  },
+  {
+    "heading": "The Hunger Games Franchise & Global Box Office Supremacy (2012–2015)",
+    "paragraphs": [
+      "In 2011, Lionsgate secured the screen rights to Suzanne Collins' bestselling dystopian literary trilogy The Hunger Games. Director Gary Ross auditioned hundreds of young actresses before selecting Lawrence for the central heroine Katniss Everdeen. Lawrence underwent months of intensive physical conditioning, archery drills, and stunt training to embody the skilled hunter forced into televised combat. Released in March 2012, The Hunger Games demolished box office expectations, grossing $694.4 Million worldwide and turning Katniss into a cultural phenomenon.",
+      "The franchise expanded through Catching Fire (2013) and the two-part finale Mockingjay (2014–2015), collectively grossing over $2.97 Billion worldwide. Lawrence proved that female-led action blockbusters could command historic box office supremacy, shattering long-standing Hollywood studio assumptions. Her initial $500,000 contract for the first installment was renegotiated to $10 Million for Catching Fire and $15 Million per film for the Mockingjay productions, positioning her at the top of Hollywood compensation tables."
+    ],
+    "quote": {
+      "text": "Katniss is a character who refuses to perform for authority. That integrity was something I felt protective of through every frame.",
+      "source": "Jennifer Lawrence on concluding The Hunger Games"
+    },
+    "keyTakeaway": "The Hunger Games grossed nearly $3 Billion worldwide, proving female-led action blockbusters could shatter global box office benchmarks."
+  },
+  {
+    "heading": "David O. Russell Collaborations, Oscar Triumph & Historic Pay Milestones (2012–2016)",
+    "paragraphs": [
+      "Parallel to her blockbuster franchise schedule, Lawrence cultivated a celebrated creative partnership with filmmaker David O. Russell. In the 2012 romantic comedy-drama Silver Linings Playbook, she starred opposite Bradley Cooper as Tiffany Maxwell, a young widow struggling with grief and psychiatric challenges. Delivering a sharp, unpredictable, and vulnerable performance, Lawrence swept major awards ceremonies, capturing the Golden Globe, SAG Award, and the 2013 Academy Award for Best Actress. At twenty-two years and 193 days old, she became the second-youngest woman ever to win the lead acting Oscar.",
+      "Lawrence reunited with Russell and Cooper for American Hustle (2013), earning a BAFTA Award and a third Oscar nomination for her magnetic turn as Rosalyn Rosenfeld. Two years later, she scored a fourth Oscar nomination portraying entrepreneur Joy Mangano in Joy (2015). By 2015, Forbes ranked Lawrence as the highest-paid actress in the world with annual earnings of $52 Million, repeating the top spot in 2016 with $46 Million. During this peak period, she also commanded $20 Million upfront plus 30% backend profits for the sci-fi spectacle Passengers."
+    ],
+    "keyTakeaway": "With four Academy Award nominations and a Best Actress Oscar win by age twenty-five, Lawrence established herself as one of the most decorated performers of her generation."
+  },
+  {
+    "heading": "Excellent Cadaver, Producing Autonomy & No Hard Feelings (2018–2024)",
+    "paragraphs": [
+      "Following a brief hiatus to recalibrate her artistic priorities, Lawrence shifted decisively toward creative ownership by establishing her independent production company, Excellent Cadaver, alongside producing partner Justine Ciarrocchi. Named after a Sicilian phrase for a hit on a high-profile figure, the company focused on championing distinct cinematic voices and character-driven narratives. In 2022, Excellent Cadaver released the military rehabilitation drama Causeway in partnership with Apple Original Films and A24, earning widespread critical acclaim.",
+      "In 2023, Lawrence produced and headlined the Columbia Pictures R-rated summer comedy No Hard Feelings. Lawrence received a guaranteed $25 Million salary alongside producing participation, delivering an unapologetic physical comedy performance that grossed $87.3 Million theatrically in a challenging market for original studio comedies. She also produced the acclaimed documentary Bread and Roses, directed by Sahra Mani, chronicling the resilience of Afghan women following the Taliban takeover of Kabul, screening at the Cannes Film Festival."
+    ],
+    "quote": {
+      "text": "Producing allows me to build stories from the ground up rather than waiting for finished scripts. It gave me complete autonomy over my work.",
+      "source": "Jennifer Lawrence on launching Excellent Cadaver"
+    },
+    "keyTakeaway": "Through Excellent Cadaver, Lawrence transitioned into an influential studio producer, backing independent features and championing international human rights documentaries."
+  },
+  {
+    "heading": "Financial Architecture, Die My Love & 2026 Creative Autonomy",
+    "paragraphs": [
+      "Entering late 2026, Jennifer Lawrence maintains a certified net worth evaluated at $160.0 Million USD. Her creative slate is anchored by Lynne Ramsay's psychological drama Die, My Love, which she produced through Excellent Cadaver and starred in opposite Robert Pattinson, earning rapturous festival anticipation. Her financial stability is secured by substantial profit points on historic theatrical hits, multi-million dollar annual Christian Dior ambassadorship contracts, and a blue-chip real estate portfolio featuring a $21.9 Million townhouse in Manhattan's West Village and a private estate in Beverly Hills.",
+      "In her personal life, Lawrence balances industry leadership with family life alongside husband Cooke Maroney and their children in New York City. She continues active governance on the board of RepresentUs, advancing bipartisan anti-corruption and voting access initiatives across the country. Lawrence remains an authoritative figure in modern cinema—combining Oscar-winning artistic craft with multi-billion-dollar box office appeal and true independent producing power."
+    ],
+    "keyTakeaway": "A certified $160M net worth, active producing projects with visionary directors, and civic leadership anchor Lawrence's standing entering late 2026."
+  }
+],
+
 };

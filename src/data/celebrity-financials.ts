@@ -2334,5 +2334,147 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
     ]
   },
 
+
+  "jennifer-lawrence": {
+  "salaryMilestones": [
+    {
+      "project": "Winter's Bone",
+      "year": 2010,
+      "salary": "$10,000 USD Total ($3,000 / week)",
+      "boxOfficeOrBudget": "Roadside Attractions / $2M Budget",
+      "notes": "Indie breakout role earning her first Academy Award nomination for Best Actress."
+    },
+    {
+      "project": "The Hunger Games",
+      "year": 2012,
+      "salary": "$500,000 USD + Box Office Escalators",
+      "boxOfficeOrBudget": "Lionsgate / $78M Budget",
+      "notes": "Initiated four-film franchise agreement that launched global superstardom."
+    },
+    {
+      "project": "Silver Linings Playbook",
+      "year": 2012,
+      "salary": "$1.0 Million USD + Equity Points",
+      "boxOfficeOrBudget": "The Weinstein Company / $21M Budget",
+      "notes": "Won Academy Award for Best Actress; earned multi-million dollar backend profit distribution."
+    },
+    {
+      "project": "The Hunger Games: Catching Fire",
+      "year": 2013,
+      "salary": "$10.0 Million USD",
+      "boxOfficeOrBudget": "Lionsgate / $130M Budget",
+      "notes": "Major contract renegotiation establishing 20x salary increase following franchise success."
+    },
+    {
+      "project": "The Hunger Games: Mockingjay (Parts 1 & 2)",
+      "year": 2014,
+      "salary": "$30.0 Million USD ($15M / installment)",
+      "boxOfficeOrBudget": "Lionsgate / $300M Combined Budget",
+      "notes": "Concluded iconic dystopian series as highest-earning female action star."
+    },
+    {
+      "project": "Passengers",
+      "year": 2016,
+      "salary": "$20.0 Million USD + 30% Net Profits",
+      "boxOfficeOrBudget": "Columbia Pictures / $110M Budget",
+      "notes": "Prestige sci-fi contract out-earning co-star Chris Pratt by $8 Million upfront."
+    },
+    {
+      "project": "Red Sparrow",
+      "year": 2018,
+      "salary": "$15.0 Million USD",
+      "boxOfficeOrBudget": "20th Century Fox / $69M Budget",
+      "notes": "Espionage thriller marking her second collaboration with director Francis Lawrence."
+    },
+    {
+      "project": "Don't Look Up",
+      "year": 2021,
+      "salary": "$25.0 Million USD Guaranteed",
+      "boxOfficeOrBudget": "Netflix Feature Production",
+      "notes": "Precedent-setting streaming upfront salary with zero theatrical backend contingency."
+    },
+    {
+      "project": "No Hard Feelings",
+      "year": 2023,
+      "salary": "$25.0 Million USD (Salary & Producer Equity)",
+      "boxOfficeOrBudget": "Sony Pictures / $45M Budget",
+      "notes": "Major comedic return produced under her Excellent Cadaver banner."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "West Village Manhattan Townhouse",
+      "location": "New York, New York",
+      "purchasedYear": "2020",
+      "purchasePrice": "$21.9 Million USD",
+      "currentEstimatedValue": "$24.5 Million USD",
+      "description": "5,000-square-foot luxury townhouse featuring four stories, private outdoor garden, and custom security architecture."
+    },
+    {
+      "property": "Beverly Hills Hidden Hills Estate",
+      "location": "Beverly Hills, California",
+      "purchasedYear": "2014",
+      "purchasePrice": "$8.2 Million USD",
+      "currentEstimatedValue": "$12.5 Million USD",
+      "description": "5,500-square-foot French Normandy mansion in a guarded celebrity enclave, previously owned by Ellen DeGeneres."
+    },
+    {
+      "property": "Tribeca Boutique Condominium",
+      "location": "New York, New York",
+      "purchasedYear": "2017",
+      "purchasePrice": "$9.0 Million USD",
+      "currentEstimatedValue": "$10.5 Million USD",
+      "description": "3,184-square-foot loft at 443 Greenwich Street, an ultra-private enclave popular with A-list entertainment figures."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Excellent Cadaver Production Company",
+      "role": "Co-Founder & Principal Producer",
+      "valuationOrRevenue": "Multi-Picture Studio Partnerships",
+      "description": "Founded in 2018 with Justine Ciarrocchi; produced Causeway (Apple/A24), No Hard Feelings (Sony), and Die, My Love."
+    },
+    {
+      "name": "Christian Dior Couture Ambassadorship",
+      "role": "Global Brand Ambassador",
+      "valuationOrRevenue": "$15M–$20M Multi-Year Contract",
+      "description": "Historic brand face for Dior fashion, handbags, and beauty lines spanning over a decade."
+    },
+    {
+      "name": "Longines Global Partnership",
+      "role": "Ambassador of Elegance",
+      "valuationOrRevenue": "Multi-Million Annual Endorsement",
+      "description": "High-visibility international campaign representing the luxury Swiss heritage watchmaker."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2012",
+      "estimatedNetWorth": "$5.0 Million USD",
+      "milestoneDescription": "Breakthrough commercial velocity following The Hunger Games premiere and Silver Linings Playbook."
+    },
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$60.0 Million USD",
+      "milestoneDescription": "Named the world's highest-paid actress by Forbes with $52 Million in single-year earnings."
+    },
+    {
+      "period": "2018",
+      "estimatedNetWorth": "$110.0 Million USD",
+      "milestoneDescription": "Compounded by consecutive $20M upfront studio payouts and lucrative Dior commercial equity."
+    },
+    {
+      "period": "2022",
+      "estimatedNetWorth": "$140.0 Million USD",
+      "milestoneDescription": "Fortified by $25M Netflix payday for Don't Look Up and Manhattan luxury townhouse acquisition."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$160.0 Million USD",
+      "milestoneDescription": "Sustained through No Hard Feelings box office, Excellent Cadaver catalog equity, and prime real estate."
+    }
+  ]
+},
+
 };
 

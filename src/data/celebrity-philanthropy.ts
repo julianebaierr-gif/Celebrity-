@@ -502,5 +502,27 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     }
   ],
 
+
+  "jennifer-lawrence": [
+  {
+    "organizationOrCause": "Jennifer Lawrence Foundation",
+    "focusArea": "Youth Empowerment, Performing Arts & Special Olympics",
+    "verifiedContribution": "$4.0M+ In Charitable Grants",
+    "description": "Founded in 2015 to support charitable organizations including the Boys & Girls Clubs of America, Special Olympics, and Do Something."
+  },
+  {
+    "organizationOrCause": "Norton Children's Hospital Foundation",
+    "focusArea": "Pediatric Cardiac Intensive Care",
+    "verifiedContribution": "$2.0 Million Dedicated Endowment",
+    "description": "Donated $2.0 Million in 2016 to construct the Jennifer Lawrence Foundation Cardiac Intensive Care Unit (CICU) in Louisville, featuring 14 specialty recovery rooms."
+  },
+  {
+    "organizationOrCause": "RepresentUs Civic Action",
+    "focusArea": "Bipartisan Anti-Corruption & Electoral Reform",
+    "verifiedContribution": "Board of Directors & National Campus Outreach",
+    "description": "Serves actively on the board of directors, traveling across high schools and colleges to champion anti-corruption laws and ranked-choice voting initiatives."
+  }
+],
+
 };
 

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-07T13:30:00.000Z",
-  "totalUniqueImages": 59,
+  "lastUpdated": "2026-10-08T13:30:00.000Z",
+  "totalUniqueImages": 61,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -428,6 +428,22 @@
       "pageSlug": "britney-spears",
       "assignedAt": "2026-10-07T14:30:00.000Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Britney_Spears_performing%2C_Las_Vegas%2C_January_29%2C_2014.jpg"
+    },
+    "/images/celebrities/jennifer-lawrence-hero.webp": {
+      "filePath": "/images/celebrities/jennifer-lawrence-hero.webp",
+      "entity": "Jennifer Lawrence",
+      "placement": "profile_hero",
+      "pageSlug": "jennifer-lawrence",
+      "assignedAt": "2026-10-08T13:30:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Jennifer_Lawrence_in_2016.jpg"
+    },
+    "/images/celebrities/jennifer-lawrence-content.webp": {
+      "filePath": "/images/celebrities/jennifer-lawrence-content.webp",
+      "entity": "Jennifer Lawrence",
+      "placement": "profile_content",
+      "pageSlug": "jennifer-lawrence",
+      "assignedAt": "2026-10-08T13:30:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Jennifer_Lawrence_at_214._Wetten%2C_dass.._show_in_Graz%2C_8._Nov._2014.jpg"
     }
   }
 }

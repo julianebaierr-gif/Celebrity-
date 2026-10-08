@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 27,
-  "lastUpdated": "2026-10-07T13:30:00.000Z",
+  "totalLocked": 28,
+  "lastUpdated": "2026-10-08T13:30:00.000Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -399,6 +399,21 @@
         "the woman in me britney spears",
         "britney spears conservatorship update"
       ]
+    },
+    {
+      "keyword": "jennifer lawrence",
+      "slug": "jennifer-lawrence",
+      "name": "Jennifer Lawrence",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/jennifer-lawrence",
+      "publishedAt": "2026-10-08 13:30:00",
+      "associatedTags": [
+        "jennifer lawrence net worth",
+        "jennifer lawrence age",
+        "jennifer lawrence movies",
+        "jennifer lawrence husband",
+        "jennifer lawrence 2026"
+      ]
     }
   ],
   "bannedKeywordSet": [
@@ -495,6 +510,13 @@
     "travis kelce taylor swift",
     "travis kelce net worth",
     "travis kelce super bowl",
-    "travis kelce contract"
+    "travis kelce contract",
+    "jennifer lawrence",
+    "jennifer lawrence net worth",
+    "jennifer lawrence age",
+    "jennifer lawrence movies",
+    "jennifer lawrence husband",
+    "jennifer lawrence height",
+    "jennifer lawrence oscar silver linings playbook"
   ]
 }

@@ -310,5 +310,21 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     }
   ],
 
+
+  "jennifer-lawrence": [
+  {
+    "incident": "Hollywood Gender Pay Gap & Lenny Letter Essay",
+    "year": "2015",
+    "resolutionOrOutcome": "Following the 2014 Sony Pictures hack that revealed compensation inequities on American Hustle, Lawrence authored an essay in Lenny Letter titled 'Why Do I Make Less Than My Male Co-Stars?'.",
+    "impactAnalysis": "The publication galvanized entertainment industry reform, prompting talent agencies and studios to implement transparent pay auditing and contract equity."
+  },
+  {
+    "incident": "Cyber Privacy Defense & Legal Accountability",
+    "year": "2014",
+    "resolutionOrOutcome": "When private cloud accounts of female figures were illegally breached, Lawrence confronted the violation directly in Vanity Fair, declining apologies and labeling non-consensual dissemination a felony offense.",
+    "impactAnalysis": "Her refusal to accept victim-blaming established a cultural benchmark, prompting federal law enforcement crackdowns and tech security upgrades across major platforms."
+  }
+],
+
 };
 

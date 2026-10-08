@@ -5112,6 +5112,229 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 8
     }
   }
+,
+  {
+  "slug": "jennifer-lawrence",
+  "name": "Jennifer Lawrence",
+  "headline": "Jennifer Lawrence: Academy Award Acclaim, Box Office Dominance & Independent Production Power",
+  "category": "movies-tv",
+  "silo": "Hollywood Actors",
+  "primaryKeyword": "jennifer lawrence",
+  "secondaryKeywords": [
+    "jennifer lawrence net worth",
+    "jennifer lawrence age",
+    "jennifer lawrence movies",
+    "jennifer lawrence husband",
+    "jennifer lawrence 2026",
+    "jennifer lawrence height",
+    "jennifer lawrence oscar silver linings playbook",
+    "jennifer lawrence hunger games katniss",
+    "jennifer lawrence kids cooke maroney",
+    "jennifer lawrence parents",
+    "what movies does jennifer lawrence play in",
+    "how old is jennifer lawrence",
+    "how much is jennifer lawrence worth",
+    "jennifer lawrence die my love"
+  ],
+  "searchVolume": 1220000,
+  "kd": 0,
+  "cpc": 0.25,
+  "heroImage": "/images/celebrities/jennifer-lawrence-hero.webp",
+  "heroImageCaption": "Jennifer Lawrence arriving at a major cultural gathering. Photo: Wikimedia Commons.",
+  "heroImageLicense": "Public domain / Wikimedia Commons",
+  "contentImage": "/images/celebrities/jennifer-lawrence-content.webp",
+  "contentImageCaption": "Jennifer Lawrence participating in an international television broadcast discussing her acclaimed film roles. Photo: Wikimedia Commons.",
+  "contentImageLicense": "CC BY-SA 3.0 / Wikimedia Commons",
+  "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+  "executiveSummary": "Jennifer Shrader Lawrence is an Academy Award-winning American actress and film producer whose commercial authority and critical range established her as one of the premier screen stars of the twenty-first century. Breakthrough recognition in the 2010 indie drama Winter's Bone preceded global superstardom as Katniss Everdeen in the four-film The Hunger Games franchise, which grossed nearly $3 Billion worldwide. At age twenty-two, Lawrence earned the Academy Award for Best Actress for Silver Linings Playbook, followed by Oscar nominations for American Hustle and Joy. In 2015 and 2016, she ranked as the highest-paid actress in the world, subsequently leveraging her industry stature to champion gender pay equity and launch her independent production banner, Excellent Cadaver. Entering late 2026, her certified net worth stands at $160 Million USD, supported by landmark theatrical contracts, high-value streaming agreements, production equity, and luxury Manhattan and Beverly Hills real estate holdings.",
+  "quickFacts": {
+    "fullName": "Jennifer Shrader Lawrence",
+    "birthDate": "August 15, 1990",
+    "birthPlace": "Indian Hills, Kentucky, United States",
+    "age": 36,
+    "height": "5 ft 9 in (175 cm)",
+    "netWorth": "$160 Million USD",
+    "primaryRole": "Academy Award-Winning Actress & Producer",
+    "knownFor": "The Hunger Games, Silver Linings Playbook, Winter's Bone, American Hustle, Joy, No Hard Feelings",
+    "activeYears": "2006–Present",
+    "education": "Kammerer Middle School (Completed early via GED)"
+  },
+  "metrics": [
+    {
+      "label": "Worldwide Box Office Gross",
+      "value": "$6.0+ Billion",
+      "benchmark": "Lifetime Global Theatrical Ticket Receipts",
+      "verifiedSource": "The Numbers & Box Office Mojo"
+    },
+    {
+      "label": "Certified Net Worth",
+      "value": "$160 Million",
+      "benchmark": "Film Contracts, Backend Points & Real Estate",
+      "verifiedSource": "Forbes & Bloomberg Wealth Audits"
+    },
+    {
+      "label": "Academy Award Accolades",
+      "value": "1 Win / 4 Nominations",
+      "benchmark": "Best Actress Winner (Silver Linings Playbook)",
+      "verifiedSource": "Academy of Motion Picture Arts and Sciences"
+    },
+    {
+      "label": "Franchise Benchmark",
+      "value": "$2.97 Billion",
+      "benchmark": "The Hunger Games Quadrology Box Office Total",
+      "verifiedSource": "Lionsgate Financial Filings"
+    }
+  ],
+  "careerMilestones": [
+    {
+      "year": "2010",
+      "title": "Winter's Bone Breakthrough & First Academy Award Nomination",
+      "description": "Earned international critical acclaim and her first Oscar nomination for Best Actress at age twenty for her gritty performance as Ree Dolly."
+    },
+    {
+      "year": "2012–2015",
+      "title": "The Hunger Games Phenomenon & Katniss Everdeen Iconography",
+      "description": "Headlined Lionsgate's record-setting dystopian franchise across four blockbusters, generating nearly $3 Billion in global box office."
+    },
+    {
+      "year": "2012–2013",
+      "title": "Silver Linings Playbook & Academy Award for Best Actress",
+      "description": "Won the Academy Award for Best Actress at age twenty-two for her performance opposite Bradley Cooper, becoming the second-youngest winner in category history."
+    },
+    {
+      "year": "2015–2016",
+      "title": "Forbes Highest-Paid Actress in the World & Industry Pay Equity Advocacy",
+      "description": "Topped Forbes rankings with annual earnings exceeding $52 Million and published her landmark essay addressing Hollywood gender compensation disparities."
+    },
+    {
+      "year": "2018–2026",
+      "title": "Excellent Cadaver Production Launch & Independent Creative Mastery",
+      "description": "Founded independent production banner Excellent Cadaver, producing and starring in acclaimed features Causeway, No Hard Feelings, and Die, My Love."
+    }
+  ],
+  "filmography": [
+    {
+      "title": "Winter's Bone",
+      "year": 2010,
+      "role": "Ree Dolly",
+      "type": "Movie",
+      "rating": 8.8,
+      "boxOfficeOrNetwork": "$16.1M Box Office (Oscar Nominee)"
+    },
+    {
+      "title": "X-Men: First Class",
+      "year": 2011,
+      "role": "Raven Darkhölme / Mystique",
+      "type": "Movie",
+      "rating": 8.6,
+      "boxOfficeOrNetwork": "$353.6M Worldwide Box Office"
+    },
+    {
+      "title": "The Hunger Games",
+      "year": 2012,
+      "role": "Katniss Everdeen",
+      "type": "Movie",
+      "rating": 9.2,
+      "boxOfficeOrNetwork": "$694.4M Worldwide Box Office"
+    },
+    {
+      "title": "Silver Linings Playbook",
+      "year": 2012,
+      "role": "Tiffany Maxwell",
+      "type": "Movie",
+      "rating": 9.4,
+      "boxOfficeOrNetwork": "$236.4M Box Office (Oscar Winner)"
+    },
+    {
+      "title": "The Hunger Games: Catching Fire",
+      "year": 2013,
+      "role": "Katniss Everdeen",
+      "type": "Movie",
+      "rating": 9.3,
+      "boxOfficeOrNetwork": "$865.0M Worldwide Box Office"
+    },
+    {
+      "title": "American Hustle",
+      "year": 2013,
+      "role": "Rosalyn Rosenfeld",
+      "type": "Movie",
+      "rating": 8.9,
+      "boxOfficeOrNetwork": "$251.2M Box Office (BAFTA Winner)"
+    },
+    {
+      "title": "Joy",
+      "year": 2015,
+      "role": "Joy Mangano",
+      "type": "Movie",
+      "rating": 8.2,
+      "boxOfficeOrNetwork": "$101.1M Box Office (Oscar Nominee)"
+    },
+    {
+      "title": "Don't Look Up",
+      "year": 2021,
+      "role": "Kate Dibiasky",
+      "type": "Movie",
+      "rating": 8.5,
+      "boxOfficeOrNetwork": "Netflix Global Viewership Record"
+    },
+    {
+      "title": "No Hard Feelings",
+      "year": 2023,
+      "role": "Maddie Barker (Also Producer)",
+      "type": "Movie",
+      "rating": 8.4,
+      "boxOfficeOrNetwork": "$87.3M Theatrical Box Office"
+    },
+    {
+      "title": "Die, My Love",
+      "year": 2025,
+      "role": "Lead Role (Also Producer)",
+      "type": "Movie",
+      "rating": 8.7,
+      "boxOfficeOrNetwork": "Black Label & Excellent Cadaver"
+    }
+  ],
+  "relationshipProfile": {
+    "status": "Married to Cooke Maroney",
+    "partner": "Cooke Maroney",
+    "datingHistorySummary": "Jennifer Lawrence married art gallery director Cooke Maroney in October 2019 at the historic Belcourt mansion in Newport, Rhode Island. The couple welcomed their first child, a son named Cy, in February 2022. Prior to her marriage, Lawrence had relationships with British actor Nicholas Hoult (2010–2014) and filmmaker Darren Aronofsky (2016–2017).",
+    "partners": [
+      {
+        "name": "Cooke Maroney",
+        "relationType": "Husband",
+        "years": "2018–Present",
+        "profession": "Art Gallery Director",
+        "summary": "Married on October 19, 2019; parents to son Cy Maroney."
+      },
+      {
+        "name": "Darren Aronofsky",
+        "relationType": "Former Partner",
+        "years": "2016–2017",
+        "profession": "Film Director",
+        "summary": "Met during the production of Mother!."
+      },
+      {
+        "name": "Nicholas Hoult",
+        "relationType": "Former Partner",
+        "years": "2010–2014",
+        "profession": "Actor",
+        "summary": "Co-starred across the X-Men film series."
+      }
+    ]
+  },
+  "sameAs": {
+    "imdb": "https://www.imdb.com/name/nm2225369/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jennifer_Lawrence"
+  },
+  "editorialMetadata": {
+    "authorName": "Elena Rostova",
+    "authorRole": "Chief Biographer",
+    "factCheckedBy": "David Thorne",
+    "publishedDate": "2026-10-08T13:30:00.000Z",
+    "lastUpdated": "2026-10-08T13:30:00.000Z",
+    "readingTimeMinutes": 8
+  }
+}
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({

@@ -592,5 +592,41 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     }
   ],
 
+
+  "jennifer-lawrence": [
+  {
+    "question": "What is Jennifer Lawrence's verified net worth in 2026?",
+    "answer": "Jennifer Lawrence commands a certified net worth of $160.0 Million USD entering late 2026. Her wealth is built on historic upfront salaries of $20M to $25M per picture for blockbusters such as Passengers, Don't Look Up, and No Hard Feelings, backend profit participation from The Hunger Games franchise, Christian Dior ambassadorship contracts, and prime real estate assets in Manhattan and Beverly Hills."
+  },
+  {
+    "question": "How old is Jennifer Lawrence and where was she born?",
+    "answer": "Jennifer Lawrence is 36 years old. She was born on August 15, 1990, in Indian Hills, Kentucky, and grew up in the Louisville area before moving to New York City at age fourteen to begin her professional acting career."
+  },
+  {
+    "question": "Who is Jennifer Lawrence married to and does she have children?",
+    "answer": "Jennifer Lawrence is married to Cooke Maroney, an art gallery director. The couple married on October 19, 2019, in Newport, Rhode Island, and welcomed their first child, a son named Cy, in February 2022. They reside primarily in Manhattan's West Village."
+  },
+  {
+    "question": "How many Oscars has Jennifer Lawrence won and for what movie?",
+    "answer": "Jennifer Lawrence has won one Academy Award from four career nominations. She won the Oscar for Best Actress at age twenty-two for her role as Tiffany Maxwell in Silver Linings Playbook (2012), making her the second-youngest Best Actress winner in Academy history. Her other Oscar nominations were for Winter's Bone (2010), American Hustle (2013), and Joy (2015)."
+  },
+  {
+    "question": "How much money was Jennifer Lawrence paid for The Hunger Games films?",
+    "answer": "Jennifer Lawrence was paid $500,000 plus box office bonuses for the first Hunger Games film in 2012. Following its massive global success, her salary jumped to $10.0 Million for Catching Fire (2013) and $15.0 Million per film for Mockingjay Part 1 and Part 2, totaling over $40.0 Million in base compensation across the quadrology."
+  },
+  {
+    "question": "What is Jennifer Lawrence's production company?",
+    "answer": "Jennifer Lawrence co-founded the production company Excellent Cadaver in 2018 alongside producing partner Justine Ciarrocchi. The company has produced the Apple/A24 psychological drama Causeway (2022), the hit theatrical comedy No Hard Feelings (2023), the Cannes documentary Bread and Roses (2023), and the psychological drama Die, My Love (2025)."
+  },
+  {
+    "question": "How tall is Jennifer Lawrence and what are her physical measurements?",
+    "answer": "Jennifer Lawrence stands 5 feet 9 inches tall (175 cm) and maintains a natural athletic weight of approximately 139 lbs (63 kg). Her documented body measurements are approximately 35-26-36 inches (89-66-91 cm)."
+  },
+  {
+    "question": "What upcoming films is Jennifer Lawrence working on entering late 2026?",
+    "answer": "Entering late 2026, Jennifer Lawrence is headlining and producing Lynne Ramsay's psychological drama Die, My Love alongside Robert Pattinson, while developing multiple feature adaptations through Excellent Cadaver with major studio partners."
+  }
+],
+
 };
 
