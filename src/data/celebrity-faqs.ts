@@ -692,6 +692,38 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     {
       "question": "What major brand partnerships and business deals does Tate McRae have in 2026?",
       "answer": "Tate McRae maintains high-profile brand partnerships including a multi-year global ambassadorship with activewear giant Alo Yoga, representing their performance and streetwear collections. She also serves as a global ambassador for Maybelline New York cosmetics and partners internationally with Sony Electronics for wireless audio equipment, combining her dance-fitness lifestyle with mainstream commercial appeal."
+    },
+    {
+      "question": "Is Tate McRae a Canadian or US citizen and what is her nationality and ethnicity?",
+      "answer": "Tate McRae is a Canadian citizen with roots in Calgary, Alberta. Her nationality is Canadian. Ethnically, she is of European descent: her mother Tanja Rosner is of German heritage, while her father Todd McRae is of Scottish heritage. She holds legal US residency for entertainment industry work in Los Angeles but remains a proud Canadian citizen."
+    },
+    {
+      "question": "What hockey players did Tate McRae date and why is she connected to the NHL?",
+      "answer": "Tate McRae has deep personal and family ties to professional ice hockey. Her older brother Tucker McRae is a collegiate ice hockey player. From 2021 to 2023, McRae dated Canadian NHL center Cole Sillinger of the Columbus Blue Jackets. In late 2025, she began dating American NHL superstar Jack Hughes, center for the New Jersey Devils, with the pair going public in early 2026. This hockey connection also inspired her viral 'T8' tour hockey jerseys."
+    },
+    {
+      "question": "Was Tate McRae on Disney Channel and what was her career before fame?",
+      "answer": "Tate McRae was not a Disney Channel star. Before achieving mainstream pop music fame, she was an elite competitive dancer and voice actress, voicing the character Spot Splatter Splash in the Nickelodeon animated series 'Lalaloopsy' from 2013 to 2014. She rose to fame through competitive dance championships, dancing on Justin Bieber's Purpose Tour, competing on FOX's 'So You Think You Can Dance: The Next Generation' (2016), and writing original bedroom songs on YouTube."
+    },
+    {
+      "question": "What is Tate McRae's music style and is she a country singer?",
+      "answer": "Tate McRae is not a country singer. Her music style is modern dance-pop, alternative pop, and dark pop driven by trap-infused percussion, infectious melodies, and emotional lyrical vulnerability. Inspired by 2000s icons like Britney Spears alongside contemporary innovators like Rosalía and Billie Eilish, her tracks are engineered specifically to accompany high-speed athletic stage choreography."
+    },
+    {
+      "question": "What major awards and music industry honors has Tate McRae won?",
+      "answer": "Tate McRae has won five Juno Awards—Canada's top music honor—including Single of the Year for 'greedy' and Artist of the Year. In 2026, she received the prestigious Billboard Hitmaker Award. She has also won iHeartRadio Music Awards and earned nominations at the MTV Video Music Awards, MTV Europe Music Awards, and People's Choice Awards."
+    },
+    {
+      "question": "What are Tate McRae's political views and religious background?",
+      "answer": "Tate McRae keeps her personal faith and political views private. Raised in a secular household in Canada, she has stated that her primary focus is on creative expression, mental health in the arts, and wellness. As a Canadian citizen, she does not participate in United States party politics or endorse political candidates, avoiding partisan political affiliations."
+    },
+    {
+      "question": "What is Tate McRae's Miss Possessive Tour merchandise and the T8 jersey?",
+      "answer": "Tate McRae's Miss Possessive Tour merchandise features an exclusive line of athletic streetwear, highlighted by the viral 'T8' oversized ice hockey jersey designed with custom athletic numbers and team cresting. The concert merchandise also includes vintage-wash heavyweight hoodies, lyric t-shirts, signed tour programs, and limited-edition vinyl records sold at arena merchandise stands and online."
+    },
+    {
+      "question": "What is Tate McRae's favorite perfume and signature fragrance?",
+      "answer": "In beauty and backstage interviews with Vogue and Harper's Bazaar, Tate McRae has shared that her signature fragrance is Maison Francis Kurkdjian Baccarat Rouge 540, along with Maison Margiela 'REPLICA' fragrances such as Jazz Club and warm vanilla gourmand scents. She frequently layers warm amber and woody notes for both arena performances and red carpet galas."
     }
   ]
 };
