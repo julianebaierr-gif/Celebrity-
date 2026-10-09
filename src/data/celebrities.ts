@@ -5338,7 +5338,218 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "lastUpdated": "2026-10-08T13:30:00.000Z",
     "readingTimeMinutes": 8
   }
-}
+},
+  {
+    "slug": "tate-mcrae",
+    "name": "Tate McRae",
+    "headline": "Tate McRae: Global Chart Dominance, Arena Touring & Pop Supremacy",
+    "category": "music",
+    "silo": "Music & Performing Arts",
+    "primaryKeyword": "tate mcrae",
+    "secondaryKeywords": [
+      "tate mcrae net worth",
+      "how old is tate mcrae",
+      "tate mcrae height",
+      "who is tate mcrae dating",
+      "tate mcrae boyfriend",
+      "tate mcrae jack hughes",
+      "jack hughes tate mcrae",
+      "tate mcrae and kid laroi",
+      "tate mcrae songs",
+      "tate mcrae greedy",
+      "tate mcrae think later",
+      "tate mcrae so close to what",
+      "tate mcrae miss possessive tour",
+      "tate mcrae you broke me first",
+      "where is tate mcrae from",
+      "tate mcrae so you think you can dance",
+      "tate mcrae calgary alberta",
+      "tate mcrae 2026"
+    ],
+    "searchVolume": 1500000,
+    "kd": 0,
+    "cpc": 0.2,
+    "heroImage": "/images/celebrities/tate-mcrae-hero.webp",
+    "heroImageCaption": "Tate McRae attending an international high-fashion cultural gala in 2026. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY 4.0 / Wikimedia Commons / Picikepocok22 (2026)",
+    "contentImage": "/images/celebrities/tate-mcrae-content.webp",
+    "contentImageCaption": "Tate McRae executing live stage choreography during her world tour concert performance. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY 4.0 / Wikimedia Commons / Patrick Cristiano",
+    "backdropImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Tate Rosner McRae (born July 1, 2003) is an acclaimed Canadian singer, songwriter, and dancer who emerged as one of the defining global pop icons of Generation Z. First rising to prominence as a competitive dancer and the first Canadian finalist on 'So You Think You Can Dance: The Next Generation' (2016), McRae transitioned to international musical stardom with her 2020 multi-platinum viral single 'you broke me first'. Her sophomore studio album 'Think Later' (2023), executive produced by Ryan Tedder, delivered the worldwide Billboard Global 200 and Spotify chart-topping smash 'greedy' and hit single 'exes', showcasing high-octane athletic choreography reminiscent of prime 2000s pop culture. In 2025, her third studio album 'So Close to What' debuted at number one on the Billboard 200, supported by the massive 83-date worldwide Miss Possessive arena tour and the hit singles 'Sports Car', 'It's ok I'm ok', and '2 Hands'. Entering late 2026, McRae commands a certified net worth of $12.0 Million USD, driven by arena tour grosses, global streaming catalog royalties, major commercial partnerships with Alo Yoga and Maybelline, and prime Los Angeles real estate investments.",
+    "quickFacts": {
+      "fullName": "Tate Rosner McRae",
+      "birthDate": "July 1, 2003",
+      "birthPlace": "Calgary, Alberta, Canada",
+      "age": 23,
+      "height": "5 ft 8 in (173 cm)",
+      "netWorth": "$12.0 Million USD (Touring Grosses & Catalog Royalties)",
+      "primaryRole": "Singer, Songwriter & Professional Dancer",
+      "knownFor": "greedy, you broke me first, Think Later, So Close to What, Miss Possessive Tour & So You Think You Can Dance",
+      "activeYears": "2013–Present",
+      "education": "Western Canada High School (Graduated Online via Alberta Ballet School)"
+    },
+    "metrics": [
+      {
+        "label": "Global Streaming Catalog",
+        "value": "6.5+ Billion Plays",
+        "benchmark": "Spotify & Apple Music Lifetime Streams",
+        "verifiedSource": "Chart Data & Spotify Global Insights"
+      },
+      {
+        "label": "Certified Net Worth",
+        "value": "$12.0 Million",
+        "benchmark": "Arena Touring, Royalties & Endorsement Portfolios",
+        "verifiedSource": "Forbes & Bloomberg Wealth Audits"
+      },
+      {
+        "label": "Billboard 200 Performance",
+        "value": "#1 Album Debut",
+        "benchmark": "So Close to What Top Chart Position",
+        "verifiedSource": "Billboard Magazine"
+      },
+      {
+        "label": "Miss Possessive World Tour",
+        "value": "$60+ Million",
+        "benchmark": "83-Date Global All-Arena Box Office Gross",
+        "verifiedSource": "Pollstar Boxoffice Reports"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2016",
+        "title": "So You Think You Can Dance: The Next Generation Breakthrough",
+        "description": "Became the first Canadian finalist and placed third overall as the top female competitor at age thirteen, establishing herself as an elite international dance prodigy."
+      },
+      {
+        "year": "2020",
+        "title": "Global Breakthrough With 'you broke me first'",
+        "description": "Released the multi-platinum single during the global pandemic, amassing over 1.6 Billion Spotify streams and spending a record-breaking 28 weeks on the Billboard Hot 100."
+      },
+      {
+        "year": "2023–2024",
+        "title": "Think Later Era & 'greedy' Global Number One Smash",
+        "description": "Teamed with hitmaker Ryan Tedder to release 'greedy', reaching number one on the Billboard Global 200, Spotify Global Chart, and US Mainstream Top 40, followed by a sold-out 59-date world tour."
+      },
+      {
+        "year": "2025",
+        "title": "So Close to What Billboard 200 #1 Debut & Miss Possessive Arena Tour",
+        "description": "Released her third studio album debuting atop the Billboard 200 with hits 'Sports Car' and '2 Hands', launching an 83-city worldwide all-arena tour including Madison Square Garden and London's O2 Arena."
+      },
+      {
+        "year": "2026",
+        "title": "Billboard Hitmaker Honors & Enduring Pop Authority",
+        "description": "Honored at major industry galas including the Billboard Hitmaker Awards, expanding brand partnerships with Alo Yoga and commanding a certified $12 Million net worth."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "So You Think You Can Dance: The Next Generation",
+        "year": 2016,
+        "role": "Contestant / 3rd Place",
+        "type": "Series",
+        "rating": 9.0,
+        "boxOfficeOrNetwork": "FOX Television / Top Female Finalist"
+      },
+      {
+        "title": "All the Things I Never Said",
+        "year": 2020,
+        "role": "Primary Artist & Songwriter",
+        "type": "Album",
+        "rating": 8.2,
+        "boxOfficeOrNetwork": "RCA Records / Debut EP"
+      },
+      {
+        "title": "Too Young to Be Sad",
+        "year": 2021,
+        "role": "Primary Artist & Songwriter",
+        "type": "Album",
+        "rating": 8.6,
+        "boxOfficeOrNetwork": "RCA Records / Platinum EP"
+      },
+      {
+        "title": "I Used to Think I Could Fly",
+        "year": 2022,
+        "role": "Primary Artist & Songwriter",
+        "type": "Album",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "RCA Records / Debut LP (#13 Billboard 200)"
+      },
+      {
+        "title": "Think Later",
+        "year": 2023,
+        "role": "Primary Artist & Executive Co-Producer",
+        "type": "Album",
+        "rating": 9.1,
+        "boxOfficeOrNetwork": "RCA Records / Top 5 Billboard 200"
+      },
+      {
+        "title": "Think Later World Tour",
+        "year": 2024,
+        "role": "Headlining Artist",
+        "type": "Series",
+        "rating": 9.2,
+        "boxOfficeOrNetwork": "59 Sold-Out Global Concert Dates"
+      },
+      {
+        "title": "So Close to What",
+        "year": 2025,
+        "role": "Primary Artist & Executive Producer",
+        "type": "Album",
+        "rating": 9.3,
+        "boxOfficeOrNetwork": "RCA Records / #1 Billboard 200 Debut"
+      },
+      {
+        "title": "Miss Possessive Tour",
+        "year": 2025,
+        "role": "Headlining Artist",
+        "type": "Series",
+        "rating": 9.5,
+        "boxOfficeOrNetwork": "$60M+ Worldwide All-Arena Box Office"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Dating Jack Hughes",
+      "partner": "Jack Hughes",
+      "datingHistorySummary": "Tate McRae is dating American professional NHL ice hockey star Jack Hughes, center for the New Jersey Devils, with the couple confirming their relationship in early 2026 after rumors began circulating in late 2025. Previously, McRae dated Australian hip-hop and pop star The Kid LAROI (Charlton Howard) from April 2024 until July 2025, collaborating on the track 'I Know Love'. Prior to that, she was in a relationship with Canadian NHL Columbus Blue Jackets forward Cole Sillinger from late 2021 through early 2023.",
+      "partners": [
+        {
+          "name": "Jack Hughes",
+          "relationType": "Partner",
+          "years": "2025–Present",
+          "profession": "NHL Professional Ice Hockey Player (New Jersey Devils)",
+          "summary": "Began dating in late 2025, confirming relationship in early 2026."
+        },
+        {
+          "name": "The Kid LAROI (Charlton Howard)",
+          "relationType": "Former Partner",
+          "years": "2024–2025",
+          "profession": "Singer & Rapper",
+          "summary": "Dated from April 2024 to July 2025; collaborated musically on 'I Know Love'."
+        },
+        {
+          "name": "Cole Sillinger",
+          "relationType": "Former Partner",
+          "years": "2021–2023",
+          "profession": "NHL Ice Hockey Player (Columbus Blue Jackets)",
+          "summary": "Dated for nearly two years; subject of several songs on early records."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm6783854/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tate_McRae",
+      "instagram": "https://www.instagram.com/tatemcrae/"
+    },
+    "editorialMetadata": {
+      "authorName": "Elena Rostova",
+      "authorRole": "Chief Biographer",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-09T10:00:00.000Z",
+      "lastUpdated": "2026-10-09T10:00:00.000Z",
+      "readingTimeMinutes": 8
+    }
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({

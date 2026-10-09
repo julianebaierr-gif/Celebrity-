@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-08T13:30:00.000Z",
-  "totalUniqueImages": 61,
+  "lastUpdated": "2026-10-09T10:00:00.000Z",
+  "totalUniqueImages": 63,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -444,6 +444,22 @@
       "pageSlug": "jennifer-lawrence",
       "assignedAt": "2026-10-08T13:30:00.000Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Jennifer_Lawrence_at_214._Wetten%2C_dass.._show_in_Graz%2C_8._Nov._2014.jpg"
+    },
+    "/images/celebrities/tate-mcrae-hero.webp": {
+      "filePath": "/images/celebrities/tate-mcrae-hero.webp",
+      "entity": "Tate McRae",
+      "placement": "profile_hero",
+      "pageSlug": "tate-mcrae",
+      "assignedAt": "2026-10-09T10:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tate_McRae_2026.jpg"
+    },
+    "/images/celebrities/tate-mcrae-content.webp": {
+      "filePath": "/images/celebrities/tate-mcrae-content.webp",
+      "entity": "Tate McRae",
+      "placement": "profile_content",
+      "pageSlug": "tate-mcrae",
+      "assignedAt": "2026-10-09T10:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Tate_McRae_in_Manila_01.jpg"
     }
   }
 }

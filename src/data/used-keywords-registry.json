@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 28,
-  "lastUpdated": "2026-10-08T13:30:00.000Z",
+  "totalLocked": 29,
+  "lastUpdated": "2026-10-09T10:00:00.000Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -414,6 +414,23 @@
         "jennifer lawrence husband",
         "jennifer lawrence 2026"
       ]
+    },
+    {
+      "keyword": "tate mcrae",
+      "slug": "tate-mcrae",
+      "name": "Tate McRae",
+      "category": "Music & Performing Arts",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/tate-mcrae",
+      "publishedAt": "2026-10-09 10:00:00",
+      "associatedTags": [
+        "tate mcrae net worth",
+        "how old is tate mcrae",
+        "tate mcrae height",
+        "who is tate mcrae dating",
+        "tate mcrae songs",
+        "tate mcrae greedy",
+        "tate mcrae 2026"
+      ]
     }
   ],
   "bannedKeywordSet": [
@@ -517,6 +534,14 @@
     "jennifer lawrence movies",
     "jennifer lawrence husband",
     "jennifer lawrence height",
-    "jennifer lawrence oscar silver linings playbook"
+    "jennifer lawrence oscar silver linings playbook",
+    "tate mcrae",
+    "tate mcrae net worth",
+    "how old is tate mcrae",
+    "tate mcrae height",
+    "who is tate mcrae dating",
+    "tate mcrae boyfriend",
+    "tate mcrae songs",
+    "tate mcrae greedy"
   ]
 }

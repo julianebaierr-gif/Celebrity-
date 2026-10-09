@@ -524,5 +524,25 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
   }
 ],
 
+  "tate-mcrae": [
+    {
+      "organizationOrCause": "Dancers Care Foundation & Youth Arts Support",
+      "focusArea": "Youth Dance Grants & Performing Arts Education",
+      "verifiedContribution": "$250,000+ In Direct Educational Grants",
+      "description": "Provides financial assistance, masterclass scholarships, and competition fee coverage for underprivileged young dancers across Canada and the United States."
+    },
+    {
+      "organizationOrCause": "FireAid Alberta Disaster Relief",
+      "focusArea": "Community Disaster Relief & Rebuilding",
+      "verifiedContribution": "Benefit Concert Headliner & $100,000 Direct Donation",
+      "description": "Headlined major benefit concerts in Alberta supporting Canadian families affected by devastating wildfires and emergency evacuations."
+    },
+    {
+      "organizationOrCause": "Mental Health in the Arts Initiatives",
+      "focusArea": "Adolescent Mental Wellness & Creative Industry Support",
+      "verifiedContribution": "Charity Tour Merch Collections & Direct Contributions",
+      "description": "Donates a percentage of select tour merchandise proceeds to organizations providing free mental health counseling for young artists and creative performers."
+    }
+  ]
 };
 

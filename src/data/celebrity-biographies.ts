@@ -1348,4 +1348,54 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   }
 ],
 
+  "tate-mcrae": [
+    {
+      "heading": "Calgary Roots, Oman Childhood & Dance Prodigy Foundations (2003–2018)",
+      "paragraphs": [
+        "Tate Rosner McRae was born on July 1, 2003, in Calgary, Alberta, Canada, to Tanja Rosner, a professional dance instructor of German heritage, and Todd McRae, a corporate attorney of Scottish descent. At age four, McRae moved with her family to Muscat, Oman, where her father worked for an international firm. Living in the Middle East for three formative years, McRae began formal dance instruction under her mother's guidance before the family returned home to Calgary when she was seven years old.",
+        "Immersing herself in elite competitive training, McRae enrolled at the YYC Dance Project and the prestigious School of Alberta Ballet, dedicating up to thirty hours each week to classical ballet, contemporary dance, and jazz. Her technical precision earned her top honors across North America: she won Mini Female Dancer at The Dance Awards in New York City in 2013, Junior Female Dancer in 2015, and Teen Female Dancer in Las Vegas in 2018. In 2016, at age twelve, she was selected by choreographers to dance on stage alongside Justin Bieber during his Purpose World Tour stop in Calgary. Later that year, she entered Season 13 of FOX's reality competition 'So You Think You Can Dance: The Next Generation', capturing third place overall and finishing as the top female competitor, the first Canadian dancer in history to reach the live show finals."
+      ],
+      "keyTakeaway": "Rigorous conservatory training in Calgary and three consecutive titles at The Dance Awards established McRae as an elite international dance prodigy."
+    },
+    {
+      "heading": "Bedroom Songwriting, YouTube Virality & 'you broke me first' (2017–2021)",
+      "paragraphs": [
+        "Seeking an emotional outlet alongside her rigorous athletic routine, McRae turned to songwriting in her family bedroom, composing melodies on an electric piano and uploading raw performances to her YouTube channel, 'Create With Tate'. In 2017, her self-written ballad 'One Day' went viral overnight, racking up over 40 million views and sparking an intense bidding war among major record labels. In August 2019, McRae signed with RCA Records, prioritizing creative control over her lyrics and choreography.",
+        "In January 2020, McRae unveiled her debut EP, 'All the Things I Never Said', featuring tracks co-written with Billie Eilish and Finneas O'Connell. Three months later, during global lockdowns, she released 'you broke me first'. Filmed on an iPhone taped to the dashboard of her mother's car, the minimalist heartbreak anthem became a massive global phenomenon. The track accumulated over 1.6 Billion streams on Spotify, peaked in the top ten worldwide, and spent twenty-eight weeks on the Billboard Hot 100, breaking the record for the longest-charting song by a female artist on the chart that decade. In March 2021, she followed with the platinum EP 'Too Young to Be Sad', leading Billboard and Forbes to name her among the premier young voices in modern pop music."
+      ],
+      "quote": {
+        "text": "I was writing songs in my bedroom to figure out who I was. I never imagined those private thoughts would resonate with millions of people across the globe.",
+        "source": "Tate McRae on the breakthrough of 'you broke me first'"
+      },
+      "keyTakeaway": "Composing songs in her bedroom led to viral discovery, culminating in the 1.6-billion-stream breakthrough anthem 'you broke me first'."
+    },
+    {
+      "heading": "Pop Evolution, Ryan Tedder Collaboration & 'greedy' Dominance (2022–2024)",
+      "paragraphs": [
+        "In May 2022, McRae released her debut full-length studio album, 'I Used to Think I Could Fly', via RCA Records. Executive produced with Greg Kurstin and Finneas, the album debuted at number thirteen on the Billboard 200 and produced the multi-platinum single 'she's all i wanna be'. Supported by a sold-out international theater tour, the project established her distinct sonic signature, fusing alt-pop emotional confessions with rhythmic trap percussion.",
+        "Determined to bring high-energy choreography back to the forefront of modern pop culture, McRae teamed with OneRepublic frontman and hitmaker Ryan Tedder, Jasper Harris, and Tyler Spry. In September 2023, she launched 'greedy', an infectious, brass-infused dance-pop anthem that exploded across global airwaves. 'greedy' surged to number one on the Billboard Global 200, the Spotify Global Daily Top 50, and US Mainstream Top 40 radio, earning multi-platinum certifications in over fifteen countries. Followed by the choreography-driven single 'exes' and the emotional track 'run for the hills', her second studio album 'Think Later' (December 2023) debuted in the top five of the Billboard 200. Viral live showcases on Saturday Night Live, the Billboard Music Awards, and the 2024 NHL All-Star Game cemented her status as a dynamic triple-threat performer, culminating in the 59-date sold-out Think Later World Tour."
+      ],
+      "keyTakeaway": "Teaming with producer Ryan Tedder on 'Think Later' and the global chart-topper 'greedy' revived high-octane dance pop on international stages."
+    },
+    {
+      "heading": "So Close to What, Miss Possessive Arena Run & Jack Hughes Romance (2025–2026)",
+      "paragraphs": [
+        "In 2025, McRae reached the pinnacle of mainstream music with the release of her third studio album, 'So Close to What', released through RCA Records. The record debuted at number one on the US Billboard 200, driven by the global smash hits 'Sports Car', 'It's ok I'm ok', and '2 Hands'. Critics praised the album for balancing vulnerable vocal intimacy with club-ready electronic arrangements, proving her artistic maturity as both songwriter and executive producer.",
+        "To support the record, McRae embarked on the ambitious 'Miss Possessive Tour', an 83-date worldwide all-arena trek across North America, Europe, the United Kingdom, and South America. Headlining historic venues including Madison Square Garden in New York, the United Center in Chicago, and London's O2 Arena, the tour grossed over $60 Million in ticket receipts. In her personal life, following widely discussed relationships with NHL player Cole Sillinger and Australian artist The Kid LAROI, McRae confirmed her relationship with New Jersey Devils superstar center Jack Hughes in early 2026. The couple quickly became one of the most celebrated pairs in sports and entertainment, with McRae frequently supporting Hughes during the NHL season while maintaining her own relentless creative schedule."
+      ],
+      "quote": {
+        "text": "Touring arenas every night taught me that my background as a competitive dancer was my greatest strength. It gives me the stamina to sing and dance at full speed for two straight hours.",
+        "source": "Tate McRae reflecting on the Miss Possessive World Tour"
+      },
+      "keyTakeaway": "A number-one Billboard 200 debut with 'So Close to What' and an 83-date arena tour elevated McRae to global arena headliner status."
+    },
+    {
+      "heading": "Financial Architecture, Global Endorsements & Creative Sovereignty (2026)",
+      "paragraphs": [
+        "Entering late 2026, Tate McRae commands a certified net worth of $12.0 Million USD. Her fortune reflects a balanced financial portfolio built on lucrative arena touring guarantees, substantial live merchandise splits, and consistent mechanical and streaming royalties from over 6.5 Billion catalog streams. Having retained publishing shares on all her self-penned compositions through Sony Music Publishing, McRae captures long-term residual value across broadcast syncs, digital playlists, and international licensing.",
+        "Beyond musical releases, McRae has developed high-value commercial partnerships aligned with her athletic dance identity. She serves as a global brand ambassador for premier activewear brand Alo Yoga, fronting major international fitness and streetwear campaigns, alongside lucrative brand agreements with Maybelline New York and Sony Electronics audio equipment. In 2024, McRae acquired a modern $4.8 Million architectural home in Los Angeles featuring a private dance rehearsal facility and custom recording studio, while maintaining a luxury residence in Calgary. Recognized at the 2026 Billboard Hitmaker Awards, McRae exemplifies modern pop entrepreneurship, combining creative independence with athletic mastery."
+      ],
+      "keyTakeaway": "Arena touring grosses, songwriting equity with Sony Publishing, and prime fashion-fitness partnerships underpin McRae's $12M net worth entering late 2026."
+    }
+  ]
 };

@@ -326,5 +326,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
   }
 ],
 
+  "tate-mcrae": [
+    {
+      "incident": "Live Vocal vs. High-Stamina Choreography Performance Scrutiny",
+      "year": "2023–2024",
+      "resolutionOrOutcome": "Following online discussions regarding backing track use during intense dance routines, McRae addressed the critique directly, demonstrating breath control training and performing stripped-down acoustic sets on BBC Radio 1 Live Lounge and Saturday Night Live.",
+      "impactAnalysis": "Disproved critics by showcasing raw vocal power while maintaining rigorous physical choreography, raising contemporary standards for live dance-pop entertainment."
+    },
+    {
+      "incident": "High-Profile Personal Relationships & Tabloid Speculation",
+      "year": "2024–2025",
+      "resolutionOrOutcome": "Navigated media fascination regarding her relationships with NHL athlete Cole Sillinger and Australian artist The Kid LAROI, setting strict personal privacy boundaries in national interviews and channeling her personal experiences into chart-topping music.",
+      "impactAnalysis": "Earned widespread respect from industry peers and fans for prioritizing creative ownership and personal dignity over sensationalized gossip narratives."
+    }
+  ]
 };
 

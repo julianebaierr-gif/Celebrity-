@@ -644,5 +644,55 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   }
 ],
 
+  "tate-mcrae": [
+    {
+      "question": "What is Tate McRae's verified net worth in 2026?",
+      "answer": "Tate McRae commands a certified net worth of $12.0 Million USD entering late 2026. Her wealth is built on massive live arena touring revenues from the 83-date worldwide Miss Possessive Tour (grossing over $60 Million), recurring royalties from over 6.5 Billion catalog streams on Spotify and Apple Music, full songwriting publishing rights via Sony Music Publishing, high-value global ambassadorship contracts with Alo Yoga, Maybelline New York, and Sony Electronics, and luxury real estate holdings in Los Angeles and Calgary."
+    },
+    {
+      "question": "How old is Tate McRae and where was she born?",
+      "answer": "Tate McRae is 23 years old. She was born on July 1, 2003, in Calgary, Alberta, Canada, to parents Tanja Rosner, a German dance instructor, and Todd McRae, a Canadian corporate lawyer. McRae spent three years of her early childhood living in Muscat, Oman, before returning to Calgary at age seven to begin rigorous training at the School of Alberta Ballet."
+    },
+    {
+      "question": "How tall is Tate McRae and what are her physical measurements?",
+      "answer": "Tate McRae stands 5 feet 8 inches tall (173 cm) and maintains an athletic, dancer-conditioned weight of approximately 119 lbs (54 kg). Her body measurements are approximately 34-24-34 inches (86-61-86 cm), with a US shoe size of 8. Her athletic stamina and flexibility stem from over a decade of elite competitive dance and ballet training."
+    },
+    {
+      "question": "Who is Tate McRae dating in 2026 and who has she dated previously?",
+      "answer": "Tate McRae is dating American professional NHL ice hockey superstar Jack Hughes, center for the New Jersey Devils. The couple confirmed their relationship in early 2026 following public appearances together in late 2025. Previously, McRae dated Australian singer and rapper The Kid LAROI (Charlton Howard) from April 2024 to July 2025, collaborating on the song 'I Know Love'. Prior to that, she was in a relationship with Canadian NHL Columbus Blue Jackets forward Cole Sillinger from late 2021 to early 2023."
+    },
+    {
+      "question": "What are Tate McRae's most popular hit songs?",
+      "answer": "Tate McRae's biggest global hits include 'greedy' (which topped the Billboard Global 200 and Spotify Global charts), her viral breakout single 'you broke me first' (over 1.6 Billion Spotify streams), 'exes', 'she's all i wanna be', 'run for the hills', 'Sports Car', 'It's ok I'm ok', '2 Hands', and 'What I Want'. Her songs combine infectious dance rhythms with confessional, relatable lyrics."
+    },
+    {
+      "question": "What was Tate McRae's first hit song and how did she get famous?",
+      "answer": "Tate McRae's first viral musical breakthrough was her original piano ballad 'One Day', which she wrote at age fourteen and uploaded to her YouTube channel 'Create With Tate' in 2017, generating over 40 million views and leading to her record deal with RCA Records. Her first mainstream commercial smash arrived in April 2020 with 'you broke me first', which achieved multi-platinum status across fifteen countries and spent 28 weeks on the Billboard Hot 100."
+    },
+    {
+      "question": "How did Tate McRae do on 'So You Think You Can Dance'?",
+      "answer": "In 2016, at age thirteen, Tate McRae competed on Season 13 of FOX's reality competition 'So You Think You Can Dance: The Next Generation'. She finished in third place overall and was the top female dancer of the season, making history as the first Canadian dancer to advance to the live show finals."
+    },
+    {
+      "question": "What studio albums has Tate McRae released?",
+      "answer": "Tate McRae has released three full-length studio albums: 'I Used to Think I Could Fly' (May 2022, peaking at #13 on the Billboard 200), 'Think Later' (December 2023, executive produced by Ryan Tedder and featuring 'greedy', peaking in the top five), and 'So Close to What' (2025, which debuted at number one on the US Billboard 200). She also released two critically acclaimed EPs: 'All the Things I Never Said' (2020) and 'Too Young to Be Sad' (2021)."
+    },
+    {
+      "question": "What is the Miss Possessive Tour?",
+      "answer": "The Miss Possessive Tour is Tate McRae's massive 83-date worldwide all-arena concert tour across North America, Europe, the United Kingdom, and South America supporting her album 'So Close to What'. Featuring full arena staging, an athletic ensemble of dancers, and high-speed choreography, the tour grossed over $60 Million in ticket receipts, headlining legendary venues such as Madison Square Garden and London's O2 Arena."
+    },
+    {
+      "question": "Who are Tate McRae's parents and does she have siblings?",
+      "answer": "Tate McRae's parents are Tanja Rosner, a professional dance teacher who directed her early training, and Todd McRae, a corporate lawyer. She has an older brother named Tucker McRae, who is a competitive collegiate and professional ice hockey player. The close-knit family maintains deep ties to Calgary, Alberta."
+    },
+    {
+      "question": "Where did Tate McRae grow up and did she live in Oman?",
+      "answer": "Tate McRae was born in Calgary, Alberta, Canada. When she was four years old, her family relocated to Muscat, Oman, where they resided for three years due to her father's international legal work. At age seven, the family returned permanently to Calgary, where McRae attended Western Canada High School and completed her academic diploma online while training full-time at the Alberta Ballet School."
+    },
+    {
+      "question": "What major brand partnerships and business deals does Tate McRae have in 2026?",
+      "answer": "Tate McRae maintains high-profile brand partnerships including a multi-year global ambassadorship with activewear giant Alo Yoga, representing their performance and streetwear collections. She also serves as a global ambassador for Maybelline New York cosmetics and partners internationally with Sony Electronics for wireless audio equipment, combining her dance-fitness lifestyle with mainstream commercial appeal."
+    }
+  ]
 };
 

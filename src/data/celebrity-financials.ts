@@ -2476,5 +2476,109 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   ]
 },
 
+  "tate-mcrae": {
+    "salaryMilestones": [
+      {
+        "project": "you broke me first (Streaming & Publishing Royalties)",
+        "year": 2020,
+        "salary": "$1.2 Million USD",
+        "boxOfficeOrBudget": "1.6B+ Spotify Streams",
+        "notes": "Breakthrough streaming revenues and mechanical publishing royalties establishing initial financial independence."
+      },
+      {
+        "project": "I Used to Think I Could Fly (Album Advance & Tour)",
+        "year": 2022,
+        "salary": "$2.0 Million USD",
+        "boxOfficeOrBudget": "RCA Records / 40-Date Global Tour",
+        "notes": "Debut studio album advance accompanied by first international headlining club and theater tour."
+      },
+      {
+        "project": "Think Later World Tour",
+        "year": 2024,
+        "salary": "$8.5 Million USD Artist Gross",
+        "boxOfficeOrBudget": "59 Sold-Out Concert Dates",
+        "notes": "Major theater and arena crossover tour grossing over $18 Million worldwide with high merchandise per-head spend."
+      },
+      {
+        "project": "Miss Possessive World Tour",
+        "year": 2025,
+        "salary": "$24.0 Million USD Net Artist Earnings",
+        "boxOfficeOrBudget": "$60.0+ Million Arena Box Office",
+        "notes": "Historic 83-date worldwide all-arena tour headlining Madison Square Garden, O2 Arena, and major stadiums."
+      },
+      {
+        "project": "So Close to What (Contract Advance & Escalators)",
+        "year": 2025,
+        "salary": "$5.0 Million USD Advance",
+        "boxOfficeOrBudget": "RCA Records / Sony Music",
+        "notes": "Major contract renegotiation advance and publishing escalators following #1 Billboard 200 album debut."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Modern Architectural Residence",
+        "location": "Studio City, Los Angeles, California",
+        "purchasedYear": "2024",
+        "purchasePrice": "$4.8 Million USD",
+        "currentEstimatedValue": "$5.4 Million USD",
+        "description": "5,200-square-foot contemporary luxury home featuring private mirrored dance studio, soundproof recording suite, infinity pool, and gated grounds."
+      },
+      {
+        "property": "Calgary Luxury Penthouse",
+        "location": "Downtown Calgary, Alberta, Canada",
+        "purchasedYear": "2023",
+        "purchasePrice": "$1.6 Million CAD",
+        "currentEstimatedValue": "$1.8 Million CAD",
+        "description": "2,400-square-foot upscale high-rise penthouse maintained as an Alberta retreat and family home base."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "Alo Yoga Global Ambassadorship",
+        "role": "Global Brand Ambassador",
+        "valuationOrRevenue": "$3.0M+ Multi-Year Deal",
+        "description": "Premier activewear endorsement highlighting athletic dance fitness and high-fashion lifestyle collections."
+      },
+      {
+        "name": "Maybelline New York Brand Partnership",
+        "role": "Global Makeup Face",
+        "valuationOrRevenue": "$2.0M+ Multi-Year Endorsement",
+        "description": "International beauty campaign contract representing signature Gen Z cosmetic product lines."
+      },
+      {
+        "name": "Sony Electronics Audio Partnership",
+        "role": "Global Audio Ambassador",
+        "valuationOrRevenue": "Multi-Million Global Campaign",
+        "description": "Worldwide marketing campaign for wireless noise-canceling headphones and premium personal audio gear."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2020",
+        "estimatedNetWorth": "$500,000 USD",
+        "milestoneDescription": "Initial streaming advances and royalty checks following the viral explosion of you broke me first."
+      },
+      {
+        "period": "2022",
+        "estimatedNetWorth": "$2.5 Million USD",
+        "milestoneDescription": "Release of debut LP I Used to Think I Could Fly and first sold-out international headlining tour."
+      },
+      {
+        "period": "2024",
+        "estimatedNetWorth": "$6.0 Million USD",
+        "milestoneDescription": "Global chart domination with greedy, multi-platinum album Think Later, and 59-date world tour."
+      },
+      {
+        "period": "2025",
+        "estimatedNetWorth": "$9.5 Million USD",
+        "milestoneDescription": "Release of #1 album So Close to What and launch of the worldwide Miss Possessive all-arena tour."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$12.0 Million USD",
+        "milestoneDescription": "Culmination of the 83-date arena tour, recurring catalog royalties, and high-value fashion-fitness equity."
+      }
+    ]
+  }
 };
 
