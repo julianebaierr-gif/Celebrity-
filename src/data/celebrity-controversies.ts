@@ -340,5 +340,21 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       "impactAnalysis": "Earned widespread respect from industry peers and fans for prioritizing creative ownership and personal dignity over sensationalized gossip narratives."
     }
   ]
+,
+  "jake-gyllenhaal": [
+  {
+    "incident": "Taylor Swift 'All Too Well' Media Phenomenon (2010–2022)",
+    "year": "2010–2022",
+    "resolutionOrOutcome": "Following a brief three-month relationship in late 2010, the 2021 release of Swift's expanded ten-minute version of 'All Too Well' renewed intense public interest. Gyllenhaal addressed the frenzy with calm maturity in a 2022 Esquire profile, noting that artists draw upon personal experiences while urging fan communities to practice mutual civility.",
+    "impactAnalysis": "Maintained complete professional decorum and dignity throughout the online storm, earning widespread respect across the industry for never trading barbs in the press."
+  },
+  {
+    "incident": "Extreme Physical Transformations & Method Intensity",
+    "year": "2014–2015",
+    "resolutionOrOutcome": "Gyllenhaal's alarming thirty-pound weight drop for Nightcrawler, followed immediately by packing on nearly thirty pounds of muscle for Southpaw within six months, sparked industry-wide debates regarding the physical and psychological dangers of drastic physical alterations for cinematic roles.",
+    "impactAnalysis": "Affirmed his reputation as one of the most relentlessly dedicated physical performers of his era while prompting him to adopt more sustainable, scientifically monitored training regimens for later projects like Road House."
+  }
+],
+
 };
 

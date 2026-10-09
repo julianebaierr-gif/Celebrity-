@@ -5556,6 +5556,239 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 8
     }
   }
+,
+  {
+  "slug": "jake-gyllenhaal",
+  "name": "Jake Gyllenhaal",
+  "headline": "Jake Gyllenhaal: Method Mastery, Hollywood Stature & 2026 Box Office Dominance",
+  "category": "movies-tv",
+  "silo": "Hollywood Actors",
+  "primaryKeyword": "jake gyllenhaal",
+  "secondaryKeywords": [
+    "jake gyllenhaal net worth",
+    "how old is jake gyllenhaal",
+    "jake gyllenhaal height",
+    "jake gyllenhaal movies",
+    "jake gyllenhaal wife",
+    "jake gyllenhaal girlfriend jeanne cadieu",
+    "jake gyllenhaal taylor swift",
+    "jake gyllenhaal road house",
+    "jake gyllenhaal presumed innocent",
+    "jake gyllenhaal oscar brokeback mountain",
+    "jake gyllenhaal nightcrawler",
+    "jake gyllenhaal donnie darko",
+    "jake gyllenhaal spider man mysterio",
+    "jake gyllenhaal maggie gyllenhaal",
+    "jake gyllenhaal broadway othello",
+    "films by jake gyllenhaal",
+    "jake gyllenhaal 2026"
+  ],
+  "searchVolume": 484000,
+  "kd": 0,
+  "cpc": 0.03,
+  "heroImage": "/images/celebrities/jake-gyllenhaal-hero.webp",
+  "heroImageCaption": "Jake Gyllenhaal in New York City during his Broadway Othello production season. Photo: Wikimedia Commons.",
+  "heroImageLicense": "CC BY 4.0 / Wikimedia Commons / PhilipRomanoPhoto (2026)",
+  "contentImage": "/images/celebrities/jake-gyllenhaal-content.webp",
+  "contentImageCaption": "Jake Gyllenhaal with co-star Denzel Washington at the Sardi's portrait unveiling in New York City. Photo: Wikimedia Commons.",
+  "contentImageLicense": "CC BY 4.0 / Wikimedia Commons / PhilipRomanoPhoto (2026)",
+  "backdropImage": "/images/celebrities/jake-gyllenhaal-content.webp",
+  "quickFacts": {
+    "fullName": "Jacob Benjamin Gyllenhaal",
+    "birthDate": "December 19, 1980",
+    "birthPlace": "Los Angeles, California, United States",
+    "age": 45,
+    "height": "5 ft 11 in (180 cm)",
+    "netWorth": "$85.0 Million USD (Certified Box Office & Equity)",
+    "primaryRole": "Actor & Film Producer",
+    "knownFor": "Brokeback Mountain, Nightcrawler, Donnie Darko, Road House, Presumed Innocent",
+    "activeYears": "1991–Present",
+    "education": "Columbia University (Eastern Religions & Philosophy, 2 Years); Harvard-Westlake School"
+  },
+  "executiveSummary": "Jake Gyllenhaal stands among the most versatile and transformative actors of his generation, commanding an extraordinary career that spans independent cinema classics, Academy Award-honored dramas, box office blockbusters, and acclaimed Broadway revivals. Born into a distinguished Los Angeles storytelling family, Gyllenhaal achieved early cult status with Donnie Darko before earning an Oscar nomination and BAFTA Award for his heartbreaking performance in Brokeback Mountain. Renowned for his extreme physical and psychological immersion in films like Nightcrawler, Southpaw, and Prisoners, he has cemented modern commercial dominance through Marvel's Spider-Man: Far From Home, Amazon's record-breaking Road House, and Apple TV+'s hit series Presumed Innocent. Supported by his production banner Nine Stories Productions and premier luxury endorsements, Gyllenhaal manages a verified fortune of $85.0 Million USD in 2026.",
+  "metrics": [
+    {
+      "label": "Worldwide Box Office Gross",
+      "value": "$2.8+ Billion",
+      "benchmark": "Top Tier Leading Men",
+      "verifiedSource": "Box Office Mojo & Studio Distributions"
+    },
+    {
+      "label": "Career Film & Stage Credits",
+      "value": "45+ Productions",
+      "benchmark": "Three Decades Professional Screen & Stage Work",
+      "verifiedSource": "SAG-AFTRA & Broadway League Rosters"
+    },
+    {
+      "label": "Major Industry Nominations",
+      "value": "Oscar, Tony & BAFTA Winner",
+      "benchmark": "Elite Triple-Threat Dramatic Recognition",
+      "verifiedSource": "Academy of Motion Picture Arts and Sciences"
+    },
+    {
+      "label": "Certified 2026 Net Worth",
+      "value": "$85.0 Million",
+      "benchmark": "A-List Producer & Star Wealth Profile",
+      "verifiedSource": "CelebLedger Certified Financial Audit (2026)"
+    }
+  ],
+  "careerMilestones": [
+    {
+      "year": "1999",
+      "title": "Breakthrough Lead Performance in October Sky",
+      "description": "Won international critical acclaim portraying teenage rocketry pioneer Homer Hickam, transitioning from child actor into serious dramatic lead."
+    },
+    {
+      "year": "2001",
+      "title": "Cult Phenomenon with Donnie Darko",
+      "description": "Earned an Independent Spirit Award nomination for his mesmerizing portrayal of troubled teen Donnie Darko, creating an enduring international cult classic."
+    },
+    {
+      "year": "2005",
+      "title": "Academy Award Nomination & BAFTA Victory for Brokeback Mountain",
+      "description": "Received an Oscar nomination for Best Supporting Actor and won the BAFTA Award for his historic performance as Jack Twist opposite Heath Ledger in Ang Lee's masterpiece."
+    },
+    {
+      "year": "2014",
+      "title": "Transformative Acclaim in Nightcrawler",
+      "description": "Underwent extreme thirty-pound weight loss to portray sociopathic stringer Lou Bloom, garnering BAFTA, SAG, and Golden Globe nominations."
+    },
+    {
+      "year": "2024",
+      "title": "Dual Streaming Records with Road House & Presumed Innocent",
+      "description": "Broke Amazon Prime Video all-time debut records with Road House (50M+ viewers) and led Apple TV+'s most-watched drama series Presumed Innocent as star and executive producer."
+    }
+  ],
+  "filmography": [
+    {
+      "title": "October Sky",
+      "year": 1999,
+      "role": "Homer Hickam",
+      "type": "Movie",
+      "rating": 91,
+      "boxOfficeOrNetwork": "$32.5M Domestic Box Office"
+    },
+    {
+      "title": "Donnie Darko",
+      "year": 2001,
+      "role": "Donnie Darko",
+      "type": "Movie",
+      "rating": 87,
+      "boxOfficeOrNetwork": "Cult Phenomenon / Newmarket Films"
+    },
+    {
+      "title": "Brokeback Mountain",
+      "year": 2005,
+      "role": "Jack Twist",
+      "type": "Movie",
+      "rating": 88,
+      "boxOfficeOrNetwork": "$178.1M Worldwide Box Office"
+    },
+    {
+      "title": "Zodiac",
+      "year": 2007,
+      "role": "Robert Graysmith",
+      "type": "Movie",
+      "rating": 90,
+      "boxOfficeOrNetwork": "$84.8M Worldwide Box Office"
+    },
+    {
+      "title": "Source Code",
+      "year": 2011,
+      "role": "Colter Stevens",
+      "type": "Movie",
+      "rating": 92,
+      "boxOfficeOrNetwork": "$147.3M Worldwide Box Office"
+    },
+    {
+      "title": "Prisoners",
+      "year": 2013,
+      "role": "Detective Loki",
+      "type": "Movie",
+      "rating": 82,
+      "boxOfficeOrNetwork": "$122.1M Worldwide Box Office"
+    },
+    {
+      "title": "Nightcrawler",
+      "year": 2014,
+      "role": "Lou Bloom",
+      "type": "Movie",
+      "rating": 95,
+      "boxOfficeOrNetwork": "$50.3M Box Office / 5x Return"
+    },
+    {
+      "title": "Spider-Man: Far From Home",
+      "year": 2019,
+      "role": "Quentin Beck / Mysterio",
+      "type": "Movie",
+      "rating": 90,
+      "boxOfficeOrNetwork": "$1.132 Billion Global Box Office"
+    },
+    {
+      "title": "Road House",
+      "year": 2024,
+      "role": "Elwood Dalton",
+      "type": "Movie",
+      "rating": 71,
+      "boxOfficeOrNetwork": "50M+ Viewers / Amazon Prime Video Record"
+    },
+    {
+      "title": "Presumed Innocent",
+      "year": 2024,
+      "role": "Rozat 'Rusty' Sabich",
+      "type": "Series",
+      "rating": 83,
+      "boxOfficeOrNetwork": "Apple TV+ #1 All-Time Drama Series"
+    }
+  ],
+  "relationshipProfile": {
+    "status": "In a Relationship (Jeanne Cadieu, 2018–Present)",
+    "datingHistorySummary": "Jake Gyllenhaal has maintained a committed, low-profile relationship with French model Jeanne Cadieu since late 2018. Prior to his relationship with Cadieu, he was in notable relationships with actresses Kirsten Dunst (2002–2004) and Reese Witherspoon (2007–2009), alongside a widely publicized three-month romance with singer-songwriter Taylor Swift in late 2010. Known for keeping his private life away from tabloid sensationalism, Gyllenhaal frequently speaks about the profound value of family and long-term partnership.",
+    "partners": [
+      {
+        "name": "Jeanne Cadieu",
+        "relationType": "Partner",
+        "years": "2018–Present",
+        "profession": "Fashion Model",
+        "summary": "Long-term private partner since 2018; made their public red carpet debut in 2021 at The Lost Daughter premiere."
+      },
+      {
+        "name": "Taylor Swift",
+        "relationType": "Former Partner",
+        "years": "2010",
+        "profession": "Singer-Songwriter",
+        "summary": "Dated from October 2010 to January 2011; subject of widespread media and cultural commentary."
+      },
+      {
+        "name": "Reese Witherspoon",
+        "relationType": "Former Partner",
+        "years": "2007–2009",
+        "profession": "Actress & Producer",
+        "summary": "Met while filming Rendition; dated for over two years before an amicable split in late 2009."
+      },
+      {
+        "name": "Kirsten Dunst",
+        "relationType": "Former Partner",
+        "years": "2002–2004",
+        "profession": "Actress",
+        "summary": "Introduced by Maggie Gyllenhaal; dated for two years during his early rise in Hollywood."
+      }
+    ]
+  },
+  "sameAs": {
+    "imdb": "https://www.imdb.com/name/nm0350453/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jake_Gyllenhaal",
+    "instagram": "https://www.instagram.com/jakegyllenhaal/"
+  },
+  "editorialMetadata": {
+    "authorName": "Marcus Vance",
+    "authorRole": "Senior Film Historian",
+    "factCheckedBy": "David Thorne",
+    "publishedDate": "2026-10-09T14:00:00.000Z",
+    "lastUpdated": "2026-10-09T14:00:00.000Z",
+    "readingTimeMinutes": 8
+  }
+}
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({

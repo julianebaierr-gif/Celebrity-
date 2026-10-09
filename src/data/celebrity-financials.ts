@@ -2580,5 +2580,131 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       }
     ]
   }
+,
+  "jake-gyllenhaal": {
+  "salaryMilestones": [
+    {
+      "project": "Brokeback Mountain (Focus Features)",
+      "year": 2005,
+      "salary": "$500,000 Upfront",
+      "boxOfficeOrBudget": "$178.1M Worldwide Box Office",
+      "notes": "Modest indie scale upfront fee paired with critical prestige; earned Academy Award and BAFTA nominations."
+    },
+    {
+      "project": "Prince of Persia: The Sands of Time (Walt Disney Pictures)",
+      "year": 2010,
+      "salary": "$10,000,000 Base Salary",
+      "boxOfficeOrBudget": "$336.4M Box Office / $200M Budget",
+      "notes": "First eight-figure studio paycheck for headlining Jerry Bruckheimer's big-budget action franchise."
+    },
+    {
+      "project": "Nightcrawler (Open Road Films)",
+      "year": 2014,
+      "salary": "$3,000,000 Upfront + Equity Backend",
+      "boxOfficeOrBudget": "$50.3M Box Office / $8.5M Budget",
+      "notes": "Reduced upfront salary in exchange for producer credits and gross backend points; highly profitable indie success."
+    },
+    {
+      "project": "Spider-Man: Far From Home (Sony Pictures / Marvel Studios)",
+      "year": 2019,
+      "salary": "$8,000,000 Upfront + Worldwide Box Office Bonus",
+      "boxOfficeOrBudget": "$1.132 Billion Global Box Office",
+      "notes": "Major studio package for co-starring role as Mysterio in the $1.13 billion global box office hit."
+    },
+    {
+      "project": "Road House (Amazon MGM Studios)",
+      "year": 2024,
+      "salary": "$12,000,000 Streaming Buyout Package",
+      "boxOfficeOrBudget": "50M+ Viewers / Amazon Prime Record",
+      "notes": "Direct-to-streaming buyout agreement securing massive upfront compensation for platform record-breaking launch."
+    },
+    {
+      "project": "Presumed Innocent (Apple TV+ / Warner Bros. Television)",
+      "year": 2024,
+      "salary": "$1,000,000+ Per Episode + Executive Producer Equity",
+      "boxOfficeOrBudget": "Apple TV+ #1 All-Time Drama Series",
+      "notes": "Premium television contract exceeding $10 million total compensation across season one and executive producing points."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Tribeca 443 Greenwich Loft, Manhattan",
+      "location": "New York City, New York",
+      "purchasedYear": "2017",
+      "purchasePrice": "$8.6 Million USD",
+      "currentEstimatedValue": "$12,500,000 USD",
+      "description": "Acquired in 2017 for $8.6 million in the landmark celebrity-enclave building; features private elevator access and historic architectural finishes."
+    },
+    {
+      "property": "Hollywood Hills Modern Compound",
+      "location": "Los Angeles, California",
+      "purchasedYear": "2005",
+      "purchasePrice": "$2.5 Million USD",
+      "currentEstimatedValue": "$3,260,000 USD (Sold)",
+      "description": "Mid-century architectural home purchased in 2005 for $2.5 million and held for nearly a decade before selling in 2014."
+    },
+    {
+      "property": "Martha's Vineyard Coastal Retreat",
+      "location": "Chilmark, Massachusetts",
+      "purchasedYear": "2019",
+      "purchasePrice": "$5.2 Million USD",
+      "currentEstimatedValue": "$6,500,000 USD",
+      "description": "Private multi-acre coastal family sanctuary used for seasonal getaways away from public spotlight."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Nine Stories Productions",
+      "role": "Co-Founder & Producer",
+      "valuationOrRevenue": "Multi-Picture Film & Television Development Equity",
+      "description": "Production company co-founded in 2015 with Riva Marker; produced Stronger, Wildlife, The Guilty, and Apple TV+'s Presumed Innocent."
+    },
+    {
+      "name": "Cartier Santos Global Campaign",
+      "role": "Global Brand Ambassador",
+      "valuationOrRevenue": "Multi-Year High-Seven-Figure Luxury Contract",
+      "description": "Long-standing face of the iconic Cartier Santos timepiece collection, featured in international print, digital, and cinema campaigns."
+    },
+    {
+      "name": "Prada Luna Rossa Ocean Fragrance",
+      "role": "Global Fragrance Ambassador",
+      "valuationOrRevenue": "Multi-Year Seven-Figure Endorsement Deal",
+      "description": "Global advertising frontman for Prada's luxury men's fragrance line, directed by acclaimed fashion and film visionaries."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2005",
+      "estimatedNetWorth": "$8.0 Million USD",
+      "milestoneDescription": "Breakout indie success with Donnie Darko and Oscar nomination for Brokeback Mountain."
+    },
+    {
+      "period": "2010",
+      "estimatedNetWorth": "$25.0 Million USD",
+      "milestoneDescription": "Entry into big-budget studio tentpoles including Prince of Persia and Source Code."
+    },
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$38.0 Million USD",
+      "milestoneDescription": "Critical acclaim for Nightcrawler and Southpaw; foundation of Nine Stories Productions."
+    },
+    {
+      "period": "2019",
+      "estimatedNetWorth": "$60.0 Million USD",
+      "milestoneDescription": "Billion-dollar Marvel appearance in Spider-Man: Far From Home and Tony-nominated Broadway run."
+    },
+    {
+      "period": "2024",
+      "estimatedNetWorth": "$78.0 Million USD",
+      "milestoneDescription": "Record-breaking streaming debuts for Amazon's Road House and Apple TV+'s Presumed Innocent."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$85.0 Million USD",
+      "milestoneDescription": "Broadway Othello triumph with Denzel Washington, Presumed Innocent Season 2 development, and enduring luxury equity."
+    }
+  ]
+},
+
 };
 

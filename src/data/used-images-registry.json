@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-09T10:00:00.000Z",
-  "totalUniqueImages": 63,
+  "lastUpdated": "2026-10-09T14:00:00.000Z",
+  "totalUniqueImages": 65,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -460,6 +460,22 @@
       "pageSlug": "tate-mcrae",
       "assignedAt": "2026-10-09T10:00:00.000Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Tate_McRae_in_Manila_01.jpg"
+    },
+    "/images/celebrities/jake-gyllenhaal-hero.webp": {
+      "filePath": "/images/celebrities/jake-gyllenhaal-hero.webp",
+      "entity": "Jake Gyllenhaal",
+      "placement": "profile_hero",
+      "pageSlug": "jake-gyllenhaal",
+      "assignedAt": "2026-10-09T14:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/JakeGyllenhaal-byPhilipRomano.jpg"
+    },
+    "/images/celebrities/jake-gyllenhaal-content.webp": {
+      "filePath": "/images/celebrities/jake-gyllenhaal-content.webp",
+      "entity": "Jake Gyllenhaal",
+      "placement": "profile_content",
+      "pageSlug": "jake-gyllenhaal",
+      "assignedAt": "2026-10-09T14:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/DenzelWashingtonAndJakeGyllenhaal-byPhilipRomano.jpg"
     }
   }
 }

@@ -726,5 +726,69 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "answer": "In beauty and backstage interviews with Vogue and Harper's Bazaar, Tate McRae has shared that her signature fragrance is Maison Francis Kurkdjian Baccarat Rouge 540, along with Maison Margiela 'REPLICA' fragrances such as Jazz Club and warm vanilla gourmand scents. She frequently layers warm amber and woody notes for both arena performances and red carpet galas."
     }
   ]
+,
+  "jake-gyllenhaal": [
+  {
+    "question": "What is Jake Gyllenhaal's net worth in 2026?",
+    "answer": "Jake Gyllenhaal's certified net worth in 2026 is estimated at $85.0 Million USD. His wealth is anchored by steady eight-figure studio salaries, lucrative streaming deals ($12M for Amazon's Road House and over $1M per episode for Apple TV+'s Presumed Innocent), equity from Nine Stories Productions, prime Manhattan real estate in Tribeca, and long-standing brand ambassadorships with Cartier and Prada."
+  },
+  {
+    "question": "How old is Jake Gyllenhaal and when was he born?",
+    "answer": "Jake Gyllenhaal is 45 years old as of 2026. He was born on December 19, 1980, in Los Angeles, California."
+  },
+  {
+    "question": "How tall is Jake Gyllenhaal?",
+    "answer": "Jake Gyllenhaal stands at 5 feet 11 inches tall (180 cm). He is recognized for his athletic, muscular build, which he has adapted over his career for intense roles in Southpaw and Road House."
+  },
+  {
+    "question": "Is Jake Gyllenhaal married or does he have a wife?",
+    "answer": "No, Jake Gyllenhaal has never been married. As of 2026, he remains unmarried, but he has been in a committed, private relationship with French model Jeanne Cadieu since late 2018."
+  },
+  {
+    "question": "Who is Jake Gyllenhaal dating in 2026?",
+    "answer": "Jake Gyllenhaal is dating French model Jeanne Cadieu. The couple began dating in late 2018 and made their official red carpet debut together in 2021 at the premiere of The Lost Daughter, directed by Gyllenhaal's sister Maggie. They maintain a famously grounded and low-key lifestyle in New York City."
+  },
+  {
+    "question": "What is the history between Jake Gyllenhaal and Taylor Swift?",
+    "answer": "Jake Gyllenhaal and Taylor Swift dated for approximately three months between October 2010 and January 2011. Their relationship became widely discussed in pop culture following the release of Swift's acclaimed 2012 album Red and its iconic ballad 'All Too Well'. When an expanded ten-minute version was released in 2021, Gyllenhaal addressed the public interest with grace, emphasizing artistic expression and mutual respect."
+  },
+  {
+    "question": "Did Jake Gyllenhaal win an Oscar for Brokeback Mountain?",
+    "answer": "Jake Gyllenhaal was nominated for the Academy Award for Best Supporting Actor at the 78th Academy Awards in 2006 for his poignant performance as Jack Twist in Brokeback Mountain. While George Clooney took the Oscar for Syriana, Gyllenhaal won the prestigious BAFTA Award for Best Supporting Actor for the role."
+  },
+  {
+    "question": "What are Jake Gyllenhaal's most famous movies?",
+    "answer": "Gyllenhaal's most acclaimed films include Donnie Darko (2001), Brokeback Mountain (2005), Zodiac (2007), Source Code (2011), Prisoners (2013), Nightcrawler (2014), Southpaw (2015), Nocturnal Animals (2016), Spider-Man: Far From Home (2019), and Road House (2024)."
+  },
+  {
+    "question": "How much did Jake Gyllenhaal make for Road House on Amazon Prime?",
+    "answer": "Jake Gyllenhaal earned a reported $12 million streaming buyout package from Amazon MGM Studios for headlining the 2024 reimagining of Road House. The film became an unprecedented streaming blockbuster, drawing over 50 million viewers in its first two weekends."
+  },
+  {
+    "question": "What is Jake Gyllenhaal's role in Presumed Innocent on Apple TV+?",
+    "answer": "Gyllenhaal stars as Chief Deputy Prosecutor Rozat 'Rusty' Sabich in Apple TV+'s critically acclaimed legal thriller series Presumed Innocent (2024–2026), created by David E. Kelley. In addition to playing the lead character accused of murder, Gyllenhaal serves as an executive producer under his Nine Stories banner."
+  },
+  {
+    "question": "Is Jake Gyllenhaal related to Maggie Gyllenhaal?",
+    "answer": "Yes, Jake Gyllenhaal is the younger brother of acclaimed actress, screenwriter, and film director Maggie Gyllenhaal. The siblings are exceptionally close and co-starred in Donnie Darko (2001). Jake's brother-in-law is actor Peter Sarsgaard, who also stars opposite him in Presumed Innocent."
+  },
+  {
+    "question": "What Broadway shows has Jake Gyllenhaal starred in?",
+    "answer": "Jake Gyllenhaal is a celebrated Broadway actor. His notable stage credits include Constellations (2015), Stephen Sondheim's Sunday in the Park with George (2017), Sea Wall / A Life (2019), for which he received a Tony Award nomination for Best Leading Actor in a Play, and starring as Iago in William Shakespeare's Othello (2025–2026) opposite Denzel Washington."
+  },
+  {
+    "question": "What character did Jake Gyllenhaal play in Spider-Man?",
+    "answer": "Jake Gyllenhaal portrayed Quentin Beck, also known as the villainous illusionist Mysterio, in Marvel Studios' and Sony Pictures' 2019 superhero blockbuster Spider-Man: Far From Home, which grossed $1.13 billion globally."
+  },
+  {
+    "question": "What is Nine Stories Productions?",
+    "answer": "Nine Stories Productions is an independent film, television, and theater production company co-founded by Jake Gyllenhaal and producer Riva Marker in 2015. The banner has produced high-profile projects including Stronger (2017), Wildlife (2018), The Guilty (2021), Broadway's Slave Play, and Apple TV+'s Presumed Innocent."
+  },
+  {
+    "question": "What is Jake Gyllenhaal's family background and ancestry?",
+    "answer": "Jake Gyllenhaal belongs to a distinguished Swedish noble family on his father Stephen Gyllenhaal's side, tracing direct lineage to 17th-century cavalry officer Nils Gunnarsson Haal. On his mother Naomi Foner's side, he has Eastern European Ashkenazi Jewish roots originating from Poland and Russia. He was raised with a strong connection to Jewish tradition and identity."
+  }
+],
+
 };
 

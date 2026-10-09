@@ -544,5 +544,27 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       "description": "Donates a percentage of select tour merchandise proceeds to organizations providing free mental health counseling for young artists and creative performers."
     }
   ]
+,
+  "jake-gyllenhaal": [
+  {
+    "organizationOrCause": "New Eyes for the Needy",
+    "focusArea": "Global Vision Care & Optical Healthcare Access",
+    "verifiedContribution": "Long-Time Honorary Chair & Direct Funding",
+    "description": "Serves as prominent ambassador and honorary chair, spearheading optical recycling campaigns and financing prescription glasses for economically vulnerable children and adults globally."
+  },
+  {
+    "organizationOrCause": "The Edible Schoolyard Project",
+    "focusArea": "Youth Nutrition, Urban Farming & Public Education",
+    "verifiedContribution": "Advisory Board Supporter & Fundraiser",
+    "description": "Partners with chef Alice Waters to integrate organic gardens and hands-on nutritional education into public school curricula across California and New York."
+  },
+  {
+    "organizationOrCause": "American Civil Liberties Union (ACLU) & Climate Action",
+    "focusArea": "Civil Rights, Voter Protections & Forest Conservation",
+    "verifiedContribution": "Annual Benefactor & Carbon Neutrality Advocate",
+    "description": "Actively finances civil liberties legal defense programs through the ACLU and partners with Future Forests to calculate and offset his production carbon footprint through continuous tree planting."
+  }
+],
+
 };
 

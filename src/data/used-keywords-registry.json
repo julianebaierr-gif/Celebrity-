@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 29,
-  "lastUpdated": "2026-10-09T10:00:00.000Z",
+  "totalLocked": 30,
+  "lastUpdated": "2026-10-09 14:00:00",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -430,6 +430,25 @@
         "tate mcrae songs",
         "tate mcrae greedy",
         "tate mcrae 2026"
+      ]
+    },
+    {
+      "keyword": "jake gyllenhaal",
+      "slug": "jake-gyllenhaal",
+      "name": "Jake Gyllenhaal",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/jake-gyllenhaal",
+      "publishedAt": "2026-10-09 14:00:00",
+      "associatedTags": [
+        "jake gyllenhaal net worth",
+        "how old is jake gyllenhaal",
+        "jake gyllenhaal height",
+        "jake gyllenhaal movies",
+        "jake gyllenhaal wife",
+        "jake gyllenhaal girlfriend jeanne cadieu",
+        "jake gyllenhaal road house",
+        "jake gyllenhaal presumed innocent",
+        "jake gyllenhaal 2026"
       ]
     }
   ],
