@@ -5784,8 +5784,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "authorName": "Marcus Vance",
     "authorRole": "Senior Film Historian",
     "factCheckedBy": "David Thorne",
-    "publishedDate": "2026-10-09T14:00:00.000Z",
-    "lastUpdated": "2026-10-09T14:00:00.000Z",
+    "publishedDate": "2026-10-09T23:00:00.000Z",
+    "lastUpdated": "2026-10-09T23:00:00.000Z",
     "readingTimeMinutes": 8
   }
 }
