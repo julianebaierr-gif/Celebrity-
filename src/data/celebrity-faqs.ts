@@ -248,36 +248,64 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
 
   "margot-robbie": [
     {
-      question: "What is Margot Robbie's verified net worth in 2026?",
-      answer: "Margot Robbie's certified net worth is estimated at $60.0 Million USD in 2026. Her wealth surged following her historic $50.0 Million USD salary and producer backend profit payout from 'Barbie' (2023), alongside equity in her powerhouse production company LuckyChap Entertainment."
+      "question": "What is Margot Robbie's verified net worth in 2026?",
+      "answer": "Margot Robbie's certified net worth is estimated at $60.0 Million USD in late 2026. Her wealth expanded rapidly following her historic $50.0 Million USD acting salary and producer backend points from 'Barbie' (2023), alongside equity in her production company LuckyChap Entertainment, brand sponsorships, and real estate assets."
     },
     {
-      question: "How much did Margot Robbie make from Barbie?",
-      answer: "Margot Robbie earned approximately $50.0 Million USD for 'Barbie' (2023) through a combination of upfront star acting compensation and lucrative producer backend points after the film generated over $1.44 Billion USD at the global box office."
+      "question": "How much did Margot Robbie earn for Barbie?",
+      "answer": "Margot Robbie earned approximately $50.0 Million USD for 'Barbie' (2023). She secured a $12.5 Million upfront acting fee coupled with an estimated twenty percent of box office profits as lead producer after the film grossed over $1.446 Billion worldwide."
     },
     {
-      question: "What is LuckyChap Entertainment?",
-      answer: "LuckyChap Entertainment is an award-winning film and television production company co-founded in 2014 by Margot Robbie, Tom Ackerley, Josey McNamara, and Sophia Kerr. The banner has produced major critical and commercial hits including 'I, Tonya', 'Promising Young Woman', 'Barbie', and 'Saltburn'."
+      "question": "Who is Margot Robbie married to?",
+      "answer": "Margot Robbie has been married to British film producer Tom Ackerley since December 2016. The couple first met in 2013 on the set of the World War II drama 'Suite Française', where Ackerley worked as third assistant director. They tied the knot in a private ceremony in Byron Bay, Australia."
     },
     {
-      question: "Who is Margot Robbie married to?",
-      answer: "Margot Robbie has been married to British film producer Tom Ackerley since December 2016, having first met on the set of the World War II drama 'Suite Française' in 2013. The couple welcomed their first child in late 2024."
+      "question": "Does Margot Robbie have a child?",
+      "answer": "Yes. Margot Robbie and her husband Tom Ackerley welcomed their first child, a son, in late 2024. The couple keeps their family life private, dividing their residence between Venice Beach, California, and coastal Australia."
     },
     {
-      question: "What real estate properties does Margot Robbie own?",
-      answer: "Margot Robbie owns a gated modern compound in Venice Beach, California, purchased in 2019 for $5.0 Million USD that also serves as creative headquarters for LuckyChap. She previously owned a Cape Cod-style residence in Hancock Park, Los Angeles."
+      "question": "What films has LuckyChap Entertainment produced?",
+      "answer": "Co-founded in 2014 by Margot Robbie, Tom Ackerley, Josey McNamara, and Sophia Kerr, LuckyChap Entertainment has produced major films including 'I, Tonya' (2017), 'Promising Young Woman' (2020), 'Birds of Prey' (2020), 'Barbie' (2023), and 'Saltburn' (2023). The company champions female-led screenwriting and directing."
     },
     {
-      question: "Has Margot Robbie received Academy Award nominations?",
-      answer: "Yes. Margot Robbie has earned three Academy Award nominations: Best Actress for 'I, Tonya' (2018), Best Supporting Actress for 'Bombshell' (2020), and Best Picture as a producer for 'Barbie' (2024)."
+      "question": "How many Academy Award nominations does Margot Robbie have?",
+      "answer": "Margot Robbie has received three Academy Award nominations: Best Actress for 'I, Tonya' (2018), Best Supporting Actress for 'Bombshell' (2020), and Best Picture as lead producer for 'Barbie' (2024)."
     },
     {
-      question: "What humanitarian organizations does Margot Robbie support?",
-      answer: "Margot Robbie is a global ambassador for UNICEF Australia, championing child protection and education in emergency zones. She also supports Youngcare, which builds accessible housing for young Australians with severe physical disabilities, and the Motion Picture & Television Fund."
+      "question": "How did Margot Robbie get her start in acting?",
+      "answer": "Margot Robbie grew up in Dalby and the Gold Coast of Queensland, Australia. After working three jobs as a teenager to help support her family, she moved to Melbourne in 2007. She gained national recognition starring as Donna Freedman on the daily television soap opera 'Neighbours' from 2008 to 2011, appearing in 311 episodes."
     },
     {
-      question: "How did Margot Robbie get her start in acting?",
-      answer: "Margot Robbie began her acting career on Australian television, gaining widespread national prominence starring as Donna Freedman on the soap opera 'Neighbours' from 2008 to 2011 before landing her global Hollywood breakout opposite Leonardo DiCaprio in Martin Scorsese's 'The Wolf of Wall Street' (2013)."
+      "question": "How did Margot Robbie win her role in The Wolf of Wall Street?",
+      "answer": "During an audition opposite Leonardo DiCaprio in late 2012, director Martin Scorsese instructed them to improvise. Rather than kissing DiCaprio as indicated in the script, Robbie made a daring choice and slapped DiCaprio across the face while shouting at him. The fearless reaction convinced Scorsese and DiCaprio to cast her immediately as Naomi Lapaglia."
+    },
+    {
+      "question": "What is Papa Salt Coastal Gin?",
+      "answer": "Papa Salt Coastal Gin is a botanical gin brand co-founded by Margot Robbie, Tom Ackerley, Charlie Maas, Josey McNamara, and Regan Riskas in 2023. Crafted in Byron Bay with Australian native botanicals including roasted wattleseed, pink peppercorn, and oyster shells, the spirit is distributed across Australia, the UK, and North America."
+    },
+    {
+      "question": "What upcoming movies is Margot Robbie working on for 2026?",
+      "answer": "Margot Robbie is headlining Emerald Fennell's adaptation of Emily Brontë's classic novel 'Wuthering Heights' opposite Jacob Elordi. Through LuckyChap, she is also producing a live-action adaptation of Electronic Arts' video game 'The Sims' with director Kate Herron, and a feature film inspired by the board game 'Monopoly' with Lionsgate and Hasbro."
+    },
+    {
+      "question": "How tall is Margot Robbie?",
+      "answer": "Margot Robbie stands 5 feet 6 inches tall (168 cm)."
+    },
+    {
+      "question": "Will Margot Robbie play Harley Quinn again?",
+      "answer": "Robbie portrayed Harley Quinn across three films: 'Suicide Squad' (2016), 'Birds of Prey' (2020), and James Gunn's 'The Suicide Squad' (2021). While Lady Gaga played an alternate version in 'Joker: Folie à Deux' (2024), Robbie has stated that she loves the character and hopes Harley Quinn functions like Batman or Hamlet, with different performers offering unique interpretations over time."
+    },
+    {
+      "question": "Where does Margot Robbie live?",
+      "answer": "Margot Robbie resides primarily in a private, solar-powered architectural compound in Venice Beach, California, which also houses production offices for LuckyChap. She and husband Tom Ackerley also maintain coastal residential retreats in New South Wales, Australia."
+    },
+    {
+      "question": "What brand endorsements does Margot Robbie hold?",
+      "answer": "Margot Robbie has served as a global house ambassador for French luxury fashion house Chanel since 2018, headlining campaigns for Chanel Haute Couture, fragrances including Chanel Gabrielle Essence, and fine watchmaking. She has also represented Swiss luxury watchmaker Richard Mille."
+    },
+    {
+      "question": "What charities and causes does Margot Robbie support?",
+      "answer": "Margot Robbie is a prominent global ambassador for UNICEF Australia, advocating for emergency children's relief and clean water programs. She also supports Youngcare, an Australian foundation providing specialized housing for young adults with severe physical disabilities, and the Motion Picture & Television Fund."
     }
   ],
 

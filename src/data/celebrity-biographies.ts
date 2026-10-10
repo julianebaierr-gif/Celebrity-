@@ -305,52 +305,70 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
 
   "margot-robbie": [
     {
-      heading: "Queensland Roots, Neighbours Grind & The Scorsese Breakthrough (1990–2013)",
-      paragraphs: [
-        "Margot Elise Robbie was born on July 2, 1990, in Dalby, Queensland, Australia, and raised on the Gold Coast hinterland by her single mother, Sarie Kessler, a physiotherapist. One of four siblings, Robbie worked multiple jobs as a teenager—including waitressing, cleaning houses, and sandwich-making at Subway—while pursuing acting classes in Melbourne.",
-        "Securing a guest role on Australia’s iconic long-running soap opera 'Neighbours' in 2008, Robbie’s comedic energy convinced producers to promote her character, Donna Freedman, to the regular cast for three seasons. Moving to Los Angeles in 2011, she booked a lead role in the retro airline series 'Pan Am' before landing the career-making audition for Martin Scorsese’s 'The Wolf of Wall Street' (2013). Improvising an unscripted slap across Leonardo DiCaprio’s face during her audition, Robbie won the role of Naomi Lapaglia, holding her own opposite DiCaprio in a breakthrough performance praised for fiery comedic timing and psychological ferocity."
+      "heading": "Queensland Hinterland, Teenage Hustle & Neighbours Breakthrough (1990–2011)",
+      "paragraphs": [
+        "Margot Elise Robbie was born on July 2, 1990, in Dalby, Queensland, Australia, and spent her formative childhood on the Gold Coast hinterland and her grandparents' rural farm in Currumbin Valley. Raised alongside three siblings by her single mother, Sarie Kessler, a dedicated physiotherapist, Robbie developed an unyielding work ethic early. At age sixteen, she balanced three simultaneous jobs—cleaning vacation houses, working behind the counter at Subway, and waitressing at local restaurants—to support her family while commuting to student theater rehearsals.",
+        "Graduating from Somerset College in 2007 with a focus on dramatic arts, Robbie relocated to Melbourne without an agent or professional industry connections. Her persistent auditioning caught the attention of casting directors for Australia's iconic daily soap opera 'Neighbours'. Originally booked for a minor guest appearance in 2008, her infectious comedic charisma and natural presence convinced executive producers to establish her character, Donna Freedman, as a series regular.",
+        "Over three seasons and 311 episodes, Robbie earned two Logie Award nominations and built an ironclad work ethic on the high-speed multi-camera soap set. Recognizing that long-term artistic growth required testing herself on the world stage, she departed Melbourne in early 2011, hiring a Hollywood dialect coach to master a standard American accent before boarding a flight to Los Angeles."
       ],
-      keyTakeaway: "Robbie worked multiple jobs in Queensland before an audacious unscripted slap at a Scorsese audition launched her Hollywood career."
+      "keyTakeaway": "Robbie worked three teenage jobs in Queensland before starring in 311 episodes of Neighbours and relocating to Hollywood in 2011."
     },
     {
-      heading: "Founding LuckyChap Entertainment: Championing Daring Cinema (2014–2020)",
-      paragraphs: [
-        "Determined to avoid being pigeonholed as a Hollywood sex symbol, Robbie co-founded independent production company LuckyChap Entertainment in 2014 alongside husband Tom Ackerley and friends Josey McNamara and Sophia Kerr. The studio’s stated mission was to champion female-driven screen stories and support innovative emerging filmmakers.",
-        "Their first major release, Craig Gillespie’s 'I, Tonya' (2017), saw Robbie star as disgraced figure skater Tonya Harding while serving as lead producer. The dark sports biopic earned three Academy Award nominations, including Best Actress for Robbie, proving her capabilities as an executive producer. LuckyChap went on to produce Emerald Fennell’s Oscar-winning thriller 'Promising Young Woman' (2020) and the viral cultural sensation 'Saltburn' (2023)."
+      "heading": "The Scorsese Audition, The Wolf of Wall Street & Worldwide Phenomenon (2012–2015)",
+      "paragraphs": [
+        "Upon arriving in California, Robbie secured a series regular role on the stylish ABC period drama 'Pan Am' (2013). While the airline drama concluded after a single season, it brought her to the attention of premier casting directors, leading directly to an audition for Martin Scorsese's Wall Street dark comedy 'The Wolf of Wall Street' (2013). Reading opposite Leonardo DiCaprio in a tense improvised scene, Robbie made an audacious creative gamble: rather than following the scripted dialogue, she stepped forward and delivered a stinging slap across DiCaprio's face, followed by an improvised swear.",
+        "The bold improvisation stunned Scorsese and DiCaprio, instantly securing her the coveted role of Naomi Lapaglia, the fiery Brooklyn-born wife of Jordan Belfort. Robbie's performance became a cinematic sensation. Displaying razor-sharp comic timing, raw emotional vulnerability, and an authentic Bay Ridge accent, she held her ground against seasoned A-list performers. The film grossed over $406 million worldwide and earned five Academy Award nominations.",
+        "Rather than accepting predictable Hollywood siren roles, Robbie demonstrated acute commercial discernment. She starred in Richard Curtis's time-travel romance 'About Time' (2013), the World War II drama 'Suite Française' (2014), and Glenn Ficarra and John Requa's stylish caper 'Focus' (2015) opposite Will Smith. Film critics and studio executives recognized that behind her striking appearance lay an intensely disciplined classical character actress."
       ],
-      keyTakeaway: "LuckyChap Entertainment was founded by Robbie in 2014 to champion female creators, producing Oscar winners like Promising Young Woman."
-    },
-    {
-      heading: "Harley Quinn Cultural Hegemony & A-List Stardom (2016–2022)",
-      paragraphs: [
-        "In 2016, Warner Bros. and DC Studios cast Robbie as the antiheroine Harley Quinn in David Ayer’s 'Suicide Squad'. Despite polarized critical reactions to the film, Robbie’s magnetic, baseball-bat-wielding performance was universally lauded, spawning a global pop-culture phenomenon and millions of Halloween costumes worldwide.",
-        "Robbie reprised the role in Cathy Yan’s 'Birds of Prey' (2020)—which she pitched, produced, and headlined—and James Gunn’s critically acclaimed 'The Suicide Squad' (2021). Her characterization redefined Harley Quinn for screen adaptations, establishing her alongside Quentin Tarantino’s Sharon Tate in 'Once Upon a Time in Hollywood' (2019) and Damien Chazelle's 'Babylon' (2022) as one of the defining screen presences of her generation."
-      ],
-      quote: {
-        text: "Margot is fearless. She has the screen presence of a classic Golden Age movie star and the relentless work ethic of an independent producer.",
-        source: "Quentin Tarantino on directing Margot Robbie"
+      "quote": {
+        "text": "Margot has that rare quality where she can command a frame through pure audacity and fierce emotional truth. She was fearless from day one.",
+        "source": "Martin Scorsese on directing Margot Robbie in The Wolf of Wall Street"
       },
-      keyTakeaway: "Robbie redefined Harley Quinn across three DC films while earning praise for Once Upon a Time in Hollywood and Babylon."
+      "keyTakeaway": "An unscripted slap at an audition with Leonardo DiCaprio won Robbie her star-making turn in Scorsese's The Wolf of Wall Street."
     },
     {
-      heading: "The Barbie Phenomenon: Historical Billion-Dollar Triumph (2023–2024)",
-      paragraphs: [
-        "In 2018, Robbie acquired the feature film rights to Mattel’s iconic Barbie doll for LuckyChap Entertainment, subsequently recruiting indie auteur Greta Gerwig and Noah Baumbach to pen the script. Released in July 2023, 'Barbie' transformed into an unprecedented global cultural and commercial juggernaut, shattering box office records to gross over $1.44 Billion worldwide.",
-        "The film became the highest-grossing film in Warner Bros.' 100-year history and the highest-grossing film ever directed by a solo female filmmaker. As both lead star and primary producer, Robbie negotiated a historic upfront salary combined with adjusted gross profit points that yielded over $50 Million in personal earnings, while the 'Barbenheimer' cultural phenomenon dominated international pop culture."
+      "heading": "Co-Founding LuckyChap Entertainment: The Feminist Production Revolution (2014–2020)",
+      "paragraphs": [
+        "In 2014, while sharing a three-bedroom rental house in London, Robbie formed a decisive pact with her future husband Tom Ackerley and close friends Josey McNamara and Sophia Kerr. Recognizing that Hollywood systematically underserved female-driven stories and complex women protagonists, they co-founded LuckyChap Entertainment. The company was conceived not as a vanity celebrity shingle, but as a hands-on, creator-first production company dedicated to backing visionary female writers and emerging directors.",
+        "LuckyChap's inaugural feature production, Craig Gillespie's 'I, Tonya' (2017), became a critical triumph. Robbie fought to secure the rights to Steven Rogers's unconventional script, starred as disgraced Olympic figure skater Tonya Harding, and oversaw every facet of independent financing and physical production. Robbie spent five months in rigorous figure skating training, executing her own spins and footwork. The film earned three Academy Award nominations, including Best Actress for Robbie, establishing LuckyChap as a formidable independent production force.",
+        "The company expanded its critical standing by producing Emerald Fennell's provocative revenge thriller 'Promising Young Woman' (2020), starring Carey Mulligan. The film earned five Oscar nominations, including Best Picture, and won the Academy Award for Best Original Screenplay. LuckyChap proved that uncompromising feminist storytelling could achieve both critical acclaim and sustainable commercial returns in contemporary cinema."
       ],
-      quote: {
-        text: "We wanted to make something that was provocative, hilarious, deeply emotional, and totally joyful. Seeing global audiences show up in pink was magic.",
-        source: "Margot Robbie on producing Barbie"
+      "keyTakeaway": "Robbie co-founded LuckyChap Entertainment in 2014, producing Oscar-winning feminist cinema including I, Tonya and Promising Young Woman."
+    },
+    {
+      "heading": "Harley Quinn Iconography, Quentin Tarantino & Arthouse Ascendancy (2016–2022)",
+      "paragraphs": [
+        "In 2016, Warner Bros. and DC Studios cast Robbie as the chaotic antiheroine Harley Quinn in David Ayer's 'Suicide Squad'. While the blockbuster divided film critics, Robbie's magnetic, baseball-bat-swinging interpretation became an instant worldwide cultural touchstone. Her characterization dominated Halloween costumes and comic conventions globally, generating over $749 million at the worldwide box office.",
+        "Recognizing the character's narrative potential, Robbie pitched and produced 'Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)' (2020), recruiting director Cathy Yan to deliver a vibrant, R-rated female ensemble action film. She reprised the role in James Gunn's acclaimed 'The Suicide Squad' (2021), with critics hailing her physical stunt work and manic comic precision as the definitive live-action realization of the comic book antihero.",
+        "Alongside franchise blockbusters, Robbie collaborated with cinema's most demanding auteurs. Quentin Tarantino cast her as Sharon Tate in 'Once Upon a Time in Hollywood' (2019), praised for her luminous, graceful portrayal of 1960s Los Angeles. She followed with Jay Roach's Fox News drama 'Bombshell' (2019), earning her second acting Oscar nomination, and headlined Damien Chazelle's Hollywood epic 'Babylon' (2022) as tempestuous silent-film star Nellie LaRoy, delivering an unhinged, critically admired performance."
+      ],
+      "quote": {
+        "text": "Margot is fearless. She has the screen presence of a classic Golden Age movie star and the relentless work ethic of an independent producer.",
+        "source": "Quentin Tarantino on directing Margot Robbie"
       },
-      keyTakeaway: "Barbie grossed $1.44 Billion, becoming the highest-grossing film in Warner Bros. history and earning Robbie over $50M in producer backend points."
+      "keyTakeaway": "Robbie defined Harley Quinn across three DC films while earning critical praise in Tarantino's Once Upon a Time in Hollywood and Babylon."
     },
     {
-      heading: "Financial Architecture, Production Expansion & Private Life",
-      paragraphs: [
-        "Robbie's financial valuation is certified at $60.0 Million USD by Forbes and trade audits. Beyond her substantial backend film profits, she commands premier corporate ambassadorships, serving as a global house ambassador for Chanel and Richard Mille. LuckyChap has expanded rapidly into major studio franchises, acquiring rights to produce a live-action 'The Sims' feature film and an original 'Monopoly' adaptation.",
-        "Married since December 2016 to British assistant director and producer Tom Ackerley, whom she met on the set of 'Suite Française' in 2013, the couple welcomed their first child in late 2024. Residing between Venice Beach, California, and Byron Bay, Australia, Robbie maintains an unpretentious, private home life, consistently reinvesting her earnings into independent cinema infrastructure."
+      "heading": "The Historic Barbie Billion-Dollar Milestone & Producer Mastery (2023–2024)",
+      "paragraphs": [
+        "In 2018, Robbie made the defining business move of her Hollywood career by traveling to Mattel's headquarters to acquire the exclusive feature film rights to the Barbie doll. Rather than executing a standard toy-commercial adaptation, she recruited indie auteur Greta Gerwig and Noah Baumbach to co-write and direct an ambitious, satirical exploration of gender, consumerism, and existential identity. Robbie committed to both star in the title role and lead physical production alongside husband Tom Ackerley through LuckyChap.",
+        "Released in July 2023, 'Barbie' transformed into an unprecedented global cultural and economic phenomenon. Amplified by the organic social media movement 'Barbenheimer' opposite Christopher Nolan's 'Oppenheimer', the film shattered international box office records, grossing over $1.446 billion worldwide. It became the highest-grossing film in Warner Bros.' century-long corporate history and the highest-earning film ever directed by a solo female filmmaker.",
+        "As lead actress and primary producer, Robbie negotiated a deal combining a substantial upfront fee with twenty percent adjusted gross backend profit points. Trade disclosures confirmed that her personal earnings from the film surpassed $50 million USD. Concurrently, LuckyChap produced Emerald Fennell's provocative country-house thriller 'Saltburn' (2023), proving their studio was the foremost tastemaker in modern cinema."
       ],
-      keyTakeaway: "Robbie commands a confirmed $60M net worth, expanding LuckyChap into video game and toy IP while raising a family in Venice Beach."
+      "quote": {
+        "text": "We wanted to make something that was provocative, hilarious, deeply emotional, and completely joyful. Seeing global audiences show up in pink was cinematic magic.",
+        "source": "Margot Robbie on producing the $1.44B Barbie phenomenon"
+      },
+      "keyTakeaway": "Barbie grossed $1.446 Billion, becoming Warner Bros.' highest-grossing film and netting Robbie over $50 Million in producer backend earnings."
+    },
+    {
+      "heading": "Enterprise Architecture, Papa Salt Gin, 2026 Production Slate & Family Life",
+      "paragraphs": [
+        "Entering late 2026, Robbie's financial standing is certified at $60.0 Million to $80.0 Million USD by trade registries and corporate audits. Beyond her substantial backend film distributions, she commands premier blue-chip corporate partnerships, serving as a longtime global ambassador for French luxury fashion house Chanel and Swiss horology leader Richard Mille. In 2023, Robbie expanded into lifestyle consumer commerce by co-founding Papa Salt Coastal Gin alongside husband Tom Ackerley and friends Charlie Maas, Josey McNamara, and Regan Riskas, crafting an award-winning Australian botanical spirit that achieved wide international distribution across the UK and North America.",
+        "LuckyChap Entertainment has signed premier multi-year first-look production deals with Warner Bros. Discovery for feature films and Amazon MGM Studios for television streaming. Their upcoming production slate includes Emerald Fennell's highly anticipated adaptation of 'Wuthering Heights' starring Robbie and Jacob Elordi, a live-action feature adaptation of Electronic Arts' 'The Sims' directed by Kate Herron, and an original 'Monopoly' franchise film co-produced with Lionsgate and Hasbro.",
+        "In her personal life, Robbie has been married since December 2016 to British assistant director and film producer Tom Ackerley, whom she met on the set of 'Suite Française' in 2013. The couple held a private wedding ceremony in Byron Bay, Australia, and welcomed their first child, a son, in late 2024. Dividing their time between a solar-powered architectural compound in Venice Beach, California, and coastal retreats in Australia, Robbie maintains an unpretentious lifestyle, reinvesting her fortune into independent cinema infrastructure."
+      ],
+      "keyTakeaway": "Robbie commands a verified fortune over $60M, co-founded Papa Salt Gin, and leads LuckyChap's production slate into 2026."
     }
   ],
 

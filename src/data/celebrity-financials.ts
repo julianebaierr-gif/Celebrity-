@@ -682,77 +682,112 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   },
 
   "margot-robbie": {
-    salaryMilestones: [
+    "salaryMilestones": [
       {
-        project: "The Wolf of Wall Street",
-        year: 2013,
-        salary: "$347,000 USD",
-        boxOfficeOrBudget: "$406.9 Million USD Box Office",
-        notes: "Breakout Hollywood performance opposite Leonardo DiCaprio."
+        "project": "The Wolf of Wall Street",
+        "year": 2013,
+        "salary": "$347,000 USD",
+        "boxOfficeOrBudget": "$406.9 Million USD Box Office",
+        "notes": "Breakout Hollywood performance opposite Leonardo DiCaprio."
       },
       {
-        project: "Suicide Squad",
-        year: 2016,
-        salary: "$10.0 Million USD",
-        boxOfficeOrBudget: "$749.2 Million USD Box Office",
-        notes: "First appearance as Harley Quinn, transforming the antihero into a global cultural icon."
+        "project": "Focus",
+        "year": 2015,
+        "salary": "$667,000 USD",
+        "boxOfficeOrBudget": "$159.0 Million USD Box Office",
+        "notes": "Leading role opposite Will Smith in Warner Bros. caper."
       },
       {
-        project: "Birds of Prey",
-        year: 2020,
-        salary: "$15.0 Million USD (Acting & Producing)",
-        boxOfficeOrBudget: "$205.3 Million USD Box Office",
-        notes: "Produced through her LuckyChap Entertainment banner."
+        "project": "Suicide Squad",
+        "year": 2016,
+        "salary": "$10.0 Million USD",
+        "boxOfficeOrBudget": "$749.2 Million USD Box Office",
+        "notes": "First appearance as Harley Quinn, transforming the antihero into a global cultural icon."
       },
       {
-        project: "Barbie",
-        year: 2023,
-        salary: "$50.0 Million USD (Salary + Backend)",
-        boxOfficeOrBudget: "$1.44 Billion USD Box Office",
-        notes: "Negotiated leading star fee plus substantial backend box office profit points as producer."
+        "project": "Once Upon a Time in Hollywood",
+        "year": 2019,
+        "salary": "$5.0 Million USD",
+        "boxOfficeOrBudget": "$377.6 Million USD Box Office",
+        "notes": "Critically praised portrayal of Sharon Tate directed by Quentin Tarantino."
+      },
+      {
+        "project": "Birds of Prey",
+        "year": 2020,
+        "salary": "$15.0 Million USD (Acting & Producing)",
+        "boxOfficeOrBudget": "$205.3 Million USD Box Office",
+        "notes": "Produced through her LuckyChap Entertainment banner."
+      },
+      {
+        "project": "Barbie",
+        "year": 2023,
+        "salary": "$50.0 Million USD (Salary + Backend)",
+        "boxOfficeOrBudget": "$1.44 Billion USD Box Office",
+        "notes": "Negotiated leading star fee plus substantial backend box office profit points as producer."
+      },
+      {
+        "project": "Chanel Global Brand Ambassador",
+        "year": 2026,
+        "salary": "$3.0 Million USD / Year",
+        "boxOfficeOrBudget": "Luxury Endorsement Contract",
+        "notes": "Longtime luxury ambassadorship spanning Haute Couture, fragrance, and horology."
       }
     ],
-    realEstateAssets: [
+    "realEstateAssets": [
       {
-        property: "Venice Beach Modern Compound",
-        location: "Los Angeles, California",
-        purchasedYear: "2019",
-        purchasePrice: "$5.0 Million USD",
-        currentEstimatedValue: "$7.5 Million USD",
-        description: "Gated architectural compound featuring solar energy arrays, lap pool, and LuckyChap headquarters."
+        "property": "Venice Beach Modern Compound",
+        "location": "Los Angeles, California",
+        "purchasedYear": "2019",
+        "purchasePrice": "$5.0 Million USD",
+        "currentEstimatedValue": "$7.5 Million USD",
+        "description": "Gated architectural compound featuring solar energy arrays, lap pool, and LuckyChap headquarters."
       },
       {
-        property: "Hancock Park Residence",
-        location: "Los Angeles, California",
-        purchasedYear: "2017 (Sold 2021)",
-        purchasePrice: "$2.73 Million USD",
-        currentEstimatedValue: "$3.4 Million USD Realized",
-        description: "Boutique Cape Cod-inspired manor with wine cellar and outdoor cabana."
+        "property": "Byron Bay Coastal Retreat",
+        "location": "New South Wales, Australia",
+        "purchasedYear": "2020",
+        "purchasePrice": "$4.2 Million AUD",
+        "currentEstimatedValue": "$6.0 Million AUD",
+        "description": "Private coastal retreat close to family in northern New South Wales."
+      },
+      {
+        "property": "Hancock Park Residence",
+        "location": "Los Angeles, California",
+        "purchasedYear": "2017 (Sold 2021)",
+        "purchasePrice": "$2.73 Million USD",
+        "currentEstimatedValue": "$3.4 Million USD Realized",
+        "description": "Boutique Cape Cod-inspired manor with wine cellar and outdoor cabana."
       }
     ],
-    businessVentures: [
+    "businessVentures": [
       {
-        name: "LuckyChap Entertainment",
-        role: "Co-Founder & Producer",
-        valuationOrRevenue: "$1.8B+ Global Box Office Generated",
-        description: "Award-winning production banner championing women-centric narratives including I, Tonya, Promising Young Woman, Barbie, and Saltburn."
+        "name": "LuckyChap Entertainment",
+        "role": "Co-Founder & Producer",
+        "valuationOrRevenue": "$1.8B+ Global Box Office Generated",
+        "description": "Award-winning production banner championing women-centric narratives including I, Tonya, Promising Young Woman, Barbie, and Saltburn."
+      },
+      {
+        "name": "Papa Salt Coastal Gin",
+        "role": "Co-Founder",
+        "valuationOrRevenue": "Global Beverage Distribution",
+        "description": "Award-winning botanical gin brand crafted in Byron Bay with Australian botanicals and distributed internationally across the UK, Australia, and US."
       }
     ],
-    wealthProgression: [
+    "wealthProgression": [
       {
-        period: "2015",
-        estimatedNetWorth: "$4.0 Million USD",
-        milestoneDescription: "Early Hollywood momentum following Australian soap opera Neighbours and Wolf of Wall Street."
+        "period": "2015",
+        "estimatedNetWorth": "$4.0 Million USD",
+        "milestoneDescription": "Early Hollywood momentum following Australian soap opera Neighbours and Wolf of Wall Street."
       },
       {
-        period: "2020",
-        estimatedNetWorth: "$25.0 Million USD",
-        milestoneDescription: "Harley Quinn franchise earnings, Chanel brand ambassadorship, and LuckyChap productions."
+        "period": "2020",
+        "estimatedNetWorth": "$25.0 Million USD",
+        "milestoneDescription": "Harley Quinn franchise earnings, Chanel brand ambassadorship, and LuckyChap productions."
       },
       {
-        period: "2023–2026",
-        estimatedNetWorth: "$60.0 Million USD",
-        milestoneDescription: "Barbie $50M historic compensation package and studio producer first-look deals."
+        "period": "2023–2026",
+        "estimatedNetWorth": "$60.0 Million USD",
+        "milestoneDescription": "Barbie $50M historic compensation package and studio producer first-look deals."
       }
     ]
   },

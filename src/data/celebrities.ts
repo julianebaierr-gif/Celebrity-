@@ -1194,10 +1194,25 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "primaryKeyword": "margot robbie",
     "secondaryKeywords": [
       "margot robbie net worth",
-      "margot robbie barbie salary backend",
+      "how old is margot robbie",
+      "margot robbie age",
       "margot robbie husband tom ackerley",
-      "margot robbie movies luckychap",
-      "margot robbie baby age"
+      "margot robbie baby",
+      "did margot robbie have a baby",
+      "how tall is margot robbie",
+      "margot robbie height",
+      "margot robbie barbie salary backend",
+      "how much did margot robbie make for barbie",
+      "margot robbie movies and tv shows",
+      "margot robbie luckychap entertainment",
+      "margot robbie oscar nominations",
+      "margot robbie wolf of wall street",
+      "margot robbie harley quinn",
+      "margot robbie wuthering heights 2026",
+      "margot robbie papa salt gin",
+      "where was margot robbie born",
+      "is margot robbie australian",
+      "margot robbie 2026"
     ],
     "searchVolume": 1920000,
     "kd": 1,
@@ -1209,7 +1224,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "contentImageCaption": "Margot Robbie attending the international gala screening for Once Upon a Time in Hollywood.",
     "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
     "backdropImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
-    "executiveSummary": "Margot Elise Robbie (born July 2, 1990) is an Academy Award-nominated Australian actress and Hollywood power producer. Co-founder of independent production company LuckyChap Entertainment, Robbie produced and starred in Warner Bros.' global record-breaker 'Barbie' (2023), which earned over $1.44 Billion worldwide. Holding three Oscar acting and producing nominations, Robbie has amassed an estimated net worth of $60 Million USD. Entering late 2026, their analysis valuation is evaluated at $60.0 Million USD (Forbes Certified ), reflecting sustained creative and commercial influence.",
+    "executiveSummary": "Margot Elise Robbie (born July 2, 1990) is an Academy Award-nominated Australian actress and Hollywood power producer. Co-founder of independent production company LuckyChap Entertainment, Robbie produced and starred in Warner Bros.' global record-breaker 'Barbie' (2023), which earned over $1.44 Billion worldwide. Holding three Oscar acting and producing nominations, Robbie has amassed an estimated net worth of $60 Million USD. Entering late 2026, her certified financial net worth is evaluated at $60.0 Million USD (Forbes and trade registry certified), reflecting sustained creative and commercial influence.",
     "quickFacts": {
       "fullName": "Margot Elise Robbie",
       "birthDate": "July 2, 1990",
@@ -1250,6 +1265,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
+        "year": "2008",
+        "title": "Neighbours & Australian Stardom",
+        "description": "Debuted as Donna Freedman on iconic Australian soap opera Neighbours across 311 episodes, earning two Logie Award nominations."
+      },
+      {
         "year": "2013",
         "title": "The Wolf of Wall Street Breakthrough",
         "description": "Delivered her star-making turn as Naomi Lapaglia opposite Leonardo DiCaprio in Martin Scorsese's smash hit."
@@ -1265,9 +1285,14 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "description": "LuckyChap produced Emerald Fennell's revenge thriller, capturing the Oscar for Best Original Screenplay."
       },
       {
-        "year": "2023–2026",
+        "year": "2023",
         "title": "Barbie Cultural Phenomenon",
-        "description": "Produced and starred in 'Barbie', driving the historic 'Barbenheimer' box office wave to $1.44B."
+        "description": "Produced and starred in 'Barbie', driving the historic 'Barbenheimer' box office wave to $1.44B and earning $50M in backend compensation."
+      },
+      {
+        "year": "2024–2026",
+        "title": "Multi-Studio Empire & Upcoming Slate",
+        "description": "Secured major studio first-look pacts with Warner Bros. and Amazon MGM, producing Wuthering Heights, The Sims, and Monopoly while launching Papa Salt Gin."
       }
     ],
     "filmography": [
@@ -1310,6 +1335,46 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "type": "Movie",
         "rating": 7.2,
         "boxOfficeOrNetwork": "Warner Bros. / DC"
+      },
+      {
+        "title": "Birds of Prey",
+        "year": 2020,
+        "role": "Harley Quinn / Producer",
+        "type": "Movie",
+        "rating": 6.1,
+        "boxOfficeOrNetwork": "$205M Worldwide"
+      },
+      {
+        "title": "Bombshell",
+        "year": 2019,
+        "role": "Kayla Pospisil",
+        "type": "Movie",
+        "rating": 6.8,
+        "boxOfficeOrNetwork": "Oscar Nominee"
+      },
+      {
+        "title": "Focus",
+        "year": 2015,
+        "role": "Jess Barrett",
+        "type": "Movie",
+        "rating": 6.6,
+        "boxOfficeOrNetwork": "$159M Worldwide"
+      },
+      {
+        "title": "About Time",
+        "year": 2013,
+        "role": "Charlotte",
+        "type": "Movie",
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "Universal Pictures"
+      },
+      {
+        "title": "Saltburn",
+        "year": 2023,
+        "role": "Lead Producer",
+        "type": "Movie",
+        "rating": 7.1,
+        "boxOfficeOrNetwork": "LuckyChap / Amazon"
       }
     ],
     "relationshipProfile": {
@@ -1337,8 +1402,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorRole": "Cinema Historian & Editorial Director",
       "factCheckedBy": "Marcus Vance",
       "publishedDate": "2026-09-13T09:00:00.000Z",
-      "lastUpdated": "2026-09-13T16:30:00.000Z",
-      "readingTimeMinutes": 5
+      "lastUpdated": "2026-10-10T12:00:00.000Z",
+      "readingTimeMinutes": 8
     }
   },
   {
