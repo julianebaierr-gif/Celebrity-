@@ -2247,7 +2247,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "tom holland and zendaya",
       "tom holland spider-man",
       "tom holland net worth",
-      "tom holland age"
+      "tom holland age",
+      "tom holland net worth 2026"
     ],
     "searchVolume": 1250000,
     "kd": 0,
