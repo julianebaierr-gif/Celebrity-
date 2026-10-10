@@ -906,28 +906,52 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "answer": "Michael Jackson's estate holds a certified trade valuation of $2.0 Billion USD in 2026. While Jackson faced roughly $500 million in debt at the time of his passing in 2009 due to leveraged loans against his music copyrights, estate executors John Branca and John McClain engineered a historic financial turnaround. The estate's valuation is anchored by a landmark 2024–2026 deal with Sony Music Group, which acquired a 50% stake in his recorded music and Mijac Music publishing assets at a valuation surpassing $1.2 billion, yielding over $600 million in cash. Combined with perennial streaming royalties, theatrical receipts, and merchandise sales, the estate generates over $100 million annually."
   },
   {
-    "question": "When did Michael Jackson die and what was the official cause of death?",
-    "answer": "Michael Jackson passed away on June 25, 2009, at age 50, at his leased mansion on North Carolwood Drive in Holmby Hills, Los Angeles. The Los Angeles County Coroner certified his death as a homicide resulting from acute propofol intoxication compounded by the effect of benzodiazepines (lorazepam and midazolam). Jackson's personal physician, Dr. Conrad Murray, had administered the surgical anesthetic to treat chronic insomnia during strenuous rehearsals for his planned 'This Is It' concert residency at London's O2 Arena. Murray was subsequently convicted of involuntary manslaughter in 2011 and sentenced to four years in prison."
+    "question": "How old would Michael Jackson be today in 2026 if he was still alive?",
+    "answer": "Michael Jackson was born on August 29, 1958. If he was still alive today in late 2026, Michael Jackson would be 68 years old, having marked his 68th birthday on August 29, 2026. At the time of his passing on June 25, 2009, he was 50 years old."
+  },
+  {
+    "question": "Did Michael Jackson have plastic surgery and how many nose jobs did he get?",
+    "answer": "Yes, Michael Jackson confirmed undergoing cosmetic surgery during his lifetime. His initial rhinoplasty occurred in 1979 following a broken nose sustained during a complex dance rehearsal. Jackson acknowledged undergoing a second corrective nose surgery in the early 1980s to improve airflow and vocal resonance, as well as a surgically created cleft chin in the late 1980s. While public speculation suggested numerous cosmetic procedures, Jackson clarified that much of his facial alteration resulted from severe scalp reconstructive surgeries following the 1984 Pepsi burn accident, strict weight loss, and medical makeup required to manage his autoimmune vitiligo."
   },
   {
     "question": "Did Michael Jackson have vitiligo or why did his skin turn white?",
-    "answer": "Yes, Michael Jackson was clinically diagnosed with vitiligo, an autoimmune condition where the immune system destroys melanocytes, causing irregular loss of skin pigmentation. First diagnosed in the mid-1980s by his dermatologist Dr. Arnold Klein, Jackson publicly clarified his condition during his landmark 1993 televised interview with Oprah Winfrey. The 2009 official Los Angeles County Coroner autopsy report independently confirmed that Jackson suffered from systemic vitiligo, noting visible depigmentation across his chest, arms, face, and abdomen. Jackson utilized specialized medical makeup and clinical depigmentation treatments to even out the contrasting patches across his body."
+    "answer": "Yes, Michael Jackson was clinically diagnosed with vitiligo, an autoimmune disorder where antibodies destroy melanin-producing skin cells, causing progressive, blotchy loss of skin pigmentation. First diagnosed in 1984 by celebrity dermatologist Dr. Arnold Klein, Jackson publicly explained the disease during his 1993 Oprah Winfrey interview. The official 2009 Los Angeles County Coroner autopsy report definitively verified the diagnosis, documenting widespread vitiligo depigmentation across his face, arms, chest, and abdomen. Jackson used prescribed depigmentation creams (Benoquin) and theatrical makeup to harmonize the patchy pigmentation under bright stage lights."
   },
   {
-    "question": "Who are Michael Jackson's three children and who are their mothers?",
-    "answer": "Michael Jackson had three children: Michael Joseph Jackson Jr. (known as Prince, born February 13, 1997), Paris-Michael Katherine Jackson (born April 3, 1998), and Prince Michael Jackson II (known as Bigi, formerly Blanket, born February 21, 2002). Prince and Paris were born during Jackson's marriage to dermatology nurse Debbie Rowe. Bigi was born via an undisclosed surrogate mother. All three children were raised at Neverland Valley Ranch and are primary beneficiaries of the Michael Jackson Family Trust alongside their grandmother Katherine Jackson."
+    "question": "When did Michael Jackson die, what was the official cause of death, and what drugs were found?",
+    "answer": "Michael Jackson died on June 25, 2009, at 2:26 PM at Ronald Reagan UCLA Medical Center after suffering cardiac arrest at his leased Holmby Hills residence. The Los Angeles County Coroner officially ruled his death a homicide caused by acute propofol intoxication combined with the sedative effects of benzodiazepines, specifically lorazepam and midazolam. Dr. Conrad Murray, his personal physician, administered the intravenous anesthetic to combat severe insomnia. Murray was convicted of involuntary manslaughter in November 2011."
   },
   {
-    "question": "What happened during the 1984 Pepsi commercial accident?",
-    "answer": "On January 27, 1984, during the filming of a Pepsi commercial before 3,000 fans at the Shrine Auditorium in Los Angeles, pyrotechnics accidentally discharged early during a simulated concert performance of 'Billie Jean'. Sparks ignited Jackson's hair, resulting in severe second- and third-degree burns across his scalp. Jackson was rushed to Cedars-Sinai Medical Center and later transferred to Brotman Memorial Hospital. Pepsi paid a $1.5 million settlement, which Jackson used to equip the Michael Jackson Burn Center. The accident initiated decades of chronic pain, reconstructive surgeries, and reliance on prescription analgesics."
+    "question": "What were Michael Jackson's final words before dying?",
+    "answer": "Sworn court testimony during the 2011 involuntary manslaughter trial revealed that Jackson's final recorded words were a desperate request for 'milk'—his personal colloquial term for the white, emulsion-based surgical anesthetic propofol. After tossing restlessly through the night following intensive tour rehearsals, Jackson repeatedly pleaded with Dr. Murray for sedative relief to sleep before upcoming morning preparations."
+  },
+  {
+    "question": "What occurred during Michael Jackson's final rehearsal on June 24, 2009?",
+    "answer": "On the evening of June 24, 2009—mere hours before his cardiac arrest—Michael Jackson conducted a rigorous midnight rehearsal at the Staples Center in Los Angeles for his 'This Is It' residency. Wearing a dark suit and microphone headset, Jackson delivered full-energy vocal and choreography run-throughs of 'They Don't Care About Us' and 'Earth Song'. Director Kenny Ortega and musicians praised his vocal clarity and stamina, with the high-definition rehearsal footage later serving as the primary source material for the blockbuster 2009 concert documentary 'This Is It'."
+  },
+  {
+    "question": "Did Michael Jackson write his own songs and music?",
+    "answer": "Yes, Michael Jackson was a prolific songwriter and composer who wrote and arranged many of his biggest global hits. He was the sole songwriter of legendary classics including 'Billie Jean', 'Beat It', 'Don't Stop 'Til You Get Enough', 'Wanna Be Startin' Somethin'', 'Bad', 'Smooth Criminal', 'Black or White', 'Heal the World', and 'Earth Song'. Because he did not read traditional sheet music fluently, Jackson composed by beatboxing drum patterns, singing intricate multi-part harmonies into handheld dictaphones, and vocalizing horn arrangements for studio session players."
+  },
+  {
+    "question": "Who played the iconic guitar solo on Michael Jackson's 'Beat It'?",
+    "answer": "Legendary rock guitarist Eddie Van Halen played the iconic guitar solo on 'Beat It' from the 1982 'Thriller' album. Producer Quincy Jones invited Van Halen to the studio, where the guitarist restructured parts of the backing track and recorded his blistering 20-minute solo in two takes entirely free of charge as a personal favor, bridging hard rock and pop to create a worldwide crossover smash."
+  },
+  {
+    "question": "Who are Michael Jackson's three children and what do they do today in 2026?",
+    "answer": "Michael Jackson had three children: Michael Joseph Jackson Jr. (Prince, born 1997), Paris-Michael Katherine Jackson (born 1998), and Prince Michael Jackson II (Bigi, formerly Blanket, born 2002). Prince graduated cum laude in business administration from Loyola Marymount University, co-founded the non-profit Heal Los Angeles Foundation, and works as an independent media producer. Paris is an acclaimed model, actress, and indie-rock singer-songwriter. Bigi operates as an independent filmmaker and screenwriter in Los Angeles."
+  },
+  {
+    "question": "Did Michael Jackson have a twin brother and who was Brandon Jackson?",
+    "answer": "No, Michael Jackson was not a twin. However, his elder brother Marlon Jackson was born a twin on March 12, 1957, in Gary, Indiana. Marlon's twin brother, Brandon Jackson, tragically passed away within twenty-four hours of birth due to respiratory failure. Historical confusion surrounding family genealogies has occasionally led casual observers to mistakenly believe Michael had a twin."
+  },
+  {
+    "question": "What happened during the 1984 Pepsi commercial accident at Shrine Auditorium?",
+    "answer": "On January 27, 1984, while filming a simulated concert commercial before 3,000 spectators at the Shrine Auditorium in Los Angeles, pyrotechnic canisters ignited prematurely during a sixth take of 'Billie Jean'. Sparks set Jackson's hair ablaze, inflicting second- and third-degree burns across his scalp. The injury necessitated years of painful reconstructive scalp operations, tissue-expander procedures, and permanent medical treatments, triggering his long-term reliance on prescription pain medications."
   },
   {
     "question": "Who was Michael Jackson married to throughout his life?",
-    "answer": "Michael Jackson was married twice. He married singer-songwriter Lisa Marie Presley, the only daughter of Elvis Presley, on May 26, 1994, in the Dominican Republic. The high-profile union captured international headlines before ending in an amicable divorce in August 1996. Later that year, on November 14, 1996, Jackson married dermatology nurse Deborah Jeanne Rowe in Sydney, Australia. The couple had two children together (Prince and Paris) before divorcing in October 1999, with Rowe granting Jackson full legal custody."
-  },
-  {
-    "question": "How many siblings did Michael Jackson have and who was in The Jackson 5?",
-    "answer": "Michael Jackson was one of ten children born to Katherine and Joseph Jackson in Gary, Indiana. His siblings include Maureen (Rebbie), Sigmund (Jackie), Toriano (Tito, who passed away in September 2024), Jermaine, La Toya, Marlon, Brandon (who died at birth in 1957), Steven (Randy), and Janet Jackson. The Jackson 5 originally featured Jackie, Tito, Jermaine, Marlon, and Michael as the lead singer, rising to fame on Motown Records in 1969 with four consecutive Billboard Number One singles."
+    "answer": "Michael Jackson was married twice. He married singer-songwriter Lisa Marie Presley, daughter of Elvis Presley, on May 26, 1994, in the Dominican Republic; they divorced amicably in August 1996. He subsequently married dermatology nurse Deborah Jeanne Rowe on November 14, 1996, in Sydney, Australia. Rowe gave birth to Prince and Paris Jackson before the couple divorced in October 1999, with Jackson retaining full legal custody."
   },
   {
     "question": "What is the 2026 Lionsgate biopic 'Michael' and who portrays him?",
@@ -948,10 +972,6 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   {
     "question": "How many studio albums did Michael Jackson release and how many copies did 'Thriller' sell?",
     "answer": "Michael Jackson released ten solo studio albums during his lifetime: 'Got to Be There' (1972), 'Ben' (1972), 'Music & Me' (1973), 'Forever, Michael' (1975), 'Off the Wall' (1979), 'Thriller' (1982), 'Bad' (1987), 'Dangerous' (1991), 'HIStory' (1995), and 'Invincible' (2001). Two posthumous studio albums followed: 'Michael' (2010) and 'Xscape' (2014). 'Thriller' remains the best-selling album in worldwide music history, with certified sales exceeding 70 million copies globally and 34x Platinum RIAA certification in the United States."
-  },
-  {
-    "question": "What were Michael Jackson's final words and what occurred during his last hours?",
-    "answer": "According to sworn court testimony during the 2011 involuntary manslaughter trial of Dr. Conrad Murray, Jackson's final words were a plea for 'milk', his personal slang term for the white, intravenous anesthetic propofol. After rehearsing late into the night at the Staples Center for his 'This Is It' concert residency, Jackson struggled with severe insomnia and requested sedation to sleep before upcoming morning rehearsals, leading to the fatal dose administered at his Carolwood Drive bedroom."
   },
   {
     "question": "Did Michael Jackson own the Beatles' music publishing catalog?",
@@ -976,10 +996,6 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   {
     "question": "Who manages the Michael Jackson estate and how was his debt resolved?",
     "answer": "The estate is administered by longtime entertainment attorney John Branca and veteran music executive John McClain, who were designated as co-executors in Jackson's verified 2002 legal will and estate directive. At the time of his 2009 passing, Jackson carried approximately $500 million in debt. The executors resolved creditor obligations by licensing the concert documentary 'This Is It', refinancing bank loans, monetizing Sony/ATV equity, and structuring long-term IP partnerships, creating a financial surplus of over $1 billion for his beneficiaries."
-  },
-  {
-    "question": "Why is Michael Jackson universally celebrated as the King of Pop?",
-    "answer": "Michael Jackson earned the title 'King of Pop' for transforming the sound, visual presentation, and global distribution of popular music. He shattered racial barriers on MTV with groundbreaking cinematic short films for 'Billie Jean', 'Beat Teaser', and 'Thriller', popularized dance movements including the moonwalk and the anti-gravity lean, and established the modern stadium pop concert blueprint. His work remains the gold standard for global pop performance and songwriting architecture."
   }
 ],
 
