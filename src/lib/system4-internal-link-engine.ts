@@ -139,8 +139,8 @@ export function injectNaturalInternalLinks(
   const linkedCounts = new Map<string, number>();
 
   const processedParagraphs = paragraphs.map((para) => {
-    // Skip headers (# ...), images (![...]), or horizontal rules (---)
-    if (para.startsWith("#") || para.startsWith("![") || para.trim() === "---") {
+    // Skip headers (# ...), images (![...]), horizontal rules (---), or tables (|...)
+    if (para.startsWith("#") || para.startsWith("![") || para.trim() === "---" || para.startsWith("|")) {
       return para;
     }
 

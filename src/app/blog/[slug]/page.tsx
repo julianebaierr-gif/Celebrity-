@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       siteName: "CelebLedger",
       type: "article",
       publishedTime: post.publishedDate,
-      modifiedTime: post.publishedDate,
+      modifiedTime: post.modifiedDate || post.publishedDate,
       authors: [post.author.name],
       images: [
         {
@@ -135,7 +135,7 @@ function parseArticleAndFaqs(rawContent: string): {
     .replace(/\r\n/g, "\n")
     .replace(/\n*(#{1,4}\s+[^\n]+)\n*/g, "\n\n$1\n\n")
     .replace(/\n*(!\[.*?\]\(.*?\))\n*/g, "\n\n$1\n\n")
-    .replace(/\n*(---\n*)/g, "\n\n---\n\n")
+    .replace(/^[ \t]*---[ \t]*$/gm, "\n\n---\n\n")
     .replace(/\n{3,}/g, "\n\n");
 
   // Separate inline bullets if clumped: e.g. "note:\n- item" or "note: - **item"
@@ -205,11 +205,31 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     allPosts[(currentIndex + 3) % allPosts.length],
   ];
 
-  // Extract primary celebrity slug if present in tags or content
-  let primaryCelebritySlug = "zendaya";
-  if (slug.startsWith("cillian")) primaryCelebritySlug = "cillian-murphy";
-  else if (slug.startsWith("keanu")) primaryCelebritySlug = "keanu-reeves";
-  else if (slug.startsWith("tim-curry")) primaryCelebritySlug = "tim-curry";
+  // Dynamically resolve primary celebrity slug and name
+  let primaryCelebritySlug = "";
+  let primaryCelebrityName = "";
+  if (slug.startsWith("drake")) {
+    primaryCelebritySlug = "drake";
+    primaryCelebrityName = "Drake";
+  } else if (slug.startsWith("kylie-jenner")) {
+    primaryCelebritySlug = "kylie-jenner";
+    primaryCelebrityName = "Kylie Jenner";
+  } else if (slug.startsWith("travis-kelce")) {
+    primaryCelebritySlug = "travis-kelce";
+    primaryCelebrityName = "Travis Kelce";
+  } else if (slug.startsWith("rosalia")) {
+    primaryCelebritySlug = "rosalia";
+    primaryCelebrityName = "Rosalía";
+  } else if (slug.startsWith("tim-curry")) {
+    primaryCelebritySlug = "tim-curry";
+    primaryCelebrityName = "Tim Curry";
+  } else if (slug.startsWith("cillian")) {
+    primaryCelebritySlug = "cillian-murphy";
+    primaryCelebrityName = "Cillian Murphy";
+  } else if (slug.startsWith("keanu")) {
+    primaryCelebritySlug = "keanu-reeves";
+    primaryCelebrityName = "Keanu Reeves";
+  }
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -218,7 +238,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     description: post.seoDescription || post.excerpt,
     image: [imageUrl],
     datePublished: post.publishedDate,
-    dateModified: post.publishedDate,
+    dateModified: post.modifiedDate || post.publishedDate,
     author: [
       {
         "@type": "Person",
@@ -230,11 +250,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       "@type": "Organization",
       name: "CelebLedger",
       url: siteUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/logo.svg`,
+      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": postUrl,
     },
+    articleSection: post.tags[0] || "Entertainment Intelligence",
+    keywords: post.tags.join(", "),
   };
 
   const breadcrumbSchema = {
@@ -484,8 +510,70 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               );
             }
 
-            // Unordered List: - item or * item
+            // Markdown Table: lines starting and ending with | or containing multiple |
             const lines = trimmed.split("\n");
+            if (
+              lines.length >= 3 &&
+              lines[0].trim().startsWith("|") &&
+              lines[0].trim().endsWith("|") &&
+              lines[1].includes("---")
+            ) {
+              const headerLine = lines[0].trim();
+              const headerCells = headerLine
+                .split("|")
+                .map((c) => c.trim())
+                .filter(Boolean);
+
+              const dataRows = lines
+                .slice(2)
+                .map((l) =>
+                  l
+                    .trim()
+                    .split("|")
+                    .map((c) => c.trim())
+                    .filter(Boolean)
+                )
+                .filter((r) => r.length > 0);
+
+              return (
+                <div key={idx} className="my-8 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-xs">
+                  <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                    <thead>
+                      <tr className="border-b border-slate-200 bg-slate-900 text-white">
+                        {headerCells.map((headerText, hIdx) => (
+                          <th
+                            key={hIdx}
+                            className="py-3 px-4 font-black tracking-wider uppercase text-[11px] sm:text-xs text-amber-300"
+                          >
+                            {parseInlineMarkdown(headerText)}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100">
+                      {dataRows.map((rowCells, rIdx) => (
+                        <tr
+                          key={rIdx}
+                          className={
+                            rIdx % 2 === 0
+                              ? "bg-white hover:bg-amber-50/40 transition-colors"
+                              : "bg-slate-50/60 hover:bg-amber-50/40 transition-colors"
+                          }
+                        >
+                          {rowCells.map((cellText, cIdx) => (
+                            <td key={cIdx} className="py-3.5 px-4 text-slate-700 font-medium leading-relaxed">
+                              {parseInlineMarkdown(cellText)}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              );
+            }
+
+            // Unordered List: - item or * item
             if (lines.length > 1 && lines.every((l) => l.trim().startsWith("- ") || l.trim().startsWith("* "))) {
               return (
                 <ul key={idx} className="space-y-2.5 my-5 pl-2">
@@ -527,7 +615,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Interactive FAQ Accordion Component */}
         <FaqAccordion
           faqs={faqs}
-          celebrityName="Zendaya"
+          celebrityName={primaryCelebrityName || "Celebrity"}
           celebritySlug={primaryCelebritySlug}
         />
 

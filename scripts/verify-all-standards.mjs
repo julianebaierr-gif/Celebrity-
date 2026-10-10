@@ -2,9 +2,9 @@ import fs from "fs";
 import path from "path";
 
 // 1. Check Blog Posts
-const updatesPath = path.resolve(process.cwd(), "src/data/updates-store.json");
-const store = JSON.parse(fs.readFileSync(updatesPath, "utf-8"));
-const posts = store.dynamicBlogPosts || [];
+const blogPostsFile = fs.readFileSync(path.resolve(process.cwd(), "src/data/blog-posts.ts"), "utf-8");
+const match = blogPostsFile.match(/export const BLOG_POSTS: BlogPost\[\] = (\[[\s\S]*?\]);/);
+const posts = match ? JSON.parse(match[1]) : [];
 
 console.log("=== BLOG POST AUDIT ===");
 const blogSlugs = [
