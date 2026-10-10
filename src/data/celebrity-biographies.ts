@@ -1465,4 +1465,69 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   }
 ],
 
+  "sydney-sweeney": [
+    {
+      "heading": "Spokane Roots, The Five-Year Business Plan & Teenage Auditions (1997–2017)",
+      "paragraphs": [
+        "Sydney Bernice Sweeney was born on September 12, 1997, in Spokane, Washington, the elder of two children born to Lisa Mudd, a criminal defense attorney, and Steven Sweeney, a hospitality worker. Raised near the Idaho border in an athletic, outdoor-focused family, Sweeney spent her childhood hiking, wakeboarding, and skiing. When an independent film held open auditions in Spokane when she was twelve years old, she became captivated by storytelling. To convince her pragmatic parents to let her audition, she assembled an elaborate five-year business presentation on poster boards, laying out career milestones, audition budgets, and educational commitments.",
+        "Impressed by her maturity, her parents permitted her to pursue local commercials and small indie films. When Hollywood casting opportunities expanded, the family made the grueling decision to relocate to Los Angeles in 2011. The financial strain of supporting an aspiring young actress in California pushed her parents' finances to the brink, ultimately leading to bankruptcy and their subsequent divorce. Sweeney lived with her family in a single motel room for months, an experience that instilled in her an uncompromising drive to achieve financial security and validate her parents' sacrifices.",
+        "Throughout her mid-teens, Sweeney balanced relentless auditioning with rigorous academics, graduating as valedictorian from Brighton Hall School in Burbank while studying business entrepreneurship at Lehman Alternative Community School. She booked guest appearances on broadcast series including 'Heroes', 'Criminal Minds', 'Grey's Anatomy', and 'Pretty Little Liars', while training intensely in mixed martial arts (MMA) from age fourteen to nineteen, competing in open grappling tournaments alongside collegiate-level athletes."
+      ],
+      "keyTakeaway": "Sweeney convinced her parents to let her act via a five-year business presentation, overcoming childhood motel hardship and training in competitive MMA."
+    },
+    {
+      "heading": "The Euphoria Phenomenon, The White Lotus & Double Emmy Stardom (2018–2022)",
+      "paragraphs": [
+        "Sweeney's critical breakthrough arrived in 2018 through a pair of stark, demanding television roles. She portrayed Eden Spencer, a devout child bride in Hulu's dystopian drama 'The Handmaid's Tale', earning a Screen Actors Guild Award nomination alongside the ensemble cast. Concurrently, she appeared as Alice, a troubled psychiatric patient, opposite Amy Adams in Jean-Marc Vallée's acclaimed HBO miniseries 'Sharp Objects'. Casting directors recognized her remarkable capacity to convey raw vulnerability beneath an innocent exterior.",
+        "In 2019, series creator Sam Levinson cast Sweeney as Cassie Howard in HBO's teen drama 'Euphoria'. The series transformed into a global cultural phenomenon, with Cassie's spiraling emotional crises, chaotic romantic decisions, and raw vulnerability making her the most discussed and meme-referenced character on modern television. Sweeney brought profound emotional empathy to the role, famously building detailed 100-page character journals mapping out Cassie's psychology, childhood traumas, and behavioral habits for every scene.",
+        "Her artistic standing solidified further in 2021 when Mike White cast her as cynical, razor-tongued college sophomore Olivia Mossbacher in the inaugural season of HBO's anthology 'The White Lotus'. Displaying lethal comedic timing and deadpan social satire, Sweeney proved her dramatic versatility. In July 2022, the Television Academy recognized her rare generational talent by awarding her two simultaneous Primetime Emmy nominations in the same calendar year: Outstanding Supporting Actress in a Drama Series for 'Euphoria' and Outstanding Supporting Actress in a Limited Series for 'The White Lotus'."
+      ],
+      "quote": {
+        "text": "I build an entire book for every single character I play from the day they are born to the first page of the script. If you understand their fears, you never have to act.",
+        "source": "Sydney Sweeney on her character journaling process in The Hollywood Reporter"
+      },
+      "keyTakeaway": "Sweeney earned two simultaneous Primetime Emmy nominations in 2022 for her contrasting, scene-stealing performances in Euphoria and The White Lotus."
+    },
+    {
+      "heading": "Founding Fifty-Fifty Films: Seizing Independent Production Control (2020–2023)",
+      "paragraphs": [
+        "Rather than remaining passive within the studio casting machinery, Sweeney recognized that true artistic autonomy and sustained wealth required producer ownership. In 2020, at age twenty-three, she founded Fifty-Fifty Films. Her objective was clear: identify dynamic literary properties, champion female-driven genre screenplays, and construct independent financing models that ensured creative authority and backend profit points.",
+        "Sweeney took a proactive approach to literary development. She personally tracked upcoming novel manuscripts, optioned psychological thrillers, and pitched studio executives with fully packaged treatments. One of her earliest self-driven acquisitions was Andrew Neiderman's screenplay for 'Immaculate', a psychological convent horror film she had initially auditioned for at age sixteen before the project stalled. A decade later, having achieved A-list stardom, Sweeney bought back the rights, brought in director Michael Mohan, and greenlit physical production in Rome through Fifty-Fifty Films.",
+        "Her hands-on executive style surprised seasoned studio heads. Sweeney oversaw script revisions, hired cinematographers, reviewed daily production call sheets, and negotiated global theatrical distribution deals. By pairing her undeniable screen star power with producer autonomy, she established Fifty-Fifty Films as a premier independent boutique studio capable of delivering high-concept cinema with controlled budgets."
+      ],
+      "keyTakeaway": "At age 23, Sweeney founded Fifty-Fifty Films to acquire literary rights and package independent cinema, asserting control over her creative career."
+    },
+    {
+      "heading": "Anyone But You: Rescuing the Theatrical Romantic Comedy (2023–2024)",
+      "paragraphs": [
+        "In late 2022, Sweeney orchestrated the boldest commercial gamble of her career. Convinced that global moviegoers hungered for the return of breezy, studio-produced romantic comedies on the big screen, she acquired a loose adaptation of Shakespeare's 'Much Ado About Nothing' scripted by Ilana Wolpert. Taking the project to Sony Pictures, Sweeney signed on as both executive producer and lead star, hand-selecting Will Gluck to direct and personally recruiting Glen Powell as her co-star after spotting his charismatic chemistry in 'Top Gun: Maverick'.",
+        "Filmed on location in Sydney, Australia, 'Anyone But You' (December 2023) premiered against major holiday franchise blockbusters with modest expectations. However, Sweeney orchestrated a masterclass in modern grassroots marketing. Leveraging viral TikTok moments, magnetic red-carpet chemistry with Powell, and an infectious soundtrack anchored by Natasha Bedingfield's 'Unwritten', the film ignited organic word-of-mouth enthusiasm worldwide.",
+        "Against a lean production budget of $25 million USD, 'Anyone But You' shattered industry forecasts, grossing over $220.2 million worldwide and becoming the highest-earning R-rated romantic comedy in nearly a decade. For Sweeney, the triumph was both artistic and lucrative: negotiated upfront fees combined with lucrative producer backend profit points yielded an estimated personal compensation package exceeding $6 million USD, proving that moviegoers would show up in droves for star-driven theatrical entertainment."
+      ],
+      "quote": {
+        "text": "People told me the studio romantic comedy was dead and belonged on streaming. I believed that audiences wanted to dress up, go to a theater with friends, and laugh out loud together.",
+        "source": "Sydney Sweeney on executive producing Anyone But You"
+      },
+      "keyTakeaway": "Anyone But You grossed $220M on a $25M budget, reviving theatrical romantic comedies and securing Sweeney multi-million producer backend earnings."
+    },
+    {
+      "heading": "Immaculate, Christy Martin Biopic & Physical Transformation (2024–2025)",
+      "paragraphs": [
+        "Immediately following her romantic comedy triumph, Sweeney pivoted toward intense physical and psychological drama. In March 2024, Neon released 'Immaculate', in which Sweeney starred as Sister Cecilia, an American novice nun confronting horrifying occult conspiracies within an isolated Italian convent. Sweeney's uninhibited, blood-drenched climax—captured in an unbroken three-minute close-up scream of pure primal fury—stunned film critics, with premier reviewers hailing her as a generational scream queen and serious character actress.",
+        "Demonstrating her fierce physical discipline, Sweeney embarked on an astonishing physical transformation for the biographical drama 'Christy' (2025), directed by David Michôd. Portraying pioneering female world champion boxer Christy Martin, Sweeney drew upon her teenage MMA grappling background, undertaking four months of intensive professional boxing training. She gained twelve pounds of solid muscle, sparring daily with championship prizefighters to execute raw, unchoreographed fight sequences without stunt doubles.",
+        "The film premiered at the BFI London Film Festival and the Toronto International Film Festival to widespread critical acclaim. Reviewers lauded her gritty, fearless portrayal of domestic survival, working-class resilience, and athletic ferocity, marking her emergence as an actor capable of carrying grueling character studies alongside commercial blockbusters."
+      ],
+      "keyTakeaway": "Sweeney demonstrated fearless physical range, commanding critical acclaim in psychological horror Immaculate and transforming into boxer Christy Martin."
+    },
+    {
+      "heading": "Enterprise Architecture, Syd's Garage, 2026 Slate & Personal Life",
+      "paragraphs": [
+        "Entering late 2026, Sydney Sweeney's personal net worth is certified at $45.0 Million USD by trade registries and financial audits. Her wealth stems from a diversified financial foundation: multi-million acting salaries (including a reported $7.5 million fee for Lionsgate's adaptation of Freida McFadden's bestseller 'The Housemaid' opposite Amanda Seyfried), Fifty-Fifty Films equity distributions, and high-tier luxury ambassadorships as the global face of Armani Beauty, Miu Miu, Kérastase, and Laneige. In early 2026, she expanded into consumer goods by launching SYRN, a premium lingerie and lifestyle collection.",
+        "Beyond Hollywood soundstages, Sweeney is celebrated for her authentic passion for vintage automotive mechanics. Operating her popular social channel 'Syd's Garage', she personally reconstructed a vintage 1969 Ford Bronco and a 1967 Ford Mustang, replacing transmissions, rewiring electrical circuits, and welding body panels by hand. Her mechanic credibility led to a multi-year partnership with Ford Motor Company, designing functional, female-focused workwear lines that sold out globally within minutes.",
+        "Sweeney has constructed a substantial real estate portfolio, including an oceanfront estate in Summerland Key, Florida, acquired for $13.5 million USD, alongside a $6.2 million historic Tudor manor in Bel-Air and a traditional residence in Westwood, California. In her personal life, Sweeney was previously engaged to Chicago businessman and producer Jonathan Davino from 2018 until their mutual separation in early 2025. In mid-2026, Sweeney confirmed her relationship with music executive and investor Scooter Braun, making high-profile appearances together in Europe. Grounded, fiercely independent, and endlessly ambitious, Sweeney stands at the absolute vanguard of modern entertainment."
+      ],
+      "keyTakeaway": "Sweeney commands a verified $45M fortune, rebuilding vintage Ford trucks, owning prime coastal estates, and leading modern cinema into 2026."
+    }
+  ],
+
 };

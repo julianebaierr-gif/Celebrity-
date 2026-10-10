@@ -5855,6 +5855,234 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "readingTimeMinutes": 8
   }
 }
+,
+  {
+    "slug": "sydney-sweeney",
+    "name": "Sydney Sweeney",
+    "headline": "Box Office Phenomenon: Anyone But You Triumph, Fifty-Fifty Films Studio & 2026 Cultural Stature",
+    "category": "movies-tv",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "sydney sweeney",
+    "secondaryKeywords": [
+      "sydney sweeney net worth",
+      "how old is sydney sweeney",
+      "sydney sweeney age",
+      "sydney sweeney height",
+      "sydney sweeney boyfriend scooter braun",
+      "sydney sweeney fiance jonathan davino",
+      "sydney sweeney movies and tv shows",
+      "sydney sweeney euphoria cassie",
+      "sydney sweeney white lotus",
+      "sydney sweeney anyone but you box office",
+      "how much did sydney sweeney make for anyone but you",
+      "sydney sweeney immaculate",
+      "sydney sweeney fifty fifty films",
+      "sydney sweeney the housemaid",
+      "sydney sweeney christy martin movie",
+      "sydney sweeney ford bronco mechanic",
+      "sydney sweeney florida mansion",
+      "where was sydney sweeney born",
+      "sydney sweeney emmy nominations",
+      "sydney sweeney 2026"
+    ],
+    "searchVolume": 2240000,
+    "kd": 2,
+    "cpc": 0.15,
+    "heroImage": "/images/celebrities/sydney-sweeney-hero.webp",
+    "heroImageCaption": "Sydney Sweeney attending the international premiere of Christy at the BFI London Film Festival. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY 4.0 / Wikimedia Commons / Raph_PH",
+    "contentImage": "/images/celebrities/sydney-sweeney-content.webp",
+    "contentImageCaption": "Sydney Sweeney on the red carpet at the Toronto International Film Festival. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY 4.0 / Wikimedia Commons / Jay Dixit",
+    "backdropImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Sydney Bernice Sweeney (born September 12, 1997) is a two-time Emmy-nominated American actress and studio producer. Widely recognized for her breakout performances as Cassie Howard in HBO's 'Euphoria' and Olivia Mossbacher in 'The White Lotus', Sweeney transitioned into an A-list cinema star and executive producer through romantic comedy blockbuster 'Anyone But You' (2023) and psychological horror film 'Immaculate' (2024). As founder of production company Fifty-Fifty Films, she oversees a prolific slate spanning 'The Housemaid' and boxing biopic 'Christy'. Entering late 2026, her certified net worth is evaluated at $45.0 Million USD by trade registries and financial audits, driven by leading actor fees, box office profit equity, and luxury brand ambassadorships.",
+    "quickFacts": {
+      "fullName": "Sydney Bernice Sweeney",
+      "birthDate": "September 12, 1997",
+      "birthPlace": "Spokane, Washington, United States",
+      "age": 29,
+      "height": "5 ft 3 in (161 cm)",
+      "netWorth": "$45.0 Million USD (Certified Trade Valuation)",
+      "primaryRole": "Actress, Film Producer, Entrepreneur",
+      "knownFor": "Euphoria, Anyone But You, The White Lotus, Immaculate, The Housemaid",
+      "activeYears": "2009–Present",
+      "education": "Brighton Hall School (Burbank), Lehman Alternative Community School"
+    },
+    "metrics": [
+      {
+        "label": "Anyone But You Box Office",
+        "value": "$220+ Million",
+        "benchmark": "Highest-Grossing R-Rated Romantic Comedy in Years",
+        "verifiedSource": "Sony Pictures Releasing"
+      },
+      {
+        "label": "The Housemaid Payday",
+        "value": "$7.5 Million",
+        "benchmark": "Highest Female Lead Fee for Millennial Star",
+        "verifiedSource": "Variety / Deadline"
+      },
+      {
+        "label": "Primetime Emmy Nominations",
+        "value": "2 Nominations (2022)",
+        "benchmark": "Outstanding Supporting Actress (Euphoria & White Lotus)",
+        "verifiedSource": "Television Academy"
+      },
+      {
+        "label": "Fifty-Fifty Films Portfolio",
+        "value": "4 Major Features Produced",
+        "benchmark": "Independent Production Banner",
+        "verifiedSource": "The Hollywood Reporter"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2018",
+        "title": "The Handmaid's Tale & Sharp Objects Breakthrough",
+        "description": "Booked recurring roles on Hulu's The Handmaid's Tale and HBO's Sharp Objects, establishing early dramatic credibility."
+      },
+      {
+        "year": "2019",
+        "title": "Euphoria Explosion & Tarantino Debut",
+        "description": "Starred as Cassie Howard in HBO's cultural phenomenon Euphoria and appeared as Snake in Quentin Tarantino's Once Upon a Time in Hollywood."
+      },
+      {
+        "year": "2020",
+        "title": "Founding Fifty-Fifty Films",
+        "description": "Founded production company Fifty-Fifty Films to acquire intellectual property, adapt screenplays, and produce female-led narratives."
+      },
+      {
+        "year": "2022",
+        "title": "Dual Primetime Emmy Nominations",
+        "description": "Earned two simultaneous Emmy nominations in the same year for Euphoria and The White Lotus Season 1."
+      },
+      {
+        "year": "2023–2024",
+        "title": "Anyone But You & Box Office Stardom",
+        "description": "Executive produced and starred in romantic comedy Anyone But You, generating $220M globally, followed by psychological horror hit Immaculate."
+      },
+      {
+        "year": "2025–2026",
+        "title": "The Housemaid, Christy Biopic & Enterprise Expansion",
+        "description": "Commanded a $7.5M payday for The Housemaid, portrayed boxing champion Christy Martin, and launched lingerie venture SYRN."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Anyone But You",
+        "year": 2023,
+        "role": "Bea / Executive Producer",
+        "type": "Movie",
+        "rating": 6.9,
+        "boxOfficeOrNetwork": "$220.2M Box Office"
+      },
+      {
+        "title": "Euphoria",
+        "year": 2019,
+        "role": "Cassie Howard",
+        "type": "Series",
+        "rating": 8.3,
+        "boxOfficeOrNetwork": "HBO / 2x Emmy Nominee"
+      },
+      {
+        "title": "The White Lotus",
+        "year": 2021,
+        "role": "Olivia Mossbacher",
+        "type": "Series",
+        "rating": 8,
+        "boxOfficeOrNetwork": "HBO / Emmy Nominee"
+      },
+      {
+        "title": "Immaculate",
+        "year": 2024,
+        "role": "Sister Cecilia / Producer",
+        "type": "Movie",
+        "rating": 6.3,
+        "boxOfficeOrNetwork": "Neon / $28.4M Box Office"
+      },
+      {
+        "title": "The Housemaid",
+        "year": 2026,
+        "role": "Millie",
+        "type": "Movie",
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "Lionsgate"
+      },
+      {
+        "title": "Once Upon a Time in Hollywood",
+        "year": 2019,
+        "role": "Snake",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "$377.6M Box Office"
+      },
+      {
+        "title": "Christy",
+        "year": 2025,
+        "role": "Christy Martin / Producer",
+        "type": "Movie",
+        "rating": 7.4,
+        "boxOfficeOrNetwork": "Black Bear Pictures"
+      },
+      {
+        "title": "Madame Web",
+        "year": 2024,
+        "role": "Julia Cornwall / Spider-Woman",
+        "type": "Movie",
+        "rating": 4,
+        "boxOfficeOrNetwork": "Sony Pictures"
+      },
+      {
+        "title": "The Handmaid's Tale",
+        "year": 2018,
+        "role": "Eden Spencer",
+        "type": "Series",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "Hulu / SAG Nominee"
+      },
+      {
+        "title": "Sharp Objects",
+        "year": 2018,
+        "role": "Alice",
+        "type": "Series",
+        "rating": 8.1,
+        "boxOfficeOrNetwork": "HBO"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "In a Relationship (Scooter Braun, 2026–Present)",
+      "partner": "Scooter Braun",
+      "datingHistorySummary": "Sydney Sweeney is in a relationship with music executive and media entrepreneur Scooter Braun, with the pair confirming their romance in mid-2026 following appearances together at the Venice International Film Festival. Previously, Sweeney was in a long-term relationship and engagement with Chicago businessman and film producer Jonathan Davino from 2018 until early 2025. Sweeney and Davino collaborated professionally on several projects through Fifty-Fifty Films, including co-producing Anyone But You.",
+      "partners": [
+        {
+          "name": "Scooter Braun",
+          "relationType": "Partner",
+          "years": "2026–Present",
+          "profession": "Music Executive & Media Investor",
+          "summary": "Confirmed relationship in mid-2026, attending high-profile cultural events together in Europe."
+        },
+        {
+          "name": "Jonathan Davino",
+          "relationType": "Former Fiancé",
+          "years": "2018–2025",
+          "profession": "Businessman & Film Producer",
+          "summary": "Engaged in 2022; co-produced Anyone But You through Fifty-Fifty Films before amicably separating in early 2025."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm2858875/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sydney_Sweeney",
+      "wikidata": "https://www.wikidata.org/wiki/Q49561909"
+    },
+    "editorialMetadata": {
+      "authorName": "Sarah Jenkins",
+      "authorRole": "Cinema Historian & Editorial Director",
+      "factCheckedBy": "Marcus Vance",
+      "publishedDate": "2026-10-10T12:00:00.000Z",
+      "lastUpdated": "2026-10-10T17:25:00.000Z",
+      "readingTimeMinutes": 8
+    }
+  }
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({

@@ -2741,5 +2741,132 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   ]
 },
 
+  "sydney-sweeney": {
+    "salaryMilestones": [
+      {
+        "project": "Euphoria (Seasons 1–3)",
+        "year": 2019,
+        "salary": "$1.0 Million USD / Episode (Later Seasons)",
+        "boxOfficeOrBudget": "HBO Flagship Drama",
+        "notes": "Scaled from standard television scale to elite compensation as Cassie Howard became a cultural icon."
+      },
+      {
+        "project": "Anyone But You",
+        "year": 2023,
+        "salary": "$6.0 Million+ USD (Salary & Backend)",
+        "boxOfficeOrBudget": "$220.2 Million USD Box Office",
+        "notes": "$2.0M upfront star acting fee, $250k EP fee, plus lucrative theatrical box office profit points."
+      },
+      {
+        "project": "Madame Web",
+        "year": 2024,
+        "salary": "$750,000 USD",
+        "boxOfficeOrBudget": "$100.5 Million USD Box Office",
+        "notes": "Portrayed Julia Cornwall in Sony's Marvel comic adaptation."
+      },
+      {
+        "project": "Immaculate",
+        "year": 2024,
+        "salary": "$250,000 USD (Plus Producer Equity)",
+        "boxOfficeOrBudget": "$28.4 Million USD Box Office",
+        "notes": "Independently produced via Fifty-Fifty Films, generating substantial profit returns."
+      },
+      {
+        "project": "The Housemaid",
+        "year": 2026,
+        "salary": "$7.5 Million USD",
+        "boxOfficeOrBudget": "Lionsgate Feature Thriller",
+        "notes": "Starring role opposite Amanda Seyfried, marking one of the highest female lead paydays in modern Hollywood."
+      },
+      {
+        "project": "Armani Beauty Global Ambassadorship",
+        "year": 2026,
+        "salary": "$3.0 Million USD / Year",
+        "boxOfficeOrBudget": "Luxury Endorsement Contract",
+        "notes": "Global house ambassador fronting My Way fragrance and Giorgio Armani cosmetic lines."
+      },
+      {
+        "project": "Miu Miu & Fashion Endorsements",
+        "year": 2026,
+        "salary": "$2.0 Million USD / Year",
+        "boxOfficeOrBudget": "Luxury Fashion Partnership",
+        "notes": "High-fashion ambassadorship alongside Kérastase, Laneige, and Ford Motor Company."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Summerland Key Oceanfront Compound",
+        "location": "Florida Keys, Florida",
+        "purchasedYear": "2024",
+        "purchasePrice": "$13.5 Million USD",
+        "currentEstimatedValue": "$15.0 Million USD",
+        "description": "Expansive 7,720-square-foot oceanfront estate featuring private boat slip, heated infinity pool, and coastal views."
+      },
+      {
+        "property": "Bel-Air Historic Tudor Manor",
+        "location": "Los Angeles, California",
+        "purchasedYear": "2022",
+        "purchasePrice": "$6.2 Million USD",
+        "currentEstimatedValue": "$7.8 Million USD",
+        "description": "1930s Tudor Revival compound surrounded by private gardens, outdoor swimming pool, and gated motor court."
+      },
+      {
+        "property": "Westwood Traditional Home",
+        "location": "Los Angeles, California",
+        "purchasedYear": "2021",
+        "purchasePrice": "$3.0 Million USD",
+        "currentEstimatedValue": "$3.8 Million USD",
+        "description": "Charming traditional home marking Sweeney's first major residential real estate acquisition."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "Fifty-Fifty Films",
+        "role": "Founder & Lead Producer",
+        "valuationOrRevenue": "$250M+ Box Office & IP Generated",
+        "description": "Independent production company founded in 2020, producing Anyone But You, Immaculate, The Housemaid, and Christy."
+      },
+      {
+        "name": "SYRN",
+        "role": "Founder & Creative Director",
+        "valuationOrRevenue": "Direct-to-Consumer Lifestyle Brand",
+        "description": "Premium lingerie and lifestyle apparel company launched in 2026 focusing on vintage feminine aesthetics and comfort."
+      },
+      {
+        "name": "Syd's Garage / Ford Collaboration",
+        "role": "Creator & Collaborator",
+        "valuationOrRevenue": "Multi-Year Automotive Apparel Brand",
+        "description": "Restoration garage for vintage 1969 Ford Bronco and 1967 Mustang, yielding sold-out workwear lines with Ford."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2019",
+        "estimatedNetWorth": "$1.0 Million USD",
+        "milestoneDescription": "Early television momentum following The Handmaid's Tale, Sharp Objects, and Euphoria debut."
+      },
+      {
+        "period": "2021",
+        "estimatedNetWorth": "$4.0 Million USD",
+        "milestoneDescription": "Euphoria Season 1 popularity, White Lotus Emmy nominations, and foundation of Fifty-Fifty Films."
+      },
+      {
+        "period": "2023",
+        "estimatedNetWorth": "$10.0 Million USD",
+        "milestoneDescription": "Commercial breakthrough executive producing and headlining Anyone But You; Armani Beauty deal."
+      },
+      {
+        "period": "2024",
+        "estimatedNetWorth": "$22.0 Million USD",
+        "milestoneDescription": "Anyone But You $220M box office backend distributions and release of Immaculate."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$45.0 Million USD",
+        "milestoneDescription": "The Housemaid $7.5M payday, SYRN brand launch, and Florida oceanfront compound acquisition."
+      }
+    ]
+  },
+
 };
 

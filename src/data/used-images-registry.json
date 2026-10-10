@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-09T14:00:00.000Z",
-  "totalUniqueImages": 65,
+  "lastUpdated": "2026-10-10T17:25:00.000Z",
+  "totalUniqueImages": 67,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -476,6 +476,22 @@
       "pageSlug": "jake-gyllenhaal",
       "assignedAt": "2026-10-09T14:00:00.000Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/DenzelWashingtonAndJakeGyllenhaal-byPhilipRomano.jpg"
+    },
+    "/images/celebrities/sydney-sweeney-hero.webp": {
+      "filePath": "/images/celebrities/sydney-sweeney-hero.webp",
+      "entity": "Sydney Sweeney",
+      "placement": "profile_hero",
+      "pageSlug": "sydney-sweeney",
+      "assignedAt": "2026-10-10T12:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/ChristyBFILFF171025-34_%28cropped%29.jpg"
+    },
+    "/images/celebrities/sydney-sweeney-content.webp": {
+      "filePath": "/images/celebrities/sydney-sweeney-content.webp",
+      "entity": "Sydney Sweeney",
+      "placement": "profile_content",
+      "pageSlug": "sydney-sweeney",
+      "assignedAt": "2026-10-10T12:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_01_%283x4_cropped_and_rotated%29.jpg"
     }
   }
 }

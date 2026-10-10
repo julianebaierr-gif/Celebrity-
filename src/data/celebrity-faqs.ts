@@ -818,5 +818,68 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   }
 ],
 
+  "sydney-sweeney": [
+    {
+      "question": "What is Sydney Sweeney's verified net worth in 2026?",
+      "answer": "Sydney Sweeney's verified net worth is estimated at $45.0 Million USD in late 2026. Her wealth has grown rapidly through leading acting fees, including a reported $7.5 Million fee for 'The Housemaid', lucrative producer backend profits from 'Anyone But You', equity in Fifty-Fifty Films, and global luxury endorsement partnerships with Armani Beauty, Miu Miu, and Kérastase."
+    },
+    {
+      "question": "How old is Sydney Sweeney?",
+      "answer": "Sydney Sweeney was born on September 12, 1997, in Spokane, Washington, making her 29 years old."
+    },
+    {
+      "question": "How did Sydney Sweeney convince her parents to let her pursue acting?",
+      "answer": "At age twelve, when an independent film auditioned in Spokane, Sweeney created an elaborate five-year business presentation on poster boards for her parents. The presentation outlined career milestones, audition logistics, and financial plans, convincing her parents to support her dream."
+    },
+    {
+      "question": "How much did Sydney Sweeney make for Anyone But You?",
+      "answer": "Sydney Sweeney earned a $2.0 Million base salary plus a $250,000 executive producer fee for 'Anyone But You' (2023). Following the romantic comedy's runaway box office triumph of over $220.2 Million, her negotiated backend profit points generated total personal earnings exceeding $6.0 Million USD."
+    },
+    {
+      "question": "Who is Sydney Sweeney dating in 2026?",
+      "answer": "Sydney Sweeney is dating music executive and media investor Scooter Braun, with the couple confirming their relationship in mid-2026 after attending events together in Europe, including the Venice International Film Festival. Previously, Sweeney was engaged to Chicago businessman Jonathan Davino from 2018 until early 2025."
+    },
+    {
+      "question": "What is Sydney Sweeney's production company Fifty-Fifty Films?",
+      "answer": "Fifty-Fifty Films is an independent film and television production company founded by Sydney Sweeney in 2020 at age twenty-three. The shingle acquires literary intellectual property and has produced major releases including 'Anyone But You' (2023), psychological horror film 'Immaculate' (2024), and 'The Housemaid' (2026)."
+    },
+    {
+      "question": "What real estate properties does Sydney Sweeney own?",
+      "answer": "Sydney Sweeney owns a prime real estate portfolio including a 7,720-square-foot oceanfront compound in Summerland Key, Florida, purchased for $13.5 Million USD in 2024. She also owns a historic 1930s Tudor Revival estate in Bel-Air, California, purchased for $6.2 Million, and a home in Westwood, Los Angeles."
+    },
+    {
+      "question": "How tall is Sydney Sweeney?",
+      "answer": "Sydney Sweeney stands 5 feet 3 inches tall (161 cm)."
+    },
+    {
+      "question": "Does Sydney Sweeney really restore vintage cars?",
+      "answer": "Yes. Sweeney is a skilled self-taught mechanic who documents her hands-on restorations on her social channel 'Syd's Garage'. She personally rebuilt a vintage 1969 Ford Bronco and a 1967 Ford Mustang, doing her own transmission swaps and metal welding, which led to an official workwear collaboration with Ford Motor Company."
+    },
+    {
+      "question": "Is Sydney Sweeney trained in martial arts?",
+      "answer": "Yes. Sweeney began training in mixed martial arts (MMA) at age fourteen and competed in grappling tournaments until age nineteen against collegiate-level competitors. She utilized her martial arts background when training for the lead role in the boxing biopic 'Christy'."
+    },
+    {
+      "question": "How many Primetime Emmy nominations has Sydney Sweeney received?",
+      "answer": "Sydney Sweeney has received two Primetime Emmy Award nominations, both in 2022: Outstanding Supporting Actress in a Drama Series for Cassie Howard in 'Euphoria', and Outstanding Supporting Actress in a Limited Series for Olivia Mossbacher in 'The White Lotus'."
+    },
+    {
+      "question": "What upcoming movies is Sydney Sweeney starring in for 2026?",
+      "answer": "Sydney Sweeney stars as Millie in Lionsgate's psychological thriller 'The Housemaid' alongside Amanda Seyfried, directed by Paul Feig. She also headlines the sports biopic 'Christy' portraying world champion boxer Christy Martin, and is attached to Legendary Entertainment's live-action 'Gundam' feature."
+    },
+    {
+      "question": "What is the status of Sydney Sweeney in Euphoria Season 3?",
+      "answer": "Sydney Sweeney is confirmed to reprise her iconic role as Cassie Howard in the third and final season of HBO's 'Euphoria'. The production features a narrative time jump following the characters beyond high school into adulthood."
+    },
+    {
+      "question": "What luxury brands does Sydney Sweeney represent as global ambassador?",
+      "answer": "Sydney Sweeney serves as a premier global ambassador for French luxury beauty brand Armani Beauty (fronting the My Way fragrance), Italian fashion house Miu Miu, hair care leader Kérastase, and skincare brand Laneige, commanding multi-million annual sponsorship compensation."
+    },
+    {
+      "question": "What is Sydney Sweeney's brand SYRN?",
+      "answer": "SYRN is a consumer lingerie and lifestyle apparel brand founded by Sydney Sweeney in 2026. The brand focuses on accessible luxury intimate apparel and swimwear designed with female comfort and vintage aesthetics in mind."
+    }
+  ],
+
 };
 

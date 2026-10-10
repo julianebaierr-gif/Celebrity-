@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 30,
-  "lastUpdated": "2026-10-09 23:00:00",
+  "totalLocked": 31,
+  "lastUpdated": "2026-10-10 17:25:00",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -465,6 +465,36 @@
         "jake gyllenhaal road house",
         "jake gyllenhaal presumed innocent",
         "jake gyllenhaal 2026"
+      ]
+    },
+    {
+      "keyword": "sydney sweeney",
+      "slug": "sydney-sweeney",
+      "name": "Sydney Sweeney",
+      "category": "Hollywood Actors",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/sydney-sweeney",
+      "publishedAt": "2026-10-10 12:00:00",
+      "associatedTags": [
+        "sydney sweeney net worth",
+        "how old is sydney sweeney",
+        "sydney sweeney age",
+        "sydney sweeney height",
+        "sydney sweeney boyfriend scooter braun",
+        "sydney sweeney fiance jonathan davino",
+        "sydney sweeney movies and tv shows",
+        "sydney sweeney euphoria cassie",
+        "sydney sweeney white lotus",
+        "sydney sweeney anyone but you box office",
+        "how much did sydney sweeney make for anyone but you",
+        "sydney sweeney immaculate",
+        "sydney sweeney fifty fifty films",
+        "sydney sweeney the housemaid",
+        "sydney sweeney christy martin movie",
+        "sydney sweeney ford bronco mechanic",
+        "sydney sweeney florida mansion",
+        "where was sydney sweeney born",
+        "sydney sweeney emmy nominations",
+        "sydney sweeney 2026"
       ]
     }
   ],

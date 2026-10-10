@@ -356,5 +356,14 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
   }
 ],
 
+  "sydney-sweeney": [
+    {
+      "incident": "Hollywood Producer Carol Baum Public Criticism (2024)",
+      "year": "2024",
+      "resolutionOrOutcome": "In April 2024, veteran Hollywood film producer Carol Baum publicly disparaged Sweeney's acting ability and appearance during a film screening discussion. Sweeney's representatives issued a dignified statement condemning the unprovoked attack, questioning why a veteran female producer would seek to shame and tear down a hardworking peer. Industry leaders and fans rallied overwhelmingly to Sweeney's defense.",
+      "impactAnalysis": "Reinforced Sweeney's industry reputation for grace, poise, and professional maturity under public scrutiny, while exposing dated Hollywood attitudes toward young female creatives."
+    }
+  ],
+
 };
 

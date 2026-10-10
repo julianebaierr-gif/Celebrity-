@@ -566,5 +566,26 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
   }
 ],
 
+  "sydney-sweeney": [
+    {
+      "organizationOrCause": "Humane Society of the United States & Animal Rescue",
+      "focusArea": "Animal Welfare & No-Kill Shelter Support",
+      "verifiedContribution": "Direct Benefactor & Adoption Advocate",
+      "description": "Actively advocates for shelter pet adoption, providing annual financial grants to no-kill animal shelters across Washington and Southern California while championing rescue pitbull and German Shepherd care."
+    },
+    {
+      "organizationOrCause": "Women's Reproductive Health & Healthcare Access",
+      "focusArea": "Community Healthcare Education & Clinic Funding",
+      "verifiedContribution": "Philanthropic Benefactor",
+      "description": "Finances community-based women's health clinics and supports educational initiatives providing accessible reproductive healthcare services to young women in underserved rural communities."
+    },
+    {
+      "organizationOrCause": "Spokane Youth Arts & Creative Education",
+      "focusArea": "Regional Arts Grants & Youth Theater",
+      "verifiedContribution": "Endowment Grants & Local School Funding",
+      "description": "Funds youth performing arts workshops and drama programs in her hometown of Spokane, Washington, ensuring public school students have access to theater training and production equipment."
+    }
+  ],
+
 };
 
