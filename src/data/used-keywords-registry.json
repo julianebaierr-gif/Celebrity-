@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 31,
-  "lastUpdated": "2026-10-10 17:35:00",
+  "totalLocked": 32,
+  "lastUpdated": "2026-10-11 01:00:00",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -505,6 +505,47 @@
         "sydney sweeney ford bronco mechanic",
         "sydney sweeney florida mansion",
         "sydney sweeney 2026"
+      ]
+    },
+    {
+      "keyword": "michael jackson",
+      "slug": "michael-jackson",
+      "name": "Michael Jackson",
+      "category": "Music & Performing Arts",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/michael-jackson",
+      "publishedAt": "2026-10-11 01:00:00",
+      "status": "Scheduled",
+      "associatedTags": [
+        "michael jackson net worth",
+        "michael jackson estate value",
+        "michael jackson 2026",
+        "michael jackson vitiligo",
+        "did michael jackson have vitiligo",
+        "why did michael jackson turn white",
+        "michael jackson cause of death",
+        "michael jackson autopsy report",
+        "michael jackson died",
+        "michael jackson kids",
+        "michael jackson children",
+        "prince jackson",
+        "paris jackson",
+        "bigi blanket jackson",
+        "michael jackson wife",
+        "lisa marie presley michael jackson",
+        "debbie rowe michael jackson",
+        "michael jackson dad joe jackson",
+        "is michael jackson mom still alive",
+        "katherine jackson",
+        "michael jackson siblings",
+        "the jackson 5",
+        "michael jackson hair on fire",
+        "michael jackson pepsi incident",
+        "neverland ranch sycamore valley",
+        "sony michael jackson catalog deal",
+        "mijac music catalog",
+        "michael jackson 2026 biopic movie",
+        "jaafar jackson michael biopic",
+        "mj the musical"
       ]
     }
   ],

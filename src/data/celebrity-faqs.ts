@@ -900,5 +900,87 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "answer": "SYRN is a consumer lingerie and lifestyle apparel brand founded by Sydney Sweeney in 2026. The brand focuses on accessible luxury intimate apparel and swimwear designed with female comfort and vintage aesthetics in mind."
     }
   ],
+  "michael-jackson": [
+  {
+    "question": "What is Michael Jackson's verified net worth and estate valuation in 2026?",
+    "answer": "Michael Jackson's estate holds a certified trade valuation of $2.0 Billion USD in 2026. While Jackson faced roughly $500 million in debt at the time of his passing in 2009 due to leveraged loans against his music copyrights, estate executors John Branca and John McClain engineered a historic financial turnaround. The estate's valuation is anchored by a landmark 2024–2026 deal with Sony Music Group, which acquired a 50% stake in his recorded music and Mijac Music publishing assets at a valuation surpassing $1.2 billion, yielding over $600 million in cash. Combined with perennial streaming royalties, theatrical receipts, and merchandise sales, the estate generates over $100 million annually."
+  },
+  {
+    "question": "When did Michael Jackson die and what was the official cause of death?",
+    "answer": "Michael Jackson passed away on June 25, 2009, at age 50, at his leased mansion on North Carolwood Drive in Holmby Hills, Los Angeles. The Los Angeles County Coroner certified his death as a homicide resulting from acute propofol intoxication compounded by the effect of benzodiazepines (lorazepam and midazolam). Jackson's personal physician, Dr. Conrad Murray, had administered the surgical anesthetic to treat chronic insomnia during strenuous rehearsals for his planned 'This Is It' concert residency at London's O2 Arena. Murray was subsequently convicted of involuntary manslaughter in 2011 and sentenced to four years in prison."
+  },
+  {
+    "question": "Did Michael Jackson have vitiligo or why did his skin turn white?",
+    "answer": "Yes, Michael Jackson was clinically diagnosed with vitiligo, an autoimmune condition where the immune system destroys melanocytes, causing irregular loss of skin pigmentation. First diagnosed in the mid-1980s by his dermatologist Dr. Arnold Klein, Jackson publicly clarified his condition during his landmark 1993 televised interview with Oprah Winfrey. The 2009 official Los Angeles County Coroner autopsy report independently confirmed that Jackson suffered from systemic vitiligo, noting visible depigmentation across his chest, arms, face, and abdomen. Jackson utilized specialized medical makeup and clinical depigmentation treatments to even out the contrasting patches across his body."
+  },
+  {
+    "question": "Who are Michael Jackson's three children and who are their mothers?",
+    "answer": "Michael Jackson had three children: Michael Joseph Jackson Jr. (known as Prince, born February 13, 1997), Paris-Michael Katherine Jackson (born April 3, 1998), and Prince Michael Jackson II (known as Bigi, formerly Blanket, born February 21, 2002). Prince and Paris were born during Jackson's marriage to dermatology nurse Debbie Rowe. Bigi was born via an undisclosed surrogate mother. All three children were raised at Neverland Valley Ranch and are primary beneficiaries of the Michael Jackson Family Trust alongside their grandmother Katherine Jackson."
+  },
+  {
+    "question": "What happened during the 1984 Pepsi commercial accident?",
+    "answer": "On January 27, 1984, during the filming of a Pepsi commercial before 3,000 fans at the Shrine Auditorium in Los Angeles, pyrotechnics accidentally discharged early during a simulated concert performance of 'Billie Jean'. Sparks ignited Jackson's hair, resulting in severe second- and third-degree burns across his scalp. Jackson was rushed to Cedars-Sinai Medical Center and later transferred to Brotman Memorial Hospital. Pepsi paid a $1.5 million settlement, which Jackson used to equip the Michael Jackson Burn Center. The accident initiated decades of chronic pain, reconstructive surgeries, and reliance on prescription analgesics."
+  },
+  {
+    "question": "Who was Michael Jackson married to throughout his life?",
+    "answer": "Michael Jackson was married twice. He married singer-songwriter Lisa Marie Presley, the only daughter of Elvis Presley, on May 26, 1994, in the Dominican Republic. The high-profile union captured international headlines before ending in an amicable divorce in August 1996. Later that year, on November 14, 1996, Jackson married dermatology nurse Deborah Jeanne Rowe in Sydney, Australia. The couple had two children together (Prince and Paris) before divorcing in October 1999, with Rowe granting Jackson full legal custody."
+  },
+  {
+    "question": "How many siblings did Michael Jackson have and who was in The Jackson 5?",
+    "answer": "Michael Jackson was one of ten children born to Katherine and Joseph Jackson in Gary, Indiana. His siblings include Maureen (Rebbie), Sigmund (Jackie), Toriano (Tito, who passed away in September 2024), Jermaine, La Toya, Marlon, Brandon (who died at birth in 1957), Steven (Randy), and Janet Jackson. The Jackson 5 originally featured Jackie, Tito, Jermaine, Marlon, and Michael as the lead singer, rising to fame on Motown Records in 1969 with four consecutive Billboard Number One singles."
+  },
+  {
+    "question": "What is the 2026 Lionsgate biopic 'Michael' and who portrays him?",
+    "answer": "The biographical feature film 'Michael' is a major Hollywood theatrical production produced by Lionsgate and distributed internationally by Universal Pictures. Directed by Antoine Fuqua and produced by Graham King ('Bohemian Rhapsody') with a screenplay by John Logan, the film stars Jaafar Jackson, Michael's real-life nephew (son of Jermaine Jackson), who embodies his uncle's vocals, physical movements, and stage mannerisms. The cast features Oscar nominee Colman Domingo as Joe Jackson, Nia Long as Katherine Jackson, and Miles Teller as estate attorney John Branca."
+  },
+  {
+    "question": "What were the details of the landmark Sony Music catalog deal?",
+    "answer": "Finalized ahead of 2026, Sony Music Group acquired a 50% ownership stake in Michael Jackson's recorded music catalog and his publishing entity Mijac Music for an estimated $600 million or more. The transaction valued Jackson's core music assets at more than $1.2 billion, representing the largest single-artist catalog valuation in recording history. The agreement preserves the estate's remaining 50% equity and governance over his likeness, while excluding theatrical receipts from Broadway and Las Vegas stage ventures."
+  },
+  {
+    "question": "What happened to Michael Jackson's Neverland Ranch?",
+    "answer": "Neverland Valley Ranch, a 2,700-acre estate located in Los Olivos, California, served as Jackson's primary residence from 1988 until 2005. Following the 2005 criminal trial, Jackson chose never to reside there again. Investment firm Colony Capital acquired a controlling stake in the debt-burdened property in 2008. In December 2020, American billionaire businessman Ron Burkle, a longtime family associate, purchased the renamed Sycamore Valley Ranch for $22 million, restoring the grounds and preserving its historic structures."
+  },
+  {
+    "question": "Are Michael Jackson's parents, Joe and Katherine Jackson, still alive?",
+    "answer": "Katherine Jackson, born May 4, 1930, is the living matriarch of the Jackson family and celebrated her 96th birthday in 2026 as a primary lifetime beneficiary of the Michael Jackson Family Trust. Joseph 'Joe' Jackson, the patriarch and architect of The Jackson 5, passed away from terminal cancer on June 27, 2018, at the age of 89 in Las Vegas, Nevada."
+  },
+  {
+    "question": "How many studio albums did Michael Jackson release and how many copies did 'Thriller' sell?",
+    "answer": "Michael Jackson released ten solo studio albums during his lifetime: 'Got to Be There' (1972), 'Ben' (1972), 'Music & Me' (1973), 'Forever, Michael' (1975), 'Off the Wall' (1979), 'Thriller' (1982), 'Bad' (1987), 'Dangerous' (1991), 'HIStory' (1995), and 'Invincible' (2001). Two posthumous studio albums followed: 'Michael' (2010) and 'Xscape' (2014). 'Thriller' remains the best-selling album in worldwide music history, with certified sales exceeding 70 million copies globally and 34x Platinum RIAA certification in the United States."
+  },
+  {
+    "question": "What were Michael Jackson's final words and what occurred during his last hours?",
+    "answer": "According to sworn court testimony during the 2011 involuntary manslaughter trial of Dr. Conrad Murray, Jackson's final words were a plea for 'milk', his personal slang term for the white, intravenous anesthetic propofol. After rehearsing late into the night at the Staples Center for his 'This Is It' concert residency, Jackson struggled with severe insomnia and requested sedation to sleep before upcoming morning rehearsals, leading to the fatal dose administered at his Carolwood Drive bedroom."
+  },
+  {
+    "question": "Did Michael Jackson own the Beatles' music publishing catalog?",
+    "answer": "Yes, in August 1985, Michael Jackson purchased ATV Music for $47.5 million against the counsel of his business managers, acquiring the publishing copyrights to approximately 250 Beatles songs written by John Lennon and Paul McCartney. In 1995, Jackson merged ATV with Sony Music to form Sony/ATV Music Publishing, receiving $110 million upfront and a 50% equity stake. In 2016, seven years after his passing, his estate sold its remaining 50% interest to Sony for $750 million, securing massive liquidity for his heirs."
+  },
+  {
+    "question": "How tall was Michael Jackson and what were his physical measurements?",
+    "answer": "Michael Jackson stood 5 feet 9 inches (175 cm) tall. During his peak touring eras, he maintained an athletic, lean dancer's frame, typically weighing between 130 and 136 pounds (59 to 62 kg) through intense daily choreography routines, vegetarian dietary habits, and stamina training."
+  },
+  {
+    "question": "What major awards and Guinness World Records did Michael Jackson win?",
+    "answer": "Michael Jackson earned 13 Grammy Awards, the Grammy Legend Award, and the Grammy Lifetime Achievement Award. In 1984, he set an all-time record by winning eight Grammy Awards in a single evening for 'Thriller'. He was inducted twice into the Rock and Roll Hall of Fame (as a member of The Jackson 5 in 1997 and as a solo artist in 2001), collected 26 American Music Awards, and held multiple Guinness World Records, including Most Successful Entertainer of All Time."
+  },
+  {
+    "question": "What is 'MJ: The Musical' and where is it staged in 2026?",
+    "answer": "'MJ: The Musical' is a jukebox theatrical production conceived by Tony Award-winning playwright Lynn Nottage and director-choreographer Christopher Wheeldon, focusing on Jackson's creative rehearsal process ahead of the 1992 Dangerous World Tour. Debuting on Broadway at the Neil Simon Theatre in 2022, the show won four Tony Awards and expanded globally into extended resident runs in London's West End, Germany, and ongoing North American touring companies through 2026."
+  },
+  {
+    "question": "What is the Cirque du Soleil show 'Michael Jackson ONE' in Las Vegas?",
+    "answer": "'Michael Jackson ONE' is an ongoing permanent theatrical residency created by Cirque du Soleil in partnership with the Michael Jackson estate, staged at Mandalay Bay Resort and Casino in Las Vegas. Combining aerial acrobatics, immersive audio technology, visual effects, and Jackson's signature choreography, the show has performed to millions of visitors since opening in 2013 and remains a major revenue contributor to the estate."
+  },
+  {
+    "question": "Who manages the Michael Jackson estate and how was his debt resolved?",
+    "answer": "The estate is administered by longtime entertainment attorney John Branca and veteran music executive John McClain, who were designated as co-executors in Jackson's verified 2002 legal will and estate directive. At the time of his 2009 passing, Jackson carried approximately $500 million in debt. The executors resolved creditor obligations by licensing the concert documentary 'This Is It', refinancing bank loans, monetizing Sony/ATV equity, and structuring long-term IP partnerships, creating a financial surplus of over $1 billion for his beneficiaries."
+  },
+  {
+    "question": "Why is Michael Jackson universally celebrated as the King of Pop?",
+    "answer": "Michael Jackson earned the title 'King of Pop' for transforming the sound, visual presentation, and global distribution of popular music. He shattered racial barriers on MTV with groundbreaking cinematic short films for 'Billie Jean', 'Beat Teaser', and 'Thriller', popularized dance movements including the moonwalk and the anti-gravity lean, and established the modern stadium pop concert blueprint. His work remains the gold standard for global pop performance and songwriting architecture."
+  }
+],
 
 };

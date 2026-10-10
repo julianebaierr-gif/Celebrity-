@@ -586,6 +586,25 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       "description": "Funds youth performing arts workshops and drama programs in her hometown of Spokane, Washington, ensuring public school students have access to theater training and production equipment."
     }
   ],
+  "michael-jackson": [
+  {
+    "organizationOrCause": "Heal the World Foundation",
+    "focusArea": "Pediatric Healthcare, War Relief & Global Child Welfare",
+    "verifiedContribution": "$100 Million+ Global Aid & Relief Shipments",
+    "description": "Founded in 1992 by Jackson to provide medicine, winter relief supplies, and educational materials to children in war-torn regions like Sarajevo, Bosnia."
+  },
+  {
+    "organizationOrCause": "USA for Africa ('We Are the World')",
+    "focusArea": "Famine Relief & Humanitarian Assistance in Africa",
+    "verifiedContribution": "$63 Million+ Direct Charitable Revenue",
+    "description": "Co-wrote the historic 1985 charity single with Lionel Richie, uniting 45 music stars and funneling all proceeds to famine relief programs across Ethiopia and Sudan."
+  },
+  {
+    "organizationOrCause": "Guinness World Record for Philanthropic Support",
+    "focusArea": "Support for 39+ Global Charitable Institutions",
+    "verifiedContribution": "$300 Million+ Lifetime Personal Giving",
+    "description": "Honored by Guinness World Records for personally supporting and funding the highest number of non-profit charitable organizations by any solo recording artist in modern history."
+  }
+],
 
 };
-

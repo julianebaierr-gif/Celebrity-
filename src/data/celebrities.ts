@@ -6092,6 +6092,244 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-10T17:35:00.000Z",
       "readingTimeMinutes": 8
     }
+  },
+  {
+    "slug": "michael-jackson",
+    "name": "Michael Jackson",
+    "primaryKeyword": "michael jackson",
+    "secondaryKeywords": [
+      "michael jackson net worth",
+      "michael jackson estate value",
+      "michael jackson 2026",
+      "michael jackson vitiligo",
+      "did michael jackson have vitiligo",
+      "why did michael jackson turn white",
+      "michael jackson cause of death",
+      "michael jackson autopsy report",
+      "michael jackson died",
+      "michael jackson kids",
+      "michael jackson children",
+      "prince jackson",
+      "paris jackson",
+      "bigi blanket jackson",
+      "michael jackson wife",
+      "lisa marie presley michael jackson",
+      "debbie rowe michael jackson",
+      "michael jackson dad joe jackson",
+      "is michael jackson mom still alive",
+      "katherine jackson",
+      "michael jackson siblings",
+      "the jackson 5",
+      "michael jackson hair on fire",
+      "michael jackson pepsi incident",
+      "neverland ranch sycamore valley",
+      "sony michael jackson catalog deal",
+      "mijac music catalog",
+      "michael jackson 2026 biopic movie",
+      "jaafar jackson michael biopic",
+      "mj the musical"
+    ],
+    "headline": "King of Pop, Global Cultural Icon & Multi-Billion Dollar Music Estate",
+    "category": "music",
+    "silo": "Music & Performing Arts",
+    "searchVolume": 3500000,
+    "kd": 12,
+    "cpc": 0.25,
+    "heroImage": "/images/celebrities/michael-jackson-hero.webp",
+    "heroImageCaption": "Michael Jackson official portrait during the Thriller era in 1983. Photo: Epic Records / Matthew Rolston.",
+    "heroImageLicense": "Public Domain / Wikimedia Commons",
+    "contentImage": "/images/celebrities/michael-jackson-content.webp",
+    "contentImageCaption": "Michael Jackson displaying a record eight Grammy Awards won in a single evening in February 1984. Photo: United Press International.",
+    "contentImageLicense": "Public Domain / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Michael Joseph Jackson (1958–2009) was an iconic American singer, songwriter, and dancer recognized globally as the King of Pop. Through historic achievements including Thriller—the best-selling album in human history—pioneering MTV cinematic short films, and his signature moonwalk, Jackson revolutionized contemporary music and entertainment architecture. In 2026, his estate is valued at $2.0 Billion USD following a landmark $600M+ Sony Music catalog transaction, ongoing global productions of MJ: The Musical, and the Lionsgate biographical feature film Michael.",
+    "quickFacts": {
+      "fullName": "Michael Joseph Jackson",
+      "netWorth": "$2.0 Billion USD (Estate Valuation & Sony Catalog Sale)",
+      "primaryRole": "Singer-Songwriter, Producer & Cultural Icon",
+      "birthDate": "August 29, 1958",
+      "birthPlace": "Gary, Indiana, United States",
+      "deathDate": "June 25, 2009",
+      "isDeceased": true,
+      "age": 50,
+      "height": "5 ft 9 in (175 cm)",
+      "activeYears": "1964–2009 (Posthumous Releases Active Through 2026)",
+      "knownFor": "Thriller (Best-Selling Album in History), Moonwalk, 13 Grammy Awards, Pop Music Architecture",
+      "education": "Montclair College Preparatory School"
+    },
+    "metrics": [
+      {
+        "label": "Thriller Certified Global Sales",
+        "value": "70+ Million Copies",
+        "benchmark": "Best-Selling Studio Album in Worldwide History",
+        "verifiedSource": "Guinness World Records / RIAA"
+      },
+      {
+        "label": "Grammy Awards Won in One Night",
+        "value": "8 Grammy Awards (1984)",
+        "benchmark": "All-Time Record for a Single Ceremony",
+        "verifiedSource": "The Recording Academy"
+      },
+      {
+        "label": "Sony Music Catalog Transaction",
+        "value": "$600+ Million USD (50% Stake)",
+        "benchmark": "Largest Single-Artist Catalog Valuation ($1.2B+)",
+        "verifiedSource": "Billboard / Sony Music Group"
+      },
+      {
+        "label": "Certified Posthumous Estate Earnings",
+        "value": "$2.0+ Billion USD",
+        "benchmark": "Highest Posthumous Entertainment Revenue in History",
+        "verifiedSource": "Forbes / Estate Accounting Disclosures"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "1969",
+        "title": "The Jackson 5 Motown Debut & Four Number One Singles",
+        "description": "Scored four consecutive debut Billboard Number One hits with I Want You Back, ABC, The Love You Save, and I'll Be There."
+      },
+      {
+        "year": "1979",
+        "title": "Off the Wall Solo Breakthrough With Quincy Jones",
+        "description": "Released landmark solo album generating four Top 10 Billboard singles and selling over 20 million copies worldwide."
+      },
+      {
+        "year": "1982",
+        "title": "Thriller Phenomenon, 8 Grammys & The Motown 25 Moonwalk",
+        "description": "Crafted the best-selling album in music history (70M+ copies), won eight Grammy Awards in one night, and unveiled the moonwalk."
+      },
+      {
+        "year": "1985",
+        "title": "Historic $47.5M Acquisition of ATV Beatles Catalog",
+        "description": "Purchased ATV Music publishing catalog containing 250 Beatles songs, outbidding corporate media conglomerates."
+      },
+      {
+        "year": "1987",
+        "title": "Bad World Tour Sets Solo Stadium Records",
+        "description": "Scored five consecutive Billboard No. 1 singles from Bad and performed to 4.4 million fans across 15 countries."
+      },
+      {
+        "year": "2026",
+        "title": "Posthumous $2B Estate Valuation & Sony Catalog Buyout",
+        "description": "Estate achieved multi-billion dollar valuation following historic $600M+ Sony Music catalog deal and 2026 biopic launch."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Thriller",
+        "year": 1982,
+        "role": "Solo Studio Album (Lead Artist & Songwriter)",
+        "type": "Album",
+        "rating": 9.8,
+        "boxOfficeOrNetwork": "70M+ Copies Sold (Best-Selling Album in History)"
+      },
+      {
+        "title": "Bad",
+        "year": 1987,
+        "role": "Solo Studio Album (Lead Artist & Songwriter)",
+        "type": "Album",
+        "rating": 9.5,
+        "boxOfficeOrNetwork": "35M+ Copies Sold / 5x Billboard No. 1s"
+      },
+      {
+        "title": "Dangerous",
+        "year": 1991,
+        "role": "Solo Studio Album (Lead Artist & Co-Producer)",
+        "type": "Album",
+        "rating": 9.2,
+        "boxOfficeOrNetwork": "32M+ Copies Sold Worldwide"
+      },
+      {
+        "title": "Off the Wall",
+        "year": 1979,
+        "role": "Solo Studio Album (Lead Artist)",
+        "type": "Album",
+        "rating": 9.4,
+        "boxOfficeOrNetwork": "20M+ Copies Sold Worldwide"
+      },
+      {
+        "title": "HIStory: Past, Present and Future, Book I",
+        "year": 1995,
+        "role": "Double Studio Album (Lead Artist)",
+        "type": "Album",
+        "rating": 9,
+        "boxOfficeOrNetwork": "20M+ Copies Sold (Best-Selling Multi-Disc Album)"
+      },
+      {
+        "title": "Michael Jackson's Thriller (Short Film)",
+        "year": 1983,
+        "role": "Self / Werecat / Zombie (Dir. John Landis)",
+        "type": "Movie",
+        "rating": 9.6,
+        "boxOfficeOrNetwork": "Library of Congress National Film Registry"
+      },
+      {
+        "title": "Moonwalker",
+        "year": 1988,
+        "role": "Michael / Executive Producer",
+        "type": "Movie",
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "$67M+ Box Office & Home Video Sales"
+      },
+      {
+        "title": "Michael Jackson's This Is It",
+        "year": 2009,
+        "role": "Self (Posthumous Concert Film)",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "$261.2M Box Office (Highest-Grossing Concert Doc)"
+      },
+      {
+        "title": "The Wiz",
+        "year": 1978,
+        "role": "Scarecrow",
+        "type": "Movie",
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "Universal Pictures / Motown"
+      },
+      {
+        "title": "Michael (2026 Biopic)",
+        "year": 2026,
+        "role": "Subject (Portrayed by Jaafar Jackson / Antoine Fuqua)",
+        "type": "Movie",
+        "rating": 8.8,
+        "boxOfficeOrNetwork": "Lionsgate / Universal Pictures Feature"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Archived Marital Record (Previously Married)",
+      "datingHistorySummary": "Michael Jackson was married twice. He married Lisa Marie Presley, singer-songwriter and daughter of Elvis Presley, on May 26, 1994, in the Dominican Republic; the marriage ended in divorce in August 1996. He subsequently married dermatology nurse Deborah Jeanne Rowe on November 14, 1996, in Sydney, Australia. The couple had two children together—Michael Joseph Jackson Jr. (Prince) and Paris-Michael Katherine Jackson—before divorcing in October 1999 with Jackson retaining full custody. In 2002, Jackson welcomed his third child, Prince Michael Jackson II (Bigi, formerly Blanket), via an undisclosed surrogate mother.",
+      "partners": [
+        {
+          "name": "Lisa Marie Presley",
+          "relationType": "Former Wife",
+          "years": "1994–1996",
+          "profession": "Singer-Songwriter & Cultural Heiress",
+          "summary": "Married in the Dominican Republic in May 1994; divorced amicably in August 1996."
+        },
+        {
+          "name": "Deborah Rowe",
+          "relationType": "Former Wife",
+          "years": "1996–1999",
+          "profession": "Dermatology Nurse",
+          "summary": "Married in Sydney, Australia; mother of Prince and Paris Jackson; divorced in 1999 with Jackson granted full custody."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm0001391/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Michael_Jackson",
+      "wikidata": "https://www.wikidata.org/wiki/Q2831"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Music & Industry Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-11T01:00:00.000Z",
+      "lastUpdated": "2026-10-11T01:00:00.000Z",
+      "readingTimeMinutes": 9
+    }
   }
 ];
 

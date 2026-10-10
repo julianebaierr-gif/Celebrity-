@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-10T17:25:00.000Z",
-  "totalUniqueImages": 67,
+  "lastUpdated": "2026-10-10T17:55:00.000Z",
+  "totalUniqueImages": 69,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -492,6 +492,22 @@
       "pageSlug": "sydney-sweeney",
       "assignedAt": "2026-10-10T12:00:00.000Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_01_%283x4_cropped_and_rotated%29.jpg"
+    },
+    "/images/celebrities/michael-jackson-hero.webp": {
+      "filePath": "/images/celebrities/michael-jackson-hero.webp",
+      "entity": "michael-jackson",
+      "placement": "profile_hero",
+      "pageSlug": "michael-jackson",
+      "assignedAt": "2026-10-10T17:55:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg"
+    },
+    "/images/celebrities/michael-jackson-content.webp": {
+      "filePath": "/images/celebrities/michael-jackson-content.webp",
+      "entity": "michael-jackson",
+      "placement": "profile_content",
+      "pageSlug": "michael-jackson",
+      "assignedAt": "2026-10-10T17:55:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Michael_Jackson_with_Grammy_Awards_in_1984.jpg"
     }
   }
 }

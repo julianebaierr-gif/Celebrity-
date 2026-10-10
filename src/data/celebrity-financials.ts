@@ -2867,6 +2867,136 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       }
     ]
   },
+  "michael-jackson": {
+  "salaryMilestones": [
+    {
+      "project": "Off the Wall Album & Singles",
+      "year": 1979,
+      "salary": "$15.0 Million USD (Royalties & Publishing)",
+      "boxOfficeOrBudget": "20+ Million Copies Sold Worldwide",
+      "notes": "First solo project with Quincy Jones yielding four Top 10 Billboard singles and establishing solo royalty parity."
+    },
+    {
+      "project": "Thriller Album & Video Phenomenon",
+      "year": 1982,
+      "salary": "$134.0 Million USD (Direct 1980s Era Royalties)",
+      "boxOfficeOrBudget": "70+ Million Copies Sold (Best-Selling Album in History)",
+      "notes": "Negotiated record-setting $2.00 per album royalty rate with Epic Records, unprecedented for any recording artist."
+    },
+    {
+      "project": "Victory Tour (The Jacksons)",
+      "year": 1984,
+      "salary": "$36.0 Million USD Gross Touring Receipts",
+      "boxOfficeOrBudget": "2 Million Attendees Across 55 Stadium Dates",
+      "notes": "Jackson donated his entire personal performance earnings from the stadium tour to designated charitable causes."
+    },
+    {
+      "project": "Bad World Tour",
+      "year": 1987,
+      "salary": "$125.0 Million USD Gross Receipts",
+      "boxOfficeOrBudget": "4.4 Million Attendees (First True Solo Stadium Tour)",
+      "notes": "Set Guinness World Records for the highest-grossing solo concert tour in history during its 16-month run."
+    },
+    {
+      "project": "Dangerous World Tour",
+      "year": 1992,
+      "salary": "$140.0 Million USD Gross Receipts",
+      "boxOfficeOrBudget": "3.5 Million Attendees Across 69 International Concerts",
+      "notes": "Broadcast live HBO special from Bucharest achieved record-breaking international cable viewership."
+    },
+    {
+      "project": "Sony / ATV Music Publishing Historic Merger",
+      "year": 1995,
+      "salary": "$110.0 Million USD Upfront Cash + 50% Equity",
+      "boxOfficeOrBudget": "Joint Venture Valued at Billions in Catalog Rights",
+      "notes": "Combined his 1985 ATV Music catalog (including Beatles copyrights) with Sony Music in an unprecedented publishing union."
+    },
+    {
+      "project": "Sony Music Posthumous Catalog Buyout",
+      "year": 2026,
+      "salary": "$600.0 Million+ USD for 50% Stake",
+      "boxOfficeOrBudget": "$1.2+ Billion USD Catalog Valuation",
+      "notes": "Historic acquisition of 50% interest in Jackson's recorded master rights and Mijac publishing rights by Sony Music Group."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Neverland Valley Ranch (Sycamore Valley Ranch)",
+      "location": "Santa Barbara County, California",
+      "purchasedYear": "1988",
+      "purchasePrice": "$19.5 Million USD",
+      "currentEstimatedValue": "$35.0 Million USD",
+      "description": "2,700-acre pastoral estate featuring a 12,000-sq-ft mansion, private railway, movie theater, and expansive agricultural grounds."
+    },
+    {
+      "property": "Hayvenhurst Jackson Family Compound",
+      "location": "Encino, Los Angeles, California",
+      "purchasedYear": "1971",
+      "purchasePrice": "$250,000 USD (Original Family Purchase)",
+      "currentEstimatedValue": "$18.5 Million USD",
+      "description": "Two-acre private compound featuring an English Tudor main residence, recording studio, and screening pavilion preserved by the estate."
+    },
+    {
+      "property": "Carolwood Drive Leased Estate",
+      "location": "Holmby Hills, Los Angeles, California",
+      "purchasedYear": "2008",
+      "purchasePrice": "$100,000 / Month Lease (Sold Post-2009 for $18.1M)",
+      "currentEstimatedValue": "$24.0 Million USD Private Residence",
+      "description": "French chateau-style residence designed by Richard Landry spanning 17,000 sq ft where Jackson resided during This Is It tour rehearsals."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Mijac Music Publishing",
+      "role": "Sole Founder & Catalog Owner",
+      "valuationOrRevenue": "$450M+ Historical IP Asset Value",
+      "description": "Founded in 1980; houses Jackson's own songwriting catalog along with classic copyrights by Sly and the Family Stone, Ray Charles, and Elvis Presley."
+    },
+    {
+      "name": "Sony/ATV Music Publishing (50% Historic Partnership)",
+      "role": "Co-Owner & Strategic Investor",
+      "valuationOrRevenue": "$750 Million USD Estate Sale in 2016",
+      "description": "Acquired ATV for $47.5M in 1985 against industry advice; Sony bought out the estate's remaining 50% stake in 2016 for $750M."
+    },
+    {
+      "name": "MJ: The Musical & Cirque du Soleil Entertainment",
+      "role": "Estate Licensed Theatrical Properties",
+      "valuationOrRevenue": "$180M+ Cumulative Box Office Revenue",
+      "description": "Tony Award-winning Broadway musical and Las Vegas resident production Michael Jackson ONE generating perpetual licensing cash flows."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "1970s",
+      "estimatedNetWorth": "$10.0 Million USD",
+      "milestoneDescription": "Motown breakout with The Jackson 5 followed by landmark solo transition via Off the Wall."
+    },
+    {
+      "period": "1980s",
+      "estimatedNetWorth": "$250.0 Million USD",
+      "milestoneDescription": "Thriller global explosion, Pepsi multi-million sponsorship, and visionary $47.5M ATV Beatles catalog acquisition."
+    },
+    {
+      "period": "1990s",
+      "estimatedNetWorth": "$450.0 Million USD",
+      "milestoneDescription": "Historic 1991 Sony $65M multi-album contract, Dangerous World Tour, and 1995 Sony/ATV joint venture."
+    },
+    {
+      "period": "2000s",
+      "estimatedNetWorth": "$100.0 Million USD (Liquid Deficit Against Massive Assets)",
+      "milestoneDescription": "Severe debt from loans secured against ATV catalog alongside paused touring prior to 2009 passing."
+    },
+    {
+      "period": "2010s",
+      "estimatedNetWorth": "$1.2 Billion USD",
+      "milestoneDescription": "Posthumous financial turnaround orchestrated by estate executors John Branca and John McClain through music ventures and catalog sales."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$2.0 Billion USD",
+      "milestoneDescription": "Certified valuation supported by $600M Sony catalog buyout, streaming royalty longevity, and upcoming Lionsgate biopic."
+    }
+  ]
+},
 
 };
-

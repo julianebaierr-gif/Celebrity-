@@ -364,6 +364,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       "impactAnalysis": "Reinforced Sweeney's industry reputation for grace, poise, and professional maturity under public scrutiny, while exposing dated Hollywood attitudes toward young female creatives."
     }
   ],
+  "michael-jackson": [
+  {
+    "incident": "Santa Barbara Criminal Trial & Complete Legal Acquittal (2005)",
+    "year": "2005",
+    "resolutionOrOutcome": "Following years of tabloid focus and an extensive multi-month trial in Santa Maria, California, an American jury acquitted Michael Jackson on all 14 criminal counts on June 13, 2005.",
+    "impactAnalysis": "While legally exonerated of all allegations, the prolonged public pressure and international scrutiny deeply damaged Jackson's physical health, leading him to relocate abroad to Bahrain and Ireland to recover."
+  },
+  {
+    "incident": "1984 Pepsi Pyrotechnic Accident & Lifelong Scalp Trauma",
+    "year": "1984",
+    "resolutionOrOutcome": "During filming for a commercial at the Shrine Auditorium in Los Angeles, faulty pyrotechnics ignited Jackson's hair, causing severe second- and third-degree scalp burns. Pepsi settled the incident for $1.5 million, which Jackson immediately donated to establish the Michael Jackson Burn Center.",
+    "impactAnalysis": "The physical trauma required repeated scalp reconstructive surgeries and initiated Jackson's long-term reliance on prescription pain medications that impacted his health over subsequent decades."
+  }
+],
 
 };
-
