@@ -828,6 +828,14 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "answer": "Sydney Sweeney was born on September 12, 1997, in Spokane, Washington, making her 29 years old."
     },
     {
+      "question": "Is Sydney Sweeney married or does she have a husband?",
+      "answer": "No, Sydney Sweeney is not married and does not have a husband. She was previously in a long-term relationship and engaged to Chicago businessman and producer Jonathan Davino, whom she began dating in 2018 and got engaged to in 2022. The couple amicably ended their engagement in early 2025. In mid-2026, Sweeney confirmed she is dating music executive Scooter Braun. Sweeney has no children."
+    },
+    {
+      "question": "Who is Sydney Sweeney dating in 2026?",
+      "answer": "Sydney Sweeney is dating music executive and media investor Scooter Braun, with the couple confirming their relationship in mid-2026 after attending events together in Europe, including the Venice International Film Festival. Previously, Sweeney was engaged to Chicago businessman Jonathan Davino from 2018 until early 2025."
+    },
+    {
       "question": "How did Sydney Sweeney convince her parents to let her pursue acting?",
       "answer": "At age twelve, when an independent film auditioned in Spokane, Sweeney created an elaborate five-year business presentation on poster boards for her parents. The presentation outlined career milestones, audition logistics, and financial plans, convincing her parents to support her dream."
     },
@@ -836,8 +844,20 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "answer": "Sydney Sweeney earned a $2.0 Million base salary plus a $250,000 executive producer fee for 'Anyone But You' (2023). Following the romantic comedy's runaway box office triumph of over $220.2 Million, her negotiated backend profit points generated total personal earnings exceeding $6.0 Million USD."
     },
     {
-      "question": "Who is Sydney Sweeney dating in 2026?",
-      "answer": "Sydney Sweeney is dating music executive and media investor Scooter Braun, with the couple confirming their relationship in mid-2026 after attending events together in Europe, including the Venice International Film Festival. Previously, Sweeney was engaged to Chicago businessman Jonathan Davino from 2018 until early 2025."
+      "question": "Who did Sydney Sweeney play in The White Lotus and is she returning for Season 3?",
+      "answer": "Sydney Sweeney played Olivia Mossbacher, a sharp-tongued, cynical college sophomore, in Season 1 of HBO's critically acclaimed anthology series 'The White Lotus' (2021). Her deadpan satirical performance earned her an Emmy nomination for Outstanding Supporting Actress. Because each season of 'The White Lotus' features a fresh vacationing ensemble, Sweeney did not appear in Season 2 (set in Sicily) and is not part of the main ensemble for Season 3 (set in Thailand)."
+    },
+    {
+      "question": "What is Sydney Sweeney's family background, parents, and ethnicity?",
+      "answer": "Sydney Sweeney was born and raised in Spokane, Washington, near the Idaho border. She is of European heritage, primarily German and Irish descent. Her mother, Lisa Mudd, is a former criminal defense lawyer, and her father, Steven Sweeney, worked in hospitality. Sweeney does not have a sister; she has one younger brother, Trent Sweeney. She is not related to Epic Games founder Tim Sweeney or actor Joseph Sweeney."
+    },
+    {
+      "question": "When does The Housemaid movie come out and who is in the cast with Sydney Sweeney?",
+      "answer": "Lionsgate's feature adaptation of Freida McFadden's bestselling psychological thriller 'The Housemaid' is directed by Paul Feig. Sydney Sweeney headlines the film as Millie, a struggling young woman hired as a housemaid for a wealthy family with dark secrets. The cast features Amanda Seyfried as Nina Winchester and Michele Morrone as Andrew Winchester. Scheduled for a major global theatrical release in 2026, the film is produced by Todd Lieberman and Sweeney through Fifty-Fifty Films."
+    },
+    {
+      "question": "What was Sydney Sweeney's role in the Netflix series Everything Sucks!?",
+      "answer": "In 2018, Sydney Sweeney starred as high school drama star Emaline Addario in the Netflix comedy-drama series 'Everything Sucks!', set in the 1990s in Boring, Oregon. Her sensitive performance exploring teenage sexual identity gained a loyal cult following and served as an important stepping stone before her back-to-back breakthroughs in 'The Handmaid's Tale', 'Sharp Objects', and 'Euphoria'."
     },
     {
       "question": "What is Sydney Sweeney's production company Fifty-Fifty Films?",
@@ -882,4 +902,3 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   ],
 
 };
-
