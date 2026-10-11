@@ -20,6 +20,27 @@ function mergeProfileWithOverrides(
   overrides?: Partial<CelebrityProfile>
 ): CelebrityProfile {
   if (!overrides) return profile;
+
+  // Smart merge career milestones: keep new overrides at the top, but ALWAYS retain all original profile milestones!
+  let combinedMilestones = profile.careerMilestones;
+  if (overrides.careerMilestones && overrides.careerMilestones.length > 0) {
+    const seen = new Set<string>();
+    const merged: typeof profile.careerMilestones = [];
+    for (const m of overrides.careerMilestones) {
+      if (!seen.has(m.title)) {
+        seen.add(m.title);
+        merged.push(m);
+      }
+    }
+    for (const m of profile.careerMilestones || []) {
+      if (!seen.has(m.title)) {
+        seen.add(m.title);
+        merged.push(m);
+      }
+    }
+    combinedMilestones = merged;
+  }
+
   return {
     ...profile,
     ...overrides,
@@ -32,7 +53,7 @@ function mergeProfileWithOverrides(
       ...(overrides.relationshipProfile || {}),
       partners: overrides.relationshipProfile?.partners || profile.relationshipProfile?.partners,
     },
-    careerMilestones: overrides.careerMilestones || profile.careerMilestones,
+    careerMilestones: combinedMilestones,
     filmography: overrides.filmography || profile.filmography,
     metrics: overrides.metrics || profile.metrics,
     editorialMetadata: {
