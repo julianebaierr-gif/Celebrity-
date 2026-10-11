@@ -336,7 +336,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0000347/",
       "wikipedia": "https://en.wikipedia.org/wiki/Tim_Curry",
-      "wikidata": "https://www.wikidata.org/wiki/Q52392"
+      "wikidata": "https://www.wikidata.org/wiki/Q5299"
     },
     "editorialMetadata": {
       "authorName": "Sarah Jenkins",
@@ -660,7 +660,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "imdb": "https://www.imdb.com/name/nm3918035/",
       "wikipedia": "https://en.wikipedia.org/wiki/Zendaya",
       "wikidata": "https://www.wikidata.org/wiki/Q189489",
-      "instagram": "https://www.instagram.com/zendaya"
+      "instagram": "https://www.instagram.com/zendaya/"
     },
     "editorialMetadata": {
       "authorName": "Elena Rostova",
@@ -968,10 +968,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "datingHistorySummary": "Documented past relationships include actor Joe Alwyn (2016–2023) and Calvin Harris. Her current relationship with Travis Kelce began in summer 2023 and has developed into one of the most documented romances in contemporary popular culture."
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/name/nm2338429/",
+      "imdb": "https://www.imdb.com/name/nm2357847/",
       "wikipedia": "https://en.wikipedia.org/wiki/Taylor_Swift",
       "wikidata": "https://www.wikidata.org/wiki/Q26876",
-      "instagram": "https://www.instagram.com/taylorswift"
+      "instagram": "https://www.instagram.com/taylorswift/"
     },
     "editorialMetadata": {
       "authorName": "Elena Rostova",
@@ -1174,7 +1174,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "imdb": "https://www.imdb.com/name/nm0050959/",
       "wikipedia": "https://en.wikipedia.org/wiki/Pedro_Pascal",
       "wikidata": "https://www.wikidata.org/wiki/Q14752148",
-      "instagram": "https://www.instagram.com/pascalispunk"
+      "instagram": "https://www.instagram.com/pascalispunk/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -1746,7 +1746,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm2087739/",
       "wikipedia": "https://en.wikipedia.org/wiki/Jeremy_Allen_White",
-      "wikidata": "https://www.wikidata.org/wiki/Q1411012"
+      "wikidata": "https://www.wikidata.org/wiki/Q1411012",
+      "instagram": "https://www.instagram.com/jeremyallenwhitefinally/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -1938,7 +1939,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "imdb": "https://www.imdb.com/name/nm6016511/",
       "wikipedia": "https://en.wikipedia.org/wiki/Finn_Wolfhard",
       "wikidata": "https://www.wikidata.org/wiki/Q26308335",
-      "instagram": "https://www.instagram.com/finnwolfhardofficial"
+      "instagram": "https://www.instagram.com/finnwolfhardofficial/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -2130,10 +2131,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "sameAs": {
-      "imdb": "https://www.imdb.com/name/nm4911195/",
+      "imdb": "https://www.imdb.com/name/nm4911194/",
       "wikipedia": "https://en.wikipedia.org/wiki/Jenna_Ortega",
       "wikidata": "https://www.wikidata.org/wiki/Q21738166",
-      "instagram": "https://www.instagram.com/jennaortega"
+      "instagram": "https://www.instagram.com/jennaortega/"
     },
     "editorialMetadata": {
       "authorName": "Elena Rostova",
@@ -2289,7 +2290,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0000138/",
       "wikipedia": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
-      "wikidata": "https://www.wikidata.org/wiki/Q38111"
+      "wikidata": "https://www.wikidata.org/wiki/Q38111",
+      "instagram": "https://www.instagram.com/leonardodicaprio/"
     },
     "editorialMetadata": {
       "authorName": "Sarah Jenkins",
@@ -2650,7 +2652,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "sameAs": {
-      "imdb": "https://www.imdb.com/name/nm9618037/",
+      "imdb": "https://www.imdb.com/name/nm8837492/",
       "wikipedia": "https://en.wikipedia.org/wiki/Rosal%C3%ADa",
       "wikidata": "https://www.wikidata.org/wiki/Q56226523",
       "instagram": "https://www.instagram.com/rosalia.vt/"
@@ -2815,7 +2817,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "sameAs": {
-      "imdb": "https://www.imdb.com/name/nm7754637/",
+      "imdb": "https://www.imdb.com/name/nm7907935/",
       "wikipedia": "https://en.wikipedia.org/wiki/Travis_Kelce",
       "wikidata": "https://www.wikidata.org/wiki/Q7836284",
       "instagram": "https://www.instagram.com/killatrav/"
@@ -3036,8 +3038,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Billy%20Bob%20Thornton",
-      "wikipedia": "https://en.wikipedia.org/wiki/Billy_Bob_Thornton"
+      "imdb": "https://www.imdb.com/name/nm0000671/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Billy_Bob_Thornton",
+      "wikidata": "https://www.wikidata.org/wiki/Q202722"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -3248,8 +3251,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ],
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Winona%20Ryder",
-      "wikipedia": "https://en.wikipedia.org/wiki/Winona_Ryder"
+      "imdb": "https://www.imdb.com/name/nm0000213/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Winona_Ryder",
+      "wikidata": "https://www.wikidata.org/wiki/Q168644"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -3427,8 +3431,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Drake",
-      "wikipedia": "https://en.wikipedia.org/wiki/Drake_(musician)"
+      "imdb": "https://www.imdb.com/name/nm1013044/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Drake_(musician)",
+      "wikidata": "https://www.wikidata.org/wiki/Q33240",
+      "instagram": "https://www.instagram.com/champagnepapi/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -3588,8 +3594,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Kylie%20Jenner",
-      "wikipedia": "https://en.wikipedia.org/wiki/Kylie_Jenner"
+      "imdb": "https://www.imdb.com/name/nm2832473/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kylie_Jenner",
+      "wikidata": "https://www.wikidata.org/wiki/Q1770887",
+      "instagram": "https://www.instagram.com/kyliejenner/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -3772,8 +3780,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Will%20Smith",
-      "wikipedia": "https://en.wikipedia.org/wiki/Will_Smith"
+      "imdb": "https://www.imdb.com/name/nm0000226/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Will_Smith",
+      "wikidata": "https://www.wikidata.org/wiki/Q400",
+      "instagram": "https://www.instagram.com/willsmith/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -3953,8 +3963,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Robert%20Redford",
-      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Redford"
+      "imdb": "https://www.imdb.com/name/nm0000602/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Redford",
+      "wikidata": "https://www.wikidata.org/wiki/Q59215"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -4133,8 +4144,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/name/nm0362740/",
-      "wikipedia": "https://en.wikipedia.org/wiki/David_Harbour"
+      "imdb": "https://www.imdb.com/name/nm1092086/",
+      "wikipedia": "https://en.wikipedia.org/wiki/David_Harbour",
+      "wikidata": "https://www.wikidata.org/wiki/Q742914",
+      "instagram": "https://www.instagram.com/dkharbour/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -4304,8 +4317,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/name/nm10080645/",
-      "wikipedia": "https://en.wikipedia.org/wiki/YoungBoy_Never_Broke_Again"
+      "imdb": "https://www.imdb.com/name/nm9639737/",
+      "wikipedia": "https://en.wikipedia.org/wiki/YoungBoy_Never_Broke_Again",
+      "wikidata": "https://www.wikidata.org/wiki/Q29043438",
+      "instagram": "https://www.instagram.com/nba_youngboy/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -4509,8 +4524,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Val%20Kilmer",
-      "wikipedia": "https://en.wikipedia.org/wiki/Val_Kilmer"
+      "imdb": "https://www.imdb.com/name/nm0000174/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Val_Kilmer",
+      "wikidata": "https://www.wikidata.org/wiki/Q191084",
+      "instagram": "https://www.instagram.com/valkilmerofficial/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -4710,8 +4727,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/find/?q=Jimmy%20Kimmel",
-      "wikipedia": "https://en.wikipedia.org/wiki/Jimmy_Kimmel"
+      "imdb": "https://www.imdb.com/name/nm0453994/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jimmy_Kimmel",
+      "wikidata": "https://www.wikidata.org/wiki/Q4914",
+      "instagram": "https://www.instagram.com/jimmykimmel/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -4931,8 +4950,10 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/name/nm0424883/",
-      "wikipedia": "https://en.wikipedia.org/wiki/Dakota_Johnson"
+      "imdb": "https://www.imdb.com/name/nm0424848/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dakota_Johnson",
+      "wikidata": "https://www.wikidata.org/wiki/Q2315802",
+      "instagram": "https://www.instagram.com/dakotajohnson/"
     },
     "editorialMetadata": {
       "authorName": "Elena Rostova",
@@ -5167,7 +5188,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     },
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0005453/",
-      "wikipedia": "https://en.wikipedia.org/wiki/Britney_Spears"
+      "wikipedia": "https://en.wikipedia.org/wiki/Britney_Spears",
+      "wikidata": "https://www.wikidata.org/wiki/Q11975",
+      "instagram": "https://www.instagram.com/britneyspears/"
     },
     "editorialMetadata": {
       "authorName": "Elena Rostova",
@@ -5392,10 +5415,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ]
   },
-  "sameAs": {
-    "imdb": "https://www.imdb.com/name/nm2225369/",
-    "wikipedia": "https://en.wikipedia.org/wiki/Jennifer_Lawrence"
-  },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm2225369/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jennifer_Lawrence",
+      "wikidata": "https://www.wikidata.org/wiki/Q189490"
+    },
   "editorialMetadata": {
     "authorName": "Elena Rostova",
     "authorRole": "Chief Biographer",
@@ -5609,8 +5633,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       ]
     },
     "sameAs": {
-      "imdb": "https://www.imdb.com/name/nm6783854/",
+      "imdb": "https://www.imdb.com/name/nm5950715/",
       "wikipedia": "https://en.wikipedia.org/wiki/Tate_McRae",
+      "wikidata": "https://www.wikidata.org/wiki/Q64009354",
       "instagram": "https://www.instagram.com/tatemcrae/"
     },
     "editorialMetadata": {
@@ -5841,11 +5866,12 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ]
   },
-  "sameAs": {
-    "imdb": "https://www.imdb.com/name/nm0350453/",
-    "wikipedia": "https://en.wikipedia.org/wiki/Jake_Gyllenhaal",
-    "instagram": "https://www.instagram.com/jakegyllenhaal/"
-  },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm0350453/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jake_Gyllenhaal",
+      "wikidata": "https://www.wikidata.org/wiki/Q133316",
+      "instagram": "https://www.instagram.com/jakegyllenhaal/"
+    },
   "editorialMetadata": {
     "authorName": "Marcus Vance",
     "authorRole": "Senior Film Historian",
@@ -6082,7 +6108,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm2858875/",
       "wikipedia": "https://en.wikipedia.org/wiki/Sydney_Sweeney",
-      "wikidata": "https://www.wikidata.org/wiki/Q49561909"
+      "wikidata": "https://www.wikidata.org/wiki/Q49561909",
+      "instagram": "https://www.instagram.com/sydney_sweeney/"
     },
     "editorialMetadata": {
       "authorName": "Sarah Jenkins",
@@ -6320,7 +6347,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0001391/",
       "wikipedia": "https://en.wikipedia.org/wiki/Michael_Jackson",
-      "wikidata": "https://www.wikidata.org/wiki/Q2831"
+      "wikidata": "https://www.wikidata.org/wiki/Q2831",
+      "instagram": "https://www.instagram.com/michaeljackson/"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -6554,11 +6582,11 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       }
     ]
   },
-  "sameAs": {
-    "imdb": "https://www.imdb.com/name/nm0001573/",
-    "wikipedia": "https://en.wikipedia.org/wiki/Catherine_O%27Hara",
-    "wikidata": "https://www.wikidata.org/wiki/Q233365"
-  },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm0001573/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Catherine_O%27Hara",
+      "wikidata": "https://www.wikidata.org/wiki/Q233365"
+    },
   "editorialMetadata": {
     "authorName": "Marcus Vance",
     "authorRole": "Senior Film & Entertainment Historian",
@@ -6786,11 +6814,12 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     }
   ]
 },
-  "sameAs": {
-    "imdb": "https://www.imdb.com/name/nm1066549/",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kelly_Osbourne",
-    "wikidata": "https://www.wikidata.org/wiki/Q231182"
-  },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm1114884/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kelly_Osbourne",
+      "wikidata": "https://www.wikidata.org/wiki/Q231182",
+      "instagram": "https://www.instagram.com/kellyosbourne/"
+    },
   "editorialMetadata": {
     "authorName": "Marcus Vance",
     "authorRole": "Senior Culture & Television Historian",
