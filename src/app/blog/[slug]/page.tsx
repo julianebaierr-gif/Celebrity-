@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { getBlogPostBySlug, getAllBlogPosts } from "@/data/blog-posts";
+import { CELEBRITIES } from "@/data/celebrities";
 import { injectNaturalInternalLinks } from "@/lib/system4-internal-link-engine";
 import FaqAccordion from "@/components/blog/FaqAccordion";
 import {
@@ -206,29 +207,37 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   ];
 
   // Dynamically resolve primary celebrity slug and name
-  let primaryCelebritySlug = "";
-  let primaryCelebrityName = "";
-  if (slug.startsWith("drake")) {
-    primaryCelebritySlug = "drake";
-    primaryCelebrityName = "Drake";
-  } else if (slug.startsWith("kylie-jenner")) {
-    primaryCelebritySlug = "kylie-jenner";
-    primaryCelebrityName = "Kylie Jenner";
-  } else if (slug.startsWith("travis-kelce")) {
-    primaryCelebritySlug = "travis-kelce";
-    primaryCelebrityName = "Travis Kelce";
-  } else if (slug.startsWith("rosalia")) {
-    primaryCelebritySlug = "rosalia";
-    primaryCelebrityName = "Rosalía";
-  } else if (slug.startsWith("tim-curry")) {
-    primaryCelebritySlug = "tim-curry";
-    primaryCelebrityName = "Tim Curry";
-  } else if (slug.startsWith("cillian")) {
-    primaryCelebritySlug = "cillian-murphy";
-    primaryCelebrityName = "Cillian Murphy";
-  } else if (slug.startsWith("keanu")) {
-    primaryCelebritySlug = "keanu-reeves";
-    primaryCelebrityName = "Keanu Reeves";
+  const matchedCelebrity = CELEBRITIES.find(
+    (c) =>
+      slug.startsWith(c.slug) ||
+      post.tags.some((t) => t.toLowerCase() === c.name.toLowerCase() || t.toLowerCase() === c.slug)
+  );
+  let primaryCelebritySlug = matchedCelebrity?.slug || "";
+  let primaryCelebrityName = matchedCelebrity?.name || "";
+
+  if (!primaryCelebritySlug) {
+    if (slug.startsWith("drake")) {
+      primaryCelebritySlug = "drake";
+      primaryCelebrityName = "Drake";
+    } else if (slug.startsWith("kylie-jenner")) {
+      primaryCelebritySlug = "kylie-jenner";
+      primaryCelebrityName = "Kylie Jenner";
+    } else if (slug.startsWith("travis-kelce")) {
+      primaryCelebritySlug = "travis-kelce";
+      primaryCelebrityName = "Travis Kelce";
+    } else if (slug.startsWith("rosalia")) {
+      primaryCelebritySlug = "rosalia";
+      primaryCelebrityName = "Rosalía";
+    } else if (slug.startsWith("tim-curry")) {
+      primaryCelebritySlug = "tim-curry";
+      primaryCelebrityName = "Tim Curry";
+    } else if (slug.startsWith("cillian")) {
+      primaryCelebritySlug = "cillian-murphy";
+      primaryCelebrityName = "Cillian Murphy";
+    } else if (slug.startsWith("keanu")) {
+      primaryCelebritySlug = "keanu-reeves";
+      primaryCelebrityName = "Keanu Reeves";
+    }
   }
 
   const articleSchema = {

@@ -231,6 +231,12 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
   const matchedComparison = MATCHUP_MAP[celebrity.slug];
 
   const CELEB_BLOG_REPORTS: Record<string, { slug: string; title: string; category: string }[]> = {
+    "sydney-sweeney": [
+      { slug: "sydney-sweeney-2026-production-slate-and-career-analysis", title: "Sydney Sweeney 2026 Production Slate & Career Analysis", category: "Production Equity" },
+    ],
+    "rosalia": [
+      { slug: "rosalia-2026-billboard-hall-of-fame-and-career-analysis", title: "Rosalía 2026 Billboard Hall of Fame & Career Analysis", category: "Music Vanguard" },
+    ],
     "drake": [
       { slug: "drake-2026-music-and-tour-analysis", title: "Drake 2026 Tour Dates, Album Slate & Streaming Data", category: "Touring Economics" },
     ],
