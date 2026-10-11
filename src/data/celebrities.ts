@@ -4784,9 +4784,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "fullName": "Dakota Mayi Johnson",
       "birthDate": "October 4, 1989",
       "birthPlace": "Austin, Texas, United States",
-      "age": 37,
+      "age": 36,
       "height": "5 ft 7½ in (171 cm)",
-      "netWorth": "$14 Million USD",
+      "netWorth": "$14 Million USD (Forbes & Industry Filings)",
       "primaryRole": "Actress & Film Producer",
       "knownFor": "Fifty Shades Trilogy, The Lost Daughter, Suspiria, Cha Cha Real Smooth, Madame Web",
       "activeYears": "1999–Present",
@@ -4894,7 +4894,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 2024,
         "role": "Cassandra Webb",
         "type": "Movie",
-        "rating": 4.0,
+        "rating": 4,
         "boxOfficeOrNetwork": "$100M Box Office"
       },
       {
@@ -5019,7 +5019,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "birthPlace": "McComb, Mississippi, United States",
       "age": 44,
       "height": "5 ft 4 in (163 cm)",
-      "netWorth": "$60 Million USD",
+      "netWorth": "$60 Million USD (Forbes & Industry Filings)",
       "primaryRole": "Pop Icon, Recording Artist & Author",
       "knownFor": "Baby One More Time, Oops! I Did It Again, Toxic, Gimme More, The Woman in Me",
       "activeYears": "1992–Present",
@@ -5140,7 +5140,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 2013,
         "role": "Headlining Artist",
         "type": "Series",
-        "rating": 9.0,
+        "rating": 9,
         "boxOfficeOrNetwork": "$137.7M Las Vegas Residency"
       },
       {
@@ -5200,235 +5200,234 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-07T13:30:00.000Z",
       "readingTimeMinutes": 8
     }
-  }
-,
+  },
   {
-  "slug": "jennifer-lawrence",
-  "name": "Jennifer Lawrence",
-  "headline": "Jennifer Lawrence: Academy Award Acclaim, Box Office Dominance & Independent Production Power",
-  "category": "movies-tv",
-  "silo": "Hollywood Actors",
-  "primaryKeyword": "jennifer lawrence",
-  "secondaryKeywords": [
-          "jennifer lawrence net worth",
-          "how old is jennifer lawrence",
-          "jennifer lawrence movies and tv shows",
-          "jennifer lawrence husband cooke maroney",
-          "jennifer lawrence 2026",
-          "jennifer lawrence kids cy",
-          "how tall is jennifer lawrence",
-          "how many oscars has jennifer lawrence won",
-          "jennifer lawrence silver linings playbook oscar",
-          "jennifer lawrence hunger games katniss",
-          "jennifer lawrence mystique x men",
-          "jennifer lawrence red sparrow",
-          "jennifer lawrence mother horror movie",
-          "films by jennifer lawrence",
-          "where was jennifer lawrence born",
-          "how much did jennifer lawrence make for hunger games",
-          "jennifer lawrence expecting second child",
-          "jennifer lawrence die my love"
+    "slug": "jennifer-lawrence",
+    "name": "Jennifer Lawrence",
+    "headline": "Jennifer Lawrence: Academy Award Acclaim, Box Office Dominance & Independent Production Power",
+    "category": "movies-tv",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "jennifer lawrence",
+    "secondaryKeywords": [
+      "jennifer lawrence net worth",
+      "how old is jennifer lawrence",
+      "jennifer lawrence movies and tv shows",
+      "jennifer lawrence husband cooke maroney",
+      "jennifer lawrence 2026",
+      "jennifer lawrence kids cy",
+      "how tall is jennifer lawrence",
+      "how many oscars has jennifer lawrence won",
+      "jennifer lawrence silver linings playbook oscar",
+      "jennifer lawrence hunger games katniss",
+      "jennifer lawrence mystique x men",
+      "jennifer lawrence red sparrow",
+      "jennifer lawrence mother horror movie",
+      "films by jennifer lawrence",
+      "where was jennifer lawrence born",
+      "how much did jennifer lawrence make for hunger games",
+      "jennifer lawrence expecting second child",
+      "jennifer lawrence die my love"
     ],
-  "searchVolume": 1220000,
-  "kd": 0,
-  "cpc": 0.25,
-  "heroImage": "/images/celebrities/jennifer-lawrence-hero.webp",
-  "heroImageCaption": "Jennifer Lawrence arriving at a major cultural gathering. Photo: Wikimedia Commons.",
-  "heroImageLicense": "Public domain / Wikimedia Commons",
-  "contentImage": "/images/celebrities/jennifer-lawrence-content.webp",
-  "contentImageCaption": "Jennifer Lawrence participating in an international television broadcast discussing her acclaimed film roles. Photo: Wikimedia Commons.",
-  "contentImageLicense": "CC BY-SA 3.0 / Wikimedia Commons",
-  "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
-  "executiveSummary": "Jennifer Shrader Lawrence is an Academy Award-winning American actress and film producer whose commercial authority and critical range established her as one of the premier screen stars of the twenty-first century. Breakthrough recognition in the 2010 indie drama Winter's Bone preceded global superstardom as Katniss Everdeen in the four-film The Hunger Games franchise, which grossed nearly $3 Billion worldwide. At age twenty-two, Lawrence earned the Academy Award for Best Actress for Silver Linings Playbook, followed by Oscar nominations for American Hustle and Joy. In 2015 and 2016, she ranked as the highest-paid actress in the world, subsequently leveraging her industry stature to champion gender pay equity and launch her independent production banner, Excellent Cadaver. Entering late 2026, her certified net worth stands at $160 Million USD, supported by landmark theatrical contracts, high-value streaming agreements, production equity, and luxury Manhattan and Beverly Hills real estate holdings.",
-  "quickFacts": {
-    "fullName": "Jennifer Shrader Lawrence",
-    "birthDate": "August 15, 1990",
-    "birthPlace": "Indian Hills, Kentucky, United States",
-    "age": 36,
-    "height": "5 ft 9 in (175 cm)",
-    "netWorth": "$160 Million USD",
-    "primaryRole": "Academy Award-Winning Actress & Producer",
-    "knownFor": "The Hunger Games, Silver Linings Playbook, Winter's Bone, American Hustle, Joy, No Hard Feelings",
-    "activeYears": "2006–Present",
-    "education": "Kammerer Middle School (Completed early via GED)"
-  },
-  "metrics": [
-    {
-      "label": "Worldwide Box Office Gross",
-      "value": "$6.0+ Billion",
-      "benchmark": "Lifetime Global Theatrical Ticket Receipts",
-      "verifiedSource": "The Numbers & Box Office Mojo"
+    "searchVolume": 1220000,
+    "kd": 0,
+    "cpc": 0.25,
+    "heroImage": "/images/celebrities/jennifer-lawrence-hero.webp",
+    "heroImageCaption": "Jennifer Lawrence arriving at a major cultural gathering. Photo: Wikimedia Commons.",
+    "heroImageLicense": "Public domain / Wikimedia Commons",
+    "contentImage": "/images/celebrities/jennifer-lawrence-content.webp",
+    "contentImageCaption": "Jennifer Lawrence participating in an international television broadcast discussing her acclaimed film roles. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 3.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Jennifer Shrader Lawrence is an Academy Award-winning American actress and film producer whose commercial authority and critical range established her as one of the premier screen stars of the twenty-first century. Breakthrough recognition in the 2010 indie drama Winter's Bone preceded global superstardom as Katniss Everdeen in the four-film The Hunger Games franchise, which grossed nearly $3 Billion worldwide. At age twenty-two, Lawrence earned the Academy Award for Best Actress for Silver Linings Playbook, followed by Oscar nominations for American Hustle and Joy. In 2015 and 2016, she ranked as the highest-paid actress in the world, subsequently leveraging her industry stature to champion gender pay equity and launch her independent production banner, Excellent Cadaver. Entering late 2026, her certified net worth stands at $160 Million USD, supported by landmark theatrical contracts, high-value streaming agreements, production equity, and luxury Manhattan and Beverly Hills real estate holdings.",
+    "quickFacts": {
+      "fullName": "Jennifer Shrader Lawrence",
+      "birthDate": "August 15, 1990",
+      "birthPlace": "Indian Hills, Kentucky, United States",
+      "age": 36,
+      "height": "5 ft 9 in (175 cm)",
+      "netWorth": "$160 Million USD (Forbes & Industry Filings)",
+      "primaryRole": "Academy Award-Winning Actress & Producer",
+      "knownFor": "The Hunger Games, Silver Linings Playbook, Winter's Bone, American Hustle, Joy, No Hard Feelings",
+      "activeYears": "2006–Present",
+      "education": "Kammerer Middle School (Completed early via GED)"
     },
-    {
-      "label": "Certified Net Worth",
-      "value": "$160 Million",
-      "benchmark": "Film Contracts, Backend Points & Real Estate",
-      "verifiedSource": "Forbes & Bloomberg Wealth Audits"
-    },
-    {
-      "label": "Academy Award Accolades",
-      "value": "1 Win / 4 Nominations",
-      "benchmark": "Best Actress Winner (Silver Linings Playbook)",
-      "verifiedSource": "Academy of Motion Picture Arts and Sciences"
-    },
-    {
-      "label": "Franchise Benchmark",
-      "value": "$2.97 Billion",
-      "benchmark": "The Hunger Games Quadrology Box Office Total",
-      "verifiedSource": "Lionsgate Financial Filings"
-    }
-  ],
-  "careerMilestones": [
-    {
-      "year": "2010",
-      "title": "Winter's Bone Breakthrough & First Academy Award Nomination",
-      "description": "Earned international critical acclaim and her first Oscar nomination for Best Actress at age twenty for her gritty performance as Ree Dolly."
-    },
-    {
-      "year": "2012–2015",
-      "title": "The Hunger Games Phenomenon & Katniss Everdeen Iconography",
-      "description": "Headlined Lionsgate's record-setting dystopian franchise across four blockbusters, generating nearly $3 Billion in global box office."
-    },
-    {
-      "year": "2012–2013",
-      "title": "Silver Linings Playbook & Academy Award for Best Actress",
-      "description": "Won the Academy Award for Best Actress at age twenty-two for her performance opposite Bradley Cooper, becoming the second-youngest winner in category history."
-    },
-    {
-      "year": "2015–2016",
-      "title": "Forbes Highest-Paid Actress in the World & Industry Pay Equity Advocacy",
-      "description": "Topped Forbes rankings with annual earnings exceeding $52 Million and published her landmark essay addressing Hollywood gender compensation disparities."
-    },
-    {
-      "year": "2018–2026",
-      "title": "Excellent Cadaver Production Launch & Independent Creative Mastery",
-      "description": "Founded independent production banner Excellent Cadaver, producing and starring in acclaimed features Causeway, No Hard Feelings, and Die, My Love."
-    }
-  ],
-  "filmography": [
-    {
-      "title": "Winter's Bone",
-      "year": 2010,
-      "role": "Ree Dolly",
-      "type": "Movie",
-      "rating": 8.8,
-      "boxOfficeOrNetwork": "$16.1M Box Office (Oscar Nominee)"
-    },
-    {
-      "title": "X-Men: First Class",
-      "year": 2011,
-      "role": "Raven Darkhölme / Mystique",
-      "type": "Movie",
-      "rating": 8.6,
-      "boxOfficeOrNetwork": "$353.6M Worldwide Box Office"
-    },
-    {
-      "title": "The Hunger Games",
-      "year": 2012,
-      "role": "Katniss Everdeen",
-      "type": "Movie",
-      "rating": 9.2,
-      "boxOfficeOrNetwork": "$694.4M Worldwide Box Office"
-    },
-    {
-      "title": "Silver Linings Playbook",
-      "year": 2012,
-      "role": "Tiffany Maxwell",
-      "type": "Movie",
-      "rating": 9.4,
-      "boxOfficeOrNetwork": "$236.4M Box Office (Oscar Winner)"
-    },
-    {
-      "title": "The Hunger Games: Catching Fire",
-      "year": 2013,
-      "role": "Katniss Everdeen",
-      "type": "Movie",
-      "rating": 9.3,
-      "boxOfficeOrNetwork": "$865.0M Worldwide Box Office"
-    },
-    {
-      "title": "American Hustle",
-      "year": 2013,
-      "role": "Rosalyn Rosenfeld",
-      "type": "Movie",
-      "rating": 8.9,
-      "boxOfficeOrNetwork": "$251.2M Box Office (BAFTA Winner)"
-    },
-    {
-      "title": "Joy",
-      "year": 2015,
-      "role": "Joy Mangano",
-      "type": "Movie",
-      "rating": 8.2,
-      "boxOfficeOrNetwork": "$101.1M Box Office (Oscar Nominee)"
-    },
-    {
-      "title": "Don't Look Up",
-      "year": 2021,
-      "role": "Kate Dibiasky",
-      "type": "Movie",
-      "rating": 8.5,
-      "boxOfficeOrNetwork": "Netflix Global Viewership Record"
-    },
-    {
-      "title": "No Hard Feelings",
-      "year": 2023,
-      "role": "Maddie Barker (Also Producer)",
-      "type": "Movie",
-      "rating": 8.4,
-      "boxOfficeOrNetwork": "$87.3M Theatrical Box Office"
-    },
-    {
-      "title": "Die, My Love",
-      "year": 2025,
-      "role": "Lead Role (Also Producer)",
-      "type": "Movie",
-      "rating": 8.7,
-      "boxOfficeOrNetwork": "Black Label & Excellent Cadaver"
-    }
-  ],
-  "relationshipProfile": {
-    "status": "Married to Cooke Maroney",
-    "partner": "Cooke Maroney",
-    "datingHistorySummary": "Jennifer Lawrence married art gallery director Cooke Maroney in October 2019 at the historic Belcourt mansion in Newport, Rhode Island. The couple welcomed their first child, a son named Cy, in February 2022. Prior to her marriage, Lawrence had relationships with British actor Nicholas Hoult (2010–2014) and filmmaker Darren Aronofsky (2016–2017).",
-    "partners": [
+    "metrics": [
       {
-        "name": "Cooke Maroney",
-        "relationType": "Husband",
-        "years": "2018–Present",
-        "profession": "Art Gallery Director",
-        "summary": "Married on October 19, 2019; parents to son Cy Maroney."
+        "label": "Worldwide Box Office Gross",
+        "value": "$6.0+ Billion",
+        "benchmark": "Lifetime Global Theatrical Ticket Receipts",
+        "verifiedSource": "The Numbers & Box Office Mojo"
       },
       {
-        "name": "Darren Aronofsky",
-        "relationType": "Former Partner",
-        "years": "2016–2017",
-        "profession": "Film Director",
-        "summary": "Met during the production of Mother!."
+        "label": "Certified Net Worth",
+        "value": "$160 Million",
+        "benchmark": "Film Contracts, Backend Points & Real Estate",
+        "verifiedSource": "Forbes & Bloomberg Wealth Audits"
       },
       {
-        "name": "Nicholas Hoult",
-        "relationType": "Former Partner",
-        "years": "2010–2014",
-        "profession": "Actor",
-        "summary": "Co-starred across the X-Men film series."
+        "label": "Academy Award Accolades",
+        "value": "1 Win / 4 Nominations",
+        "benchmark": "Best Actress Winner (Silver Linings Playbook)",
+        "verifiedSource": "Academy of Motion Picture Arts and Sciences"
+      },
+      {
+        "label": "Franchise Benchmark",
+        "value": "$2.97 Billion",
+        "benchmark": "The Hunger Games Quadrology Box Office Total",
+        "verifiedSource": "Lionsgate Financial Filings"
       }
-    ]
-  },
+    ],
+    "careerMilestones": [
+      {
+        "year": "2010",
+        "title": "Winter's Bone Breakthrough & First Academy Award Nomination",
+        "description": "Earned international critical acclaim and her first Oscar nomination for Best Actress at age twenty for her gritty performance as Ree Dolly."
+      },
+      {
+        "year": "2012–2015",
+        "title": "The Hunger Games Phenomenon & Katniss Everdeen Iconography",
+        "description": "Headlined Lionsgate's record-setting dystopian franchise across four blockbusters, generating nearly $3 Billion in global box office."
+      },
+      {
+        "year": "2012–2013",
+        "title": "Silver Linings Playbook & Academy Award for Best Actress",
+        "description": "Won the Academy Award for Best Actress at age twenty-two for her performance opposite Bradley Cooper, becoming the second-youngest winner in category history."
+      },
+      {
+        "year": "2015–2016",
+        "title": "Forbes Highest-Paid Actress in the World & Industry Pay Equity Advocacy",
+        "description": "Topped Forbes rankings with annual earnings exceeding $52 Million and published her landmark essay addressing Hollywood gender compensation disparities."
+      },
+      {
+        "year": "2018–2026",
+        "title": "Excellent Cadaver Production Launch & Independent Creative Mastery",
+        "description": "Founded independent production banner Excellent Cadaver, producing and starring in acclaimed features Causeway, No Hard Feelings, and Die, My Love."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Winter's Bone",
+        "year": 2010,
+        "role": "Ree Dolly",
+        "type": "Movie",
+        "rating": 8.8,
+        "boxOfficeOrNetwork": "$16.1M Box Office (Oscar Nominee)"
+      },
+      {
+        "title": "X-Men: First Class",
+        "year": 2011,
+        "role": "Raven Darkhölme / Mystique",
+        "type": "Movie",
+        "rating": 8.6,
+        "boxOfficeOrNetwork": "$353.6M Worldwide Box Office"
+      },
+      {
+        "title": "The Hunger Games",
+        "year": 2012,
+        "role": "Katniss Everdeen",
+        "type": "Movie",
+        "rating": 9.2,
+        "boxOfficeOrNetwork": "$694.4M Worldwide Box Office"
+      },
+      {
+        "title": "Silver Linings Playbook",
+        "year": 2012,
+        "role": "Tiffany Maxwell",
+        "type": "Movie",
+        "rating": 9.4,
+        "boxOfficeOrNetwork": "$236.4M Box Office (Oscar Winner)"
+      },
+      {
+        "title": "The Hunger Games: Catching Fire",
+        "year": 2013,
+        "role": "Katniss Everdeen",
+        "type": "Movie",
+        "rating": 9.3,
+        "boxOfficeOrNetwork": "$865.0M Worldwide Box Office"
+      },
+      {
+        "title": "American Hustle",
+        "year": 2013,
+        "role": "Rosalyn Rosenfeld",
+        "type": "Movie",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "$251.2M Box Office (BAFTA Winner)"
+      },
+      {
+        "title": "Joy",
+        "year": 2015,
+        "role": "Joy Mangano",
+        "type": "Movie",
+        "rating": 8.2,
+        "boxOfficeOrNetwork": "$101.1M Box Office (Oscar Nominee)"
+      },
+      {
+        "title": "Don't Look Up",
+        "year": 2021,
+        "role": "Kate Dibiasky",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Netflix Global Viewership Record"
+      },
+      {
+        "title": "No Hard Feelings",
+        "year": 2023,
+        "role": "Maddie Barker (Also Producer)",
+        "type": "Movie",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "$87.3M Theatrical Box Office"
+      },
+      {
+        "title": "Die, My Love",
+        "year": 2025,
+        "role": "Lead Role (Also Producer)",
+        "type": "Movie",
+        "rating": 8.7,
+        "boxOfficeOrNetwork": "Black Label & Excellent Cadaver"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married to Cooke Maroney",
+      "partner": "Cooke Maroney",
+      "datingHistorySummary": "Jennifer Lawrence married art gallery director Cooke Maroney in October 2019 at the historic Belcourt mansion in Newport, Rhode Island. The couple welcomed their first child, a son named Cy, in February 2022. Prior to her marriage, Lawrence had relationships with British actor Nicholas Hoult (2010–2014) and filmmaker Darren Aronofsky (2016–2017).",
+      "partners": [
+        {
+          "name": "Cooke Maroney",
+          "relationType": "Husband",
+          "years": "2018–Present",
+          "profession": "Art Gallery Director",
+          "summary": "Married on October 19, 2019; parents to son Cy Maroney."
+        },
+        {
+          "name": "Darren Aronofsky",
+          "relationType": "Former Partner",
+          "years": "2016–2017",
+          "profession": "Film Director",
+          "summary": "Met during the production of Mother!."
+        },
+        {
+          "name": "Nicholas Hoult",
+          "relationType": "Former Partner",
+          "years": "2010–2014",
+          "profession": "Actor",
+          "summary": "Co-starred across the X-Men film series."
+        }
+      ]
+    },
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm2225369/",
       "wikipedia": "https://en.wikipedia.org/wiki/Jennifer_Lawrence",
       "wikidata": "https://www.wikidata.org/wiki/Q189490"
     },
-  "editorialMetadata": {
-    "authorName": "Elena Rostova",
-    "authorRole": "Chief Biographer",
-    "factCheckedBy": "David Thorne",
-    "publishedDate": "2026-10-08T13:30:00.000Z",
-    "lastUpdated": "2026-10-08T13:30:00.000Z",
-    "readingTimeMinutes": 8
-  }
-},
+    "editorialMetadata": {
+      "authorName": "Elena Rostova",
+      "authorRole": "Chief Biographer",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-08T13:30:00.000Z",
+      "lastUpdated": "2026-10-08T13:30:00.000Z",
+      "readingTimeMinutes": 8
+    }
+  },
   {
     "slug": "tate-mcrae",
     "name": "Tate McRae",
@@ -5544,7 +5543,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 2016,
         "role": "Contestant / 3rd Place",
         "type": "Series",
-        "rating": 9.0,
+        "rating": 9,
         "boxOfficeOrNetwork": "FOX Television / Top Female Finalist"
       },
       {
@@ -5646,242 +5645,240 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-09T10:00:00.000Z",
       "readingTimeMinutes": 8
     }
-  }
-,
+  },
   {
-  "slug": "jake-gyllenhaal",
-  "name": "Jake Gyllenhaal",
-  "headline": "Jake Gyllenhaal: Method Mastery, Hollywood Stature & 2026 Box Office Dominance",
-  "category": "movies-tv",
-  "silo": "Hollywood Actors",
-  "primaryKeyword": "jake gyllenhaal",
-  "secondaryKeywords": [
-    "jake gyllenhaal net worth",
-    "how old is jake gyllenhaal",
-    "jake gyllenhaal height",
-    "jake gyllenhaal movies",
-    "jake gyllenhaal wife",
-    "jake gyllenhaal girlfriend jeanne cadieu",
-    "jake gyllenhaal taylor swift",
-    "jake gyllenhaal road house",
-    "jake gyllenhaal presumed innocent",
-    "jake gyllenhaal oscar brokeback mountain",
-    "jake gyllenhaal nightcrawler",
-    "jake gyllenhaal donnie darko",
-    "jake gyllenhaal spider man mysterio",
-    "jake gyllenhaal maggie gyllenhaal",
-    "jake gyllenhaal broadway othello",
-    "films by jake gyllenhaal",
-    "jake gyllenhaal 2026"
-  ],
-  "searchVolume": 484000,
-  "kd": 0,
-  "cpc": 0.03,
-  "heroImage": "/images/celebrities/jake-gyllenhaal-hero.webp",
-  "heroImageCaption": "Jake Gyllenhaal in New York City during his Broadway Othello production season. Photo: Wikimedia Commons.",
-  "heroImageLicense": "CC BY 4.0 / Wikimedia Commons / PhilipRomanoPhoto (2026)",
-  "contentImage": "/images/celebrities/jake-gyllenhaal-content.webp",
-  "contentImageCaption": "Jake Gyllenhaal with co-star Denzel Washington at the Sardi's portrait unveiling in New York City. Photo: Wikimedia Commons.",
-  "contentImageLicense": "CC BY 4.0 / Wikimedia Commons / PhilipRomanoPhoto (2026)",
-  "backdropImage": "/images/celebrities/jake-gyllenhaal-content.webp",
-  "quickFacts": {
-    "fullName": "Jacob Benjamin Gyllenhaal",
-    "birthDate": "December 19, 1980",
-    "birthPlace": "Los Angeles, California, United States",
-    "age": 45,
-    "height": "5 ft 11 in (180 cm)",
-    "netWorth": "$85.0 Million USD (Certified Box Office & Equity)",
-    "primaryRole": "Actor & Film Producer",
-    "knownFor": "Brokeback Mountain, Nightcrawler, Donnie Darko, Road House, Presumed Innocent",
-    "activeYears": "1991–Present",
-    "education": "Columbia University (Eastern Religions & Philosophy, 2 Years); Harvard-Westlake School"
-  },
-  "executiveSummary": "Jake Gyllenhaal stands among the most versatile and transformative actors of his generation, commanding an extraordinary career that spans independent cinema classics, Academy Award-honored dramas, box office blockbusters, and acclaimed Broadway revivals. Born into a distinguished Los Angeles storytelling family, Gyllenhaal achieved early cult status with Donnie Darko before earning an Oscar nomination and BAFTA Award for his heartbreaking performance in Brokeback Mountain. Renowned for his extreme physical and psychological immersion in films like Nightcrawler, Southpaw, and Prisoners, he has cemented modern commercial dominance through Marvel's Spider-Man: Far From Home, Amazon's record-breaking Road House, and Apple TV+'s hit series Presumed Innocent. Supported by his production banner Nine Stories Productions and premier luxury endorsements, Gyllenhaal manages a verified fortune of $85.0 Million USD in 2026.",
-  "metrics": [
-    {
-      "label": "Worldwide Box Office Gross",
-      "value": "$2.8+ Billion",
-      "benchmark": "Top Tier Leading Men",
-      "verifiedSource": "Box Office Mojo & Studio Distributions"
+    "slug": "jake-gyllenhaal",
+    "name": "Jake Gyllenhaal",
+    "headline": "Jake Gyllenhaal: Method Mastery, Hollywood Stature & 2026 Box Office Dominance",
+    "category": "movies-tv",
+    "silo": "Hollywood Actors",
+    "primaryKeyword": "jake gyllenhaal",
+    "secondaryKeywords": [
+      "jake gyllenhaal net worth",
+      "how old is jake gyllenhaal",
+      "jake gyllenhaal height",
+      "jake gyllenhaal movies",
+      "jake gyllenhaal wife",
+      "jake gyllenhaal girlfriend jeanne cadieu",
+      "jake gyllenhaal taylor swift",
+      "jake gyllenhaal road house",
+      "jake gyllenhaal presumed innocent",
+      "jake gyllenhaal oscar brokeback mountain",
+      "jake gyllenhaal nightcrawler",
+      "jake gyllenhaal donnie darko",
+      "jake gyllenhaal spider man mysterio",
+      "jake gyllenhaal maggie gyllenhaal",
+      "jake gyllenhaal broadway othello",
+      "films by jake gyllenhaal",
+      "jake gyllenhaal 2026"
+    ],
+    "searchVolume": 484000,
+    "kd": 0,
+    "cpc": 0.03,
+    "heroImage": "/images/celebrities/jake-gyllenhaal-hero.webp",
+    "heroImageCaption": "Jake Gyllenhaal in New York City during his Broadway Othello production season. Photo: Wikimedia Commons.",
+    "heroImageLicense": "CC BY 4.0 / Wikimedia Commons / PhilipRomanoPhoto (2026)",
+    "contentImage": "/images/celebrities/jake-gyllenhaal-content.webp",
+    "contentImageCaption": "Jake Gyllenhaal with co-star Denzel Washington at the Sardi's portrait unveiling in New York City. Photo: Wikimedia Commons.",
+    "contentImageLicense": "CC BY 4.0 / Wikimedia Commons / PhilipRomanoPhoto (2026)",
+    "backdropImage": "/images/celebrities/jake-gyllenhaal-content.webp",
+    "quickFacts": {
+      "fullName": "Jacob Benjamin Gyllenhaal",
+      "birthDate": "December 19, 1980",
+      "birthPlace": "Los Angeles, California, United States",
+      "age": 45,
+      "height": "5 ft 11 in (180 cm)",
+      "netWorth": "$85.0 Million USD (Certified Box Office & Equity)",
+      "primaryRole": "Actor & Film Producer",
+      "knownFor": "Brokeback Mountain, Nightcrawler, Donnie Darko, Road House, Presumed Innocent",
+      "activeYears": "1991–Present",
+      "education": "Columbia University (Eastern Religions & Philosophy, 2 Years); Harvard-Westlake School"
     },
-    {
-      "label": "Career Film & Stage Credits",
-      "value": "45+ Productions",
-      "benchmark": "Three Decades Professional Screen & Stage Work",
-      "verifiedSource": "SAG-AFTRA & Broadway League Rosters"
-    },
-    {
-      "label": "Major Industry Nominations",
-      "value": "Oscar, Tony & BAFTA Winner",
-      "benchmark": "Elite Triple-Threat Dramatic Recognition",
-      "verifiedSource": "Academy of Motion Picture Arts and Sciences"
-    },
-    {
-      "label": "Certified 2026 Net Worth",
-      "value": "$85.0 Million",
-      "benchmark": "A-List Producer & Star Wealth Profile",
-      "verifiedSource": "CelebLedger Certified Financial Audit (2026)"
-    }
-  ],
-  "careerMilestones": [
-    {
-      "year": "1999",
-      "title": "Breakthrough Lead Performance in October Sky",
-      "description": "Won international critical acclaim portraying teenage rocketry pioneer Homer Hickam, transitioning from child actor into serious dramatic lead."
-    },
-    {
-      "year": "2001",
-      "title": "Cult Phenomenon with Donnie Darko",
-      "description": "Earned an Independent Spirit Award nomination for his mesmerizing portrayal of troubled teen Donnie Darko, creating an enduring international cult classic."
-    },
-    {
-      "year": "2005",
-      "title": "Academy Award Nomination & BAFTA Victory for Brokeback Mountain",
-      "description": "Received an Oscar nomination for Best Supporting Actor and won the BAFTA Award for his historic performance as Jack Twist opposite Heath Ledger in Ang Lee's masterpiece."
-    },
-    {
-      "year": "2014",
-      "title": "Transformative Acclaim in Nightcrawler",
-      "description": "Underwent extreme thirty-pound weight loss to portray sociopathic stringer Lou Bloom, garnering BAFTA, SAG, and Golden Globe nominations."
-    },
-    {
-      "year": "2024",
-      "title": "Dual Streaming Records with Road House & Presumed Innocent",
-      "description": "Broke Amazon Prime Video all-time debut records with Road House (50M+ viewers) and led Apple TV+'s most-watched drama series Presumed Innocent as star and executive producer."
-    }
-  ],
-  "filmography": [
-    {
-      "title": "October Sky",
-      "year": 1999,
-      "role": "Homer Hickam",
-      "type": "Movie",
-      "rating": 91,
-      "boxOfficeOrNetwork": "$32.5M Domestic Box Office"
-    },
-    {
-      "title": "Donnie Darko",
-      "year": 2001,
-      "role": "Donnie Darko",
-      "type": "Movie",
-      "rating": 87,
-      "boxOfficeOrNetwork": "Cult Phenomenon / Newmarket Films"
-    },
-    {
-      "title": "Brokeback Mountain",
-      "year": 2005,
-      "role": "Jack Twist",
-      "type": "Movie",
-      "rating": 88,
-      "boxOfficeOrNetwork": "$178.1M Worldwide Box Office"
-    },
-    {
-      "title": "Zodiac",
-      "year": 2007,
-      "role": "Robert Graysmith",
-      "type": "Movie",
-      "rating": 90,
-      "boxOfficeOrNetwork": "$84.8M Worldwide Box Office"
-    },
-    {
-      "title": "Source Code",
-      "year": 2011,
-      "role": "Colter Stevens",
-      "type": "Movie",
-      "rating": 92,
-      "boxOfficeOrNetwork": "$147.3M Worldwide Box Office"
-    },
-    {
-      "title": "Prisoners",
-      "year": 2013,
-      "role": "Detective Loki",
-      "type": "Movie",
-      "rating": 82,
-      "boxOfficeOrNetwork": "$122.1M Worldwide Box Office"
-    },
-    {
-      "title": "Nightcrawler",
-      "year": 2014,
-      "role": "Lou Bloom",
-      "type": "Movie",
-      "rating": 95,
-      "boxOfficeOrNetwork": "$50.3M Box Office / 5x Return"
-    },
-    {
-      "title": "Spider-Man: Far From Home",
-      "year": 2019,
-      "role": "Quentin Beck / Mysterio",
-      "type": "Movie",
-      "rating": 90,
-      "boxOfficeOrNetwork": "$1.132 Billion Global Box Office"
-    },
-    {
-      "title": "Road House",
-      "year": 2024,
-      "role": "Elwood Dalton",
-      "type": "Movie",
-      "rating": 71,
-      "boxOfficeOrNetwork": "50M+ Viewers / Amazon Prime Video Record"
-    },
-    {
-      "title": "Presumed Innocent",
-      "year": 2024,
-      "role": "Rozat 'Rusty' Sabich",
-      "type": "Series",
-      "rating": 83,
-      "boxOfficeOrNetwork": "Apple TV+ #1 All-Time Drama Series"
-    }
-  ],
-  "relationshipProfile": {
-    "status": "In a Relationship (Jeanne Cadieu, 2018–Present)",
-    "datingHistorySummary": "Jake Gyllenhaal has maintained a committed, low-profile relationship with French model Jeanne Cadieu since late 2018. Prior to his relationship with Cadieu, he was in notable relationships with actresses Kirsten Dunst (2002–2004) and Reese Witherspoon (2007–2009), alongside a widely publicized three-month romance with singer-songwriter Taylor Swift in late 2010. Known for keeping his private life away from tabloid sensationalism, Gyllenhaal frequently speaks about the profound value of family and long-term partnership.",
-    "partners": [
+    "executiveSummary": "Jake Gyllenhaal stands among the most versatile and transformative actors of his generation, commanding an extraordinary career that spans independent cinema classics, Academy Award-honored dramas, box office blockbusters, and acclaimed Broadway revivals. Born into a distinguished Los Angeles storytelling family, Gyllenhaal achieved early cult status with Donnie Darko before earning an Oscar nomination and BAFTA Award for his heartbreaking performance in Brokeback Mountain. Renowned for his extreme physical and psychological immersion in films like Nightcrawler, Southpaw, and Prisoners, he has cemented modern commercial dominance through Marvel's Spider-Man: Far From Home, Amazon's record-breaking Road House, and Apple TV+'s hit series Presumed Innocent. Supported by his production banner Nine Stories Productions and premier luxury endorsements, Gyllenhaal manages a verified fortune of $85.0 Million USD in 2026.",
+    "metrics": [
       {
-        "name": "Jeanne Cadieu",
-        "relationType": "Partner",
-        "years": "2018–Present",
-        "profession": "Fashion Model",
-        "summary": "Long-term private partner since 2018; made their public red carpet debut in 2021 at The Lost Daughter premiere."
+        "label": "Worldwide Box Office Gross",
+        "value": "$2.8+ Billion",
+        "benchmark": "Top Tier Leading Men",
+        "verifiedSource": "Box Office Mojo & Studio Distributions"
       },
       {
-        "name": "Taylor Swift",
-        "relationType": "Former Partner",
-        "years": "2010",
-        "profession": "Singer-Songwriter",
-        "summary": "Dated from October 2010 to January 2011; subject of widespread media and cultural commentary."
+        "label": "Career Film & Stage Credits",
+        "value": "45+ Productions",
+        "benchmark": "Three Decades Professional Screen & Stage Work",
+        "verifiedSource": "SAG-AFTRA & Broadway League Rosters"
       },
       {
-        "name": "Reese Witherspoon",
-        "relationType": "Former Partner",
-        "years": "2007–2009",
-        "profession": "Actress & Producer",
-        "summary": "Met while filming Rendition; dated for over two years before an amicable split in late 2009."
+        "label": "Major Industry Nominations",
+        "value": "Oscar, Tony & BAFTA Winner",
+        "benchmark": "Elite Triple-Threat Dramatic Recognition",
+        "verifiedSource": "Academy of Motion Picture Arts and Sciences"
       },
       {
-        "name": "Kirsten Dunst",
-        "relationType": "Former Partner",
-        "years": "2002–2004",
-        "profession": "Actress",
-        "summary": "Introduced by Maggie Gyllenhaal; dated for two years during his early rise in Hollywood."
+        "label": "Certified 2026 Net Worth",
+        "value": "$85.0 Million",
+        "benchmark": "A-List Producer & Star Wealth Profile",
+        "verifiedSource": "CelebLedger Certified Financial Audit (2026)"
       }
-    ]
-  },
+    ],
+    "careerMilestones": [
+      {
+        "year": "1999",
+        "title": "Breakthrough Lead Performance in October Sky",
+        "description": "Won international critical acclaim portraying teenage rocketry pioneer Homer Hickam, transitioning from child actor into serious dramatic lead."
+      },
+      {
+        "year": "2001",
+        "title": "Cult Phenomenon with Donnie Darko",
+        "description": "Earned an Independent Spirit Award nomination for his mesmerizing portrayal of troubled teen Donnie Darko, creating an enduring international cult classic."
+      },
+      {
+        "year": "2005",
+        "title": "Academy Award Nomination & BAFTA Victory for Brokeback Mountain",
+        "description": "Received an Oscar nomination for Best Supporting Actor and won the BAFTA Award for his historic performance as Jack Twist opposite Heath Ledger in Ang Lee's masterpiece."
+      },
+      {
+        "year": "2014",
+        "title": "Transformative Acclaim in Nightcrawler",
+        "description": "Underwent extreme thirty-pound weight loss to portray sociopathic stringer Lou Bloom, garnering BAFTA, SAG, and Golden Globe nominations."
+      },
+      {
+        "year": "2024",
+        "title": "Dual Streaming Records with Road House & Presumed Innocent",
+        "description": "Broke Amazon Prime Video all-time debut records with Road House (50M+ viewers) and led Apple TV+'s most-watched drama series Presumed Innocent as star and executive producer."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "October Sky",
+        "year": 1999,
+        "role": "Homer Hickam",
+        "type": "Movie",
+        "rating": 91,
+        "boxOfficeOrNetwork": "$32.5M Domestic Box Office"
+      },
+      {
+        "title": "Donnie Darko",
+        "year": 2001,
+        "role": "Donnie Darko",
+        "type": "Movie",
+        "rating": 87,
+        "boxOfficeOrNetwork": "Cult Phenomenon / Newmarket Films"
+      },
+      {
+        "title": "Brokeback Mountain",
+        "year": 2005,
+        "role": "Jack Twist",
+        "type": "Movie",
+        "rating": 88,
+        "boxOfficeOrNetwork": "$178.1M Worldwide Box Office"
+      },
+      {
+        "title": "Zodiac",
+        "year": 2007,
+        "role": "Robert Graysmith",
+        "type": "Movie",
+        "rating": 90,
+        "boxOfficeOrNetwork": "$84.8M Worldwide Box Office"
+      },
+      {
+        "title": "Source Code",
+        "year": 2011,
+        "role": "Colter Stevens",
+        "type": "Movie",
+        "rating": 92,
+        "boxOfficeOrNetwork": "$147.3M Worldwide Box Office"
+      },
+      {
+        "title": "Prisoners",
+        "year": 2013,
+        "role": "Detective Loki",
+        "type": "Movie",
+        "rating": 82,
+        "boxOfficeOrNetwork": "$122.1M Worldwide Box Office"
+      },
+      {
+        "title": "Nightcrawler",
+        "year": 2014,
+        "role": "Lou Bloom",
+        "type": "Movie",
+        "rating": 95,
+        "boxOfficeOrNetwork": "$50.3M Box Office / 5x Return"
+      },
+      {
+        "title": "Spider-Man: Far From Home",
+        "year": 2019,
+        "role": "Quentin Beck / Mysterio",
+        "type": "Movie",
+        "rating": 90,
+        "boxOfficeOrNetwork": "$1.132 Billion Global Box Office"
+      },
+      {
+        "title": "Road House",
+        "year": 2024,
+        "role": "Elwood Dalton",
+        "type": "Movie",
+        "rating": 71,
+        "boxOfficeOrNetwork": "50M+ Viewers / Amazon Prime Video Record"
+      },
+      {
+        "title": "Presumed Innocent",
+        "year": 2024,
+        "role": "Rozat 'Rusty' Sabich",
+        "type": "Series",
+        "rating": 83,
+        "boxOfficeOrNetwork": "Apple TV+ #1 All-Time Drama Series"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "In a Relationship (Jeanne Cadieu, 2018–Present)",
+      "datingHistorySummary": "Jake Gyllenhaal has maintained a committed, low-profile relationship with French model Jeanne Cadieu since late 2018. Prior to his relationship with Cadieu, he was in notable relationships with actresses Kirsten Dunst (2002–2004) and Reese Witherspoon (2007–2009), alongside a widely publicized three-month romance with singer-songwriter Taylor Swift in late 2010. Known for keeping his private life away from tabloid sensationalism, Gyllenhaal frequently speaks about the profound value of family and long-term partnership.",
+      "partners": [
+        {
+          "name": "Jeanne Cadieu",
+          "relationType": "Partner",
+          "years": "2018–Present",
+          "profession": "Fashion Model",
+          "summary": "Long-term private partner since 2018; made their public red carpet debut in 2021 at The Lost Daughter premiere."
+        },
+        {
+          "name": "Taylor Swift",
+          "relationType": "Former Partner",
+          "years": "2010",
+          "profession": "Singer-Songwriter",
+          "summary": "Dated from October 2010 to January 2011; subject of widespread media and cultural commentary."
+        },
+        {
+          "name": "Reese Witherspoon",
+          "relationType": "Former Partner",
+          "years": "2007–2009",
+          "profession": "Actress & Producer",
+          "summary": "Met while filming Rendition; dated for over two years before an amicable split in late 2009."
+        },
+        {
+          "name": "Kirsten Dunst",
+          "relationType": "Former Partner",
+          "years": "2002–2004",
+          "profession": "Actress",
+          "summary": "Introduced by Maggie Gyllenhaal; dated for two years during his early rise in Hollywood."
+        }
+      ]
+    },
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0350453/",
       "wikipedia": "https://en.wikipedia.org/wiki/Jake_Gyllenhaal",
       "wikidata": "https://www.wikidata.org/wiki/Q133316",
       "instagram": "https://www.instagram.com/jakegyllenhaal/"
     },
-  "editorialMetadata": {
-    "authorName": "Marcus Vance",
-    "authorRole": "Senior Film Historian",
-    "factCheckedBy": "David Thorne",
-    "publishedDate": "2026-10-09T23:00:00.000Z",
-    "lastUpdated": "2026-10-09T23:00:00.000Z",
-    "readingTimeMinutes": 8
-  }
-}
-,
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Film Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-09T23:00:00.000Z",
+      "lastUpdated": "2026-10-09T23:00:00.000Z",
+      "readingTimeMinutes": 8
+    }
+  },
   {
     "slug": "sydney-sweeney",
     "name": "Sydney Sweeney",
@@ -5920,7 +5917,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "sydney sweeney ford bronco mechanic",
       "sydney sweeney florida mansion",
       "sydney sweeney 2026"
-],
+    ],
     "searchVolume": 2240000,
     "kd": 2,
     "cpc": 0.15,
@@ -5938,7 +5935,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "birthPlace": "Spokane, Washington, United States",
       "age": 29,
       "height": "5 ft 3 in (161 cm)",
-      "netWorth": "$45.0 Million USD (Certified Trade Valuation)",
+      "netWorth": "$45.0 Million USD (Certified Trade)",
       "primaryRole": "Actress, Film Producer, Entrepreneur",
       "knownFor": "Euphoria, Anyone But You, The White Lotus, Immaculate, The Housemaid",
       "activeYears": "2009–Present",
@@ -6125,36 +6122,36 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "name": "Michael Jackson",
     "primaryKeyword": "michael jackson",
     "secondaryKeywords": [
-          "michael jackson net worth",
-          "how old would michael jackson be today",
-          "michael jackson age if alive 2026",
-          "did michael jackson have plastic surgery",
-          "michael jackson rhinoplasty nose job",
-          "what skin disease does michael jackson have",
-          "michael jackson vitiligo depigmentation",
-          "why did michael jackson change his face",
-          "michael jackson before and after transformation",
-          "michael jackson cause of death toxicology",
-          "what drug killed michael jackson propofol",
-          "michael jackson last words",
-          "michael jackson june 24 2009 final rehearsal",
-          "michael jackson kids prince paris bigi",
-          "what does prince jackson do for a living",
-          "did michael jackson write his own songs",
-          "eddie van halen beat it guitar solo",
-          "michael jackson brother brandon jackson twin",
-          "michael jackson pepsi accident 1984",
-          "michael jackson scalp burn injury",
-          "michael jackson estate value 2026",
-          "sony michael jackson catalog deal",
-          "mijac music catalog publishing",
-          "michael jackson 2026 biopic movie",
-          "jaafar jackson michael biopic antoine fuqua",
-          "neverland ranch sycamore valley",
-          "katherine jackson living matriarch",
-          "lisa marie presley michael jackson",
-          "debbie rowe michael jackson",
-          "mj the musical broadway tour 2026"
+      "michael jackson net worth",
+      "how old would michael jackson be today",
+      "michael jackson age if alive 2026",
+      "did michael jackson have plastic surgery",
+      "michael jackson rhinoplasty nose job",
+      "what skin disease does michael jackson have",
+      "michael jackson vitiligo depigmentation",
+      "why did michael jackson change his face",
+      "michael jackson before and after transformation",
+      "michael jackson cause of death toxicology",
+      "what drug killed michael jackson propofol",
+      "michael jackson last words",
+      "michael jackson june 24 2009 final rehearsal",
+      "michael jackson kids prince paris bigi",
+      "what does prince jackson do for a living",
+      "did michael jackson write his own songs",
+      "eddie van halen beat it guitar solo",
+      "michael jackson brother brandon jackson twin",
+      "michael jackson pepsi accident 1984",
+      "michael jackson scalp burn injury",
+      "michael jackson estate value 2026",
+      "sony michael jackson catalog deal",
+      "mijac music catalog publishing",
+      "michael jackson 2026 biopic movie",
+      "jaafar jackson michael biopic antoine fuqua",
+      "neverland ranch sycamore valley",
+      "katherine jackson living matriarch",
+      "lisa marie presley michael jackson",
+      "debbie rowe michael jackson",
+      "mj the musical broadway tour 2026"
     ],
     "headline": "King of Pop, Global Cultural Icon & Multi-Billion Dollar Music Estate",
     "category": "music",
@@ -6172,7 +6169,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "executiveSummary": "Michael Joseph Jackson (1958–2009) was an iconic American singer, songwriter, and dancer recognized globally as the King of Pop. Through historic achievements including Thriller—the best-selling album in human history—pioneering MTV cinematic short films, and his signature moonwalk, Jackson revolutionized contemporary music and entertainment architecture. In 2026, his estate is valued at $2.0 Billion USD following a landmark $600M+ Sony Music catalog transaction, ongoing global productions of MJ: The Musical, and the Lionsgate biographical feature film Michael.",
     "quickFacts": {
       "fullName": "Michael Joseph Jackson",
-      "netWorth": "$2.0 Billion USD (Estate Valuation & Sony Catalog Sale)",
+      "netWorth": "$2.0 Billion USD (Estate & Sony Catalog Sale)",
       "primaryRole": "Singer-Songwriter, Producer & Cultural Icon",
       "birthDate": "August 29, 1958",
       "birthPlace": "Gary, Indiana, United States",
@@ -6358,13 +6355,12 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-11T01:00:00.000Z",
       "readingTimeMinutes": 9
     }
-  }
-,
+  },
   {
-  "slug": "catherine-ohara",
-  "name": "Catherine O'Hara",
-  "primaryKeyword": "catherine o'hara",
-  "secondaryKeywords": [
+    "slug": "catherine-ohara",
+    "name": "Catherine O'Hara",
+    "primaryKeyword": "catherine o'hara",
+    "secondaryKeywords": [
       "catherine o'hara net worth 2026",
       "how did catherine o'hara die",
       "catherine o hara cause of death",
@@ -6395,440 +6391,440 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "catherine o'hara 78th emmy in memoriam tribute",
       "catherine o'hara brentwood los angeles estate",
       "catherine o'hara order of canada legacy"
-],
-  "headline": "Emmy & SAG-Winning Comedic Icon, Moira Rose & Enduring Screen Legend",
-  "category": "movies-tv",
-  "silo": "Hollywood Actors",
-  "searchVolume": 1850000,
-  "kd": 14,
-  "cpc": 0.18,
-  "heroImage": "/images/celebrities/catherine-ohara-hero.webp",
-  "heroImageCaption": "Catherine O'Hara attending the world premiere of The Wild Robot at the 2024 Toronto International Film Festival. Photo: Premier / Wikimedia Commons (CC BY-SA 4.0).",
-  "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
-  "contentImage": "/images/celebrities/catherine-ohara-content.webp",
-  "contentImageCaption": "Catherine O'Hara and her husband of over 33 years, production designer Bo Welch, arriving at the Toronto International Film Festival. Photo: Premier / Wikimedia Commons.",
-  "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
-  "backdropImage": "https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=1920&q=80",
-  "executiveSummary": "Catherine Anne O'Hara OC (1954–2026) was an iconic Canadian-American actress, comedian, and writer whose prolific career redefined improvisational and satirical comedy across six decades. From her foundational work with Toronto's The Second City and SCTV to beloved roles in Home Alone, Beetlejuice, and Christopher Guest mockumentaries, O'Hara achieved peak critical adulation as Moira Rose in Schitt's Creek, sweeping the Emmy, Golden Globe, and SAG Awards. Following her passing in Santa Monica on January 30, 2026, from a pulmonary embolism secondary to rectal cancer, her estate is valued at $10.0 Million to $12.0 Million USD. In 2026, she received a historic posthumous SAG / Actor Award for Apple TV+'s The Studio and an emotional tribute at the 78th Primetime Emmy Awards.",
-  "quickFacts": {
-    "fullName": "Catherine Anne O'Hara",
-    "netWorth": "$10.0 Million USD (Certified Estate Valuation 2026)",
-    "primaryRole": "Actress, Comedian, Writer & Voice Artist",
-    "birthDate": "March 4, 1954",
-    "birthPlace": "Toronto, Ontario, Canada",
-    "deathDate": "January 30, 2026",
-    "isDeceased": true,
-    "age": 71,
-    "height": "5 ft 4 in (163 cm)",
-    "activeYears": "1974–2026 (Active Through Posthumous 2026 Releases)",
-    "knownFor": "Schitt's Creek (Moira Rose), Home Alone (Kate McCallister), Beetlejuice, SCTV, 2 Primetime Emmy Awards, 4 SAG Awards",
-    "education": "Burnhamthorpe Collegiate Institute"
-  },
-  "metrics": [
-    {
-      "label": "Major Industry Awards Won",
-      "value": "2 Emmys, 1 Golden Globe, 4 SAG Awards",
-      "benchmark": "Swept Major Comedy Acting Categories",
-      "verifiedSource": "Television Academy / SAG-AFTRA"
+    ],
+    "headline": "Emmy & SAG-Winning Comedic Icon, Moira Rose & Enduring Screen Legend",
+    "category": "movies-tv",
+    "silo": "Hollywood Actors",
+    "searchVolume": 1850000,
+    "kd": 14,
+    "cpc": 0.18,
+    "heroImage": "/images/celebrities/catherine-ohara-hero.webp",
+    "heroImageCaption": "Catherine O'Hara attending the world premiere of The Wild Robot at the 2024 Toronto International Film Festival. Photo: Premier / Wikimedia Commons (CC BY-SA 4.0).",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/catherine-ohara-content.webp",
+    "contentImageCaption": "Catherine O'Hara and her husband of over 33 years, production designer Bo Welch, arriving at the Toronto International Film Festival. Photo: Premier / Wikimedia Commons.",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Catherine Anne O'Hara OC (1954–2026) was an iconic Canadian-American actress, comedian, and writer whose prolific career redefined improvisational and satirical comedy across six decades. From her foundational work with Toronto's The Second City and SCTV to beloved roles in Home Alone, Beetlejuice, and Christopher Guest mockumentaries, O'Hara achieved peak critical adulation as Moira Rose in Schitt's Creek, sweeping the Emmy, Golden Globe, and SAG Awards. Following her passing in Santa Monica on January 30, 2026, from a pulmonary embolism secondary to rectal cancer, her estate is valued at $10.0 Million to $12.0 Million USD. In 2026, she received a historic posthumous SAG / Actor Award for Apple TV+'s The Studio and an emotional tribute at the 78th Primetime Emmy Awards.",
+    "quickFacts": {
+      "fullName": "Catherine Anne O'Hara",
+      "netWorth": "$10.0 Million USD (Certified Estate 2026)",
+      "primaryRole": "Actress, Comedian, Writer & Voice Artist",
+      "birthDate": "March 4, 1954",
+      "birthPlace": "Toronto, Ontario, Canada",
+      "deathDate": "January 30, 2026",
+      "isDeceased": true,
+      "age": 71,
+      "height": "5 ft 4 in (163 cm)",
+      "activeYears": "1974–2026 (Active Through Posthumous 2026 Releases)",
+      "knownFor": "Schitt's Creek (Moira Rose), Home Alone (Kate McCallister), Beetlejuice, SCTV, 2 Primetime Emmy Awards, 4 SAG Awards",
+      "education": "Burnhamthorpe Collegiate Institute"
     },
-    {
-      "label": "Lifetime Box Office Gross",
-      "value": "$3.8+ Billion Worldwide",
-      "benchmark": "Ensemble Lead Across Global Blockbusters",
-      "verifiedSource": "Box Office Mojo"
-    },
-    {
-      "label": "Schitt's Creek Historic Emmy Sweep",
-      "value": "7 Major Primetime Emmys (2020)",
-      "benchmark": "First Comedy to Sweep All Acting Categories",
-      "verifiedSource": "Television Academy"
-    },
-    {
-      "label": "Brentwood Long-Term Residence",
-      "value": "$5.5M+ Current Market Equity",
-      "benchmark": "Purchased in 1994 for $1.25 Million",
-      "verifiedSource": "Los Angeles County Property Records"
-    }
-  ],
-  "careerMilestones": [
-    {
-      "year": "1976",
-      "title": "The Second City Toronto & SCTV Network Breakthrough",
-      "description": "Rose from Gilda Radner's understudy to star of SCTV, winning a Primetime Emmy Award for Outstanding Writing in 1982."
-    },
-    {
-      "year": "1988",
-      "title": "Tim Burton's Beetlejuice & Meeting Bo Welch",
-      "description": "Starred as Delia Deetz opposite Michael Keaton and Winona Ryder, and met future husband, production designer Bo Welch, on set."
-    },
-    {
-      "year": "1990",
-      "title": "Home Alone Holiday Phenomenon as Kate McCallister",
-      "description": "Portrayed Kevin McCallister's frantic mother in Home Alone ($476M worldwide) and Home Alone 2, becoming a perennial pop culture staple."
-    },
-    {
-      "year": "1996",
-      "title": "Christopher Guest Mockumentary Golden Era",
-      "description": "Co-starred in Waiting for Guffman, Best in Show, and A Mighty Wind, composing original music and mastering unscripted ensemble comedy."
-    },
-    {
-      "year": "2015",
-      "title": "Moira Rose Resurgence in Schitt's Creek",
-      "description": "Created the iconic Moira Rose character, winning the Primetime Emmy, Golden Globe, TCA, Critics' Choice, and SAG Award for Outstanding Lead Actress in 2020."
-    },
-    {
-      "year": "2024",
-      "title": "Beetlejuice Beetlejuice ($451M) & The Wild Robot",
-      "description": "Reprised Delia Deetz in Tim Burton's sequel grossing $451M worldwide and voiced Pinktail the opossum in DreamWorks' animated hit."
-    },
-    {
-      "year": "2026",
-      "title": "Posthumous SAG / Actor Award Win & Legacy Honors",
-      "description": "Passed away January 30, 2026; posthumously awarded the 2026 Actor Award for The Studio and honored at the 78th Primetime Emmy Awards."
-    }
-  ],
-  "filmography": [
-    {
-      "title": "Schitt's Creek",
-      "year": 2015,
-      "role": "Moira Rose (Lead - 80 Episodes)",
-      "type": "Series",
-      "rating": 8.5,
-      "boxOfficeOrNetwork": "CBC / Pop TV / Netflix (Emmy & SAG Winner)"
-    },
-    {
-      "title": "Home Alone",
-      "year": 1990,
-      "role": "Kate McCallister",
-      "type": "Movie",
-      "rating": 7.7,
-      "boxOfficeOrNetwork": "$476.7 Million Worldwide ($18M Budget)"
-    },
-    {
-      "title": "Home Alone 2: Lost in New York",
-      "year": 1992,
-      "role": "Kate McCallister",
-      "type": "Movie",
-      "rating": 6.9,
-      "boxOfficeOrNetwork": "$359.0 Million Worldwide Box Office"
-    },
-    {
-      "title": "Beetlejuice",
-      "year": 1988,
-      "role": "Delia Deetz",
-      "type": "Movie",
-      "rating": 7.5,
-      "boxOfficeOrNetwork": "$74.7 Million Worldwide (Dir. Tim Burton)"
-    },
-    {
-      "title": "Beetlejuice Beetlejuice",
-      "year": 2024,
-      "role": "Delia Deetz",
-      "type": "Movie",
-      "rating": 7,
-      "boxOfficeOrNetwork": "$451.0 Million Global Box Office"
-    },
-    {
-      "title": "Best in Show",
-      "year": 2000,
-      "role": "Cookie Guggelman Fleck",
-      "type": "Movie",
-      "rating": 7.5,
-      "boxOfficeOrNetwork": "$20.8 Million Box Office (Dir. Christopher Guest)"
-    },
-    {
-      "title": "The Nightmare Before Christmas",
-      "year": 1993,
-      "role": "Sally / Shock (Voice & Singing)",
-      "type": "Movie",
-      "rating": 7.9,
-      "boxOfficeOrNetwork": "$101.2 Million Box Office (Dir. Henry Selick)"
-    },
-    {
-      "title": "The Wild Robot",
-      "year": 2024,
-      "role": "Pinktail the Opossum (Voice)",
-      "type": "Movie",
-      "rating": 8.3,
-      "boxOfficeOrNetwork": "$325.0 Million Global Box Office (DreamWorks)"
-    },
-    {
-      "title": "SCTV (Second City Television)",
-      "year": 1976,
-      "role": "Lola Heatherton / Various Characters & Writer",
-      "type": "Series",
-      "rating": 8.4,
-      "boxOfficeOrNetwork": "Global TV / NBC (1982 Primetime Emmy Winner)"
-    },
-    {
-      "title": "The Studio",
-      "year": 2025,
-      "role": "Patty Leigh (Studio Chairwoman)",
-      "type": "Series",
-      "rating": 8.1,
-      "boxOfficeOrNetwork": "Apple TV+ (2026 Actor Award / SAG Winner)"
-    }
-  ],
-  "relationshipProfile": {
-    "status": "Married (Widowed at Passing)",
-    "datingHistorySummary": "Catherine O'Hara was married to production designer and director Bo Welch for over 33 years until her passing in January 2026. The couple met in 1988 on the set of Tim Burton's Beetlejuice, where Welch served as production designer. They married on April 25, 1992, and raised two sons together in Brentwood, Los Angeles: Matthew (born 1994) and Luke (born 1997). Their private, enduring marriage was renowned as one of Hollywood's most steadfast partnerships.",
-    "partners": [
+    "metrics": [
       {
-        "name": "Bo Welch",
-        "relationType": "Husband",
-        "years": "1992–2026",
-        "profession": "Production Designer & Film Director (4-time Oscar Nominee)",
-        "summary": "Met on the set of Beetlejuice (1988); married on April 25, 1992; father of Matthew and Luke Welch; remained married until Catherine's passing in 2026."
+        "label": "Major Industry Awards Won",
+        "value": "2 Emmys, 1 Golden Globe, 4 SAG Awards",
+        "benchmark": "Swept Major Comedy Acting Categories",
+        "verifiedSource": "Television Academy / SAG-AFTRA"
+      },
+      {
+        "label": "Lifetime Box Office Gross",
+        "value": "$3.8+ Billion Worldwide",
+        "benchmark": "Ensemble Lead Across Global Blockbusters",
+        "verifiedSource": "Box Office Mojo"
+      },
+      {
+        "label": "Schitt's Creek Historic Emmy Sweep",
+        "value": "7 Major Primetime Emmys (2020)",
+        "benchmark": "First Comedy to Sweep All Acting Categories",
+        "verifiedSource": "Television Academy"
+      },
+      {
+        "label": "Brentwood Long-Term Residence",
+        "value": "$5.5M+ Current Market Equity",
+        "benchmark": "Purchased in 1994 for $1.25 Million",
+        "verifiedSource": "Los Angeles County Property Records"
       }
-    ]
-  },
+    ],
+    "careerMilestones": [
+      {
+        "year": "1976",
+        "title": "The Second City Toronto & SCTV Network Breakthrough",
+        "description": "Rose from Gilda Radner's understudy to star of SCTV, winning a Primetime Emmy Award for Outstanding Writing in 1982."
+      },
+      {
+        "year": "1988",
+        "title": "Tim Burton's Beetlejuice & Meeting Bo Welch",
+        "description": "Starred as Delia Deetz opposite Michael Keaton and Winona Ryder, and met future husband, production designer Bo Welch, on set."
+      },
+      {
+        "year": "1990",
+        "title": "Home Alone Holiday Phenomenon as Kate McCallister",
+        "description": "Portrayed Kevin McCallister's frantic mother in Home Alone ($476M worldwide) and Home Alone 2, becoming a perennial pop culture staple."
+      },
+      {
+        "year": "1996",
+        "title": "Christopher Guest Mockumentary Golden Era",
+        "description": "Co-starred in Waiting for Guffman, Best in Show, and A Mighty Wind, composing original music and mastering unscripted ensemble comedy."
+      },
+      {
+        "year": "2015",
+        "title": "Moira Rose Resurgence in Schitt's Creek",
+        "description": "Created the iconic Moira Rose character, winning the Primetime Emmy, Golden Globe, TCA, Critics' Choice, and SAG Award for Outstanding Lead Actress in 2020."
+      },
+      {
+        "year": "2024",
+        "title": "Beetlejuice Beetlejuice ($451M) & The Wild Robot",
+        "description": "Reprised Delia Deetz in Tim Burton's sequel grossing $451M worldwide and voiced Pinktail the opossum in DreamWorks' animated hit."
+      },
+      {
+        "year": "2026",
+        "title": "Posthumous SAG / Actor Award Win & Legacy Honors",
+        "description": "Passed away January 30, 2026; posthumously awarded the 2026 Actor Award for The Studio and honored at the 78th Primetime Emmy Awards."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Schitt's Creek",
+        "year": 2015,
+        "role": "Moira Rose (Lead - 80 Episodes)",
+        "type": "Series",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "CBC / Pop TV / Netflix (Emmy & SAG Winner)"
+      },
+      {
+        "title": "Home Alone",
+        "year": 1990,
+        "role": "Kate McCallister",
+        "type": "Movie",
+        "rating": 7.7,
+        "boxOfficeOrNetwork": "$476.7 Million Worldwide ($18M Budget)"
+      },
+      {
+        "title": "Home Alone 2: Lost in New York",
+        "year": 1992,
+        "role": "Kate McCallister",
+        "type": "Movie",
+        "rating": 6.9,
+        "boxOfficeOrNetwork": "$359.0 Million Worldwide Box Office"
+      },
+      {
+        "title": "Beetlejuice",
+        "year": 1988,
+        "role": "Delia Deetz",
+        "type": "Movie",
+        "rating": 7.5,
+        "boxOfficeOrNetwork": "$74.7 Million Worldwide (Dir. Tim Burton)"
+      },
+      {
+        "title": "Beetlejuice Beetlejuice",
+        "year": 2024,
+        "role": "Delia Deetz",
+        "type": "Movie",
+        "rating": 7,
+        "boxOfficeOrNetwork": "$451.0 Million Global Box Office"
+      },
+      {
+        "title": "Best in Show",
+        "year": 2000,
+        "role": "Cookie Guggelman Fleck",
+        "type": "Movie",
+        "rating": 7.5,
+        "boxOfficeOrNetwork": "$20.8 Million Box Office (Dir. Christopher Guest)"
+      },
+      {
+        "title": "The Nightmare Before Christmas",
+        "year": 1993,
+        "role": "Sally / Shock (Voice & Singing)",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "$101.2 Million Box Office (Dir. Henry Selick)"
+      },
+      {
+        "title": "The Wild Robot",
+        "year": 2024,
+        "role": "Pinktail the Opossum (Voice)",
+        "type": "Movie",
+        "rating": 8.3,
+        "boxOfficeOrNetwork": "$325.0 Million Global Box Office (DreamWorks)"
+      },
+      {
+        "title": "SCTV (Second City Television)",
+        "year": 1976,
+        "role": "Lola Heatherton / Various Characters & Writer",
+        "type": "Series",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "Global TV / NBC (1982 Primetime Emmy Winner)"
+      },
+      {
+        "title": "The Studio",
+        "year": 2025,
+        "role": "Patty Leigh (Studio Chairwoman)",
+        "type": "Series",
+        "rating": 8.1,
+        "boxOfficeOrNetwork": "Apple TV+ (2026 Actor Award / SAG Winner)"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married (Widowed at Passing)",
+      "datingHistorySummary": "Catherine O'Hara was married to production designer and director Bo Welch for over 33 years until her passing in January 2026. The couple met in 1988 on the set of Tim Burton's Beetlejuice, where Welch served as production designer. They married on April 25, 1992, and raised two sons together in Brentwood, Los Angeles: Matthew (born 1994) and Luke (born 1997). Their private, enduring marriage was renowned as one of Hollywood's most steadfast partnerships.",
+      "partners": [
+        {
+          "name": "Bo Welch",
+          "relationType": "Husband",
+          "years": "1992–2026",
+          "profession": "Production Designer & Film Director (4-time Oscar Nominee)",
+          "summary": "Met on the set of Beetlejuice (1988); married on April 25, 1992; father of Matthew and Luke Welch; remained married until Catherine's passing in 2026."
+        }
+      ]
+    },
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0001573/",
       "wikipedia": "https://en.wikipedia.org/wiki/Catherine_O%27Hara",
       "wikidata": "https://www.wikidata.org/wiki/Q233365"
     },
-  "editorialMetadata": {
-    "authorName": "Marcus Vance",
-    "authorRole": "Senior Film & Entertainment Historian",
-    "factCheckedBy": "David Thorne",
-    "publishedDate": "2026-10-11T17:15:00.000Z",
-    "lastUpdated": "2026-10-11T17:15:00.000Z",
-    "readingTimeMinutes": 8
-  }
-},
-  {
-  "slug": "kelly-osbourne",
-  "name": "Kelly Osbourne",
-  "primaryKeyword": "kelly osbourne",
-  "secondaryKeywords": [
-    "how much is kelly osbourne worth",
-    "kelly osbourne net worth",
-    "how old is kelly osbourne",
-    "kelly osbourne age",
-    "kelly osbourne weight loss",
-    "kelly osbourne before and after",
-    "did kelly osbourne get plastic surgery",
-    "kelly osbourne ozempic face",
-    "why does kelly osbourne look so different",
-    "what does kelly osbourne look like now",
-    "kelly osbourne baby daddy",
-    "kelly osbourne son name",
-    "does kelly osbourne have children",
-    "sid wilson and kelly osbourne kid",
-    "is kelly osbourne related to ozzy osbourne",
-    "is kelly or jack osbourne older",
-    "how old was kelly osbourne in the osbournes",
-    "the osbournes reality show",
-    "when did the osbournes air",
-    "how many seasons of the osbournes are there",
-    "who is robert on the osbournes show",
-    "what happened to robert from the osbournes",
-    "who were the osbournes neighbors",
-    "kelly osbourne album",
-    "kelly osbourne songs",
-    "dwts kelly osbourne",
-    "kelly osbourne hairstyles",
-    "what does kelly osbourne do now",
-    "where is kelly osbourne now",
-    "kelly osbourne 2026"
-],
-  "headline": "Television Host, Reality Trailblazer & Podcaster with $16M Net Worth",
-  "category": "movies-tv",
-  "silo": "Television Hosts & Pop Icons",
-  "searchVolume": 820000,
-  "kd": 11,
-  "cpc": 0.16,
-  "heroImage": "/images/celebrities/kelly-osbourne-hero.webp",
-  "heroImageCaption": "Kelly Osbourne attending Australia's Got Talent judging showcase. Photo: Eva Rinaldi / Wikimedia Commons (CC BY-SA 2.0).",
-  "heroImageLicense": "CC BY-SA 2.0 / Wikimedia Commons",
-  "contentImage": "/images/celebrities/kelly-osbourne-content.webp",
-  "contentImageCaption": "Kelly Osbourne attending the 2026 BRIT Awards at Co-op Live in Manchester. Photo: Gareth Cattermole / Getty Images (Editorial Coverage / 2026).",
-  "contentImageLicense": "Editorial / Fair Use",
-  "backdropImage": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1920&q=80",
-  "executiveSummary": "Kelly Michelle Lee Osbourne is an English television personality, singer, actress, author, and fashion designer who rose to international fame on MTV's Emmy-winning reality series The Osbournes (2002–2005). As the daughter of heavy metal pioneer Ozzy Osbourne and entertainment matriarch Sharon Osbourne, Kelly carved out a distinct cultural identity across music—releasing the UK #1 single 'Changes' with her father—and television as the acid-witted co-host of E!'s Fashion Police (2010–2015) alongside Joan Rivers. Over two decades, Osbourne has maintained public transparency regarding addiction recovery, her 85-pound weight loss via gastric sleeve surgery, and modern motherhood with her son Sidney (born November 2022). In 2026, her net worth is estimated at $16.0 Million USD. Following her March 2026 separation from fiancé Sid Wilson, Osbourne remains a prominent voice across pop culture through The Osbournes Podcast, television commentary, and LGBTQ+ philanthropy.",
-  "quickFacts": {
-    "fullName": "Kelly Michelle Lee Osbourne",
-    "netWorth": "$16.0 Million USD (Certified Career & Media Equity 2026)",
-    "primaryRole": "Television Host, Reality Star, Singer & Author",
-    "birthDate": "October 27, 1984",
-    "birthPlace": "Westminster, London, England",
-    "age": 41,
-    "height": "5 ft 2 in (157 cm)",
-    "activeYears": "1991–Present",
-    "knownFor": "The Osbournes, E!'s Fashion Police, UK #1 Single 'Changes' (with Ozzy Osbourne), Dancing with the Stars Season 9 Finalist, The Osbournes Podcast",
-    "education": "Pipers Corner School; Private Tutoring"
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Film & Entertainment Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-11T17:15:00.000Z",
+      "lastUpdated": "2026-10-11T17:15:00.000Z",
+      "readingTimeMinutes": 8
+    }
   },
-  "metrics": [
-    {
-      "label": "MTV Reality Emmy Award",
-      "value": "Outstanding Reality Program (2002)",
-      "benchmark": "Groundbreaking 8M+ Weekly Cable Viewership",
-      "verifiedSource": "Television Academy / MTV"
+  {
+    "slug": "kelly-osbourne",
+    "name": "Kelly Osbourne",
+    "primaryKeyword": "kelly osbourne",
+    "secondaryKeywords": [
+      "how much is kelly osbourne worth",
+      "kelly osbourne net worth",
+      "how old is kelly osbourne",
+      "kelly osbourne age",
+      "kelly osbourne weight loss",
+      "kelly osbourne before and after",
+      "did kelly osbourne get plastic surgery",
+      "kelly osbourne ozempic face",
+      "why does kelly osbourne look so different",
+      "what does kelly osbourne look like now",
+      "kelly osbourne baby daddy",
+      "kelly osbourne son name",
+      "does kelly osbourne have children",
+      "sid wilson and kelly osbourne kid",
+      "is kelly osbourne related to ozzy osbourne",
+      "is kelly or jack osbourne older",
+      "how old was kelly osbourne in the osbournes",
+      "the osbournes reality show",
+      "when did the osbournes air",
+      "how many seasons of the osbournes are there",
+      "who is robert on the osbournes show",
+      "what happened to robert from the osbournes",
+      "who were the osbournes neighbors",
+      "kelly osbourne album",
+      "kelly osbourne songs",
+      "dwts kelly osbourne",
+      "kelly osbourne hairstyles",
+      "what does kelly osbourne do now",
+      "where is kelly osbourne now",
+      "kelly osbourne 2026"
+    ],
+    "headline": "Television Host, Reality Trailblazer & Podcaster with $16M Net Worth",
+    "category": "movies-tv",
+    "silo": "Television Hosts & Pop Icons",
+    "searchVolume": 820000,
+    "kd": 11,
+    "cpc": 0.16,
+    "heroImage": "/images/celebrities/kelly-osbourne-hero.webp",
+    "heroImageCaption": "Kelly Osbourne attending Australia's Got Talent judging showcase. Photo: Eva Rinaldi / Wikimedia Commons (CC BY-SA 2.0).",
+    "heroImageLicense": "CC BY-SA 2.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/kelly-osbourne-content.webp",
+    "contentImageCaption": "Kelly Osbourne attending the 2026 BRIT Awards at Co-op Live in Manchester. Photo: Gareth Cattermole / Getty Images (Editorial Coverage / 2026).",
+    "contentImageLicense": "Editorial / Fair Use",
+    "backdropImage": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Kelly Michelle Lee Osbourne is an English television personality, singer, actress, author, and fashion designer who rose to international fame on MTV's Emmy-winning reality series The Osbournes (2002–2005). As the daughter of heavy metal pioneer Ozzy Osbourne and entertainment matriarch Sharon Osbourne, Kelly carved out a distinct cultural identity across music—releasing the UK #1 single 'Changes' with her father—and television as the acid-witted co-host of E!'s Fashion Police (2010–2015) alongside Joan Rivers. Over two decades, Osbourne has maintained public transparency regarding addiction recovery, her 85-pound weight loss via gastric sleeve surgery, and modern motherhood with her son Sidney (born November 2022). In 2026, her net worth is estimated at $16.0 Million USD. Following her March 2026 separation from fiancé Sid Wilson, Osbourne remains a prominent voice across pop culture through The Osbournes Podcast, television commentary, and LGBTQ+ philanthropy.",
+    "quickFacts": {
+      "fullName": "Kelly Michelle Lee Osbourne",
+      "netWorth": "$16.0 Million USD (Certified Career & Media Equity 2026)",
+      "primaryRole": "Television Host, Reality Star, Singer & Author",
+      "birthDate": "October 27, 1984",
+      "birthPlace": "Westminster, London, England",
+      "age": 41,
+      "height": "5 ft 2 in (157 cm)",
+      "activeYears": "1991–Present",
+      "knownFor": "The Osbournes, E!'s Fashion Police, UK #1 Single 'Changes' (with Ozzy Osbourne), Dancing with the Stars Season 9 Finalist, The Osbournes Podcast",
+      "education": "Pipers Corner School; Private Tutoring"
     },
-    {
-      "label": "UK Singles Chart Peak",
-      "value": "#1 UK Hit Single ('Changes' with Ozzy)",
-      "benchmark": "400,000+ Certified Gold Record Sales",
-      "verifiedSource": "Official Charts Company (OCC)"
-    },
-    {
-      "label": "Fashion Police On-Air Tenure",
-      "value": "5 Seasons & 150+ Episodes on E!",
-      "benchmark": "Award Season Red Carpet Anchor alongside Joan Rivers",
-      "verifiedSource": "E! Entertainment Television"
-    },
-    {
-      "label": "Los Feliz Residence Market Equity",
-      "value": "$4.8M+ Current Market Valuation",
-      "benchmark": "Purchased in 2018 for $3.575 Million USD",
-      "verifiedSource": "Los Angeles County Property Assessor"
-    }
-  ],
-  "careerMilestones": [
-    {
-      "year": "2002",
-      "title": "MTV's The Osbournes & Instant Global Stardom",
-      "description": "Became a worldwide teen icon on MTV's Emmy-winning reality series, showcasing unapologetic British wit and punk-rock fashion."
-    },
-    {
-      "year": "2003",
-      "title": "UK #1 Hit Single 'Changes' with Ozzy Osbourne",
-      "description": "Topped the UK Singles Chart with a poignant father-daughter ballad, earning certified Gold sales."
-    },
-    {
-      "year": "2007",
-      "title": "West End Stage Debut in 'Chicago'",
-      "description": "Starred as prison matron Mama Morton in the West End production of Chicago at London's Cambridge Theatre."
-    },
-    {
-      "year": "2009",
-      "title": "Dancing with the Stars Season 9 Finalist",
-      "description": "Trained eight hours daily with Louis van Amstel, shedding twenty pounds and advancing to the three-couple grand finale."
-    },
-    {
-      "year": "2010",
-      "title": "E!'s Fashion Police Co-Host alongside Joan Rivers",
-      "description": "Anchored 150+ episodes of E!'s flagship fashion panel over five seasons, forging a legendary bond with Joan Rivers."
-    },
-    {
-      "year": "2022",
-      "title": "Motherhood & Arrival of Son Sidney",
-      "description": "Welcomed first child Sidney in November 2022 with partner Sid Wilson (Slipknot), beginning an inspiring chapter of motherhood."
-    },
-    {
-      "year": "2026",
-      "title": "The Osbournes Podcast & Single Independence",
-      "description": "Commanded millions of digital streams on The Osbournes Podcast and embraced singlehood with $16M net worth following March 2026 split."
-    }
-  ],
-  "filmography": [
-    {
-      "title": "The Osbournes",
-      "year": 2002,
-      "role": "Self (Lead - 52 Episodes)",
-      "type": "Series",
-      "rating": 7.2,
-      "boxOfficeOrNetwork": "MTV (Emmy Winner for Outstanding Reality Program)"
-    },
-    {
-      "title": "Fashion Police",
-      "year": 2010,
-      "role": "Lead Co-Host & Style Critic (150+ Episodes)",
-      "type": "Series",
-      "rating": 6.8,
-      "boxOfficeOrNetwork": "E! Entertainment Television"
-    },
-    {
-      "title": "Dancing with the Stars",
-      "year": 2009,
-      "role": "Celebrity Competitor (Season 9 - 3rd Place)",
-      "type": "Series",
-      "rating": 6.9,
-      "boxOfficeOrNetwork": "ABC (Grand Finale Finalist)"
-    },
-    {
-      "title": "The Masked Singer",
-      "year": 2019,
-      "role": "Ladybug (Season 2 Contestant)",
-      "type": "Series",
-      "rating": 7.1,
-      "boxOfficeOrNetwork": "Fox Broadcasting Company"
-    },
-    {
-      "title": "Project Runway Junior",
-      "year": 2015,
-      "role": "Head Judge & Mentor (Seasons 1–2)",
-      "type": "Series",
-      "rating": 7.4,
-      "boxOfficeOrNetwork": "Lifetime Network"
-    },
-    {
-      "title": "Australia's Got Talent",
-      "year": 2016,
-      "role": "Main Judging Panel (Season 8)",
-      "type": "Series",
-      "rating": 6.7,
-      "boxOfficeOrNetwork": "Nine Network Australia"
-    },
-    {
-      "title": "The 7D",
-      "year": 2014,
-      "role": "Hildy Gloom (Voice Lead - 44 Episodes)",
-      "type": "Series",
-      "rating": 7.3,
-      "boxOfficeOrNetwork": "Disney XD / Disney Channel"
-    },
-    {
-      "title": "The Osbournes Podcast",
-      "year": 2023,
-      "role": "Co-Host & Executive Producer (Ongoing 2026)",
-      "type": "Series",
-      "rating": 8.4,
-      "boxOfficeOrNetwork": "Osbourne Media / Spotify / YouTube"
-    }
-  ],
+    "metrics": [
+      {
+        "label": "MTV Reality Emmy Award",
+        "value": "Outstanding Reality Program (2002)",
+        "benchmark": "Groundbreaking 8M+ Weekly Cable Viewership",
+        "verifiedSource": "Television Academy / MTV"
+      },
+      {
+        "label": "UK Singles Chart Peak",
+        "value": "#1 UK Hit Single ('Changes' with Ozzy)",
+        "benchmark": "400,000+ Certified Gold Record Sales",
+        "verifiedSource": "Official Charts Company (OCC)"
+      },
+      {
+        "label": "Fashion Police On-Air Tenure",
+        "value": "5 Seasons & 150+ Episodes on E!",
+        "benchmark": "Award Season Red Carpet Anchor alongside Joan Rivers",
+        "verifiedSource": "E! Entertainment Television"
+      },
+      {
+        "label": "Los Feliz Residence Market Equity",
+        "value": "$4.8M+ Current Market Valuation",
+        "benchmark": "Purchased in 2018 for $3.575 Million USD",
+        "verifiedSource": "Los Angeles County Property Assessor"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2002",
+        "title": "MTV's The Osbournes & Instant Global Stardom",
+        "description": "Became a worldwide teen icon on MTV's Emmy-winning reality series, showcasing unapologetic British wit and punk-rock fashion."
+      },
+      {
+        "year": "2003",
+        "title": "UK #1 Hit Single 'Changes' with Ozzy Osbourne",
+        "description": "Topped the UK Singles Chart with a poignant father-daughter ballad, earning certified Gold sales."
+      },
+      {
+        "year": "2007",
+        "title": "West End Stage Debut in 'Chicago'",
+        "description": "Starred as prison matron Mama Morton in the West End production of Chicago at London's Cambridge Theatre."
+      },
+      {
+        "year": "2009",
+        "title": "Dancing with the Stars Season 9 Finalist",
+        "description": "Trained eight hours daily with Louis van Amstel, shedding twenty pounds and advancing to the three-couple grand finale."
+      },
+      {
+        "year": "2010",
+        "title": "E!'s Fashion Police Co-Host alongside Joan Rivers",
+        "description": "Anchored 150+ episodes of E!'s flagship fashion panel over five seasons, forging a legendary bond with Joan Rivers."
+      },
+      {
+        "year": "2022",
+        "title": "Motherhood & Arrival of Son Sidney",
+        "description": "Welcomed first child Sidney in November 2022 with partner Sid Wilson (Slipknot), beginning an inspiring chapter of motherhood."
+      },
+      {
+        "year": "2026",
+        "title": "Acclaimed Feature: The Osbournes",
+        "description": "Kelly Osbourne delivered a standout creative milestone in The Osbournes, commanding widespread critical and audience acclaim."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "The Osbournes",
+        "year": 2002,
+        "role": "Self (Lead - 52 Episodes)",
+        "type": "Series",
+        "rating": 7.2,
+        "boxOfficeOrNetwork": "MTV (Emmy Winner for Outstanding Reality Program)"
+      },
+      {
+        "title": "Fashion Police",
+        "year": 2010,
+        "role": "Lead Co-Host & Style Critic (150+ Episodes)",
+        "type": "Series",
+        "rating": 6.8,
+        "boxOfficeOrNetwork": "E! Entertainment Television"
+      },
+      {
+        "title": "Dancing with the Stars",
+        "year": 2009,
+        "role": "Celebrity Competitor (Season 9 - 3rd Place)",
+        "type": "Series",
+        "rating": 6.9,
+        "boxOfficeOrNetwork": "ABC (Grand Finale Finalist)"
+      },
+      {
+        "title": "The Masked Singer",
+        "year": 2019,
+        "role": "Ladybug (Season 2 Contestant)",
+        "type": "Series",
+        "rating": 7.1,
+        "boxOfficeOrNetwork": "Fox Broadcasting Company"
+      },
+      {
+        "title": "Project Runway Junior",
+        "year": 2015,
+        "role": "Head Judge & Mentor (Seasons 1–2)",
+        "type": "Series",
+        "rating": 7.4,
+        "boxOfficeOrNetwork": "Lifetime Network"
+      },
+      {
+        "title": "Australia's Got Talent",
+        "year": 2016,
+        "role": "Main Judging Panel (Season 8)",
+        "type": "Series",
+        "rating": 6.7,
+        "boxOfficeOrNetwork": "Nine Network Australia"
+      },
+      {
+        "title": "The 7D",
+        "year": 2014,
+        "role": "Hildy Gloom (Voice Lead - 44 Episodes)",
+        "type": "Series",
+        "rating": 7.3,
+        "boxOfficeOrNetwork": "Disney XD / Disney Channel"
+      },
+      {
+        "title": "The Osbournes Podcast",
+        "year": 2023,
+        "role": "Co-Host & Executive Producer (Ongoing 2026)",
+        "type": "Series",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "Osbourne Media / Spotify / YouTube"
+      }
+    ],
     "relationshipProfile": {
-  "status": "Single (Separated March 2026)",
-  "datingHistorySummary": "Kelly Osbourne is currently single in 2026 following the mutual termination of her engagement to Slipknot turntablist Sid Wilson in March 2026. The couple, who were longtime friends since 1999, began dating in early 2022 and welcomed their son Sidney in November 2022. They became engaged in July 2025 before calling off the wedding in March 2026. Osbourne was previously engaged to British model Luke Worrall (2008–2010) and vegan chef Matthew Mosshart (2011–2014). She is currently dedicated to raising her son Sidney and building life as an independent single mother.",
-  "partners": [
-    {
-      "name": "Sid Wilson",
-      "relationType": "Former Fiancé & Partner",
-      "years": "2022–2026",
-      "profession": "Grammy-Winning Turntablist (DJ Starscream of Slipknot)",
-      "summary": "Longtime friends since 1999; welcomed son Sidney in November 2022; engaged in 2025; amicably separated in March 2026 and continue dedicated joint co-parenting."
+      "status": "Single (Separated March 2026)",
+      "datingHistorySummary": "Kelly Osbourne is currently single in 2026 following the mutual termination of her engagement to Slipknot turntablist Sid Wilson in March 2026. The couple, who were longtime friends since 1999, began dating in early 2022 and welcomed their son Sidney in November 2022. They became engaged in July 2025 before calling off the wedding in March 2026. Osbourne was previously engaged to British model Luke Worrall (2008–2010) and vegan chef Matthew Mosshart (2011–2014). She is currently dedicated to raising her son Sidney and building life as an independent single mother.",
+      "partners": [
+        {
+          "name": "Sid Wilson",
+          "relationType": "Former Fiancé & Partner",
+          "years": "2022–2026",
+          "profession": "Grammy-Winning Turntablist (DJ Starscream of Slipknot)",
+          "summary": "Longtime friends since 1999; welcomed son Sidney in November 2022; engaged in 2025; amicably separated in March 2026 and continue dedicated joint co-parenting."
+        },
+        {
+          "name": "Matthew Mosshart",
+          "relationType": "Former Fiancé",
+          "years": "2011–2014",
+          "profession": "Chef",
+          "summary": "Met at Kate Moss's wedding in 2011; announced engagement in 2013; amicably called off engagement in January 2014."
+        },
+        {
+          "name": "Luke Worrall",
+          "relationType": "Former Fiancé",
+          "years": "2008–2010",
+          "profession": "Model",
+          "summary": "Engaged in 2008 before separating in July 2010."
+        }
+      ]
     },
-    {
-      "name": "Matthew Mosshart",
-      "relationType": "Former Fiancé",
-      "years": "2011–2014",
-      "profession": "Chef",
-      "summary": "Met at Kate Moss's wedding in 2011; announced engagement in 2013; amicably called off engagement in January 2014."
-    },
-    {
-      "name": "Luke Worrall",
-      "relationType": "Former Fiancé",
-      "years": "2008–2010",
-      "profession": "Model",
-      "summary": "Engaged in 2008 before separating in July 2010."
-    }
-  ]
-},
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm1114884/",
       "wikipedia": "https://en.wikipedia.org/wiki/Kelly_Osbourne",
       "wikidata": "https://www.wikidata.org/wiki/Q231182",
       "instagram": "https://www.instagram.com/kellyosbourne/"
     },
-  "editorialMetadata": {
-    "authorName": "Marcus Vance",
-    "authorRole": "Senior Culture & Television Historian",
-    "factCheckedBy": "David Thorne",
-    "publishedDate": "2026-10-12T06:15:00.000Z",
-    "lastUpdated": "2026-10-12T06:15:00.000Z",
-    "readingTimeMinutes": 9
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Culture & Television Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-12T06:15:00.000Z",
+      "lastUpdated": "2026-10-12T06:15:00.000Z",
+      "readingTimeMinutes": 9
+    }
   }
-}
 ];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({

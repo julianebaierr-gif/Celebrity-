@@ -541,5 +541,13 @@
       "assignedAt": "2026-10-12T06:15:00.000Z",
       "sourceUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/02/editorial-use-kelly-osbourne-sharon-122432934.jpg (Gareth Cattermole / Getty Images / BRIT Awards 2026)"
     }
+  },
+  "/images/blog/sydney-sweeney-analysis-cover.webp": {
+    "filePath": "/images/blog/sydney-sweeney-analysis-cover.webp",
+    "entity": "Sydney Sweeney",
+    "placement": "blog_cover",
+    "pageSlug": "sydney-sweeney-2026-production-slate-and-career-analysis",
+    "assignedAt": "2026-10-11T12:00:00.000Z",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sydney_Sweeney_at_Berlinale_2023_%28portrait%29.jpg (Berlinale 2023 / CC BY-SA 3.0)"
   }
 }
