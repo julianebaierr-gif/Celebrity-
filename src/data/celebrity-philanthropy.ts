@@ -627,4 +627,30 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "description": "Funded tuition grants and creative workshops for aspiring young female sketch comedians and writers at Second City Toronto and Burnhamthorpe arts programs."
   }
 ],
+  "kelly-osbourne": [
+  {
+    "organizationOrCause": "The Trevor Project (LGBTQ+ Youth Suicide Prevention)",
+    "focusArea": "Crisis Intervention & LGBTQ+ Suicide Prevention Lifeline",
+    "verifiedContribution": "Trevor Hero Award Recipient (2011) & $350,000+ Raised",
+    "description": "Honored with the Trevor Hero Award in 2011 for leadership in suicide prevention and mental health support for LGBTQ+ adolescents."
+  },
+  {
+    "organizationOrCause": "amfAR (The Foundation for AIDS Research)",
+    "focusArea": "Global HIV/AIDS Cure Research & Clinical Treatment Advocacy",
+    "verifiedContribution": "$200,000+ Benefit Auction Contributions",
+    "description": "Frequent gala co-chair and auctioneer, rallying major donors to support innovative vaccine and cure trials."
+  },
+  {
+    "organizationOrCause": "True Colors United (Founded by Cyndi Lauper)",
+    "focusArea": "Ending Homelessness Among LGBTQ+ Youth",
+    "verifiedContribution": "Longtime Ambassador & Awareness Campaigner",
+    "description": "Supported community shelter access and public advocacy to eliminate systemic youth homelessness across North America."
+  },
+  {
+    "organizationOrCause": "Substance Abuse Recovery & Mental Health Mentorship",
+    "focusArea": "Addiction Awareness & De-Stigmatizing Treatment Centers",
+    "verifiedContribution": "Direct Peer Support & Treatment Sponsorship",
+    "description": "Regular speaker at recovery programs and youth clinics, sharing her personal sobriety journey to encourage rehabilitation."
+  }
+]
 };

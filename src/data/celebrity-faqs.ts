@@ -1113,4 +1113,102 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "answer": "Catherine O'Hara starred in four seminal mockumentary films directed by Christopher Guest: Waiting for Guffman (1996) as travel agent Sheila Albertson; Best in Show (2000) as terrier owner Cookie Guggelman Fleck; A Mighty Wind (2003) as 1960s folk singer Mickey Crabbe; and For Your Consideration (2006) as fading drama actress Marilyn Hack. All four films were developed completely without scripts, relying entirely on O'Hara's improvisational mastery."
   }
 ],
+  "kelly-osbourne": [
+  {
+    "question": "What is Kelly Osbourne's verified net worth in 2026?",
+    "answer": "As of 2026, Kelly Osbourne possesses an estimated personal net worth of $16.0 Million USD. Her wealth has been accrued across more than two decades in the entertainment industry, encompassing groundbreaking MTV reality compensation from 'The Osbournes', a lucrative five-year hosting contract on E!'s 'Fashion Police' (earning upwards of $500,000 annually), a UK #1 hit recording career, book royalties, and prime Los Angeles real estate holdings."
+  },
+  {
+    "question": "How old is Kelly Osbourne in 2026?",
+    "answer": "Kelly Osbourne is 41 years old in 2026. She was born on October 27, 1984, in Westminster, London, England, and will celebrate her 42nd birthday in October 2026."
+  },
+  {
+    "question": "How tall is Kelly Osbourne?",
+    "answer": "Kelly Osbourne stands 5 feet 2 inches tall (approximately 157 cm). Her petite stature was frequently discussed during her third-place finish on Season 9 of ABC's 'Dancing with the Stars'."
+  },
+  {
+    "question": "How did Kelly Osbourne lose weight, and did she have gastric sleeve surgery?",
+    "answer": "Kelly Osbourne achieved an 85-to-90-pound weight loss through a combination of a gastric sleeve surgical procedure in 2018, permanent sobriety, a plant-forward ketogenic diet, and rigorous fitness training. In August 2020, Osbourne publicly confirmed her procedure, stating: 'I had surgery; I don't give a f**k what anyone has to say about it... I got the gastric sleeve. All it does is change the shape of your stomach.' She emphasized that the surgery only serves as a metabolic reset requiring lifelong nutritional discipline."
+  },
+  {
+    "question": "What has Kelly Osbourne said about Ozempic and weight loss drugs?",
+    "answer": "In early 2024, Kelly Osbourne sparked widespread entertainment debate when she defended the use of GLP-1 medications like Ozempic, arguing that critics were often hypocritical and that weight-loss treatments shouldn't be stigmatized. However, in late 2025 and 2026, Kelly clarified that her own foundational 85-pound weight loss was achieved years prior via her 2018 gastric sleeve surgery and sobriety, denying that she relied on Ozempic for her recent physique."
+  },
+  {
+    "question": "Did Kelly Osbourne get plastic surgery on her face?",
+    "answer": "Kelly Osbourne has consistently denied undergoing cosmetic facial surgery, such as rhinoplasty or a facelift. She has openly acknowledged receiving Botox, dermal fillers, and targeted jawline treatments to relieve TMJ tension, alongside significant facial slimming resulting from her 85-pound weight reduction. In 2021 and 2023, she shared unfiltered social media videos refuting tabloid claims of surgical alteration."
+  },
+  {
+    "question": "Is Kelly Osbourne married, and who is her husband in 2026?",
+    "answer": "No, Kelly Osbourne has never been legally married and is currently single in 2026. She was previously engaged to Slipknot turntablist Sid Wilson from July 2025 until March 2026, when the couple mutually decided to call off their engagement and separate."
+  },
+  {
+    "question": "Why did Kelly Osbourne and Sid Wilson break up in March 2026?",
+    "answer": "Kelly Osbourne and Slipknot DJ Sid Wilson officially called off their engagement in March 2026 after a four-year relationship. Sources confirmed that the split was difficult, intensified by emotional grief following the July 2025 passing of her father Ozzy Osbourne. Both Kelly and Sid remain amicable and are dedicated to joint co-parenting of their young son, Sidney."
+  },
+  {
+    "question": "Who is Kelly Osbourne's child, and when was he born?",
+    "answer": "Kelly Osbourne has one child, a son named Sidney, born in November 2022. Sidney is named after his father, Sid Wilson of Slipknot. Kelly frequently shares stories of raising Sidney on 'The Osbournes Podcast'."
+  },
+  {
+    "question": "Who are Kelly Osbourne's parents?",
+    "answer": "Kelly Osbourne is the daughter of British heavy metal icon Ozzy Osbourne (legendary frontman of Black Sabbath, 1948–2025) and entertainment manager, author, and television personality Sharon Osbourne (née Arden)."
+  },
+  {
+    "question": "Who are Kelly Osbourne's siblings?",
+    "answer": "Kelly has two full siblings: older sister Aimee Osbourne (born 1983, a musician and vocalist for ARO who declined to appear on MTV's 'The Osbournes') and younger brother Jack Osbourne (born 1985, television producer and adventurer). She also has two older half-siblings from Ozzy's first marriage to Thelma Riley: Jessica Osbourne and Louis Osbourne, as well as an adopted brother, Robert Marcato."
+  },
+  {
+    "question": "Why was Aimee Osbourne not on MTV's The Osbournes?",
+    "answer": "Aimee Osbourne chose not to participate in MTV's 'The Osbournes' when filming began in 2001 because she was sixteen years old, felt the invasive camera crews violated personal boundaries, and wished to establish a serious musical career independent of reality television exposure. She moved out of the family home during production but maintains private relationships with her family."
+  },
+  {
+    "question": "What is Kelly Osbourne most famous for?",
+    "answer": "Kelly Osbourne first gained international acclaim as the outspoken, purple/pink-haired teenage breakout star of MTV's Emmy-winning reality series 'The Osbournes' (2002–2005). She later solidified her celebrity as the acid-witted co-host of E!'s 'Fashion Police' (2010–2015), as a UK #1 chart-topping singer ('Changes' with Ozzy Osbourne), and as a finalist on 'Dancing with the Stars'."
+  },
+  {
+    "question": "Why did Kelly Osbourne leave E!'s Fashion Police in 2015?",
+    "answer": "Kelly Osbourne departed E!'s 'Fashion Police' in February 2015 following controversial on-air remarks made by co-host Giuliana Rancic regarding Zendaya's dreadlocks at the Academy Awards. Osbourne publicly defended Zendaya, condemned racist generalizations, and resigned after five years on the panel, feeling the show had fundamentally changed following the death of mentor Joan Rivers in 2014."
+  },
+  {
+    "question": "Did Kelly Osbourne have a #1 hit song?",
+    "answer": "Yes. In December 2003, Kelly Osbourne scored a #1 single on the UK Singles Chart with 'Changes', a rewritten father-daughter duet ballad recorded with Ozzy Osbourne. The track was a re-recorded version of Black Sabbath's 1972 piano ballad and earned certified Gold status with over 400,000 sales."
+  },
+  {
+    "question": "What happened to Kelly Osbourne on Dancing with the Stars?",
+    "answer": "Kelly Osbourne competed on Season 9 of ABC's 'Dancing with the Stars' in fall 2009, partnered with professional dancer Louis van Amstel. Osbourne achieved remarkable physical fitness, lost twenty pounds, and finished in third place behind singer Mýa and champion Donny Osmond."
+  },
+  {
+    "question": "Was Kelly Osbourne on The Masked Singer?",
+    "answer": "Yes. Kelly Osbourne competed on Season 2 of Fox's hit competition 'The Masked Singer' in 2019 disguised as the 'Ladybug'. She performed songs by Bonnie Tyler and Pat Benatar before being unmasked in Week 7."
+  },
+  {
+    "question": "What was Kelly Osbourne's role on Project Catwalk and Project Runway Junior?",
+    "answer": "Kelly Osbourne served as host and judge for Season 2 and 3 of the British reality competition 'Project Catwalk' (2007–2008). Later, she served as a main judge alongside Christian Siriano on Lifetime's 'Project Runway Junior' (2015–2017), mentoring emerging teenage fashion designers."
+  },
+  {
+    "question": "What is Kelly Osbourne's relationship with Joan Rivers?",
+    "answer": "Joan Rivers was Kelly Osbourne's beloved co-star, mentor, and surrogate grandmother during their five years on E!'s 'Fashion Police'. Rivers defended Kelly tirelessly against industry detractors and taught her comedy timing and professionalism. Following Rivers' passing in September 2014, Kelly dedicated multiple tributes and a tattoo of a bumblebee to her memory."
+  },
+  {
+    "question": "What real estate properties does Kelly Osbourne own?",
+    "answer": "Kelly Osbourne owns a multimillion-dollar residential property in the Los Feliz neighborhood of Los Angeles, purchased for approximately $3.5 Million USD. She previously owned and profitably sold luxury condominiums in West Hollywood's Empire West building."
+  },
+  {
+    "question": "What books has Kelly Osbourne written?",
+    "answer": "Kelly Osbourne has authored two memoirs: 'Fierce' (2009), documenting her teenage years and public emergence, and 'There Is No F*cking Secret: Letters From a Badass Bitch' (2017), a candid series of essays exploring addiction, body image, grief, and self-acceptance."
+  },
+  {
+    "question": "What is The Osbournes Podcast, and is it still running in 2026?",
+    "answer": "Yes, 'The Osbournes Podcast' remains an active, highly ranked comedy and society podcast in 2026. Hosted by Kelly, Sharon, and Jack Osbourne, the show covers family archives, pop culture news, paranormal encounters, and memories of the late Ozzy Osbourne, drawing millions of viewers on YouTube and audio streaming networks."
+  },
+  {
+    "question": "What philanthropy and charity work does Kelly Osbourne support?",
+    "answer": "Kelly Osbourne is a passionate advocate for LGBTQ+ civil rights, receiving the Trevor Hero Award in 2011 for her tireless work with The Trevor Project preventing youth suicide. She also actively fundraises for amfAR (The Foundation for AIDS Research), True Colors United, and substance abuse recovery programs."
+  },
+  {
+    "question": "Why is Kelly Osbourne trending in 2026?",
+    "answer": "In 2026, Kelly Osbourne is trending due to public interest in her March 2026 separation from Slipknot's Sid Wilson, discussions surrounding her single motherhood with son Sidney, appearances on 'The Osbournes Podcast', and ongoing lifestyle interest in her verified 85-pound weight loss and wellness journey."
+  }
+]
 };

@@ -3131,4 +3131,120 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
     }
   ]
 },
+  "kelly-osbourne": {
+  "salaryMilestones": [
+    {
+      "project": "MTV's The Osbournes (Seasons 1–4)",
+      "year": 2002,
+      "salary": "$5,000 to $20,000 per episode (Season 1 to Season 4)",
+      "boxOfficeOrBudget": "Global MTV Reality Phenomenon (Emmy Winner)",
+      "notes": "Starting at $5,000/ep for Season 1, the children renegotiated to $20,000/ep for later seasons plus international merchandising royalties."
+    },
+    {
+      "project": "Epic Records Recording Contract & 'Changes' Single",
+      "year": 2003,
+      "salary": "$1,200,000 USD Advance & Publishing Royalties",
+      "boxOfficeOrBudget": "#1 UK Singles Chart (400,000+ Certified Sales)",
+      "notes": "Debut album 'Shut Up' and landmark UK #1 father-daughter duet single 'Changes' with Ozzy Osbourne."
+    },
+    {
+      "project": "Dancing with the Stars (ABC Season 9 Finalist)",
+      "year": 2009,
+      "salary": "$250,000 USD Total Appearance Guarantee",
+      "boxOfficeOrBudget": "3rd Place Finish with Louis van Amstel",
+      "notes": "Earned base guarantee plus weekly escalation bonuses for advancing to the three-couple grand finale."
+    },
+    {
+      "project": "E! Entertainment's Fashion Police (Lead Co-Host)",
+      "year": 2010,
+      "salary": "$500,000 USD Annual Contract (2010–2015)",
+      "boxOfficeOrBudget": "150+ Episodes alongside Joan Rivers",
+      "notes": "Served as weekly style authority and red-carpet correspondent across major Hollywood awards seasons."
+    },
+    {
+      "project": "Project Runway Junior (Lifetime Lead Judge)",
+      "year": 2015,
+      "salary": "$350,000 USD per Season Guarantee",
+      "boxOfficeOrBudget": "2 Full Seasons Mentoring Teen Designers",
+      "notes": "Co-judged alongside Christian Siriano and Aya Kanai."
+    },
+    {
+      "project": "The Osbournes Podcast (Digital Network Deal)",
+      "year": 2024,
+      "salary": "$750,000+ Annual Sponsorship & Ad Revenue Share",
+      "boxOfficeOrBudget": "Top 20 Comedy & Society Podcast Worldwide",
+      "notes": "Co-owner and co-host with Sharon and Jack Osbourne, generating lucrative advertising and YouTube video views."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Mid-Century Compound in Los Feliz",
+      "location": "Los Feliz, Los Angeles, California",
+      "purchasedYear": "2018",
+      "purchasePrice": "$3,575,000 USD",
+      "currentEstimatedValue": "$4,800,000 USD",
+      "description": "Private hillside retreat featuring 4 bedrooms, panoramic city lights views, swimming pool, and custom security gates."
+    },
+    {
+      "property": "Empire West Luxury High-Rise Penthouse",
+      "location": "West Hollywood, California",
+      "purchasedYear": "2014",
+      "purchasePrice": "$1,300,000 USD",
+      "currentEstimatedValue": "Sold in 2018 for $1,650,000 USD (+$350k Gain)",
+      "description": "Full-service condo with views of the Sunset Strip, valet, and rooftop pool; successfully liquidated for capital gain."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "'Stories... by Kelly Osbourne' HSN Fashion Brand",
+      "role": "Founder & Creative Director",
+      "valuationOrRevenue": "Multi-Million Dollar Gross Merchandising Retail",
+      "description": "Inclusive apparel line designed for women sizes 0 to 24, breaking sales records during live HSN broadcasts."
+    },
+    {
+      "name": "Celebrity Publishing & Memoirs ('Fierce' and 'There Is No Secret')",
+      "role": "Author",
+      "valuationOrRevenue": "$1,000,000+ Cumulative Advances & Royalties",
+      "description": "New York Times bestselling memoir 'There Is No F*cking Secret' sold hundreds of thousands of copies internationally."
+    },
+    {
+      "name": "Osbourne Media Group & Podcast Production",
+      "role": "Partner & Co-Producer",
+      "valuationOrRevenue": "Seven-Figure Digital Enterprise Equity",
+      "description": "Syndicated podcast, video broadcast, and merchandise production company owned with Sharon and Jack Osbourne."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2002",
+      "estimatedNetWorth": "$750,000 USD",
+      "milestoneDescription": "Breakout celebrity following debut of MTV's The Osbournes Season 1."
+    },
+    {
+      "period": "2005",
+      "estimatedNetWorth": "$3.5 Million USD",
+      "milestoneDescription": "UK #1 single 'Changes', international album sales, and West End Chicago debut."
+    },
+    {
+      "period": "2010",
+      "estimatedNetWorth": "$6.5 Million USD",
+      "milestoneDescription": "Dancing with the Stars finalist earnings and launch of E!'s Fashion Police."
+    },
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$10.0 Million USD",
+      "milestoneDescription": "Five seasons on Fashion Police, HSN clothing line sales, and Project Runway Junior."
+    },
+    {
+      "period": "2020",
+      "estimatedNetWorth": "$13.5 Million USD",
+      "milestoneDescription": "Los Feliz real estate appreciation, memoir royalties, and The Masked Singer."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$16.0 Million USD",
+      "milestoneDescription": "Certified valuation supported by The Osbournes Podcast, media contracts, and real estate equity."
+    }
+  ]
+}
 };

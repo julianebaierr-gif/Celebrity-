@@ -1645,5 +1645,61 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     ],
     "keyTakeaway": "O'Hara concluded her career with global hits Beetlejuice Beetlejuice and The Studio, passing away peacefully in Santa Monica on January 30, 2026, followed by historic posthumous SAG and Emmy honors."
   }
+],
+  "kelly-osbourne": [
+  {
+    "heading": "Rock Royalty Lineage & The MTV Reality Revolution (1984–2002)",
+    "paragraphs": [
+      "Kelly Michelle Lee Osbourne was born on October 27, 1984, in Westminster, London, England, into one of rock and roll's most storied dynasties. The second daughter of heavy metal pioneer and Black Sabbath frontman Ozzy Osbourne and influential music manager and television producer Sharon Osbourne (née Arden), Kelly grew up immersed in the international rock touring circuit. Alongside elder sister Aimee Osbourne and younger brother Jack Osbourne, Kelly spent her formative childhood moving between sprawling Buckinghamshire estates and Los Angeles hotel suites, attended elite British boarding schools like Pipers Corner School, and developed a fiercely independent, countercultural aesthetic.",
+      "In March 2002, when Kelly was seventeen years old, American pop culture was permanently disrupted by the debut of MTV's reality television docuseries 'The Osbournes'. Filmed inside the family's Beverly Hills mansion, the series stripped away rock star mythologies to reveal an eccentric, loving, and profanity-laced domestic life. Kelly emerged as the series' breakout star: sporting vibrant pink hair, vintage punk attire, and razor-sharp dry humor, she provided an authentic, relatable counterweight to manicured teen pop stars of the early 2000s.",
+      "The Osbournes shattered cable television ratings records, drawing upwards of eight million weekly viewers and winning the 2002 Primetime Emmy Award for Outstanding Reality Program. While older sister Aimee famously opted out of participating to preserve her artistic privacy, Kelly and Jack became household names overnight. The overwhelming glare of global fame placed intense media pressure on seventeen-year-old Kelly, who found her teenage insecurities, weight fluctuations, and candid family dynamics scrutinized across global supermarket tabloids."
+    ],
+    "keyTakeaway": "Born to Ozzy and Sharon Osbourne, seventeen-year-old Kelly became a global pop culture phenomenon on MTV's 2002 Emmy-winning reality series 'The Osbournes'."
+  },
+  {
+    "heading": "Pop-Punk Stardom, 'Changes' UK #1 & Early Artistic Independence (2002–2005)",
+    "paragraphs": [
+      "Capitalizing on her soaring television profile and lifelong musical pedigree, Kelly launched a recording career in 2002 with Epic Records. Her debut single—an energetic punk-rock reimagining of Madonna's 1986 classic 'Papa Don't Preach' featuring Incubus guitarist Mike Einziger—premiered at the 2002 MTV Movie Awards and climbed into the UK Singles Chart Top 3. Her debut studio album, 'Shut Up' (later re-released as 'Changes'), arrived in November 2002, selling hundreds of thousands of copies globally and validating her legitimate vocal chops.",
+      "In late 2003, Kelly achieved a milestone that secured her name in British music history: a poignant, duet ballad version of Black Sabbath's 1972 melancholic anthem 'Changes' recorded with her father, Ozzy Osbourne. Reworked with updated lyrics reflecting the bittersweet passage of time and father-daughter devotion, 'Changes' debuted at #1 on the UK Singles Chart in December 2003, selling over 400,000 certified copies. The achievement ended Ozzy's 33-year wait for a UK #1 single and established Kelly as a versatile recording artist.",
+      "Osbourne followed her debut with a second studio album, 'Sleeping in the Net' (2005), featuring synth-pop collaborations with Linda Perry. While the album charted across Europe, Osbourne gradually shifted her focus toward broadcast media, fashion commentary, and stage performance, making her West End theatre debut in 2007 playing prison matron Mama Morton in the hit musical 'Chicago' at the Cambridge Theatre."
+    ],
+    "keyTakeaway": "Kelly topped the UK Singles Chart with the father-daughter duet 'Changes' alongside Ozzy Osbourne, released two studio albums, and starred on London's West End stage."
+  },
+  {
+    "heading": "Dancing with the Stars, The Fashion Police Era & Joan Rivers Mentorship (2009–2015)",
+    "paragraphs": [
+      "In autumn 2009, Osbourne underwent a high-profile physical and professional reinvention on Season 9 of ABC's 'Dancing with the Stars'. Partnered with professional ballroom champion Louis van Amstel, Kelly dedicated herself to grueling eight-hour daily dance training, shedding twenty pounds and surprising critics with technical precision. Osbourne advanced to the grand finale, finishing in third place and winning widespread respect for her work ethic and vulnerability.",
+      "In 2010, E! Entertainment Television recruited Osbourne to join the iconic panel of 'Fashion Police' alongside comedic legend Joan Rivers, Giuliana Rancic, and celebrity stylist George Kotsiopoulos. Over five seasons and more than 150 episodes, Osbourne served as the show's resident youth culture and high-fashion authority, distinguished by her lavender-hued victory rolls, vintage couture, and quick wit. Joan Rivers became an invaluable professional mentor and maternal confidante, guiding Kelly through the unforgiving terrain of Hollywood broadcast television.",
+      "Osbourne leveraged her fashion acclaim to launch 'Stories... by Kelly Osbourne', an inclusive clothing line with HSN in 2014 offering runway-inspired silhouettes across sizes 0 to 24. However, the tragic passing of Joan Rivers in September 2014 altered the show's dynamics. In February 2015, following controversial on-air commentary regarding Zendaya's dreadlocks at the Academy Awards, Osbourne publicly defended Zendaya, condemned discriminatory remarks, and announced her principled departure from the network after five years of tenure."
+    ],
+    "keyTakeaway": "Finishing third on 'Dancing with the Stars' launched Osbourne's five-year run on E!'s 'Fashion Police', where she forged an indelible creative partnership with mentor Joan Rivers."
+  },
+  {
+    "heading": "Sobriety Battles, Health Metamorphosis & The Gastric Sleeve Truth (2016–2021)",
+    "paragraphs": [
+      "Behind her high-profile television career, Osbourne fought a prolonged, courageous battle with substance dependency that began in her early teens following a medical prescription for painkillers. In her revealing 2017 memoir 'There Is No F*cking Secret: Letters From a Badass Bitch', Kelly detailed multiple rehabilitation stays, relapses, and the profound mental discipline required to achieve long-term sobriety. She became an open mentor within recovery circles, de-stigmatizing addiction for young followers.",
+      "In 2018, Osbourne made a deliberate decision regarding her long-term metabolic health by undergoing a gastric sleeve procedure. Addressing persistent public speculation surrounding her 85-pound weight loss, Kelly chose radical transparency in August 2020: 'I had surgery; I don't give a f**k what anyone has to say about it. I did it, I'm proud of it, they can suck on that. I got the gastric sleeve. All it does is change the shape of your stomach.' She emphasized that surgery was only a metabolic tool; long-term weight management demanded giving up alcohol, consistent daily fitness, and targeted psychotherapy to heal emotional eating.",
+      "When internet commentators later accused her of extensive facial plastic surgery, Osbourne posted direct video clarifications in 2021 and 2023, confirming she had undergone Botox, jawline filler to address TMJ tension, and lost substantial facial weight, but had never received surgical rhinoplasty or facelifts. Her blunt refusal to conform to Hollywood beauty secrecy solidified her reputation for unfiltered authenticity."
+    ],
+    "keyTakeaway": "Osbourne openly documented her addiction recovery and 85-pound weight loss via a 2018 gastric sleeve, advocating radical medical transparency over cosmetic secrecy."
+  },
+  {
+    "heading": "Motherhood with Son Sidney, Grief & Modern Family Dynamics (2022–2025)",
+    "paragraphs": [
+      "In early 2022, Osbourne confirmed her relationship with Sid Wilson, the Grammy-winning turntablist (DJ Starscream) of heavy metal titan Slipknot, whom she had known as a close family friend since Ozzfest in 1999. In May 2022, Kelly announced she was expecting her first child. In November 2022, she gave birth to their son, Sidney, named in honor of his father.",
+      "Motherhood ushered in a profound personal renaissance for Osbourne. She openly discussed postpartum weight loss, breastfeeding challenges, and the intense joy of watching Ozzy and Sharon bond with baby Sidney as doting grandparents. Simultaneously, Kelly reconnected with global audiences on the revitalized 'The Osbournes Podcast', co-hosting weekly studio discussions with Ozzy, Sharon, and brother Jack. The podcast generated millions of monthly audio streams and YouTube views, exploring music lore, UFO phenomena, and raw health updates.",
+      "The Osbourne family navigated severe emotional heartbreak in July 2025 with the passing of patriarch Ozzy Osbourne at age 76 after decades of groundbreaking metal history and a valiant battle with Parkinson's disease. Kelly served as a steady emotional pillar for her mother Sharon and family, honoring her father's towering musical legacy while shielding her young son from the intense glare of public mourning."
+    ],
+    "keyTakeaway": "Kelly welcomed son Sidney in November 2022 with Sid Wilson, revitalized 'The Osbournes Podcast', and stood as a devoted family pillar following Ozzy's passing in 2025."
+  },
+  {
+    "heading": "2026 Singlehood, Financial Independence & Cultural Longevity (2026)",
+    "paragraphs": [
+      "In March 2026, Osbourne and Sid Wilson mutually called off their engagement and separated after a four-year romantic partnership. Sources close to the couple confirmed that while the breakup was emotionally difficult amid lingering family grief, both parents remain deeply committed to amicable co-parenting of three-year-old Sidney. In mid-2026 media appearances, Kelly affirmed that she was thriving in her newfound single independence, prioritizing her son's happiness, personal mental wellness, and creative projects.",
+      "In 2026, Kelly Osbourne's personal net worth is estimated at $16.0 Million USD. Her financial stability is secured by two decades of high-yield reality television syndication royalties, broadcast hosting contracts, voiceover roles (including Disney's 'The 7D'), commercial endorsements, and equity investments in prime Los Angeles real estate—notably a stylish multi-million-dollar compound in Los Feliz. In addition, 'The Osbournes Podcast' continues as a lucrative multi-platform digital property distributed worldwide.",
+      "Approaching her forty-second birthday in October 2026, Kelly Osbourne occupies a singular position in entertainment history. Having survived the relentless scrutiny of child reality stardom, navigated commercial music heights, triumphed over addiction, and embraced single motherhood with humor and dignity, Osbourne remains an enduring icon of resilient British pop individuality."
+    ],
+    "keyTakeaway": "Holding a verified $16M net worth in 2026, Osbourne embraces single life with son Sidney, co-hosts the hit Osbournes Podcast, and retains lasting pop culture prominence."
+  }
 ]
 };

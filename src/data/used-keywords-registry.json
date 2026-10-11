@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 33,
-  "lastUpdated": "2026-10-11T17:15:00.000Z",
+  "totalLocked": 34,
+  "lastUpdated": "2026-10-12T06:15:00.000Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -587,6 +587,47 @@
         "catherine o'hara 78th emmy in memoriam tribute",
         "catherine o'hara brentwood los angeles estate",
         "catherine o'hara order of canada legacy"
+      ]
+    },
+    {
+      "keyword": "kelly osbourne",
+      "slug": "kelly-osbourne",
+      "name": "Kelly Osbourne",
+      "category": "Television Hosts & Pop Icons",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/kelly-osbourne",
+      "publishedAt": "2026-10-12 06:15:00",
+      "status": "Scheduled",
+      "associatedTags": [
+        "kelly osbourne net worth",
+        "how old is kelly osbourne",
+        "kelly osbourne age",
+        "kelly osbourne weight loss",
+        "kelly osbourne husband",
+        "is kelly osbourne married",
+        "kelly osbourne partner sid wilson",
+        "kelly osbourne sid wilson split 2026",
+        "kelly osbourne son sidney",
+        "kelly osbourne before and after",
+        "kelly osbourne gastric sleeve surgery",
+        "kelly osbourne ozempic rumors",
+        "kelly osbourne plastic surgery face",
+        "kelly osbourne height",
+        "kelly osbourne the osbournes mtv",
+        "kelly osbourne parents ozzy sharon",
+        "kelly osbourne brother jack osbourne",
+        "aimee osbourne sister kelly",
+        "ozzy osbourne children",
+        "kelly osbourne fashion police joan rivers",
+        "kelly osbourne changes song ozzy",
+        "kelly osbourne papa dont preach",
+        "kelly osbourne dancing with the stars season 9",
+        "kelly osbourne masked singer ladybug",
+        "kelly osbourne podcast the osbournes",
+        "why is kelly osbourne trending today",
+        "kelly osbourne 2026",
+        "kelly osbourne real estate los feliz",
+        "kelly osbourne sobriety journey",
+        "kelly osbourne career earnings fashion police"
       ]
     }
   ],

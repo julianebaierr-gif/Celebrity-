@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-10-10T17:55:00.000Z",
-  "totalUniqueImages": 71,
+  "totalUniqueImages": 73,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -524,6 +524,22 @@
       "pageSlug": "catherine-ohara",
       "assignedAt": "2026-10-11T17:15:00.000Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Catherine_O%27Hara_and_Bo_Welch-63921.jpg"
+    },
+    "/images/celebrities/kelly-osbourne-hero.webp": {
+      "filePath": "/images/celebrities/kelly-osbourne-hero.webp",
+      "entity": "kelly-osbourne",
+      "placement": "profile_hero",
+      "pageSlug": "kelly-osbourne",
+      "assignedAt": "2026-10-12T06:15:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Australias_got_Talent_Judges_%2825625771952%29_%28cropped%29.jpg"
+    },
+    "/images/celebrities/kelly-osbourne-content.webp": {
+      "filePath": "/images/celebrities/kelly-osbourne-content.webp",
+      "entity": "kelly-osbourne",
+      "placement": "profile_content",
+      "pageSlug": "kelly-osbourne",
+      "assignedAt": "2026-10-12T06:15:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Kelly_Osbourne_%2825652803131%29.jpg"
     }
   }
 }

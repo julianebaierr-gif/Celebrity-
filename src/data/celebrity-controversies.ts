@@ -393,4 +393,24 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "impactAnalysis": "Her principled stand set a precedent across Canadian and American comedy networks, ensuring character actors shared in syndication windfalls and leading directly to her lucrative backend terms on Schitt's Creek."
   }
 ],
+  "kelly-osbourne": [
+  {
+    "incident": "Fashion Police Zendaya Red Carpet Commentary & Principled Resignation",
+    "year": "2015",
+    "resolutionOrOutcome": "Following on-air remarks made by Giuliana Rancic concerning Zendaya's dreadlocks at the 2015 Academy Awards, Osbourne publicly condemned racial stereotyping, defended Zendaya, and announced her resignation from E!'s Fashion Police.",
+    "impactAnalysis": "Kelly's decision earned broad praise from civil rights advocates for holding network media accountable, cementing her loyalty to diversity and creative integrity."
+  },
+  {
+    "incident": "Live Broadcast Remarks on 'The View' Regarding Immigration",
+    "year": "2015",
+    "resolutionOrOutcome": "During a guest co-hosting appearance on ABC's 'The View', Osbourne made an inartful comment while questioning Donald Trump's anti-immigration rhetoric. She immediately issued a heartfelt, unreserved public apology taking full responsibility.",
+    "impactAnalysis": "Osbourne spent the following months engaging directly with Latino civil rights organizations and immigrant youth groups, turning a clumsy remark into proactive advocacy."
+  },
+  {
+    "incident": "Refuting Tabloid Speculation on Weight Loss & Cosmetic Surgery",
+    "year": "2020–2026",
+    "resolutionOrOutcome": "In response to persistent paparazzi claims that her 85-pound weight loss was achieved through extreme plastic surgery or unprescribed medications, Osbourne released transparent video statements disclosing her 2018 gastric sleeve and non-surgical TMJ Botox.",
+    "impactAnalysis": "Her honesty challenged Hollywood's culture of secretive cosmetic alterations, inspiring fans to seek healthy medical counseling rather than unrealistic surgical standards."
+  }
+]
 };

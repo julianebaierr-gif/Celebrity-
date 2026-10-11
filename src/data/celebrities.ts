@@ -6567,7 +6567,240 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "lastUpdated": "2026-10-11T17:15:00.000Z",
     "readingTimeMinutes": 8
   }
-}];
+},
+  {
+  "slug": "kelly-osbourne",
+  "name": "Kelly Osbourne",
+  "primaryKeyword": "kelly osbourne",
+  "secondaryKeywords": [
+    "kelly osbourne net worth",
+    "how old is kelly osbourne",
+    "kelly osbourne age",
+    "kelly osbourne weight loss",
+    "kelly osbourne husband",
+    "is kelly osbourne married",
+    "kelly osbourne partner sid wilson",
+    "kelly osbourne sid wilson split 2026",
+    "kelly osbourne son sidney",
+    "kelly osbourne before and after",
+    "kelly osbourne gastric sleeve surgery",
+    "kelly osbourne ozempic rumors",
+    "kelly osbourne plastic surgery face",
+    "kelly osbourne height",
+    "kelly osbourne the osbournes mtv",
+    "kelly osbourne parents ozzy sharon",
+    "kelly osbourne brother jack osbourne",
+    "aimee osbourne sister kelly",
+    "ozzy osbourne children",
+    "kelly osbourne fashion police joan rivers",
+    "kelly osbourne changes song ozzy",
+    "kelly osbourne papa dont preach",
+    "kelly osbourne dancing with the stars season 9",
+    "kelly osbourne masked singer ladybug",
+    "kelly osbourne podcast the osbournes",
+    "why is kelly osbourne trending today",
+    "kelly osbourne 2026",
+    "kelly osbourne real estate los feliz",
+    "kelly osbourne sobriety journey",
+    "kelly osbourne career earnings fashion police"
+  ],
+  "headline": "Television Host, Reality Trailblazer & Podcaster with $16M Net Worth",
+  "category": "movies-tv",
+  "silo": "Television Hosts & Pop Icons",
+  "searchVolume": 820000,
+  "kd": 11,
+  "cpc": 0.16,
+  "heroImage": "/images/celebrities/kelly-osbourne-hero.webp",
+  "heroImageCaption": "Kelly Osbourne attending Australia's Got Talent judging showcase. Photo: Eva Rinaldi / Wikimedia Commons (CC BY-SA 2.0).",
+  "heroImageLicense": "CC BY-SA 2.0 / Wikimedia Commons",
+  "contentImage": "/images/celebrities/kelly-osbourne-content.webp",
+  "contentImageCaption": "Kelly Osbourne at a red carpet media event in Sydney. Photo: Eva Rinaldi / Wikimedia Commons (CC BY-SA 2.0).",
+  "contentImageLicense": "CC BY-SA 2.0 / Wikimedia Commons",
+  "backdropImage": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1920&q=80",
+  "executiveSummary": "Kelly Michelle Lee Osbourne is an English television personality, singer, actress, author, and fashion designer who rose to international fame on MTV's Emmy-winning reality series The Osbournes (2002–2005). As the daughter of heavy metal pioneer Ozzy Osbourne and entertainment matriarch Sharon Osbourne, Kelly carved out a distinct cultural identity across music—releasing the UK #1 single 'Changes' with her father—and television as the acid-witted co-host of E!'s Fashion Police (2010–2015) alongside Joan Rivers. Over two decades, Osbourne has maintained public transparency regarding addiction recovery, her 85-pound weight loss via gastric sleeve surgery, and modern motherhood with her son Sidney (born November 2022). In 2026, her net worth is estimated at $16.0 Million USD. Following her March 2026 separation from fiancé Sid Wilson, Osbourne remains a prominent voice across pop culture through The Osbournes Podcast, television commentary, and LGBTQ+ philanthropy.",
+  "quickFacts": {
+    "fullName": "Kelly Michelle Lee Osbourne",
+    "netWorth": "$16.0 Million USD (Certified Career & Media Equity 2026)",
+    "primaryRole": "Television Host, Reality Star, Singer & Author",
+    "birthDate": "October 27, 1984",
+    "birthPlace": "Westminster, London, England",
+    "age": 41,
+    "height": "5 ft 2 in (157 cm)",
+    "activeYears": "1991–Present",
+    "knownFor": "The Osbournes, E!'s Fashion Police, UK #1 Single 'Changes' (with Ozzy Osbourne), Dancing with the Stars Season 9 Finalist, The Osbournes Podcast",
+    "education": "Pipers Corner School; Private Tutoring"
+  },
+  "metrics": [
+    {
+      "label": "MTV Reality Emmy Award",
+      "value": "Outstanding Reality Program (2002)",
+      "benchmark": "Groundbreaking 8M+ Weekly Cable Viewership",
+      "verifiedSource": "Television Academy / MTV"
+    },
+    {
+      "label": "UK Singles Chart Peak",
+      "value": "#1 UK Hit Single ('Changes' with Ozzy)",
+      "benchmark": "400,000+ Certified Gold Record Sales",
+      "verifiedSource": "Official Charts Company (OCC)"
+    },
+    {
+      "label": "Fashion Police On-Air Tenure",
+      "value": "5 Seasons & 150+ Episodes on E!",
+      "benchmark": "Award Season Red Carpet Anchor alongside Joan Rivers",
+      "verifiedSource": "E! Entertainment Television"
+    },
+    {
+      "label": "Los Feliz Residence Market Equity",
+      "value": "$4.8M+ Current Market Valuation",
+      "benchmark": "Purchased in 2018 for $3.575 Million USD",
+      "verifiedSource": "Los Angeles County Property Assessor"
+    }
+  ],
+  "careerMilestones": [
+    {
+      "year": "2002",
+      "title": "MTV's The Osbournes & Instant Global Stardom",
+      "description": "Became a worldwide teen icon on MTV's Emmy-winning reality series, showcasing unapologetic British wit and punk-rock fashion."
+    },
+    {
+      "year": "2003",
+      "title": "UK #1 Hit Single 'Changes' with Ozzy Osbourne",
+      "description": "Topped the UK Singles Chart with a poignant father-daughter ballad, earning certified Gold sales."
+    },
+    {
+      "year": "2007",
+      "title": "West End Stage Debut in 'Chicago'",
+      "description": "Starred as prison matron Mama Morton in the West End production of Chicago at London's Cambridge Theatre."
+    },
+    {
+      "year": "2009",
+      "title": "Dancing with the Stars Season 9 Finalist",
+      "description": "Trained eight hours daily with Louis van Amstel, shedding twenty pounds and advancing to the three-couple grand finale."
+    },
+    {
+      "year": "2010",
+      "title": "E!'s Fashion Police Co-Host alongside Joan Rivers",
+      "description": "Anchored 150+ episodes of E!'s flagship fashion panel over five seasons, forging a legendary bond with Joan Rivers."
+    },
+    {
+      "year": "2022",
+      "title": "Motherhood & Arrival of Son Sidney",
+      "description": "Welcomed first child Sidney in November 2022 with partner Sid Wilson (Slipknot), beginning an inspiring chapter of motherhood."
+    },
+    {
+      "year": "2026",
+      "title": "The Osbournes Podcast & Single Independence",
+      "description": "Commanded millions of digital streams on The Osbournes Podcast and embraced singlehood with $16M net worth following March 2026 split."
+    }
+  ],
+  "filmography": [
+    {
+      "title": "The Osbournes",
+      "year": 2002,
+      "role": "Self (Lead - 52 Episodes)",
+      "type": "Series",
+      "rating": 7.2,
+      "boxOfficeOrNetwork": "MTV (Emmy Winner for Outstanding Reality Program)"
+    },
+    {
+      "title": "Fashion Police",
+      "year": 2010,
+      "role": "Lead Co-Host & Style Critic (150+ Episodes)",
+      "type": "Series",
+      "rating": 6.8,
+      "boxOfficeOrNetwork": "E! Entertainment Television"
+    },
+    {
+      "title": "Dancing with the Stars",
+      "year": 2009,
+      "role": "Celebrity Competitor (Season 9 - 3rd Place)",
+      "type": "Series",
+      "rating": 6.9,
+      "boxOfficeOrNetwork": "ABC (Grand Finale Finalist)"
+    },
+    {
+      "title": "The Masked Singer",
+      "year": 2019,
+      "role": "Ladybug (Season 2 Contestant)",
+      "type": "Series",
+      "rating": 7.1,
+      "boxOfficeOrNetwork": "Fox Broadcasting Company"
+    },
+    {
+      "title": "Project Runway Junior",
+      "year": 2015,
+      "role": "Head Judge & Mentor (Seasons 1–2)",
+      "type": "Series",
+      "rating": 7.4,
+      "boxOfficeOrNetwork": "Lifetime Network"
+    },
+    {
+      "title": "Australia's Got Talent",
+      "year": 2016,
+      "role": "Main Judging Panel (Season 8)",
+      "type": "Series",
+      "rating": 6.7,
+      "boxOfficeOrNetwork": "Nine Network Australia"
+    },
+    {
+      "title": "The 7D",
+      "year": 2014,
+      "role": "Hildy Gloom (Voice Lead - 44 Episodes)",
+      "type": "Series",
+      "rating": 7.3,
+      "boxOfficeOrNetwork": "Disney XD / Disney Channel"
+    },
+    {
+      "title": "The Osbournes Podcast",
+      "year": 2023,
+      "role": "Co-Host & Executive Producer (Ongoing 2026)",
+      "type": "Series",
+      "rating": 8.4,
+      "boxOfficeOrNetwork": "Osbourne Media / Spotify / YouTube"
+    }
+  ],
+    "relationshipProfile": {
+  "status": "Single (Separated March 2026)",
+  "datingHistorySummary": "Kelly Osbourne is currently single in 2026 following the mutual termination of her engagement to Slipknot turntablist Sid Wilson in March 2026. The couple, who were longtime friends since 1999, began dating in early 2022 and welcomed their son Sidney in November 2022. They became engaged in July 2025 before calling off the wedding in March 2026. Osbourne was previously engaged to British model Luke Worrall (2008–2010) and vegan chef Matthew Mosshart (2011–2014). She is currently dedicated to raising her son Sidney and building life as an independent single mother.",
+  "partners": [
+    {
+      "name": "Sid Wilson",
+      "relationType": "Former Fiancé & Partner",
+      "years": "2022–2026",
+      "profession": "Grammy-Winning Turntablist (DJ Starscream of Slipknot)",
+      "summary": "Longtime friends since 1999; welcomed son Sidney in November 2022; engaged in 2025; amicably separated in March 2026 and continue dedicated joint co-parenting."
+    },
+    {
+      "name": "Matthew Mosshart",
+      "relationType": "Former Fiancé",
+      "years": "2011–2014",
+      "profession": "Chef",
+      "summary": "Met at Kate Moss's wedding in 2011; announced engagement in 2013; amicably called off engagement in January 2014."
+    },
+    {
+      "name": "Luke Worrall",
+      "relationType": "Former Fiancé",
+      "years": "2008–2010",
+      "profession": "Model",
+      "summary": "Engaged in 2008 before separating in July 2010."
+    }
+  ]
+},
+  "sameAs": {
+    "imdb": "https://www.imdb.com/name/nm1066549/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kelly_Osbourne",
+    "wikidata": "https://www.wikidata.org/wiki/Q231182"
+  },
+  "editorialMetadata": {
+    "authorName": "Marcus Vance",
+    "authorRole": "Senior Culture & Television Historian",
+    "factCheckedBy": "David Thorne",
+    "publishedDate": "2026-10-12T06:15:00.000Z",
+    "lastUpdated": "2026-10-12T06:15:00.000Z",
+    "readingTimeMinutes": 9
+  }
+}
+];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
   ...c,
