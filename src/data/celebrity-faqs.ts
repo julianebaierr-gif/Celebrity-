@@ -1025,6 +1025,22 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "answer": "No. In individuals with complete situs inversus totalis without accompanying congenital heart defects, the organs function normally despite their mirrored positions. O'Hara frequently joked in interviews about being a 'medical marvel' and lived an active, healthy, and energetically demanding life for 71 years. Medical examiners confirmed that her dextrocardia was entirely unrelated to the pulmonary embolism and rectal cancer that caused her passing in January 2026."
   },
   {
+    "question": "Who plays the mom in Home Alone, and who directed the movie?",
+    "answer": "Catherine O'Hara plays Kate McCallister, the frantic and devoted mother of Kevin McCallister (Macaulay Culkin) in Home Alone (1990) and Home Alone 2: Lost in New York (1992). The classic holiday blockbuster was directed by renowned filmmaker Chris Columbus and written and produced by John Hughes. O'Hara's desperate journey home from Paris to Chicago opposite John Candy became one of cinema's most memorable maternal performances."
+  },
+  {
+    "question": "Who plays Delia Deetz in Beetlejuice, and what was her dynamic with Winona Ryder?",
+    "answer": "Catherine O'Hara portrays the eccentric, self-absorbed avant-garde sculptor Delia Deetz in Tim Burton's 1988 classic Beetlejuice and its 2024 sequel Beetlejuice Beetlejuice. In the film, Delia is the stepmother to Lydia Deetz, portrayed by Winona Ryder. Offscreen, O'Hara and Ryder developed a lifelong friendship, reuniting 36 years later alongside Michael Keaton and Jenna Ortega for the 2024 blockbuster sequel, which grossed $451 million worldwide."
+  },
+  {
+    "question": "Who voiced Sally in Tim Burton's The Nightmare Before Christmas?",
+    "answer": "Catherine O'Hara provided both the speaking and singing voice for Sally the rag doll, the compassionate companion to Jack Skellington (the Pumpkin King), in Henry Selick and Tim Burton's 1993 stop-motion holiday classic The Nightmare Before Christmas. O'Hara personally sang the haunting ballad 'Sally's Song', composed by Danny Elfman, and also voiced the mischievous trick-or-treater Shock."
+  },
+  {
+    "question": "Did Catherine O'Hara voice Sally Carrera in Pixar's Cars movie?",
+    "answer": "No. A common search confusion arises because both characters are named Sally in famous Disney-related films. Catherine O'Hara voiced Sally the rag doll in The Nightmare Before Christmas (1993). In contrast, Sally Carrera, the charming 2002 Porsche 911 Carrera and love interest of Lightning McQueen in Pixar's Cars (2006), Cars 2, and Cars 3, was voiced by actress and comedian Bonnie Hunt."
+  },
+  {
     "question": "Who was Catherine O'Hara's husband, and how long were they married?",
     "answer": "Catherine O'Hara was married to production designer and film director Bo Welch for over 33 years, from April 25, 1992, until her death on January 30, 2026. Welch is a four-time Academy Award-nominated production designer renowned for his imaginative visual architecture on Tim Burton's Beetlejuice, Edward Scissorhands, and Batman Returns, as well as Barry Sonnenfeld's Men in Black. Their enduring relationship was widely admired as one of the most stable, grounded partnerships in Hollywood history."
   },
@@ -1033,8 +1049,20 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "answer": "Catherine O'Hara and Bo Welch met on the set of Tim Burton's 1988 supernatural comedy Beetlejuice, where O'Hara starred as Delia Deetz and Welch served as production designer. Director Tim Burton actively encouraged the romance, playfully nudging Welch to ask O'Hara out on a date. The two began courting soon after production wrapped, became engaged, and married in 1992."
   },
   {
-    "question": "Did Catherine O'Hara have children, and what are their names?",
-    "answer": "Yes. Catherine O'Hara and her husband Bo Welch had two sons: Matthew Welch, born in 1994, and Luke Welch, born in 1997. Both sons grew up in Brentwood, Los Angeles, and followed their parents into the film and television production industry, working behind the scenes in set design and camera operations."
+    "question": "Who are Catherine O'Hara's children, Matthew and Luke Welch?",
+    "answer": "Catherine O'Hara and Bo Welch had two sons: Matthew Welch (born 1994) and Luke Welch (born 1997). Raised privately in Brentwood, Los Angeles, both sons pursued careers in the film and television production industry, working behind the scenes in camera operations, set construction, and production design following their parents' creative footsteps."
+  },
+  {
+    "question": "Who were Catherine O'Hara's parents, and what was her early family background?",
+    "answer": "Catherine O'Hara was born to Edward and Carmen O'Hara in Toronto, Ontario, Canada. She grew up in a vibrant Irish Catholic household in Etobicoke as the sixth of seven children. Her parents fostered an atmosphere of lively dinner-table storytelling, musical appreciation, and sharp improvisational humor that inspired Catherine and her sister, acclaimed singer-songwriter Mary Margaret O'Hara, to pursue artistic careers."
+  },
+  {
+    "question": "Was Catherine O'Hara related to classic screen star Maureen O'Hara?",
+    "answer": "No. Despite sharing the celebrated Irish surname O'Hara and possessing notable red/auburn hair in various film roles, Catherine O'Hara was not related to Golden Age Hollywood screen icon Maureen O'Hara (1920–2015, star of Miracle on 34th Street and The Quiet Man). Catherine was born and raised in Toronto, Canada, to parents Edward and Carmen O'Hara, whereas Maureen O'Hara was born Maureen FitzSimons in Ranelagh, County Dublin, Ireland."
+  },
+  {
+    "question": "Was Catherine O'Hara ever cast in HBO's The White Lotus?",
+    "answer": "No. In early 2024, widespread internet speculation and viral social media rumors circulated suggesting Catherine O'Hara would join the ensemble cast of Mike White's The White Lotus Season 3 set in Thailand. However, O'Hara officially clarified that while she was an admirer of the series, she had not joined the project. Instead, she signed on for another flagship HBO drama, joining Pedro Pascal and Bella Ramsey in The Last of Us Season 2 as guest star Gail, alongside filming Apple TV+'s The Studio."
   },
   {
     "question": "How much did Catherine O'Hara earn for playing Kate McCallister in Home Alone?",
@@ -1077,24 +1105,12 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "answer": "Catherine O'Hara's final completed screen roles included Delia Deetz in Tim Burton's box office hit Beetlejuice Beetlejuice (September 2024), Pinktail the mother opossum in DreamWorks' animated feature The Wild Robot (September 2024), Ruth in Matthew Vaughn's spy thriller Argylle (2024), guest star Gail in HBO's The Last of Us Season 2 (2025), and studio chairwoman Patty Leigh in Apple TV+'s satire series The Studio (2025–2026), for which she won her posthumous Actor Award."
   },
   {
-    "question": "Where was Catherine O'Hara born, and did she hold dual citizenship?",
-    "answer": "Catherine O'Hara was born in Toronto, Ontario, Canada, on March 4, 1954, and grew up in the Etobicoke district. She held dual Canadian and American citizenship, having become a naturalized United States citizen in the late 1980s while maintaining deep cultural and residential ties to Canada throughout her life."
-  },
-  {
     "question": "How did Catherine O'Hara get her start in comedy with The Second City and SCTV?",
     "answer": "Catherine O'Hara began her comedy career in 1974 at age twenty as a waitress at The Second City cabaret theatre in Toronto. She auditioned and was hired as an understudy to Gilda Radner. When Radner left for Saturday Night Live in 1975, O'Hara joined the mainstage troupe alongside John Candy, Eugene Levy, Harold Ramis, and Dan Aykroyd, later co-creating and writing SCTV (1976–1984), where she won a 1982 Primetime Emmy for writing."
   },
   {
     "question": "Which Christopher Guest mockumentary films did Catherine O'Hara star in?",
     "answer": "Catherine O'Hara starred in four seminal mockumentary films directed by Christopher Guest: Waiting for Guffman (1996) as travel agent Sheila Albertson; Best in Show (2000) as terrier owner Cookie Guggelman Fleck; A Mighty Wind (2003) as 1960s folk singer Mickey Crabbe; and For Your Consideration (2006) as fading drama actress Marilyn Hack. All four films were developed completely without scripts, relying entirely on O'Hara's improvisational mastery."
-  },
-  {
-    "question": "Did Catherine O'Hara sing and voice Sally in The Nightmare Before Christmas?",
-    "answer": "Yes. Catherine O'Hara provided both the speaking and singing voice of Sally the patchwork rag doll in Henry Selick and Tim Burton's stop-motion masterpiece The Nightmare Before Christmas (1993). She personally sang Danny Elfman's iconic ballad 'Sally's Song', and also voiced the mischievous trick-or-treater Shock, establishing Sally as one of the most beloved animated characters in Disney history."
-  },
-  {
-    "question": "What real estate and property did Catherine O'Hara and Bo Welch own?",
-    "answer": "Catherine O'Hara and Bo Welch purchased a traditional family estate in the Brentwood neighborhood of Los Angeles in 1994 for approximately $1.25 million USD, which served as their primary residence for over thirty-two years and is currently estimated at over $5.5 million. Additionally, O'Hara owned a serene waterfront retreat cottage in the Muskoka lakes region of Ontario, Canada, where the family spent their summers."
   }
 ],
 };
