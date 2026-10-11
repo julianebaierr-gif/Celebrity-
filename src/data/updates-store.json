@@ -195,6 +195,11 @@
       "careerMilestones": [
         {
           "year": "2026",
+          "title": "Tony Gilroy's 'Behemoth!' New York Film Festival World Premiere",
+          "description": "Headlined the world premiere of Tony Gilroy's classical drama 'Behemoth!' as cellist Alex Serian at the 64th New York Film Festival on October 2, 2026, launching a multi-city festival tour and Chanel Paris Fashion Week showcase."
+        },
+        {
+          "year": "2026",
           "title": "Behemoth! Newport Beach Premiere & Acclaim",
           "description": "Headlined Tony Gilroy's musical drama 'Behemoth!' as closing film of the Newport Beach Film Festival, earning widespread critical acclaim for his dedicated cello performance."
         },
@@ -220,7 +225,7 @@
         }
       ],
       "editorialMetadata": {
-        "lastUpdated": "2026-10-04T12:00:00.000Z"
+        "lastUpdated": "2026-10-11T14:00:00.000Z"
       }
     },
     "tom-holland": {
@@ -556,6 +561,42 @@
       ],
       "editorialMetadata": {
         "lastUpdated": "2026-10-11T12:00:00.000Z"
+      }
+    },
+    "britney-spears": {
+      "careerMilestones": [
+        {
+          "year": "2026",
+          "title": "'She'll Never Be Me' Vault Single Release & 25th Anniversary Reissue",
+          "description": "Surprised global music listeners on October 9, 2026 with the release of vault single 'She'll Never Be Me', announcing the 25th-anniversary expanded edition of 'Britney' featuring five unreleased archival master tracks."
+        }
+      ],
+      "editorialMetadata": {
+        "lastUpdated": "2026-10-11T14:00:00.000Z"
+      }
+    },
+    "leonardo-dicaprio": {
+      "careerMilestones": [
+        {
+          "year": "2026",
+          "title": "Elvy EnergyTech Investment & $200M Phoenix Conservation Initiative",
+          "description": "Announced strategic equity backing for Stockholm household energy pioneer Elvy on October 8, 2026 while co-founding the $200 Million Phoenix Species Project with the Bezos Earth Fund and Re:wild to protect 100 endangered global species."
+        }
+      ],
+      "editorialMetadata": {
+        "lastUpdated": "2026-10-11T14:00:00.000Z"
+      }
+    },
+    "jake-gyllenhaal": {
+      "careerMilestones": [
+        {
+          "year": "2026",
+          "title": "'Remain' Supernatural Thriller Beyond Fest World Premiere",
+          "description": "Delivered a surprise world premiere screening for M. Night Shyamalan's supernatural romantic thriller 'Remain' opposite Phoebe Dynevor at Beyond Fest, heading toward an early 2027 theatrical release by Warner Bros."
+        }
+      ],
+      "editorialMetadata": {
+        "lastUpdated": "2026-10-11T14:00:00.000Z"
       }
     }
   },
