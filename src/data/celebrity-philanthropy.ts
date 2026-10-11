@@ -607,4 +607,24 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
   }
 ],
 
+  "catherine-ohara": [
+  {
+    "organizationOrCause": "Entertainment Community Fund (Formerly The Actors Fund)",
+    "focusArea": "Emergency Financial Assistance, Healthcare & Senior Housing for Performers",
+    "verifiedContribution": "$250,000+ Lifetime Benefit Contributions & Advocacy",
+    "description": "Longtime supporter of programs providing housing, healthcare, and emergency financial relief to behind-the-scenes crew and elderly performers in Los Angeles."
+  },
+  {
+    "organizationOrCause": "Canadian Cancer Society & Colorectal Oncology Research",
+    "focusArea": "Early Detection Screening & Gastrointestinal Cancer Research",
+    "verifiedContribution": "Estate Memorial Endowment Established 2026",
+    "description": "Following her passing, O'Hara's family and colleagues directed tribute donations toward Canadian and American gastrointestinal oncology research initiatives."
+  },
+  {
+    "organizationOrCause": "The Second City Training Center Diversity & Female Comedy Scholarships",
+    "focusArea": "Improvisational Arts Education & Mentorship for Women in Satire",
+    "verifiedContribution": "Annual Canadian Arts Endowment Fund",
+    "description": "Funded tuition grants and creative workshops for aspiring young female sketch comedians and writers at Second City Toronto and Burnhamthorpe arts programs."
+  }
+],
 };

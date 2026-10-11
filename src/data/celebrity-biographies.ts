@@ -1590,4 +1590,60 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
   }
 ],
 
+  "catherine-ohara": [
+  {
+    "heading": "Toronto Roots, Burnhamthorpe & The Second City Comedy Forge (1954–1981)",
+    "paragraphs": [
+      "Catherine Anne O'Hara was born on March 4, 1954, in Toronto, Ontario, Canada, into a large, lively Irish Catholic family of seven children. Growing up in a household steeped in humor and storytelling, O'Hara developed a sharp comedic ear and an innate instinct for human idiosyncrasies. She attended Burnhamthorpe Collegiate Institute in Etobicoke, where her comedic sensibility began to crystallize before she embarked on what would become a historic journey in North American theatrical improvisation.",
+      "In 1974, at age twenty, O'Hara took a job as a waitress at the newly opened Second City cabaret theatre in downtown Toronto. Her quick wit and fearlessness quickly caught the attention of the theatre's directors, leading to her appointment as understudy to comedic legend Gilda Radner. When Radner relocated to New York to join the inaugural cast of Saturday Night Live in 1975, O'Hara officially stepped into the mainstage cast, forging creative partnerships with comedy titans John Candy, Dan Aykroyd, Eugene Levy, Harold Ramis, Rick Moranis, Martin Short, Andrea Martin, and Joe Flaherty.",
+      "When the troupe created the groundbreaking television sketch series Second City Television (SCTV) in 1976, O'Hara emerged as one of its most versatile performers and prolific writers. Portraying memorable characters such as the unhinged lounge singer Lola Heatherton and daytime talk personality Sue Bopper-Simpson, O'Hara mastered character immersion. In 1982, her creative contributions earned her an Emmy Award for Outstanding Writing in a Variety or Music Program, cementing her reputation as a foundational architect of contemporary television satire."
+    ],
+    "keyTakeaway": "Starting as Gilda Radner's understudy at Second City Toronto, O'Hara co-created SCTV and won a 1982 Primetime Emmy for writing alongside comedy legends."
+  },
+  {
+    "heading": "Tim Burton, Beetlejuice & The Genesis of an Unshakable Partnership (1982–1989)",
+    "paragraphs": [
+      "During the 1980s, O'Hara successfully transitioned from Canadian television to American cinematic feature films. In 1985, director Martin Scorsese cast her as Gail in the cult dark comedy After Hours, showcasing her ability to bring grounded warmth to surreal, anxiety-fueled narratives. Her defining Hollywood breakthrough, however, arrived when young visionary director Tim Burton cast her in the 1988 supernatural comedy masterpiece Beetlejuice.",
+      "Portraying Delia Deetz, an avant-garde, self-absorbed New York sculptor forced into a haunted Connecticut countryside home, O'Hara delivered an unforgettable comedic tour de force. The dinner table scene featuring Harry Belafonte's 'Day-O (The Banana Boat Song)' became one of the most iconic comedic sequences in cinematic history. Beyond box office success ($74.7 million worldwide), the production was life-changing personally: Burton introduced O'Hara to the film's production designer, Bo Welch. The couple began dating shortly after production wrapped and married in 1992, establishing one of the industry's most enduring unions.",
+      "Burton and O'Hara's artistic collaboration deepened with Henry Selick's stop-motion classic The Nightmare Before Christmas (1993), produced and conceived by Burton. O'Hara provided the poignant speaking and singing voice of Sally the rag doll, along with the mischievous trick-or-treater Shock. Performing Danny Elfman's haunting 'Sally's Song', O'Hara imbued the character with a tender, melancholic soul that established Sally as a global cultural and merchandising icon."
+    ],
+    "keyTakeaway": "Burton's 1988 classic Beetlejuice elevated O'Hara to Hollywood prominence, birthed her 33-year marriage to Bo Welch, and led to voicing Sally in The Nightmare Before Christmas."
+  },
+  {
+    "heading": "Home Alone, Universal Stardom & The Perennial Holiday Legacy (1990–1995)",
+    "paragraphs": [
+      "In 1990, writer-producer John Hughes and director Chris Columbus cast O'Hara as Kate McCallister, the frantic, loving mother of Kevin McCallister (portrayed by Macaulay Culkin) in the blockbuster comedy Home Alone. Produced on an $18 million budget, the film shattered commercial expectations, grossing $476.7 million worldwide and reigning as the highest-grossing live-action comedy for over two decades.",
+      "O'Hara's desperate, cross-country airport trek opposite John Candy's polka maestro Gus Polinski anchored the slapstick comedy with genuine maternal panic and emotional warmth. Her bloodcurdling scream of 'KEVIN!' aboard a transatlantic flight entered the lexicon of universal pop culture. She reprised the role in 1992's Home Alone 2: Lost in New York ($359 million global box office), cementing the franchise as a timeless holiday tradition broadcast globally each Christmas season.",
+      "Offscreen, O'Hara developed a protective, enduring bond with Macaulay Culkin that lasted over three decades. Culkin publicly called her 'Mama' throughout his adult life, a bond honored when O'Hara delivered a touching, humorous speech at Culkin's Hollywood Walk of Fame ceremony in December 2023, celebrating his survival and triumph in an unforgiving industry."
+    ],
+    "keyTakeaway": "Home Alone generated $476M+ worldwide and cemented O'Hara's role as Hollywood's quintessential holiday matriarch, forging a lifelong family bond with Macaulay Culkin."
+  },
+  {
+    "heading": "Christopher Guest Mockumentaries & Unrivaled Improvisational Mastery (1996–2014)",
+    "paragraphs": [
+      "Beginning in the mid-1990s, O'Hara reunited with SCTV collaborator Eugene Levy and director Christopher Guest to pioneer the golden age of cinematic mockumentaries. Operating entirely without scripted dialogue and working solely from detailed narrative outlines, O'Hara demonstrated unprecedented improvisational agility across four landmark ensemble comedies: Waiting for Guffman (1996), Best in Show (2000), A Mighty Wind (2003), and For Your Consideration (2006).",
+      "In Best in Show, O'Hara portrayed Cookie Guggelman Fleck, a Terrier handler whose endless parade of past lovers torments her mild-mannered husband (Levy). In A Mighty Wind, she played Mickey Crabbe, one half of the estranged 1960s folk duo Mitch & Mickey. Demonstrating her musical versatility, O'Hara co-wrote original folk songs for the film, earning a Grammy Award and an Academy Award nomination for Best Original Song for 'A Kiss at the End of the Rainbow', which she performed live at the 76th Academy Awards.",
+      "In recognition of her extraordinary lifetime contributions to Canadian and international arts, O'Hara was inducted into Canada's Walk of Fame in 2007. In 2017, she was appointed an Officer of the Order of Canada, the nation's highest civilian honor, followed by the prestigious Governor General's Performing Arts Award for Lifetime Artistic Achievement in 2020."
+    ],
+    "keyTakeaway": "Across Christopher Guest's mockumentary masterworks, O'Hara redefined unscripted comedy, earned an Oscar nomination for songwriting, and received the Order of Canada."
+  },
+  {
+    "heading": "Schitt's Creek, The Moira Rose Cultural Phenomenon & Awards Sweep (2015–2020)",
+    "paragraphs": [
+      "In 2014, Eugene Levy and his son Dan Levy approached O'Hara to star in their original Canadian comedy series Schitt's Creek as Moira Rose, an eccentric, former daytime television soap star whose wealthy family loses their fortune and is forced to relocate to a rundown rural town. O'Hara agreed on the condition that Moira never be written as a pathetic victim of circumstance, insisting instead on imbuing her with defiant dignity, avant-garde couture, and an unapologetic theatrical grandeur.",
+      "O'Hara crafted Moira Rose into one of the most celebrated comedic characters in television history. She conceived Moira's legendary mid-Atlantic, pseudo-archaic accent, archaic vocabulary (introducing terms like 'bébés', 'pettifogging', and 'disgruntled pelican' into global slang), and an eccentric wardrobe featuring over one hundred bespoke designer wigs named and cataloged like prized museum pieces.",
+      "The series grew into a worldwide cultural phenomenon, culminating in an unprecedented sweep at the 72nd Primetime Emmy Awards in September 2020. Schitt's Creek won all seven major comedy categories—the first comedy series in television history to do so—with O'Hara winning the Primetime Emmy Award for Outstanding Lead Actress in a Comedy Series. She subsequently swept the Golden Globe, Screen Actors Guild, Critics' Choice, and TCA Awards, cementing her place in television royalty."
+    ],
+    "keyTakeaway": "Moira Rose became a global cultural icon, earning O'Hara an Emmy, Golden Globe, and SAG sweep as Schitt's Creek achieved the first comedy clean sweep in Emmy history."
+  },
+  {
+    "heading": "Final Masterpieces, Dextrocardia Medical Reality & 2026 Memorial Honors (2021–2026)",
+    "paragraphs": [
+      "In her final years, O'Hara enjoyed an extraordinary career renaissance. In 2024, she reunited with Tim Burton and Michael Keaton for Beetlejuice Beetlejuice, reprising Delia Deetz with razor-sharp satire. The sequel grossed over $451 million globally. That same year, she voiced Pinktail the opossum in DreamWorks' critically acclaimed animated masterpiece The Wild Robot ($325M worldwide) and filmed key roles in Argylle, HBO's The Last of Us Season 2, and Apple TV+'s comedy series The Studio opposite Seth Rogen.",
+      "Throughout her life, O'Hara lived with a rare congenital anatomical condition known as dextrocardia with situs inversus, in which the heart is located on the right side of the chest cavity and internal abdominal organs are positioned in a mirror image of standard anatomy. Discovered incidentally during an adult medical scan, the condition was benign and managed without disruption to her vigorous creative schedule.",
+      "On January 30, 2026, Catherine O'Hara passed away peacefully at a hospital in Santa Monica, California, at age 71, following a brief acute illness caused by a pulmonary embolism secondary to rectal cancer. The global entertainment community united in profound grief, with tributes led by Macaulay Culkin, Eugene and Dan Levy, Annie Murphy, and Seth Rogen. On March 1, 2026, she was posthumously awarded the Actor Award (SAG) for Outstanding Performance in a Comedy Series for The Studio, receiving a standing ovation. At the 78th Primetime Emmy Awards in September 2026, Culkin and the Levy family honored her in an unforgettable on-stage tribute, celebrating five decades of unparalleled comedic generosity."
+    ],
+    "keyTakeaway": "O'Hara concluded her career with global hits Beetlejuice Beetlejuice and The Studio, passing away peacefully in Santa Monica on January 30, 2026, followed by historic posthumous SAG and Emmy honors."
+  }
+],
 };

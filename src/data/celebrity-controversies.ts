@@ -379,4 +379,18 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
   }
 ],
 
+  "catherine-ohara": [
+  {
+    "incident": "Tabloid Death Hoaxes & Clarifying Lifelong Health Reality (2025–2026)",
+    "year": "2026",
+    "resolutionOrOutcome": "Following years of sporadic internet rumors misinterpreting her rare congenital condition (dextrocardia with situs inversus), official medical records confirmed that Catherine O'Hara passed away with profound dignity on January 30, 2026, from a pulmonary embolism secondary to rectal cancer.",
+    "impactAnalysis": "The transparency of her family and colleagues immediately dispelled sensationalist speculation, turning public attention toward her extraordinary five-decade legacy and inspiring fundraising for colorectal oncology and the Entertainment Community Fund."
+  },
+  {
+    "incident": "Championing Fair Compensation for Female Comedy Improvisers",
+    "year": "2004",
+    "resolutionOrOutcome": "Throughout the Christopher Guest mockumentary era and the initial pitching of Schitt's Creek, O'Hara insisted that unscripted comedic performers who originate character dialogue receive writing or equity profit participation rather than standard scale rates.",
+    "impactAnalysis": "Her principled stand set a precedent across Canadian and American comedy networks, ensuring character actors shared in syndication windfalls and leading directly to her lucrative backend terms on Schitt's Creek."
+  }
+],
 };

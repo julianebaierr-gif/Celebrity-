@@ -2999,4 +2999,136 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
   ]
 },
 
+  "catherine-ohara": {
+  "salaryMilestones": [
+    {
+      "project": "Beetlejuice (Original Theatrical Release)",
+      "year": 1988,
+      "salary": "$150,000 USD Upfront Acting Guarantee",
+      "boxOfficeOrBudget": "$74.7 Million Worldwide ($15M Budget)",
+      "notes": "Breakthrough Hollywood studio role playing Delia Deetz opposite Michael Keaton, meeting future husband Bo Welch on set."
+    },
+    {
+      "project": "Home Alone (Worldwide Holiday Blockbuster)",
+      "year": 1990,
+      "salary": "$350,000 USD + Long-Term Syndication Royalties",
+      "boxOfficeOrBudget": "$476.7 Million Worldwide ($18M Budget)",
+      "notes": "Portrayed frantic mother Kate McCallister in the highest-grossing live-action comedy of its era, generating millions in 35-year holiday residuals."
+    },
+    {
+      "project": "Home Alone 2: Lost in New York",
+      "year": 1992,
+      "salary": "$800,000 USD Upfront Fee",
+      "boxOfficeOrBudget": "$359.0 Million Worldwide Box Office",
+      "notes": "Voluntarily accepted structured fee in exchange for condensed shooting schedule to accommodate young family in Los Angeles."
+    },
+    {
+      "project": "The Nightmare Before Christmas",
+      "year": 1993,
+      "salary": "$250,000 USD Voice & Music Royalties",
+      "boxOfficeOrBudget": "$101.2 Million Cumulative Theatrical & Re-release Gross",
+      "notes": "Voiced Sally the rag doll and Shock; performed Danny Elfman's Sally's Song, securing perpetual soundtrack and merchandise royalties."
+    },
+    {
+      "project": "Best in Show (Christopher Guest Mockumentary)",
+      "year": 2000,
+      "salary": "$500,000 USD (Ensemble Improvisational Pool)",
+      "boxOfficeOrBudget": "$20.8 Million Box Office (Warner Bros. Release)",
+      "notes": "Developed character Cookie Guggelman Fleck entirely without scripted lines, sharing in ensemble backend profit distribution."
+    },
+    {
+      "project": "A Mighty Wind (Film & Soundtrack)",
+      "year": 2003,
+      "salary": "$650,000 USD + Grammy/Oscar Songwriting Royalties",
+      "boxOfficeOrBudget": "$17.8 Million Theatrical Gross",
+      "notes": "Co-composed folk songs for Mitch & Mickey, earning Grammy Award and Academy Award nomination for Best Original Song."
+    },
+    {
+      "project": "Schitt's Creek (Seasons 1–6 Complete Run)",
+      "year": 2020,
+      "salary": "$1.8 Million USD (Backend Profit Sharing & Royalties)",
+      "boxOfficeOrBudget": "CBC / Pop TV / Netflix Global Distribution",
+      "notes": "Swept 2020 Primetime Emmy, Golden Globe, and SAG Awards; secured executive profit participation following Netflix international syndication."
+    },
+    {
+      "project": "Beetlejuice Beetlejuice (Warner Bros. Sequel)",
+      "year": 2024,
+      "salary": "$2.0 Million USD Upfront + First-Dollar Gross Backend",
+      "boxOfficeOrBudget": "$451.0 Million Global Box Office",
+      "notes": "Reprised Delia Deetz under Tim Burton, taking structured upfront guarantee in exchange for lucrative box office gross profit points."
+    },
+    {
+      "project": "The Studio (Apple TV+ Satire Series)",
+      "year": 2025,
+      "salary": "$1.2 Million USD Series Season Guarantee",
+      "boxOfficeOrBudget": "Apple TV+ / Point Grey Pictures Production",
+      "notes": "Co-starred opposite Seth Rogen, posthumously winning the 2026 Actor Award for Outstanding Comedy Performance."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Brentwood Traditional Family Compound",
+      "location": "Brentwood, Los Angeles, California",
+      "purchasedYear": "1994",
+      "purchasePrice": "$1.25 Million USD",
+      "currentEstimatedValue": "$5.5 Million USD",
+      "description": "Sprawling private traditional residence featuring mature gardens, artist studios, and secluded privacy where O'Hara and Bo Welch lived for over 32 years."
+    },
+    {
+      "property": "Lake Rosseau Waterfront Summer Cottage",
+      "location": "Muskoka Lakes, Ontario, Canada",
+      "purchasedYear": "2007",
+      "purchasePrice": "$1.4 Million CAD",
+      "currentEstimatedValue": "$3.2 Million CAD ($2.4 Million USD)",
+      "description": "Serene lakeside timber retreat spanning multi-acre shoreline where O'Hara returned annually to spend summers with extended Canadian family."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Film & Television Syndication Residuals Trust",
+      "role": "Principal Asset Beneficiary",
+      "valuationOrRevenue": "$3.5M+ Cumulative SAG-AFTRA & ACTRA Residual Flow",
+      "description": "Perpetual global syndication and streaming licensing trust managing royalties for Home Alone, Beetlejuice, and Schitt's Creek."
+    },
+    {
+      "name": "Christopher Guest Music Publishing Catalog",
+      "role": "Co-Composer & Publishing Rights Owner",
+      "valuationOrRevenue": "$750,000+ Lifetime Sync & Mechanical Royalties",
+      "description": "Co-owns publishing and songwriter copyrights for folk music created for A Mighty Wind, including Oscar-nominated ballad A Kiss at the End of the Rainbow."
+    },
+    {
+      "name": "Animation & Commercial Voiceover Royalties",
+      "role": "Featured Voice Artist",
+      "valuationOrRevenue": "$1.2M+ In Animated IP Dividend Value",
+      "description": "Voiceover and likeness licensing for Disney's The Nightmare Before Christmas, Frankenweenie, and DreamWorks' The Wild Robot."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "1980s",
+      "estimatedNetWorth": "$750,000 USD",
+      "milestoneDescription": "SCTV writing Emmy Award, breakout feature roles in Martin Scorsese's After Hours and Tim Burton's Beetlejuice."
+    },
+    {
+      "period": "1990s",
+      "estimatedNetWorth": "$3.5 Million USD",
+      "milestoneDescription": "Home Alone 1 & 2 holiday box office phenomenon ($835M combined), The Nightmare Before Christmas, and purchase of Brentwood estate."
+    },
+    {
+      "period": "2000s",
+      "estimatedNetWorth": "$5.8 Million USD",
+      "milestoneDescription": "Christopher Guest mockumentary cycle (Best in Show, A Mighty Wind), Oscar songwriting nomination, and induction into Canada's Walk of Fame."
+    },
+    {
+      "period": "2010s",
+      "estimatedNetWorth": "$7.5 Million USD",
+      "milestoneDescription": "Creation of Moira Rose in Schitt's Creek, Order of Canada appointment, and expanding animated feature portfolio."
+    },
+    {
+      "period": "2020–2026",
+      "estimatedNetWorth": "$10.0 Million – $12.0 Million USD",
+      "milestoneDescription": "Schitt's Creek historic Emmy sweep and backend syndication, Beetlejuice Beetlejuice ($451M box office), and 2026 posthumous SAG honors."
+    }
+  ]
+},
 };

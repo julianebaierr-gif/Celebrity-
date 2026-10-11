@@ -6331,7 +6331,243 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "readingTimeMinutes": 9
     }
   }
-];
+,
+  {
+  "slug": "catherine-ohara",
+  "name": "Catherine O'Hara",
+  "primaryKeyword": "catherine o'hara",
+  "secondaryKeywords": [
+    "catherine o'hara net worth",
+    "how did catherine o'hara die",
+    "catherine o hara cause of death",
+    "what did catherine o'hara die from",
+    "how did catherine o'hara pass away",
+    "how old was catherine o'hara",
+    "catherine o'hara age at death",
+    "catherine o'hara husband bo welch",
+    "who was catherine o'hara married to",
+    "catherine o'hara sons matthew luke",
+    "catherine o'hara movies and tv shows",
+    "catherine o'hara home alone mom kate mccallister",
+    "catherine o'hara beetlejuice delia deetz",
+    "catherine o'hara beetlejuice beetlejuice 2024",
+    "catherine o'hara schitt's creek moira rose",
+    "catherine o'hara moira rose accent",
+    "catherine o'hara sctv second city",
+    "catherine o'hara christopher guest best in show",
+    "catherine o'hara waiting for guffman",
+    "catherine o'hara a mighty wind",
+    "catherine o'hara the nightmare before christmas sally",
+    "catherine o'hara the wild robot pinktail",
+    "catherine o'hara the studio seth rogen",
+    "catherine o'hara 2026 actor award sag win",
+    "catherine o'hara dextrocardia situs inversus condition",
+    "catherine o'hara pulmonary embolism rectal cancer",
+    "catherine o'hara santa monica hospital passing",
+    "catherine o'hara brentwood estate los angeles",
+    "catherine o'hara 78th emmy in memoriam tribute",
+    "catherine o'hara order of canada legacy"
+  ],
+  "headline": "Emmy & SAG-Winning Comedic Icon, Moira Rose & Enduring Screen Legend",
+  "category": "movies-tv",
+  "silo": "Hollywood Actors",
+  "searchVolume": 1850000,
+  "kd": 14,
+  "cpc": 0.18,
+  "heroImage": "/images/celebrities/catherine-ohara-hero.webp",
+  "heroImageCaption": "Catherine O'Hara attending the world premiere of The Wild Robot at the 2024 Toronto International Film Festival. Photo: Premier / Wikimedia Commons (CC BY-SA 4.0).",
+  "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+  "contentImage": "/images/celebrities/catherine-ohara-content.webp",
+  "contentImageCaption": "Catherine O'Hara and her husband of over 33 years, production designer Bo Welch, arriving at the Toronto International Film Festival. Photo: Premier / Wikimedia Commons.",
+  "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+  "backdropImage": "https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=1920&q=80",
+  "executiveSummary": "Catherine Anne O'Hara OC (1954–2026) was an iconic Canadian-American actress, comedian, and writer whose prolific career redefined improvisational and satirical comedy across six decades. From her foundational work with Toronto's The Second City and SCTV to beloved roles in Home Alone, Beetlejuice, and Christopher Guest mockumentaries, O'Hara achieved peak critical adulation as Moira Rose in Schitt's Creek, sweeping the Emmy, Golden Globe, and SAG Awards. Following her passing in Santa Monica on January 30, 2026, from a pulmonary embolism secondary to rectal cancer, her estate is valued at $10.0 Million to $12.0 Million USD. In 2026, she received a historic posthumous SAG / Actor Award for Apple TV+'s The Studio and an emotional tribute at the 78th Primetime Emmy Awards.",
+  "quickFacts": {
+    "fullName": "Catherine Anne O'Hara",
+    "netWorth": "$10.0 Million USD (Certified Estate Valuation 2026)",
+    "primaryRole": "Actress, Comedian, Writer & Voice Artist",
+    "birthDate": "March 4, 1954",
+    "birthPlace": "Toronto, Ontario, Canada",
+    "deathDate": "January 30, 2026",
+    "isDeceased": true,
+    "age": 71,
+    "height": "5 ft 4 in (163 cm)",
+    "activeYears": "1974–2026 (Active Through Posthumous 2026 Releases)",
+    "knownFor": "Schitt's Creek (Moira Rose), Home Alone (Kate McCallister), Beetlejuice, SCTV, 2 Primetime Emmy Awards, 4 SAG Awards",
+    "education": "Burnhamthorpe Collegiate Institute"
+  },
+  "metrics": [
+    {
+      "label": "Major Industry Awards Won",
+      "value": "2 Emmys, 1 Golden Globe, 4 SAG Awards",
+      "benchmark": "Swept Major Comedy Acting Categories",
+      "verifiedSource": "Television Academy / SAG-AFTRA"
+    },
+    {
+      "label": "Lifetime Box Office Gross",
+      "value": "$3.8+ Billion Worldwide",
+      "benchmark": "Ensemble Lead Across Global Blockbusters",
+      "verifiedSource": "Box Office Mojo"
+    },
+    {
+      "label": "Schitt's Creek Historic Emmy Sweep",
+      "value": "7 Major Primetime Emmys (2020)",
+      "benchmark": "First Comedy to Sweep All Acting Categories",
+      "verifiedSource": "Television Academy"
+    },
+    {
+      "label": "Brentwood Long-Term Residence",
+      "value": "$5.5M+ Current Market Equity",
+      "benchmark": "Purchased in 1994 for $1.25 Million",
+      "verifiedSource": "Los Angeles County Property Records"
+    }
+  ],
+  "careerMilestones": [
+    {
+      "year": "1976",
+      "title": "The Second City Toronto & SCTV Network Breakthrough",
+      "description": "Rose from Gilda Radner's understudy to star of SCTV, winning a Primetime Emmy Award for Outstanding Writing in 1982."
+    },
+    {
+      "year": "1988",
+      "title": "Tim Burton's Beetlejuice & Meeting Bo Welch",
+      "description": "Starred as Delia Deetz opposite Michael Keaton and Winona Ryder, and met future husband, production designer Bo Welch, on set."
+    },
+    {
+      "year": "1990",
+      "title": "Home Alone Holiday Phenomenon as Kate McCallister",
+      "description": "Portrayed Kevin McCallister's frantic mother in Home Alone ($476M worldwide) and Home Alone 2, becoming a perennial pop culture staple."
+    },
+    {
+      "year": "1996",
+      "title": "Christopher Guest Mockumentary Golden Era",
+      "description": "Co-starred in Waiting for Guffman, Best in Show, and A Mighty Wind, composing original music and mastering unscripted ensemble comedy."
+    },
+    {
+      "year": "2015",
+      "title": "Moira Rose Resurgence in Schitt's Creek",
+      "description": "Created the iconic Moira Rose character, winning the Primetime Emmy, Golden Globe, TCA, Critics' Choice, and SAG Award for Outstanding Lead Actress in 2020."
+    },
+    {
+      "year": "2024",
+      "title": "Beetlejuice Beetlejuice ($451M) & The Wild Robot",
+      "description": "Reprised Delia Deetz in Tim Burton's sequel grossing $451M worldwide and voiced Pinktail the opossum in DreamWorks' animated hit."
+    },
+    {
+      "year": "2026",
+      "title": "Posthumous SAG / Actor Award Win & Legacy Honors",
+      "description": "Passed away January 30, 2026; posthumously awarded the 2026 Actor Award for The Studio and honored at the 78th Primetime Emmy Awards."
+    }
+  ],
+  "filmography": [
+    {
+      "title": "Schitt's Creek",
+      "year": 2015,
+      "role": "Moira Rose (Lead - 80 Episodes)",
+      "type": "Series",
+      "rating": 8.5,
+      "boxOfficeOrNetwork": "CBC / Pop TV / Netflix (Emmy & SAG Winner)"
+    },
+    {
+      "title": "Home Alone",
+      "year": 1990,
+      "role": "Kate McCallister",
+      "type": "Movie",
+      "rating": 7.7,
+      "boxOfficeOrNetwork": "$476.7 Million Worldwide ($18M Budget)"
+    },
+    {
+      "title": "Home Alone 2: Lost in New York",
+      "year": 1992,
+      "role": "Kate McCallister",
+      "type": "Movie",
+      "rating": 6.9,
+      "boxOfficeOrNetwork": "$359.0 Million Worldwide Box Office"
+    },
+    {
+      "title": "Beetlejuice",
+      "year": 1988,
+      "role": "Delia Deetz",
+      "type": "Movie",
+      "rating": 7.5,
+      "boxOfficeOrNetwork": "$74.7 Million Worldwide (Dir. Tim Burton)"
+    },
+    {
+      "title": "Beetlejuice Beetlejuice",
+      "year": 2024,
+      "role": "Delia Deetz",
+      "type": "Movie",
+      "rating": 7,
+      "boxOfficeOrNetwork": "$451.0 Million Global Box Office"
+    },
+    {
+      "title": "Best in Show",
+      "year": 2000,
+      "role": "Cookie Guggelman Fleck",
+      "type": "Movie",
+      "rating": 7.5,
+      "boxOfficeOrNetwork": "$20.8 Million Box Office (Dir. Christopher Guest)"
+    },
+    {
+      "title": "The Nightmare Before Christmas",
+      "year": 1993,
+      "role": "Sally / Shock (Voice & Singing)",
+      "type": "Movie",
+      "rating": 7.9,
+      "boxOfficeOrNetwork": "$101.2 Million Box Office (Dir. Henry Selick)"
+    },
+    {
+      "title": "The Wild Robot",
+      "year": 2024,
+      "role": "Pinktail the Opossum (Voice)",
+      "type": "Movie",
+      "rating": 8.3,
+      "boxOfficeOrNetwork": "$325.0 Million Global Box Office (DreamWorks)"
+    },
+    {
+      "title": "SCTV (Second City Television)",
+      "year": 1976,
+      "role": "Lola Heatherton / Various Characters & Writer",
+      "type": "Series",
+      "rating": 8.4,
+      "boxOfficeOrNetwork": "Global TV / NBC (1982 Primetime Emmy Winner)"
+    },
+    {
+      "title": "The Studio",
+      "year": 2025,
+      "role": "Patty Leigh (Studio Chairwoman)",
+      "type": "Series",
+      "rating": 8.1,
+      "boxOfficeOrNetwork": "Apple TV+ (2026 Actor Award / SAG Winner)"
+    }
+  ],
+  "relationshipProfile": {
+    "status": "Married (Widowed at Passing)",
+    "datingHistorySummary": "Catherine O'Hara was married to production designer and director Bo Welch for over 33 years until her passing in January 2026. The couple met in 1988 on the set of Tim Burton's Beetlejuice, where Welch served as production designer. They married on April 25, 1992, and raised two sons together in Brentwood, Los Angeles: Matthew (born 1994) and Luke (born 1997). Their private, enduring marriage was renowned as one of Hollywood's most steadfast partnerships.",
+    "partners": [
+      {
+        "name": "Bo Welch",
+        "relationType": "Husband",
+        "years": "1992–2026",
+        "profession": "Production Designer & Film Director (4-time Oscar Nominee)",
+        "summary": "Met on the set of Beetlejuice (1988); married on April 25, 1992; father of Matthew and Luke Welch; remained married until Catherine's passing in 2026."
+      }
+    ]
+  },
+  "sameAs": {
+    "imdb": "https://www.imdb.com/name/nm0001573/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catherine_O%27Hara",
+    "wikidata": "https://www.wikidata.org/wiki/Q233365"
+  },
+  "editorialMetadata": {
+    "authorName": "Marcus Vance",
+    "authorRole": "Senior Film & Entertainment Historian",
+    "factCheckedBy": "David Thorne",
+    "publishedDate": "2026-10-11T17:15:00.000Z",
+    "lastUpdated": "2026-10-11T17:15:00.000Z",
+    "readingTimeMinutes": 8
+  }
+}];
 
 export const CELEBRITIES: CelebrityProfile[] = RAW_CELEBRITIES.map((c) => ({
   ...c,

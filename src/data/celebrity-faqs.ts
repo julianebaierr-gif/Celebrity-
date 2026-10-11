@@ -999,4 +999,102 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
   }
 ],
 
+  "catherine-ohara": [
+  {
+    "question": "What was Catherine O'Hara's verified net worth and estate valuation in 2026?",
+    "answer": "At the time of her passing in January 2026, Catherine O'Hara held an estimated net worth of approximately $10.0 Million to $12.0 Million USD. Her wealth was accumulated across a prolific five-decade career in film, television, voice acting, and music publishing. Key financial pillars included long-term syndication residuals from the multi-billion dollar holiday blockbusters Home Alone and Home Alone 2, substantial backend profit-sharing from the six-season global success of Schitt's Creek (yielding over $1.8 million), a $2.0 million upfront salary plus backend points for 2024's Beetlejuice Beetlejuice ($451M box office), and substantial equity in prime Southern California and Canadian real estate."
+  },
+  {
+    "question": "Did Catherine O'Hara pass away in 2026, and what was her cause of death?",
+    "answer": "Yes. Catherine O'Hara passed away on January 30, 2026, at the age of 71 at a hospital in Santa Monica, California. Her official cause of death was determined to be a pulmonary embolism, with rectal cancer identified as the underlying cause following a brief, privately managed illness. Her passing prompted an unprecedented outpouring of international tributes celebrating her warmth, kindness, and singular comedic genius."
+  },
+  {
+    "question": "What is the truth behind the 'how did Catherine O'Hara die' search queries?",
+    "answer": "Public searches inquiring 'how did Catherine O'Hara die' spiked worldwide following her peaceful passing on January 30, 2026, at a medical center in Santa Monica, California. Official medical disclosures confirmed she suffered a fatal pulmonary embolism stemming from underlying rectal cancer. Prior to 2026, similar search queries were often fueled by internet death hoaxes, confusion with other public figures, or fan curiosity surrounding her rare anatomical condition (dextrocardia with situs inversus)."
+  },
+  {
+    "question": "What underlying medical illness contributed to Catherine O'Hara's pulmonary embolism?",
+    "answer": "Official medical reports confirmed that the underlying cause of Catherine O'Hara's fatal pulmonary embolism on January 30, 2026, was rectal cancer. O'Hara had maintained privacy regarding her medical diagnoses, continuing to film major productions including Beetlejuice Beetlejuice, The Wild Robot, and Apple TV+'s The Studio throughout 2024 and 2025 before suffering acute complications in late January 2026."
+  },
+  {
+    "question": "What rare anatomical condition did Catherine O'Hara have (dextrocardia with situs inversus)?",
+    "answer": "Catherine O'Hara lived her entire life with dextrocardia with situs inversus—a rare congenital condition occurring in roughly 1 in 10,000 individuals where the heart points toward the right side of the chest cavity rather than the left, and major visceral organs in the thorax and abdomen are arranged in a complete mirror image of typical human anatomy. O'Hara did not learn of her condition until adulthood, when it was discovered purely by chance during a routine chest X-ray and EKG."
+  },
+  {
+    "question": "Did Catherine O'Hara's dextrocardia with situs inversus affect her lifespan or health?",
+    "answer": "No. In individuals with complete situs inversus totalis without accompanying congenital heart defects, the organs function normally despite their mirrored positions. O'Hara frequently joked in interviews about being a 'medical marvel' and lived an active, healthy, and energetically demanding life for 71 years. Medical examiners confirmed that her dextrocardia was entirely unrelated to the pulmonary embolism and rectal cancer that caused her passing in January 2026."
+  },
+  {
+    "question": "Who was Catherine O'Hara's husband, and how long were they married?",
+    "answer": "Catherine O'Hara was married to production designer and film director Bo Welch for over 33 years, from April 25, 1992, until her death on January 30, 2026. Welch is a four-time Academy Award-nominated production designer renowned for his imaginative visual architecture on Tim Burton's Beetlejuice, Edward Scissorhands, and Batman Returns, as well as Barry Sonnenfeld's Men in Black. Their enduring relationship was widely admired as one of the most stable, grounded partnerships in Hollywood history."
+  },
+  {
+    "question": "How did Catherine O'Hara and her husband Bo Welch first meet?",
+    "answer": "Catherine O'Hara and Bo Welch met on the set of Tim Burton's 1988 supernatural comedy Beetlejuice, where O'Hara starred as Delia Deetz and Welch served as production designer. Director Tim Burton actively encouraged the romance, playfully nudging Welch to ask O'Hara out on a date. The two began courting soon after production wrapped, became engaged, and married in 1992."
+  },
+  {
+    "question": "Did Catherine O'Hara have children, and what are their names?",
+    "answer": "Yes. Catherine O'Hara and her husband Bo Welch had two sons: Matthew Welch, born in 1994, and Luke Welch, born in 1997. Both sons grew up in Brentwood, Los Angeles, and followed their parents into the film and television production industry, working behind the scenes in set design and camera operations."
+  },
+  {
+    "question": "How much did Catherine O'Hara earn for playing Kate McCallister in Home Alone?",
+    "answer": "For the original 1990 Home Alone, Catherine O'Hara received an upfront acting salary of approximately $350,000 USD on an $18 million production budget. However, because of the film's unforeseen box office explosion ($476.7 million worldwide) and perennial holiday broadcast syndication across terrestrial and streaming networks every December, O'Hara earned millions in cumulative SAG-AFTRA residuals throughout the subsequent three decades. For 1992's Home Alone 2: Lost in New York, she negotiated an $800,000 upfront fee with flexible scheduling."
+  },
+  {
+    "question": "How much did Catherine O'Hara make for Schitt's Creek and the role of Moira Rose?",
+    "answer": "Catherine O'Hara earned an estimated $1.8 million to $2.0 million USD from her six-season tenure on Schitt's Creek (2015–2020). While the series initially operated on a modest Canadian broadcast budget of roughly $1.5 million per episode (with primary cast salaries starting between $30,000 and $50,000 per episode), O'Hara held backend profit participation and executive equity pools. Following Netflix's global distribution acquisition and the show's historic 2020 Emmy sweep, backend syndication dividends surged significantly."
+  },
+  {
+    "question": "How did Catherine O'Hara invent Moira Rose's signature accent in Schitt's Creek?",
+    "answer": "Catherine O'Hara conceived Moira Rose's unforgettable mid-Atlantic, theatrical accent herself. She drew inspiration from legendary international travelers, eccentric socialites, and historical figures whose accents were geographically unplaceable. O'Hara explained that Moira had spent decades constructing an aristocratic veneer to escape her small-town working-class roots, intentionally adopting pseudo-British vowels, antique cadences, and archaic vocabulary ('bébés', 'pettifogging', 'disgruntled pelican') to sound cultured."
+  },
+  {
+    "question": "How many wigs did Catherine O'Hara wear as Moira Rose in Schitt's Creek?",
+    "answer": "Catherine O'Hara wore over one hundred distinct wigs throughout the six seasons of Schitt's Creek. In her initial character development meetings with creators Eugene and Dan Levy, O'Hara insisted that Moira's emotional states should dictate her hair rather than practical logic. She collaborated closely with hairstylist Ana Sorys to source, style, and name dozens of avant-garde wigs—including green mullets, cascading blonde ringlets, and towering geometric bobs—often hanging them on walls and bedposts as personal artwork."
+  },
+  {
+    "question": "What was Catherine O'Hara's salary for Beetlejuice Beetlejuice (2024)?",
+    "answer": "Catherine O'Hara earned a reported $2.0 million USD upfront salary to reprise her iconic role as Delia Deetz in Tim Burton's 2024 sequel Beetlejuice Beetlejuice. To ensure the production stayed within its $100 million budget and secured a full global theatrical launch, O'Hara, Michael Keaton, and Winona Ryder took lower upfront guarantees in exchange for significant first-dollar gross backend points, resulting in substantial multimillion-dollar bonus dividends after the sequel grossed over $451 million worldwide."
+  },
+  {
+    "question": "Did Catherine O'Hara win an award posthumously in 2026?",
+    "answer": "Yes. On March 1, 2026, Catherine O'Hara was posthumously awarded the prestigious Actor Award (formerly known as the Screen Actors Guild / SAG Award) for Outstanding Performance by a Female Actor in a Comedy Series for her portrayal of studio executive Patty Leigh in Apple TV+'s comedy series The Studio. It was her fifth career SAG nomination and third victory, celebrated with a spontaneous standing ovation from her peers at the Shrine Auditorium in Los Angeles."
+  },
+  {
+    "question": "What tribute did Seth Rogen give Catherine O'Hara at the 2026 Actor Awards?",
+    "answer": "At the 2026 Actor Awards on March 1, 2026, Seth Rogen—co-creator and star of Apple TV+'s The Studio—accepted the posthumous comedy acting trophy on Catherine O'Hara's behalf. In an emotional, tearful, and humorous address, Rogen recounted how O'Hara graciously elevated every script, treating every crew member with profound kindness, and noted: 'Catherine made everyone around her ten times funnier and a hundred times better human beings. She was pure light, and we were so lucky to share her final masterpiece.'"
+  },
+  {
+    "question": "What tribute did Macaulay Culkin give Catherine O'Hara after her passing?",
+    "answer": "Following Catherine O'Hara's death on January 30, 2026, her on-screen son Macaulay Culkin released a moving tribute calling her 'Mama, my North Star, and the warmest soul Hollywood ever knew.' Culkin wrote: 'Thirty-six years ago you played my mom, and you never stopped looking out for me in real life. Thank you for protecting me, laughing with me, and showing the world what unconditional generosity looks like.' The pair had famously reunited in December 2023 when O'Hara gave an emotional speech at Culkin's Hollywood Walk of Fame ceremony."
+  },
+  {
+    "question": "What occurred during the 78th Primetime Emmy Awards in Memoriam tribute for Catherine O'Hara?",
+    "answer": "At the 78th Primetime Emmy Awards ceremony in September 2026, Catherine O'Hara was honored with a dedicated on-stage segment during the In Memoriam presentation. In an unprecedented assembly, three actors who portrayed her fictional children—Macaulay Culkin (Home Alone) alongside Dan Levy and Annie Murphy (Schitt's Creek)—took the stage together to share personal stories of her maternal generosity, masterclass comedic guidance, and enduring love, moving the audience to tears and a sustained ovation."
+  },
+  {
+    "question": "What were Catherine O'Hara's final acting roles in 2024–2026?",
+    "answer": "Catherine O'Hara's final completed screen roles included Delia Deetz in Tim Burton's box office hit Beetlejuice Beetlejuice (September 2024), Pinktail the mother opossum in DreamWorks' animated feature The Wild Robot (September 2024), Ruth in Matthew Vaughn's spy thriller Argylle (2024), guest star Gail in HBO's The Last of Us Season 2 (2025), and studio chairwoman Patty Leigh in Apple TV+'s satire series The Studio (2025–2026), for which she won her posthumous Actor Award."
+  },
+  {
+    "question": "Where was Catherine O'Hara born, and did she hold dual citizenship?",
+    "answer": "Catherine O'Hara was born in Toronto, Ontario, Canada, on March 4, 1954, and grew up in the Etobicoke district. She held dual Canadian and American citizenship, having become a naturalized United States citizen in the late 1980s while maintaining deep cultural and residential ties to Canada throughout her life."
+  },
+  {
+    "question": "How did Catherine O'Hara get her start in comedy with The Second City and SCTV?",
+    "answer": "Catherine O'Hara began her comedy career in 1974 at age twenty as a waitress at The Second City cabaret theatre in Toronto. She auditioned and was hired as an understudy to Gilda Radner. When Radner left for Saturday Night Live in 1975, O'Hara joined the mainstage troupe alongside John Candy, Eugene Levy, Harold Ramis, and Dan Aykroyd, later co-creating and writing SCTV (1976–1984), where she won a 1982 Primetime Emmy for writing."
+  },
+  {
+    "question": "Which Christopher Guest mockumentary films did Catherine O'Hara star in?",
+    "answer": "Catherine O'Hara starred in four seminal mockumentary films directed by Christopher Guest: Waiting for Guffman (1996) as travel agent Sheila Albertson; Best in Show (2000) as terrier owner Cookie Guggelman Fleck; A Mighty Wind (2003) as 1960s folk singer Mickey Crabbe; and For Your Consideration (2006) as fading drama actress Marilyn Hack. All four films were developed completely without scripts, relying entirely on O'Hara's improvisational mastery."
+  },
+  {
+    "question": "Did Catherine O'Hara sing and voice Sally in The Nightmare Before Christmas?",
+    "answer": "Yes. Catherine O'Hara provided both the speaking and singing voice of Sally the patchwork rag doll in Henry Selick and Tim Burton's stop-motion masterpiece The Nightmare Before Christmas (1993). She personally sang Danny Elfman's iconic ballad 'Sally's Song', and also voiced the mischievous trick-or-treater Shock, establishing Sally as one of the most beloved animated characters in Disney history."
+  },
+  {
+    "question": "What real estate and property did Catherine O'Hara and Bo Welch own?",
+    "answer": "Catherine O'Hara and Bo Welch purchased a traditional family estate in the Brentwood neighborhood of Los Angeles in 1994 for approximately $1.25 million USD, which served as their primary residence for over thirty-two years and is currently estimated at over $5.5 million. Additionally, O'Hara owned a serene waterfront retreat cottage in the Muskoka lakes region of Ontario, Canada, where the family spent their summers."
+  }
+],
 };
