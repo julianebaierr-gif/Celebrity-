@@ -6614,8 +6614,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
   "heroImageCaption": "Kelly Osbourne attending Australia's Got Talent judging showcase. Photo: Eva Rinaldi / Wikimedia Commons (CC BY-SA 2.0).",
   "heroImageLicense": "CC BY-SA 2.0 / Wikimedia Commons",
   "contentImage": "/images/celebrities/kelly-osbourne-content.webp",
-  "contentImageCaption": "Kelly Osbourne arriving at the Sydney red carpet premiere. Photo: Eva Rinaldi / Wikimedia Commons (CC BY-SA 2.0).",
-  "contentImageLicense": "CC BY-SA 2.0 / Wikimedia Commons",
+  "contentImageCaption": "Kelly Osbourne attending the 2026 BRIT Awards at Co-op Live in Manchester. Photo: Gareth Cattermole / Getty Images (Editorial Coverage / 2026).",
+  "contentImageLicense": "Editorial / Fair Use",
   "backdropImage": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1920&q=80",
   "executiveSummary": "Kelly Michelle Lee Osbourne is an English television personality, singer, actress, author, and fashion designer who rose to international fame on MTV's Emmy-winning reality series The Osbournes (2002–2005). As the daughter of heavy metal pioneer Ozzy Osbourne and entertainment matriarch Sharon Osbourne, Kelly carved out a distinct cultural identity across music—releasing the UK #1 single 'Changes' with her father—and television as the acid-witted co-host of E!'s Fashion Police (2010–2015) alongside Joan Rivers. Over two decades, Osbourne has maintained public transparency regarding addiction recovery, her 85-pound weight loss via gastric sleeve surgery, and modern motherhood with her son Sidney (born November 2022). In 2026, her net worth is estimated at $16.0 Million USD. Following her March 2026 separation from fiancé Sid Wilson, Osbourne remains a prominent voice across pop culture through The Osbournes Podcast, television commentary, and LGBTQ+ philanthropy.",
   "quickFacts": {
