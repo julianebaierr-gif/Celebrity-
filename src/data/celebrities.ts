@@ -6903,19 +6903,19 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "label": "Global Streaming Reach",
-        "value": "300M+ Cumulative Streaming Views",
+        "value": "300M+ Cumulative Views",
         "benchmark": "Euphoria (HBO Max) & The Kissing Booth (Netflix)",
         "verifiedSource": "Nielsen Media Research & HBO / Warner Bros. Discovery"
       },
       {
         "label": "Fashion Ambassadorship Value",
-        "value": "$18.4M+ Annual Earned Media Value (EMV)",
+        "value": "$18.4M+ Annual EMV",
         "benchmark": "Bottega Veneta Global Ambassador & TAG Heuer",
         "verifiedSource": "Launchmetrics Fashion Intelligence 2025/2026"
       },
       {
         "label": "BAFTA & International Honors",
-        "value": "2x BAFTA Nominee & AACTA International Winner",
+        "value": "2x BAFTA & AACTA Nominee",
         "benchmark": "Best Supporting Actor (Saltburn) & Rising Star Nominee",
         "verifiedSource": "British Academy of Film and Television Arts (BAFTA)"
       }
@@ -7149,19 +7149,19 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       },
       {
         "label": "Academy Award & Triple Crown Honors",
-        "value": "Oscar, BAFTA, Golden Globe & Emmy Winner",
+        "value": "Oscar, BAFTA & Emmy Winner",
         "benchmark": "Best Supporting Actress for Les Misérables (2012)",
         "verifiedSource": "Academy of Motion Picture Arts and Sciences (AMPAS)"
       },
       {
         "label": "Global Luxury Brand Valuation",
-        "value": "$24.5M+ Annual Earned Media Value (EMV)",
+        "value": "$24.5M+ Annual EMV",
         "benchmark": "Global Ambassador for Bulgari High Jewelry & Versace",
         "verifiedSource": "Launchmetrics Luxury Market Intelligence 2025/2026"
       },
       {
         "label": "Streaming & Digital Impact",
-        "value": "50M+ Worldwide Viewers in Launch Month",
+        "value": "50M+ Viewers Launch Month",
         "benchmark": "The Idea of You (Amazon Prime Video Record)",
         "verifiedSource": "Amazon MGM Studios & Nielsen Streaming Ratings"
       }
