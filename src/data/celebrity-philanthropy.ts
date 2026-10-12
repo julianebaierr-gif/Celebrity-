@@ -672,5 +672,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       "verifiedContribution": "Advocate & Campaign Supporter",
       "description": "Utilizes his public platform to amplify suicide prevention lifelines and mental wellness resources for vulnerable young people."
     }
+  ],
+  "anne-hathaway": [
+    {
+      "organizationOrCause": "UN Women",
+      "focusArea": "Paid Parental Leave Equality & Workplace Gender Justice",
+      "verifiedContribution": "Goodwill Ambassador (Appointed 2016)",
+      "description": "Serves as an international advocate for gender equality, delivering speeches before the United Nations General Assembly and lobbying world governments for paid parental leave policies for all parents."
+    },
+    {
+      "organizationOrCause": "The Lollipop Theater Network",
+      "focusArea": "Pediatric Hospital Entertainment & Children's Healing",
+      "verifiedContribution": "Advisory Board Member & Frequent Hospital Visitor",
+      "description": "Brings first-run studio films and in-person creative visits to children confined to pediatric hospitals nationwide battling chronic and life-threatening illnesses."
+    },
+    {
+      "organizationOrCause": "Human Rights Campaign (HRC)",
+      "focusArea": "LGBTQ+ Equality, Transgender Rights & Civil Protections",
+      "verifiedContribution": "National Equality Award Honoree & Philanthropic Donor",
+      "description": "Awarded the HRC National Equality Award in 2018; donated proceeds from her wedding photographs to marriage equality groups and continuously defends LGBTQ+ civil protections."
+    },
+    {
+      "organizationOrCause": "St. Jude Children's Research Hospital",
+      "focusArea": "Pediatric Cancer Research & Free Family Care",
+      "verifiedContribution": "Sustained Celebrity Contributor",
+      "description": "Participates in fundraising campaigns supporting zero-cost cancer treatment, clinical research, and family support infrastructure."
+    }
   ]
 };

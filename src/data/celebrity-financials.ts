@@ -3339,5 +3339,131 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
         "milestoneDescription": "Certified valuation driven by Frankenstein, Wuthering Heights, luxury equity, and real estate appreciation."
       }
     ]
+  },
+  "anne-hathaway": {
+    "salaryMilestones": [
+      {
+        "project": "The Princess Diaries",
+        "year": 2001,
+        "salary": "$400,000 USD",
+        "boxOfficeOrBudget": "Walt Disney Pictures ($165M Gross)",
+        "notes": "Initial breakthrough studio contract launching her international career."
+      },
+      {
+        "project": "The Devil Wears Prada",
+        "year": 2006,
+        "salary": "$1.5 Million USD",
+        "boxOfficeOrBudget": "20th Century Fox ($326M Gross)",
+        "notes": "Mainstream commercial payday co-starring opposite Meryl Streep."
+      },
+      {
+        "project": "The Dark Knight Rises",
+        "year": 2012,
+        "salary": "$7.5 Million USD",
+        "boxOfficeOrBudget": "Warner Bros. Pictures ($1.085B Gross)",
+        "notes": "Blockbuster salary portraying Selina Kyle / Catwoman for Christopher Nolan."
+      },
+      {
+        "project": "Les Misérables",
+        "year": 2012,
+        "salary": "$10.0 Million USD",
+        "boxOfficeOrBudget": "Universal Pictures ($442M Gross)",
+        "notes": "Lead compensation and box office bonus participation for her Oscar-winning role."
+      },
+      {
+        "project": "The Idea of You",
+        "year": 2024,
+        "salary": "$12.0 Million USD",
+        "boxOfficeOrBudget": "Amazon MGM Studios Streaming Release",
+        "notes": "Combined lead acting fee and executive producer profit participation."
+      },
+      {
+        "project": "The Devil Wears Prada 2",
+        "year": 2026,
+        "salary": "$15.0 Million USD",
+        "boxOfficeOrBudget": "20th Century Studios Theatrical",
+        "notes": "Franchise-high compensation package returning as Andy Sachs alongside profit participation."
+      },
+      {
+        "project": "The Odyssey",
+        "year": 2026,
+        "salary": "$16.0 Million USD",
+        "boxOfficeOrBudget": "Warner Bros. Pictures ($1B+ Worldwide)",
+        "notes": "Top-tier salary starring as Penelope in Christopher Nolan's epic opposite Matt Damon."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Upper West Side Historic Co-Op Penthouse",
+        "location": "New York City, New York, United States",
+        "purchasedYear": "2016",
+        "purchasePrice": "$2.55 Million USD",
+        "currentEstimatedValue": "$3.8 Million USD",
+        "description": "Charming top-floor pre-war penthouse near Central Park featuring private terrace gardens and exposed brick details."
+      },
+      {
+        "property": "Laurel Canyon Mid-Century Swiss-Chalet Estate",
+        "location": "Los Angeles, California, United States",
+        "purchasedYear": "2019",
+        "purchasePrice": "$5.3 Million USD",
+        "currentEstimatedValue": "$7.2 Million USD",
+        "description": "Secluded historic compound in Laurel Canyon featuring rustic timber architecture, detached studio spaces, and private gardens."
+      },
+      {
+        "property": "Westport Coastal Country Compound",
+        "location": "Westport, Connecticut, United States",
+        "purchasedYear": "2017",
+        "purchasePrice": "$2.8 Million USD",
+        "currentEstimatedValue": "$4.1 Million USD",
+        "description": "Historic 1920s Colonial estate serving as a family retreat with extensive lawns and proximity to Long Island Sound."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "Somewhere Pictures (Production Company)",
+        "role": "Founder & Principal Producer",
+        "valuationOrRevenue": "Multi-Million Production Slate",
+        "description": "Independent production company developing female-led adaptations, including The Idea of You and upcoming features."
+      },
+      {
+        "name": "Bulgari High Jewelry Global Ambassadorship",
+        "role": "Global Brand Ambassador",
+        "valuationOrRevenue": "$4.0M+ Annual Endorsement Contract",
+        "description": "Headlines international High Jewelry, Mediterranea, and Serpenti campaigns alongside top global icons."
+      },
+      {
+        "name": "Versace Global House Ambassadorship",
+        "role": "Global Brand Ambassador",
+        "valuationOrRevenue": "$3.0M+ Multi-Year Endorsement Deal",
+        "description": "Serves as the global face of the Versace Icons collection under creative director Donatella Versace."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2005",
+        "estimatedNetWorth": "$5.0 Million USD",
+        "milestoneDescription": "Early Disney residuals, Ella Enchanted, and Brokeback Mountain."
+      },
+      {
+        "period": "2010",
+        "estimatedNetWorth": "$22.0 Million USD",
+        "milestoneDescription": "The Devil Wears Prada, Get Smart, and Tim Burton's Alice in Wonderland."
+      },
+      {
+        "period": "2015",
+        "estimatedNetWorth": "$45.0 Million USD",
+        "milestoneDescription": "Les Misérables Oscar compensation, The Dark Knight Rises, and Interstellar."
+      },
+      {
+        "period": "2020",
+        "estimatedNetWorth": "$60.0 Million USD",
+        "milestoneDescription": "The Intern, Ocean's 8 box office points, and Bulgari High Jewelry ambassadorship."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$80.0 Million USD",
+        "milestoneDescription": "Certified valuation propelled by The Odyssey, The Devil Wears Prada 2, Versace equity, and luxury property appreciation."
+      }
+    ]
   }
 };

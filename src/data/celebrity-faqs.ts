@@ -1308,5 +1308,95 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "question": "Why is Jacob Elordi trending in 2026?",
       "answer": "In 2026, Jacob Elordi is trending due to anticipation for Guillermo del Toro's 'Frankenstein', his high-profile casting as Heathcliff opposite Margot Robbie in Emerald Fennell's 'Wuthering Heights', production updates on 'Euphoria' Season 3, and ongoing fashion coverage of his Bottega Veneta campaigns."
     }
+  ],
+  "anne-hathaway": [
+    {
+      "question": "How old is Anne Hathaway in 2026?",
+      "answer": "Anne Hathaway is 43 years old in 2026. She was born on November 12, 1982, in the Brooklyn borough of New York City."
+    },
+    {
+      "question": "What is Anne Hathaway's net worth in 2026?",
+      "answer": "Anne Hathaway's verified net worth is estimated at $80.0 Million USD (Forbes & Industry Filings) in late 2026. Her wealth stems from over twenty-five years of blockbuster movie compensation, executive producer profit points, multi-million luxury fashion contracts with Bulgari and Versace, and prime Manhattan and California real estate."
+    },
+    {
+      "question": "How tall is Anne Hathaway?",
+      "answer": "Anne Hathaway stands 5 feet 8 inches tall (173 cm), maintaining an elegant, statuesque physical presence on red carpets and screen productions."
+    },
+    {
+      "question": "Who is Anne Hathaway's husband?",
+      "answer": "Anne Hathaway is married to Adam Shulman, an American actor, film producer, and jewelry designer (co-founder of James Banks Design). The couple began dating in 2008 and married in Big Sur, California, on September 29, 2012."
+    },
+    {
+      "question": "Does Anne Hathaway have children?",
+      "answer": "Yes, Anne Hathaway has two sons with her husband Adam Shulman: Jonathan Rosebanks Shulman (born in March 2016) and Jack Shulman (born in November 2019). She has openly discussed her personal fertility journey to support mothers facing similar obstacles."
+    },
+    {
+      "question": "Is Anne Hathaway pregnant in 2026?",
+      "answer": "Anne Hathaway has addressed public pregnancy speculation with humor and privacy, having proudly given birth to two sons (Jonathan in 2016 and Jack in 2019). While internet rumors frequently circulate during high-fashion red carpet appearances, any official family announcements are made directly through her verified channels."
+    },
+    {
+      "question": "What movies made Anne Hathaway famous?",
+      "answer": "Anne Hathaway achieved breakthrough global fame as Mia Thermopolis in Disney's 'The Princess Diaries' (2001). She cemented her A-list standing in 'Brokeback Mountain' (2005), 'The Devil Wears Prada' (2006), 'Rachel Getting Married' (2008), 'The Dark Knight Rises' (2012), 'Les Misérables' (2012), and 'Interstellar' (2014)."
+    },
+    {
+      "question": "Did Anne Hathaway win an Academy Award?",
+      "answer": "Yes, Anne Hathaway won the Academy Award for Best Supporting Actress in 2013 for her performance as Fantine in Tom Hooper's musical adaptation of 'Les Misérables' (2012). She was previously nominated for Best Actress in 2009 for 'Rachel Getting Married'."
+    },
+    {
+      "question": "What is Anne Hathaway's role in Christopher Nolan's The Odyssey?",
+      "answer": "In Christopher Nolan's 2026 epic adaptation of Homer's 'The Odyssey', Anne Hathaway stars as Penelope opposite Matt Damon as Odysseus, marking her third major collaboration with Nolan after 'The Dark Knight Rises' (2012) and 'Interstellar' (2014)."
+    },
+    {
+      "question": "Is Anne Hathaway returning for The Devil Wears Prada 2?",
+      "answer": "Yes, Anne Hathaway reprises her beloved role as Andy Sachs in 20th Century Studios' 'The Devil Wears Prada 2' (2026), reuniting on screen with Meryl Streep (Miranda Priestly), Emily Blunt, and Stanley Tucci twenty years after the original film."
+    },
+    {
+      "question": "Is The Princess Diaries 3 happening with Anne Hathaway?",
+      "answer": "Yes, Disney officially confirmed 'The Princess Diaries 3' with Anne Hathaway producing and returning as Mia Thermopolis, now Queen of Genovia, continuing Garry Marshall's iconic franchise."
+    },
+    {
+      "question": "What role did Anne Hathaway play in The Dark Knight Rises?",
+      "answer": "Anne Hathaway portrayed Selina Kyle / Catwoman in Christopher Nolan's 2012 Batman blockbuster 'The Dark Knight Rises', performing her own motorcycle stunts and martial arts choreography in a performance that grossed over $1.085 Billion worldwide."
+    },
+    {
+      "question": "What role did Anne Hathaway play in The Idea of You?",
+      "answer": "In the 2024 romantic hit 'The Idea of You', Anne Hathaway starred as Solène Marchand, a forty-year-old art gallery owner who falls in love with young boy band star Hayes Campbell (Nicholas Galitzine). Hathaway also executive produced the film, which drew over 50 million viewers on Amazon Prime Video."
+    },
+    {
+      "question": "What was the 'Hathahate' era, and how did Anne Hathaway overcome it?",
+      "answer": "'Hathahate' refers to an intense 2013 online media backlash following her Oscar win, where critics scrutinized her earnest, professional personality. Hathaway stepped away from public scrutiny, focused on family, and delivered box office hits like 'The Intern' and 'Ocean's 8'. Modern cultural critics have since condemned the backlash as gender-biased, sparking widespread admiration for her resilience."
+    },
+    {
+      "question": "Is Anne Hathaway related to William Shakespeare's wife?",
+      "answer": "No, Anne Hathaway is not related to William Shakespeare's wife, though they share the identical name. Her parents deliberately named her Anne in homage to Shakespeare's wife, Anne Hathaway (1556–1623)."
+    },
+    {
+      "question": "What luxury brands does Anne Hathaway represent?",
+      "answer": "Anne Hathaway is a Global Ambassador for Italian high jewelry house Bulgari, headlining campaigns for their Serpenti and Mediterranea collections. She is also a Global House Ambassador for Versace, fronting the Versace Icons collection under Donatella Versace."
+    },
+    {
+      "question": "What real estate properties does Anne Hathaway own?",
+      "answer": "Anne Hathaway owns a $3.8 Million USD pre-war penthouse on Manhattan's Upper West Side, a $7.2 Million USD Swiss-chalet compound in Laurel Canyon, Los Angeles, and a historic $4.1 Million USD country estate in Westport, Connecticut."
+    },
+    {
+      "question": "Did Anne Hathaway date Raffaello Follieri?",
+      "answer": "Yes, Hathaway dated Italian property developer Raffaello Follieri from 2004 to 2008. The relationship ended when Follieri was arrested by federal authorities for wire fraud. Hathaway cooperated fully with the FBI and was completely cleared of any involvement or knowledge of his offenses."
+    },
+    {
+      "question": "Does Anne Hathaway drink alcohol?",
+      "answer": "No, Anne Hathaway decided to stop drinking alcohol in late 2018, explaining that hangovers prevented her from being fully attentive and energetic for her young children on school mornings. She committed to remaining alcohol-free until her sons are adults."
+    },
+    {
+      "question": "Does Anne Hathaway sing in her movies?",
+      "answer": "Yes, Anne Hathaway is a trained soprano who performed her own live vocals as Fantine in 'Les Misérables' (including 'I Dreamed a Dream'), in 'Ella Enchanted' (singing 'Somebody to Love'), and in David Lowery's 2026 pop-drama 'Mother Mary'."
+    },
+    {
+      "question": "What causes does Anne Hathaway support through charity?",
+      "answer": "Anne Hathaway is a UN Women Goodwill Ambassador championing paid parental leave and gender equality in the workplace. She is an advisory board member of The Lollipop Theater Network, an avid supporter of St. Jude Children's Research Hospital, and an honored advocate for the Human Rights Campaign."
+    },
+    {
+      "question": "Why is Anne Hathaway trending in 2026?",
+      "answer": "In 2026, Anne Hathaway is trending due to 'The Year of Anne Hathaway'—a landmark five-film theatrical run highlighted by Christopher Nolan's 'The Odyssey', 'The Devil Wears Prada 2', A24's 'Mother Mary', Colleen Hoover's 'Verity', and news regarding 'The Princess Diaries 3'."
+    }
   ]
 };

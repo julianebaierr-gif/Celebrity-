@@ -426,5 +426,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       "resolutionOrOutcome": "In an interview with GQ, Elordi offered an honest critique of commercial teen franchises, stating his preference for challenging cinematic roles over formulaic material while acknowledging the film's role in his early career.",
       "impactAnalysis": "His candid perspective was widely respected by film directors, accelerating his successful transition into serious auteur cinema alongside Sofia Coppola and Guillermo del Toro."
     }
+  ],
+  "anne-hathaway": [
+    {
+      "incident": "The 2013 'Hathahate' Online Backlash & Cultural Vindication",
+      "year": "2013–2024",
+      "resolutionOrOutcome": "Following her 2013 Oscar win for Les Misérables, Hathaway faced an irrational wave of internet hostility questioning her earnestness. She responded with professional restraint, stepping back from social media, focusing on family, and letting superior performances in The Intern and Ocean's 8 speak for themselves.",
+      "impactAnalysis": "Modern culture and film critics completely flipped their perspective by 2024–2026, condemning the original backlash as gender-biased and elevating Hathaway as a revered model of artistic dignity and career longevity."
+    },
+    {
+      "incident": "Raffaello Follieri Fraud Scandal & Complete Exoneration",
+      "year": "2008",
+      "resolutionOrOutcome": "When her then-boyfriend Raffaello Follieri was arrested by the FBI for wire fraud and conspiracy in June 2008, federal investigators seized items from their shared residence. Hathaway cooperated transparently with federal prosecutors and was cleared of any wrongdoing or knowledge of his criminal conduct.",
+      "impactAnalysis": "Demonstrated extraordinary resilience during intense media scrutiny, releasing Rachel Getting Married months later and earning her first Oscar nomination, proving her personal integrity and professional focus."
+    }
   ]
 };

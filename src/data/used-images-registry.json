@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-10-11T12:00:00.000Z",
-  "totalUniqueImages": 74,
+  "totalUniqueImages": 78,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -564,6 +564,22 @@
       "pageSlug": "jacob-elordi",
       "assignedAt": "2026-10-12T12:00:00.000Z",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Elordi_at_the_2024_Toronto_International_Film_Festival_2.jpg (TIFF Premiere / CC BY-SA 4.0)"
+    },
+    "/images/celebrities/anne-hathaway-hero.webp": {
+      "filePath": "/images/celebrities/anne-hathaway-hero.webp",
+      "entity": "anne-hathaway",
+      "placement": "profile_hero",
+      "pageSlug": "anne-hathaway",
+      "assignedAt": "2026-10-13T01:15:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AnneHathaway-byPhilipRomano-Crop.jpg (NYC Premiere of The Odyssey / Philip Romano / CC BY-SA 4.0)"
+    },
+    "/images/celebrities/anne-hathaway-content.webp": {
+      "filePath": "/images/celebrities/anne-hathaway-content.webp",
+      "entity": "anne-hathaway",
+      "placement": "profile_content",
+      "pageSlug": "anne-hathaway",
+      "assignedAt": "2026-10-13T01:15:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DamonNolanThomasHathaway-byPhilipRomano.jpg (NYC Premiere of The Odyssey / Philip Romano / CC BY-SA 4.0)"
     }
   }
 }

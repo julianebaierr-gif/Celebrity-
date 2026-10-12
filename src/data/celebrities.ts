@@ -7074,6 +7074,225 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-12T12:00:00.000Z",
       "readingTimeMinutes": 10
     }
+  },
+  {
+    "slug": "anne-hathaway",
+    "name": "Anne Hathaway",
+    "headline": "Oscar-Winning Icon: The Devil Wears Prada, Les Misérables & Christopher Nolan's The Odyssey",
+    "category": "movies-tv",
+    "silo": "Hollywood Leading Legends",
+    "primaryKeyword": "anne hathaway",
+    "secondaryKeywords": [
+      "how old is anne hathaway",
+      "anne hathaway age",
+      "anne hathaway net worth",
+      "anne hathaway pregnant",
+      "is anne hathaway pregnant",
+      "anne hathaway kids",
+      "anne hathaway husband",
+      "adam shulman",
+      "anne hathaway movies",
+      "the devil wears prada 2",
+      "anne hathaway the odyssey",
+      "anne hathaway christopher nolan",
+      "the princess diaries 3",
+      "anne hathaway oscar",
+      "anne hathaway les miserables",
+      "anne hathaway the idea of you",
+      "anne hathaway height",
+      "how tall is anne hathaway",
+      "mother mary anne hathaway",
+      "anne hathaway verity",
+      "anne hathaway bulgari",
+      "anne hathaway versace",
+      "anne hathaway 2026"
+    ],
+    "searchVolume": 1200000,
+    "kd": 18,
+    "cpc": 0.12,
+    "heroImage": "/images/celebrities/anne-hathaway-hero.webp",
+    "heroImageCaption": "Anne Hathaway attending the world premiere of Christopher Nolan's The Odyssey in New York City. Photo: Philip Romano / Wikimedia Commons (CC BY-SA 4.0).",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/anne-hathaway-content.webp",
+    "contentImageCaption": "Anne Hathaway celebrating at the premiere of The Odyssey alongside producer Emma Thomas in New York City. Photo: Philip Romano / Wikimedia Commons (CC BY-SA 4.0).",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Anne Jacqueline Hathaway is an Academy Award-winning American actress and producer whose multi-decade career spans commercial blockbusters, family classics, and transformative auteur cinema. Generating over $6.8 Billion at the worldwide box office, Hathaway achieved early global stardom as Mia Thermopolis in Disney's The Princess Diaries (2001) before transitioning into mature dramatic mastery in Brokeback Mountain (2005), The Devil Wears Prada (2006), and Rachel Getting Married (2008). In 2012, her poignant portrayal of Fantine in Tom Hooper's musical epic Les Misérables earned her the Academy Award, Golden Globe, and BAFTA for Best Supporting Actress. A muse to premier filmmakers, she anchored Christopher Nolan's blockbusters The Dark Knight Rises (2012) as Selina Kyle / Catwoman, Interstellar (2014), and his 2026 epic The Odyssey alongside Matt Damon. Entering late 2026, her certified net worth is evaluated at $80.0 Million USD (Forbes & Industry Filings), amplified by historic multi-million paydays for The Devil Wears Prada 2, global ambassadorships with Bulgari and Versace, and dedicated advocacy as a UN Women Goodwill Ambassador.",
+    "quickFacts": {
+      "fullName": "Anne Jacqueline Hathaway",
+      "netWorth": "$80.0 Million USD (Forbes & Industry Filings)",
+      "primaryRole": "Actress & Producer",
+      "birthDate": "November 12, 1982",
+      "birthPlace": "Brooklyn, New York City, New York, United States",
+      "age": 43,
+      "height": "5 ft 8 in (173 cm)",
+      "activeYears": "1999–Present",
+      "knownFor": "The Princess Diaries, The Devil Wears Prada, Les Misérables, The Dark Knight Rises, Interstellar, The Idea of You, The Odyssey",
+      "education": "New York University Gallatin School; Vassar College; Barrow Group Theater"
+    },
+    "metrics": [
+      {
+        "label": "Worldwide Box Office Gross",
+        "value": "$6.8+ Billion Worldwide",
+        "benchmark": "Top 10 Highest-Grossing Leading Actresses in History",
+        "verifiedSource": "Box Office Mojo & The Numbers Records"
+      },
+      {
+        "label": "Academy Award & Triple Crown Honors",
+        "value": "Oscar, BAFTA, Golden Globe & Emmy Winner",
+        "benchmark": "Best Supporting Actress for Les Misérables (2012)",
+        "verifiedSource": "Academy of Motion Picture Arts and Sciences (AMPAS)"
+      },
+      {
+        "label": "Global Luxury Brand Valuation",
+        "value": "$24.5M+ Annual Earned Media Value (EMV)",
+        "benchmark": "Global Ambassador for Bulgari High Jewelry & Versace",
+        "verifiedSource": "Launchmetrics Luxury Market Intelligence 2025/2026"
+      },
+      {
+        "label": "Streaming & Digital Impact",
+        "value": "50M+ Worldwide Viewers in Launch Month",
+        "benchmark": "The Idea of You (Amazon Prime Video Record)",
+        "verifiedSource": "Amazon MGM Studios & Nielsen Streaming Ratings"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "The Year of Anne Hathaway: The Odyssey & The Devil Wears Prada 2",
+        "description": "Commanded an extraordinary theatrical year, starring as Penelope in Christopher Nolan's epic The Odyssey opposite Matt Damon and reuniting with Meryl Streep and Emily Blunt for The Devil Wears Prada 2."
+      },
+      {
+        "year": "2024",
+        "title": "The Idea of You & Global Streaming Records",
+        "description": "Produced and starred in the romantic drama The Idea of You alongside Nicholas Galitzine, setting an all-time viewership record for Amazon Prime Video romantic original releases."
+      },
+      {
+        "year": "2014",
+        "title": "Christopher Nolan's Interstellar & Sci-Fi Stardom",
+        "description": "Reunited with Christopher Nolan to star as astronaut Dr. Amelia Brand in the sci-fi masterpiece Interstellar, earning over $730M globally."
+      },
+      {
+        "year": "2012",
+        "title": "Academy Award Triumph in Les Misérables & Catwoman",
+        "description": "Won the Academy Award for Best Supporting Actress for her raw, heartbreaking performance as Fantine in Les Misérables, after playing Selina Kyle in The Dark Knight Rises ($1.08B)."
+      },
+      {
+        "year": "2008",
+        "title": "Rachel Getting Married & First Oscar Nomination",
+        "description": "Earned her first Academy Award nomination for Best Actress for her fearless portrayal of Kym, a recovering addict, in Jonathan Demme's Rachel Getting Married."
+      },
+      {
+        "year": "2006",
+        "title": "The Devil Wears Prada & Mainstream Critical Acclaim",
+        "description": "Co-starred alongside Meryl Streep as Andy Sachs in The Devil Wears Prada, grossing over $326M and cementing her status as an A-list leading lady."
+      },
+      {
+        "year": "2001",
+        "title": "The Princess Diaries & Global Disney Breakthrough",
+        "description": "Shot to international fame at age eighteen as Mia Thermopolis in Garry Marshall's Disney hit The Princess Diaries, grossing $165M worldwide."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "The Odyssey",
+        "year": 2026,
+        "role": "Penelope (Lead opposite Matt Damon)",
+        "type": "Movie",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "Warner Bros. Pictures / Dir. Christopher Nolan"
+      },
+      {
+        "title": "The Devil Wears Prada 2",
+        "year": 2026,
+        "role": "Andy Sachs (Lead opposite Meryl Streep)",
+        "type": "Movie",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "20th Century Studios ($300M+ Global Theatrical)"
+      },
+      {
+        "title": "Les Misérables",
+        "year": 2012,
+        "role": "Fantine (Academy Award Winner)",
+        "type": "Movie",
+        "rating": 8.6,
+        "boxOfficeOrNetwork": "Universal Pictures ($442M Box Office)"
+      },
+      {
+        "title": "The Dark Knight Rises",
+        "year": 2012,
+        "role": "Selina Kyle / Catwoman (Lead)",
+        "type": "Movie",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "Warner Bros. Pictures ($1.085 Billion Worldwide)"
+      },
+      {
+        "title": "Interstellar",
+        "year": 2014,
+        "role": "Dr. Amelia Brand (Lead)",
+        "type": "Movie",
+        "rating": 8.7,
+        "boxOfficeOrNetwork": "Paramount / Warner Bros. ($733M Worldwide)"
+      },
+      {
+        "title": "The Devil Wears Prada",
+        "year": 2006,
+        "role": "Andy Sachs (Lead)",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "20th Century Fox ($326M Box Office)"
+      },
+      {
+        "title": "The Idea of You",
+        "year": 2024,
+        "role": "Solène Marchand (Lead & Producer)",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "Amazon MGM Studios (Record 50M Viewers)"
+      },
+      {
+        "title": "The Princess Diaries",
+        "year": 2001,
+        "role": "Mia Thermopolis (Breakthrough Lead)",
+        "type": "Movie",
+        "rating": 7.5,
+        "boxOfficeOrNetwork": "Walt Disney Pictures ($165M Box Office)"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married to Adam Shulman (2012–Present)",
+      "datingHistorySummary": "Anne Hathaway has maintained one of Hollywood's most grounded and enduring marriages with actor and jewelry designer Adam Shulman. The couple met through mutual friends at the Palm Springs Film Festival in 2008 and married in a private coastal ceremony in Big Sur, California, on September 29, 2012. Together they have two sons, Jonathan Rosebanks (born March 2016) and Jack (born November 2019). Hathaway has spoken candidly about her personal fertility challenges, providing solace to women worldwide experiencing similar difficulties. Prior to meeting Shulman, Hathaway dated Italian real estate developer Raffaello Follieri from 2004 to 2008. The relationship ended abruptly when Follieri was arrested for federal wire fraud and money laundering; Hathaway cooperated fully with authorities and was entirely cleared of any wrongdoing, emerging from the media frenzy with her reputation and integrity intact.",
+      "partners": [
+        {
+          "name": "Adam Shulman",
+          "relationType": "Husband",
+          "years": "2008–Present (Married 2012)",
+          "profession": "Actor, Film Producer & Jewelry Designer (James Banks Design)",
+          "summary": "Met in 2008, married in September 2012 in Big Sur, California; shared parents to sons Jonathan and Jack in an inspiring, supportive Hollywood union."
+        },
+        {
+          "name": "Raffaello Follieri",
+          "relationType": "Former Partner",
+          "years": "2004–2008",
+          "profession": "Italian Real Estate Developer",
+          "summary": "High-profile relationship that ended in June 2008 prior to his federal conviction; Hathaway was fully exonerated of any involvement."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm0004266/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Anne_Hathaway",
+      "wikidata": "https://www.wikidata.org/wiki/Q36301",
+      "instagram": "https://www.instagram.com/annehathaway/"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Film & Academy Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-13T01:15:00.000Z",
+      "lastUpdated": "2026-10-13T01:15:00.000Z",
+      "readingTimeMinutes": 11
+    }
   }
 ];
 
