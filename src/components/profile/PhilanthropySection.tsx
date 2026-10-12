@@ -1,6 +1,6 @@
 import React from "react";
 import { PhilanthropyItem } from "@/data/celebrities";
-import { HeartHandshake } from "lucide-react";
+import { HeartHandshake, CheckCircle2 } from "lucide-react";
 
 interface PhilanthropySectionProps {
   philanthropy?: PhilanthropyItem[];
@@ -25,31 +25,38 @@ export default function PhilanthropySection({
         A record of {celebrityName}’s non-profit foundations, philanthropic contributions, and humanitarian initiatives substantiated by public disclosures and IRS Form 990 filings.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch">
         {philanthropy.map((item, idx) => (
           <div
             key={idx}
-            className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs hover:border-slate-300 transition-all flex flex-col justify-between"
+            className="group rounded-2xl border border-slate-200/90 bg-white p-5 sm:p-6 shadow-xs hover:border-rose-300 hover:shadow-md transition-all duration-300 flex flex-col justify-between"
           >
             <div>
               <div className="flex items-start justify-between gap-3 mb-2">
-                <h3 className="font-bold text-slate-900 text-base leading-snug">
+                <h3 className="font-bold text-slate-900 text-base tracking-tight leading-snug group-hover:text-rose-950 transition-colors">
                   {item.organizationOrCause}
                 </h3>
                 {item.verifiedContribution && (
-                  <span className="shrink-0 px-2.5 py-0.5 rounded-full bg-rose-50 text-rose-700 font-mono font-bold text-[11px] border border-rose-200">
+                  <span className="shrink-0 inline-flex items-center px-2.5 py-1 rounded-lg bg-rose-50 text-rose-700 font-mono font-bold text-xs border border-rose-200/80 shadow-2xs">
                     {item.verifiedContribution}
                   </span>
                 )}
               </div>
               <div className="mb-3">
-                <span className="inline-block px-2 py-0.5 rounded bg-slate-100 text-slate-600 text-[11px] font-semibold uppercase tracking-wider">
+                <span className="inline-flex items-center px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-[11px] font-semibold uppercase tracking-wider">
                   {item.focusArea}
                 </span>
               </div>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 {item.description}
               </p>
+            </div>
+
+            <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+              <span className="flex items-center gap-1.5 font-medium">
+                <CheckCircle2 className="h-3.5 w-3.5 text-rose-600 shrink-0" aria-hidden="true" />
+                <span>IRS Form 990 &amp; Public Disclosures Verified</span>
+              </span>
             </div>
           </div>
         ))}
