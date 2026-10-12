@@ -1701,5 +1701,56 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     ],
     "keyTakeaway": "Holding a verified $16M net worth in 2026, Osbourne embraces single life with son Sidney, co-hosts the hit Osbournes Podcast, and retains lasting pop culture prominence."
   }
-]
+],
+  "jacob-elordi": [
+    {
+      "heading": "Brisbane Childhood, Australian Theatrical Roots & Dramatic Ambition",
+      "paragraphs": [
+        "Jacob Nathaniel Elordi was born on June 26, 1997, in Brisbane, Queensland, Australia, to John and Melissa Elordi. Raised in a warm, close-knit household alongside three older sisters—Jalynn, Isabella, and Kathleen—Elordi grew up with Basque heritage from his father's ancestral lineage, instilling a proud cultural background that remained a steadfast grounding force throughout his rapid rise to international prominence. During his formative schooling years in Brisbane at St Joseph's Nudgee College and later at St Kevin's College in Melbourne, Elordi was an avid competitive athlete, excelling in rugby and rowing. However, a severe lumbar spine injury sustained during a contact rugby match at age fourteen abruptly halted his athletic ambitions. This sudden physical turning point redirected his boundless focus toward the theatrical arts, where he discovered a deeply transformative creative outlet within school play stagings.",
+        "Immersing himself in classic twentieth-century dramatic literature, Elordi drew profound artistic inspiration from legendary screen performers including Marlon Brando, Heath Ledger, Montgomery Clift, and Daniel Day-Lewis. He spent hours reading plays by Tennessee Williams and William Shakespeare, analyzing psychological complexities and rehearsing dramatic monologues late into the night. Recognizing his rare combination of dramatic intensity, vocal resonance, and natural physical height, theatrical mentors strongly encouraged him to pursue professional screen training. Before securing speaking roles, Elordi gained invaluable industry perspective as an uncredited extra on the Queensland film set of 'Pirates of the Caribbean: Dead Men Tell No Tales' in 2015, observing large-scale Hollywood production logistics firsthand and firmly deciding to dedicate his professional life to the craft of cinema.",
+        "Upon graduating secondary school, Elordi began auditioning across Melbourne and Sydney, appearing in independent student shorts including 'Carpe Liam' (2015) and 'Max & Iosefa' (2016). His unrelenting dedication to classical character preparation set him apart from casual aspiring performers, earning him the attention of international casting agents searching for Australia's next generation of serious dramatic talent."
+      ],
+      "keyTakeaway": "Raised in Brisbane with Basque roots, Elordi redirected his focus from rugby to classical drama following a teenage injury, studying legendary actors before pursuing professional auditions."
+    },
+    {
+      "heading": "The Kissing Booth Phenomenon & Overcoming The Teen Heartthrob Mould",
+      "paragraphs": [
+        "In 2017, after traveling to Los Angeles for high-stakes casting calls while staying on friends' couches and occasionally sleeping in his parked vehicle when funds ran low, Elordi secured his commercial breakthrough as Noah Flynn in the Netflix romantic comedy 'The Kissing Booth'. Filmed primarily in Cape Town, South Africa, opposite Joey King, the film was released in May 2018 and exploded into an unprecedented international streaming sensation. Tens of millions of viewers streamed the teen romance within its initial weeks of release, propelling Elordi from an unknown Australian newcomer into an overnight worldwide heartthrob with millions of social media followers accumulating in matter of days.",
+        "Despite the commercial success of the film and its two franchise sequels filmed back-to-back in 2019 and released in 2020 and 2021, Elordi experienced intense personal and artistic discomfort with the packaging of teen celebrity. He openly expressed frustration with the commercialized constraints of adolescent romantic comedy tropes, yearning for complex characters defined by genuine psychological conflict and moral ambiguity. Refusing to settle into convenient Hollywood typecasting, Elordi actively turned down lucrative commercial studio offers to pursue challenging material with dramatic substance."
+      ],
+      "keyTakeaway": "The Kissing Booth created overnight global streaming fame in 2018, but Elordi actively resisted commercial typecasting, seeking demanding projects with artistic integrity."
+    },
+    {
+      "heading": "Nate Jacobs in Euphoria: Dissecting A Defining Cultural Antagonist",
+      "paragraphs": [
+        "Elordi achieved his definitive artistic turning point in 2019 when creator Sam Levinson cast him as Nate Jacobs in HBO's boundary-pushing drama 'Euphoria'. Portraying a high school quarterback consumed by toxic expectations, repressed identity, and volcanic emotional violence, Elordi delivered a chilling, masterfully layered performance that astonished both critics and audiences. Rather than reducing Nate to a superficial high school antagonist, Elordi brought agonizing depth to the role, excavating the deep-seated childhood trauma and warped paternal dynamics shared with Eric Dane's character, Cal Jacobs.",
+        "When 'Euphoria' returned for its highly anticipated second season in early 2022, Elordi's commanding performance anchored several of the series' most watched and critically celebrated episodes. The season generated record-shattering viewership for HBO Max, second only to 'Game of Thrones', with Elordi receiving widespread industry acclaim for his psychological nuance and relentless screen presence. By fearlessly inhabiting one of television's most despised yet magnetically compelling characters, Elordi decisively proved his dramatic range, capturing the attention of the world's most discerning film directors."
+      ],
+      "keyTakeaway": "Elordi's portrayal of Nate Jacobs in HBO's Euphoria dismantled his teen-idol image, establishing him as one of television's most formidable dramatic actors."
+    },
+    {
+      "heading": "Auteur Breakthroughs: Capturing Elvis in Priscilla & Felix in Saltburn",
+      "paragraphs": [
+        "The autumn of 2023 marked Elordi's official arrival into the highest ranks of international auteur cinema through two landmark feature films that debuted at the Venice and Telluride film festivals. In Sofia Coppola's 'Priscilla', adapted from Priscilla Presley's 1985 memoir, Elordi took on the daunting task of portraying rock-and-roll legend Elvis Presley. Steering away from broad caricature, Elordi delivered an intimate, quietly devastating portrait of Elvis behind closed doors—capturing the music icon's immense charm alongside his volatile mood swings, chronic isolation, and suffocating possessiveness opposite Cailee Spaeny. Film critics widely praised his textured, psychologically grounded interpretation.",
+        "Simultaneously, Elordi captured international audiences as the aristocratic Oxford student Felix Catton in Emerald Fennell's dark psychological satire 'Saltburn'. Radiating effortless charm, warm generosity, and aristocratic vulnerability opposite Barry Keoghan's Oliver Quick, Elordi provided the emotional anchor of the film. 'Saltburn' became an international cultural phenomenon upon its worldwide release, sparking intense critical discourse. For his magnetic performance, Elordi earned a nomination for Best Actor in a Supporting Role at the 2024 BAFTA Film Awards and was honored with a nomination for the prestigious BAFTA EE Rising Star Award, securing his standing as an auteur favorite."
+      ],
+      "keyTakeaway": "Dual 2023 performances in Sofia Coppola's Priscilla and Emerald Fennell's Saltburn earned Elordi widespread critical praise, two BAFTA nominations, and entry into premier cinema."
+    },
+    {
+      "heading": "The 6'5\" Physical Presence: Redefining Modern Leading Man Archetypes",
+      "paragraphs": [
+        "Standing 6 feet 5 inches tall (196 cm), Jacob Elordi possesses one of the most imposing physical frames in modern Hollywood. In American cinematic history, extraordinary height often threatened to pigeonhole performers into specialized genre roles or physical character parts. Elordi, however, converted his statuesque stature into a versatile dramatic instrument, using his physical presence to project both commanding authority and sudden tenderness. His poise on camera recalls the towering dignity of Golden Age Hollywood legends like Gregory Peck and Gary Cooper, while his psychological vulnerability speaks directly to modern audiences.",
+        "Elordi's distinctive silhouette also established him as a premier tastemaker in global luxury fashion. In 2024, storied Italian fashion house Bottega Veneta appointed Elordi as an official Global House Ambassador under creative director Matthieu Blazy, featuring him in worldwide campaigns and dressing him for major gala appearances. He also partnered with Swiss horology house TAG Heuer as an ambassador for the iconic Monaco chronograph. Through his relaxed vintage aesthetic—frequently seen carrying high-fashion leather shoulder bags and tailored leather trench coats—Elordi reshaped modern menswear conventions, generating over $18 Million in earned media value annually."
+      ],
+      "keyTakeaway": "Standing 6 ft 5 in, Elordi turned his statuesque height into a dramatic strength, while his ambassadorships with Bottega Veneta and TAG Heuer redefined modern menswear style."
+    },
+    {
+      "heading": "Frankenstein, Wuthering Heights & 2026 Enterprise Leadership",
+      "paragraphs": [
+        "Entering late 2026, Elordi occupies the forefront of international cinema with headlining roles in some of the decade's most ambitious literary screen adaptations. He collaborated with Academy Award-winning filmmaker Guillermo del Toro to star as The Monster in Netflix's epic gothic reimagining of Mary Shelley's 'Frankenstein' alongside Oscar Isaac and Mia Goth. Requiring extensive daily prosthetic transformations and rigorous physical character work, the performance underscored Elordi's willingness to submerge his leading-man exterior into deep, tragic creature drama.",
+        "Reuniting with director Emerald Fennell, Elordi was cast to portray the brooding, tempestuous Heathcliff opposite Margot Robbie's Catherine Earnshaw in a major theatrical adaptation of Emily Brontë's 'Wuthering Heights'. With a certified personal net worth of $6.0 Million USD in late 2026, expanding production investments, and anticipation building for the third season of 'Euphoria', Jacob Elordi has proven himself to be the definitive leading man of his generation, balancing uncompromising artistic courage with undeniable international star presence."
+      ],
+      "keyTakeaway": "In 2026, Elordi commands leading roles in Guillermo del Toro's Frankenstein and Emerald Fennell's Wuthering Heights opposite Margot Robbie, holding a certified $6.0M net worth."
+    }
+  ]
 };

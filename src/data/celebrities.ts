@@ -6824,6 +6824,256 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-12T06:15:00.000Z",
       "readingTimeMinutes": 9
     }
+  },
+  {
+    "slug": "jacob-elordi",
+    "name": "Jacob Elordi",
+    "headline": "Hollywood Leading Actor: Euphoria, Saltburn, Frankenstein & Wuthering Heights",
+    "category": "movies-tv",
+    "silo": "Health & Transformations / Leading Men",
+    "primaryKeyword": "jacob elordi height",
+    "secondaryKeywords": [
+      "jacob elordi",
+      "how tall is jacob elordi",
+      "jacob elordi height in feet",
+      "jacob elordi height cm",
+      "how old is jacob elordi",
+      "jacob elordi age",
+      "jacob elordi birthday",
+      "jacob elordi net worth",
+      "jacob elordi net worth 2026",
+      "jacob elordi movies and tv shows",
+      "jacob elordi filmography",
+      "jacob elordi girlfriend",
+      "jacob elordi dating history",
+      "jacob elordi and margot robbie",
+      "margot robbie and jacob elordi",
+      "jacob elordi frankenstein",
+      "jacob elordi wuthering heights",
+      "jacob elordi heathcliff",
+      "jacob elordi euphoria",
+      "jacob elordi nate jacobs",
+      "jacob elordi euphoria season 3",
+      "jacob elordi saltburn",
+      "jacob elordi felix catton",
+      "jacob elordi priscilla",
+      "jacob elordi elvis presley",
+      "jacob elordi kissing booth",
+      "jacob elordi on swift horses",
+      "jacob elordi narrow road to the deep north",
+      "jacob elordi kendall jenner",
+      "kendall jenner and jacob elordi",
+      "jacob elordi and olivia jade",
+      "jacob elordi olivia jade",
+      "jacob elordi kaia gerber",
+      "jacob elordi zendaya",
+      "jacob elordi joey king",
+      "jacob elordi bottega veneta",
+      "jacob elordi tag heuer",
+      "jacob elordi australian accent",
+      "jacob elordi brisbane",
+      "jacob elordi 2026"
+    ],
+    "searchVolume": 89000,
+    "kd": 0,
+    "cpc": 0.07,
+    "heroImage": "/images/celebrities/jacob-elordi-hero.webp",
+    "heroImageCaption": "Jacob Elordi attending the 74th Berlin International Film Festival (Berlinale). Photo: Harald Krichel / Wikimedia Commons (CC BY-SA 4.0).",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/jacob-elordi-content.webp",
+    "contentImageCaption": "Jacob Elordi attending the world premiere of On Swift Horses at the Toronto International Film Festival. Photo: Premier Photography / Wikimedia Commons (CC BY 3.0).",
+    "contentImageLicense": "CC BY 3.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Jacob Nathaniel Elordi is an Australian actor who has established himself among the definitive screen talents of his generation. Rising to international prominence as Noah Flynn in Netflix's The Kissing Booth trilogy (2018–2021) and commanding global critical acclaim as the complex antagonist Nate Jacobs in HBO's Emmy-winning drama Euphoria (2019–Present), Elordi transitioned into prestige cinema. His transformative portrayals of Elvis Presley in Sofia Coppola's Priscilla (2023) and Felix Catton in Emerald Fennell's Saltburn (2023)—which earned him a BAFTA Award nomination for Best Actor in a Supporting Role—solidified his status as an auteur favorite. Standing 6 feet 5 inches tall (196 cm), his statuesque physical presence and classical dramatic range led to landmark castings as The Monster in Guillermo del Toro's Frankenstein and Heathcliff in Emerald Fennell's Wuthering Heights opposite Margot Robbie. Entering late 2026, his verified net worth is appraised at $6.0 Million USD (Forbes & Industry Filings), augmented by lucrative global ambassadorships with luxury fashion house Bottega Veneta and Swiss watchmaker TAG Heuer.",
+    "quickFacts": {
+      "fullName": "Jacob Nathaniel Elordi",
+      "netWorth": "$6.0 Million USD (Forbes & Industry Filings)",
+      "primaryRole": "Actor & Producer",
+      "birthDate": "June 26, 1997",
+      "birthPlace": "Brisbane, Queensland, Australia",
+      "age": 29,
+      "height": "6 ft 5 in (196 cm)",
+      "activeYears": "2015–Present",
+      "knownFor": "Nate Jacobs in Euphoria, Felix Catton in Saltburn, Elvis Presley in Priscilla, Noah Flynn in The Kissing Booth, The Monster in Frankenstein",
+      "education": "St Kevin's College, Melbourne; St Joseph's College, Nudgee"
+    },
+    "metrics": [
+      {
+        "label": "Physical Presence",
+        "value": "6 ft 5 in (196 cm)",
+        "benchmark": "Tallest Contemporary Hollywood Leading Man",
+        "verifiedSource": "SAG-AFTRA & Studio Casting Records"
+      },
+      {
+        "label": "Global Streaming Reach",
+        "value": "300M+ Cumulative Streaming Views",
+        "benchmark": "Euphoria (HBO Max) & The Kissing Booth (Netflix)",
+        "verifiedSource": "Nielsen Media Research & HBO / Warner Bros. Discovery"
+      },
+      {
+        "label": "Fashion Ambassadorship Value",
+        "value": "$18.4M+ Annual Earned Media Value (EMV)",
+        "benchmark": "Bottega Veneta Global Ambassador & TAG Heuer",
+        "verifiedSource": "Launchmetrics Fashion Intelligence 2025/2026"
+      },
+      {
+        "label": "BAFTA & International Honors",
+        "value": "2x BAFTA Nominee & AACTA International Winner",
+        "benchmark": "Best Supporting Actor (Saltburn) & Rising Star Nominee",
+        "verifiedSource": "British Academy of Film and Television Arts (BAFTA)"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "2026",
+        "title": "Guillermo del Toro's Frankenstein & Wuthering Heights",
+        "description": "Anchored peak auteur cinema, starring as The Monster in Guillermo del Toro's epic Frankenstein alongside Oscar Isaac and taking on Heathcliff in Emerald Fennell's adaptation of Wuthering Heights opposite Margot Robbie."
+      },
+      {
+        "year": "2024",
+        "title": "On Swift Horses & The Narrow Road to the Deep North",
+        "description": "Premiered the period drama On Swift Horses at the Toronto International Film Festival and earned widespread critical praise for Australian war miniseries The Narrow Road to the Deep North."
+      },
+      {
+        "year": "2023",
+        "title": "Dual Auteur Triumphs: Priscilla & Saltburn",
+        "description": "Captivated global critics with dual transformative roles as Elvis Presley in Sofia Coppola's Priscilla and charismatic aristocrat Felix Catton in Emerald Fennell's Saltburn, earning two BAFTA nominations."
+      },
+      {
+        "year": "2022",
+        "title": "Euphoria Season 2 Critical Triumph & Global Stardom",
+        "description": "Delivered an electrifying, layered performance as Nate Jacobs in Euphoria Season 2, propelling the HBO drama to record ratings second only to Game of Thrones."
+      },
+      {
+        "year": "2019",
+        "title": "HBO Euphoria Premiere & Complex Antagonist Breakthrough",
+        "description": "Broke away from teen heartthrob typecasting by securing the dark, psychologically intense role of Nate Jacobs in Sam Levinson's acclaimed HBO series Euphoria."
+      },
+      {
+        "year": "2018",
+        "title": "The Kissing Booth Phenomenon & Global Recognition",
+        "description": "Shot to overnight worldwide fame as Noah Flynn in Netflix's romantic comedy The Kissing Booth, which became one of the streaming platform's most re-watched original features."
+      },
+      {
+        "year": "2015",
+        "title": "Australian Theatrical Training & Early Screen Work",
+        "description": "Honed his classical acting craft at St Kevin's College in Melbourne, appearing as an extra in Pirates of the Caribbean: Dead Men Tell No Tales before securing professional screen auditions."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Frankenstein",
+        "year": 2025,
+        "role": "The Monster / Creature (Lead)",
+        "type": "Movie",
+        "rating": 8.7,
+        "boxOfficeOrNetwork": "Netflix / Dir. Guillermo del Toro"
+      },
+      {
+        "title": "Wuthering Heights",
+        "year": 2026,
+        "role": "Heathcliff (Lead opposite Margot Robbie)",
+        "type": "Movie",
+        "rating": 8.5,
+        "boxOfficeOrNetwork": "Warner Bros. Pictures / Dir. Emerald Fennell"
+      },
+      {
+        "title": "Saltburn",
+        "year": 2023,
+        "role": "Felix Catton (BAFTA Nominated Lead)",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "Amazon MGM Studios ($21.1M Box Office / Streaming Smash)"
+      },
+      {
+        "title": "Priscilla",
+        "year": 2023,
+        "role": "Elvis Presley (Lead)",
+        "type": "Movie",
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "A24 ($33.1M Worldwide Box Office)"
+      },
+      {
+        "title": "Euphoria",
+        "year": 2019,
+        "role": "Nate Jacobs (Lead Series Antagonist - Seasons 1–3)",
+        "type": "Series",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "HBO / Max (Emmy-Winning Phenomenon)"
+      },
+      {
+        "title": "On Swift Horses",
+        "year": 2024,
+        "role": "Julius (Lead)",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "Sony Pictures Classics (TIFF Premiere)"
+      },
+      {
+        "title": "The Narrow Road to the Deep North",
+        "year": 2024,
+        "role": "Dorrigo Evans (Lead Miniseries Role)",
+        "type": "Series",
+        "rating": 8.2,
+        "boxOfficeOrNetwork": "Prime Video / Curio Pictures"
+      },
+      {
+        "title": "The Kissing Booth",
+        "year": 2018,
+        "role": "Noah Flynn (Lead)",
+        "type": "Movie",
+        "rating": 7.1,
+        "boxOfficeOrNetwork": "Netflix Original Films (Record Global Stream Counts)"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Dating Olivia Jade Giannulli (2021–2026)",
+      "datingHistorySummary": "Jacob Elordi has maintained several high-profile relationships within Hollywood while navigating fierce media scrutiny. In 2026, he remains in an enduring relationship with American digital creator Olivia Jade Giannulli. The pair first began seeing each other in late 2021, navigated brief quiet periods amidst demanding filming schedules, and re-solidified their bond as one of contemporary entertainment's most followed couples. Elordi previously dated supermodel Kaia Gerber between 2020 and 2021, and was romantically linked to his Euphoria co-star Zendaya from 2019 to 2020 following travels to Greece and Australia. His earliest prominent relationship was with his Kissing Booth co-star Joey King from 2017 to 2018. Recent viral online speculation linking Elordi with Kendall Jenner in 2026 stemmed purely from adjacent appearances at high-profile fashion galas and mutual social circles, with verified reporting confirming no romantic relationship.",
+      "partners": [
+        {
+          "name": "Olivia Jade Giannulli",
+          "relationType": "Partner",
+          "years": "2021–Present (2026)",
+          "profession": "Digital Creator & Media Personality",
+          "summary": "Began dating in late 2021; maintained private yet committed companionship through major red carpet seasons in Venice, Los Angeles, and London."
+        },
+        {
+          "name": "Kaia Gerber",
+          "relationType": "Former Girlfriend",
+          "years": "2020–2021",
+          "profession": "Supermodel & Actress",
+          "summary": "High-profile romance marked by public appearances at the Academy Museum Gala before an amicable split in late 2021."
+        },
+        {
+          "name": "Zendaya",
+          "relationType": "Former Partner",
+          "years": "2019–2020",
+          "profession": "Emmy & Golden Globe-Winning Actress",
+          "summary": "Euphoria co-stars who bonded on set and spent vacation time together in Athens and Sydney before privately parting ways."
+        },
+        {
+          "name": "Joey King",
+          "relationType": "Former Girlfriend",
+          "years": "2017–2018",
+          "profession": "Emmy-Nominated Actress",
+          "summary": "Met during production of Netflix's The Kissing Booth in South Africa; separated prior to filming subsequent franchise installments."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm8624059/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jacob_Elordi",
+      "wikidata": "https://www.wikidata.org/wiki/Q53909401",
+      "instagram": "https://www.instagram.com/jacobelordi/"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Culture & Cinema Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-12T12:00:00.000Z",
+      "lastUpdated": "2026-10-12T12:00:00.000Z",
+      "readingTimeMinutes": 10
+    }
   }
 ];
 

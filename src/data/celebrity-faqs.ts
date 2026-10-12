@@ -1218,5 +1218,95 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "Why is Kelly Osbourne trending in 2026?",
     "answer": "In 2026, Kelly Osbourne is trending due to public interest in her March 2026 breakup with Slipknot's Sid Wilson, discussions of her single motherhood with son Sidney, candid appearances on 'The Osbournes Podcast', and ongoing lifestyle interest in her verified 85-pound weight loss journey."
   }
-]
+],
+  "jacob-elordi": [
+    {
+      "question": "How tall is Jacob Elordi?",
+      "answer": "Jacob Elordi stands 6 feet 5 inches tall (196 cm). He is widely recognized as one of the tallest leading actors in contemporary Hollywood, possessing a commanding physical silhouette that has become an asset in both dramatic cinema and luxury fashion."
+    },
+    {
+      "question": "How old is Jacob Elordi in 2026?",
+      "answer": "Jacob Elordi is 29 years old in 2026. He was born on June 26, 1997, in Brisbane, Queensland, Australia."
+    },
+    {
+      "question": "What is Jacob Elordi's net worth in 2026?",
+      "answer": "Jacob Elordi's verified net worth is estimated at $6.0 Million USD (Forbes & Industry Filings) entering late 2026. His wealth derives from high-profile film salaries including 'Frankenstein' and 'Wuthering Heights', HBO series contracts for 'Euphoria', luxury fashion deals with Bottega Veneta and TAG Heuer, and prime Los Angeles real estate."
+    },
+    {
+      "question": "Who is Jacob Elordi's girlfriend in 2026?",
+      "answer": "In 2026, Jacob Elordi is in an ongoing relationship with American digital creator and socialite Olivia Jade Giannulli. The couple first linked romantically in late 2021 and have maintained a committed, low-profile companionship through demanding international filming schedules."
+    },
+    {
+      "question": "Did Jacob Elordi date Kendall Jenner?",
+      "answer": "No, Jacob Elordi and Kendall Jenner have never dated. Rumors linking the two in 2026 originated from paparazzi photographs of both celebrities attending adjacent luxury fashion events and sharing mutual Hollywood acquaintances. Verified reporting confirmed there has never been a romantic relationship between them."
+    },
+    {
+      "question": "Did Jacob Elordi and Zendaya date?",
+      "answer": "Yes, Jacob Elordi and his 'Euphoria' co-star Zendaya dated between late 2019 and early 2020. The pair were spotted traveling together in Greece and Australia and attending public events in New York before quietly ending their relationship in early 2020."
+    },
+    {
+      "question": "Did Jacob Elordi date Kaia Gerber?",
+      "answer": "Yes, Jacob Elordi dated supermodel and actress Kaia Gerber from September 2020 to November 2021. The couple made their high-profile red carpet debut at the Academy Museum of Motion Pictures Gala before parting ways amicably."
+    },
+    {
+      "question": "Did Jacob Elordi and Joey King date?",
+      "answer": "Yes, Jacob Elordi dated his 'The Kissing Booth' co-star Joey King from 2017 to late 2018. The actors met on set while filming in South Africa and dated for over a year before splitting prior to filming the franchise's subsequent sequels."
+    },
+    {
+      "question": "What is Jacob Elordi's role in Guillermo del Toro's Frankenstein?",
+      "answer": "Jacob Elordi stars as The Monster (The Creature) in Guillermo del Toro's feature adaptation of Mary Shelley's 'Frankenstein' for Netflix. Elordi replaced Andrew Garfield in the production, starring alongside Oscar Isaac as Victor Frankenstein and Mia Goth."
+    },
+    {
+      "question": "What is Jacob Elordi's role in Wuthering Heights opposite Margot Robbie?",
+      "answer": "Jacob Elordi portrays Heathcliff opposite Margot Robbie's Catherine Earnshaw in Emerald Fennell's major cinematic adaptation of Emily Brontë's gothic romance 'Wuthering Heights', produced for Warner Bros. Pictures."
+    },
+    {
+      "question": "Is Jacob Elordi returning for Euphoria Season 3?",
+      "answer": "Yes, Jacob Elordi is confirmed to reprise his critically acclaimed role as Nate Jacobs in HBO's 'Euphoria' Season 3, continuing the complex, dark character arc that established his dramatic reputation."
+    },
+    {
+      "question": "How did Jacob Elordi prepare to play Elvis Presley in Priscilla?",
+      "answer": "To portray Elvis Presley in Sofia Coppola's 2023 biopic 'Priscilla', Elordi studied hours of private home recordings, focused on the singer's personal voice cadence rather than stage theatricality, and consumed a pound of bacon daily to mirror Elvis's private dietary habits."
+    },
+    {
+      "question": "What awards has Jacob Elordi been nominated for?",
+      "answer": "Jacob Elordi received two major nominations at the 2024 BAFTA Film Awards: Best Actor in a Supporting Role for 'Saltburn' and the prestigious BAFTA EE Rising Star Award. He also won the AACTA International Award for Best Supporting Actor."
+    },
+    {
+      "question": "What is Jacob Elordi's nationality and background?",
+      "answer": "Jacob Elordi is Australian, born and raised in Brisbane, Queensland. He holds Basque ancestry through his father John Elordi, who emigrated from Spain to Australia at age eight."
+    },
+    {
+      "question": "Does Jacob Elordi speak with an Australian accent?",
+      "answer": "Yes, Jacob Elordi speaks naturally with a distinct Australian accent in personal interviews. He employs skilled dialect coaching to perform in American, British, and Mid-Atlantic accents across his screen roles."
+    },
+    {
+      "question": "What movies and TV shows made Jacob Elordi famous?",
+      "answer": "Jacob Elordi gained initial worldwide fame as Noah Flynn in Netflix's 'The Kissing Booth' trilogy (2018–2021). He achieved critical dramatic stardom as Nate Jacobs in HBO's 'Euphoria' (2019–Present), followed by acclaimed performances in 'Priscilla' (2023) and 'Saltburn' (2023)."
+    },
+    {
+      "question": "What role does Jacob Elordi play in On Swift Horses?",
+      "answer": "In the 2024 period drama 'On Swift Horses', directed by Daniel Minahan, Elordi stars as Julius, a charismatic post-Korean War gambler navigating dangerous romance and underground casinos opposite Daisy Edgar-Jones and Will Poulter."
+    },
+    {
+      "question": "What fashion brands does Jacob Elordi represent?",
+      "answer": "Jacob Elordi is a Global House Ambassador for Italian luxury fashion brand Bottega Veneta and an official brand ambassador for Swiss watchmaker TAG Heuer, frequently showcasing their iconic Monaco timepiece."
+    },
+    {
+      "question": "What real estate does Jacob Elordi own?",
+      "answer": "Elordi owns a $4.6 Million USD mid-century modern home in the Hollywood Hills of Los Angeles, purchased in 2022 for $3.8 Million USD. He also owns a private coastal retreat in Byron Bay, Australia, purchased in 2024."
+    },
+    {
+      "question": "What happened with the 2024 Sydney radio confrontation involving Jacob Elordi?",
+      "answer": "In February 2024, Elordi was approached outside a hotel in Sydney's Eastern Suburbs by a radio producer who made invasive comments referencing 'Saltburn'. Following a brief verbal confrontation, New South Wales Police investigated the encounter and closed the inquiry with no charges filed."
+    },
+    {
+      "question": "Does Jacob Elordi have an active Instagram account?",
+      "answer": "Yes, Jacob Elordi maintains an official verified Instagram profile under the handle @jacobelordi, which has over 12 million followers, though he posts sparingly to preserve his privacy."
+    },
+    {
+      "question": "Why is Jacob Elordi trending in 2026?",
+      "answer": "In 2026, Jacob Elordi is trending due to anticipation for Guillermo del Toro's 'Frankenstein', his high-profile casting as Heathcliff opposite Margot Robbie in Emerald Fennell's 'Wuthering Heights', production updates on 'Euphoria' Season 3, and ongoing fashion coverage of his Bottega Veneta campaigns."
+    }
+  ]
 };

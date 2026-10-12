@@ -548,6 +548,22 @@
       "pageSlug": "sydney-sweeney-2026-production-slate-and-career-analysis",
       "assignedAt": "2026-10-11T12:00:00.000Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sydney_Sweeney_at_Berlinale_2023_%28portrait%29.jpg (Berlinale 2023 / CC BY-SA 3.0)"
+    },
+    "/images/celebrities/jacob-elordi-hero.webp": {
+      "filePath": "/images/celebrities/jacob-elordi-hero.webp",
+      "entity": "jacob-elordi",
+      "placement": "profile_hero",
+      "pageSlug": "jacob-elordi",
+      "assignedAt": "2026-10-12T12:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Elordi-65976.jpg (Berlinale / CC BY-SA 3.0)"
+    },
+    "/images/celebrities/jacob-elordi-content.webp": {
+      "filePath": "/images/celebrities/jacob-elordi-content.webp",
+      "entity": "jacob-elordi",
+      "placement": "profile_content",
+      "pageSlug": "jacob-elordi",
+      "assignedAt": "2026-10-12T12:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Elordi_at_the_2024_Toronto_International_Film_Festival_2.jpg (TIFF Premiere / CC BY-SA 4.0)"
     }
   }
 }

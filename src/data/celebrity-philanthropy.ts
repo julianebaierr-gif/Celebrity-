@@ -652,5 +652,25 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "verifiedContribution": "Direct Peer Support & Treatment Sponsorship",
     "description": "Regular speaker at recovery programs and youth clinics, sharing her personal sobriety journey to encourage rehabilitation."
   }
-]
+],
+  "jacob-elordi": [
+    {
+      "organizationOrCause": "Actors Benevolent Fund of NSW",
+      "focusArea": "Australian Performing Artists Safety Net",
+      "verifiedContribution": "Sustained Patron & Donor",
+      "description": "Supports emergency financial grants, medical support, and accommodation assistance for Australian actors and backstage crew members facing hardship."
+    },
+    {
+      "organizationOrCause": "Bush Heritage Australia",
+      "focusArea": "Wildlife Conservation & Habitat Protection",
+      "verifiedContribution": "Environmental Contributor",
+      "description": "Contributes to large-scale ecological conservation projects and native bushland restoration across Queensland and eastern Australia."
+    },
+    {
+      "organizationOrCause": "The Trevor Project",
+      "focusArea": "LGBTQ+ Youth Crisis Intervention & Mental Health",
+      "verifiedContribution": "Advocate & Campaign Supporter",
+      "description": "Utilizes his public platform to amplify suicide prevention lifelines and mental wellness resources for vulnerable young people."
+    }
+  ]
 };

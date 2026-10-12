@@ -412,5 +412,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "resolutionOrOutcome": "In response to persistent paparazzi claims that her 85-pound weight loss was achieved through extreme plastic surgery or unprescribed medications, Osbourne released transparent video statements disclosing her 2018 gastric sleeve and non-surgical TMJ Botox.",
     "impactAnalysis": "Her honesty challenged Hollywood's culture of secretive cosmetic alterations, inspiring fans to seek healthy medical counseling rather than unrealistic surgical standards."
   }
-]
+],
+  "jacob-elordi": [
+    {
+      "incident": "Sydney Morning Herald Altercation Investigation",
+      "year": "2024",
+      "resolutionOrOutcome": "Following a verbal confrontation outside a Sydney Eastern Suburbs hotel involving an invasive radio producer, New South Wales Police conducted an inquiry and formally closed the matter with no charges filed.",
+      "impactAnalysis": "Elordi conducted himself with poise following the aggressive intrusion, reinforcing his commitment to maintaining clear personal boundaries away from studio sets."
+    },
+    {
+      "incident": "The Kissing Booth Franchise Artistic Critiques",
+      "year": "2023",
+      "resolutionOrOutcome": "In an interview with GQ, Elordi offered an honest critique of commercial teen franchises, stating his preference for challenging cinematic roles over formulaic material while acknowledging the film's role in his early career.",
+      "impactAnalysis": "His candid perspective was widely respected by film directors, accelerating his successful transition into serious auteur cinema alongside Sofia Coppola and Guillermo del Toro."
+    }
+  ]
 };

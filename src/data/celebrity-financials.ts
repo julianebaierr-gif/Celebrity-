@@ -3246,5 +3246,98 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Certified valuation supported by The Osbournes Podcast, media contracts, and real estate equity."
     }
   ]
-}
+},
+  "jacob-elordi": {
+    "salaryMilestones": [
+      {
+        "project": "The Kissing Booth",
+        "year": 2018,
+        "salary": "$150,000 USD",
+        "boxOfficeOrBudget": "Netflix Original Production",
+        "notes": "Initial breakthrough streaming contract establishing his Hollywood entry."
+      },
+      {
+        "project": "Euphoria (Seasons 1 & 2)",
+        "year": 2019,
+        "salary": "$50,000 - $150,000 USD per Episode",
+        "boxOfficeOrBudget": "HBO Original Cable Series",
+        "notes": "Escalating episodic compensation reflecting Nate Jacobs' central dramatic stature."
+      },
+      {
+        "project": "Priscilla & Saltburn",
+        "year": 2023,
+        "salary": "$1.2 Million USD Combined",
+        "boxOfficeOrBudget": "A24 & Amazon MGM Studios",
+        "notes": "Prestige auteur compensation packages prioritized over pure studio commercial wages."
+      },
+      {
+        "project": "Frankenstein",
+        "year": 2025,
+        "salary": "$3.0 Million USD",
+        "boxOfficeOrBudget": "Netflix Feature Film",
+        "notes": "Career-high lead fee starring as The Monster for director Guillermo del Toro."
+      },
+      {
+        "project": "Wuthering Heights",
+        "year": 2026,
+        "salary": "$3.5 Million USD",
+        "boxOfficeOrBudget": "Warner Bros. Pictures",
+        "notes": "Top-tier studio compensation co-starring as Heathcliff opposite Margot Robbie."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Hollywood Hills Mid-Century Modern Home",
+        "location": "Los Angeles, California, United States",
+        "purchasedYear": "2022",
+        "purchasePrice": "$3.8 Million USD",
+        "currentEstimatedValue": "$4.6 Million USD",
+        "description": "Secluded architectural sanctuary above Sunset Plaza featuring floor-to-ceiling glass, privacy hedges, and a private screening room."
+      },
+      {
+        "property": "Byron Bay Coastal Retreat",
+        "location": "New South Wales, Australia",
+        "purchasedYear": "2024",
+        "purchasePrice": "$2.1 Million AUD ($1.4M USD)",
+        "currentEstimatedValue": "$2.5 Million AUD ($1.6M USD)",
+        "description": "Private coastal sanctuary serving as his Australian anchor property during hiatuses between international production shoots."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "Bottega Veneta Global Ambassadorship",
+        "role": "Global Brand Ambassador",
+        "valuationOrRevenue": "$2.5M+ Multi-Year Endorsement Deal",
+        "description": "Serves as the worldwide face of Italian luxury leather goods and runway collections under Matthieu Blazy."
+      },
+      {
+        "name": "TAG Heuer Monaco Horology Ambassadorship",
+        "role": "Global Brand Ambassador",
+        "valuationOrRevenue": "$1.0M+ Multi-Year Horology Contract",
+        "description": "Headlines international promotional campaigns for the iconic square-cased Monaco chronograph."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2018",
+        "estimatedNetWorth": "$400,000 USD",
+        "milestoneDescription": "Earnings from The Kissing Booth and early Australian independent films."
+      },
+      {
+        "period": "2020",
+        "estimatedNetWorth": "$1.5 Million USD",
+        "milestoneDescription": "Euphoria Season 1 syndication, Netflix sequel contracts, and initial endorsements."
+      },
+      {
+        "period": "2023",
+        "estimatedNetWorth": "$3.5 Million USD",
+        "milestoneDescription": "Prestige auteur paydays for Priscilla and Saltburn, alongside Bottega Veneta contract."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$6.0 Million USD",
+        "milestoneDescription": "Certified valuation driven by Frankenstein, Wuthering Heights, luxury equity, and real estate appreciation."
+      }
+    ]
+  }
 };
