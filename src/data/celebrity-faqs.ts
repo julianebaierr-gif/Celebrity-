@@ -1480,5 +1480,95 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "question": "What are Robert Downey Jr.'s upcoming movies after 2026?",
       "answer": "Downey's upcoming cinematic slate is spearheaded by 'Avengers: Doomsday' (December 2026) and 'Avengers: Secret Wars' (May 2027) as Doctor Doom. Additional active projects under Team Downey development include 'Sherlock Holmes 3', Shane Black's crime thriller 'Play Dirty', and a psychological remake of Alfred Hitchcock's 'Vertigo' with Paramount Pictures."
     }
+  ],
+  "chris-evans": [
+    {
+      "question": "What is Chris Evans' verified net worth in 2026?",
+      "answer": "Chris Evans holds an estimated verified net worth of $110.0 Million USD in 2026, according to Forbes, Celebrity Net Worth, and entertainment industry filings. His wealth stems from over $75 Million in cumulative Marvel Cinematic Universe salaries and backend box office participation, eight-figure paychecks for streaming blockbusters like 'The Gray Man' ($20M) and 'Red One' ($15M), luxury real estate in New England, and equity in civic and production ventures."
+    },
+    {
+      "question": "How old is Chris Evans and what is his birthdate?",
+      "answer": "Chris Evans is 45 years old in 2026. He was born on June 13, 1981, in Boston, Massachusetts, and grew up in the nearby suburban town of Sudbury."
+    },
+    {
+      "question": "What is Chris Evans' exact height and physical measurements?",
+      "answer": "Chris Evans stands 6 feet 0 inches tall (183 cm) and maintains an athletic body weight of approximately 187 pounds (85 kg). To portray Captain America, Evans adhered to high-protein nutrition regimens and functional weight training focusing on compound lifts, gymnastics, and plyometrics."
+    },
+    {
+      "question": "Where was Chris Evans born and who are his parents?",
+      "answer": "Chris Evans was born in Boston, Massachusetts. His mother is Lisa Evans (née Capuano), an artistic director at the Concord Youth Theatre, and his father is G. Robert Evans III, a practicing dentist. He has Irish and Italian ancestry on his mother's side and British ancestry on his father's side."
+    },
+    {
+      "question": "Who are Chris Evans' siblings? Is his brother Scott Evans an actor?",
+      "answer": "Yes. Chris Evans has three siblings: older sister Carly, younger sister Shanna, and younger brother Scott Evans (born 1983). Scott is an accomplished actor known for roles in the soap opera 'One Life to Live', the Netflix comedy 'Grace and Frankie', and Greta Gerwig's 'Barbie' (2023)."
+    },
+    {
+      "question": "Who is Chris Evans married to? Tell us about Alba Baptista.",
+      "answer": "Chris Evans is married to Portuguese actress Alba Baptista. The couple began dating in 2021 and married in September 2023 in an intimate ceremony at their Cape Cod, Massachusetts home, followed by a second wedding celebration in Portugal. Baptista is best known for starring in Netflix's 'Warrior Nun' and the historical comedy-drama 'Mrs. Harris Goes to Paris'. She speaks five languages and is actively engaged in humanitarian work."
+    },
+    {
+      "question": "Do Chris Evans and Alba Baptista have children?",
+      "answer": "Yes. In late 2025/early 2026, Chris Evans and wife Alba Baptista welcomed their first child, a daughter named Alma. Evans has frequently expressed that stepping into fatherhood and focusing on family life in Massachusetts has been the most rewarding chapter of his life."
+    },
+    {
+      "question": "Who has Chris Evans dated in the past? What is his dating history?",
+      "answer": "Before marrying Alba Baptista, Chris Evans had several high-profile relationships. He dated actress Jessica Biel for five years from 2001 to 2006, co-starring in 'Cellular' and 'London'. He later had an on-and-off relationship with actress and comedian Jenny Slate from 2016 to 2018 after they met filming 'Gifted'. He was also linked briefly to actress Minka Kelly between 2007 and 2014."
+    },
+    {
+      "question": "Will Chris Evans ever return to Marvel as Captain America?",
+      "answer": "While Evans gave a poignant send-off to Steve Rogers in 'Avengers: Endgame' (2019) passing the shield to Anthony Mackie's Sam Wilson, he has consistently maintained that he would never say never if the story was right. However, he has emphasized that he treasures the character's legacy too much to disrupt its conclusion without an exceptional creative reason. In 2024, he delighted fans by returning to Marvel not as Captain America, but reprising his original role as Johnny Storm / The Human Torch in 'Deadpool & Wolverine'."
+    },
+    {
+      "question": "How much money did Chris Evans make from playing Captain America?",
+      "answer": "Chris Evans earned between $75 Million and $100 Million in cumulative compensation across his eleven appearances in the Marvel Cinematic Universe. He began on a modest rookie salary of $300,000 for 'Captain America: The First Avenger' (2011), which escalated to $3 Million for 'The Avengers' (2012), $15 Million for 'Captain America: Civil War' (2016), and approximately $20 Million including backend box office points for 'Avengers: Endgame' (2019)."
+    },
+    {
+      "question": "Why did Chris Evans play the Human Torch in Deadpool & Wolverine?",
+      "answer": "Ryan Reynolds secretly invited Evans to make a surprise cameo in 'Deadpool & Wolverine' (2024). Instead of playing Captain America, Evans reprised his nostalgic 2005 role as Johnny Storm / The Human Torch from 20th Century Fox's 'Fantastic Four'. His appearance and hilarious post-credits vulgar monologue became one of the film's most celebrated viral moments, grossing $1.338 Billion globally."
+    },
+    {
+      "question": "What is A Starting Point (ASP) founded by Chris Evans?",
+      "answer": "A Starting Point (ASP) is a nonpartisan civic media platform co-founded in 2020 by Chris Evans, actor-director Mark Kassen, and entrepreneur Joe Kiani. The platform features concise two-minute video answers from United States senators and representatives on key public policy issues, aiming to reduce polarization and provide clear, direct civic education to voters and students without algorithmic sensationalism."
+    },
+    {
+      "question": "What is the story behind Chris Evans and his dog Dodger?",
+      "answer": "Chris Evans adopted Dodger, a mixed-breed boxer rescue dog, in 2017 while filming the drama 'Gifted' at an animal shelter. Evans fell in love with the dog on set and brought him home. Dodger became a social media sensation, with Evans frequently sharing training videos and heartwarming photos, using the platform to advocate for animal shelter adoptions nationwide."
+    },
+    {
+      "question": "Why did Chris Evans turn down the Captain America role three times?",
+      "answer": "Evans initially turned down Marvel's offer for 'Captain America: The First Avenger' three times because he suffered from severe anxiety, claustrophobia regarding multi-film contracts, and fear that global fame would erode his personal peace. After discussing his fears with his family, therapist, and Robert Downey Jr.—who encouraged him not to let fear dictate career decisions—Evans accepted the role and credited therapy with helping him navigate his anxiety."
+    },
+    {
+      "question": "How did Chris Evans handle the 2020 camera roll leak?",
+      "answer": "In September 2020, Evans accidentally posted an Instagram screen recording displaying an intimate photo from his phone gallery before quickly deleting it. Instead of retreating from the public eye or releasing a panicked statement, Evans waited two days and tweeted: 'Now that I have your attention... VOTE Nov 3rd!' The witty response defused the embarrassment and earned widespread applause for his composure and civic advocacy."
+    },
+    {
+      "question": "What are Chris Evans' best movies outside of the Marvel Cinematic Universe?",
+      "answer": "Evans' standout non-Marvel projects include Rian Johnson's murder mystery 'Knives Out' (2019) where he played villain Ransom Drysdale, Bong Joon-ho's dystopian sci-fi 'Snowpiercer' (2013), Danny Boyle's cult classic 'Sunshine' (2007), Marc Webb's emotional family drama 'Gifted' (2017), Apple TV+'s legal miniseries 'Defending Jacob' (2020), and Kenneth Lonergan's Broadway play 'Lobby Hero' (2018)."
+    },
+    {
+      "question": "What sweater did Chris Evans wear in Knives Out and why did it go viral?",
+      "answer": "In the 2019 film 'Knives Out', Evans wore an ivory Aran cable-knit fisherman sweater with distressed collar and cuffs. The costume choice became an instant global fashion sensation, sparking widespread memes, international retail sellouts of cable-knit sweaters, and cemented his character Hugh Ransom Drysdale as an iconic modern movie antagonist."
+    },
+    {
+      "question": "What was the famous Super Bowl bet between Chris Evans and Chris Pratt?",
+      "answer": "During the 2015 Super Bowl between Evans' New England Patriots and Pratt's Seattle Seahawks, the two Marvel actors made a philanthropic bet. The Patriots won, but both actors fulfilled their promises by visiting pediatric patients at Christopher's Haven in Boston and Seattle Children's Hospital dressed in full superhero costumes as Captain America and Star-Lord, raising substantial charitable funds."
+    },
+    {
+      "question": "What charity does Chris Evans actively support in Boston?",
+      "answer": "Chris Evans is a long-standing board ambassador and major benefactor of Christopher's Haven, a Boston-based nonprofit that provides low-cost, supportive housing to families whose children are undergoing pediatric cancer treatments at Massachusetts General Hospital. Evans hosts annual fundraisers and meets with patient families regularly."
+    },
+    {
+      "question": "Where does Chris Evans live now?",
+      "answer": "Chris Evans resides primarily in suburban Massachusetts near Concord and Sudbury, close to his childhood hometown and extended family. He also owns a private seaside summer retreat on Cape Cod, having sold his Hollywood Hills residence in 2023 to maintain a grounded East Coast lifestyle with his wife Alba Baptista and daughter Alma."
+    },
+    {
+      "question": "What are Chris Evans' upcoming movies after 2026?",
+      "answer": "Chris Evans' active production slate includes Romain Gavras' satirical political thriller 'Sacrifice' co-starring Anya Taylor-Joy and Salma Hayek, Celine Song's romantic comedy 'Materialists' opposite Dakota Johnson and Pedro Pascal with A24, and multiple upcoming directing and producing projects under his production banner."
+    },
+    {
+      "question": "Did Chris Evans attend FAN EXPO Boston in 2026?",
+      "answer": "Yes. On August 9, 2026, Chris Evans made a celebrated appearance at FAN EXPO Boston at the Boston Convention and Exhibition Center, greeting thousands of hometown fans, discussing his transition to fatherhood, reminiscing on fifteen years since Captain America's debut, and championing local Massachusetts charitable initiatives."
+    }
   ]
 };

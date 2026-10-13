@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 37,
-  "lastUpdated": "2026-10-13T14:15:00.000Z",
+  "totalLocked": 38,
+  "lastUpdated": "2026-10-13T15:00:00.000Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -801,6 +801,44 @@
         "mcneal broadway lincoln center",
         "robert downey jr 2026"
       ]
+    },
+    {
+      "keyword": "chris evans",
+      "slug": "chris-evans",
+      "name": "Chris Evans",
+      "category": "Hollywood Leading Legends",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/chris-evans",
+      "publishedAt": "2026-10-13 15:00:00",
+      "status": "Published",
+      "associatedTags": [
+        "chris evans",
+        "chris evans net worth",
+        "chris evans net worth 2026",
+        "how old is chris evans",
+        "chris evans age",
+        "chris evans height",
+        "how tall is chris evans",
+        "chris evans captain america",
+        "who plays captain america",
+        "chris evans fantastic four",
+        "chris evans human torch",
+        "chris evans deadpool and wolverine",
+        "chris evans wife",
+        "who is chris evans married to",
+        "alba baptista",
+        "chris evans and alba baptista",
+        "chris evans daughter",
+        "chris evans family",
+        "scott evans",
+        "chris evans dog dodger",
+        "chris evans a starting point",
+        "chris evans movies",
+        "knives out chris evans",
+        "defending jacob chris evans",
+        "the gray man chris evans",
+        "red one chris evans",
+        "chris evans 2026"
+      ]
     }
   ],
   "bannedKeywordSet": [
@@ -1054,6 +1092,21 @@
     "robert downey jr wife",
     "susan downey",
     "robert downey jr sobriety",
-    "robert downey jr 2026"
+    "robert downey jr 2026",
+    "chris evans",
+    "chris evans net worth",
+    "chris evans age",
+    "chris evans height",
+    "chris evans captain america",
+    "chris evans fantastic four",
+    "chris evans deadpool and wolverine",
+    "chris evans wife",
+    "alba baptista",
+    "chris evans daughter",
+    "chris evans dog dodger",
+    "chris evans a starting point",
+    "chris evans movies",
+    "knives out chris evans",
+    "chris evans 2026"
   ]
 }

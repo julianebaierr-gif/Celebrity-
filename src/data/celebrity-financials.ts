@@ -3592,5 +3592,124 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
         "milestoneDescription": "Certified fortune bolstered by $100M+ Avengers: Doomsday contract, Oppenheimer prestige honors, and real estate appreciation."
       }
     ]
+  },
+  "chris-evans": {
+    "salaryMilestones": [
+      {
+        "project": "Captain America: The First Avenger",
+        "year": 2011,
+        "salary": "$300,000 USD",
+        "boxOfficeOrBudget": "$370.6 Million USD Box Office",
+        "notes": "Rookie Marvel deal establishing his superhero tenure with modest upfront terms."
+      },
+      {
+        "project": "The Avengers",
+        "year": 2012,
+        "salary": "$3.0 Million USD",
+        "boxOfficeOrBudget": "$1.519 Billion USD Box Office",
+        "notes": "Escalated ensemble salary following global box office performance thresholds."
+      },
+      {
+        "project": "Captain America: Civil War",
+        "year": 2016,
+        "salary": "$15.0 Million USD",
+        "boxOfficeOrBudget": "$1.155 Billion USD Box Office",
+        "notes": "Top-tier marquee compensation matching leading superhero pay grades."
+      },
+      {
+        "project": "Avengers: Endgame",
+        "year": 2019,
+        "salary": "$15.0 Million USD + Backend",
+        "boxOfficeOrBudget": "$2.799 Billion USD Box Office",
+        "notes": "Culmination payday yielding an estimated $20M total through box office profit participation."
+      },
+      {
+        "project": "The Gray Man",
+        "year": 2022,
+        "salary": "$20.0 Million USD",
+        "boxOfficeOrBudget": "$200.0 Million USD Production Budget",
+        "notes": "Premium upfront streaming salary negotiated with Netflix for leading antagonist role."
+      },
+      {
+        "project": "Red One",
+        "year": 2024,
+        "salary": "$15.0 Million USD",
+        "boxOfficeOrBudget": "$250.0 Million USD Production Budget",
+        "notes": "Amazon MGM action tentpole co-starring alongside Dwayne Johnson."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Historic Boston Area Suburban Farmhouse",
+        "location": "Concord / Sudbury, Massachusetts, United States",
+        "purchasedYear": "2019",
+        "purchasePrice": "$4.2 Million USD",
+        "currentEstimatedValue": "$6.8 Million USD",
+        "description": "Expansive multi-acre private New England farmhouse near his hometown, serving as his primary family sanctuary."
+      },
+      {
+        "property": "Cape Cod Coastal Oceanfront Compound",
+        "location": "Cape Cod, Massachusetts, United States",
+        "purchasedYear": "2022",
+        "purchasePrice": "$3.8 Million USD",
+        "currentEstimatedValue": "$5.5 Million USD",
+        "description": "Secluded coastal retreat where he and Alba Baptista celebrated their September 2023 wedding."
+      },
+      {
+        "property": "Hollywood Hills Modern Architectural Villa",
+        "location": "Los Angeles, California, United States",
+        "purchasedYear": "2013 (Sold in 2023)",
+        "purchasePrice": "$3.5 Million USD",
+        "currentEstimatedValue": "$7.2 Million USD Equity Realized",
+        "description": "4,600-square-foot contemporary compound sold off-market to consolidate permanent residency in Massachusetts."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "A Starting Point (ASP)",
+        "role": "Co-Founder & Executive Producer",
+        "valuationOrRevenue": "$10.0M+ Civic Tech Platform",
+        "description": "Video-based nonpartisan civic engagement platform founded with Mark Kassen and Joe Kiani presenting concise policy perspectives from lawmakers."
+      },
+      {
+        "name": "Production Slate & Directorial Banners",
+        "role": "Producer & Director",
+        "valuationOrRevenue": "$15.0M+ Project Slate",
+        "description": "Directed Before We Go (2014) and executive produced projects including Apple TV+'s Defending Jacob and Ghosted."
+      },
+      {
+        "name": "Luxury Endorsement Partnerships",
+        "role": "Global Brand Ambassador",
+        "valuationOrRevenue": "$20.0M+ Cumulative Contract Value",
+        "description": "Longstanding commercial campaigns with luxury brands including Gucci Guilty, Smartwater, and Hyundai."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2005",
+        "estimatedNetWorth": "$2.0 Million USD",
+        "milestoneDescription": "Fantastic Four superhero breakthrough and early studio contracts."
+      },
+      {
+        "period": "2011",
+        "estimatedNetWorth": "$8.0 Million USD",
+        "milestoneDescription": "Captain America contract signing and Marvel franchise entry."
+      },
+      {
+        "period": "2015",
+        "estimatedNetWorth": "$40.0 Million USD",
+        "milestoneDescription": "The Avengers and Captain America: The Winter Soldier box office escalators."
+      },
+      {
+        "period": "2019",
+        "estimatedNetWorth": "$80.0 Million USD",
+        "milestoneDescription": "Avengers: Endgame backend payout and Knives Out commercial success."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$110.0 Million USD",
+        "milestoneDescription": "Certified fortune bolstered by $20M streaming paydays, ASP enterprise value, and New England real estate appreciation."
+      }
+    ]
   }
 };

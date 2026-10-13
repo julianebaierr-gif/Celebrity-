@@ -1864,5 +1864,63 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       ],
       "keyTakeaway": "In 2026, Downey commands a $300M net worth, leads the Footprint Coalition climate syndicate, and prepares for his monumental $100M+ return as Doctor Doom in Avengers: Doomsday."
     }
+  ],
+  "chris-evans": [
+    {
+      "heading": "Boston Origins, Theatrical Heritage & Lee Strasberg Training (1981–2000)",
+      "paragraphs": [
+        "Christopher Robert Evans was born on June 13, 1981, in Boston, Massachusetts, and raised in the suburban town of Sudbury. His mother, Lisa (née Capuano), worked as an artistic director at the Concord Youth Theatre, while his father, G. Robert Evans III, was a practicing dentist. Growing up with an older sister, Carly, a younger sister, Shanna, and a younger brother, Scott Evans—who would also become a professional actor—Evans was immersed in musical theater and dramatic storytelling from childhood. He performed regularly in community productions, took intensive tap dancing lessons encouraged by his mother, and found solace in expressive stagecraft.",
+        "During high school at Lincoln-Sudbury Regional High School, Evans committed fully to dramatic arts. In the summer before his senior year, he moved to New York City to intern at a Manhattan talent agency and take classes at the prestigious Lee Strasberg Theatre and Film Institute. This dual exposure to the commercial business of casting and classical method acting provided Evans with technical discipline, vocal projection, and screen presence, enabling him to secure early television pilots and film auditions immediately upon graduating from high school in 1999."
+      ],
+      "keyTakeaway": "Raised in suburban Boston with strong community theater roots, Evans trained at the Lee Strasberg Institute in New York before launching his professional acting career."
+    },
+    {
+      "heading": "Hollywood Arrival, Fantastic Four & The Indie Crucible (2001–2010)",
+      "paragraphs": [
+        "Evans made his major motion picture breakthrough in 2001 starring as varsity football captain Jake Wyler in Columbia Pictures' satirical teen comedy 'Not Another Teen Movie'. While the film satirized high school stereotypes, casting directors noted Evans' comedic self-awareness, timing, and magnetic physical charisma. He quickly built versatility across genres, starring alongside Scarlett Johansson in the teen heist comedy 'The Perfect Score' (2004) and holding the lead in David R. Ellis' tension-filled thriller 'Cellular' (2005) opposite Kim Basinger.",
+        "In 2005, 20th Century Fox cast Evans as Johnny Storm / The Human Torch in Tim Story's big-budget adaptation of Marvel's 'Fantastic Four'. Evans' swaggering, hotheaded, yet endearing performance stood out as the highlight of the franchise, grossing $333.5 Million worldwide and spawning the 2007 sequel 'Fantastic Four: Rise of the Silver Surfer'. Eager to avoid commercial typecasting, Evans consciously gravitated toward challenging independent and auteur-driven projects. He delivered an intense, thoughtful performance as astronaut engineer James Mace in Danny Boyle's cult sci-fi thriller 'Sunshine' (2007), showcased dark comedic flair in Edgar Wright's 'Scott Pilgrim vs. the World' (2010) as Lucas Lee, and held his own opposite Keanu Reeves in David Ayer's gritty police drama 'Street Kings' (2008)."
+      ],
+      "keyTakeaway": "After breaking out in Not Another Teen Movie and starring as Johnny Storm in Fantastic Four, Evans proved his range in Danny Boyle's Sunshine and Edgar Wright's Scott Pilgrim."
+    },
+    {
+      "heading": "Steve Rogers, The Marvel Dynasty & Historic $12.3B Box Office Run (2011–2019)",
+      "paragraphs": [
+        "In 2010, Marvel Studios offered Evans the defining mantle of his generation: Steve Rogers / Captain America in 'Captain America: The First Avenger' (2011). Intimidated by the prospect of a demanding nine-film contract and battling severe anxiety and panic attacks, Evans declined the role three separate times. However, after candid discussions with his family, personal therapist, and future co-star Robert Downey Jr., Evans accepted the part. Director Joe Johnston captured Evans' innate moral gravity and physical transformation, launching a cinematic arc that would define modern popular culture.",
+        "Over the next decade, Evans anchored eleven Marvel Cinematic Universe projects that accumulated more than $12.3 Billion in global box office receipts. His performance evolved from earnest 1940s super-soldier into modern cinema's ultimate moral standard. The Russo brothers' political espionage thriller 'Captain America: The Winter Soldier' (2014) and 'Captain America: Civil War' (2016) garnered universal critical praise, solidifying Evans' reputation for physical stunts and dramatic weight. The historic climax arrived in 'Avengers: Endgame' (2019), where Evans' Steve Rogers famously wielded Thor's hammer Mjolnir and uttered the immortal battle cry 'Avengers, assemble!' The film grossed $2.799 Billion worldwide, providing Evans with an emotionally resonant, dignified farewell that earned him over $75 Million in cumulative Marvel paydays."
+      ],
+      "quote": {
+        "text": "Playing Steve Rogers taught me that strength without compassion is hollow. The hardest part wasn't the physical training—it was living up to what the character represented to millions of people.",
+        "source": "Chris Evans on concluding his Captain America journey"
+      },
+      "keyTakeaway": "Evans overcame initial panic attacks to anchor eleven Marvel films as Captain America, generating over $12.3 Billion at the global box office before retiring the shield in Avengers: Endgame."
+    },
+    {
+      "heading": "Post-Marvel Evolution: Knives Out, Defending Jacob & Broadway (2019–2023)",
+      "paragraphs": [
+        "Free from Marvel's intensive multi-year filming schedules, Evans immediately diversified his portfolio with high-concept dramatic and character roles. In late 2019, he starred as spoiled trust-fund heir Hugh Ransom Drysdale in Rian Johnson's ensemble murder mystery 'Knives Out'. Draped in a now-iconic cream cable-knit sweater, Evans relished playing an antagonistic, sharp-tongued villain, helping drive the film to $312.9 Million at the worldwide box office and demonstrating his comedic bite.",
+        "In 2020, Evans made a heralded return to prestige television as both star and executive producer of the Apple TV+ limited drama series 'Defending Jacob'. Portraying Andy Barber, a respected Massachusetts assistant district attorney whose fourteen-year-old son is accused of murder, Evans delivered a quiet, emotionally devastating portrait of parental denial and legal anguish. Around this period, Evans also conquered the live theatrical stage, earning rave reviews in his Broadway debut at the Helen Hayes Theater in Kenneth Lonergan's 2018 revival of 'Lobby Hero', earning a Drama League Award nomination for playing a morally ambiguous police veteran. In 2022, he re-teamed with the Russo brothers for Netflix's $200 Million globe-trotting action thriller 'The Gray Man', earning a career-high $20 Million upfront fee playing sociopathic mercenary Lloyd Hansen."
+      ],
+      "keyTakeaway": "Post-Marvel, Evans scored commercial and critical triumphs playing the villain in Knives Out, headlining Apple TV+'s Defending Jacob, earning Broadway praise in Lobby Hero, and commanding $20M for The Gray Man."
+    },
+    {
+      "heading": "A Starting Point: Nonpartisan Civic Innovation & Philanthropy (2020–2026)",
+      "paragraphs": [
+        "Driven by a desire to combat political polarization and misinformation, Evans launched 'A Starting Point' (ASP) in July 2020 alongside actor-director Mark Kassen and entrepreneur Joe Kiani. Conceived as a clean, video-driven civic engagement platform, ASP invites United States senators, representatives, and governors to deliver concise two-minute responses to pressing public policy questions without algorithmic commentary, commercial bias, or sensationalized editing. Evans spent years walking the halls of Capitol Hill, interviewing dozens of elected officials across both political parties to build trust.",
+        "Under Evans' leadership, ASP expanded into nationwide high school and collegiate educational initiatives, providing free, accredited civic engagement curricula to hundreds of classrooms across America. Alongside his civic innovation, Evans remained deeply invested in Massachusetts charitable causes, serving as a dedicated ambassador for Christopher's Haven, a Boston organization providing low-cost housing to families whose children are undergoing pediatric cancer treatments at Mass General. His viral 2015 Super Bowl wager with friend Chris Pratt raised tens of thousands of dollars for Boston Children's Hospital and Christopher's Haven, illustrating his hands-on dedication to local community welfare."
+      ],
+      "quote": {
+        "text": "We didn't create A Starting Point to tell people what to think. We built it to give everyday citizens direct, concise access to the people making the laws, so they can decide for themselves.",
+        "source": "Chris Evans on founding A Starting Point"
+      },
+      "keyTakeaway": "Evans co-founded the nonpartisan civic platform A Starting Point to deliver concise policy education, while maintaining multi-decade philanthropic support for Christopher's Haven in Boston."
+    },
+    {
+      "heading": "Marriage to Alba Baptista, Fatherhood & 2026 Hollywood Return (2023–2026)",
+      "paragraphs": [
+        "In September 2023, Evans married Portuguese actress Alba Baptista in an intimate, private ceremony at their estate in Cape Cod, Massachusetts, attended by close family and longtime Marvel co-stars Robert Downey Jr., Chris Hemsworth, and Jeremy Renner, followed by a second wedding celebration in Portugal. In late 2025/early 2026, Evans and Baptista welcomed their first child, daughter Alma, marking a deeply fulfilling personal transition into fatherhood. Settled near Boston, Evans structured his personal life around family, his beloved rescue boxer-mix Dodger, and New England living.",
+        "Evans surprised global audiences in summer 2024 with a record-setting cameo in Marvel Studios' $1.338 Billion smash 'Deadpool & Wolverine', reprising his beloved role as Johnny Storm / The Human Torch rather than Captain America, delighting fans with a foul-mouthed monologue that went viral worldwide. In 2026, Evans re-entered active production, starring in Romain Gavras' political action satire 'Sacrifice' alongside Anya Taylor-Joy and Salma Hayek, and Celine Song's highly anticipated romantic comedy 'Materialists' opposite Dakota Johnson and Pedro Pascal. Holding a certified personal net worth of $110.0 Million USD (Forbes, Celebrity Net Worth & Industry Filings), Evans stands in 2026 as a revered, multi-faceted Hollywood leader who successfully balanced historic franchise stardom with domestic contentment and civic purpose."
+      ],
+      "keyTakeaway": "In 2026, Evans commands a $110M net worth, celebrates fatherhood and marriage to Alba Baptista, and headlines major releases including Sacrifice and Materialists alongside his civic leadership."
+    }
   ]
 };

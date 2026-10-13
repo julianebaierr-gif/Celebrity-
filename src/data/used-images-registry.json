@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-13T14:15:00.000Z",
-  "totalUniqueImages": 80,
+  "lastUpdated": "2026-10-13T15:00:00.000Z",
+  "totalUniqueImages": 82,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -596,6 +596,22 @@
       "pageSlug": "robert-downey-jr",
       "assignedAt": "2026-10-13T10:00:00.000Z",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Downey_Jr_McNeal_Broadway_Lincoln_Center_2026.jpg (Philip Romano / Wikimedia Commons / CC BY-SA 4.0)"
+    },
+    "/images/celebrities/chris-evans-hero.webp": {
+      "filePath": "/images/celebrities/chris-evans-hero.webp",
+      "entity": "chris-evans",
+      "placement": "profile_hero",
+      "pageSlug": "chris-evans",
+      "assignedAt": "2026-10-13T15:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sara_Komatsu_Chris_Evans.jpg (Sara Komatsu / WikiPortraits / Wikimedia Commons / CC BY-SA 4.0)"
+    },
+    "/images/celebrities/chris-evans-content.webp": {
+      "filePath": "/images/celebrities/chris-evans-content.webp",
+      "entity": "chris-evans",
+      "placement": "profile_content",
+      "pageSlug": "chris-evans",
+      "assignedAt": "2026-10-13T15:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sara_Komatsu_Chris_Evans.jpg (Sara Komatsu / WikiPortraits / Wikimedia Commons / CC BY-SA 4.0)"
     }
   }
 }

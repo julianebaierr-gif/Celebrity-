@@ -724,5 +724,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       "verifiedContribution": "Multi-Year Wish Granter & Celebrity Ambassador",
       "description": "Has personally granted dozens of in-person wishes for critically ill children worldwide, funding family travel and hosting hospital creative sessions in character."
     }
+  ],
+  "chris-evans": [
+    {
+      "organizationOrCause": "Christopher's Haven (501(c)(3))",
+      "focusArea": "Pediatric Cancer Family Housing & Patient Support",
+      "verifiedContribution": "$5.0M+ Total Funds Raised & Board Ambassador",
+      "description": "Longtime patron and spokesperson for Boston-based housing facility providing comfortable accommodations for families whose children undergo cancer treatment at Massachusetts General Hospital."
+    },
+    {
+      "organizationOrCause": "Boston Children's Hospital",
+      "focusArea": "Pediatric Healthcare & In-Patient Visits",
+      "verifiedContribution": "Celebrity Champion & Super Bowl Charity Benefactor",
+      "description": "Conducted in-person pediatric hospital visits dressed in Captain America gear, including the famous 2015 Super Bowl wager with Chris Pratt raising tens of thousands for children's medical care."
+    },
+    {
+      "organizationOrCause": "A Starting Point Educational Initiative",
+      "focusArea": "Civic Education & Youth Political Literacy",
+      "verifiedContribution": "Nationwide Free Civic Curriculum in 500+ Schools",
+      "description": "Funded nonpartisan educational initiatives connecting middle and high school classrooms directly with elected lawmakers to foster civic literacy and critical thinking."
+    },
+    {
+      "organizationOrCause": "Dodger Animal Rescue & Shelter Advocacy",
+      "focusArea": "Shelter Dog Adoption & Animal Welfare",
+      "verifiedContribution": "Celebrity Rescue Ambassador & Shelter Donor",
+      "description": "Adopted mixed-breed rescue dog Dodger in 2017 while filming Gifted at an animal shelter; continuously advocates for shelter adoption and donates to animal rescue shelters."
+    }
   ]
 };

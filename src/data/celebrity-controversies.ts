@@ -460,5 +460,25 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       "resolutionOrOutcome": "On Christmas Eve 2015, California Governor Jerry Brown issued a full, unconditional pardon to Downey for his late-1990s drug convictions, formally recognizing his uninterrupted rehabilitation, good citizenship, and exemplary community service.",
       "impactAnalysis": "The historic gubernatorial pardon officially restored all civil rights, legally and symbolically ratifying one of the most remarkable redemption journeys in American legal and cultural history."
     }
+  ],
+  "chris-evans": [
+    {
+      "incident": "Anxiety Turning Point & Initial Captain America Hesitation",
+      "year": "2010–2011",
+      "resolutionOrOutcome": "Evans initially declined Marvel Studios' multi-film Captain America offer three times due to acute social anxiety and fear of fame. After consulting his family, therapist, and future co-star Robert Downey Jr., he accepted the contract and committed to ongoing mental health therapy.",
+      "impactAnalysis": "His candid discussions about panic attacks and mental health destigmatized performance anxiety for leading Hollywood action stars, establishing him as an authentic and grounded public figure."
+    },
+    {
+      "incident": "Accidental Camera Roll Incident & Viral Voting Message Pivot",
+      "year": "2020",
+      "resolutionOrOutcome": "In September 2020, Evans mistakenly shared a screen recording revealing a personal image on his camera roll before immediately deleting it. Rather than remaining silent or issuing a solemn statement, Evans famously posted on Twitter/X: 'Now that I have your attention... VOTE Nov 3rd!'",
+      "impactAnalysis": "The swift, lighthearted response turned an awkward social media error into a celebrated masterclass in public relations and civic mobilization, earning bipartisan praise for his humor and composure."
+    },
+    {
+      "incident": "Nonpartisan Scrutiny of A Starting Point Platform",
+      "year": "2020–2022",
+      "resolutionOrOutcome": "Critics questioned whether a bipartisan platform featuring elected politicians from both major parties could remain genuinely neutral during heightened election cycles. Evans and co-founders Mark Kassen and Joe Kiani enforced strict rules providing equal speaking time and eliminating editorial algorithms.",
+      "impactAnalysis": "The rigorous neutral format won respect across Capitol Hill, successfully engaging dozens of senators and representatives from both parties and enabling ASP to enter educational curriculums nationwide."
+    }
   ]
 };
