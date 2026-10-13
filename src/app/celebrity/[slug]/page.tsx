@@ -322,18 +322,36 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
                 </p>
 
                 {/* Anti-Cannibalization Tagline */}
-                <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200 text-xs text-slate-600">
-                  <span className="font-bold text-slate-800 block mb-1">
-                    Related Search Intent & Topics Covered:
-                  </span>
-                  <div className="flex flex-wrap gap-1.5">
-                    {celebrity.secondaryKeywords.map((kw, i) => (
-                      <span key={i} className="inline-block px-2.5 py-0.5 rounded-full bg-white text-slate-700 font-medium text-[11px] border border-slate-200">
-                        #{kw}
-                      </span>
-                    ))}
+                {celebrity.secondaryKeywords && celebrity.secondaryKeywords.length > 0 && (
+                  <div className="rounded-xl bg-slate-50 p-3.5 border border-slate-200 text-xs text-slate-600">
+                    <span className="font-bold text-slate-800 block mb-1.5">
+                      Related Search Intent & Topics Covered:
+                    </span>
+                    <div className="flex flex-wrap gap-1.5">
+                      {celebrity.secondaryKeywords.slice(0, 12).map((kw, i) => (
+                        <span key={i} className="inline-block px-2.5 py-0.5 rounded-full bg-white text-slate-700 font-medium text-[11px] border border-slate-200 shadow-2xs">
+                          #{kw}
+                        </span>
+                      ))}
+                    </div>
+                    {celebrity.secondaryKeywords.length > 12 && (
+                      <details className="mt-2.5 pt-2 border-t border-slate-200/80 text-slate-500 group">
+                        <summary className="cursor-pointer text-[11px] font-semibold text-blue-600 hover:text-blue-800 select-none inline-flex items-center gap-1.5 transition-colors">
+                          <span>View all {celebrity.secondaryKeywords.length} topics covered</span>
+                          <span className="text-[10px] text-slate-400 group-open:hidden">▼</span>
+                          <span className="text-[10px] text-slate-400 hidden group-open:inline">▲</span>
+                        </summary>
+                        <div className="flex flex-wrap gap-1.5 mt-2.5 pt-1">
+                          {celebrity.secondaryKeywords.slice(12).map((kw, i) => (
+                            <span key={i + 12} className="inline-block px-2.5 py-0.5 rounded-full bg-white/80 text-slate-600 font-medium text-[11px] border border-slate-200">
+                              #{kw}
+                            </span>
+                          ))}
+                        </div>
+                      </details>
+                    )}
                   </div>
-                </div>
+                )}
 
                 {/* External Authority Links (Wikidata, IMDb, Wikipedia) */}
                 <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 pt-1 text-xs">
