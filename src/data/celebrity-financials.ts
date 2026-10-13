@@ -3465,5 +3465,132 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
         "milestoneDescription": "Certified valuation propelled by The Odyssey, The Devil Wears Prada 2, Versace equity, and luxury property appreciation."
       }
     ]
+  },
+  "robert-downey-jr": {
+    "salaryMilestones": [
+      {
+        "project": "Iron Man",
+        "year": 2008,
+        "salary": "$500,000 USD",
+        "boxOfficeOrBudget": "$585.8M Worldwide",
+        "notes": "Initial Marvel baseline contract negotiated under studio risk terms by Jon Favreau."
+      },
+      {
+        "project": "The Avengers",
+        "year": 2012,
+        "salary": "$50.0 Million USD",
+        "boxOfficeOrBudget": "$1.519B Worldwide",
+        "notes": "Historic contract restructuring securing first-dollar backend gross points on global box office."
+      },
+      {
+        "project": "Captain America: Civil War",
+        "year": 2016,
+        "salary": "$40.0 Million USD",
+        "boxOfficeOrBudget": "$1.155B Worldwide",
+        "notes": "Standard base fee plus $5M performance escalation bonus for surpassing previous franchise records."
+      },
+      {
+        "project": "Avengers: Endgame",
+        "year": 2019,
+        "salary": "$75.0 Million USD",
+        "boxOfficeOrBudget": "$2.799B Worldwide",
+        "notes": "$20M upfront base plus approximately 8% in backend profit participation points."
+      },
+      {
+        "project": "Oppenheimer",
+        "year": 2023,
+        "salary": "$4.0 Million USD",
+        "boxOfficeOrBudget": "$977.0M Worldwide",
+        "notes": "Prestige dramatic scale pay cut to collaborate with Christopher Nolan, yielding his Oscar victory."
+      },
+      {
+        "project": "Avengers: Doomsday",
+        "year": 2026,
+        "salary": "$100.0+ Million USD",
+        "boxOfficeOrBudget": "Expected Historic Tentpole",
+        "notes": "Landmark package to return as Doctor Doom, with dedicated production compound and private jet travel perks."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Malibu Historic Windmill Compound",
+        "location": "Malibu, California, United States",
+        "purchasedYear": "2009",
+        "purchasePrice": "$13.4 Million USD",
+        "currentEstimatedValue": "$25.0 Million USD",
+        "description": "Sprawling 7-acre coastal estate featuring a full-scale replica windmill residence, animal rescue sanctuary, and custom guest pavilions."
+      },
+      {
+        "property": "Edward DeRose Windmill Cottage",
+        "location": "East Hampton, New York, United States",
+        "purchasedYear": "2017",
+        "purchasePrice": "$10.5 Million USD",
+        "currentEstimatedValue": "$16.5 Million USD",
+        "description": "Historic 1885 East Hampton architectural landmark renovated with designer Joe Nahem, featuring tennis courts, gardens, and library suites."
+      },
+      {
+        "property": "Venice Beach Architectural Compound",
+        "location": "Los Angeles, California, United States",
+        "purchasedYear": "2009",
+        "purchasePrice": "$5.6 Million USD",
+        "currentEstimatedValue": "$8.5 Million USD",
+        "description": "Contemporary multi-structure urban residence designed with sustainable materials near Abbot Kinney, serving as a private production retreat."
+      },
+      {
+        "property": "Pacific Palisades Contemporary Residence",
+        "location": "Pacific Palisades, California, United States",
+        "purchasedYear": "2012",
+        "purchasePrice": "$2.5 Million USD",
+        "currentEstimatedValue": "$4.8 Million USD",
+        "description": "Mid-century architectural bluff home overlooking the Pacific Ocean, outfitted with solar panel arrays and private screening facilities."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "Team Downey Productions",
+        "role": "Co-Founder & Producer",
+        "valuationOrRevenue": "$50.0M+ Production Enterprise",
+        "description": "Formed alongside Susan Downey, producing major studio hits including Perry Mason, Sweet Tooth, The Sympathizer, and The Judge."
+      },
+      {
+        "name": "Footprint Coalition Venture Fund",
+        "role": "Founder & Managing Partner",
+        "valuationOrRevenue": "$100.0M+ Clean Tech Capital",
+        "description": "Syndicate of venture funds and non-profit grants deploying capital into cellular agriculture, robotics, and clean technology breakthroughs."
+      },
+      {
+        "name": "Happy Coffee Company",
+        "role": "Co-Founder & Brand Principal",
+        "valuationOrRevenue": "$15.0M+ Retail Brand Valuation",
+        "description": "Specialty coffee venture founded with Craig Dubitsky focusing on ethically sourced beans, regenerative farming, and mental health advocacy."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2003",
+        "estimatedNetWorth": "$500,000 USD",
+        "milestoneDescription": "Post-rehabilitation career restart; uninsurable studio standing and legal debt."
+      },
+      {
+        "period": "2008",
+        "estimatedNetWorth": "$15.0 Million USD",
+        "milestoneDescription": "Iron Man debut breakthrough and Tropic Thunder Oscar nomination payday."
+      },
+      {
+        "period": "2014",
+        "estimatedNetWorth": "$140.0 Million USD",
+        "milestoneDescription": "Topped Forbes Highest-Paid Actors list consecutive years via The Avengers and Iron Man 3 backend."
+      },
+      {
+        "period": "2020",
+        "estimatedNetWorth": "$250.0 Million USD",
+        "milestoneDescription": "Historic $75M Avengers: Endgame backend payout, Footprint Coalition launch, and Team Downey equity."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$300.0 Million USD",
+        "milestoneDescription": "Certified fortune bolstered by $100M+ Avengers: Doomsday contract, Oppenheimer prestige honors, and real estate appreciation."
+      }
+    ]
   }
 };

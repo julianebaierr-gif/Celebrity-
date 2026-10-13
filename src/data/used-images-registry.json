@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-11T12:00:00.000Z",
-  "totalUniqueImages": 78,
+  "lastUpdated": "2026-10-13T14:15:00.000Z",
+  "totalUniqueImages": 80,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -580,6 +580,22 @@
       "pageSlug": "anne-hathaway",
       "assignedAt": "2026-10-13T01:15:00.000Z",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:DamonNolanThomasHathaway-byPhilipRomano.jpg (NYC Premiere of The Odyssey / Philip Romano / CC BY-SA 4.0)"
+    },
+    "/images/celebrities/robert-downey-jr-hero.webp": {
+      "filePath": "/images/celebrities/robert-downey-jr-hero.webp",
+      "entity": "robert-downey-jr",
+      "placement": "profile_hero",
+      "pageSlug": "robert-downey-jr",
+      "assignedAt": "2026-10-13T10:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Downey_Jr_at_Lincoln_Center_Theater_Gala_2026.jpg (Philip Romano / Wikimedia Commons / CC BY-SA 4.0)"
+    },
+    "/images/celebrities/robert-downey-jr-content.webp": {
+      "filePath": "/images/celebrities/robert-downey-jr-content.webp",
+      "entity": "robert-downey-jr",
+      "placement": "profile_content",
+      "pageSlug": "robert-downey-jr",
+      "assignedAt": "2026-10-13T10:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Downey_Jr_McNeal_Broadway_Lincoln_Center_2026.jpg (Philip Romano / Wikimedia Commons / CC BY-SA 4.0)"
     }
   }
 }

@@ -1390,5 +1390,95 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "question": "Why is Anne Hathaway trending in 2026?",
       "answer": "In 2026, Anne Hathaway is trending due to 'The Year of Anne Hathaway'—a massive five-film showcase highlighted by Christopher Nolan's 'The Odyssey' (as Penelope opposite Matt Damon), 'The Devil Wears Prada 2', A24's 'Mother Mary', Colleen Hoover's 'Verity', and updates on 'The Princess Diaries 3'."
     }
+  ],
+  "robert-downey-jr": [
+    {
+      "question": "What is Robert Downey Jr.'s verified net worth in 2026?",
+      "answer": "Robert Downey Jr.'s verified net worth is estimated at $300.0 Million USD (Forbes, Bloomberg & Industry Filings) in late 2026. His fortune derives from over $435 Million in cumulative Marvel earnings, backend profits on Avengers: Endgame ($75M), his landmark $100M+ contract for Avengers: Doomsday, prime real estate in Malibu and the Hamptons, and equity in the Footprint Coalition venture syndicate."
+    },
+    {
+      "question": "Did Robert Downey Jr. win an Academy Award (Oscar)?",
+      "answer": "Yes. Robert Downey Jr. won the Academy Award for Best Supporting Actor at the 96th Academy Awards in March 2024 for his portrayal of Rear Admiral Lewis Strauss in Christopher Nolan's 'Oppenheimer'. He was previously nominated for Best Actor for 'Chaplin' (1992) and Best Supporting Actor for 'Tropic Thunder' (2008)."
+    },
+    {
+      "question": "Why is Robert Downey Jr. returning to Marvel as Doctor Doom instead of Iron Man?",
+      "answer": "Marvel Studios and directors Anthony and Joe Russo cast Downey as Victor von Doom / Doctor Doom to anchor the Multiverse Saga's climax in 'Avengers: Doomsday' (2026) and 'Avengers: Secret Wars' (2027). Having brought Tony Stark's heroic journey to a definitive conclusion in Endgame, Downey embraced the opportunity to tackle comic book lore's greatest complex villain."
+    },
+    {
+      "question": "How much is Robert Downey Jr. being paid for Avengers: Doomsday?",
+      "answer": "Industry trade reports confirmed that Downey negotiated an unprecedented package exceeding $100 Million USD for his two-picture return as Doctor Doom, alongside performance escalators, backend profit points, private aviation travel, and dedicated on-site production trailer compounds."
+    },
+    {
+      "question": "How much did Robert Downey Jr. earn in total from playing Iron Man in the MCU?",
+      "answer": "Robert Downey Jr. earned over $435 Million USD across eleven Marvel Cinematic Universe appearances. Beginning with a modest $500,000 base for 'Iron Man' (2008), his pioneering gross profit point deals scaled to $50 Million for 'The Avengers' (2012) and approximately $75 Million each for 'Avengers: Infinity War' (2018) and 'Avengers: Endgame' (2019)."
+    },
+    {
+      "question": "When was Robert Downey Jr. born, and how old is he in 2026?",
+      "answer": "Robert Downey Jr. was born on April 4, 1965, in Manhattan, New York City. He is 61 years old in 2026."
+    },
+    {
+      "question": "What is Robert Downey Jr.'s exact height and physical measurements?",
+      "answer": "Robert Downey Jr. stands 5 feet 8 inches tall (173 cm) and maintains an athletic body weight of approximately 172 pounds (78 kg). He stays physically conditioned through daily Wing Chun kung fu martial arts and functional weight training."
+    },
+    {
+      "question": "Where was Robert Downey Jr. born and what is his family background?",
+      "answer": "Downey was born in Manhattan, New York City, the son of avant-garde underground filmmaker Robert Downey Sr. and actress Elsie Ann Ford. He grew up in Greenwich Village surrounded by the 1960s countercultural cinema movement. His ancestry includes Lithuanian Jewish, Hungarian Jewish, Irish, Scottish, and German roots."
+    },
+    {
+      "question": "Who is Robert Downey Jr. married to? Tell us about Susan Downey.",
+      "answer": "Robert Downey Jr. has been married to film producer Susan Downey (née Levin) since August 27, 2005. They met in 2003 on the set of the psychological thriller 'Gothika', which Susan was producing for Silver Pictures. Together, they co-founded their multimedia production company, Team Downey, producing acclaimed projects like Perry Mason, Sweet Tooth, and The Sympathizer."
+    },
+    {
+      "question": "How many children does Robert Downey Jr. have?",
+      "answer": "Robert Downey Jr. has three children: son Indio Falconer Downey (born September 1993) from his first marriage to Deborah Falconer; and son Exton Elias Downey (born February 2012) and daughter Avri Roel Downey (born November 2014) with his wife Susan Downey."
+    },
+    {
+      "question": "Did Robert Downey Jr. date Sarah Jessica Parker?",
+      "answer": "Yes. Downey and Sarah Jessica Parker met in 1984 on the set of 'Firstborn' and lived together in a high-profile seven-year relationship until 1991. They separated due to Downey's escalating substance struggles at the time, but have maintained mutual respect and spoken warmly of each other in subsequent decades."
+    },
+    {
+      "question": "When and how did Robert Downey Jr. achieve sobriety?",
+      "answer": "Robert Downey Jr. has been continuously sober since July 2003. After struggling for years with addiction, he made the decision to enter comprehensive rehabilitation in July 2003, maintaining his recovery through twelve-step programs, therapy, meditation, and practicing the traditional Chinese martial art Wing Chun under sifu Eric Oram."
+    },
+    {
+      "question": "Was Robert Downey Jr. ever in prison? How long was his sentence?",
+      "answer": "Yes. In 1999, following probation violations related to drug offenses, a California judge sentenced Downey to three years in state prison. He served nearly one year at the California Substance Abuse Treatment Facility and State Prison in Corcoran, California, before being released on bail in August 2000."
+    },
+    {
+      "question": "What is the true story behind Robert Downey Jr. and Burger King?",
+      "answer": "In July 2003, Downey pulled his car into a Burger King on the Pacific Coast Highway in Malibu with a trunk full of drugs. While eating a burger, he experienced a moment of sudden clarity, feeling that the food tasted completely devoid of flavor and that his life was slipping away. He dumped all his drugs into the Pacific Ocean and checked into rehab immediately, cementing his permanent sobriety."
+    },
+    {
+      "question": "How did Mel Gibson help Robert Downey Jr. restart his career?",
+      "answer": "In 2003, when Hollywood studios refused to hire Downey because completion bond insurance companies deemed him uninsurable, longtime friend Mel Gibson personally paid Downey's insurance bond out of his own pocket to cast him in 'The Singing Detective'. The successful shoot proved Downey's reliability and reopened studio doors."
+    },
+    {
+      "question": "Did California Governor Jerry Brown officially pardon Robert Downey Jr.?",
+      "answer": "Yes. On Christmas Eve 2015, California Governor Jerry Brown issued a full, unconditional pardon to Robert Downey Jr. for his late-1990s drug convictions, formally recognizing that Downey had lived an honest, upright life, exhibited exemplary character, and demonstrated total rehabilitation."
+    },
+    {
+      "question": "What role did Robert Downey Jr. play in Christopher Nolan's Oppenheimer?",
+      "answer": "Downey portrayed Rear Admiral Lewis Strauss, the chairman of the Atomic Energy Commission and primary political adversary of J. Robert Oppenheimer. Filmed in high-contrast black-and-white 70mm, Downey's riveting dramatic performance swept the 2024 awards season, winning the Oscar, BAFTA, Golden Globe, and SAG awards."
+    },
+    {
+      "question": "What was Robert Downey Jr.'s Broadway debut in McNeal about?",
+      "answer": "Downey made his Broadway debut in autumn 2024 starring in Ayad Akhtar's play 'McNeal' at Lincoln Center's Vivian Beaumont Theater. He played Jacob McNeal, a fiercely ambitious novelist obsessed with winning the Nobel Prize in Literature whose artistic ego collides with family estrangement and the ethical disruptions of artificial intelligence."
+    },
+    {
+      "question": "What is Robert Downey Jr.'s relationship with Tom Holland? Is he his godfather?",
+      "answer": "Downey and Tom Holland share an affectionate, close bond that originated during Holland's 2015 screen tests for Peter Parker / Spider-Man in 'Captain America: Civil War'. Downey served as an industry mentor and paternal figure on set. While internet rumors frequently claim Downey is Holland's godfather, Holland clarified that they are close friends and colleagues rather than legal relatives."
+    },
+    {
+      "question": "What real estate properties and estates does Robert Downey Jr. own?",
+      "answer": "Downey owns a world-class real estate portfolio highlighted by his 7-acre windmill compound in Malibu, California (valued at $25M), the historic 1885 Edward DeRose Windmill Cottage in East Hampton, New York ($16.5M), a modern compound in Venice Beach, and an ocean-view architectural property in Pacific Palisades."
+    },
+    {
+      "question": "What is the Footprint Coalition founded by Robert Downey Jr.?",
+      "answer": "The Footprint Coalition is an environmental venture fund and non-profit initiative established by Downey in 2019. It uses capital investment and creative storytelling to back rapid technological solutions to climate change, including cellular agriculture, sustainable materials, clean energy, and microplastic breakdown."
+    },
+    {
+      "question": "What are Robert Downey Jr.'s upcoming movies after 2026?",
+      "answer": "Downey's upcoming cinematic slate is spearheaded by 'Avengers: Doomsday' (December 2026) and 'Avengers: Secret Wars' (May 2027) as Doctor Doom. Additional active projects under Team Downey development include 'Sherlock Holmes 3', Shane Black's crime thriller 'Play Dirty', and a psychological remake of Alfred Hitchcock's 'Vertigo' with Paramount Pictures."
+    }
   ]
 };

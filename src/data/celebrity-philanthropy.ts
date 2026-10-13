@@ -698,5 +698,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       "verifiedContribution": "Sustained Celebrity Contributor",
       "description": "Participates in fundraising campaigns supporting zero-cost cancer treatment, clinical research, and family support infrastructure."
     }
+  ],
+  "robert-downey-jr": [
+    {
+      "organizationOrCause": "Footprint Coalition Foundation",
+      "focusArea": "Environmental Tech Grants & Rapid Bioremediation Research",
+      "verifiedContribution": "Founder & Principal Endowment Contributor",
+      "description": "Non-profit charitable arm of his environmental syndicate, funding academic research into microplastic cellular breakdown, indigenous conservation, and environmental education."
+    },
+    {
+      "organizationOrCause": "Motion Picture & Television Fund (MPTF)",
+      "focusArea": "Entertainment Industry Healthcare & Elder Worker Care",
+      "verifiedContribution": "Leadership Donor & Benefit Gala Host",
+      "description": "Provides ongoing philanthropic support for healthcare facilities, financial relief, and retirement care for behind-the-scenes entertainment industry workers."
+    },
+    {
+      "organizationOrCause": "Limbitless Solutions",
+      "focusArea": "3D-Printed Bionic Prosthetics for Children",
+      "verifiedContribution": "High-Profile Benefactor & Presentation Partner",
+      "description": "Collaborated directly with engineering teams to surprise young amputees with fully functional 3D-printed Iron Man bionic prosthetics at zero cost to their families."
+    },
+    {
+      "organizationOrCause": "Make-A-Wish Foundation",
+      "focusArea": "Pediatric Critical Illness Wishes & Hospital Visits",
+      "verifiedContribution": "Multi-Year Wish Granter & Celebrity Ambassador",
+      "description": "Has personally granted dozens of in-person wishes for critically ill children worldwide, funding family travel and hosting hospital creative sessions in character."
+    }
   ]
 };

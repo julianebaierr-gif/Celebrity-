@@ -440,5 +440,25 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       "resolutionOrOutcome": "When her then-boyfriend Raffaello Follieri was arrested by the FBI for wire fraud and conspiracy in June 2008, federal investigators seized items from their shared residence. Hathaway cooperated transparently with federal prosecutors and was cleared of any wrongdoing or knowledge of his criminal conduct.",
       "impactAnalysis": "Demonstrated extraordinary resilience during intense media scrutiny, releasing Rachel Getting Married months later and earning her first Oscar nomination, proving her personal integrity and professional focus."
     }
+  ],
+  "robert-downey-jr": [
+    {
+      "incident": "California State Confinement & Complete Rehabilitation",
+      "year": "1996–2001",
+      "resolutionOrOutcome": "Sentenced to three years at the California Substance Abuse Treatment Facility (CSATF) in Corcoran following probation violations in 1999, Downey served nearly a year in custody. Following release and final treatment in 2001, he achieved continuous, permanent sobriety in July 2003 through dedicated 12-step programs and Wing Chun martial arts.",
+      "impactAnalysis": "Downey transformed his struggle into a celebrated archetype of personal recovery, mentoring fellow artists across the industry and proving that accountability and perseverance can conquer chronic dependency."
+    },
+    {
+      "incident": "Hollywood Insurance Bond Embargo & Mel Gibson Support",
+      "year": "2003",
+      "resolutionOrOutcome": "Facing prohibitive completion bond insurance premiums that prevented major studios from hiring him, longtime friend Mel Gibson personally underwrote Downey's completion insurance for The Singing Detective out of his own pocket.",
+      "impactAnalysis": "The successful production proved Downey's absolute reliability and focus on set, paving the way for Shane Black's Kiss Kiss Bang Bang and Jon Favreau's casting of Iron Man."
+    },
+    {
+      "incident": "Official Unconditional Pardon by California Governor Jerry Brown",
+      "year": "2015",
+      "resolutionOrOutcome": "On Christmas Eve 2015, California Governor Jerry Brown issued a full, unconditional pardon to Downey for his late-1990s drug convictions, formally recognizing his uninterrupted rehabilitation, good citizenship, and exemplary community service.",
+      "impactAnalysis": "The historic gubernatorial pardon officially restored all civil rights, legally and symbolically ratifying one of the most remarkable redemption journeys in American legal and cultural history."
+    }
   ]
 };

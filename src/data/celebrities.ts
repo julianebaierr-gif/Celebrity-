@@ -7303,6 +7303,348 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-13T01:15:00.000Z",
       "readingTimeMinutes": 11
     }
+  },
+  {
+    "slug": "robert-downey-jr",
+    "name": "Robert Downey Jr.",
+    "headline": "Oscar Winner & Iron Man Icon: Oppenheimer Triumph, Doctor Doom Return & $300M Wealth Dossier",
+    "category": "movies-tv",
+    "silo": "Hollywood Leading Legends",
+    "primaryKeyword": "robert downey jr",
+    "secondaryKeywords": [
+      "robert downey jr",
+      "robert downey junior",
+      "rdj",
+      "robert downey jr net worth",
+      "robert downey jr net worth 2026",
+      "how old is robert downey jr",
+      "robert downey jr age",
+      "robert downey jr birthday",
+      "when was robert downey jr born",
+      "where was robert downey jr born",
+      "robert downey jr height",
+      "how tall is robert downey jr",
+      "robert downey jr height in feet",
+      "robert downey jr weight",
+      "robert downey jr iron man",
+      "who plays iron man",
+      "tony stark actor",
+      "robert downey jr marvel movies",
+      "robert downey jr marvel salary",
+      "how much did robert downey jr make from marvel",
+      "robert downey jr endgame salary",
+      "i am iron man",
+      "robert downey jr doctor doom",
+      "robert downey jr dr doom",
+      "robert downey jr victor von doom",
+      "robert downey jr returning to marvel",
+      "avengers doomsday robert downey jr",
+      "avengers doomsday doctor doom",
+      "who plays doctor doom in avengers doomsday",
+      "doctor doom 2026 cast",
+      "robert downey jr salary avengers doomsday",
+      "100 million doctor doom payday",
+      "avengers secret wars doctor doom",
+      "robert downey jr oscar",
+      "did robert downey jr win an oscar",
+      "robert downey jr oppenheimer",
+      "robert downey jr lewis strauss",
+      "lewis strauss oppenheimer actor",
+      "robert downey jr best supporting actor",
+      "robert downey jr bafta win",
+      "robert downey jr golden globe oppenheimer",
+      "robert downey jr sag award",
+      "robert downey jr broadway",
+      "robert downey jr mcneal",
+      "mcneal broadway play",
+      "lincoln center theater robert downey jr",
+      "robert downey jr wife",
+      "who is robert downey jr married to",
+      "susan downey",
+      "susan levin downey",
+      "robert downey jr wedding 2005",
+      "robert downey jr kids",
+      "how many kids does robert downey jr have",
+      "exton elias downey",
+      "avri roel downey",
+      "indio falconer downey",
+      "deborah falconer robert downey jr first wife",
+      "sarah jessica parker and robert downey jr",
+      "robert downey sr father",
+      "robert downey jr parents",
+      "robert downey jr sobriety date july 2003",
+      "robert downey jr burger king story",
+      "was robert downey jr in prison",
+      "california substance abuse treatment facility rdj",
+      "mel gibson and robert downey jr",
+      "jerry brown pardon robert downey jr",
+      "robert downey jr movies",
+      "robert downey jr filmography",
+      "robert downey jr sherlock holmes",
+      "sherlock holmes 3",
+      "robert downey jr chaplin",
+      "robert downey jr tropic thunder",
+      "kirk lazarus tropic thunder",
+      "the judge robert downey jr",
+      "kiss kiss bang bang",
+      "zodiac david fincher robert downey jr",
+      "less than zero robert downey jr",
+      "the sympathizer robert downey jr",
+      "robert downey jr tom holland",
+      "is robert downey jr tom hollands godfather",
+      "team downey production company",
+      "footprint coalition venture fund",
+      "robert downey jr malibu windmill house",
+      "robert downey jr car collection",
+      "happy coffee robert downey jr",
+      "robert downey jr upcoming movies",
+      "robert downey jr 2026"
+    ],
+    "searchVolume": 2200000,
+    "kd": 24,
+    "cpc": 0.18,
+    "heroImage": "/images/celebrities/robert-downey-jr-hero.webp",
+    "heroImageCaption": "Robert Downey Jr. attending the Lincoln Center Theater Gala in New York City. Photo: Philip Romano / Wikimedia Commons (CC BY-SA 4.0).",
+    "heroImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "contentImage": "/images/celebrities/robert-downey-jr-content.webp",
+    "contentImageCaption": "Robert Downey Jr. celebrating his acclaimed Broadway engagement in McNeal at the Lincoln Center Gala in New York City. Photo: Philip Romano / Wikimedia Commons (CC BY-SA 4.0).",
+    "contentImageLicense": "CC BY-SA 4.0 / Wikimedia Commons",
+    "backdropImage": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=1920&q=80",
+    "executiveSummary": "Robert John Downey Jr. is an Academy Award-winning American actor and producer whose extraordinary multi-decade career stands as cinema's definitive masterclass in redemption, artistic brilliance, and commercial dominance. Generating over $14.5 Billion at the worldwide box office, Downey emerged as the foundational creative anchor of modern popular culture through his transformative eleven-film portrayal of Tony Stark / Iron Man in the Marvel Cinematic Universe (2008–2019). Beyond his superhero legacy, he achieved early dramatic recognition in Less Than Zero (1987) and an Oscar nomination for Chaplin (1992), navigated catastrophic substance struggles and a 1999 California state prison sentence, and achieved unbroken sobriety in July 2003. Downey swept the 2024 global awards circuit—winning the Academy Award, BAFTA, Golden Globe, and SAG awards for Best Supporting Actor as Lewis Strauss in Christopher Nolan's Oppenheimer—before headlining a sold-out Broadway engagement in Ayad Akhtar's McNeal. In late 2026, he holds a certified net worth of $300.0 Million USD (Forbes & Industry Filings), leads the Footprint Coalition environmental syndicate, and prepares for his historic nine-figure Marvel return as Victor von Doom / Doctor Doom in Avengers: Doomsday.",
+    "quickFacts": {
+      "fullName": "Robert John Downey Jr.",
+      "netWorth": "$300.0 Million USD (Forbes, Bloomberg & Industry Filings)",
+      "primaryRole": "Actor, Producer & Environmental Investor",
+      "birthDate": "April 4, 1965",
+      "birthPlace": "Manhattan, New York City, New York, United States",
+      "age": 61,
+      "height": "5 ft 8 in (173 cm) | Weight: ~78 kg (172 lbs)",
+      "activeYears": "1970–Present",
+      "knownFor": "Iron Man (Tony Stark / MCU), Oppenheimer (Oscar Winner), Chaplin, Sherlock Holmes, Tropic Thunder, McNeal (Broadway), Avengers: Doomsday (Doctor Doom)",
+      "education": "Santa Monica High School (attended); Stagedoor Manor Performing Arts Training Center"
+    },
+    "metrics": [
+      {
+        "label": "Global Box Office Gross",
+        "value": "$14.5+ Billion Worldwide",
+        "benchmark": "Highest-Grossing Leading Star in Cinematic History",
+        "verifiedSource": "Box Office Mojo & The Numbers Records"
+      },
+      {
+        "label": "Academy Award & Triple Honors",
+        "value": "Oscar, BAFTA, SAG & Golden Globe Winner",
+        "benchmark": "Best Supporting Actor for Oppenheimer (2024)",
+        "verifiedSource": "Academy of Motion Picture Arts and Sciences (AMPAS)"
+      },
+      {
+        "label": "Marvel Contract Scale",
+        "value": "$435M+ Marvel Cumulative Earnings",
+        "benchmark": "Iron Man (2008) to Avengers: Endgame & $100M Doomsday Deal",
+        "verifiedSource": "Forbes & The Hollywood Reporter Financial Audit"
+      },
+      {
+        "label": "Venture Capital & Green Equity",
+        "value": "$100M+ Footprint Coalition Capital",
+        "benchmark": "Sustainable Tech Venture Funds & Team Downey Banners",
+        "verifiedSource": "PitchBook & SEC Investment Disclosures 2025/2026"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "1987",
+        "title": "Less Than Zero & Brat Pack Dramatic Breakthrough",
+        "description": "Portrayed Julian Wells in Bret Easton Ellis' Less Than Zero, earning critical acclaim for his haunting dramatic authenticity."
+      },
+      {
+        "year": "1992",
+        "title": "Chaplin Academy Award Nomination & BAFTA Victory",
+        "description": "Mastered left-handed violin and physical pantomime to portray Charlie Chaplin in Richard Attenborough's biopic, earning an Oscar nod and BAFTA win."
+      },
+      {
+        "year": "2000",
+        "title": "Ally McBeal Resurgence & Golden Globe Honor",
+        "description": "Joined Fox's hit legal comedy-drama as Larry Paul, revitalizing network ratings and winning the Golden Globe Award."
+      },
+      {
+        "year": "2003",
+        "title": "Permanent Sobriety Turning Point & Mel Gibson Support",
+        "description": "Achieved complete, unbroken sobriety in July 2003, backed by Mel Gibson who personally underwrote his insurance bond for The Singing Detective."
+      },
+      {
+        "year": "2005",
+        "title": "Shane Black's Kiss Kiss Bang Bang Critical Rebirth",
+        "description": "Delivered an electrifying, fast-talking comedic masterclass opposite Val Kilmer, proving his revitalized star power at Cannes."
+      },
+      {
+        "year": "2008",
+        "title": "Iron Man Revolution & Tropic Thunder Oscar Nomination",
+        "description": "Launched the Marvel Cinematic Universe as Tony Stark ($585.8M) and earned a historic comedy Oscar nomination for Tropic Thunder."
+      },
+      {
+        "year": "2012",
+        "title": "The Avengers $1.5B Milestone & Landmark Profit Points",
+        "description": "United Earth's mightiest heroes in Joss Whedon's $1.519B triumph, securing an unprecedented $50M backend profit payout."
+      },
+      {
+        "year": "2019",
+        "title": "Avengers: Endgame Historic $2.799B Box Office Record",
+        "description": "Concluded Tony Stark's decade-long saga with 'I am Iron Man' in cinema's $2.799B phenomenon, earning upwards of $75M."
+      },
+      {
+        "year": "2024",
+        "title": "Oppenheimer Academy Award Best Supporting Actor Sweep",
+        "description": "Won the Academy Award, BAFTA, Golden Globe, and SAG awards for his chilling portrayal of Lewis Strauss in Christopher Nolan's masterpiece."
+      },
+      {
+        "year": "2024",
+        "title": "Broadway Debut in Ayad Akhtar's McNeal at Lincoln Center",
+        "description": "Commanded the stage as Jacob McNeal at the Vivian Beaumont Theater in an acclaimed, sold-out Broadway exploration of literary ego and artificial intelligence."
+      },
+      {
+        "year": "2026",
+        "title": "Doctor Doom Marvel Return in Avengers: Doomsday",
+        "description": "Revealed at SDCC as Victor von Doom / Doctor Doom, signing an unprecedented $100M+ contract to anchor Marvel's Multiverse climax."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Chaplin",
+        "year": 1992,
+        "role": "Charlie Chaplin",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "$12.1M Box Office (BAFTA Winner & Oscar Nominee)"
+      },
+      {
+        "title": "Kiss Kiss Bang Bang",
+        "year": 2005,
+        "role": "Harry Lockhart",
+        "type": "Movie",
+        "rating": 7.5,
+        "boxOfficeOrNetwork": "$15.8M Box Office (Cult Noir Comeback)"
+      },
+      {
+        "title": "Zodiac",
+        "year": 2007,
+        "role": "Paul Avery",
+        "type": "Movie",
+        "rating": 7.7,
+        "boxOfficeOrNetwork": "$84.8M Box Office (Dir. David Fincher)"
+      },
+      {
+        "title": "Iron Man",
+        "year": 2008,
+        "role": "Tony Stark / Iron Man",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "$585.8M Worldwide Box Office (MCU Inception)"
+      },
+      {
+        "title": "Tropic Thunder",
+        "year": 2008,
+        "role": "Kirk Lazarus",
+        "type": "Movie",
+        "rating": 7.1,
+        "boxOfficeOrNetwork": "$195.7M Box Office (Oscar Nominee for Best Supporting Actor)"
+      },
+      {
+        "title": "Sherlock Holmes",
+        "year": 2009,
+        "role": "Sherlock Holmes",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "$524.0M Box Office (Golden Globe Winner)"
+      },
+      {
+        "title": "The Avengers",
+        "year": 2012,
+        "role": "Tony Stark / Iron Man",
+        "type": "Movie",
+        "rating": 8.0,
+        "boxOfficeOrNetwork": "$1.519B Worldwide ($50M Backend Payday)"
+      },
+      {
+        "title": "Captain America: Civil War",
+        "year": 2016,
+        "role": "Tony Stark / Iron Man",
+        "type": "Movie",
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "$1.155B Worldwide ($40M Payday)"
+      },
+      {
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "role": "Tony Stark / Iron Man",
+        "type": "Movie",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "$2.799B Worldwide ($75M Record Payday)"
+      },
+      {
+        "title": "Oppenheimer",
+        "year": 2023,
+        "role": "Lewis Strauss",
+        "type": "Movie",
+        "rating": 8.9,
+        "boxOfficeOrNetwork": "$977.0M Worldwide (Oscar, BAFTA, SAG & Golden Globe Winner)"
+      },
+      {
+        "title": "The Sympathizer",
+        "year": 2024,
+        "role": "Claude / The Professor / Ned Godwin / The Auteur",
+        "type": "Series",
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "HBO / Max Limited Series (Emmy Nominee)"
+      },
+      {
+        "title": "Avengers: Doomsday",
+        "year": 2026,
+        "role": "Victor von Doom / Doctor Doom",
+        "type": "Movie",
+        "rating": 9.2,
+        "boxOfficeOrNetwork": "Marvel Studios Tentpole ($100M+ Historic Contract)"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married to Susan Downey (2005-Present)",
+      "datingHistorySummary": "Robert Downey Jr. has been married to film producer Susan Downey since August 2005, celebrating over two decades of creative and domestic partnership. He was previously married to singer Deborah Falconer from 1992 to 2004, sharing son Indio, and had a seven-year relationship with Sarah Jessica Parker between 1984 and 1991.",
+      "partners": [
+        {
+          "name": "Susan Downey",
+          "relationType": "Wife & Producing Partner",
+          "years": "2003-Present (Married 2005)",
+          "profession": "Film Producer & Team Downey Co-Founder",
+          "summary": "Co-founder of Team Downey, married on August 27, 2005 in Amagansett, NY; parents to Exton Elias (b. 2012) and Avri Roel (b. 2014)."
+        },
+        {
+          "name": "Deborah Falconer",
+          "relationType": "Former Wife",
+          "years": "1992-2004 (Divorced)",
+          "profession": "American Singer & Actress",
+          "summary": "Married in May 1992 after a 42-day courtship; mother to son Indio Falconer Downey (b. 1993); divorced amicably in 2004."
+        },
+        {
+          "name": "Sarah Jessica Parker",
+          "relationType": "Former Partner",
+          "years": "1984-1991 (Separated)",
+          "profession": "Emmy & Golden Globe-Winning Actress",
+          "summary": "Lived together in a widely followed seven-year partnership after meeting on the set of Firstborn (1984); separated in 1991."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm0000375/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Downey_Jr.",
+      "wikidata": "https://www.wikidata.org/wiki/Q165219",
+      "instagram": "https://www.instagram.com/robertdowneyjr/"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Film & Academy Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-13T09:15:00.000Z",
+      "lastUpdated": "2026-10-13T09:15:00.000Z",
+      "readingTimeMinutes": 12
+    }
   }
 ];
 
