@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-14T10:00:00.000Z",
-  "totalUniqueImages": 84,
+  "lastUpdated": "2026-10-14T12:09:53.451Z",
+  "totalUniqueImages": 86,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -628,6 +628,22 @@
       "pageSlug": "scarlett-johansson",
       "assignedAt": "2026-10-14T10:00:00.000Z",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bryan_Berlin_Scarlett_Johansson_Colin_Jost.jpg (Bryan Berlin / WikiPortraits / CC BY-SA 4.0 - 64th New York Film Festival September 2026)"
+    },
+    "/images/celebrities/brie-larson-hero.webp": {
+      "filePath": "/images/celebrities/brie-larson-hero.webp",
+      "entity": "brie-larson",
+      "placement": "profile_hero",
+      "pageSlug": "brie-larson",
+      "assignedAt": "2026-10-14T12:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TIFF_2019_Brie_Larsen_(48690948097)_(cropped).jpg (Premiered at Toronto International Film Festival / CC BY-SA 2.0 - Assigned 2026)"
+    },
+    "/images/celebrities/brie-larson-content.webp": {
+      "filePath": "/images/celebrities/brie-larson-content.webp",
+      "entity": "brie-larson",
+      "placement": "profile_content",
+      "pageSlug": "brie-larson",
+      "assignedAt": "2026-10-14T12:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brie_Larson_in_2017.jpeg (Red Carpet Appearance / CC BY-SA 4.0 - Assigned 2026)"
     }
   }
 }

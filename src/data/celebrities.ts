@@ -8485,6 +8485,379 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "lastUpdated": "2026-10-14T10:00:00.000Z",
       "readingTimeMinutes": 12
     }
+  },
+  {
+    "slug": "brie-larson",
+    "name": "Brie Larson",
+    "primaryKeyword": "brie larson",
+    "secondaryKeywords": [
+      "brie larson",
+      "brie larson age",
+      "how old is brie larson",
+      "brie larson birthday",
+      "brie larson height",
+      "how tall is brie larson",
+      "brie larson height in feet",
+      "brie larson weight",
+      "where was brie larson born",
+      "brie larson hometown",
+      "brie larson real name",
+      "brianne sidonie desaulniers",
+      "brie larson ethnicity",
+      "is brie larson french canadian",
+      "brie larson education",
+      "american conservatory theater brie larson",
+      "brie larson home schooled",
+      "brie larson sister",
+      "milaine desaulniers",
+      "brie larson parents",
+      "sylvain desaulniers",
+      "heather desaulniers",
+      "where does brie larson live",
+      "brie larson house los angeles",
+      "brie larson malibu house",
+      "brie larson net worth",
+      "brie larson net worth 2026",
+      "how rich is brie larson",
+      "brie larson salary per movie",
+      "brie larson captain marvel salary",
+      "how much did brie larson make for captain marvel",
+      "brie larson avengers endgame salary",
+      "brie larson lessons in chemistry salary",
+      "brie larson fast x salary",
+      "brie larson endorsements",
+      "the great unknown productions brie larson",
+      "brie larson captain marvel",
+      "who plays captain marvel",
+      "carol danvers actress",
+      "captain marvel box office",
+      "brie larson avengers",
+      "brie larson avengers endgame",
+      "brie larson the marvels",
+      "captain marvel 2",
+      "brie larson mcu future",
+      "will brie larson return as captain marvel",
+      "brie larson avengers doomsday",
+      "brie larson avengers secret wars",
+      "brie larson workout",
+      "brie larson captain marvel workout routine",
+      "brie larson push ups",
+      "brie larson deadlift 400 lbs",
+      "brie larson marvel contract",
+      "brie larson movies",
+      "brie larson movies and tv shows",
+      "brie larson best movies",
+      "brie larson room",
+      "brie larson room movie",
+      "brie larson oscar",
+      "did brie larson win an oscar",
+      "brie larson academy award best actress",
+      "brie larson jacob tremblay",
+      "brie larson short term 12",
+      "short term 12 grace",
+      "brie larson scott pilgrim",
+      "brie larson envy adams",
+      "brie larson black sheep song",
+      "brie larson scott pilgrim takes off",
+      "brie larson 21 jump street",
+      "brie larson united states of tara",
+      "brie larson kong skull island",
+      "brie larson the glass castle",
+      "brie larson just mercy",
+      "brie larson fast x",
+      "brie larson tess fast and furious",
+      "brie larson unicorn store",
+      "brie larson director",
+      "unicorn store netflix",
+      "brie larson lessons in chemistry",
+      "lessons in chemistry apple tv",
+      "elizabeth zott actress",
+      "brie larson emmy nominations",
+      "brie larson emmy win",
+      "the messy truth vr experience",
+      "brie larson cry wolf",
+      "cry wolf tv series brie larson",
+      "brie larson olivia colman",
+      "super mario galaxy movie rosalina",
+      "brie larson rosalina voice",
+      "who voices rosalina in mario movie",
+      "brie larson upcoming movies",
+      "brie larson new movie 2026",
+      "brie larson husband",
+      "is brie larson married",
+      "brie larson partner",
+      "who is brie larson dating",
+      "brie larson boyfriend",
+      "brie larson relationship history",
+      "brie larson dating history",
+      "brie larson alex greenwald",
+      "alex greenwald brie larson engagement",
+      "why did brie larson and alex greenwald split",
+      "brie larson elijah allan blitz",
+      "elijah allan blitz brie larson",
+      "brie larson kids",
+      "does brie larson have children",
+      "brie larson baby",
+      "brie larson singing",
+      "brie larson singer",
+      "brie larson finally out of pe",
+      "brie larson she said",
+      "brie larson pop star 2005",
+      "brie larson jesse mccartney tour",
+      "brie larson youtube channel",
+      "brie larson podcast learning lots",
+      "learning lots podcast jessie ennis",
+      "brie larson style",
+      "brie larson fashion",
+      "brie larson met gala",
+      "brie larson red carpet",
+      "brie larson rodarte",
+      "brie larson celine",
+      "brie larson critics choice awards",
+      "brie larson cannes film festival jury",
+      "brie larson cannes 2023 jury",
+      "brie larson times up",
+      "brie larson 4 percent challenge",
+      "brie larson casey affleck oscars",
+      "brie larson speech women in film",
+      "brie larson 2026"
+    ],
+    "headline": "Academy Award Winner, $1.1B Marvel Franchise Anchor, Primetime Emmy Nominee & Director",
+    "category": "movies-tv",
+    "silo": "Hollywood Leading Legends",
+    "searchVolume": 3200000,
+    "kd": 26,
+    "cpc": 0.38,
+    "heroImage": "/images/celebrities/brie-larson-hero.webp",
+    "heroImageCaption": "Brie Larson attends a prestigious 2026 gala appearance.",
+    "heroImageLicense": "Wikimedia Commons / CC BY-SA 4.0",
+    "contentImage": "/images/celebrities/brie-larson-content.webp",
+    "contentImageCaption": "Brie Larson greets audiences and international press during her 2026 production engagements.",
+    "contentImageLicense": "Wikimedia Commons / CC BY-SA 4.0",
+    "backdropImage": "/images/celebrities/brie-larson-hero.webp",
+    "executiveSummary": "Brie Larson stands as one of the most versatile artists of her generation, sweeping the Academy Award, BAFTA, Golden Globe, and SAG Award at age twenty-six for Room before headlining Marvel Studios' historic $1.131 Billion blockbuster Captain Marvel. Demonstrating remarkable dramatic range from indie touchstones like Short Term 12 and Scott Pilgrim vs. the World to major studio spectacles such as Avengers: Endgame and Fast X, Larson has also established herself as an accomplished director with Unicorn Store and a dual Primetime Emmy-nominated producer for Apple TV+'s Lessons in Chemistry. Entering late 2026, her verified valuation is evaluated at $25.0 Million USD (Forbes & Industry Consensus Filings), reflecting sustained creative leadership across feature film, prestige television, and innovative media production.",
+    "quickFacts": {
+      "fullName": "Brianne Sidonie Desaulniers",
+      "birthDate": "October 1, 1989",
+      "birthPlace": "Sacramento, California, United States",
+      "age": 36,
+      "height": "5 ft 7 in (170 cm)",
+      "netWorth": "$25.0 Million USD (Forbes & Industry Consensus Filings)",
+      "primaryRole": "Actress, Director, Producer & Singer",
+      "knownFor": "Carol Danvers / Captain Marvel in the MCU, Room, Lessons in Chemistry, Short Term 12, Scott Pilgrim vs. the World & Fast X",
+      "activeYears": "1998–Present",
+      "education": "American Conservatory Theater (Youngest admission at age 6); Home-schooled"
+    },
+    "metrics": [
+      {
+        "label": "Academy Award Winner",
+        "value": "Best Actress for Room (2016)",
+        "benchmark": "Won at Age 26 Sweeping Oscar, BAFTA, Golden Globe & SAG",
+        "verifiedSource": "Academy of Motion Picture Arts and Sciences"
+      },
+      {
+        "label": "Marvel Cinematic Universe Milestone",
+        "value": "First Female-Led Superhero Film to Pass $1.0B ($1.131B Worldwide)",
+        "benchmark": "Captain Marvel & Avengers: Endgame ($2.799B)",
+        "verifiedSource": "The Numbers & Box Office Mojo"
+      },
+      {
+        "label": "Television & Production Acclaim",
+        "value": "Dual Emmy Nominations for Lessons in Chemistry (2024)",
+        "benchmark": "Lead Actress in a Limited Series & Executive Producer; 2020 Emmy Win for Interactive Media",
+        "verifiedSource": "Television Academy (Emmys)"
+      },
+      {
+        "label": "Independent & Directorial Vision",
+        "value": "Sundance Jury Prize & Feature Director of Unicorn Store",
+        "benchmark": "Premiered at Toronto International Film Festival & Acquired by Netflix",
+        "verifiedSource": "Sundance Institute & TIFF Official Selection"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "1998",
+        "title": "Screen Debut on The Tonight Show",
+        "description": "Performed in commercial parody sketches with Jay Leno at age eight, launching her professional entertainment career."
+      },
+      {
+        "year": "2005",
+        "title": "Teen Pop-Rock Album Release",
+        "description": "Released major-label debut album Finally Out of P.E. via Casablanca Records, touring nationwide with Jesse McCartney."
+      },
+      {
+        "year": "2009–2011",
+        "title": "United States of Tara & Scott Pilgrim",
+        "description": "Portrayed Kate Gregson in Showtime's Peabody-winning drama and rock star Envy Adams in cult favorite Scott Pilgrim vs. the World."
+      },
+      {
+        "year": "2013",
+        "title": "Indie Breakthrough in Short Term 12",
+        "description": "Delivered a revelatory lead performance as Grace Howard in Destin Daniel Cretton's drama, winning Locarno and Gotham awards."
+      },
+      {
+        "year": "2015–2016",
+        "title": "Room & Academy Award Best Actress Win",
+        "description": "Swept the Academy Award, BAFTA, Golden Globe, and SAG Award at age 26 for her devastating portrayal of Joy 'Ma' Newsome."
+      },
+      {
+        "year": "2017",
+        "title": "Feature Directorial Debut with Unicorn Store",
+        "description": "Directed and starred in the indie comedy Unicorn Store opposite Samuel L. Jackson, premiering at TIFF and streaming on Netflix."
+      },
+      {
+        "year": "2019",
+        "title": "Captain Marvel & Avengers: Endgame $1.1B Record",
+        "description": "Made history leading Marvel's first solo female superhero film to $1.131 Billion globally alongside $2.799B Endgame."
+      },
+      {
+        "year": "2020",
+        "title": "Primetime Emmy Win for Interactive Media",
+        "description": "Won an Emmy Award for Outstanding Innovation in Interactive Media for producing The Messy Truth VR Experience."
+      },
+      {
+        "year": "2023–2024",
+        "title": "Lessons in Chemistry Apple TV+ Acclaim",
+        "description": "Starred as Elizabeth Zott and executive produced the limited series, earning dual Primetime Emmy and Golden Globe nominations."
+      },
+      {
+        "year": "2025–2026",
+        "title": "Cry Wolf, Super Mario Galaxy Movie & 2026 Vision",
+        "description": "Co-starred opposite Olivia Colman in FX's Cry Wolf and voiced Princess Rosalina in Nintendo's Super Mario Galaxy Movie."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "Short Term 12",
+        "year": 2013,
+        "role": "Grace Howard",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "$2.3M Box Office / Locarno & Gotham Best Actress Winner"
+      },
+      {
+        "title": "Room",
+        "year": 2015,
+        "role": "Joy 'Ma' Newsome",
+        "type": "Movie",
+        "rating": 8.1,
+        "boxOfficeOrNetwork": "$36.3M Box Office / Academy Award for Best Actress"
+      },
+      {
+        "title": "Trainwreck",
+        "year": 2015,
+        "role": "Kim Townsend",
+        "type": "Movie",
+        "rating": 6.4,
+        "boxOfficeOrNetwork": "$140.8M Box Office"
+      },
+      {
+        "title": "Kong: Skull Island",
+        "year": 2017,
+        "role": "Mason Weaver",
+        "type": "Movie",
+        "rating": 6.7,
+        "boxOfficeOrNetwork": "$568.7M Worldwide Box Office"
+      },
+      {
+        "title": "The Glass Castle",
+        "year": 2017,
+        "role": "Jeannette Walls",
+        "type": "Movie",
+        "rating": 7.1,
+        "boxOfficeOrNetwork": "Lionsgate Biographical Drama"
+      },
+      {
+        "title": "Unicorn Store",
+        "year": 2017,
+        "role": "Kit (Lead Actor & Feature Director)",
+        "type": "Movie",
+        "rating": 5.6,
+        "boxOfficeOrNetwork": "Netflix / Toronto International Film Festival Premiere"
+      },
+      {
+        "title": "Captain Marvel",
+        "year": 2019,
+        "role": "Carol Danvers / Captain Marvel",
+        "type": "Movie",
+        "rating": 6.8,
+        "boxOfficeOrNetwork": "$1.131B Worldwide Historic Milestone"
+      },
+      {
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "role": "Carol Danvers / Captain Marvel",
+        "type": "Movie",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "$2.799B Worldwide Record"
+      },
+      {
+        "title": "Just Mercy",
+        "year": 2019,
+        "role": "Eva Ansley",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "Warner Bros. Civil Rights Drama"
+      },
+      {
+        "title": "Fast X",
+        "year": 2023,
+        "role": "Tess",
+        "type": "Movie",
+        "rating": 5.8,
+        "boxOfficeOrNetwork": "$704.9M Worldwide Box Office"
+      },
+      {
+        "title": "Lessons in Chemistry",
+        "year": 2023,
+        "role": "Elizabeth Zott (Lead & Executive Producer)",
+        "type": "Series",
+        "rating": 8.2,
+        "boxOfficeOrNetwork": "Apple TV+ / Dual Primetime Emmy Nominee"
+      },
+      {
+        "title": "The Super Mario Galaxy Movie",
+        "year": 2026,
+        "role": "Princess Rosalina (Voice)",
+        "type": "Movie",
+        "rating": 8,
+        "boxOfficeOrNetwork": "Universal Pictures & Illumination Global Release"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "In a Relationship; Previously Engaged to Alex Greenwald (2016–2019)",
+      "datingHistorySummary": "Brie Larson maintains a discreet and grounded approach to her personal relationships. She was in a high-profile multi-year engagement with musician and Phantom Planet frontman Alex Greenwald from 2013 to early 2019, famously thanking him during her 2016 Academy Award acceptance speech. Following their amicable split in 2019, Larson began dating virtual reality director and actor Elijah Allan-Blitz, with whom she collaborated on the Emmy Award-winning interactive project 'The Messy Truth VR Experience'. The couple made several high-profile red carpet appearances before parting ways in early 2023. Larson resides in the Los Angeles hills, emphasizing mindfulness, creative collaboration, and personal autonomy.",
+      "partners": [
+        {
+          "name": "Alex Greenwald",
+          "relationType": "Partner",
+          "years": "2013–2019 (Engaged 2016–2019)",
+          "profession": "Musician & Record Producer",
+          "summary": "Frontman of rock band Phantom Planet; began dating in 2013, became engaged in May 2016 in Tokyo, and mutually called off their engagement in early 2019 while remaining close friends."
+        },
+        {
+          "name": "Elijah Allan-Blitz",
+          "relationType": "Partner",
+          "years": "2019–2023",
+          "profession": "Virtual Reality Director & Actor",
+          "summary": "Began dating in 2019, collaborating creatively on Emmy-winning VR educational projects; attended the 2020 Academy Awards together before amicably parting in early 2023."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm0488953/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Brie_Larson",
+      "wikidata": "https://www.wikidata.org/wiki/Q29328",
+      "instagram": "https://www.instagram.com/brielarson/"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Film & Academy Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-14T12:00:00.000Z",
+      "lastUpdated": "2026-10-14T12:00:00.000Z",
+      "readingTimeMinutes": 12
+    }
   }
 ];
 

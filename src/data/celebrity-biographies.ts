@@ -1981,4 +1981,69 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       "keyTakeaway": "In 2026, Johansson commands a $180M net worth, leads Universal's Jurassic World Rebirth, balances family life with husband Colin Jost, and stands as the highest-grossing actress in cinema history."
     }
   ]
+,
+  "brie-larson": [
+  {
+    "heading": "Sacramento Origins, Early Sketches & Teen Pop Rock Era (1989–2008)",
+    "paragraphs": [
+      "Brianne Sidonie Desaulniers was born on October 1, 1989, in Sacramento, California, to Heather and Sylvain Desaulniers, who shared a successful homeopathic chiropractic clinic. Raised speaking French as her primary first language before learning English, she experienced a childhood enriched by artistic curiosity and home-schooling. At just six years old, she informed her mother that her true vocation was acting. Auditioning for San Francisco's American Conservatory Theater, she became the youngest student ever admitted to its prestigious training program.",
+      "Following her parents' divorce, her mother relocated Brianne and her younger sister Milaine to Los Angeles, living in a modest studio apartment near Hollywood. To make audition casting easier for English-speaking casting directors, she adopted the stage surname Larson after her great-grandmother's maiden name and her Kirsten Larson American Girl doll. She gained early professional experience performing in comedy sketches on 'The Tonight Show with Jay Leno' starting in 1998, followed by recurring roles in sitcoms like 'Raising Dad' (2001–2002) opposite Bob Saget and Kat Dennings.",
+      "In 2005, at age fifteen, she signed with Tommy Mottola's Casablanca Records and released her pop-rock album 'Finally Out of P.E.', featuring the self-penned single 'She Said'. She toured nationwide with Jesse McCartney before making a conscious artistic choice to step away from bubblegum pop and focus wholeheartedly on serious dramatic screen acting."
+    ],
+    "keyTakeaway": "Admitted to the American Conservatory Theater at age six, Larson navigated child acting and a teen pop-rock recording career before pursuing rigorous dramatic film roles."
+  },
+  {
+    "heading": "United States of Tara, Scott Pilgrim & Indie Breakthrough in Short Term 12 (2009–2014)",
+    "paragraphs": [
+      "Larson gained widespread critical notice between 2009 and 2011 portraying cynical, rebellious teenager Kate Gregson in Showtime's acclaimed drama 'United States of Tara', created by Diablo Cody and starring Toni Collette. In 2010, she won over cult cinema fans portraying arrogant indie-rock singer Envy Adams in Edgar Wright's 'Scott Pilgrim vs. the World', performing the dynamic vocal track for Metric's 'Black Sheep' herself, which became an enduring musical and visual touchstone.",
+      "She showcased comic timing as Jonah Hill's high school love interest in the commercial hit '21 Jump Street' (2012), but harbored ambitions for deeper dramatic storytelling. In 2013, director Destin Daniel Cretton cast Larson in the lead role of Grace Howard in the independent drama 'Short Term 12', following a passionate supervisor at a group home for troubled teenagers. Larson spent weeks shadowing residential facility staff to prepare for the role.",
+      "Her performance in 'Short Term 12' stunned film festival critics, winning the Locarno International Film Festival Best Actress Award and the Gotham Independent Film Award for Best Actress, establishing her as one of American independent cinema's finest young dramatic talents."
+    ],
+    "quote": {
+      "text": "I wanted to portray people who feel invisible in everyday life, to give them a voice that feels entirely honest and unvarnished.",
+      "source": "Brie Larson on authentic dramatic acting"
+    },
+    "keyTakeaway": "Larson earned cult acclaim in Scott Pilgrim vs. the World before her revelatory dramatic breakthrough in Short Term 12 established her serious dramatic range."
+  },
+  {
+    "heading": "Room: Emotional Intensity, Critical Sweeps & Academy Award Win (2015–2016)",
+    "paragraphs": [
+      "In 2015, director Lenny Abrahamson cast Larson as Joy 'Ma' Newsome in the film adaptation of Emma Donoghue's best-selling novel 'Room', depicting a young mother held captive for seven years in an enclosed garden shed alongside her five-year-old son Jack (played by Jacob Tremblay). To prepare physically and emotionally for the harrowing role, Larson isolated herself in her home for a month without internet or phone, consulted clinical trauma psychologists, and worked with a nutritionist to drop down to 12% body fat, capturing the physical deprivation of prolonged confinement.",
+      "Premiering at the Telluride Film Festival and Toronto International Film Festival, 'Room' provoked standing ovations and universal critical acclaim. Critics hailed Larson's performance as raw, devastating, and intensely authentic. Her extraordinary chemistry with young Tremblay anchored the film's second-half transition into the disorienting outside world.",
+      "During the 2015–2016 awards season, Larson achieved an astonishing clean sweep of every major acting honor: winning the Academy Award for Best Actress, BAFTA Award for Best Actress in a Leading Role, Golden Globe Award for Best Actress in a Motion Picture – Drama, and the Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Leading Role. At just twenty-six years old, Larson stood at the summit of global cinematic prestige."
+    ],
+    "quote": {
+      "text": "Room reminded me that human resilience is boundless. You can find love and light even inside the darkest, smallest spaces imaginable.",
+      "source": "Brie Larson on her Oscar-winning role"
+    },
+    "keyTakeaway": "Larson swept the Academy Award, BAFTA, Golden Globe, and SAG awards at age 26 for her devastating, authentic performance in Room."
+  },
+  {
+    "heading": "Captain Marvel: $1.1B Groundbreaker & Marvel Franchise Anchor (2017–2021)",
+    "paragraphs": [
+      "Transitioning from independent masterworks to global blockbuster scale, Larson starred in Legendary's monster adventure 'Kong: Skull Island' (2017), which grossed $568 Million globally. That same year, she made her feature directorial debut with the indie comedy 'Unicorn Store', premiering at TIFF and releasing on Netflix, showcasing her distinctive artistic voice behind the camera opposite Samuel L. Jackson.",
+      "In July 2016 at San Diego Comic-Con, Marvel Studios made the monumental announcement that Larson had been cast as Carol Danvers / Captain Marvel, the titular lead of Marvel's first solo female superhero film. Preparing for the grueling role, Larson underwent nine months of rigorous athletic training, mastering judo, boxing, and wrestling, and famously deadlifting over 400 pounds and pushing a 5,000-pound vehicle. She also visited Nellis Air Force Base to spend time with active-duty female fighter pilots, including Brigadier General Jeannie Leavitt.",
+      "Released in March 2019, 'Captain Marvel' shattered box office records, grossing $1.131 Billion worldwide and becoming the first female-led superhero film in history to cross the billion-dollar milestone. Weeks later, she reprised the role in 'Avengers: Endgame' (2019), which grossed an unprecedented $2.799 Billion worldwide. Her portrayal established Captain Marvel as an indispensable cosmic force and commercial titan within the Marvel Cinematic Universe."
+    ],
+    "keyTakeaway": "Larson made cinema history leading Captain Marvel to $1.131 Billion worldwide as the first female-led superhero film to pass the billion-dollar threshold, followed by $2.8B in Avengers: Endgame."
+  },
+  {
+    "heading": "Lessons in Chemistry: Emmy Honors, Production Banner & Creative Power (2022–2025)",
+    "paragraphs": [
+      "Rather than confining herself to studio franchises, Larson expanded her creative authority by taking on active producing roles. Under her production company, The Great Unknown Productions, she championed character-driven, socially resonant narratives.",
+      "In 2023, Larson executive produced and starred in Apple TV+'s flagship limited series 'Lessons in Chemistry', based on Bonnie Garmus' best-selling novel. Portraying Elizabeth Zott, a brilliant 1950s chemist forced out of academia who transforms a television cooking show into an educational vehicle for female autonomy and scientific literacy, Larson received glowing reviews. Her performance secured dual Primetime Emmy Award nominations for Outstanding Lead Actress in a Limited Series and Outstanding Limited Series as executive producer, alongside Golden Globe and SAG Award nominations.",
+      "In parallel, Larson returned to the big screen joining the high-octane ensemble of Universal's 'Fast X' (2023) as agency operative Tess, daughter of Mr. Nobody, helping the film gross over $704 Million worldwide. In 2023, Larson served as a distinguished member of the main competition jury at the 76th Cannes Film Festival, reinforcing her standing as an international cinematic arbiter."
+    ],
+    "keyTakeaway": "Larson earned dual Primetime Emmy nominations for producing and starring in Apple TV+'s Lessons in Chemistry, while expanding her production slate through The Great Unknown Productions."
+  },
+  {
+    "heading": "Cry Wolf, Super Mario Galaxy Movie & 2026 Cultural Standing (2025–2026)",
+    "paragraphs": [
+      "In 2025 and 2026, Larson diversified her career across prestige television, animation, and independent cinema. She teamed with Academy Award winner Olivia Colman to star in FX's psychological limited series 'Cry Wolf', drawing intense critical excitement following their showcase presentation at the Disney Upfront at the Javits Center in New York.",
+      "In spring 2026, Larson lent her expressive vocal talents to Nintendo and Illumination's animated tentpole 'The Super Mario Galaxy Movie', voicing the beloved cosmic guardian Princess Rosalina, following its high-profile world premiere in Kyoto, Japan.",
+      "In her personal life, Larson maintains a grounded, contemplative lifestyle in Los Angeles, valuing privacy, reading, outdoor adventure, and creative autonomy following past long-term relationships with Alex Greenwald and Elijah Allan-Blitz. With an audited personal net worth of $25.0 Million USD (Forbes & Industry Consensus Filings), Larson stands in late 2026 as a premier talent of her generation—an Oscar winner, Emmy-nominated producer, director, and $1.1B box office trailblazer who continuously charts her own artistic course."
+    ],
+    "keyTakeaway": "In 2026, Larson commands a $25M net worth, stars opposite Olivia Colman in FX's Cry Wolf, voices Rosalina in The Super Mario Galaxy Movie, and maintains her standing as a respected Oscar winner and producer."
+  }
+]
 };

@@ -777,4 +777,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       "description": "Supported non-profit initiatives installing resilient solar energy and battery storage systems on fire and police stations in Puerto Rico after Hurricane Maria to safeguard disaster communications."
     }
   ]
+,
+  "brie-larson": [
+  {
+    "organizationOrCause": "Time's Up Legal Defense Fund",
+    "focusArea": "Workplace Equality & Legal Support for Harassment Victims",
+    "verifiedContribution": "Founding Signatory & $100,000+ Founding Donor",
+    "description": "Helped launch the historic initiative at the 2018 Golden Globe Awards to provide subsidized legal defense for women facing workplace discrimination and sexual misconduct."
+  },
+  {
+    "organizationOrCause": "Women in Film & The 4% Challenge",
+    "focusArea": "Gender Equity & Directorial Inclusivity in Cinema",
+    "verifiedContribution": "Keynote Advocate & Industry Leadership Pledge",
+    "description": "Championed the 4% Challenge at the Sundance Film Festival, urging major film studios to commit to hiring female directors within eighteen months."
+  },
+  {
+    "organizationOrCause": "Feeding America & Regional Food Banks",
+    "focusArea": "Domestic Food Insecurity & Community Relief",
+    "verifiedContribution": "Charity Auction Benefactor & Emergency Relief Donor",
+    "description": "Consistently partners with national hunger relief networks, funding community food banks in Los Angeles and Sacramento during economic emergencies."
+  },
+  {
+    "organizationOrCause": "The Art of Elysium",
+    "focusArea": "Arts Therapy for Hospitalized Children",
+    "verifiedContribution": "Volunteer Artist & Annual Gala Supporter",
+    "description": "Longtime volunteer spending time working with pediatric patients using drama, visual arts, and music therapy to support emotional recovery."
+  }
+]
 };

@@ -3832,4 +3832,131 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       }
     ]
   }
+,
+  "brie-larson": {
+  "salaryMilestones": [
+    {
+      "project": "Short Term 12",
+      "year": 2013,
+      "salary": "$15,000 USD Base Salary",
+      "boxOfficeOrBudget": "$1.0 Million USD Budget / $2.3 Million Box Office",
+      "notes": "Accepted nominal indie scale to collaborate with director Destin Daniel Cretton on the breakthrough drama."
+    },
+    {
+      "project": "Room",
+      "year": 2015,
+      "salary": "$250,000 USD Upfront",
+      "boxOfficeOrBudget": "$13.0 Million Budget / $36.3 Million Box Office",
+      "notes": "Indie agreement yielded an Academy Award for Best Actress and career-defining international visibility."
+    },
+    {
+      "project": "Kong: Skull Island",
+      "year": 2017,
+      "salary": "$1.5 Million USD Upfront",
+      "boxOfficeOrBudget": "$185.0 Million Budget / $568.7 Million Box Office",
+      "notes": "First high-budget studio tentpole contract following her Oscar victory."
+    },
+    {
+      "project": "Captain Marvel",
+      "year": 2019,
+      "salary": "$5.0 Million USD Base + Backend Bonuses",
+      "boxOfficeOrBudget": "$160.0 Million Budget / $1.131 Billion Worldwide Box Office",
+      "notes": "Secured landmark initial superhero payday for a first-time solo Marvel headliner, surpassing initial pay of Chris Evans and Robert Downey Jr."
+    },
+    {
+      "project": "Avengers: Endgame",
+      "year": 2019,
+      "salary": "$10.0 Million USD Total Compensation",
+      "boxOfficeOrBudget": "$356.0 Million Budget / $2.799 Billion Worldwide Box Office",
+      "notes": "Commanded substantial ensemble fee and worldwide box office profit points for the climatic Marvel ensemble."
+    },
+    {
+      "project": "Fast X",
+      "year": 2023,
+      "salary": "$4.0 Million USD Upfront",
+      "boxOfficeOrBudget": "$340.0 Million Budget / $704.9 Million Box Office",
+      "notes": "Joined Universal's flagship racing franchise in a featured guest lead role as Tess."
+    },
+    {
+      "project": "Lessons in Chemistry",
+      "year": 2023,
+      "salary": "$8.0 Million USD (Actor Fee & Executive Producer Package)",
+      "boxOfficeOrBudget": "Apple TV+ Prestige Limited Series",
+      "notes": "Negotiated dual compensation covering eight episodes as titular star and executive producer, earning two Primetime Emmy nominations."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Los Feliz Historic Craftsman Estate",
+      "location": "Los Feliz, Los Angeles, California, United States",
+      "purchasedYear": "2019",
+      "purchasePrice": "$3.4 Million USD",
+      "currentEstimatedValue": "$4.8 Million USD",
+      "description": "Classic 1948 mid-century residence spanning 3,583 square feet on a secluded hillside lot with swimming pool and lush landscaping."
+    },
+    {
+      "property": "Malibu Canyon Foothills Compound",
+      "location": "Malibu, California, United States",
+      "purchasedYear": "2020",
+      "purchasePrice": "$2.25 Million USD",
+      "currentEstimatedValue": "$3.5 Million USD",
+      "description": "Private rustic compound surrounded by protected Santa Monica Mountains parkland, serving as a creative retreat."
+    },
+    {
+      "property": "Woodland Hills Suburban Home",
+      "location": "San Fernando Valley, California, United States",
+      "purchasedYear": "2013",
+      "purchasePrice": "$885,000 USD",
+      "currentEstimatedValue": "$1.75 Million USD",
+      "description": "First residential purchase acquired following the critical success of Short Term 12, later utilized as family real estate."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "The Great Unknown Productions",
+      "role": "Founder & Principal Producer",
+      "valuationOrRevenue": "$15.0M+ Active Production Pipeline",
+      "description": "Boutique production company developing socially resonant films and television series, including Apple TV+'s Lessons in Chemistry and unscripted docuseries Growing Up."
+    },
+    {
+      "name": "Digital Media & Podcast Network ('Learning Lots')",
+      "role": "Co-Creator, Host & Producer",
+      "valuationOrRevenue": "Multi-Platform Digital Presence",
+      "description": "Launched interactive YouTube channel with 600K+ subscribers and co-hosted the candid intellectual podcast Learning Lots alongside actor Jessie Ennis."
+    },
+    {
+      "name": "Luxury Endorsements & Brand Ambassadorships",
+      "role": "Global Campaign Face",
+      "valuationOrRevenue": "$12.0M+ Cumulative Contract Value",
+      "description": "High-profile international partnership with luxury fashion house Celine, Nintendo Switch commercial campaigns, and Nissan Super Bowl automotive marketing."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2013",
+      "estimatedNetWorth": "$500,000 USD",
+      "milestoneDescription": "Independent critical recognition from Short Term 12 and United States of Tara."
+    },
+    {
+      "period": "2016",
+      "estimatedNetWorth": "$3.0 Million USD",
+      "milestoneDescription": "Academy Award Best Actress win for Room and entry into major studio casting."
+    },
+    {
+      "period": "2019",
+      "estimatedNetWorth": "$15.0 Million USD",
+      "milestoneDescription": "Captain Marvel $1.1B box office success, Avengers: Endgame salary, and commercial endorsements."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$20.0 Million USD",
+      "milestoneDescription": "Lessons in Chemistry Apple TV+ executive producer fee and Fast X contract."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$25.0 Million USD",
+      "milestoneDescription": "Consolidated financial standing bolstered by The Great Unknown Productions slate, Super Mario Galaxy Movie, FX's Cry Wolf, and California real estate appreciation."
+    }
+  ]
+}
 };

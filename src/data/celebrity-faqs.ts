@@ -1661,4 +1661,95 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "answer": "Her upcoming slate includes headlining Universal's 'Jurassic World Rebirth' (2025), expanding theatrical distribution for her directorial debut 'Eleanor the Great', producing top-secret non-Black Widow projects for Marvel Studios, and starring alongside Penelope Cruz and Michael Fassbender in Nancy Meyers' high-profile romantic comedy project."
     }
   ]
+,
+  "brie-larson": [
+  {
+    "question": "What is Brie Larson's verified net worth in 2026?",
+    "answer": "Brie Larson holds an audited personal net worth of $25.0 Million USD (Forbes & Industry Consensus Filings). Her wealth is founded on major Marvel Studios blockbuster earnings—including an initial $5 Million base fee for 'Captain Marvel' and backend bonuses for 'Avengers: Endgame'—alongside multi-million dollar television packages ($8 Million for Apple TV+'s 'Lessons in Chemistry'), premium brand ambassadorships with Celine, Nissan, and Nintendo, and prime Los Angeles real estate holdings."
+  },
+  {
+    "question": "How old is Brie Larson and what is her exact birthdate?",
+    "answer": "Brie Larson is 37 years old as of October 2026. She was born on October 1, 1989, in Sacramento, California."
+  },
+  {
+    "question": "How tall is Brie Larson and what are her physical measurements?",
+    "answer": "Brie Larson stands 5 feet 7 inches (170 cm) tall. During her peak training regimen for 'Captain Marvel' and 'The Marvels', Larson trained with elite fitness coach Jason Walsh, building functional athletic strength to deadlift over 400 pounds and perform weighted pull-ups."
+  },
+  {
+    "question": "What is Brie Larson's real legal name and ethnicity?",
+    "answer": "Brie Larson was born Brianne Sidonie Desaulniers. She is of French-Canadian heritage on her father's side and American ancestry on her mother's side. French was her first spoken language during early childhood. She adopted the stage surname Larson after her great-grandmother's Swedish maiden name and the Kirsten Larson American Girl doll to make pronunciation easier for English casting directors."
+  },
+  {
+    "question": "Did Brie Larson win an Oscar? For which movie?",
+    "answer": "Yes. Brie Larson won the Academy Award for Best Actress at the 88th Academy Awards in 2016 for her extraordinary performance as Joy 'Ma' Newsome in Lenny Abrahamson's drama 'Room' (2015). At age 26, she swept the entire awards season, also taking home the BAFTA Award, Golden Globe Award, Critics' Choice Award, and Screen Actors Guild Award."
+  },
+  {
+    "question": "How much did Brie Larson make from playing Captain Marvel in the MCU?",
+    "answer": "Larson earned an upfront base salary of $5.0 Million USD for 'Captain Marvel' (2019)—setting a record at the time for the highest debut payout for a first-time solo superhero lead in Marvel Cinematic Universe history. With global box office bonuses from its $1.131 Billion theatrical gross, plus an estimated $10 Million package for 'Avengers: Endgame' and subsequent compensation for 'The Marvels' (2023), her cumulative Marvel earnings exceed $30 Million."
+  },
+  {
+    "question": "Will Brie Larson return as Captain Marvel in Avengers: Doomsday or Secret Wars?",
+    "answer": "While Marvel Studios keeps tight security around future ensemble rosters, Larson has reiterated her enduring passion for Carol Danvers. In discussions regarding upcoming Marvel Phases and Multiverse climaxes, industry insiders expect Carol Danvers to serve as a central cosmic anchor in the forthcoming 'Avengers' crossover events."
+  },
+  {
+    "question": "Is Brie Larson married? What is her relationship history?",
+    "answer": "No, Brie Larson is not married. She was previously in a high-profile multi-year engagement with Phantom Planet frontman and musician Alex Greenwald from 2013 to early 2019. Following their amicable separation, she dated virtual reality director and actor Elijah Allan-Blitz from 2019 until early 2023. She currently keeps her dating life private and resides in Los Angeles."
+  },
+  {
+    "question": "Who was Brie Larson engaged to? Why did she and Alex Greenwald break up?",
+    "answer": "Brie Larson was engaged to musician Alex Greenwald, the lead singer of rock band Phantom Planet. The couple began dating in 2013 and became engaged during a trip to Tokyo in May 2016. In January 2019, after more than five years together, the couple mutually called off their engagement on friendly terms, choosing to focus on their respective creative careers while remaining supportive friends."
+  },
+  {
+    "question": "Who is Elijah Allan-Blitz and what was his relationship with Brie Larson?",
+    "answer": "Elijah Allan-Blitz is an Emmy Award-winning virtual reality director and actor. He and Larson began dating in 2019 and collaborated professionally on 'The Messy Truth VR Experience', which earned a Primetime Emmy Award for Outstanding Interactive Media in 2020. The couple attended the 92nd Academy Awards together and dated for nearly four years before amicably ending their relationship in early 2023."
+  },
+  {
+    "question": "Does Brie Larson have children?",
+    "answer": "No, Brie Larson does not have children. She maintains a focused professional life centered around feature directing, prestige producing, acting, and philanthropy."
+  },
+  {
+    "question": "What was Brie Larson's role and acclaim in Lessons in Chemistry?",
+    "answer": "Larson executive produced and starred as Elizabeth Zott in Apple TV+'s eight-part drama 'Lessons in Chemistry' (2023), adapted from Bonnie Garmus' novel. Portraying a 1950s research chemist who becomes an unconventional television cooking host teaching women chemistry, Larson earned dual Primetime Emmy nominations (Outstanding Lead Actress in a Limited Series and Outstanding Limited Series), as well as Golden Globe, SAG, and Critics' Choice nominations."
+  },
+  {
+    "question": "Did Brie Larson win an Emmy Award?",
+    "answer": "Yes. Brie Larson won a Primetime Emmy Award in 2020 in the category of Outstanding Innovation in Interactive Media for producing 'The Messy Truth VR Experience', an immersive educational virtual reality project created with Elijah Allan-Blitz and Van Jones."
+  },
+  {
+    "question": "What was Brie Larson's breakthrough movie in independent cinema?",
+    "answer": "Larson's definitive independent breakthrough was the 2013 drama 'Short Term 12', directed by Destin Daniel Cretton. Playing Grace Howard, a supervisor at a residential treatment center for vulnerable youth, Larson's raw, authentic performance won Best Actress honors at the Locarno International Film Festival and the Gotham Independent Film Awards, putting her on the path to star in 'Room'."
+  },
+  {
+    "question": "What song did Brie Larson sing in Scott Pilgrim vs. the World?",
+    "answer": "Larson portrayed rock star Envy Adams, frontwoman of the band The Clash at Demonhead, in Edgar Wright's 2010 cult favorite 'Scott Pilgrim vs. the World'. She sang the electrifying track 'Black Sheep', originally written and recorded by the Canadian indie rock band Metric. Her performance became a massive viral sensation, leading ABKCO to officially release her vocal version on music streaming platforms in 2021."
+  },
+  {
+    "question": "Did Brie Larson have a singing career as a teen pop star?",
+    "answer": "Yes. In 2005, at age fifteen, Larson released a teen pop-rock album titled 'Finally Out of P.E.' through Casablanca Records. The album featured the single 'She Said', which she performed on TRL and toured across the United States opening for pop artist Jesse McCartney, before she decided to prioritize film and dramatic acting."
+  },
+  {
+    "question": "What movies has Brie Larson directed?",
+    "answer": "Larson co-directed two acclaimed short films: 'Weighting' (2011), which won a Special Jury Prize at SXSW, and 'The Arm' (2012), which won the Special Jury Award for Short Film Comedy at Sundance. She made her feature directorial debut with the 2017 fantasy comedy-drama 'Unicorn Store', starring alongside Samuel L. Jackson and Joan Cusack, which premiered at the Toronto International Film Festival and streamed on Netflix."
+  },
+  {
+    "question": "What is Brie Larson's role in the FX series Cry Wolf?",
+    "answer": "In 2025 and 2026, Larson stars alongside Academy Award winner Olivia Colman in FX's psychological drama series 'Cry Wolf'. The limited series features intense dramatic sparring between the two acclaimed actresses and debuted promotional showcases at Disney Upfront at the Javits Center in New York."
+  },
+  {
+    "question": "Who does Brie Larson voice in The Super Mario Galaxy Movie?",
+    "answer": "Brie Larson voices the iconic character Princess Rosalina in Nintendo and Illumination's animated feature 'The Super Mario Galaxy Movie' (2026). As the cosmic protector of the Lumas and commander of the Comet Observatory, Larson brings royal warmth and ethereal depth to the beloved video game character."
+  },
+  {
+    "question": "Where does Brie Larson live now?",
+    "answer": "Brie Larson primarily resides in Los Angeles, California. Her properties include a secluded mid-century modern home in Los Feliz purchased for $3.4 Million in 2019, as well as a rustic mountain retreat in the Malibu canyon foothills acquired in 2020."
+  },
+  {
+    "question": "What did Brie Larson say in her famous 2018 speech about film critics?",
+    "answer": "In June 2018 at the Women in Film Crystal + Lucy Awards, Larson delivered a viral keynote address addressing the lack of diversity among film critics, highlighting USC Annenberg data that showed over 67% of top reviewers were white men. She emphasized that diverse films deserve diverse critical perspectives, famously stating that films should be critiqued by the communities for whom they were made. Her advocacy catalyzed expanded press inclusion policies at film festivals worldwide."
+  },
+  {
+    "question": "What are Brie Larson's highest-grossing movies of all time?",
+    "answer": "Her top-grossing films include 'Avengers: Endgame' ($2.799 Billion), 'Captain Marvel' ($1.131 Billion), 'Fast X' ($704.9 Million), 'Kong: Skull Island' ($568.7 Million), 'The Marvels' ($206.1 Million), and 'Trainwreck' ($140.8 Million), cementing her status as one of cinema's premier global box office anchors."
+  }
+]
 };

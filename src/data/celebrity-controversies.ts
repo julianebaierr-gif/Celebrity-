@@ -501,4 +501,25 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       "impactAnalysis": "Her decision to withdraw and reflect openly helped accelerate casting reforms across Hollywood, underscoring the vital importance of authentic representation in narrative cinema."
     }
   ]
+,
+  "brie-larson": [
+  {
+    "incident": "2018 Crystal + Lucy Awards Press Inclusivity Speech",
+    "year": "2018",
+    "resolutionOrOutcome": "In June 2018, while accepting the Crystal Award at the Women in Film Crystal + Lucy Awards, Larson delivered a passionate speech citing USC Annenberg Inclusion Initiative research showing that 67% of top film critics were white men, stating famously, 'I do not need a 40-year-old white dude to tell me what did not work for him about A Wrinkle in Time. It was not made for him.' Her remarks sparked intense online debates and coordinated review-bombing campaigns targeting Captain Marvel before its release.",
+    "impactAnalysis": "Larson clarified that she advocated adding more seats to the journalistic table rather than removing existing ones. Her advocacy accelerated official press inclusion initiatives at major festivals, including Sundance and TIFF."
+  },
+  {
+    "incident": "Casey Affleck Oscar Presentation Silence",
+    "year": "2017",
+    "resolutionOrOutcome": "At the 89th Academy Awards in 2017, as reigning Best Actress, Larson was tasked with presenting the Oscar for Best Actor to Casey Affleck for Manchester by the Sea. Following prior settled sexual harassment allegations against Affleck, Larson handed him the statuette but visibly declined to clap, standing stoically with her hands by her side as the auditorium applauded.",
+    "impactAnalysis": "Her principled, dignified silent stance became a viral moment of quiet resistance, praised widely by advocates as an authentic demonstration of solidarity with survivors."
+  },
+  {
+    "incident": "Social Media NFT Endorsement & Creative Recalibration",
+    "year": "2022",
+    "resolutionOrOutcome": "In February 2022, Larson shared a post showcasing a digital non-fungible token (NFT) from a women-led project, encouraging female participation in emerging technology. The post sparked swift backlash from fans and environmental advocates concerned with crypto energy consumption. Rather than arguing or escalating tension, Larson listened to community feedback, ceased promoting Web3 projects, and redirected her digital channels toward educational discussions and book recommendations.",
+    "impactAnalysis": "The controversy demonstrated her willingness to respect audience sentiment and recalibrate her public messaging without defensive conflict."
+  }
+]
 };
