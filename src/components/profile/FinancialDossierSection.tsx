@@ -86,7 +86,7 @@ export default function FinancialDossierSection({
         {realEstateAssets.length > 0 && (
           <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
             <div className="flex items-center gap-2.5 mb-2">
-              <div className="p-2 rounded-xl bg-indigo-50 text-indigo-700 border border-indigo-100">
+              <div className="p-2 rounded-xl bg-amber-500/10 text-amber-700 border border-amber-200/60">
                 <Home className="h-5 w-5" />
               </div>
               <h3 className="text-base sm:text-lg font-bold text-slate-900 tracking-tight">
@@ -97,62 +97,84 @@ export default function FinancialDossierSection({
               Deed registrations, purchase valuations, and current estimated market equity.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch">
+            <div
+              className={`grid grid-cols-1 ${
+                realEstateAssets.length === 3
+                  ? "md:grid-cols-2 lg:grid-cols-3"
+                  : "md:grid-cols-2"
+              } gap-5 items-stretch`}
+            >
               {realEstateAssets.map((asset, idx) => (
                 <div
                   key={idx}
-                  className="group rounded-2xl border border-slate-200/90 bg-white p-5 sm:p-6 shadow-xs hover:border-emerald-400 hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+                  className="group relative rounded-2xl border border-slate-200/90 bg-white p-5 sm:p-6 shadow-xs hover:border-amber-400/90 hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden"
                 >
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-emerald-400 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  
                   <div>
-                    {/* Header: Title + Location & Current Estimated Value Badge */}
-                    <div className="flex items-start justify-between gap-3 mb-2">
-                      <div className="flex-1 min-w-0">
-                        <h4 className="font-bold text-slate-900 text-base tracking-tight leading-snug group-hover:text-emerald-950 transition-colors">
-                          {asset.property}
-                        </h4>
-                        <div className="flex items-center gap-1.5 text-xs text-slate-500 font-medium mt-1">
-                          <MapPin className="h-3.5 w-3.5 text-slate-400 shrink-0" aria-hidden="true" />
-                          <span className="truncate">{asset.location}</span>
-                        </div>
-                      </div>
-                      <span className="shrink-0 inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200/80 font-mono font-bold text-xs shadow-2xs">
-                        {asset.currentEstimatedValue.startsWith("Est.")
-                          ? asset.currentEstimatedValue
-                          : `Est. ${asset.currentEstimatedValue}`}
+                    {/* Top Row: Asset Tag + Estimated Value Pill */}
+                    <div className="flex items-center justify-between gap-2 mb-3.5 flex-wrap">
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-50 text-amber-800 text-[11px] font-bold uppercase tracking-wider border border-amber-200/60">
+                        <Home className="h-3 w-3 text-amber-600" aria-hidden="true" />
+                        <span>Property Asset</span>
+                      </span>
+
+                      <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200/90 font-mono font-bold text-xs shadow-2xs">
+                        <span className="relative flex h-2 w-2">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                          <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                        </span>
+                        <span>
+                          {asset.currentEstimatedValue.startsWith("Est.")
+                            ? asset.currentEstimatedValue
+                            : `Est. ${asset.currentEstimatedValue}`}
+                        </span>
                       </span>
                     </div>
 
-                    {/* Structured 2-Column Key Financial Stats Box */}
-                    <div className="grid grid-cols-2 gap-2.5 my-3.5 p-3 rounded-xl bg-slate-50/90 border border-slate-100 text-xs">
-                      <div>
-                        <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">
+                    {/* Property Title & Clean Untruncated Location */}
+                    <h4 className="font-black text-slate-900 text-base sm:text-lg tracking-tight leading-snug group-hover:text-amber-900 transition-colors">
+                      {asset.property}
+                    </h4>
+                    <div className="flex items-start gap-1.5 text-xs text-slate-500 font-medium mt-1.5 leading-relaxed">
+                      <MapPin className="h-3.5 w-3.5 text-slate-400 shrink-0 mt-0.5" aria-hidden="true" />
+                      <span>{asset.location}</span>
+                    </div>
+
+                    {/* Structured Key Financial Stats Box with Divider */}
+                    <div className="grid grid-cols-2 gap-3 my-4 p-3.5 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/70 border border-slate-200/80 divide-x divide-slate-200 text-xs">
+                      <div className="pr-3">
+                        <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-0.5">
                           Acquired
                         </span>
-                        <span className="font-bold text-slate-800 font-mono text-xs sm:text-sm">
+                        <span className="font-extrabold text-slate-900 font-mono text-sm sm:text-base">
                           {asset.purchasedYear}
                         </span>
                       </div>
-                      <div>
-                        <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">
+                      <div className="pl-3">
+                        <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-0.5">
                           Acquisition Price
                         </span>
-                        <span className="font-bold text-slate-800 font-mono text-xs sm:text-sm">
+                        <span className="font-extrabold text-emerald-700 font-mono text-sm sm:text-base">
                           {asset.purchasePrice}
                         </span>
                       </div>
                     </div>
 
                     {/* Architectural & Asset Description */}
-                    <p className="text-xs text-slate-600 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                       {asset.description}
                     </p>
                   </div>
 
                   {/* Audited Registry Verification Footer */}
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+                  <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                     <span className="flex items-center gap-1.5 font-medium">
                       <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 shrink-0" aria-hidden="true" />
                       <span>Verified County Deed &amp; Assessment Records</span>
+                    </span>
+                    <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider font-semibold hidden sm:inline-block">
+                      Public Record
                     </span>
                   </div>
                 </div>
@@ -165,7 +187,7 @@ export default function FinancialDossierSection({
         {businessVentures.length > 0 && (
           <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
             <div className="flex items-center gap-2.5 mb-2">
-              <div className="p-2 rounded-xl bg-blue-50 text-blue-700 border border-blue-100">
+              <div className="p-2 rounded-xl bg-blue-500/10 text-blue-700 border border-blue-200/60">
                 <Building2 className="h-5 w-5" />
               </div>
               <h3 className="text-base sm:text-lg font-bold text-slate-900 tracking-tight">
@@ -176,38 +198,55 @@ export default function FinancialDossierSection({
               Production banners, venture capital syndicates, and commercial brand stakes.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch">
+            <div
+              className={`grid grid-cols-1 ${
+                businessVentures.length === 3
+                  ? "md:grid-cols-2 lg:grid-cols-3"
+                  : "md:grid-cols-2"
+              } gap-5 items-stretch`}
+            >
               {businessVentures.map((venture, idx) => (
                 <div
                   key={idx}
-                  className="group rounded-2xl border border-slate-200/90 bg-white p-5 sm:p-6 shadow-xs hover:border-blue-400 hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+                  className="group relative rounded-2xl border border-slate-200/90 bg-white p-5 sm:p-6 shadow-xs hover:border-blue-400/90 hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden"
                 >
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-400 via-indigo-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
                   <div>
-                    <div className="flex items-start justify-between gap-3 mb-2">
-                      <h4 className="font-bold text-slate-900 text-base tracking-tight leading-snug group-hover:text-blue-950 transition-colors">
-                        {venture.name}
-                      </h4>
+                    {/* Top Row: Role Pill + Valuation Badge */}
+                    <div className="flex items-center justify-between gap-2 mb-3.5 flex-wrap">
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-blue-50 text-blue-800 text-[11px] font-bold uppercase tracking-wider border border-blue-200/60">
+                        <Briefcase className="h-3 w-3 text-blue-600 shrink-0" aria-hidden="true" />
+                        <span>Role: {venture.role}</span>
+                      </span>
+
                       {venture.valuationOrRevenue && (
-                        <span className="shrink-0 inline-flex items-center px-2.5 py-1 rounded-lg bg-blue-50 text-blue-700 border border-blue-200/80 font-mono font-bold text-xs shadow-2xs">
-                          {venture.valuationOrRevenue}
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-800 border border-blue-200/90 font-mono font-bold text-xs shadow-2xs">
+                          <span className="relative flex h-2 w-2">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                          </span>
+                          <span>{venture.valuationOrRevenue}</span>
                         </span>
                       )}
                     </div>
-                    <div className="my-2.5">
-                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 text-[11px] font-semibold uppercase tracking-wider">
-                        <Briefcase className="h-3 w-3 text-slate-500 shrink-0" aria-hidden="true" />
-                        <span>Role: {venture.role}</span>
-                      </span>
-                    </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
+
+                    <h4 className="font-black text-slate-900 text-base sm:text-lg tracking-tight leading-snug group-hover:text-blue-950 transition-colors">
+                      {venture.name}
+                    </h4>
+
+                    <p className="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
                       {venture.description}
                     </p>
                   </div>
 
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+                  <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                     <span className="flex items-center gap-1.5 font-medium">
                       <CheckCircle2 className="h-3.5 w-3.5 text-blue-600 shrink-0" aria-hidden="true" />
                       <span>Commercial Registry &amp; Public Disclosures</span>
+                    </span>
+                    <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider font-semibold hidden sm:inline-block">
+                      Verified
                     </span>
                   </div>
                 </div>
@@ -220,7 +259,7 @@ export default function FinancialDossierSection({
         {wealthProgression.length > 0 && (
           <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
             <div className="flex items-center gap-2.5 mb-2">
-              <div className="p-2 rounded-xl bg-amber-50 text-amber-700 border border-amber-100">
+              <div className="p-2 rounded-xl bg-amber-500/10 text-amber-700 border border-amber-200/60">
                 <TrendingUp className="h-5 w-5" />
               </div>
               <h3 className="text-base sm:text-lg font-bold text-slate-900 tracking-tight">
