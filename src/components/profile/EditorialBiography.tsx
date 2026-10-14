@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { BiographySection } from "@/data/celebrities";
-import { Quote } from "lucide-react";
+import { Quote, BookOpen } from "lucide-react";
 import { injectNaturalInternalLinks } from "@/lib/system4-internal-link-engine";
 
 interface EditorialBiographyProps {
@@ -64,9 +64,12 @@ export default function EditorialBiography({
   }, [sections, celebritySlug]);
 
   return (
-    <section id="biographical-retrospective" className="my-12">
+    <section id="biographical-retrospective" className="my-12 scroll-mt-20">
       {/* Section Header */}
-      <div className="mb-2">
+      <div className="flex items-center gap-2.5 mb-2">
+        <div className="p-2 rounded-xl bg-amber-500/10 text-amber-700 border border-amber-200/60">
+          <BookOpen className="h-5 w-5" />
+        </div>
         <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
           {celebrityName}: Full Biography &amp; Career Analysis
         </h2>
@@ -76,21 +79,33 @@ export default function EditorialBiography({
       </p>
 
       {/* Chapters Container */}
-      <div className="space-y-10">
+      <div className="space-y-8 sm:space-y-10">
         {processedSections.map((section, idx) => (
           <article
             key={idx}
-            className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-9 shadow-xs hover:border-slate-300 transition-colors"
+            className="group relative rounded-2xl border border-slate-200/90 bg-white p-6 sm:p-9 shadow-xs hover:border-amber-400/80 hover:shadow-xl transition-all duration-300 overflow-hidden"
           >
-            {/* Title without badges or chapter numbers */}
-            <div className="mb-4">
-              <h3 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
+            {/* Top Accent Highlight Line on Hover */}
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+            {/* Structured Chapter Header with Category Pill and Divider */}
+            <div className="pb-4 mb-6 border-b border-slate-100">
+              <div className="flex items-center justify-between gap-2 mb-2.5 flex-wrap">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-50 text-amber-800 text-[11px] font-bold uppercase tracking-wider border border-amber-200/60">
+                  <span className="h-1.5 w-1.5 rounded-full bg-amber-600" />
+                  Biographical Epoch
+                </span>
+                <span className="text-[10px] font-mono font-semibold uppercase tracking-wider text-slate-400 bg-slate-50 px-2 py-0.5 rounded border border-slate-200/60 hidden sm:inline-block">
+                  Verified Analysis
+                </span>
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-black text-slate-900 tracking-tight leading-snug group-hover:text-amber-950 transition-colors">
                 {section.heading}
               </h3>
             </div>
 
-            {/* Paragraphs with Drop Cap on First Chapter */}
-            <div className="space-y-4 text-slate-700 text-sm sm:text-[15px] leading-relaxed font-normal">
+            {/* Paragraphs with Breathing Space and Editorial Typography */}
+            <div className="space-y-5 text-slate-600 text-sm sm:text-base leading-relaxed sm:leading-[1.8] font-normal">
               {section.paragraphs.map((p, pIdx) => {
                 const isFirst = idx === 0 && pIdx === 0;
                 return (
@@ -108,28 +123,37 @@ export default function EditorialBiography({
               })}
             </div>
 
-            {/* Optional Pull Quote */}
+            {/* Editorial Pull Quote */}
             {section.quote && (
-              <figure className="my-6 rounded-xl bg-slate-50/80 border-l-4 border-amber-500 p-5 shadow-2xs">
-                <div className="flex items-start gap-3">
-                  <Quote className="h-5 w-5 text-amber-600 shrink-0 mt-0.5" />
-                  <div>
-                    <blockquote className="italic text-slate-800 text-sm sm:text-[15px] font-serif leading-relaxed">
+              <figure className="my-7 rounded-2xl bg-gradient-to-br from-amber-50/40 via-slate-50/60 to-white border border-amber-200/70 p-5 sm:p-6 shadow-xs relative overflow-hidden">
+                <div className="flex items-start gap-3.5">
+                  <div className="p-2 rounded-xl bg-amber-500/10 text-amber-600 border border-amber-200/60 shrink-0">
+                    <Quote className="h-4 w-4" aria-hidden="true" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <blockquote className="italic text-slate-800 text-sm sm:text-base font-serif leading-relaxed">
                       &ldquo;{section.quote.text}&rdquo;
                     </blockquote>
-                    <figcaption className="text-xs font-semibold text-slate-500 mt-2">
-                      — {section.quote.source}
+                    <figcaption className="text-xs font-bold text-amber-900 mt-2.5 flex items-center gap-1.5">
+                      <span className="h-1 w-3 rounded-full bg-amber-500" />
+                      <span>{section.quote.source}</span>
                     </figcaption>
                   </div>
                 </div>
               </figure>
             )}
 
-            {/* Optional Key Takeaway Callout */}
+            {/* Key Takeaway Callout */}
             {section.keyTakeaway && (
-              <div className="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-600 leading-relaxed">
-                <span className="font-bold text-slate-900">Key Takeaway: </span>
-                <span>{section.keyTakeaway}</span>
+              <div className="mt-7 pt-4 border-t border-slate-100">
+                <div className="p-3.5 sm:p-4 rounded-xl bg-slate-50/90 border border-slate-200/80 flex items-start gap-3">
+                  <span className="shrink-0 px-2 py-0.5 rounded bg-slate-900 text-white font-mono font-bold text-[10px] uppercase tracking-wider mt-0.5 shadow-2xs">
+                    Takeaway
+                  </span>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
+                    {section.keyTakeaway}
+                  </p>
+                </div>
               </div>
             )}
           </article>
