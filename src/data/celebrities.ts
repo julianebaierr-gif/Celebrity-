@@ -336,7 +336,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0000347/",
       "wikipedia": "https://en.wikipedia.org/wiki/Tim_Curry",
-      "wikidata": "https://www.wikidata.org/wiki/Q5299"
+      "wikidata": "https://www.wikidata.org/wiki/Q5299",
+      "instagram": "https://www.instagram.com/officialtimcurry/"
     },
     "editorialMetadata": {
       "authorName": "Sarah Jenkins",
@@ -5417,7 +5418,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm2225369/",
       "wikipedia": "https://en.wikipedia.org/wiki/Jennifer_Lawrence",
-      "wikidata": "https://www.wikidata.org/wiki/Q189490"
+      "wikidata": "https://www.wikidata.org/wiki/Q189490",
+      "instagram": "https://www.instagram.com/jlaw/"
     },
     "editorialMetadata": {
       "authorName": "Elena Rostova",
@@ -7060,8 +7062,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm8624059/",
       "wikipedia": "https://en.wikipedia.org/wiki/Jacob_Elordi",
-      "wikidata": "https://www.wikidata.org/wiki/Q53909401",
-      "instagram": "https://www.instagram.com/jacobelordi/"
+      "wikidata": "https://www.wikidata.org/wiki/Q53909401"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
@@ -8089,8 +8090,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "sameAs": {
       "imdb": "https://www.imdb.com/name/nm0262635/",
       "wikipedia": "https://en.wikipedia.org/wiki/Chris_Evans_(actor)",
-      "wikidata": "https://www.wikidata.org/wiki/Q178348",
-      "instagram": "https://www.instagram.com/chrisevans/"
+      "wikidata": "https://www.wikidata.org/wiki/Q178348"
     },
     "editorialMetadata": {
       "authorName": "Marcus Vance",
