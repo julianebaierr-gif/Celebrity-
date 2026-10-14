@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-13T15:00:00.000Z",
-  "totalUniqueImages": 82,
+  "lastUpdated": "2026-10-14T10:00:00.000Z",
+  "totalUniqueImages": 84,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -612,6 +612,22 @@
       "pageSlug": "chris-evans",
       "assignedAt": "2026-10-13T15:00:00.000Z",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sara_Komatsu_Chris_Evans.jpg (Sara Komatsu / WikiPortraits / Wikimedia Commons / CC BY-SA 4.0)"
+    },
+    "/images/celebrities/scarlett-johansson-hero.webp": {
+      "filePath": "/images/celebrities/scarlett-johansson-hero.webp",
+      "entity": "scarlett-johansson",
+      "placement": "profile_hero",
+      "pageSlug": "scarlett-johansson",
+      "assignedAt": "2026-10-14T10:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bryan_Berlin_Scarlett_Johansson.jpg (Bryan Berlin / WikiPortraits / CC BY-SA 4.0 - 64th New York Film Festival September 2026)"
+    },
+    "/images/celebrities/scarlett-johansson-content.webp": {
+      "filePath": "/images/celebrities/scarlett-johansson-content.webp",
+      "entity": "scarlett-johansson",
+      "placement": "profile_content",
+      "pageSlug": "scarlett-johansson",
+      "assignedAt": "2026-10-14T10:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bryan_Berlin_Scarlett_Johansson_Colin_Jost.jpg (Bryan Berlin / WikiPortraits / CC BY-SA 4.0 - 64th New York Film Festival September 2026)"
     }
   }
 }

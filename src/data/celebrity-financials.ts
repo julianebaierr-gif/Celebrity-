@@ -3711,5 +3711,125 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
         "milestoneDescription": "Certified fortune bolstered by $20M streaming paydays, ASP enterprise value, and New England real estate appreciation."
       }
     ]
+  },
+
+  "scarlett-johansson": {
+    "salaryMilestones": [
+      {
+        "project": "Iron Man 2",
+        "year": 2010,
+        "salary": "$400,000 USD",
+        "boxOfficeOrBudget": "$623.9 Million USD Box Office",
+        "notes": "Marvel Cinematic Universe introduction as Natasha Romanoff / Black Widow, accepting entry-level studio compensation."
+      },
+      {
+        "project": "Avengers: Age of Ultron",
+        "year": 2015,
+        "salary": "$15.0 Million USD",
+        "boxOfficeOrBudget": "$1.405 Billion USD Box Office",
+        "notes": "Negotiated major salary escalation achieving parity with leading male Avengers co-stars."
+      },
+      {
+        "project": "Avengers: Endgame",
+        "year": 2019,
+        "salary": "$35.0 Million USD (Base + Profit Participation)",
+        "boxOfficeOrBudget": "$2.799 Billion USD Box Office",
+        "notes": "Earned $15M upfront contract fee coupled with approximately $20M in backend worldwide box office bonuses."
+      },
+      {
+        "project": "Black Widow",
+        "year": 2021,
+        "salary": "$60.0 Million USD (Upfront Fee + Legal Settlement)",
+        "boxOfficeOrBudget": "$379.8 Million USD Theatrical + Disney+ Premier",
+        "notes": "$20M guaranteed salary plus estimated $40M+ breach-of-contract settlement from The Walt Disney Company over day-and-date streaming release."
+      },
+      {
+        "project": "Asteroid City",
+        "year": 2023,
+        "salary": "$4.1 Million USD (Ensemble Concession)",
+        "boxOfficeOrBudget": "$54.0 Million USD Box Office",
+        "notes": "Reduced typical commercial quote to collaborate with auteur Wes Anderson in retro period ensemble comedy."
+      },
+      {
+        "project": "Jurassic World Rebirth",
+        "year": 2025,
+        "salary": "$20.0 Million USD Upfront",
+        "boxOfficeOrBudget": "Universal Pictures Tentpole Release",
+        "notes": "Commanded top-tier headline salary plus gross profit participation to lead Gareth Edwards' rebooted dinosaur franchise."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Snedens Landing Hudson River Manor ('The Ivy House')",
+        "location": "Palisades, Rockland County, New York, United States",
+        "purchasedYear": "2018",
+        "purchasePrice": "$4.0 Million USD",
+        "currentEstimatedValue": "$6.5 Million USD",
+        "description": "Historic 4,129-square-foot estate built in 1953 featuring wrought-iron balconies, private gardens, and Hudson River views where she wed Colin Jost in 2020."
+      },
+      {
+        "property": "Amagansett Coastal Dunes Compound",
+        "location": "The Hamptons, New York, United States",
+        "purchasedYear": "2014",
+        "purchasePrice": "$3.8 Million USD",
+        "currentEstimatedValue": "$7.5 Million USD",
+        "description": "3,500-square-foot shingle-style summer home set on 1.4 private acres near Napeague Bay with heated pool and deeded beach access."
+      },
+      {
+        "property": "Midtown East Luxury Penthouse",
+        "location": "Manhattan, New York City, New York, United States",
+        "purchasedYear": "2008",
+        "purchasePrice": "$2.1 Million USD",
+        "currentEstimatedValue": "$5.0 Million USD",
+        "description": "Boutique condominium apartment with wrap-around terrace and views of the Chrysler Building retained for Manhattan business engagements."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "The Outset Clean Skincare",
+        "role": "Co-Founder & Creative Director",
+        "valuationOrRevenue": "$50.0M+ Brand Valuation",
+        "description": "Plant-based minimalist skincare enterprise launched with Kate Foster in 2022, securing international retail distribution through Sephora North America and luxury department stores."
+      },
+      {
+        "name": "These Pictures Production Banner",
+        "role": "Principal Founder & Producer",
+        "valuationOrRevenue": "$25.0M+ First-Look Production Slate",
+        "description": "Independent film and television production outfit backing features including Apple TV+'s Fly Me to the Moon and Johansson's directorial debut Eleanor the Great."
+      },
+      {
+        "name": "Global Luxury Brand Partnerships",
+        "role": "Exclusive Campaign Ambassador",
+        "valuationOrRevenue": "$30.0M+ Cumulative Contract Value",
+        "description": "High-value commercial relationships with Prada, Dolce & Gabbana, L'Oréal Paris, and Louis Vuitton spanning two decades of global advertising."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2003",
+        "estimatedNetWorth": "$2.0 Million USD",
+        "milestoneDescription": "Breakthrough critical acclaim in Lost in Translation and Girl with a Pearl Earring."
+      },
+      {
+        "period": "2010",
+        "estimatedNetWorth": "$15.0 Million USD",
+        "milestoneDescription": "Marvel Cinematic Universe introduction in Iron Man 2 and Tony Award-winning Broadway debut."
+      },
+      {
+        "period": "2015",
+        "estimatedNetWorth": "$65.0 Million USD",
+        "milestoneDescription": "Avengers: Age of Ultron salary parity and international action hit Lucy."
+      },
+      {
+        "period": "2019",
+        "estimatedNetWorth": "$140.0 Million USD",
+        "milestoneDescription": "Avengers: Endgame backend earnings, dual Oscar nominations, and Forbes world's highest-paid actress title."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$180.0 Million USD",
+        "milestoneDescription": "Consolidated fortune built on $40M+ Disney streaming settlement, $20M Jurassic World contract, The Outset enterprise value, and New York real estate."
+      }
+    ]
   }
 };

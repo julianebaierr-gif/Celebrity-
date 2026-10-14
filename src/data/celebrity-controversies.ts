@@ -480,5 +480,25 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
       "resolutionOrOutcome": "Critics questioned whether a bipartisan platform featuring elected politicians from both major parties could remain genuinely neutral during heightened election cycles. Evans and co-founders Mark Kassen and Joe Kiani enforced strict rules providing equal speaking time and eliminating editorial algorithms.",
       "impactAnalysis": "The rigorous neutral format won respect across Capitol Hill, successfully engaging dozens of senators and representatives from both parties and enabling ASP to enter educational curriculums nationwide."
     }
+  ],
+  "scarlett-johansson": [
+    {
+      "incident": "The Walt Disney Company Black Widow Streaming Lawsuit",
+      "year": "2021",
+      "resolutionOrOutcome": "In July 2021, Johansson filed a high-profile breach-of-contract lawsuit in Los Angeles Superior Court against Disney after Black Widow was simultaneously released on Disney+ Premier Access, which curtailed her contractually guaranteed box office backend bonuses. Disney initially issued a sharp public response, but both parties negotiated an amicable settlement within two months for a reported payout exceeding $40 Million.",
+      "impactAnalysis": "The landmark legal victory redefined executive compensation standards in Hollywood's streaming era, establishing that studios must equitably compensate frontline talent when altering theatrical distribution windows."
+    },
+    {
+      "incident": "SodaStream Endorsement & Oxfam Ambassadorship Resignation",
+      "year": "2014",
+      "resolutionOrOutcome": "Following her appointment as global brand ambassador for beverage carbonation manufacturer SodaStream—which then operated an industrial facility in an Israeli settlement in the West Bank—international aid confederation Oxfam raised human rights objections. Johansson chose to step down from her eight-year Oxfam ambassadorship, citing fundamental differences of opinion regarding international commerce and Israeli-Palestinian economic engagement.",
+      "impactAnalysis": "The controversy illuminated geopolitical complexities surrounding celebrity endorsements, sparking widespread international media debate on corporate presence in contested territories."
+    },
+    {
+      "incident": "Ghost in the Shell & Rub & Tug Casting Public Debates",
+      "year": "2017–2018",
+      "resolutionOrOutcome": "Johansson faced widespread media debate in 2017 after being cast as Major Motoko Kusanagi in Paramount's adaptation of the Japanese anime classic Ghost in the Shell. The following year, her casting as a transgender male criminal figure in Rub & Tug drew vocal criticism from advocacy groups. In response, Johansson listened directly to community feedback, voluntarily withdrew from the production, and issued a thoughtful statement supporting diverse representation.",
+      "impactAnalysis": "Her decision to withdraw and reflect openly helped accelerate casting reforms across Hollywood, underscoring the vital importance of authentic representation in narrative cinema."
+    }
   ]
 };

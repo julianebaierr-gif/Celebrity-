@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 38,
-  "lastUpdated": "2026-10-13T15:00:00.000Z",
+  "totalLocked": 39,
+  "lastUpdated": "2026-10-14T10:00:00.000Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -839,6 +839,48 @@
         "red one chris evans",
         "chris evans 2026"
       ]
+    },
+    {
+      "keyword": "scarlett johansson",
+      "slug": "scarlett-johansson",
+      "name": "Scarlett Johansson",
+      "category": "Hollywood Leading Legends",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/scarlett-johansson",
+      "publishedAt": "2026-10-14 10:00:00",
+      "status": "Published",
+      "associatedTags": [
+        "scarlett johansson",
+        "scarlett johansson net worth",
+        "scarlett johansson net worth 2026",
+        "how old is scarlett johansson",
+        "scarlett johansson age",
+        "scarlett johansson height",
+        "how tall is scarlett johansson",
+        "scarlett johansson black widow",
+        "who plays black widow",
+        "natasha romanoff actress",
+        "scarlett johansson marvel",
+        "scarlett johansson husband",
+        "who is scarlett johansson married to",
+        "colin jost",
+        "scarlett johansson and colin jost",
+        "scarlett johansson kids",
+        "rose dorothy dauriac",
+        "cosmo jost",
+        "scarlett johansson ex husbands",
+        "ryan reynolds and scarlett johansson",
+        "romain dauriac",
+        "scarlett johansson movies",
+        "lost in translation scarlett johansson",
+        "marriage story scarlett johansson",
+        "jojo rabbit scarlett johansson",
+        "jurassic world rebirth scarlett johansson",
+        "eleanor the great scarlett johansson",
+        "scarlett johansson disney lawsuit",
+        "scarlett johansson the outset",
+        "the outset skincare",
+        "scarlett johansson 2026"
+      ]
     }
   ],
   "bannedKeywordSet": [
@@ -1107,6 +1149,27 @@
     "chris evans a starting point",
     "chris evans movies",
     "knives out chris evans",
-    "chris evans 2026"
+    "chris evans 2026",
+    "scarlett johansson",
+    "scarlett johansson net worth",
+    "how old is scarlett johansson",
+    "scarlett johansson age",
+    "scarlett johansson height",
+    "how tall is scarlett johansson",
+    "scarlett johansson black widow",
+    "who plays black widow",
+    "natasha romanoff actress",
+    "scarlett johansson husband",
+    "colin jost",
+    "scarlett johansson kids",
+    "ryan reynolds scarlett johansson",
+    "scarlett johansson movies",
+    "lost in translation scarlett johansson",
+    "marriage story scarlett johansson",
+    "jojo rabbit scarlett johansson",
+    "jurassic world rebirth scarlett johansson",
+    "scarlett johansson disney lawsuit",
+    "scarlett johansson the outset",
+    "scarlett johansson 2026"
   ]
 }

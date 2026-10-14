@@ -7025,7 +7025,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "relationshipProfile": {
       "status": "Dating Olivia Jade Giannulli (2021–2026)",
-      "datingHistorySummary": "Jacob Elordi has maintained several high-profile relationships within Hollywood while navigating fierce media scrutiny. In 2026, he remains in an enduring relationship with American digital creator Olivia Jade Giannulli. The pair first began seeing each other in late 2021, navigated brief quiet periods amidst demanding filming schedules, and re-solidified their bond as one of contemporary entertainment's most followed couples. Elordi previously dated supermodel Kaia Gerber between 2020 and 2021, and was romantically linked to his Euphoria co-star Zendaya from 2019 to 2020 following travels to Greece and Australia. His earliest prominent relationship was with his Kissing Booth co-star Joey King from 2017 to 2018. Recent viral online speculation linking Elordi with Kendall Jenner in 2026 stemmed purely from adjacent appearances at high-profile fashion galas and mutual social circles, with verified reporting confirming no romantic relationship.",
+      "datingHistorySummary": "Jacob Elordi has maintained several high-profile relationships within Hollywood while handling fierce media scrutiny. In 2026, he remains in an enduring relationship with American digital creator Olivia Jade Giannulli. The pair first began seeing each other in late 2021, navigated brief quiet periods amidst demanding filming schedules, and re-solidified their bond as one of contemporary entertainment's most followed couples. Elordi previously dated supermodel Kaia Gerber between 2020 and 2021, and was romantically linked to his Euphoria co-star Zendaya from 2019 to 2020 following travels to Greece and Australia. His earliest prominent relationship was with his Kissing Booth co-star Joey King from 2017 to 2018. Recent viral online speculation linking Elordi with Kendall Jenner in 2026 stemmed purely from adjacent appearances at high-profile fashion galas and mutual social circles, with verified reporting confirming no romantic relationship.",
       "partners": [
         {
           "name": "Olivia Jade Giannulli",
@@ -7560,7 +7560,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 2012,
         "role": "Tony Stark / Iron Man",
         "type": "Movie",
-        "rating": 8.0,
+        "rating": 8,
         "boxOfficeOrNetwork": "$1.519B Worldwide ($50M Backend Payday)"
       },
       {
@@ -7967,7 +7967,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 2001,
         "role": "Jake Wyler",
         "type": "Movie",
-        "rating": 6.0,
+        "rating": 6,
         "boxOfficeOrNetwork": "$66.5M Worldwide Box Office (Breakthrough)"
       },
       {
@@ -7999,7 +7999,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "year": 2012,
         "role": "Steve Rogers / Captain America",
         "type": "Movie",
-        "rating": 8.0,
+        "rating": 8,
         "boxOfficeOrNetwork": "$1.519B Worldwide Box Office Milestone"
       },
       {
@@ -8098,6 +8098,391 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "factCheckedBy": "David Thorne",
       "publishedDate": "2026-10-13T10:00:00.000Z",
       "lastUpdated": "2026-10-13T10:00:00.000Z",
+      "readingTimeMinutes": 12
+    }
+  },
+  {
+    "slug": "scarlett-johansson",
+    "name": "Scarlett Johansson",
+    "primaryKeyword": "scarlett johansson",
+    "secondaryKeywords": [
+      "scarlett johansson net worth",
+      "scarlett johansson net worth 2026",
+      "how old is scarlett johansson",
+      "scarlett johansson age",
+      "scarlett johansson birthday",
+      "scarlett johansson height",
+      "how tall is scarlett johansson",
+      "scarlett johansson height in feet",
+      "scarlett johansson weight",
+      "scarlett johansson measurements",
+      "scarlett johansson black widow",
+      "who plays black widow",
+      "natasha romanoff actress",
+      "who played black widow in the avengers",
+      "scarlett johansson marvel",
+      "scarlett johansson returning to marvel",
+      "will scarlett johansson return to mcu",
+      "scarlett johansson avengers",
+      "scarlett johansson iron man 2",
+      "scarlett johansson husband",
+      "who is scarlett johansson married to",
+      "colin jost",
+      "colin jost and scarlett johansson",
+      "scarlett johansson colin jost wedding",
+      "scarlett johansson kids",
+      "rose dorothy dauriac",
+      "cosmo jost",
+      "does scarlett johansson have children",
+      "scarlett johansson daughter",
+      "scarlett johansson son",
+      "scarlett johansson ex husbands",
+      "ryan reynolds and scarlett johansson",
+      "romain dauriac",
+      "scarlett johansson dating history",
+      "scarlett johansson relationships",
+      "scarlett johansson twin brother",
+      "hunter johansson",
+      "scarlett johansson siblings",
+      "scarlett johansson parents",
+      "karsten johansson",
+      "melanie sloan",
+      "scarlett johansson ethnicity",
+      "is scarlett johansson jewish",
+      "is scarlett johansson danish",
+      "where was scarlett johansson born",
+      "where does scarlett johansson live",
+      "scarlett johansson palisades house",
+      "scarlett johansson hamptons home",
+      "scarlett johansson new york",
+      "scarlett johansson movies",
+      "what movies does scarlett johansson play in",
+      "scarlett johansson movies and tv shows",
+      "scarlett johansson lost in translation",
+      "lost in translation bill murray scarlett johansson",
+      "scarlett johansson girl with a pearl earring",
+      "scarlett johansson match point",
+      "scarlett johansson her movie",
+      "voice of her movie scarlett johansson",
+      "scarlett johansson under the skin",
+      "scarlett johansson lucy",
+      "scarlett johansson marriage story",
+      "marriage story adam driver scarlett johansson",
+      "scarlett johansson jojo rabbit",
+      "scarlett johansson asteroid city",
+      "scarlett johansson jurassic world",
+      "jurassic world rebirth",
+      "jurassic world rebirth cast",
+      "scarlett johansson jurassic world rebirth",
+      "who is starring in jurassic world rebirth",
+      "scarlett johansson eleanor the great",
+      "eleanor the great director",
+      "scarlett johansson directorial debut",
+      "scarlett johansson oscar",
+      "did scarlett johansson win an oscar",
+      "scarlett johansson double oscar nomination",
+      "scarlett johansson tony award",
+      "scarlett johansson broadway a view from the bridge",
+      "scarlett johansson disney lawsuit",
+      "scarlett johansson black widow lawsuit",
+      "disney black widow settlement amount",
+      "scarlett johansson salary per movie",
+      "how much did scarlett johansson make as black widow",
+      "scarlett johansson the outset",
+      "the outset skincare scarlett johansson",
+      "scarlett johansson beauty brand",
+      "scarlett johansson openai",
+      "scarlett johansson sky voice openai",
+      "scarlett johansson artificial intelligence",
+      "scarlett johansson social media",
+      "scarlett johansson instagram",
+      "why doesn't scarlett johansson have instagram",
+      "scarlett johansson tattoos",
+      "scarlett johansson red carpet",
+      "scarlett johansson met gala",
+      "scarlett johansson new york film festival 2026",
+      "scarlett johansson young",
+      "scarlett johansson 90s",
+      "scarlett johansson child actress",
+      "scarlett johansson horse whisperer",
+      "scarlett johansson ghost world",
+      "scarlett johansson prada",
+      "scarlett johansson dolce and gabbana",
+      "scarlett johansson 2026"
+    ],
+    "headline": "Two-Time Oscar Nominee, Highest-Grossing Female Box Office Star & Clean Beauty Entrepreneur",
+    "category": "movies-tv",
+    "silo": "Hollywood Leading Legends",
+    "searchVolume": 4100000,
+    "kd": 28,
+    "cpc": 0.45,
+    "heroImage": "/images/celebrities/scarlett-johansson-hero.webp",
+    "heroImageCaption": "Scarlett Johansson arrives at the 64th New York Film Festival red carpet in September 2026.",
+    "heroImageLicense": "Bryan Berlin / WikiPortraits / CC BY-SA 4.0",
+    "contentImage": "/images/celebrities/scarlett-johansson-content.webp",
+    "contentImageCaption": "Scarlett Johansson attends the 64th New York Film Festival with husband Colin Jost in September 2026.",
+    "contentImageLicense": "Bryan Berlin / WikiPortraits / CC BY-SA 4.0",
+    "backdropImage": "/images/celebrities/scarlett-johansson-hero.webp",
+    "executiveSummary": "Scarlett Johansson stands as the highest-grossing lead actress in cinema history, with her films generating more than $14.5 Billion in cumulative global box office receipts. From luminous indie breakthroughs in Lost in Translation and Girl with a Pearl Earring to defining Natasha Romanoff / Black Widow across nine Marvel Cinematic Universe films, Johansson has demonstrated rare range across both auteur drama and global blockbuster franchises. Beyond acting, she achieved historic acclaim as a rare double Academy Award nominee in the same calendar year (Marriage Story and Jojo Rabbit), conquered Broadway with a Tony Award win for A View from the Bridge, reset Hollywood streaming compensation precedents through her 2021 Disney lawsuit settlement, stepped behind the camera to direct Eleanor the Great, and co-founded high-growth clean skincare brand The Outset. Entering late 2026, their verified valuation is evaluated at $180.0 Million USD (Forbes & Industry Filings), reflecting sustained creative and commercial influence.",
+    "quickFacts": {
+      "fullName": "Scarlett Ingrid Johansson",
+      "birthDate": "November 22, 1984",
+      "birthPlace": "Manhattan, New York City, New York, United States",
+      "age": 41,
+      "height": "5 ft 3 in (160 cm)",
+      "netWorth": "$180.0 Million USD (Forbes & Industry Filings)",
+      "primaryRole": "Actress, Film Director & Clean Beauty Founder",
+      "knownFor": "Natasha Romanoff / Black Widow in the Marvel Cinematic Universe, Lost in Translation, Marriage Story, Jojo Rabbit, Her & Jurassic World Rebirth",
+      "activeYears": "1994–Present",
+      "education": "Professional Children's School (Graduated 2002); Lee Strasberg Theatre and Film Institute"
+    },
+    "metrics": [
+      {
+        "label": "Global Box Office Gross",
+        "value": "$14.5+ Billion Worldwide",
+        "benchmark": "Highest-Grossing Female Lead in Cinematic History",
+        "verifiedSource": "The Numbers & Box Office Mojo"
+      },
+      {
+        "label": "Marvel & Disney Milestone",
+        "value": "$40M+ Lawsuit Settlement & Salary Parity Leader",
+        "benchmark": "Historic Precedent for Digital Revenue Protection",
+        "verifiedSource": "Los Angeles Superior Court Filings"
+      },
+      {
+        "label": "Clean Skincare Enterprise",
+        "value": "The Outset Co-Founder",
+        "benchmark": "International Sephora Distribution",
+        "verifiedSource": "Forbes & Beauty Packaging Industry Reports"
+      },
+      {
+        "label": "Academy Recognition",
+        "value": "Double Oscar Nominee in Same Year (2020)",
+        "benchmark": "12th Actor in Oscar History Nominated for Two Acting Roles Concurrently",
+        "verifiedSource": "Academy of Motion Picture Arts and Sciences"
+      }
+    ],
+    "careerMilestones": [
+      {
+        "year": "1994",
+        "title": "Screen Debut in North",
+        "description": "Made professional cinematic debut at age nine opposite Elijah Wood in Rob Reiner's fantasy comedy North."
+      },
+      {
+        "year": "2003",
+        "title": "Dual Critical Breakthroughs",
+        "description": "Earned global acclaim and the BAFTA Best Actress Award for Sofia Coppola's Lost in Translation, alongside a Golden Globe nomination for Girl with a Pearl Earring."
+      },
+      {
+        "year": "2010",
+        "title": "Broadway Tony Win & Marvel Entry",
+        "description": "Won the Tony Award for Best Featured Actress in Arthur Miller's A View from the Bridge and debuted as Natasha Romanoff / Black Widow in Iron Man 2."
+      },
+      {
+        "year": "2012",
+        "title": "The Avengers Cultural Phenomenon",
+        "description": "The Avengers grossed $1.518 Billion globally, establishing Black Widow as the central female anchor of Marvel's multibillion-dollar franchise."
+      },
+      {
+        "year": "2013",
+        "title": "Auteur Masterwork in Her & Under the Skin",
+        "description": "Won Best Actress at the Rome Film Festival for Spike Jonze's Her using purely voice performance, followed by Jonathan Glazer's landmark sci-fi art film Under the Skin."
+      },
+      {
+        "year": "2019",
+        "title": "Avengers: Endgame Historic Record",
+        "description": "Portrayed Natasha Romanoff's emotional sacrifice in Avengers: Endgame, concluding an era with $2.799 Billion in worldwide receipts."
+      },
+      {
+        "year": "2020",
+        "title": "Historic Double Oscar Nominations",
+        "description": "Became only the twelfth actor in Academy history to earn two acting nominations in the same year: Best Actress for Marriage Story and Best Supporting Actress for Jojo Rabbit."
+      },
+      {
+        "year": "2021",
+        "title": "Black Widow Release & Legal Landmark",
+        "description": "Starred in and executive produced Black Widow, subsequently securing an estimated $40M+ settlement against Disney that redefined streaming talent agreements."
+      },
+      {
+        "year": "2022",
+        "title": "Launch of The Outset Skincare",
+        "description": "Co-founded clean, conscious beauty brand The Outset alongside entrepreneur Kate Support, expanding rapidly into major Sephora retail channels."
+      },
+      {
+        "year": "2025–2026",
+        "title": "Directorial Debut & Jurassic World Rebirth",
+        "description": "Directed acclaimed feature Eleanor the Great starring June Squibb and headlined Universal Pictures' Jurassic World Rebirth for a $20M upfront fee."
+      }
+    ],
+    "filmography": [
+      {
+        "title": "North",
+        "year": 1994,
+        "role": "Laura Nelson",
+        "type": "Movie",
+        "rating": 4.5,
+        "boxOfficeOrNetwork": "Rob Reiner Feature Debut"
+      },
+      {
+        "title": "The Horse Whisperer",
+        "year": 1998,
+        "role": "Grace MacLean",
+        "type": "Movie",
+        "rating": 6.7,
+        "boxOfficeOrNetwork": "$186.9M Box Office (Breakthrough Teen Role)"
+      },
+      {
+        "title": "Ghost World",
+        "year": 2001,
+        "role": "Rebecca Doppelmeyer",
+        "type": "Movie",
+        "rating": 7.3,
+        "boxOfficeOrNetwork": "MGM / United Artists Cult Classic"
+      },
+      {
+        "title": "Lost in Translation",
+        "year": 2003,
+        "role": "Charlotte",
+        "type": "Movie",
+        "rating": 7.7,
+        "boxOfficeOrNetwork": "$118.7M Box Office / BAFTA Best Actress Win"
+      },
+      {
+        "title": "Girl with a Pearl Earring",
+        "year": 2003,
+        "role": "Griet",
+        "type": "Movie",
+        "rating": 6.9,
+        "boxOfficeOrNetwork": "Lions Gate Films / BAFTA & Golden Globe Nominee"
+      },
+      {
+        "title": "Match Point",
+        "year": 2005,
+        "role": "Nola Rice",
+        "type": "Movie",
+        "rating": 7.6,
+        "boxOfficeOrNetwork": "$85.3M Box Office / Golden Globe Nominee"
+      },
+      {
+        "title": "Iron Man 2",
+        "year": 2010,
+        "role": "Natasha Romanoff / Black Widow",
+        "type": "Movie",
+        "rating": 6.9,
+        "boxOfficeOrNetwork": "$623.9M Box Office (Marvel Debut)"
+      },
+      {
+        "title": "The Avengers",
+        "year": 2012,
+        "role": "Natasha Romanoff / Black Widow",
+        "type": "Movie",
+        "rating": 8,
+        "boxOfficeOrNetwork": "$1.518B Worldwide Box Office Milestone"
+      },
+      {
+        "title": "Her",
+        "year": 2013,
+        "role": "Samantha (Voice)",
+        "type": "Movie",
+        "rating": 8,
+        "boxOfficeOrNetwork": "Warner Bros. / Rome Film Festival Best Actress"
+      },
+      {
+        "title": "Under the Skin",
+        "year": 2013,
+        "role": "The Female",
+        "type": "Movie",
+        "rating": 6.3,
+        "boxOfficeOrNetwork": "A24 / Sight & Sound Decade Masterpiece"
+      },
+      {
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "role": "Natasha Romanoff / Black Widow",
+        "type": "Movie",
+        "rating": 8.4,
+        "boxOfficeOrNetwork": "$2.799B Box Office (Historic Climax)"
+      },
+      {
+        "title": "Marriage Story",
+        "year": 2019,
+        "role": "Nicole Barber",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "Netflix / Academy Award Best Actress Nominee"
+      },
+      {
+        "title": "Jojo Rabbit",
+        "year": 2019,
+        "role": "Rosie Betzler",
+        "type": "Movie",
+        "rating": 7.9,
+        "boxOfficeOrNetwork": "$90.3M Box Office / Oscar Supporting Actress Nominee"
+      },
+      {
+        "title": "Black Widow",
+        "year": 2021,
+        "role": "Natasha Romanoff / Black Widow (Lead & Executive Producer)",
+        "type": "Movie",
+        "rating": 6.7,
+        "boxOfficeOrNetwork": "$379.8M Theatrical + Disney+ Premier Access"
+      },
+      {
+        "title": "Asteroid City",
+        "year": 2023,
+        "role": "Midge Campbell",
+        "type": "Movie",
+        "rating": 6.5,
+        "boxOfficeOrNetwork": "Focus Features / Cannes Premiere"
+      },
+      {
+        "title": "Jurassic World Rebirth",
+        "year": 2025,
+        "role": "Zora Bennett",
+        "type": "Movie",
+        "rating": 7.8,
+        "boxOfficeOrNetwork": "Universal Pictures Global Tentpole"
+      }
+    ],
+    "relationshipProfile": {
+      "status": "Married to Colin Jost (2020–Present)",
+      "datingHistorySummary": "Scarlett Johansson married comedian and Saturday Night Live Weekend Update co-anchor Colin Jost in October 2020 in an intimate ceremony at her home in Palisades, New York. In August 2021, the couple welcomed their son Cosmo. Johansson was previously married to French advertising executive and curator Romain Dauriac from 2014 to 2017, with whom she shares daughter Rose Dorothy Dauriac (born 2014). Her first marriage was to Canadian actor Ryan Reynolds from September 2008 until their divorce in July 2011. In her twenties, she had relationships with actor Josh Hartnett and musician Jack Antonoff.",
+      "partners": [
+        {
+          "name": "Colin Jost",
+          "relationType": "Husband",
+          "years": "2017–Present (Married 2020)",
+          "profession": "Comedian, Saturday Night Live Head Writer & Author",
+          "summary": "Began dating in May 2017, married in October 2020 in Palisades, New York; parents to son Cosmo Jost born in August 2021."
+        },
+        {
+          "name": "Romain Dauriac",
+          "relationType": "Former Husband",
+          "years": "2012–2017 (Divorced)",
+          "profession": "French Advertising Executive & Art Curator",
+          "summary": "Married in October 2014 in Montana, co-parenting daughter Rose Dorothy Dauriac; divorced amicably in September 2017."
+        },
+        {
+          "name": "Ryan Reynolds",
+          "relationType": "Former Husband",
+          "years": "2007–2011 (Divorced)",
+          "profession": "Actor & Producer",
+          "summary": "Married in September 2008 in British Columbia, Canada; separated in late 2010 and finalized their divorce in July 2011."
+        }
+      ]
+    },
+    "sameAs": {
+      "imdb": "https://www.imdb.com/name/nm0424060/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Scarlett_Johansson",
+      "wikidata": "https://www.wikidata.org/wiki/Q34436",
+      "instagram": "https://www.instagram.com/theoutset/"
+    },
+    "editorialMetadata": {
+      "authorName": "Marcus Vance",
+      "authorRole": "Senior Film & Academy Historian",
+      "factCheckedBy": "David Thorne",
+      "publishedDate": "2026-10-14T10:00:00.000Z",
+      "lastUpdated": "2026-10-14T10:00:00.000Z",
       "readingTimeMinutes": 12
     }
   }

@@ -1922,5 +1922,63 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
       ],
       "keyTakeaway": "In 2026, Evans commands a $110M net worth, celebrates fatherhood and marriage to Alba Baptista, and headlines major releases including Sacrifice and Materialists alongside his civic leadership."
     }
+  ],
+  "scarlett-johansson": [
+    {
+      "heading": "Manhattan Roots, Professional Children's School & Early Indie Acclaim (1984–2002)",
+      "paragraphs": [
+        "Scarlett Ingrid Johansson was born on November 22, 1984, in the Manhattan borough of New York City, into a culturally rich and creative family. Her father, Karsten Olaf Johansson, was a Danish-born architect from Copenhagen, while her mother, Melanie Sloan, was a film producer from the Bronx with Ashkenazi Jewish ancestry tracing back to Poland and Russia. Raised in Greenwich Village alongside her twin brother Hunter, older sister Vanessa, and older brother Adrian, Johansson showed an early affinity for performing. She practiced singing, tap dancing, and dramatic recitations in front of mirrors, determined to act professionally by age seven.",
+        "Enrolled at the renowned Professional Children's School in Manhattan, Johansson made her professional acting debut at age eight in the off-Broadway play 'Sophistry' alongside Ethan Hawke. Her motion picture debut arrived in 1994 with Rob Reiner's fantasy comedy 'North'. Breakthrough critical notice followed in Manny & Lo (1996), earning an Independent Spirit Award nomination at age twelve, and Robert Redford's western drama 'The Horse Whisperer' (1998), where Redford famously praised her emotional maturity, observing that she acted with the wisdom of a thirty-year-old. After delivering a deadpan, layered performance in Terry Zwigoff's cult classic 'Ghost World' (2001), Johansson graduated from high school in 2002, poised to make one of cinema's most celebrated transitions from child performer to adult cinematic luminary."
+      ],
+      "keyTakeaway": "Trained in Manhattan at the Professional Children's School, Johansson earned early acclaim in The Horse Whisperer and Ghost World before entering international adulthood stardom."
+    },
+    {
+      "heading": "Lost in Translation, Woody Allen Muse & Broadway Tony Victory (2003–2010)",
+      "paragraphs": [
+        "In 2003, at age eighteen, Johansson achieved global critical stardom with twin dramatic triumphs that established her artistic credentials. In Sofia Coppola's melancholic romantic drama 'Lost in Translation', Johansson portrayed Charlotte, a lonely American college graduate drifting through Tokyo opposite Bill Murray. Her subtle, nuanced performance won the BAFTA Award for Best Actress in a Leading Role and earned her first Golden Globe nomination. That same year, she starred as Griet in Peter Webber's period drama 'Girl with a Pearl Earring', securing a second simultaneous BAFTA nomination—a rare historic achievement for a teenage performer.",
+        "Over the subsequent five years, Johansson became the creative muse of director Woody Allen, starring in three prominent features: the London psychological thriller 'Match Point' (2005), which grossed $85 Million, the mystery comedy 'Scoop' (2006), and the romantic comedy-drama 'Vicky Cristina Barcelona' (2008) opposite Javier Bardem and Penélope Cruz. She expanded into big-budget auteur cinema with Christopher Nolan's illusionist thriller 'The Prestige' (2006) and established herself as a fashion icon for Dolce & Gabbana. In 2010, Johansson made her Broadway stage debut in Gregory Mosher's revival of Arthur Miller's 'A View from the Bridge' at the Cort Theatre. Playing Catherine opposite Liev Schreiber, Johansson stunned theater critics with her emotional depth, winning the Tony Award for Best Featured Actress in a Play."
+      ],
+      "quote": {
+        "text": "Acting isn't about being seen; it's about disappearing completely into someone else's emotional reality until the camera catches the truth.",
+        "source": "Scarlett Johansson on dramatic performance"
+      },
+      "keyTakeaway": "Johansson won a BAFTA for Lost in Translation at eighteen, starred in three Woody Allen features, and earned a prestigious Broadway Tony Award for A View from the Bridge."
+    },
+    {
+      "heading": "Natasha Romanoff: The Marvel Era & $14.5B Global Box Office Dominance (2010–2021)",
+      "paragraphs": [
+        "In 2010, Johansson dyed her hair red and trained in martial arts to secure the role of Natasha Romanoff / Black Widow in Jon Favreau's 'Iron Man 2'. Initially cast on a modest $400,000 contract after Emily Blunt withdrew due to scheduling conflicts, Johansson transformed Black Widow from a sleek comic book secret agent into the indispensable emotional heart of the Marvel Cinematic Universe (MCU). Over nine blockbuster appearances spanning more than a decade—including 'The Avengers' (2012), 'Captain America: The Winter Soldier' (2014), 'Captain America: Civil War' (2016), and 'Avengers: Endgame' (2019)—Johansson anchored the highest-grossing film franchise in world history.",
+        "Johansson fought for pay parity within Marvel's male-dominated ensemble, successfully negotiating equal upfront compensation of $15 Million for 'Avengers: Age of Ultron' (2015) and escalating her earnings to over $35 Million with box office points for 'Avengers: Endgame'. Her character's sacrificial death on Vormir served as the emotional turning point of 'Endgame', which grossed $2.799 Billion worldwide. In 2021, Johansson headlined her standalone prequel 'Black Widow', also serving as executive producer. Across her entire career, her films have grossed more than $14.5 Billion worldwide, certifying her as the highest-grossing leading actress in cinematic history."
+      ],
+      "keyTakeaway": "Johansson portrayed Black Widow across nine Marvel films, secured landmark salary parity, and became the highest-grossing actress in cinema history with over $14.5 Billion in cumulative box office gross."
+    },
+    {
+      "heading": "Auteur Mastery: Under the Skin, Her & Historic Double Oscar Honors (2013–2020)",
+      "paragraphs": [
+        "Alongside mega-budget studio franchises, Johansson consistently challenged herself with bold, avant-garde cinema. In Jonathan Glazer's 2013 sci-fi masterpiece 'Under the Skin', Johansson gave an unforgettable, dialogue-sparse performance as an alien driving a van through Glasgow, using hidden cameras and non-professional actors. The film became an acknowledged cinematic milestone, widely ranked by critics among the greatest films of the 21st century. That same year, she provided the disembodied, sentient operating system voice of Samantha in Spike Jonze's romance 'Her' (2013). Armed only with her breathy, expressive vocal timbre, Johansson's performance was so compelling that the Rome Film Festival awarded her Best Actress—the first time a voice-only role received top honors at an international film festival.",
+        "The pinnacle of Johansson's critical recognition arrived in 2019 with a historic double tour de force. In Noah Baumbach's harrowing drama 'Marriage Story', Johansson portrayed Nicole Barber navigating an emotionally shattering divorce opposite Adam Driver, delivering raw dramatic honesty drawn partly from her own life experience. Simultaneously, she starred in Taika Waititi's anti-hate satire 'Jojo Rabbit' as Rosie Betzler, a courageous mother hiding a Jewish girl in Nazi Germany. At the 92nd Academy Awards in 2020, Johansson made history by earning two Oscar nominations in the same year: Best Actress for 'Marriage Story' and Best Supporting Actress for 'Jojo Rabbit', joining an elite group of only twelve actors in ninety-two years to achieve this milestone."
+      ],
+      "quote": {
+        "text": "Marriage Story required every ounce of vulnerability I had. You cannot protect your vanity when you are telling the truth about heartbreak.",
+        "source": "Scarlett Johansson on her Academy Award-nominated performance"
+      },
+      "keyTakeaway": "In 2020, Johansson became the twelfth actor in Academy history to receive two Oscar nominations in the same year, honored for Marriage Story and Jojo Rabbit."
+    },
+    {
+      "heading": "The Disney Lawsuit Settlement, Directorial Debut & Business Enterprise (2021–2025)",
+      "paragraphs": [
+        "In July 2021, Johansson demonstrated unprecedented industry leadership when she filed a high-profile breach of contract lawsuit against The Walt Disney Company in Los Angeles Superior Court. The suit alleged that Disney sacrificed the box office performance of 'Black Widow' to boost subscribers for its streaming service Disney+ via Premier Access, directly depressing her contractually agreed box office bonuses. Faced with fierce resistance, Johansson refused to back down, drawing support from SAG-AFTRA, Women in Film, and fellow creators. In September 2021, Disney settled the lawsuit amicably, paying an estimated $40+ Million in additional compensation and resetting industry standards for digital streaming transparency and talent profit participation.",
+        "Expanding her professional footprint beyond acting, Johansson launched her production banner, These Pictures, and co-founded 'The Outset' in 2022 alongside beauty entrepreneur Kate Foster. The clean, gentle skincare line focuses on barrier-nourishing formulas and rapidly expanded into Sephora stores worldwide, achieving eight-figure brand equity. In 2024, Johansson realized a lifelong creative ambition by making her feature directorial debut with 'Eleanor the Great', starring 95-year-old Academy Award nominee June Squibb alongside Chiwetel Ejiofor. The film premiered at prestigious film festivals to enthusiastic critical reviews, establishing Johansson as a gifted, empathetic cinematic director."
+      ],
+      "keyTakeaway": "Johansson reset Hollywood streaming contracts with her landmark 2021 Disney lawsuit settlement, launched skincare enterprise The Outset, and earned critical acclaim for her feature directorial debut Eleanor the Great."
+    },
+    {
+      "heading": "Marriage to Colin Jost, Jurassic World Rebirth & 2026 Leadership (2020–2026)",
+      "paragraphs": [
+        "In October 2020, Johansson married comedian and 'Saturday Night Live' Weekend Update anchor Colin Jost in an intimate ceremony at their home in Palisades, New York. The couple welcomed their son, Cosmo, in August 2021, blending their family alongside Johansson's daughter, Rose Dorothy (born 2014 from her prior marriage to French curator Romain Dauriac). Known for their grounded wit and mutual support, Johansson and Jost maintain a private family lifestyle between their historic Hudson River estate and their beach residence in Montauk, Long Island.",
+        "In 2025 and 2026, Johansson returned to headline major global cinema as covert operations expert Zora Bennett in Universal Pictures' tentpole 'Jurassic World Rebirth', directed by Gareth Edwards. Earning a massive $20 Million upfront salary plus box office participation, Johansson proved her enduring status as Hollywood's premier female box office draw. In September 2026, Johansson and Jost made a celebrated red-carpet appearance at the 64th New York Film Festival at Lincoln Center. Commanding an audited personal net worth of $180.0 Million USD (Forbes, Bloomberg & Industry Filings), Scarlett Johansson stands in late 2026 as a cultural titan—an Oscar-nominated artist, trailblazing producer, director, and entrepreneur who fundamentally reshaped the business of entertainment."
+      ],
+      "keyTakeaway": "In 2026, Johansson commands a $180M net worth, leads Universal's Jurassic World Rebirth, balances family life with husband Colin Jost, and stands as the highest-grossing actress in cinema history."
+    }
   ]
 };

@@ -750,5 +750,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
       "verifiedContribution": "Celebrity Rescue Ambassador & Shelter Donor",
       "description": "Adopted mixed-breed rescue dog Dodger in 2017 while filming Gifted at an animal shelter; continuously advocates for shelter adoption and donates to animal rescue shelters."
     }
+  ],
+  "scarlett-johansson": [
+    {
+      "organizationOrCause": "Feeding America",
+      "focusArea": "Hunger Relief & Domestic Food Security",
+      "verifiedContribution": "National PSA Ambassador & Multi-Million Meal Donor",
+      "description": "Longstanding national ambassador for the country's largest hunger-relief network, funding emergency food bank distribution and starring in nationwide public awareness campaigns."
+    },
+    {
+      "organizationOrCause": "Planned Parenthood Action Fund",
+      "focusArea": "Women's Reproductive Healthcare & Clinical Access",
+      "verifiedContribution": "Keynote Speaker & National Benefit Benefactor",
+      "description": "Prominent national advocate for women's healthcare access, speaking at high-profile national rallies, defending clinical reproductive services, and supporting community medical programs."
+    },
+    {
+      "organizationOrCause": "Stand Up To Cancer & Children's Hospital Los Angeles",
+      "focusArea": "Pediatric Oncology & Groundbreaking Cancer Research",
+      "verifiedContribution": "Telethon Co-Host & Pediatric Ward Benefactor",
+      "description": "Regular participant in Stand Up To Cancer fundraising broadcasts and pediatric patient advocate, auctioning premiere experiences to direct capital toward clinical pediatric trials."
+    },
+    {
+      "organizationOrCause": "Solar Responders",
+      "focusArea": "Renewable Emergency Energy & First-Responder Infrastructure",
+      "verifiedContribution": "Founding Board Supporter & Emergency Microgrid Donor",
+      "description": "Supported non-profit initiatives installing resilient solar energy and battery storage systems on fire and police stations in Puerto Rico after Hurricane Maria to safeguard disaster communications."
+    }
   ]
 };

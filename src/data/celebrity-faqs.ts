@@ -1570,5 +1570,95 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
       "question": "Did Chris Evans attend FAN EXPO Boston in 2026?",
       "answer": "Yes. On August 9, 2026, Chris Evans made a celebrated appearance at FAN EXPO Boston at the Boston Convention and Exhibition Center, greeting thousands of hometown fans, discussing his transition to fatherhood, reminiscing on fifteen years since Captain America's debut, and championing local Massachusetts charitable initiatives."
     }
+  ],
+  "scarlett-johansson": [
+    {
+      "question": "What is Scarlett Johansson's net worth in 2026?",
+      "answer": "Scarlett Johansson's verified net worth is estimated at $180.0 Million USD as of 2026. Her wealth derives from her record-setting career as the highest-grossing female box office star in film history ($14.5+ Billion global box office gross), lucrative Marvel compensation including a $40 Million settlement from Disney, a $20 Million upfront paycheck for 'Jurassic World Rebirth', high-equity ownership of clean beauty brand The Outset, and premium real estate assets across New York."
+    },
+    {
+      "question": "How old is Scarlett Johansson and when is her birthday?",
+      "answer": "Scarlett Johansson was born on November 22, 1984, in Manhattan, New York City. She is 41 years old and turns 42 in November 2026. Her astrological zodiac sign is Sagittarius."
+    },
+    {
+      "question": "How tall is Scarlett Johansson and what is her height in feet?",
+      "answer": "Scarlett Johansson stands at 5 feet 3 inches tall (160 cm or 1.60 meters). Her natural height has often been augmented by tactical boots and custom camera staging during Marvel action sequences."
+    },
+    {
+      "question": "Who is Scarlett Johansson married to? Tell us about Colin Jost.",
+      "answer": "Scarlett Johansson is married to comedian, Saturday Night Live head writer, and Weekend Update co-anchor Colin Jost. The couple first crossed paths when Johansson hosted SNL in 2006, reconnected in May 2017, got engaged in May 2019, and married in an intimate October 2020 ceremony at their Palisades, New York home. They share a son, Cosmo Jost, born in August 2021."
+    },
+    {
+      "question": "Does Scarlett Johansson have children? Who are Rose and Cosmo?",
+      "answer": "Yes. Scarlett Johansson is a mother of two children: a daughter, Rose Dorothy Dauriac, born in August 2014 from her marriage to French journalist and curator Romain Dauriac; and a son, Cosmo Jost, born in August 2021 with husband Colin Jost. Johansson is notoriously protective of her children's privacy, keeping them entirely out of the media spotlight."
+    },
+    {
+      "question": "Who has Scarlett Johansson dated in the past? What is her dating history?",
+      "answer": "Scarlett Johansson has been married three times. She married Canadian actor Ryan Reynolds in September 2008 in British Columbia before divorcing in July 2011. She married French advertising executive Romain Dauriac in October 2014, with whom she had daughter Rose before separating in 2017. Earlier in her career, she was romantically linked to musician Jack Antonoff, actor Josh Hartnett (her co-star in 'The Black Dahlia'), and advertising executive Nate Naylor."
+    },
+    {
+      "question": "How much money did Scarlett Johansson make from playing Black Widow in Marvel?",
+      "answer": "Johansson earned over $100 Million in cumulative earnings across nine Marvel Cinematic Universe films as Natasha Romanoff / Black Widow. Beginning with an entry-level $400,000 for 'Iron Man 2' (2010), her compensation jumped to low seven figures for 'The Avengers' (2012), $15 Million for 'Avengers: Age of Ultron' (2015), and approximately $35 Million including backend profit participation for 'Avengers: Endgame' (2019). For 'Black Widow' (2021), her total compensation surpassed $60 Million following a $20 Million base fee and an estimated $40 Million streaming settlement from Disney."
+    },
+    {
+      "question": "What happened in Scarlett Johansson's lawsuit against Disney over Black Widow?",
+      "answer": "In July 2021, Johansson filed a breach-of-contract lawsuit in Los Angeles Superior Court against The Walt Disney Company. She alleged that Disney breached its contract by releasing 'Black Widow' simultaneously on Disney+ Premier Access rather than guaranteeing an exclusive theatrical window, cannibalizing box office grosses tied to her backend bonuses. The high-profile battle concluded within two months with a mutual, confidential settlement reportedly exceeding $40 Million, resetting streaming compensation standards across Hollywood."
+    },
+    {
+      "question": "Will Scarlett Johansson return to the Marvel Cinematic Universe?",
+      "answer": "While Natasha Romanoff met her definitive end sacrificing herself on Vormir in 'Avengers: Endgame' (2019), Johansson has continued working behind the scenes with Marvel Studios. In November 2021, Marvel Studios President Kevin Feige announced that Johansson is producing a top-secret, non-Black Widow Marvel project, reaffirming their ongoing creative relationship."
+    },
+    {
+      "question": "What is Scarlett Johansson's role in Jurassic World Rebirth?",
+      "answer": "Scarlett Johansson stars as the lead protagonist Zora Bennett, a skilled covert operations expert leading an expedition to secure genetic material from the world's largest dinosaurs in Gareth Edwards' 'Jurassic World Rebirth' (2025). Universal Pictures signed Johansson for an upfront salary of $20 Million to headline the revitalized franchise alongside Mahershala Ali and Jonathan Bailey."
+    },
+    {
+      "question": "What is The Outset skincare brand co-founded by Scarlett Johansson?",
+      "answer": "The Outset is a clean, conscious, and minimalist skincare brand co-founded in March 2022 by Scarlett Johansson and beauty entrepreneur Kate Foster. Built around gentle, barrier-restoring botanical ingredients such as the trademarked Hyaluroset complex, the brand is sold across hundreds of Sephora stores in North America and high-end international department stores."
+    },
+    {
+      "question": "What was Scarlett Johansson's feature directorial debut with Eleanor the Great?",
+      "answer": "Scarlett Johansson made her feature film directorial debut with 'Eleanor the Great' (originally titled 'Eleanor, Invisible'). The poignant comedy-drama stars 94-year-old Academy Award nominee June Squibb as a resilient Florida woman who relocates to New York City to rebuild her life, earning enthusiastic critical acclaim at premier international film festivals."
+    },
+    {
+      "question": "Did Scarlett Johansson win an Oscar? What was her historic double nomination?",
+      "answer": "While Johansson has not yet won an Academy Award, she achieved an extraordinary milestone at the 92nd Academy Awards in 2020 by earning two acting Oscar nominations in the same year: Best Actress for Noah Baumbach's 'Marriage Story' and Best Supporting Actress for Taika Waititi's 'Jojo Rabbit'. She became only the twelfth performer in Oscar history to accomplish this rare dual-nomination feat."
+    },
+    {
+      "question": "What are Scarlett Johansson's highest-grossing movies of all time?",
+      "answer": "Her top-grossing films include 'Avengers: Endgame' ($2.799 Billion), 'Avengers: Infinity War' ($2.052 Billion), 'The Avengers' ($1.518 Billion), 'Avengers: Age of Ultron' ($1.405 Billion), 'Captain America: Civil War' ($1.155 Billion), 'The Jungle Book' ($966 Million), 'Captain America: The Winter Soldier' ($714 Million), and Luc Besson's original sci-fi action thriller 'Lucy' ($463 Million)."
+    },
+    {
+      "question": "What is Scarlett Johansson's ethnicity and family background?",
+      "answer": "Scarlett Johansson comes from a culturally rich heritage. Her father, Karsten Olaf Johansson, is a Danish-born architect from Copenhagen, while her mother, Melanie Sloan, is an American former producer from an Ashkenazi Jewish family originating from Poland and Russia. Johansson describes herself as Jewish and observes Jewish cultural traditions."
+    },
+    {
+      "question": "Does Scarlett Johansson have a twin brother? Tell us about Hunter Johansson.",
+      "answer": "Yes. Scarlett Johansson has a twin brother named Hunter Johansson, born three minutes after her on November 22, 1984. Hunter appeared alongside Scarlett in the 1996 film 'Manny & Lo' before pursuing a career in politics and non-profit leadership. He served on presidential campaigns and founded Solar Responders, an organization installing emergency solar microgrids on first-responder stations in Puerto Rico."
+    },
+    {
+      "question": "Did Scarlett Johansson win a Tony Award on Broadway?",
+      "answer": "Yes. In 2010, Scarlett Johansson made her Broadway stage debut portraying Catherine in Arthur Miller's classic drama 'A View from the Bridge' opposite Liev Schreiber at the Cort Theatre. Her performance received rave reviews, earning her the prestigious Tony Award for Best Featured Actress in a Play."
+    },
+    {
+      "question": "Where does Scarlett Johansson live now?",
+      "answer": "Scarlett Johansson primarily lives in Palisades, Rockland County, New York, residing in an idyllic Hudson River manor known as 'The Ivy House'. She also owns a scenic beach retreat in Amagansett in the Hamptons and maintains a luxury penthouse apartment in Midtown Manhattan for East Coast work and filming commitments."
+    },
+    {
+      "question": "Does Scarlett Johansson have personal social media accounts?",
+      "answer": "No. Scarlett Johansson does not have any personal accounts on Instagram, X (Twitter), TikTok, or Facebook. She has explained in numerous interviews that she prefers to protect her mental wellbeing and personal life from digital scrutiny, maintaining an official digital presence strictly through her clean beauty brand, @theoutset."
+    },
+    {
+      "question": "Why did Scarlett Johansson step down from Oxfam in 2014?",
+      "answer": "In January 2014, Johansson stepped down from her eight-year ambassadorship with humanitarian organization Oxfam. The departure followed Oxfam's criticism of her commercial endorsement deal with SodaStream, which operated an industrial plant in a West Bank Israeli settlement. Johansson stated that she and Oxfam held a fundamental difference of opinion regarding the boycott and divestment movement."
+    },
+    {
+      "question": "What did Scarlett Johansson say regarding AI voice cloning and OpenAI?",
+      "answer": "In May 2024, Johansson released a strongly worded public statement after OpenAI released a voice assistant named 'Sky' that sounded strikingly identical to her voice. Johansson revealed that OpenAI CEO Sam Altman had repeatedly approached her to voice the system—which she declined for personal reasons. Following her statement and legal inquiries, OpenAI paused the voice, highlighting crucial questions surrounding synthetic voice replication and celebrity likeness protection."
+    },
+    {
+      "question": "What upcoming movies and projects is Scarlett Johansson working on?",
+      "answer": "Her upcoming slate includes headlining Universal's 'Jurassic World Rebirth' (2025), expanding theatrical distribution for her directorial debut 'Eleanor the Great', producing top-secret non-Black Widow projects for Marvel Studios, and starring alongside Penelope Cruz and Michael Fassbender in Nancy Meyers' high-profile romantic comedy project."
+    }
   ]
 };
