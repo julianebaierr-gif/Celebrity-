@@ -270,25 +270,64 @@ export default function FinancialDossierSection({
               Longitudinal tracking of certified net worth benchmarks across career epochs.
             </p>
 
-            <div className="space-y-3.5">
-              {wealthProgression.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="group p-4 sm:p-5 rounded-xl bg-slate-50/70 border border-slate-200/80 hover:bg-slate-50 hover:border-amber-300 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4"
-                >
-                  <div className="flex items-center gap-3 shrink-0">
-                    <span className="px-3.5 py-1.5 rounded-lg bg-slate-900 text-white font-mono font-bold text-xs tracking-wider shadow-2xs">
-                      {item.period}
-                    </span>
-                    <span className="text-base sm:text-lg font-black text-emerald-700 font-mono">
-                      {item.estimatedNetWorth}
-                    </span>
+            <div className="space-y-3">
+              {wealthProgression.map((item, idx) => {
+                const isLatest = idx === wealthProgression.length - 1;
+                return (
+                  <div
+                    key={idx}
+                    className={`group relative rounded-xl border p-4 sm:p-5 transition-all duration-300 flex flex-col md:flex-row md:items-center gap-4 ${
+                      isLatest
+                        ? "bg-gradient-to-r from-emerald-50/50 via-white to-amber-50/30 border-emerald-300/80 shadow-xs hover:border-emerald-400 hover:shadow-md"
+                        : "bg-slate-50/70 border-slate-200/80 hover:bg-white hover:border-amber-300/80 hover:shadow-sm"
+                    }`}
+                  >
+                    {/* 1. Year / Period Chip */}
+                    <div className="flex items-center gap-3 shrink-0 md:w-36">
+                      <span className="inline-flex items-center justify-center px-3 py-1.5 rounded-lg bg-slate-900 text-white font-mono font-bold text-xs tracking-wider shadow-2xs">
+                        {item.period}
+                      </span>
+                      <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 hidden sm:inline-block">
+                        {isLatest ? "Current" : "Benchmark"}
+                      </span>
+                    </div>
+
+                    {/* 2. Certified Net Worth Valuation */}
+                    <div className="shrink-0 md:w-48">
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-0.5">
+                        Certified Net Worth
+                      </span>
+                      <span className="text-base sm:text-lg font-black text-emerald-700 font-mono tracking-tight flex items-center gap-1.5">
+                        {isLatest && (
+                          <span className="relative flex h-2 w-2">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                          </span>
+                        )}
+                        <span>{item.estimatedNetWorth}</span>
+                      </span>
+                    </div>
+
+                    {/* 3. Left-Aligned Milestone Description with Desktop Divider */}
+                    <div className="flex-1 min-w-0 md:border-l md:border-slate-200/80 md:pl-5">
+                      <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-left">
+                        {item.milestoneDescription}
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 sm:text-right max-w-xl leading-relaxed">
-                    {item.milestoneDescription}
-                  </p>
-                </div>
-              ))}
+                );
+              })}
+            </div>
+
+            {/* Audited Registry Verification Footer */}
+            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 flex-wrap gap-2">
+              <span className="flex items-center gap-1.5 font-medium">
+                <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 shrink-0" aria-hidden="true" />
+                <span>Audited Historical SEC, Studio Contracts &amp; Forbes Wealth Benchmarks</span>
+              </span>
+              <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider font-semibold hidden sm:inline-block">
+                Historical Audit
+              </span>
             </div>
           </div>
         )}
