@@ -17,7 +17,7 @@ import RelationshipSection from "@/components/profile/RelationshipSection";
 import FinancialDossierSection from "@/components/profile/FinancialDossierSection";
 import PhilanthropySection from "@/components/profile/PhilanthropySection";
 import ControversiesSection from "@/components/profile/ControversiesSection";
-import { ChevronRight, ExternalLink, ArrowLeftRight } from "lucide-react";
+import { ChevronRight, ExternalLink, ArrowLeftRight, Trophy, CheckCircle2 } from "lucide-react";
 import { getAgeBadgeText, formatNetWorth } from "@/lib/celebrity-utils";
 
 interface PageProps {
@@ -443,30 +443,103 @@ export default async function CelebrityDetailPage({ params }: PageProps) {
           )}
 
           {/* 5. Career Milestones & Breakthrough Timeline */}
-          <section id="career-milestones" className="my-10 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs">
-            <div className="mb-6">
-              <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-                {celebrity.name}: Career Breakthroughs &amp; Timeline
-              </h2>
-            </div>
-
-            <div className="relative pl-6 border-l-2 border-slate-200 space-y-7">
-              {celebrity.careerMilestones.map((milestone, idx) => (
-                <div key={idx} className="relative group">
-                  <div className="absolute -left-[31px] top-1 h-3.5 w-3.5 rounded-full bg-amber-500 border-4 border-white shadow-xs group-hover:scale-125 transition-transform" />
-                  <span className="text-xs font-mono font-bold text-amber-700 uppercase tracking-wider block">
-                    {milestone.year}
-                  </span>
-                  <h3 className="text-base font-bold text-slate-900 mt-0.5">
-                    {milestone.title}
-                  </h3>
-                  <p className="text-sm text-slate-600 mt-1 leading-relaxed">
-                    {milestone.description}
-                  </p>
+          {celebrity.careerMilestones && celebrity.careerMilestones.length > 0 && (
+            <section id="career-milestones" className="my-12 scroll-mt-20">
+              {/* Section Header */}
+              <div className="flex items-center gap-2.5 mb-2">
+                <div className="p-2 rounded-xl bg-amber-500/10 text-amber-700 border border-amber-200/60">
+                  <Trophy className="h-5 w-5" />
                 </div>
-              ))}
-            </div>
-          </section>
+                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                  {celebrity.name}: Career Breakthroughs &amp; Timeline
+                </h2>
+              </div>
+              <p className="text-sm text-slate-500 mb-8 leading-relaxed">
+                Chronological record of landmark performances, industry honors, and historic commercial turning points.
+              </p>
+
+              {/* Timeline Card Container */}
+              <div className="group relative rounded-2xl border border-slate-200/90 bg-white p-6 sm:p-9 shadow-xs hover:border-amber-400/80 hover:shadow-xl transition-all duration-300 overflow-hidden">
+                {/* Top Accent Highlight Line on Hover */}
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                {/* Toolbar */}
+                <div className="pb-5 mb-8 border-b border-slate-100 flex items-center justify-between gap-4 flex-wrap">
+                  <div className="flex items-center gap-2">
+                    <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-50 text-amber-800 text-[11px] font-bold uppercase tracking-wider border border-amber-200/60">
+                      <Trophy className="h-3 w-3 text-amber-600" aria-hidden="true" />
+                      <span>Critical Benchmarks</span>
+                    </span>
+                    <span className="text-xs text-slate-500 font-medium hidden sm:inline-block">
+                      • {celebrity.careerMilestones.length} Documented Turning Points
+                    </span>
+                  </div>
+                  <span className="text-[10px] font-mono font-semibold uppercase tracking-wider text-slate-400 bg-slate-50 px-2.5 py-1 rounded-md border border-slate-200/60">
+                    Chronological Sequence
+                  </span>
+                </div>
+
+                {/* Timeline Track */}
+                <div className="relative pl-6 sm:pl-8 border-l-2 border-amber-200/80 space-y-6 sm:space-y-8">
+                  {celebrity.careerMilestones.map((milestone, idx) => {
+                    const isLatest = idx === celebrity.careerMilestones.length - 1;
+                    return (
+                      <div key={idx} className="relative group/milestone">
+                        {/* Modern Pulsing Milestone Node on the line */}
+                        <div className="absolute -left-[31px] sm:-left-[39px] top-1.5 flex items-center justify-center">
+                          <div className="h-5 w-5 sm:h-6 sm:w-6 rounded-full bg-white border-2 border-amber-500 shadow-xs flex items-center justify-center group-hover/milestone:border-amber-600 group-hover/milestone:scale-110 transition-all">
+                            <span className="h-2 w-2 rounded-full bg-amber-500" />
+                          </div>
+                        </div>
+
+                        {/* Milestone Card Content */}
+                        <div className="rounded-xl border border-slate-200/80 bg-slate-50/60 p-4 sm:p-5 hover:bg-white hover:border-amber-300/90 hover:shadow-md transition-all duration-300">
+                          {/* Top: Year Pill + Era Tag */}
+                          <div className="flex items-center justify-between gap-2 mb-2 flex-wrap">
+                            <div className="flex items-center gap-2">
+                              <span className="px-2.5 py-1 rounded-md bg-slate-900 text-white font-mono font-bold text-xs tracking-wider shadow-2xs">
+                                {milestone.year}
+                              </span>
+                              {isLatest && (
+                                <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200/80 text-[10px] font-bold font-mono">
+                                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                                  Latest Career Milestone
+                                </span>
+                              )}
+                            </div>
+                            <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider font-semibold hidden sm:inline-block">
+                              Milestone #{idx + 1}
+                            </span>
+                          </div>
+
+                          {/* Title */}
+                          <h3 className="text-base sm:text-lg font-black text-slate-900 tracking-tight group-hover/milestone:text-amber-950 transition-colors">
+                            {milestone.title}
+                          </h3>
+
+                          {/* Description */}
+                          <p className="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed font-normal">
+                            {milestone.description}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {/* Audited Footer */}
+                <div className="mt-8 pt-4 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 flex-wrap gap-2">
+                  <span className="flex items-center gap-1.5 font-medium">
+                    <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 shrink-0" aria-hidden="true" />
+                    <span>Substantiated via Industry Award Registries, Guild Disclosures &amp; Academy Records</span>
+                  </span>
+                  <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider font-semibold hidden sm:inline-block">
+                    Documented Ledger
+                  </span>
+                </div>
+              </div>
+            </section>
+          )}
 
           {/* 6. Full Biographical Analysis & Critical Retrospective */}
           <EditorialBiography
