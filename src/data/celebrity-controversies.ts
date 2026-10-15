@@ -536,5 +536,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "resolutionOrOutcome": "In March 2020, as global pandemic lockdowns began, Hemsworth generously announced a free six-week trial of his Centr fitness app to assist people staying active at home. Following the trial window, thousands of international users reported unexpected auto-renewal charges to their payment accounts without explicit pre-billing reminders. Hemsworth and the Centr executive management team responded rapidly, publicly apologizing for technical billing ambiguities, issuing automatic refunds to affected subscribers, and overhauling the platform's subscription management interface with transparent opt-in confirmations.",
     "impactAnalysis": "Proactive executive accountability and immediate consumer restitution preserved goodwill, reinforcing the platform's long-term reputation ahead of its $200M+ acquisition by HighPost Capital in 2022."
   }
+],
+  "mark-ruffalo": [
+  {
+    "incident": "Pennsylvania Homeland Security Anti-Fracking Watchlist Incident",
+    "year": "2010",
+    "resolutionOrOutcome": "In late 2010, news reports disclosed that the Pennsylvania Office of Homeland Security had erroneously listed Mark Ruffalo on a state intelligence briefing advisory after he hosted educational screenings of the anti-hydraulic fracturing documentary 'Gasland' across Pennsylvania and New York border communities. Following immediate public outcry, Pennsylvania Governor Ed Rendell publicly apologized, condemning the contractor bulletin as an embarrassing bureaucratic overreach and confirming Ruffalo's immediate removal from state security memos.",
+    "impactAnalysis": "The incident elevated Ruffalo's national standing as an environmental whistleblower, galvanizing grassroots anti-fracking coalitions that ultimately contributed to New York State's historic 2014 permanent ban on high-volume hydraulic fracturing."
+  },
+  {
+    "incident": "Casting Controversy on Independent Feature 'Anything'",
+    "year": "2016–2017",
+    "resolutionOrOutcome": "In 2016, Ruffalo served as executive producer on the indie drama 'Anything', which cast cisgender actor Matt Bomer as a transgender sex worker. The casting prompted constructive criticism from transgender performers and advocacy groups regarding authentic representation. Ruffalo engaged directly with critics, publicly acknowledging the validity of the concerns, explaining that Bomer had been cast during early development, and pledging his proactive support for transgender actors and creative personnel across industry productions.",
+    "impactAnalysis": "Ruffalo's transparent, non-defensive handling of the critique was widely praised by LGBTQ+ organizations as an exemplary model of collaborative accountability for Hollywood producers."
+  }
 ]
 };

@@ -4143,5 +4143,194 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Consolidated wealth certified at $160M USD backed by Crime 101, Furiosa, ongoing Centr equity, luxury endorsements, and Australian coastal real estate appreciation."
     }
   ]
+},
+  "mark-ruffalo": {
+  "salaryMilestones": [
+    {
+      "project": "You Can Count on Me",
+      "year": 2000,
+      "salary": "$65,000 USD SAG Scale",
+      "boxOfficeOrBudget": "$1.2 Million Budget / $11.0 Million Box Office",
+      "notes": "Indie breakthrough portraying Terry Prescott, launching his critical reputation and earning the Sundance Grand Jury Prize."
+    },
+    {
+      "project": "13 Going on 30",
+      "year": 2004,
+      "salary": "$800,000 USD",
+      "boxOfficeOrBudget": "$37.0 Million Budget / $96.5 Million Box Office",
+      "notes": "Mainstream romantic comedy breakthrough as Matt Flamhaff opposite Jennifer Garner, performing the iconic Thriller dance sequence."
+    },
+    {
+      "project": "Zodiac",
+      "year": 2007,
+      "salary": "$1.25 Million USD",
+      "boxOfficeOrBudget": "$65.0 Million Budget / $84.8 Million Box Office",
+      "notes": "Starred as real-life SFPD Inspector Dave Toschi in David Fincher's meticulous historical procedural thriller."
+    },
+    {
+      "project": "Shutter Island",
+      "year": 2010,
+      "salary": "$2.0 Million USD",
+      "boxOfficeOrBudget": "$80.0 Million Budget / $294.8 Million Box Office",
+      "notes": "Collaborated with Martin Scorsese portraying Deputy U.S. Marshal Chuck Aule opposite Leonardo DiCaprio."
+    },
+    {
+      "project": "The Avengers",
+      "year": 2012,
+      "salary": "$2.5 Million USD Base + Backend Bonuses",
+      "boxOfficeOrBudget": "$220.0 Million Budget / $1.520 Billion Box Office",
+      "notes": "Debuted as Dr. Bruce Banner / The Hulk, executing full performance capture and generating massive international acclaim."
+    },
+    {
+      "project": "Foxcatcher",
+      "year": 2014,
+      "salary": "$2.0 Million USD",
+      "boxOfficeOrBudget": "$24.0 Million Budget / Cannes Best Director",
+      "notes": "Underwent intensive wrestling conditioning to portray Dave Schultz, earning his second Academy Award nomination."
+    },
+    {
+      "project": "Spotlight",
+      "year": 2015,
+      "salary": "$2.5 Million USD",
+      "boxOfficeOrBudget": "$20.0 Million Budget / $98.7M Gross & Best Picture Winner",
+      "notes": "Portrayed Boston Globe investigative journalist Mike Rezendes, scoring his third Academy Award nomination."
+    },
+    {
+      "project": "Thor: Ragnarok",
+      "year": 2017,
+      "salary": "$5.0 Million USD Upfront",
+      "boxOfficeOrBudget": "$180.0 Million Budget / $855.3 Million Box Office",
+      "notes": "Co-starred with Chris Hemsworth in Taika Waititi's cosmic space-comedy, expanding the Hulk's personality into speaking dialogue."
+    },
+    {
+      "project": "Avengers: Infinity War & Endgame",
+      "year": 2018,
+      "salary": "$15.0M–$20.0M USD Combined Package + Backend Points",
+      "boxOfficeOrBudget": "$700.0M+ Combined Budget / $4.85 Billion Cumulative Gross",
+      "notes": "Evolved into 'Smart Hulk' and executed the historic Nano Gauntlet snap in the $2.799 Billion worldwide record-breaker."
+    },
+    {
+      "project": "I Know This Much Is True",
+      "year": 2020,
+      "salary": "$6.0 Million USD ($1M Per Episode Dual Role & EP Package)",
+      "boxOfficeOrBudget": "HBO Limited Series Prestige Showcase",
+      "notes": "Portrayed identical twins Dominick and Thomas Birdsey, winning the Primetime Emmy Award for Outstanding Lead Actor."
+    },
+    {
+      "project": "Poor Things",
+      "year": 2023,
+      "salary": "$3.0 Million USD + Oscar Backend Escalators",
+      "boxOfficeOrBudget": "$35.0 Million Budget / $117.6 Million Box Office",
+      "notes": "Earned his fourth Academy Award nomination portraying the hilariously debauched Victorian cad Duncan Wedderburn for Yorgos Lanthimos."
+    },
+    {
+      "project": "Task",
+      "year": 2026,
+      "salary": "$6.0 Million USD ($1.0M Per Episode Headline Package)",
+      "boxOfficeOrBudget": "HBO Flagship Crime Drama Series",
+      "notes": "Headlines Brad Ingelsby's Philadelphia crime drama series, leading a specialized FBI task force with universal critical acclaim."
+    },
+    {
+      "project": "Crime 101",
+      "year": 2026,
+      "salary": "$5.0 Million USD Headline Co-Star Package",
+      "boxOfficeOrBudget": "Amazon MGM Studios Theatrical Tentpole",
+      "notes": "Co-starred alongside Chris Hemsworth and Halle Berry in Bart Layton's acclaimed crime thriller."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Callicoon Organic Farm & Sustainable Family Homestead",
+      "location": "Sullivan County, Catskills, New York",
+      "purchasedYear": "2001",
+      "purchasePrice": "$280,000 USD",
+      "currentEstimatedValue": "$3.5M–$4.5 Million USD",
+      "description": "Idyllic 50-acre sustainable estate in the Upper Delaware River Valley featuring a historic farmhouse, organic vegetable and fruit orchards, active apiary, and an off-grid solar installation that served as his healing sanctuary following brain tumor surgery."
+    },
+    {
+      "property": "Upper West Side Brownstone Residence",
+      "location": "Manhattan, New York, United States",
+      "purchasedYear": "2017",
+      "purchasePrice": "$3.5 Million USD",
+      "currentEstimatedValue": "$4.8 Million USD",
+      "description": "Multi-level pre-war townhouse situated in a tranquil Manhattan neighborhood, offering convenient access to Broadway theaters, independent film festivals, and national advocacy headquarters."
+    },
+    {
+      "property": "Sunset Strip Craftsman Villa (Historical)",
+      "location": "Hollywood Hills, California, United States",
+      "purchasedYear": "2004",
+      "purchasePrice": "$1.65 Million USD",
+      "currentEstimatedValue": "Sold for $3.1 Million USD in 2009",
+      "description": "Restored 1930s craftsman compound featuring panoramic Los Angeles city views, sold when Ruffalo permanently transitioned his primary family residence to New York."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "The Solutions Project",
+      "role": "Co-Founder & Advisory Trustee",
+      "valuationOrRevenue": "$50.0M+ Philanthropic Clean-Energy Deployment",
+      "description": "Co-founded alongside Stanford civil engineering professor Mark Z. Jacobson, championing a verified 100% renewable energy roadmap (wind, water, and solar) across all 50 states, channeling millions in non-profit grants to frontline climate innovators."
+    },
+    {
+      "name": "Water Defense Ecosystem",
+      "role": "Founder & President",
+      "valuationOrRevenue": "$10.0M+ Environmental Testing Infrastructure",
+      "description": "Non-profit clean water watchdog organization utilizing cutting-edge water-testing technology to identify industrial and chemical contamination in water systems affected by hydraulic fracturing."
+    },
+    {
+      "name": "Green Film School Alliance & Sustainable Cinema Initiative",
+      "role": "Co-Architect & Industry Champion",
+      "valuationOrRevenue": "Industry-Wide Production Sustainability Standard",
+      "description": "Collaborated with major Hollywood studios and film conservatories to implement zero-waste sets, solar generator power, and non-toxic production protocols throughout mainstream studio filmmaking."
+    },
+    {
+      "name": "First-Look Film & Television Production Agreements",
+      "role": "Executive Producer & Principal",
+      "valuationOrRevenue": "$20.0M+ Multi-Year Development Value",
+      "description": "Executive producing deals focused on socially conscious investigative cinema and television adaptations including Dark Waters, I Know This Much Is True, and Being Heumann."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "1999",
+      "estimatedNetWorth": "$25,000 USD",
+      "milestoneDescription": "Decade of bartending at Chateau Marmont and intimate stage work with the Orpheum Theatre Company in Los Angeles."
+    },
+    {
+      "period": "2001",
+      "estimatedNetWorth": "$350,000 USD",
+      "milestoneDescription": "Breakthrough in Kenneth Lonergan's You Can Count on Me; acquired first rural farmhouse in Callicoon, Upstate NY."
+    },
+    {
+      "period": "2006",
+      "estimatedNetWorth": "$3.0 Million USD",
+      "milestoneDescription": "Recovery from brain tumor surgery and starring roles in 13 Going on 30 and Eternal Sunshine of the Spotless Mind."
+    },
+    {
+      "period": "2011",
+      "estimatedNetWorth": "$8.0 Million USD",
+      "milestoneDescription": "Dramatic acclaim in Zodiac and Shutter Island; first Academy Award nomination for The Kids Are All Right."
+    },
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$18.0 Million USD",
+      "milestoneDescription": "Marvel breakthrough in The Avengers and Age of Ultron, coupled with Oscar nominations for Foxcatcher and Spotlight."
+    },
+    {
+      "period": "2019",
+      "estimatedNetWorth": "$38.0 Million USD",
+      "milestoneDescription": "Global backend bonuses from Avengers: Endgame ($2.8B) and Thor: Ragnarok, plus lead role in Dark Waters."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$45.0 Million USD",
+      "milestoneDescription": "Primetime Emmy and Golden Globe win for I Know This Much Is True, alongside fourth Oscar nomination for Poor Things."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$50.0 Million USD",
+      "milestoneDescription": "Audited fortune certified at $50M USD driven by HBO's Task ($6M), Crime 101 ($5M), Catskills real estate appreciation, and ongoing Marvel licensing."
+    }
+  ]
 }
 };

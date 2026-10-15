@@ -1814,5 +1814,67 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "What is Chris Hemsworth's 2026 movie Crime 101 about?",
     "answer": "'Crime 101' is a high-stakes crime thriller directed by Bart Layton ('American Animals') for Amazon MGM Studios, adapted from Don Winslow's acclaimed novella. Hemsworth stars as master jewel thief Mike Davis opposite an all-star ensemble including Halle Berry, Mark Ruffalo, and Barry Keoghan. The film officially premiered in early 2026 with international promotional stops in Madrid and Los Angeles."
   }
+],
+  "mark-ruffalo": [
+  {
+    "question": "What is Mark Ruffalo's verified net worth in 2026?",
+    "answer": "Mark Ruffalo commands an audited personal net worth certified at $50.0 Million USD (Forbes & Industry Consensus Filings). His fortune is generated through substantial Marvel Cinematic Universe paydays—including multi-million-dollar salaries and global backend participation from 'The Avengers', 'Avengers: Infinity War', and 'Avengers: Endgame' ($2.799B)—alongside top-tier television fees such as his $6.0 Million package for HBO's 2026 flagship drama 'Task', critically celebrated turns in 'Poor Things' and 'Crime 101', and valuable real estate holdings across Sullivan County, New York, and Manhattan."
+  },
+  {
+    "question": "How old is Mark Ruffalo and what is his exact birthdate?",
+    "answer": "Mark Ruffalo is 58 years old as of 2026. He was born on November 22, 1967, in Kenosha, Wisconsin, United States."
+  },
+  {
+    "question": "How tall is Mark Ruffalo and what are his physical characteristics?",
+    "answer": "Mark Ruffalo stands 5 feet 8 inches (173 cm) tall and weighs approximately 170 pounds (77 kg). He is renowned for his signature curly dark-brown and salt-and-pepper hair, warm brown eyes, and expressive, emotionally unguarded demeanor that lends remarkable naturalism to both comic and dramatic roles."
+  },
+  {
+    "question": "Did Mark Ruffalo have a brain tumor, and is he deaf in one ear?",
+    "answer": "Yes. In 2001, following a vivid intuitive dream warning him of an illness, Ruffalo underwent a cranial MRI that revealed an acoustic neuroma—a benign brain tumor behind his left ear. He kept the diagnosis secret from his pregnant wife until after their son Keen was safely born. In 2002, he underwent surgery to excise the mass. While the tumor was completely eliminated, the surgery resulted in permanent deafness in his left ear and temporary paralysis of the left side of his face. Through intensive walking, physical therapy, and facial exercises over ten months, his facial nerve mobility recovered, allowing him to resume his acting career."
+  },
+  {
+    "question": "What happened to Mark Ruffalo's brother Scott Ruffalo?",
+    "answer": "In December 2008, Mark Ruffalo's younger brother Scott Ruffalo, a prominent 39-year-old Beverly Hills hairstylist, was found with a fatal gunshot wound to the head at his home. Despite an exhaustive investigation by the Beverly Hills Police Department, the tragic shooting remains officially unsolved. The devastating loss had a profound impact on Mark, deepening his commitment to family solidarity, gun safety advocacy, and mental health awareness."
+  },
+  {
+    "question": "Who is Mark Ruffalo's wife and how long have they been married?",
+    "answer": "Mark Ruffalo is married to French-American actress, former boutique owner, and interior design entrepreneur Christina Sunrise Coigney. The couple met on a Los Angeles street in 1998 when Ruffalo was an impoverished, struggling theater actor living in a tiny apartment. They married on June 11, 2000, and have maintained one of contemporary Hollywood's most admired, enduring marriages for over 26 years."
+  },
+  {
+    "question": "How many children does Mark Ruffalo have?",
+    "answer": "Mark Ruffalo and his wife Sunrise Coigney have three children: son Keen Ruffalo (born June 2001) and daughters Bella Noche Ruffalo (born April 2005) and Odette Ruffalo (born October 2007). The family was predominantly raised on an organic farm in upstate New York away from Hollywood tabloids."
+  },
+  {
+    "question": "How much was Mark Ruffalo paid for playing the Hulk in Marvel movies?",
+    "answer": "Ruffalo received an initial base salary of approximately $2.5 Million USD for 'The Avengers' in 2012. As the character evolved into a central comedic and dramatic pillar of the franchise, his earnings scaled dramatically: he received $5.0 Million for 'Thor: Ragnarok' (2017) and an estimated $15.0M–$20.0 Million combined package plus global box office profit points across 'Avengers: Infinity War' (2018) and 'Avengers: Endgame' (2019). His cumulative Marvel Cinematic Universe career compensation exceeds $35.0 Million USD."
+  },
+  {
+    "question": "Why did Mark Ruffalo replace Edward Norton as Bruce Banner?",
+    "answer": "Edward Norton portrayed Bruce Banner in Marvel Studios' 2008 film 'The Incredible Hulk'. Ahead of 2012's 'The Avengers', Marvel Studios and Kevin Feige sought an actor whose creative approach emphasized ensemble collaboration and naturalistic warmth. Robert Downey Jr., who had starred opposite Ruffalo in David Fincher's 'Zodiac' (2007), personally advocated for Ruffalo, famously calling him directly to convince him to take the mantle."
+  },
+  {
+    "question": "How many Academy Award (Oscar) nominations does Mark Ruffalo have?",
+    "answer": "Mark Ruffalo has earned four Academy Award nominations for Best Supporting Actor: for 'The Kids Are All Right' (2010), 'Foxcatcher' (2014), 'Spotlight' (2015, which won Best Picture), and 'Poor Things' (2023). This quartet of nominations establishes him as one of the most consistently acclaimed supporting dramatic actors of the 21st century."
+  },
+  {
+    "question": "What role did Mark Ruffalo play in Poor Things?",
+    "answer": "In Yorgos Lanthimos' 2023 visionary fantasy comedy 'Poor Things', Ruffalo portrayed Duncan Wedderburn, an extravagantly arrogant, vain Victorian lawyer who embarks on a hedonistic odyssey with Emma Stone's Bella Baxter, only to unravel into comedic helplessness. Ruffalo's fearless physical comedy and slapstick vanity earned him widespread praise and his fourth Oscar nomination."
+  },
+  {
+    "question": "What major awards did Mark Ruffalo win for I Know This Much Is True?",
+    "answer": "For Derek Cianfrance's 2020 HBO limited drama series 'I Know This Much Is True', Ruffalo undertook the tour de force challenge of portraying identical twin brothers Dominick and Thomas Birdsey, the latter suffering from severe paranoid schizophrenia. Ruffalo won both the Primetime Emmy Award for Outstanding Lead Actor in a Limited Series and the Golden Globe Award for Best Actor in a Miniseries."
+  },
+  {
+    "question": "What is Mark Ruffalo's 2026 HBO series Task about?",
+    "answer": "'Task' is a 2026 HBO crime-drama series created by Brad Ingelsby ('Mare of Easttown'). Ruffalo headlines the series as Tom, an experienced FBI agent who leads a specialized inter-agency task force tasked with bringing down a violent crew of working-class drug thieves in the Philadelphia suburbs. Ruffalo commanded a reported $1.0 Million per episode ($6.0M total) for the high-prestige production."
+  },
+  {
+    "question": "Where does Mark Ruffalo live? What is his Callicoon farm?",
+    "answer": "Mark Ruffalo's primary sanctuary is a 50-acre sustainable organic farm in Callicoon, Sullivan County, nestled in the Catskills region of upstate New York. Acquired in 2001, the property features organic fruit orchards, active bee colonies, and rooftop solar installations. In addition to their country homestead, the Ruffalos maintain a pre-war brownstone on Manhattan's Upper West Side for New York theater and film commitments."
+  },
+  {
+    "question": "What environmental organizations and causes does Mark Ruffalo lead?",
+    "answer": "Ruffalo is co-founder of The Solutions Project, a non-profit foundation accelerating a scientifically verified transition to 100% clean, renewable energy (wind, water, and solar) across the United States. He also founded Water Defense to monitor toxic chemical contamination from hydraulic fracturing (fracking) and is a prominent ally to Indigenous water protectors, including the Standing Rock Sioux tribe."
+  }
 ]
 };

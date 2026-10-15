@@ -830,5 +830,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "verifiedContribution": "Marvel Superhero Ambassador & Routine Hospital Visitor",
     "description": "Regularly visits pediatric oncology wards across Australia and the United States dressed in Thor regalia, granting dozens of personalized wishes for critically ill children."
   }
+],
+  "mark-ruffalo": [
+  {
+    "organizationOrCause": "The Solutions Project",
+    "focusArea": "100% Renewable Clean Energy Transition & Grassroots Climate Justice",
+    "verifiedContribution": "Co-Founder, Major Benefactor & Advisory Trustee",
+    "description": "Co-founded the foundation alongside Stanford professor Mark Z. Jacobson, mobilizing and distributing over $50 Million in philanthropic resources to community-led clean energy projects, with 95% directed toward frontline leaders of color."
+  },
+  {
+    "organizationOrCause": "Water Defense",
+    "focusArea": "Clean Drinking Water Protection & Industrial Fracking Pollution Audits",
+    "verifiedContribution": "Founder, Lead Funder & Strategic Spokesperson",
+    "description": "Founded the non-profit organization to pioneer specialized water-testing technology ('Water Bug') that detects toxic chemical plumes and petrochemical industrial leaks in municipal and rural water supplies."
+  },
+  {
+    "organizationOrCause": "Indigenous Environmental Network & Standing Rock Water Protectors",
+    "focusArea": "Native Sovereignty, Clean Watersheds & Pipeline Opposition",
+    "verifiedContribution": "Cultural Ambassador, Emergency Fundraiser & Solar Equipment Donor",
+    "description": "Mobilized national celebrity coalitions, raised hundreds of thousands in legal defense funds, and delivered mobile off-grid solar trailer generators to frontline Lakota water protector encampments at Standing Rock."
+  },
+  {
+    "organizationOrCause": "SAG-AFTRA Foundation & MPTF Emergency Assistance",
+    "focusArea": "Working-Class Crew Healthcare & Entertainment Labor Hardship Relief",
+    "verifiedContribution": "Major Donor & Emergency Strike Relief Benefactor",
+    "description": "Donated hundreds of thousands of dollars to provide direct emergency financial relief, healthcare coverage, and food stipends for below-the-line film crew members and striking performers."
+  }
 ]
 };

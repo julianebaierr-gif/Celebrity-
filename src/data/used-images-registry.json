@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-15T10:16:37.974Z",
-  "totalUniqueImages": 88,
+  "lastUpdated": "2026-10-15T11:16:27.852Z",
+  "totalUniqueImages": 91,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -660,6 +660,30 @@
       "pageSlug": "chris-hemsworth",
       "assignedAt": "2026-10-15T10:16:37.973Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Kristen_Stewart_%287400741154%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "/images/celebrities/mark-ruffalo-hero.webp": {
+      "filePath": "/images/celebrities/mark-ruffalo-hero.webp",
+      "entity": "Mark Ruffalo",
+      "placement": "profile_hero",
+      "pageSlug": "mark-ruffalo",
+      "assignedAt": "2026-10-15T11:15:00.000Z",
+      "sourceUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-01/12/0/asset/c3f683a693c0/sub-buzz-1379-1768176043-1.jpg"
+    },
+    "/images/celebrities/mark-ruffalo-content.webp": {
+      "filePath": "/images/celebrities/mark-ruffalo-content.webp",
+      "entity": "Mark Ruffalo",
+      "placement": "profile_content",
+      "pageSlug": "mark-ruffalo",
+      "assignedAt": "2026-10-15T11:15:00.000Z",
+      "sourceUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-01/12/0/asset/c3f683a693c0/sub-buzz-1379-1768176043-1.jpg"
+    },
+    "/images/partners/sunrise-coigney.webp": {
+      "filePath": "/images/partners/sunrise-coigney.webp",
+      "entity": "Sunrise Coigney",
+      "placement": "relationship_partner",
+      "pageSlug": "mark-ruffalo",
+      "assignedAt": "2026-10-15T11:15:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sunrise_Coigney_Cannes_2014.jpg"
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {
@@ -683,5 +707,27 @@
     "name": "Elsa Pataky",
     "category": "partner",
     "registeredAt": "2026-10-15T10:22:23.272Z"
+  },
+  "/images/celebrities/mark-ruffalo-hero.webp": {
+    "url": "https://img.buzzfeed.com/buzzfeed-static/static/2026-01/12/0/asset/c3f683a693c0/sub-buzz-1379-1768176043-1.jpg",
+    "name": "Mark Ruffalo",
+    "category": "hero",
+    "year": "2026",
+    "event": "83rd Annual Golden Globe Awards Red Carpet (January 11, 2026)",
+    "registeredAt": "2026-10-15T11:15:00.000Z"
+  },
+  "/images/celebrities/mark-ruffalo-content.webp": {
+    "url": "https://img.buzzfeed.com/buzzfeed-static/static/2026-01/12/0/asset/c3f683a693c0/sub-buzz-1379-1768176043-1.jpg",
+    "name": "Mark Ruffalo",
+    "category": "content",
+    "year": "2026",
+    "event": "83rd Annual Golden Globe Awards Presentation & Be Good Pin (January 11, 2026)",
+    "registeredAt": "2026-10-15T11:15:00.000Z"
+  },
+  "/images/partners/sunrise-coigney.webp": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sunrise_Coigney_Cannes_2014.jpg",
+    "name": "Sunrise Coigney",
+    "category": "partner",
+    "registeredAt": "2026-10-15T11:15:00.000Z"
   }
 }

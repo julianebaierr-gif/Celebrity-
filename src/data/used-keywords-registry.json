@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 42,
-  "lastUpdated": "2026-10-15T10:00:00.000Z",
+  "totalLocked": 43,
+  "lastUpdated": "2026-10-15 11:00:00",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -917,6 +917,27 @@
         "chris hemsworth centr app",
         "chris hemsworth crime 101"
       ]
+    },
+    {
+      "keyword": "mark ruffalo",
+      "slug": "mark-ruffalo",
+      "name": "Mark Ruffalo",
+      "category": "Hollywood Leading Legends",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/mark-ruffalo",
+      "publishedAt": "2026-10-15 11:00:00",
+      "status": "Published",
+      "associatedTags": [
+        "mark ruffalo",
+        "mark ruffalo net worth",
+        "mark ruffalo the hulk",
+        "mark ruffalo poor things",
+        "mark ruffalo task hbo",
+        "mark ruffalo crime 101",
+        "mark ruffalo wife sunrise coigney",
+        "mark ruffalo brain tumor survival",
+        "mark ruffalo the solutions project",
+        "mark ruffalo 2026"
+      ]
     }
   ],
   "bannedKeywordSet": [
@@ -1223,6 +1244,12 @@
     "chris hemsworth byron bay",
     "chris hemsworth apoe4 gene",
     "chris hemsworth centr app",
-    "chris hemsworth 2026"
+    "chris hemsworth 2026",
+    "mark ruffalo",
+    "sunrise coigney",
+    "mark ruffalo acoustic neuroma",
+    "mark ruffalo task hbo",
+    "mark ruffalo the solutions project",
+    "mark ruffalo 2026"
   ]
 }
