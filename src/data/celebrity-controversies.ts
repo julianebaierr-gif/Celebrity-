@@ -521,5 +521,20 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "resolutionOrOutcome": "In February 2022, Larson shared a post showcasing a digital non-fungible token (NFT) from a women-led project, encouraging female participation in emerging technology. The post sparked swift backlash from fans and environmental advocates concerned with crypto energy consumption. Rather than arguing or escalating tension, Larson listened to community feedback, ceased promoting Web3 projects, and redirected her digital channels toward educational discussions and book recommendations.",
     "impactAnalysis": "The controversy demonstrated her willingness to respect audience sentiment and recalibrate her public messaging without defensive conflict."
   }
+],
+
+  "chris-hemsworth": [
+  {
+    "incident": "Byron Bay Mega-Compound Construction & Coastal Zoning Debate",
+    "year": "2018–2020",
+    "resolutionOrOutcome": "Between 2018 and 2020, aerial photographs of Hemsworth's massive, multi-level concrete estate under construction in Broken Head, Byron Bay, drew intense public debate across Australian media. Critics and local preservationists argued that the monolithic scale of the structure resembled a commercial shopping center or corporate facility, voicing concerns over regional overdevelopment in a historically laid-back coastal enclave. Hemsworth cooperated fully with Byron Shire Council regulatory audits, ensuring strict compliance with all environmental zoning permits, incorporating self-contained solar infrastructure, rainwater harvesting systems, and planting over one thousand native trees to re-vegetate surrounding bushland.",
+    "impactAnalysis": "The controversy sparked widespread national discussions on regional housing growth and celebrity enclaves in coastal Australia, while establishing the property as an icon of self-sustaining residential architecture."
+  },
+  {
+    "incident": "Centr Fitness Free-Trial Auto-Renewal Billing Dispute",
+    "year": "2020",
+    "resolutionOrOutcome": "In March 2020, as global pandemic lockdowns began, Hemsworth generously announced a free six-week trial of his Centr fitness app to assist people staying active at home. Following the trial window, thousands of international users reported unexpected auto-renewal charges to their payment accounts without explicit pre-billing reminders. Hemsworth and the Centr executive management team responded rapidly, publicly apologizing for technical billing ambiguities, issuing automatic refunds to affected subscribers, and overhauling the platform's subscription management interface with transparent opt-in confirmations.",
+    "impactAnalysis": "Proactive executive accountability and immediate consumer restitution preserved goodwill, reinforcing the platform's long-term reputation ahead of its $200M+ acquisition by HighPost Capital in 2022."
+  }
 ]
 };

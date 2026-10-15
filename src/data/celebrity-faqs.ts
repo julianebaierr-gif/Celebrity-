@@ -1751,5 +1751,68 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "What are Brie Larson's highest-grossing movies of all time?",
     "answer": "Her top-grossing films include 'Avengers: Endgame' ($2.799 Billion), 'Captain Marvel' ($1.131 Billion), 'Fast X' ($704.9 Million), 'Kong: Skull Island' ($568.7 Million), 'The Marvels' ($206.1 Million), and 'Trainwreck' ($140.8 Million), cementing her status as one of cinema's premier global box office anchors."
   }
+],
+
+  "chris-hemsworth": [
+  {
+    "question": "What is Chris Hemsworth's verified net worth in 2026?",
+    "answer": "Chris Hemsworth commands an audited personal net worth certified at $160.0 Million USD (Forbes & Industry Consensus Filings). His fortune is anchored by lucrative Marvel Cinematic Universe earnings—including $20 Million upfront paydays for 'Thor: Love and Thunder' and massive backend profit participation from 'Avengers: Endgame'—alongside $20 Million upfront fees for Netflix's 'Extraction' franchise, his major equity stake and 2022 multi-million dollar buyout from the $200M+ acquisition of his fitness platform Centr by HighPost Capital, eight-figure endorsements with TAG Heuer and Hugo Boss, and a prime Australian real estate portfolio valued over $35 Million USD."
+  },
+  {
+    "question": "How old is Chris Hemsworth and what is his exact birthdate?",
+    "answer": "Chris Hemsworth is 42 years old as of 2026. He was born on August 11, 1983, in Melbourne, Victoria, Australia."
+  },
+  {
+    "question": "How tall is Chris Hemsworth and what are his physical measurements?",
+    "answer": "Chris Hemsworth stands 6 feet 3 inches (191 cm) tall. His body weight typically fluctuates between 215 and 225 pounds (98–102 kg) of lean athletic mass when preparing for action roles. His training regimen, developed in collaboration with longtime trainer Luke Zocchi through his Centr app, incorporates functional compound hypertrophy, high-intensity kettlebell circuits, surf cardio, and daily infrared sauna and cold plunge therapy."
+  },
+  {
+    "question": "Did Chris Hemsworth retire from acting due to his Alzheimer's risk?",
+    "answer": "No, Chris Hemsworth did not retire from acting. Following the 2022 release of his National Geographic documentary series 'Limitless', sensationalist tabloids misrepresented his announcement of a temporary family break as permanent retirement. Hemsworth explicitly clarified in interviews with Vanity Fair and GQ that he is simply being more selective with his schedule—limiting back-to-back location shoots to prioritize his family and longevity, while actively headlining major blockbusters including 'Furiosa', 'Extraction 2', and 'Crime 101'."
+  },
+  {
+    "question": "What is the APOE4 gene and what did Chris Hemsworth's genetic test show?",
+    "answer": "During the filming of 'Limitless', blood sequencing overseen by longevity physician Dr. Peter Attia revealed that Hemsworth possesses two copies of the APOE4 gene (one inherited from his mother and one from his father). This genetic profile places him in an estimated 2 to 3 percent of the global population with an eight-to-tenfold elevated statistical risk of developing Alzheimer's disease. Hemsworth publicly explained that the gene is not pre-deterministic, treating the revelation as a proactive catalyst for preventative cognitive health, cardiovascular conditioning, sleep optimization, and stress reduction."
+  },
+  {
+    "question": "Who is Chris Hemsworth's wife and how did they meet?",
+    "answer": "Chris Hemsworth is married to Spanish actress and model Elsa Pataky, known globally for her role as Elena Neves in the 'Fast & Furious' franchise. The couple met in early 2010 through their mutual talent agent William Ward. Following a whirlwind romance, they married in December 2010 during an intimate family holiday in Indonesia, establishing one of contemporary Hollywood's most enduring and admired marriages."
+  },
+  {
+    "question": "How many children does Chris Hemsworth have?",
+    "answer": "Chris Hemsworth and Elsa Pataky have three children together: daughter India Rose Hemsworth (born May 2012) and twin sons Tristan and Sasha Hemsworth (born March 2014). India Rose notably made a featured screen cameo alongside her father in 'Thor: Love and Thunder' (2022), portraying Gorr's resurrected daughter Love."
+  },
+  {
+    "question": "Who are Chris Hemsworth's brothers? Are they all actors?",
+    "answer": "Yes, Chris Hemsworth belongs to an extraordinary Australian acting trio. His older brother Luke Hemsworth (born 1980) is an acclaimed actor best known for HBO's 'Westworld', while his younger brother Liam Hemsworth (born 1990) gained international stardom in 'The Hunger Games' franchise and Netflix's 'The Witcher'. Their parents are Craig Hemsworth, a social-services counselor, and Leonie Hemsworth, an English teacher."
+  },
+  {
+    "question": "Where does Chris Hemsworth live? What is his Byron Bay house worth?",
+    "answer": "Chris Hemsworth and his family reside in Broken Head, near Byron Bay in New South Wales, Australia. In 2014, Hemsworth purchased a 4.2-hectare oceanfront estate for $7.0 Million AUD ($5M USD) and constructed a monolithic, eco-architectural compound often referred to as 'Fort Hemsworth'. Featuring a 50-meter rooftop infinity pool overlooking Seven Mile Beach, professional gym, steam room, and rooftop solar grid, local real estate analysts estimate its current market value at $35.0M to $50.0 Million AUD ($25M–$32M USD)."
+  },
+  {
+    "question": "How much was Chris Hemsworth paid for playing Thor in Marvel movies?",
+    "answer": "Hemsworth received an entry-level fee of $150,000 USD for the first 'Thor' film in 2011. His Marvel compensation grew exponentially over eleven years: earning $2.5 Million for 'The Avengers' (2012), $5.0 Million for 'Thor: The Dark World' (2013), $15.0 Million for 'Thor: Ragnarok' (2017), an estimated $15M–$20M per film plus global profit points for 'Avengers: Infinity War' and 'Avengers: Endgame', and a landmark $20.0 Million upfront salary for 'Thor: Love and Thunder' (2022). His cumulative Marvel earnings exceed $80 Million USD."
+  },
+  {
+    "question": "Will Chris Hemsworth return as Thor in Avengers: Doomsday or Secret Wars?",
+    "answer": "Yes. Marvel Studios executives and industry production records confirm that Thor Odinson remains a foundational anchor of the Multiverse Saga climax. Hemsworth is slated to appear in 'Avengers: Doomsday' alongside Robert Downey Jr.'s Doctor Doom, as well as the climactic 'Avengers: Secret Wars', with development discussions ongoing for a standalone fifth Thor feature film."
+  },
+  {
+    "question": "What is Chris Hemsworth's fitness app Centr, and how much did it sell for?",
+    "answer": "Hemsworth launched Centr in February 2019, providing curated workout routines, meal plans, and mindfulness coaching designed by his personal team of elite fitness trainers, chefs, and wellness experts. In March 2022, private equity firm HighPost Capital (co-founded by Mark Bezos and David Moross) acquired Centr alongside fitness equipment maker Inspire Fitness in a landmark transaction valued at more than $200.0 Million USD. Hemsworth banked tens of millions while retaining an active role as the company's second-largest shareholder."
+  },
+  {
+    "question": "What is the status of Extraction 3 on Netflix?",
+    "answer": "Netflix officially greenlit 'Extraction 3' following the massive global viewership of 'Extraction 2' in 2023. Director Sam Hargrave and producer Joe Russo confirmed that the third installment is in active script development, with Chris Hemsworth set to reprise his role as indestructible black-ops mercenary Tyler Rake."
+  },
+  {
+    "question": "What was Chris Hemsworth's role in Furiosa: A Mad Max Saga?",
+    "answer": "In George Miller's 2024 post-apocalyptic action prequel 'Furiosa: A Mad Max Saga', Hemsworth delivered a critically acclaimed turn as the theatrical, unhinged warlord Dementus, leader of the Biker Horde. Wearing a prosthetic nose and a flowing parachute cape, Hemsworth was widely praised by critics at the Cannes Film Festival for crafting a magnetic, Shakespearean villain that earned him some of the best reviews of his dramatic career."
+  },
+  {
+    "question": "What is Chris Hemsworth's 2026 movie Crime 101 about?",
+    "answer": "'Crime 101' is a high-stakes crime thriller directed by Bart Layton ('American Animals') for Amazon MGM Studios, adapted from Don Winslow's acclaimed novella. Hemsworth stars as master jewel thief Mike Davis opposite an all-star ensemble including Halle Berry, Mark Ruffalo, and Barry Keoghan. The film officially premiered in early 2026 with international promotional stops in Madrid and Los Angeles."
+  }
 ]
 };

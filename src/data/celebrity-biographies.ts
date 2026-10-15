@@ -2045,5 +2045,74 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     ],
     "keyTakeaway": "In 2026, Larson commands a $25M net worth, stars opposite Olivia Colman in FX's Cry Wolf, voices Rosalina in The Super Mario Galaxy Movie, and maintains her standing as a respected Oscar winner and producer."
   }
+],
+
+  "chris-hemsworth": [
+  {
+    "heading": "Melbourne Upbringing, Outback Youth & Australian Television Genesis (1983–2008)",
+    "paragraphs": [
+      "Christopher Hemsworth was born on August 11, 1983, in Melbourne, Victoria, Australia, to Leonie, an English teacher, and Craig Hemsworth, a dedicated social-services counselor. Raised alongside his older brother Luke and younger brother Liam—both of whom would also establish prominent international acting careers—Hemsworth spent his formative youth alternating between the suburban streets of Melbourne and remote Aboriginal settlements in the Northern Territory's Outback, particularly Bulman in Arnhem Land. This juxtaposition of coastal suburban sport and untamed Outback wilderness cultivated a deep affinity for outdoor physical vitality, surfing, and down-to-earth familial solidarity that remains his personal anchor.",
+      "Attending Heathmont College in Melbourne, Hemsworth developed an early interest in drama and performance, inspired in part by watching classic historical epics and Australian theater. In 2002, at age nineteen, he secured minor guest appearances on Australian television productions including the fantasy series 'Guinevere Jones' and popular soap opera 'Neighbours'. His breakthrough into national recognition arrived in 2004 when he auditioned for the role of Robbie Hunter on Seven Network's flagship drama 'Home and Away'. While he missed that specific casting, producers recognized his magnetic screen presence and created the major regular character of personal trainer Kim Hyde for him.",
+      "Over the course of 171 episodes between 2004 and 2007, Hemsworth honed camera discipline, rapid memorization, and emotional accessibility on the grueling five-day-a-week production schedule. In 2005, his performance earned him the prestigious Logie Award for Most Popular New Male Talent. In 2006, he expanded his public profile by competing on Australia's 'Dancing with the Stars' alongside professional dancer Abbey Ross, displaying charismatic footwork that surprisingly charmed national audiences and foreshadowed his physical versatility."
+    ],
+    "keyTakeaway": "Raised between Melbourne and the Outback, Hemsworth honed ironclad screen work ethic across 171 episodes of Home and Away before venturing into American cinema."
+  },
+  {
+    "heading": "Hollywood Landing: George Kirk in Star Trek & The Mjolnir Breakthrough (2009–2012)",
+    "paragraphs": [
+      "Determined to challenge himself against global talent, Hemsworth relocated to Los Angeles in 2007 with modest financial reserves, sharing a small apartment with fellow aspiring Australian actor Luke Grimes. His American feature debut arrived in dramatic fashion when director J.J. Abrams cast him in the pivotal opening prologue of 'Star Trek' (2009). Playing George Kirk, father of James T. Kirk, Hemsworth commanded just eight minutes of screen time—sacrificing his life aboard the USS Kelvin while saying a tearful farewell to his newborn son—yet critics and studio executives universally noted his extraordinary emotional intensity and heroic gravity.",
+      "Shortly after filming Drew Goddard and Joss Whedon's meta-horror classic 'The Cabin in the Woods' (filmed in 2009, released in 2012), Hemsworth faced a career-defining audition for Marvel Studios' planned blockbuster 'Thor' (2011). In an extraordinary twist of sibling competition, his younger brother Liam reached the final test-screen round before director Kenneth Branagh and Marvel chief Kevin Feige reconsidered Chris, bringing him back for a thunderous second reading. Guided by Branagh's Shakespearean sensibility, Hemsworth underwent a transformative bulking regimen under trainer Michael Knight, adding twenty pounds of dense muscle to inhabit the Norse God of Thunder.",
+      "Released in May 2011, 'Thor' grossed $449.3 Million worldwide, earning glowing reviews for Hemsworth's regal poise, self-deprecating wit, and formidable physical presence. A year later, he joined Robert Downey Jr., Chris Evans, and Scarlett Johansson in Joss Whedon's 'The Avengers' (2012). The ensemble masterpiece grossed an astronomical $1.520 Billion worldwide, establishing Hemsworth as an indispensable cornerstone of contemporary Hollywood and a global household name."
+    ],
+    "quote": {
+      "text": "When Kenneth Branagh told me, 'Thor needs to possess a divine theatrical nobility that hides a tempest of childish arrogance,' the entire character clicked into place.",
+      "source": "Chris Hemsworth on developing the God of Thunder"
+    },
+    "keyTakeaway": "An eight-minute tour de force in Star Trek put him on Hollywood's radar, leading to his career-defining casting as Thor and a $1.5B triumph in The Avengers."
+  },
+  {
+    "heading": "The Auteur Shift: Ron Howard's Rush, Blackhat & Comedy Mastery (2013–2016)",
+    "paragraphs": [
+      "Conscious of the risk of being typecast solely as a muscle-bound comic-book idol, Hemsworth actively sought challenging dramatic collaborations with visionary auteur directors. In 2013, he delivered what critics widely regard as his dramatic high-water mark, portraying charismatic British Formula One World Champion James Hunt in Ron Howard's biographical sports drama 'Rush'. Shedding thirty pounds of superhero muscle to fit inside vintage 1970s Formula One cockpits, Hemsworth captured Hunt's hedonistic charm, competitive fury, and psychological vulnerability opposite Daniel Brühl's Niki Lauda, earning widespread praise from dramatic film critics.",
+      "He continued expanding his artistic frontiers by starring in Michael Mann's cyber-thriller 'Blackhat' (2015) as imprisoned hacker Nicholas Hathaway, and reteaming with Ron Howard for the maritime historical epic 'In the Heart of the Sea' (2015), where he underwent extreme caloric deprivation, subsisting on 500 calories a day to portray shipwrecked first mate Owen Chase. While demanding, these grueling physical transformations cemented his reputation as an actor fiercely committed to authenticity.",
+      "Simultaneously, Hemsworth revealed an unexpected weapon: razor-sharp comic timing. Hosting 'Saturday Night Live' twice in 2015, his deadpan delivery and willingness to playfully subvert his alpha-male exterior captivated audiences. Director Paul Feig capitalized on this talent by casting him as the delightfully dim-witted receptionist Kevin Beckman in 'Ghostbusters' (2016). Hemsworth stole nearly every scene through effortless improvisation, winning the Critics' Choice Movie Award for Best Actor in a Comedy."
+    ],
+    "keyTakeaway": "Hemsworth shattered superhero stereotyping through acclaimed dramatic turns in Rush and maritime historical epics, while establishing elite comedic chops in Ghostbusters."
+  },
+  {
+    "heading": "The Ragnarok Transformation: Deconstructing Thor & Avengers Apex (2017–2019)",
+    "paragraphs": [
+      "By 2016, Hemsworth felt the traditional, formal cadence of Thor had reached a creative plateau following 'Thor: The Dark World' (2013) and 'Avengers: Age of Ultron' (2015). Partnering with iconoclastic New Zealand filmmaker Taika Waititi, Hemsworth radically deconstructed the character for 'Thor: Ragnarok' (2017). Stripping Thor of his flowing golden locks, his sacred hammer Mjolnir, and his Shakespearean dialogue, Waititi and Hemsworth transformed the film into an irreverent, neon-soaked space-opera comedy infused with Led Zeppelin energy.",
+      "The gamble paid off spectacularly: 'Thor: Ragnarok' grossed $855 Million worldwide and became a critical darling, revitalizing the character and proving that blockbuster franchises could embrace subversive humor without sacrificing emotional stakes. This reinvented characterization flowed directly into Anthony and Joe Russo's epic double-header, 'Avengers: Infinity War' (2018) and 'Avengers: Endgame' (2019).",
+      "In 'Endgame', Hemsworth made the bold artistic choice to portray 'Bro Thor'—a traumatized, grieving warrior battling clinical depression, weight gain, and acute survivor's guilt. Refusing to play the condition merely for cheap physical gags, Hemsworth grounded the god's trauma in genuine human heartbreak, contributing profoundly to the film's record-smashing $2.799 Billion worldwide theatrical gross, which briefly stood as the highest-grossing film in cinematic history."
+    ],
+    "quote": {
+      "text": "Stripping away the hammer and the cape forced Thor to find his true identity. True strength isn't about being untouchable; it's about getting back up after complete failure.",
+      "source": "Chris Hemsworth on evolving Thor across Infinity War and Endgame"
+    },
+    "keyTakeaway": "Teaming with Taika Waititi on Ragnarok reinvented Thor with irreverent comedy and emotional depth, culminating in $2.8B global history in Avengers: Endgame."
+  },
+  {
+    "heading": "Action Vanguard & Tyler Rake: The Extraction Phenomenon (2020–2023)",
+    "paragraphs": [
+      "In 2020, Hemsworth cemented his standing as the premier physical action star of the modern streaming era by headlining Netflix's high-octane thriller 'Extraction', directed by veteran stunt coordinator Sam Hargrave and produced by the Russo brothers. Portraying lethal black-ops mercenary Tyler Rake navigating the underworld of Dhaka, Hemsworth performed ninety percent of his own grueling practical stunts, including an acclaimed twelve-minute continuous 'oner' combat sequence.",
+      "Released during global theater shutdowns in April 2020, 'Extraction' became the most-watched original film premiere in Netflix history at the time, drawing 99 Million viewers in its first four weeks. The triumph prompted Netflix to commission a massive franchise expansion. In 2023, Hemsworth returned for 'Extraction 2', escalating the practical action to dizzying heights with a twenty-one-minute continuous prison break sequence involving real fire, freezing sub-zero Prague terrain, and hundreds of stunt performers.",
+      "Between action tentpoles, Hemsworth reprised his signature superhero mantle for 'Thor: Love and Thunder' (2022), which generated $760.9 Million globally and made Thor the first individual Marvel hero to headline four solo feature films. He also executive produced and starred in Joseph Kosinski's futuristic psychological drama 'Spiderhead' (2022) on Netflix, showcasing sinister corporate villainy opposite Miles Teller."
+    ],
+    "keyTakeaway": "Hemsworth redefined modern practical stunt action through Netflix's Extraction franchise, while making Marvel history as the first hero with four solo features."
+  },
+  {
+    "heading": "APOE4 Revelation, Centr Sovereignty & The 2026 Crime 101 Era (2024–2026)",
+    "paragraphs": [
+      "In late 2022, while filming the groundbreaking National Geographic / Disney+ documentary series 'Limitless with Chris Hemsworth'—created by Darren Aronofsky—Hemsworth underwent comprehensive genetic sequencing overseen by longevity physician Dr. Peter Attia. The medical evaluation revealed that Hemsworth carries two copies of the APOE4 gene (one inherited from each parent), a genetic profile that elevates his statistical predisposition for Alzheimer's disease eight-to-tenfold. Rather than succumbing to panic, Hemsworth embraced the discovery as an empowering architectural blueprint for life, implementing rigorous sleep optimization, cold-thermogenesis, cognitive puzzles, and functional longevity protocols.",
+      "While sensationalist internet tabloids misreported that he was 'retiring from Hollywood', Hemsworth forcefully clarified his position in global interviews: he was not stepping away from acting, but consciously curating his schedule to spend meaningful quality time with his wife Elsa Pataky and their three children in their Byron Bay ecological compound, while prioritizing transformational projects. In 2024, he delivered a career-best villainous performance as the unhinged biker warlord Dementus in George Miller's 'Furiosa: A Mad Max Saga', following that with his voice role as Orion Pax / Optimus Prime in Paramount's acclaimed 'Transformers One'.",
+      "Entering late 2026, Hemsworth commands an audited personal net worth certified at $160.0 Million USD, reinforced by his monumental 2022 transaction where private equity firm HighPost Capital acquired his fitness app Centr in a deal exceeding $200 Million (with Hemsworth retaining major equity). In early 2026, he kicked off the global press tour for his anticipated crime thriller 'Crime 101' alongside Halle Berry and Mark Ruffalo, with premieres in Madrid and Los Angeles. Slated to return to the Marvel Cinematic Universe in 'Avengers: Doomsday' and 'Avengers: Secret Wars', Chris Hemsworth stands as an icon of creative vitality, entrepreneurial independence, and grounded family devotion."
+    ],
+    "quote": {
+      "text": "Finding out about APOE4 taught me that longevity isn't about living forever—it's about living cleanly, being present with my kids in Byron Bay, and making films that truly matter.",
+      "source": "Chris Hemsworth reflecting on health, family, and future cinema"
+    },
+    "keyTakeaway": "In 2026, Hemsworth commands a $160M net worth, leads Crime 101, champions longevity science following his APOE4 discovery, and remains an undisputed Hollywood titan."
+  }
 ]
 };

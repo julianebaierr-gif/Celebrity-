@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
-  "totalLocked": 40,
-  "lastUpdated": "2026-10-14T12:09:53.454Z",
+  "totalLocked": 42,
+  "lastUpdated": "2026-10-15T10:00:00.000Z",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -881,6 +881,42 @@
         "the outset skincare",
         "scarlett johansson 2026"
       ]
+    },
+    {
+      "keyword": "brie larson",
+      "slug": "brie-larson",
+      "name": "Brie Larson",
+      "category": "Hollywood Leading Legends",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/brie-larson",
+      "publishedAt": "2026-10-14 12:00:00",
+      "status": "Published",
+      "associatedTags": [
+        "brie larson",
+        "brie larson net worth",
+        "brie larson captain marvel",
+        "brie larson lessons in chemistry",
+        "brie larson oscar room"
+      ]
+    },
+    {
+      "keyword": "chris hemsworth",
+      "slug": "chris-hemsworth",
+      "name": "Chris Hemsworth",
+      "category": "Hollywood Leading Legends",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/chris-hemsworth",
+      "publishedAt": "2026-10-15 10:00:00",
+      "status": "Published",
+      "associatedTags": [
+        "chris hemsworth",
+        "chris hemsworth net worth",
+        "chris hemsworth thor",
+        "chris hemsworth extraction",
+        "chris hemsworth wife elsa pataky",
+        "chris hemsworth byron bay",
+        "chris hemsworth apoe4 gene",
+        "chris hemsworth centr app",
+        "chris hemsworth crime 101"
+      ]
     }
   ],
   "bannedKeywordSet": [
@@ -1170,7 +1206,23 @@
     "jurassic world rebirth scarlett johansson",
     "scarlett johansson disney lawsuit",
     "scarlett johansson the outset",
-    "scarlett johansson 2026",
-    "brie larson"
+    "brie larson",
+    "brie larson net worth",
+    "brie larson captain marvel",
+    "brie larson lessons in chemistry",
+    "brie larson 2026",
+    "chris hemsworth",
+    "chris hemsworth net worth",
+    "chris hemsworth net worth 2026",
+    "chris hemsworth age",
+    "chris hemsworth height",
+    "chris hemsworth thor",
+    "chris hemsworth extraction",
+    "chris hemsworth wife",
+    "elsa pataky",
+    "chris hemsworth byron bay",
+    "chris hemsworth apoe4 gene",
+    "chris hemsworth centr app",
+    "chris hemsworth 2026"
   ]
 }

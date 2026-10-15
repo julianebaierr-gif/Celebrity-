@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-14T12:09:53.451Z",
-  "totalUniqueImages": 86,
+  "lastUpdated": "2026-10-15T10:16:37.974Z",
+  "totalUniqueImages": 88,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -644,6 +644,44 @@
       "pageSlug": "brie-larson",
       "assignedAt": "2026-10-14T12:00:00.000Z",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brie_Larson_in_2017.jpeg (Red Carpet Appearance / CC BY-SA 4.0 - Assigned 2026)"
+    },
+    "/images/celebrities/chris-hemsworth-hero.webp": {
+      "filePath": "/images/celebrities/chris-hemsworth-hero.webp",
+      "entity": "Chris Hemsworth",
+      "placement": "profile_hero",
+      "pageSlug": "chris-hemsworth",
+      "assignedAt": "2026-10-15T10:16:35.783Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Chris_Hemsworth_2019.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "/images/celebrities/chris-hemsworth-content.webp": {
+      "filePath": "/images/celebrities/chris-hemsworth-content.webp",
+      "entity": "Chris Hemsworth",
+      "placement": "profile_content",
+      "pageSlug": "chris-hemsworth",
+      "assignedAt": "2026-10-15T10:16:37.973Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Kristen_Stewart_%287400741154%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
     }
+  },
+  "/images/celebrities/chris-hemsworth-hero.webp": {
+    "url": "https://www.hola.com/us/horizon/landscape/a40aa67c0776-gettyimages-2260995748.jpg",
+    "name": "Chris Hemsworth",
+    "category": "hero",
+    "year": "2026",
+    "event": "Crime 101 Los Angeles World Premiere (February 10, 2026)",
+    "registeredAt": "2026-10-15T10:22:23.271Z"
+  },
+  "/images/celebrities/chris-hemsworth-content.webp": {
+    "url": "https://www.hola.com/us/horizon/landscape/a40aa67c0776-gettyimages-2260995748.jpg",
+    "name": "Chris Hemsworth",
+    "category": "content",
+    "year": "2026",
+    "event": "Crime 101 World Premiere Tour 2026",
+    "registeredAt": "2026-10-15T10:22:23.272Z"
+  },
+  "/images/partners/elsa-pataky.webp": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Elsa_Pataky_Cannes_cropped.jpg",
+    "name": "Elsa Pataky",
+    "category": "partner",
+    "registeredAt": "2026-10-15T10:22:23.272Z"
   }
 }

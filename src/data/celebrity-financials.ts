@@ -3958,5 +3958,190 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Consolidated financial standing bolstered by The Great Unknown Productions slate, Super Mario Galaxy Movie, FX's Cry Wolf, and California real estate appreciation."
     }
   ]
+},
+
+  "chris-hemsworth": {
+  "salaryMilestones": [
+    {
+      "project": "Star Trek",
+      "year": 2009,
+      "salary": "$37,000 USD SAG Scale",
+      "boxOfficeOrBudget": "$150.0 Million Budget / $385.7 Million Box Office",
+      "notes": "Hollywood debut portraying George Kirk in the emotional opening prologue, establishing his presence with major studio heads."
+    },
+    {
+      "project": "Thor",
+      "year": 2011,
+      "salary": "$150,000 USD Base Salary",
+      "boxOfficeOrBudget": "$150.0 Million Budget / $449.3 Million Box Office",
+      "notes": "Initial Marvel Studios franchise entry contract, launching his global stardom as the God of Thunder."
+    },
+    {
+      "project": "The Avengers",
+      "year": 2012,
+      "salary": "$2.5 Million USD Base + Backend Bonuses",
+      "boxOfficeOrBudget": "$220.0 Million Budget / $1.520 Billion Box Office",
+      "notes": "First major multi-million dollar ensemble payday for the landmark Marvel crossover triumph."
+    },
+    {
+      "project": "Rush",
+      "year": 2013,
+      "salary": "$2.0 Million USD",
+      "boxOfficeOrBudget": "$38.0 Million Budget / $98.2 Million Box Office",
+      "notes": "Collaborated with director Ron Howard, earning career-defining dramatic reviews as Formula One champion James Hunt."
+    },
+    {
+      "project": "Thor: The Dark World",
+      "year": 2013,
+      "salary": "$5.0 Million USD Upfront",
+      "boxOfficeOrBudget": "$170.0 Million Budget / $644.8 Million Box Office",
+      "notes": "Substantial escalation in Marvel headline compensation reflecting his established marquee value."
+    },
+    {
+      "project": "Avengers: Age of Ultron",
+      "year": 2015,
+      "salary": "$5.4 Million USD",
+      "boxOfficeOrBudget": "$365.0 Million Budget / $1.405 Billion Box Office",
+      "notes": "Ensemble compensation package for the monumental international blockbuster."
+    },
+    {
+      "project": "Thor: Ragnarok",
+      "year": 2017,
+      "salary": "$15.0 Million USD Upfront + Profit Participation",
+      "boxOfficeOrBudget": "$180.0 Million Budget / $855.3 Million Box Office",
+      "notes": "Commanded top-tier A-list compensation for the critically celebrated Taika Waititi collaborative reinvention."
+    },
+    {
+      "project": "Avengers: Infinity War & Endgame",
+      "year": 2018,
+      "salary": "$15.0M–$20.0M USD Per Film + Global Box Office Points",
+      "boxOfficeOrBudget": "$700.0M+ Combined Budget / $4.85 Billion Cumulative Gross",
+      "notes": "Generated historic backends from Endgame's $2.799 Billion worldwide performance, making him one of the highest-earning actors on Earth."
+    },
+    {
+      "project": "Extraction",
+      "year": 2020,
+      "salary": "$12.0 Million USD (Actor Fee & Producer Package)",
+      "boxOfficeOrBudget": "Netflix Flagship Original / 99M Viewer Launch",
+      "notes": "Transitioned into streaming action supremacy, producing and performing grueling practical stunts as Tyler Rake."
+    },
+    {
+      "project": "Thor: Love and Thunder",
+      "year": 2022,
+      "salary": "$20.0 Million USD Upfront",
+      "boxOfficeOrBudget": "$250.0 Million Budget / $760.9 Million Box Office",
+      "notes": "Made cinematic history becoming the first individual Marvel superhero to headline four standalone feature films."
+    },
+    {
+      "project": "Extraction 2",
+      "year": 2023,
+      "salary": "$20.0 Million USD",
+      "boxOfficeOrBudget": "Netflix Global Tentpole / #1 in 90 Countries",
+      "notes": "Highest streaming action salary of 2023, performing the celebrated 21-minute single-shot prison rescue sequence."
+    },
+    {
+      "project": "Furiosa: A Mad Max Saga",
+      "year": 2024,
+      "salary": "$20.0 Million USD",
+      "boxOfficeOrBudget": "$168.0 Million Budget / Cannes World Premiere",
+      "notes": "Co-starred as the flamboyant warlord Dementus for director George Miller, earning unanimous career-best villain reviews."
+    },
+    {
+      "project": "Crime 101",
+      "year": 2026,
+      "salary": "$20.0 Million USD Headline & Producing Package",
+      "boxOfficeOrBudget": "Amazon MGM Studios Theatrical Tentpole",
+      "notes": "Commanded elite studio fee alongside Halle Berry and Mark Ruffalo for Bart Layton's acclaimed thriller."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Broken Head Coastal Megamansion ('Fort Hemsworth')",
+      "location": "Byron Bay, New South Wales, Australia",
+      "purchasedYear": "2014",
+      "purchasePrice": "$7.0 Million AUD ($5.0 Million USD)",
+      "currentEstimatedValue": "$35.0M–$50.0 Million AUD ($25.0M–$32.0M USD)",
+      "description": "Custom-designed 4.2-hectare concrete architectural fortress featuring a 50-meter rooftop infinity pool overlooking Seven Mile Beach, professional gym, steam room, private media cinema, and self-sustaining solar grid."
+    },
+    {
+      "property": "Suffolk Park Equestrian & Family Estate",
+      "location": "Byron Shire, New South Wales, Australia",
+      "purchasedYear": "2019",
+      "purchasePrice": "$4.25 Million AUD ($3.0 Million USD)",
+      "currentEstimatedValue": "$5.5 Million USD",
+      "description": "Lush 35-hectare rural retreat utilized for equestrian activities, organic farming, and private family tranquility adjacent to the Byron coast."
+    },
+    {
+      "property": "Point Dume Architectural Compound (Historical)",
+      "location": "Malibu, California, United States",
+      "purchasedYear": "2013",
+      "purchasePrice": "$4.8 Million USD",
+      "currentEstimatedValue": "Sold for $7.0 Million USD in 2016",
+      "description": "Gated Victorian-modern Malibu estate boasting panoramic Pacific views, sold when the family permanently transitioned their primary headquarters back to Australia."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Centr Fitness & Wellness Ecosystem",
+      "role": "Founder, Major Equity Shareholder & Global Ambassador",
+      "valuationOrRevenue": "$200.0M+ Acquisition Valuation (HighPost Capital)",
+      "description": "Holistic personalized fitness, nutrition, and mindfulness app founded in 2019. In March 2022, private equity firm HighPost Capital acquired Centr alongside Inspire Fitness in a landmark deal valued above $200M, with Hemsworth remaining the second-largest shareholder."
+    },
+    {
+      "name": "Wild State Productions",
+      "role": "Co-Founder & Lead Principal",
+      "valuationOrRevenue": "$30.0M+ Active Film & Unscripted Development Pipeline",
+      "description": "Production banner developing character-driven action features, television dramas, and nature documentaries including National Geographic's Limitless and Shark Beach."
+    },
+    {
+      "name": "TAG Heuer Global Brand Ambassadorship",
+      "role": "Global Brand Face (Carrera & Monaco Collections)",
+      "valuationOrRevenue": "$20.0M+ Cumulative Endorsement Partnership",
+      "description": "Multi-year eight-figure ambassadorship representing the Swiss avant-garde horology house, headlining international campaigns since 2015."
+    },
+    {
+      "name": "Hugo Boss - BOSS Bottled Global Face",
+      "role": "International Fragrance Ambassador",
+      "valuationOrRevenue": "$15.0M+ Worldwide Advertising Campaign",
+      "description": "Long-running global advertising campaign personifying the modern 'Man of Today' across print, digital, and broadcast media."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2009",
+      "estimatedNetWorth": "$100,000 USD",
+      "milestoneDescription": "Relocation from Australia to Los Angeles following Home and Away; SAG debut in J.J. Abrams' Star Trek."
+    },
+    {
+      "period": "2012",
+      "estimatedNetWorth": "$6.0 Million USD",
+      "milestoneDescription": "First Thor payday and The Avengers historic $1.52B worldwide box office bonanza."
+    },
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$25.0 Million USD",
+      "milestoneDescription": "Thor: The Dark World, Age of Ultron, and dramatic acclaim in Ron Howard's Rush."
+    },
+    {
+      "period": "2018",
+      "estimatedNetWorth": "$65.0 Million USD",
+      "milestoneDescription": "Thor: Ragnarok $15M upfront fee and Infinity War international profit sharing."
+    },
+    {
+      "period": "2021",
+      "estimatedNetWorth": "$110.0 Million USD",
+      "milestoneDescription": "Avengers: Endgame backends, initial Extraction success, and launch of Centr fitness ecosystem."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$140.0 Million USD",
+      "milestoneDescription": "HighPost Capital's $200M+ acquisition of Centr, Thor: Love and Thunder $20M fee, and Extraction 2 contract."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$160.0 Million USD",
+      "milestoneDescription": "Consolidated wealth certified at $160M USD backed by Crime 101, Furiosa, ongoing Centr equity, luxury endorsements, and Australian coastal real estate appreciation."
+    }
+  ]
 }
 };

@@ -24,6 +24,8 @@ const POPULAR_MATCHUPS = [
   "travis-kelce-vs-taylor-swift-wedding",
   "david-harbour-vs-pedro-pascal",
   "matt-damon-vs-will-smith",
+  "chris-hemsworth-vs-chris-evans",
+  "chris-hemsworth-vs-robert-downey-jr",
 ];
 
 export async function generateStaticParams() {

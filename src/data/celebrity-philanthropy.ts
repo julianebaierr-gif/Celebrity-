@@ -803,5 +803,32 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "verifiedContribution": "Volunteer Artist & Annual Gala Supporter",
     "description": "Longtime volunteer spending time working with pediatric patients using drama, visual arts, and music therapy to support emotional recovery."
   }
+],
+
+  "chris-hemsworth": [
+  {
+    "organizationOrCause": "Australian Bushfire Relief Fund",
+    "focusArea": "Wildfire Emergency Response & Wildlife Rehabilitation",
+    "verifiedContribution": "$1.0 Million USD Personal Emergency Pledge",
+    "description": "In January 2020, during Australia's catastrophic Black Summer bushfire crisis, Hemsworth and his family pledged $1 Million USD directly to regional rural fire services and wildlife rescue foundations."
+  },
+  {
+    "organizationOrCause": "Australian Childhood Foundation",
+    "focusArea": "Child Protection, Trauma Recovery & Family Counseling",
+    "verifiedContribution": "Official Patron & Longstanding Major Benefactor",
+    "description": "Serves as official patron alongside his brother Liam, raising millions to support specialized counseling and therapy programs for children recovering from severe domestic abuse and neglect."
+  },
+  {
+    "organizationOrCause": "Wild State Ocean & Marine Ecology",
+    "focusArea": "Ocean Conservation, Shark Protection & Coastal Ecosystems",
+    "verifiedContribution": "Documentary Benefactor & Scientific Research Partner",
+    "description": "Leveraged his global platform and production resources to produce NatGeo's Shark Beach, funding scientific shark deterrent research and advocating sustainable ocean coexistence."
+  },
+  {
+    "organizationOrCause": "Make-A-Wish & Starlight Children's Foundation",
+    "focusArea": "Pediatric Critical Illness & Hospital Patient Visits",
+    "verifiedContribution": "Marvel Superhero Ambassador & Routine Hospital Visitor",
+    "description": "Regularly visits pediatric oncology wards across Australia and the United States dressed in Thor regalia, granting dozens of personalized wishes for critically ill children."
+  }
 ]
 };
