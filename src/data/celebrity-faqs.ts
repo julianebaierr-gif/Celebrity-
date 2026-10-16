@@ -2001,4 +2001,67 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "answer": "In November 2026, marking what would have been Chadwick Boseman's milestone 50th birthday, cultural institutions worldwide organized major retrospectives. Howard University held a commemorative symposium and showcase at the Chadwick A. Boseman College of Fine Arts, while Shakespeare's Globe in London hosted the UK premiere of his early dramatic play 'Deep Azure', celebrating his foundational genius as a playwright and director alongside his celebrated cinematic career."
   }
 ]
+,
+  "sadie-sink": [
+  {
+    "question": "What is Sadie Sink's certified net worth in 2026?",
+    "answer": "As of 2026, Sadie Sink holds a certified net worth of $12.0 Million USD according to financial audit records and industry filings. Her fortune has expanded exponentially due to her historic $7.0M+ Tier 2 salary package for the fifth and final season of Stranger Things, her $2.0M upfront payday for the Searchlight Pictures musical feature O'Dessa, multi-million-dollar global brand ambassador contracts with Prada and Armani Beauty, and prime Manhattan real estate investments in Greenwich Village."
+  },
+  {
+    "question": "Who are Sadie Sink's parents, and what is her family background?",
+    "answer": "Sadie Sink was born and raised in Brenham, Texas. Her father, Casey Adam Sink, is a veteran high school football coach, and her mother, Lori Baughman Sink, is a mathematics teacher. She grew up in a lively sports- and arts-focused household with three older brothers\u2014Mitchell, Caleb, and Spencer\u2014and one younger sister, Jacey. When Sadie and her brother Mitchell demonstrated exceptional dramatic talents, her parents relocated the family to Summit, New Jersey, enabling both children to pursue professional Broadway careers while maintaining a grounded, close-knit family foundation."
+  },
+  {
+    "question": "How old is Sadie Sink, and when is her birthday?",
+    "answer": "Sadie Sink was born on April 16, 2002, making her 24 years old in 2026. Her astrological sun sign is Aries."
+  },
+  {
+    "question": "Who is Sadie Sink dating in 2026, and does she have a boyfriend?",
+    "answer": "In 2026, Sadie Sink is single and maintains an intensely private personal life away from social media speculation. While internet gossip previously linked her to Patrick Alwyn (brother of actor Joe Alwyn) after they were photographed together in New York City in 2021, representatives confirmed they were simply close friends within Taylor Swift's wider artistic circle. Sink has consistently stated in interviews that she prefers to keep her romantic life strictly confidential to protect her emotional well-being."
+  },
+  {
+    "question": "What role does Sadie Sink play in Stranger Things, and will Max Mayfield wake up in Season 5?",
+    "answer": "Sadie Sink portrays Maxine 'Max' Mayfield, joining the cast in Season 2 (2017) as the fiercely independent, skateboarding California transplant. At the climax of Season 4, Max survived a catastrophic assault by Vecna but was left in a comatose state, blind, with multiple fractures. In Season 5 (the 2026 final season), Max's consciousness\u2014trapped within Vecna's psychic mindscape\u2014serves as the emotional and narrative linchpin for the Hawkins party's final struggle, leading to a climactic and deeply moving resolution."
+  },
+  {
+    "question": "How much did Sadie Sink get paid for Stranger Things Season 5?",
+    "answer": "For Stranger Things Season 5, Sadie Sink successfully negotiated inclusion into Netflix's elite 'Tier 2' ensemble compensation tier alongside original child stars Finn Wolfhard, Gaten Matarazzo, Caleb McLaughlin, and Noah Schnapp. Puck News reported that this parity agreement granted each Tier 2 performer over $7.0 Million USD for the season (exceeding $875,000 per episode), representing a massive escalation from her Season 2 starting rate of approximately $23,000 per episode."
+  },
+  {
+    "question": "How did Sadie Sink get cast in Taylor Swift's All Too Well: The Short Film?",
+    "answer": "Taylor Swift personally contacted Sadie Sink to star as 'Her' in All Too Well: The Short Film (2021). Swift had followed Sink's dramatic performances in Stranger Things and specifically wrote the 14-minute cinematic screenplay with Sink and co-star Dylan O'Brien in mind. The short film premiered at New York's AMC Lincoln Square and the Tribeca Film Festival, generating over 100 million views and winning the Grammy Award for Best Music Video and the MTV VMA for Video of the Year."
+  },
+  {
+    "question": "What is Sadie Sink's role in the 2026 rock opera O'Dessa?",
+    "answer": "Sadie Sink stars as the titular heroine in Searchlight Pictures' post-apocalyptic rock opera O'Dessa, written and directed by Geremy Jasper (Patti Cake$). A bold reimagining of the Orpheus and Eurydice myth, the film follows a farm girl on an epic musical odyssey across a dystopian landscape to recover a cherished family heirloom. Sink performed all of her original vocals live on set, showcasing her Broadway vocal training opposite co-stars Kelvin Harrison Jr., Murray Bartlett, and Pokey LaFarge."
+  },
+  {
+    "question": "Did Sadie Sink perform on Broadway before Stranger Things?",
+    "answer": "Yes, Sadie Sink began her professional acting career on Broadway. At age 10, she was cast in James Lapine's 2012 Broadway revival of 'Annie' at the Palace Theatre, initially playing the orphan Duffy and standing by for the title role before taking over as Annie. In 2015, she returned to Broadway at the Gerald Schoenfeld Theatre in Peter Morgan's 'The Audience', portraying the Young Queen Elizabeth II opposite Academy Award winner Helen Mirren, directed by Stephen Daldry."
+  },
+  {
+    "question": "How tall is Sadie Sink, and what are her physical measurements?",
+    "answer": "Sadie Sink stands 5 feet 3 inches tall (160 cm) and weighs approximately 52 kg (115 lbs). She is globally recognized for her vibrant, natural auburn-red hair and striking blue eyes."
+  },
+  {
+    "question": "Why and when did Sadie Sink become vegan?",
+    "answer": "Sadie Sink became a vegetarian at age 13 after watching documentaries on factory farming. At age 14, while filming the 2017 drama 'The Glass Castle', she spent extensive time with co-star Woody Harrelson and his vegan family. Harrelson's ethical commitment inspired Sink to transition to a 100% strict vegan lifestyle. In 2026, she marks a full decade as an outspoken advocate for cruelty-free fashion, vegan nutrition, and animal rescue sanctuaries."
+  },
+  {
+    "question": "What was Sadie Sink's acclaimed role in Darren Aronofsky's The Whale?",
+    "answer": "In Darren Aronofsky's 2022 psychological drama 'The Whale', Sadie Sink co-starred as Ellie, the estranged, deeply hurt, and fiercely abrasive teenage daughter of reclusive writing teacher Charlie (played by Brendan Fraser). Her ferocious dramatic performance earned widespread critical acclaim, premiere screenings at the Venice and Toronto International Film Festivals, and a nomination for Best Young Performer at the 28th Critics' Choice Awards."
+  },
+  {
+    "question": "What are Sadie Sink's high-fashion brand partnerships in 2026?",
+    "answer": "Sadie Sink is a global brand ambassador for Italian luxury fashion powerhouse Prada, frequently attending Milan Fashion Week runway presentations in bespoke couture designs. She also serves as a worldwide ambassador for Giorgio Armani Beauty, fronting campaigns for their vegan and cruelty-free makeup and skincare lines, and has collaborated with Chanel, Kate Spade, and Calvin Klein."
+  },
+  {
+    "question": "Did Sadie Sink make her West End stage debut in London?",
+    "answer": "Yes, in 2026 Sadie Sink made her highly anticipated London West End debut starring as Juliet Capulet in visionary director Robert Icke's modern staging of Shakespeare's 'Romeo & Juliet' at the Harold Pinter Theatre, opposite British actor Noah Jupe as Romeo. The production received rave reviews from London theater critics, who praised Sink's commanding verse delivery and raw emotional authenticity."
+  },
+  {
+    "question": "Will Sadie Sink join the Marvel Cinematic Universe (MCU)?",
+    "answer": "While Sadie Sink has been the subject of extensive industry rumors regarding upcoming Marvel Studios tentpoles\u2014most prominently fan casting for Jean Grey in the MCU's X-Men reboot and Peter Parker's college classmate in upcoming Spider-Man films\u2014no formal casting has been officially announced. Marvel executives have met with her agency representatives, but Sink has prioritized theatrical auteur features like O'Dessa and prestigious stage engagements."
+  }
+]
 };

@@ -579,4 +579,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "impactAnalysis": "The incident prompted the Academy to permanently restore traditional category ordering in subsequent years and served as a cultural case study in avoiding premature broadcast theatricality around genuine grief and artistic legacy."
   }
 ]
+,
+  "sadie-sink": [
+  {
+    "incident": "Stranger Things Season 2 Unscripted Snow Ball Kiss Discussion",
+    "year": "2017",
+    "resolutionOrOutcome": "Following the release of Stranger Things Season 2, an episode of the after-show 'Beyond Stranger Things' featured the Duffer Brothers discussing an unscripted kiss between Sink's character Max and Caleb McLaughlin's Lucas at the Snow Ball dance, prompting online media debates regarding onset pressure for minor actors. Sink immediately clarified in subsequent interviews with IndieWire and W Magazine that while she had experienced initial stage jitters as a fifteen-year-old performing her first on-screen kiss, the directors had fostered an entirely safe, supportive, and communicative environment where she always felt respected, heard, and comfortable.",
+    "impactAnalysis": "Sink's articulate, mature clarification effectively quieted sensationalized media narratives while contributing to the widespread industry adoption of certified intimacy coordinators on television sets involving adolescent performers."
+  },
+  {
+    "incident": "Artificial Intelligence Deepfake Protections & Likeness Rights Advocacy",
+    "year": "2024\u20132026",
+    "resolutionOrOutcome": "Between 2024 and 2026, as generative AI video tools proliferated across digital platforms, unauthorized synthetic voice clones and visual deepfakes mimicking young performers including Sink surfaced on social media. Working alongside SAG-AFTRA legal counsel and youth privacy coalitions, Sink endorsed federal and state legislative protections\u2014including the NO FAKES Act\u2014prohibiting the commercial or non-consensual replication of an actor's voice, face, and performance persona without explicit contractual authorization and fair compensation.",
+    "impactAnalysis": "Her proactive advocacy helped mobilize young Hollywood performers behind strict intellectual property protections for digital likenesses, ensuring that emerging artists maintain sovereign ownership over their visual and vocal identities."
+  }
+]
 };

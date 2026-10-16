@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-10-16T12:00:00.000Z",
-  "totalUniqueImages": 95,
+  "totalUniqueImages": 97,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -716,6 +716,22 @@
       "pageSlug": "chadwick-boseman",
       "assignedAt": "2026-10-16T12:00:00.000Z",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chadwick_Boseman_%26_Lupita_Nyong%27o_(35852213610).jpg (Gage Skidmore / CC BY-SA 2.0)"
+    },
+    "/images/celebrities/sadie-sink-hero.webp": {
+      "filePath": "/images/celebrities/sadie-sink-hero.webp",
+      "entity": "sadie-sink",
+      "placement": "profile_hero",
+      "pageSlug": "sadie-sink",
+      "assignedAt": "2026-10-16T12:00:00.000Z",
+      "sourceUrl": "Prada Spring/Summer 2027 Show, Milan Fashion Week (September 22, 2026) / CC BY-SA 4.0"
+    },
+    "/images/celebrities/sadie-sink-content.webp": {
+      "filePath": "/images/celebrities/sadie-sink-content.webp",
+      "entity": "sadie-sink",
+      "placement": "profile_content",
+      "pageSlug": "sadie-sink",
+      "assignedAt": "2026-10-16T12:00:00.000Z",
+      "sourceUrl": "Prada Spring/Summer 2027 Arrival, Milan Fashion Week (September 22, 2026) / CC BY-SA 4.0"
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {
@@ -761,5 +777,21 @@
     "name": "Sunrise Coigney",
     "category": "partner",
     "registeredAt": "2026-10-15T11:15:00.000Z"
+  },
+  "/images/celebrities/sadie-sink-hero.webp": {
+    "url": "https://celebmafia.com/wp-content/uploads/2026/09/sadie-sink-prada-spring-summer-2027-show-in-milan-9-22-2026-1.jpg",
+    "name": "Sadie Sink",
+    "category": "hero",
+    "year": "2026",
+    "event": "Prada Spring/Summer 2027 Show in Milan (September 22, 2026)",
+    "registeredAt": "2026-10-16T12:00:00.000Z"
+  },
+  "/images/celebrities/sadie-sink-content.webp": {
+    "url": "https://celebmafia.com/wp-content/uploads/2026/09/sadie-sink-prada-spring-summer-2027-show-in-milan-9-22-2026-2.jpg",
+    "name": "Sadie Sink",
+    "category": "content",
+    "year": "2026",
+    "event": "Prada Spring/Summer 2027 Show in Milan (September 22, 2026)",
+    "registeredAt": "2026-10-16T12:00:00.000Z"
   }
 }

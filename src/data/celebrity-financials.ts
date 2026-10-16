@@ -4699,4 +4699,155 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
     }
   ]
 }
+,
+  "sadie-sink": {
+  "salaryMilestones": [
+    {
+      "project": "Annie (Broadway Revival)",
+      "year": 2012,
+      "salary": "$1,800/week (Actors' Equity Minimum)",
+      "boxOfficeOrBudget": "Palace Theatre Broadway Production",
+      "notes": "Standby and principal title role as Annie, marking her Broadway debut at age ten opposite Anthony Warlow."
+    },
+    {
+      "project": "The Audience (Broadway)",
+      "year": 2015,
+      "salary": "$2,200/week (Equity Tier)",
+      "boxOfficeOrBudget": "Gerald Schoenfeld Theatre Broadway",
+      "notes": "Portrayed Young Queen Elizabeth II opposite Helen Mirren, directed by Academy Award nominee Stephen Daldry."
+    },
+    {
+      "project": "Stranger Things (Season 2)",
+      "year": 2017,
+      "salary": "$23,000 Per Episode ($207,000 Total)",
+      "boxOfficeOrBudget": "Netflix Global Phenomenon",
+      "notes": "Breakout television debut as Maxine 'Max' Mayfield, instantly catapulting her into global pop culture recognition."
+    },
+    {
+      "project": "Stranger Things (Season 3)",
+      "year": 2019,
+      "salary": "$150,000 Per Episode ($1.2 Million Total)",
+      "boxOfficeOrBudget": "Netflix Flagship Sci-Fi Hit",
+      "notes": "Substantial salary renegotiation reflecting the massive global popularity and central emotional arc of Max Mayfield."
+    },
+    {
+      "project": "All Too Well: The Short Film",
+      "year": 2021,
+      "salary": "Scale + Creative Collaboration",
+      "boxOfficeOrBudget": "Directed by Taylor Swift / 100M+ Views",
+      "notes": "Critically celebrated dramatic leading performance opposite Dylan O'Brien; won Grammy Award for Best Music Video."
+    },
+    {
+      "project": "The Whale (A24)",
+      "year": 2022,
+      "salary": "$450,000 Upfront + Backend Incentives",
+      "boxOfficeOrBudget": "$3.0M Budget / $54.8M Box Office Gross",
+      "notes": "Starred as Ellie opposite Brendan Fraser in Darren Aronofsky's Oscar-winning masterpiece; earned Critics' Choice Award nomination."
+    },
+    {
+      "project": "Stranger Things (Season 4)",
+      "year": 2022,
+      "salary": "$250,000 Per Episode ($2.25 Million Total)",
+      "boxOfficeOrBudget": "Netflix 1.35 Billion Hours Viewed Record",
+      "notes": "Anchored Episode 4 'Dear Billy' and Kate Bush's 'Running Up That Hill' viral phenomenon, delivering a career-defining performance."
+    },
+    {
+      "project": "Stranger Things (Season 5)",
+      "year": 2025,
+      "salary": "$875,000+ Per Episode ($7.0 Million+ Package)",
+      "boxOfficeOrBudget": "Netflix Final Season Flagship Mega-Production",
+      "notes": "Historic salary renegotiation into the Tier 2 ensemble parity tier alongside Finn Wolfhard, Gaten Matarazzo, Caleb McLaughlin, and Noah Schnapp."
+    },
+    {
+      "project": "O'Dessa (Searchlight Pictures)",
+      "year": 2026,
+      "salary": "$2,000,000 USD Upfront",
+      "boxOfficeOrBudget": "Searchlight Pictures Theatrical Feature",
+      "notes": "Headline title lead in Geremy Jasper's post-apocalyptic rock opera, writing and performing original vocal tracks recorded live on set."
+    },
+    {
+      "project": "Global Luxury Endorsements (Prada & Armani)",
+      "year": 2026,
+      "salary": "$3,500,000+ Annual Guarantee",
+      "boxOfficeOrBudget": "Worldwide Luxury Fashion & Beauty Contracts",
+      "notes": "Global ambassador contracts spanning Prada runway showcases, Milan Fashion Week appearances, and Giorgio Armani Beauty campaigns."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Greenwich Village Pre-War Loft",
+      "location": "Greenwich Village, Manhattan, New York",
+      "purchasedYear": "2024",
+      "purchasePrice": "$3,200,000 USD",
+      "currentEstimatedValue": "$3,600,000 USD",
+      "description": "High-ceiling loft residence in historic Lower Manhattan featuring exposed brick, private balcony, custom chef's kitchen, and acoustic isolation for vocal and script rehearsals."
+    },
+    {
+      "property": "Monmouth County Suburban Estate",
+      "location": "Monmouth County, New Jersey",
+      "purchasedYear": "2021",
+      "purchasePrice": "$1,450,000 USD",
+      "currentEstimatedValue": "$1,850,000 USD",
+      "description": "Sprawling multi-acre suburban property acquired for her family, located within easy commuting distance of Broadway stages and Manhattan production offices."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Prada Global Ambassadorship",
+      "role": "Global Brand Ambassador",
+      "valuationOrRevenue": "$2.5M+ Annual Contract",
+      "description": "Long-term partnership representing the Italian luxury fashion house across international campaigns, front-row fashion week appearances, and custom gala wardrobe design."
+    },
+    {
+      "name": "Armani Beauty Global Face",
+      "role": "Global Ambassador & Campaign Star",
+      "valuationOrRevenue": "$1.5M+ Annual Contract",
+      "description": "Worldwide beauty partnership fronting Giorgio Armani fragrance, skincare, and cosmetics collections, emphasizing cruelty-free vegan formulations."
+    },
+    {
+      "name": "O'Dessa Soundtrack & Publishing Rights",
+      "role": "Lead Recording Artist & Performer",
+      "valuationOrRevenue": "Worldwide Streaming & Music Royalties",
+      "description": "Original master recording performance points and publishing rights for the theatrical rock opera soundtrack released via Searchlight Music."
+    },
+    {
+      "name": "Sink Productions LLC",
+      "role": "Principal & Creative Producer",
+      "valuationOrRevenue": "Independent Production Entity",
+      "description": "Boutique development entity established to acquire theatrical stage rights and indie film properties focused on character-driven female narratives."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$150,000 USD",
+      "milestoneDescription": "Early earnings accumulated through Broadway runs in Annie and The Audience opposite Helen Mirren."
+    },
+    {
+      "period": "2018",
+      "estimatedNetWorth": "$750,000 USD",
+      "milestoneDescription": "Breakout arrival on Stranger Things Season 2 and initial commercial modeling campaigns for Miu Miu and Kate Spade."
+    },
+    {
+      "period": "2020",
+      "estimatedNetWorth": "$2.2 Million USD",
+      "milestoneDescription": "Substantial salary escalation on Stranger Things Season 3 combined with lead roles in Netflix's Fear Street trilogy."
+    },
+    {
+      "period": "2022",
+      "estimatedNetWorth": "$5.5 Million USD",
+      "milestoneDescription": "Critical triumph in Stranger Things Season 4 ('Dear Billy'), lead in Taylor Swift's All Too Well, and Darren Aronofsky's The Whale."
+    },
+    {
+      "period": "2024",
+      "estimatedNetWorth": "$8.5 Million USD",
+      "milestoneDescription": "Acquisition of $3.2M Greenwich Village residence and signing historic $7.0M Tier 2 contract for Stranger Things Season 5."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$12.0 Million USD",
+      "milestoneDescription": "Certified 2026 net worth driven by Stranger Things Season 5 final season payout, O'Dessa feature, and multi-million Prada/Armani luxury deals."
+    }
+  ]
+}
 };

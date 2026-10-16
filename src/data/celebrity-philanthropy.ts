@@ -909,4 +909,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "description": "Boseman personally bought out movie theaters across Anderson, South Carolina, and Atlanta, Georgia, to host free private screenings of Black Panther and 42 for thousands of underprivileged children from local Boys & Girls Clubs, ensuring young students experienced heroic Black cultural representation on the big screen without cost."
   }
 ]
+,
+  "sadie-sink": [
+  {
+    "organizationOrCause": "Farm Sanctuary & The Humane Society of the United States",
+    "focusArea": "Farm Animal Rescue, Cruelty-Free Agriculture & Vegan Advocacy",
+    "verifiedContribution": "Longtime Youth Ambassador & Direct Financial Patron",
+    "description": "A dedicated 100% vegan since age 14, Sink partners actively with Farm Sanctuary and The Humane Society, visiting rescue locations in Watkins Glen, New York, and sponsoring permanent medical care, food, and shelter for rescued farm animals."
+  },
+  {
+    "organizationOrCause": "Broadway Cares/Equity Fights AIDS",
+    "focusArea": "Theatrical Community Hardship Assistance & HIV/AIDS Healthcare",
+    "verifiedContribution": "Annual Broadway Red Bucket Benefactor & Gala Performer",
+    "description": "Drawing from her Broadway beginnings in Annie and The Audience, Sink participates in annual fundraising auctions, curtain call red bucket collections, and benefit performances supporting emergency healthcare grants for working stage actors and backstage crew."
+  },
+  {
+    "organizationOrCause": "Cruelty-Free Fashion & Sustainable Couture Partnerships",
+    "focusArea": "Ethical Textiles, Vegan Leather Innovation & Sustainable High Fashion",
+    "verifiedContribution": "Sustainable Fashion Advisor & Met Gala Green Carpet Advocate",
+    "description": "Uses her high-fashion platforms with Prada and Armani to mandate cruelty-free textiles, championing certified vegan leather, lab-grown sustainable gems, and zero-waste garment production throughout her international red-carpet appearances."
+  },
+  {
+    "organizationOrCause": "Pediatric Hospital Outreach & Children's Miracle Network",
+    "focusArea": "Pediatric Care Support, Youth Hospital Visits & Emotional Morale",
+    "verifiedContribution": "Pediatric Care Volunteer & Annual Holiday Gift Sponsor",
+    "description": "Makes regular unannounced visits to pediatric wards across Texas and New York, distributing holiday gift packages, funding pediatric comfort carts, and providing encouragement to young patients undergoing long-term medical treatments."
+  }
+]
 };

@@ -32,6 +32,8 @@ const POPULAR_MATCHUPS = [
   "jeremy-renner-vs-chris-hemsworth",
   "chadwick-boseman-vs-chris-evans",
   "chadwick-boseman-vs-cillian-murphy",
+  "sadie-sink-vs-finn-wolfhard",
+  "sadie-sink-vs-jenna-ortega",
 ];
 
 export async function generateStaticParams() {
