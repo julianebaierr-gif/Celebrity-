@@ -36,6 +36,8 @@ const POPULAR_MATCHUPS = [
   "sadie-sink-vs-jenna-ortega",
   "elizabeth-olsen-vs-scarlett-johansson",
   "elizabeth-olsen-vs-brie-larson",
+  "tom-hiddleston-vs-chris-hemsworth",
+  "tom-hiddleston-vs-robert-downey-jr",
 ];
 
 export async function generateStaticParams() {

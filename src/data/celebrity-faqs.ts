@@ -2126,5 +2126,68 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "What are Elizabeth Olsen's upcoming movies and high-fashion appearances in 2026?",
     "answer": "In 2026, Elizabeth Olsen headlines the psychological sci-fi thriller 'The Assessment' opposite Alicia Vikander and Himesh Patel, stars in A24's fantasy romantic comedy 'Eternity' alongside Miles Teller and Callum Turner, and joins Kristen Stewart in Panos Cosmatos' vampire thriller 'Flesh of the Gods'. On the fashion calendar, she made celebrated front-row appearances during Paris Fashion Week at the Jacquemus (January 2026) and Givenchy (March 2026) runway presentations, alongside headlining C2E2 in Chicago."
   }
+],
+  "tom-hiddleston": [
+  {
+    "question": "What is Tom Hiddleston's net worth in 2026?",
+    "answer": "As of 2026, Tom Hiddleston's audited net worth is certified at $40.0 Million USD. His wealth is built on over $20 Million in cumulative Marvel Studios salaries across six blockbuster films and two seasons of Disney+'s 'Loki' (where he also served as Executive Producer), a $5.4 Million package for 'The Night Manager' Season 2 (2026), starring roles in Apple Original's 'Tenzing' (2026) and 'Kong: Skull Island', global luxury campaigns for Gucci Tailoring and Jaguar, and prime London real estate in Belsize Park."
+  },
+  {
+    "question": "Who is Tom Hiddleston's wife or fiancée Zawe Ashton?",
+    "answer": "While fans frequently search for 'Tom Hiddleston wife', Tom Hiddleston is engaged to acclaimed British actress, playwright, and author Zawe Ashton ('Fresh Meat', 'Velvet Buzzsaw', 'The Marvels', 'Mr. Malcolm's List'). The couple fell in love in 2019 while portraying husband and wife Robert and Emma in Jamie Lloyd's revival of Harold Pinter's play 'Betrayal' in London's West End and on Broadway. They got engaged in March 2022, welcomed their first child in October 2022, and are often affectionately referred to by media and fans as husband and wife while maintaining a deeply private family life in North West London."
+  },
+  {
+    "question": "Does Tom Hiddleston have children?",
+    "answer": "Yes, Tom Hiddleston and his fiancée Zawe Ashton welcomed their first child together in October 2022. To protect their child's privacy and normal upbringing, Hiddleston and Ashton have intentionally chosen not to publicly disclose their child's name or photographs."
+  },
+  {
+    "question": "What is Tom Hiddleston's new movie Tenzing (2026) about?",
+    "answer": "In the 2026 Apple Original biographical drama 'Tenzing', directed by Jennifer Peedom, Tom Hiddleston portrays legendary New Zealand mountaineer Sir Edmund Hillary alongside Genden Phuntsok as Sherpa Tenzing Norgay, Willem Dafoe as expedition leader Colonel John Hunt, and Caitríona Balfe. The film chronicles the historic 1953 ascent of Mount Everest, premiering at the Toronto International Film Festival (TIFF) and opening the 22nd Zurich Film Festival in September 2026."
+  },
+  {
+    "question": "When did The Night Manager Season 2 premiere in 2026?",
+    "answer": "After a ten-year hiatus following the Emmy- and Golden Globe-winning first season, 'The Night Manager' Season 2 premiered on January 11, 2026 on BBC One in the United Kingdom and globally on Amazon Prime Video. Tom Hiddleston reprises his Golden Globe-winning role as former British intelligence operative Jonathan Pine (operating under the alias Alex Goodwin in MI6's 'Night Owls' unit) and serves as an Executive Producer alongside Olivia Colman, Diego Calva, and Camila Morrone."
+  },
+  {
+    "question": "What award did Tom Hiddleston receive at the 2026 Zurich Film Festival?",
+    "answer": "On September 24, 2026, Tom Hiddleston was honored with the prestigious Golden Eye Award for career achievement at the Opening Night Gala of the 22nd Zurich Film Festival, where he personally presented the European premiere of his Everest drama 'Tenzing' and hosted an acclaimed ZFF Masters conversation."
+  },
+  {
+    "question": "Will Tom Hiddleston return as Loki in Avengers: Doomsday (2026)?",
+    "answer": "Yes, Tom Hiddleston is officially confirmed to return as Loki in Marvel Studios' ensemble event 'Avengers: Doomsday' (2026). Following the critically acclaimed Season 2 finale of 'Loki' ('Glorious Purpose'), where Loki ascended the throne at the End of Time as the 'God of Stories' holding the living branches of the multiverse together like Yggdrasil, his character stands at the very center of Marvel's multiversal conflict."
+  },
+  {
+    "question": "Did Tom Hiddleston originally audition to play Thor instead of Loki?",
+    "answer": "Yes. In 2009, Hiddleston originally auditioned for the title role of Thor under director Kenneth Branagh, spending six weeks on a strict bodybuilding diet and packing on 20 pounds of muscle to swing Mjolnir in a full costume screen test. Although Chris Hemsworth was cast as Thor, Branagh and Kevin Feige immediately cast Hiddleston as Loki Laufeyson without requiring a second audition."
+  },
+  {
+    "question": "Where did Tom Hiddleston go to school and university?",
+    "answer": "Tom Hiddleston attended the Dragon School in Oxford before boarding at Durnford House at Eton College. He then matriculated at Pembroke College, University of Cambridge, where he earned a prestigious Double First (first-class honours in both Part I and Part II) in Classics (Ancient Greek and Latin). Afterward, he trained at the Royal Academy of Dramatic Art (RADA), graduating in 2005."
+  },
+  {
+    "question": "How tall is Tom Hiddleston, and what is his age in 2026?",
+    "answer": "Born on February 9, 1981, Tom Hiddleston is 45 years old in 2026. He stands 6 feet 2 inches tall (188 cm) and weighs approximately 81 kg (179 lbs)."
+  },
+  {
+    "question": "How many languages does Tom Hiddleston speak?",
+    "answer": "Tom Hiddleston is one of Hollywood's most accomplished polyglots. In addition to his native English and his academic mastery of Ancient Greek and Latin from Cambridge, he speaks fluent French, Spanish, and Italian, and has conversational proficiency in German, Russian, Mandarin Chinese, and Korean, which he frequently uses to address international journalists during global press tours."
+  },
+  {
+    "question": "What role did Tom Hiddleston play in The Life of Chuck?",
+    "answer": "In Mike Flanagan's TIFF People's Choice Award-winning adaptation of Stephen King's 'The Life of Chuck' (2024/2025), Tom Hiddleston portrays the adult title character, Charles 'Chuck' Krantz, an ordinary accountant whose life is told in reverse chronological chapters. Hiddleston trained for months in jazz, swing, and tap choreography to perform the film's exhilarating six-minute street dance sequence."
+  },
+  {
+    "question": "What Shakespeare play did Tom Hiddleston star in on the West End in 2025–2026?",
+    "answer": "In early 2025, Tom Hiddleston reunited with director Jamie Lloyd to star as Benedick opposite fellow Marvel star Hayley Atwell as Beatrice in a sold-out West End revival of William Shakespeare's 'Much Ado About Nothing' at the Theatre Royal Drury Lane, earning an Olivier Award nomination at the 50th Anniversary Laurence Olivier Awards in April 2026."
+  },
+  {
+    "question": "What major awards has Tom Hiddleston won during his career?",
+    "answer": "Tom Hiddleston has won the Golden Globe Award for Best Actor in a Miniseries or Television Film ('The Night Manager'), the Laurence Olivier Award for Best Newcomer in a Play ('Cymbeline', where he was double-nominated against himself for 'Othello'), the Evening Standard Theatre Award for Best Actor ('Coriolanus'), the Zurich Film Festival Golden Eye Award (2026), the Empire Hero Award, and multiple Critics' Choice Super and MTV Movie Awards, alongside two Primetime Emmy nominations, a BAFTA TV nomination, and a Tony Award nomination ('Betrayal')."
+  },
+  {
+    "question": "Where does Tom Hiddleston live?",
+    "answer": "Tom Hiddleston resides in a historic four-story Georgian townhouse in the leafy residential enclave of Belsize Park in Camden, North West London, near Hampstead Heath, where he lives with his fiancée Zawe Ashton, their child, and his red English Cocker Spaniel, Bobby. He also maintains a private countryside retreat in West Sussex."
+  }
 ]
 };
+

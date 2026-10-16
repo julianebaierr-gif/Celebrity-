@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-16T12:00:00.000Z",
-  "totalUniqueImages": 99,
+  "lastUpdated": "2026-10-16T13:00:00.000Z",
+  "totalUniqueImages": 101,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -825,5 +825,21 @@
     "year": "2026",
     "event": "Givenchy Fall/Winter 2026 Show at H\u00f4tel des Invalides in Paris (March 6, 2026)",
     "registeredAt": "2026-10-16T12:00:00.000Z"
+  },
+  "/images/celebrities/tom-hiddleston-hero.webp": {
+    "url": "https://www.datocms-assets.com/152459/1790070734-zff26_website_tom.jpg",
+    "name": "Tom Hiddleston",
+    "category": "hero",
+    "year": "2026",
+    "event": "22nd Zurich Film Festival Golden Eye Award Press Portrait (September 24, 2026)",
+    "registeredAt": "2026-10-16T13:00:00.000Z"
+  },
+  "/images/celebrities/tom-hiddleston-content.webp": {
+    "url": "https://www.datocms-assets.com/152459/1787641555-apple_tv_tenzing_key_art.jpg",
+    "name": "Tom Hiddleston",
+    "category": "content",
+    "year": "2026",
+    "event": "22nd Zurich Film Festival Opening Night Gala Film 'Tenzing' Feature Still (September 24, 2026)",
+    "registeredAt": "2026-10-16T13:00:00.000Z"
   }
 }

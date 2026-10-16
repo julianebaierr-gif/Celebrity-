@@ -5001,4 +5001,156 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
     }
   ]
 }
+,
+  "tom-hiddleston": {
+  "salaryMilestones": [
+    {
+      "project": "Thor (Marvel Studios)",
+      "year": 2011,
+      "salary": "$160,000 USD Base",
+      "boxOfficeOrBudget": "$150.0M Budget / $449.3M Worldwide Box Office",
+      "notes": "Breakout MCU feature debut as Loki Laufeyson under director Kenneth Branagh, signing a multi-picture Marvel Studios contract."
+    },
+    {
+      "project": "The Avengers",
+      "year": 2012,
+      "salary": "$800,000 USD + Box Office Bonuses",
+      "boxOfficeOrBudget": "$220.0M Budget / $1.519B Worldwide Box Office",
+      "notes": "Served as the primary overarching antagonist of Phase One's historic $1.5B ensemble blockbuster."
+    },
+    {
+      "project": "Crimson Peak & High-Rise",
+      "year": 2015,
+      "salary": "$2,000,000 USD Combined Upfront",
+      "boxOfficeOrBudget": "$55.0M Studio + Indie Theatrical Releases",
+      "notes": "Leading roles in Guillermo del Toro's Gothic romance and Ben Wheatley's J.G. Ballard adaptation."
+    },
+    {
+      "project": "The Night Manager (Season 1)",
+      "year": 2016,
+      "salary": "$1,500,000 USD ($250K/Episode + EP Fee)",
+      "boxOfficeOrBudget": "BBC One & AMC Global Prestige Miniseries",
+      "notes": "Starred as Jonathan Pine and served as Executive Producer, winning the Golden Globe Award for Best Actor."
+    },
+    {
+      "project": "Kong: Skull Island",
+      "year": 2017,
+      "salary": "$4,500,000 USD Upfront + Backend Points",
+      "boxOfficeOrBudget": "$185.0M Budget / $568.7M Worldwide Box Office",
+      "notes": "First solo non-Marvel blockbuster lead as Captain James Conrad, generating the highest gross of the MonsterVerse era."
+    },
+    {
+      "project": "Thor: Ragnarok",
+      "year": 2017,
+      "salary": "$6,000,000 USD Base + Escalators",
+      "boxOfficeOrBudget": "$180.0M Budget / $855.3M Worldwide Box Office",
+      "notes": "Major contract renegotiation reflecting Loki's status as co-headliner alongside Chris Hemsworth."
+    },
+    {
+      "project": "Avengers: Infinity War & Endgame",
+      "year": 2018,
+      "salary": "$8,000,000 USD Combined Package",
+      "boxOfficeOrBudget": "$700.0M+ Combined Budget / $4.851B Cumulative Gross",
+      "notes": "Pivotal opening sacrifice in Infinity War and 2012 timeline escape in Endgame that launched the Disney+ Loki series."
+    },
+    {
+      "project": "Loki (Seasons 1 & 2, Disney+)",
+      "year": 2023,
+      "salary": "$12,000,000 USD ($1.0M/Episode + EP Backend)",
+      "boxOfficeOrBudget": "12 Episodes / Disney+ #1 Flagship Marvel Series",
+      "notes": "Served as sole title star and Executive Producer across two acclaimed six-episode seasons."
+    },
+    {
+      "project": "The Night Manager (Season 2)",
+      "year": 2026,
+      "salary": "$5,400,000 USD ($900K/Episode + Executive Producer Equity)",
+      "boxOfficeOrBudget": "BBC One & Amazon Prime Video Global Co-Production",
+      "notes": "Decade-in-the-making return as Jonathan Pine / Alex Goodwin alongside producing partners at The Ink Factory."
+    },
+    {
+      "project": "Tenzing & Avengers: Doomsday",
+      "year": 2026,
+      "salary": "$10,500,000 USD Combined Advance",
+      "boxOfficeOrBudget": "Apple Original Films & Marvel Studios Tentpoles",
+      "notes": "Portraying Sir Edmund Hillary in Apple's Tenzing (ZFF 2026 Opening Film) and returning as God of Stories Loki in Avengers: Doomsday."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Belsize Park Period Georgian Townhouse",
+      "location": "Belsize Park, Camden, North West London, UK",
+      "purchasedYear": "2012",
+      "purchasePrice": "$4,200,000 USD (£2.7M)",
+      "currentEstimatedValue": "$6,800,000 USD (£5.2M)",
+      "description": "Four-story Victorian/Georgian stucco residence in leafy Belsize Park near Hampstead Heath, featuring high-ceiling drawing rooms, a private walled garden, sound-insulated study, and primary family sanctuary shared with partner Zawe Ashton."
+    },
+    {
+      "property": "West Sussex Countryside Retreat",
+      "location": "South Downs National Park Corridor, England, UK",
+      "purchasedYear": "2021",
+      "purchasePrice": "$2,400,000 USD (£1.85M)",
+      "currentEstimatedValue": "$3,100,000 USD (£2.4M)",
+      "description": "Secluded rural English cottage estate surrounded by rolling meadows and woodland walking trails, offering complete privacy away from London."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Executive Producing Slate (Loki & The Night Manager)",
+      "role": "Executive Producer & Creative Partner",
+      "valuationOrRevenue": "Multi-Million Backend & Streaming Residuals",
+      "description": "Holds full Executive Producer equity participation on both seasons of Marvel Studios' 'Loki' (Disney+) and Seasons 1–3 of BBC/Prime Video's 'The Night Manager' in partnership with The Ink Factory."
+    },
+    {
+      "name": "Gucci Tailoring & Cruise Global Campaigns",
+      "role": "Global Menswear Ambassador",
+      "valuationOrRevenue": "$3.5M+ Multi-Year Luxury Endorsement",
+      "description": "Shot at historic Tony Duquette Dawnridge estate in Beverly Hills under creative director Alessandro Michele, fronting Gucci's bespoke tailoring and heritage menswear lines."
+    },
+    {
+      "name": "Jaguar 'Good to Be Bad' Super Bowl Campaign",
+      "role": "Global Automotive Campaign Lead",
+      "valuationOrRevenue": "$2.0M+ Global Commercial Contract",
+      "description": "Starred alongside Sir Ben Kingsley and Mark Strong in Ridley Scott Associates' iconic cinematic campaign launching the Jaguar F-Type Coupe."
+    },
+    {
+      "name": "West End & Broadway Stage Profit Participation",
+      "role": "Headline Star & Box Office Producer Partner",
+      "valuationOrRevenue": "Above-the-Line Box Office Gross Royalty Share",
+      "description": "Commanded weekly base guarantees plus percentage of gross box office receipts on sold-out runs of 'Betrayal' (West End & Broadway, 2019) and 'Much Ado About Nothing' at Theatre Royal Drury Lane (2025)."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2011",
+      "estimatedNetWorth": "$800,000 USD",
+      "milestoneDescription": "Early classical stage honors, BBC's Wallander, War Horse, Midnight in Paris, and initial Marvel debut in Thor."
+    },
+    {
+      "period": "2014",
+      "estimatedNetWorth": "$6.0 Million USD",
+      "milestoneDescription": "Global breakout in The Avengers ($1.5B), Thor: The Dark World, Only Lovers Left Alive, and Jaguar endorsement."
+    },
+    {
+      "period": "2017",
+      "estimatedNetWorth": "$16.0 Million USD",
+      "milestoneDescription": "Golden Globe win for The Night Manager, $4.5M Kong: Skull Island payday, Thor: Ragnarok, and Gucci Tailoring campaign."
+    },
+    {
+      "period": "2020",
+      "estimatedNetWorth": "$25.0 Million USD",
+      "milestoneDescription": "Avengers: Infinity War and Endgame backend bonuses plus sold-out Broadway run of Harold Pinter's Betrayal."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$33.0 Million USD",
+      "milestoneDescription": "Headlining and executive producing two seasons of Disney+'s Loki alongside Apple TV+'s The Essex Serpent."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$40.0 Million USD",
+      "milestoneDescription": "Certified 2026 net worth driven by The Night Manager Season 2, Apple's Tenzing, Much Ado About Nothing West End run, and Avengers: Doomsday."
+    }
+  ]
+}
 };
+

@@ -609,4 +609,20 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "impactAnalysis": "Her decisive exit from social media sparked widespread cultural discussions across Hollywood regarding digital parasitism and defended an artist's fundamental right to process profound personal grief away from public spectacle."
   }
 ]
+,
+  "tom-hiddleston": [
+  {
+    "incident": "74th Golden Globe Awards Acceptance Speech & Sincere Public Reflection",
+    "year": "2017",
+    "resolutionOrOutcome": "Upon winning the Golden Globe Award for Best Actor for 'The Night Manager' in January 2017, Hiddleston delivered an impromptu late-night acceptance speech recounting a recent UNICEF humanitarian trip to South Sudan, noting that Doctors Without Borders personnel had found comfort watching the series during shelling. When social media critics suggested the anecdote sounded inadvertently self-congratulatory, Hiddleston immediately issued a gracious, unreserved statement on Facebook clarifying that his nerves had gotten the better of him and that his sole intention was to salute the bravery of humanitarian relief workers risking their lives in South Sudan.",
+    "impactAnalysis": "Hiddleston's immediate humility, lack of defensiveness, and continued multi-year commitment to UNICEF UK field advocacy earned widespread respect from international journalists and humanitarian partners."
+  },
+  {
+    "incident": "2016 Summer Tabloid Frenzy ('Hiddleswift') & Subsequent Privacy Boundary",
+    "year": "2016",
+    "resolutionOrOutcome": "During the summer of 2016, Hiddleston's brief three-month relationship with American pop superstar Taylor Swift became the subject of unprecedented international paparazzi surveillance, peaking when he was photographed wearing an 'I Heart T.S.' tank top at a Fourth of July beach gathering in Rhode Island. In a candid 2017 profile with GQ, Hiddleston clarified that the relationship was completely genuine rather than a publicity stunt, explaining that the tank top was a lighthearted joke among friends after he slipped and scraped his back in the ocean.",
+    "impactAnalysis": "The intense media scrutiny prompted Hiddleston to establish an ironclad boundary around his personal life, paving the way for the serene, fiercely protected domestic sanctuary he shares with partner Zawe Ashton."
+  }
+]
 };
+

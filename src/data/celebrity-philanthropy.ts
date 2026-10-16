@@ -963,4 +963,32 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "description": "Donated substantial personal funds to provide direct financial grants, medical copay coverage, and emergency grocery stipends for below-the-line film crew workers, theatrical stagehands, and union performers facing industry hardship."
   }
 ]
+,
+  "tom-hiddleston": [
+  {
+    "organizationOrCause": "UNICEF UK Humanitarian Ambassadorship & Field Missions",
+    "focusArea": "Child Protection, Emergency Conflict Education & Hunger Relief",
+    "verifiedContribution": "Official UNICEF UK Ambassador & Frontline Field Envoy (Guinea & South Sudan)",
+    "description": "An active humanitarian advocate for UNICEF UK since 2013, Hiddleston completed frontline field missions to Guinea (2013) and conflict-torn South Sudan (2015–2016) to document child malnutrition and emergency education programs, alongside participating in the 'Live Below the Line' extreme poverty awareness challenge."
+  },
+  {
+    "organizationOrCause": "Royal Academy of Dramatic Art (RADA) & Illuminating BAFTA",
+    "focusArea": "Working-Class Drama Scholarships & Equal Access to the Performing Arts",
+    "verifiedContribution": "RADA Council Patron, Scholarship Benefactor & Mentorship Speaker",
+    "description": "Works closely with his alma mater RADA and the 'Illuminating BAFTA' initiative to fund tuition-free scholarships, audition travel grants, and living stipends for talented young actors from low-income and underrepresented backgrounds across the United Kingdom."
+  },
+  {
+    "organizationOrCause": "Starlight Children's Foundation & Great Ormond Street Hospital",
+    "focusArea": "Pediatric Terminal Illness Wish-Granting & Children's Ward Support",
+    "verifiedContribution": "In-Costume Hospital Visits & Charity Auction Patron",
+    "description": "Frequently visits pediatric oncology and intensive care wards—including memorably visiting children's hospitals in Australia in full Loki costume during filming of 'Thor: Ragnarok'—and donates personal scripts and memorabilia to Starlight Children's Foundation."
+  },
+  {
+    "organizationOrCause": "Coram (Thomas Coram Foundation for Children) & Comic Relief",
+    "focusArea": "Vulnerable Youth Adoption Support, Literacy & UK Poverty Relief",
+    "verifiedContribution": "Longtime Campaign Supporter & Red Nose Day Performer",
+    "description": "Supports the UK's oldest children's charity, Coram, through historical letter readings and fundraising galas, while regularly contributing original comedy sketches and telethon appeals for Comic Relief's Red Nose Day and Stand Up To Cancer UK."
+  }
+]
 };
+
