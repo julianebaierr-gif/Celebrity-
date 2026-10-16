@@ -882,5 +882,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "verifiedContribution": "Longtime Celebrity Ambassador & Pediatric Volunteer",
     "description": "Has granted dozens of life-affirming wishes for children with critical illnesses, making frequent unpublicized bedside visits to pediatric oncology units and intensive care facilities across the country."
   }
+],
+  "chadwick-boseman": [
+  {
+    "organizationOrCause": "Howard University Chadwick A. Boseman College of Fine Arts & Netflix Scholarship",
+    "focusArea": "HBCU Fine Arts Education, Full-Tuition Endowments & Student Debt Elimination",
+    "verifiedContribution": "$5.4 Million Endowed Scholarship Fund in Partnership with Netflix",
+    "description": "In May 2021, Howard University officially renamed its historic fine arts division as the Chadwick A. Boseman College of Fine Arts in tribute to its 2000 alumnus. In October 2021, Netflix established a $5.4 million endowed scholarship fund covering 100% of four-year tuition for incoming fine arts students, creating permanent generational access for emerging Black storytellers."
+  },
+  {
+    "organizationOrCause": "St. Jude Children's Research Hospital & Pediatric Oncology Outreach",
+    "focusArea": "Pediatric Critical Illness Care, Terminal Cancer Advocacy & Hospital Morale",
+    "verifiedContribution": "Direct Hospital Ward Visits, Cancer Care Advocacy & Pediatric Sponsorships",
+    "description": "While privately enduring aggressive chemotherapy cycles and surgeries between 2016 and 2019, Boseman made unpublicized visits to pediatric cancer wards at St. Jude, Memphis, and Children's Hospital Los Angeles, delivering toys, providing emotional comfort to young patients, and fiercely advocating for childhood cancer research."
+  },
+  {
+    "organizationOrCause": "The Chadwick Boseman Foundation for the Arts",
+    "focusArea": "Grassroots Black Dramatic Writing, Playwright Fellowships & Youth Mentorship",
+    "verifiedContribution": "Estate-Endowed 501(c)(3) Non-Profit Foundation & Creative Grants",
+    "description": "Founded by his widow Simone Ledward Boseman and creative partners, the foundation supports emerging African American playwrights, screenwriters, and dramatic performers through project grants, masterclass residencies, and youth workshops designed to nurture future visionary storytellers."
+  },
+  {
+    "organizationOrCause": "Anderson Boys & Girls Clubs & Hometown Youth Screenings",
+    "focusArea": "Youth Empowerment, Cultural Representation & Educational Equity",
+    "verifiedContribution": "Private Theater Buyouts, Free Screenings & Community Educational Grants",
+    "description": "Boseman personally bought out movie theaters across Anderson, South Carolina, and Atlanta, Georgia, to host free private screenings of Black Panther and 42 for thousands of underprivileged children from local Boys & Girls Clubs, ensuring young students experienced heroic Black cultural representation on the big screen without cost."
+  }
 ]
 };

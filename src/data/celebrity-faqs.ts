@@ -1938,5 +1938,67 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "What happened to the Jeremy Renner official mobile app in 2019?",
     "answer": "In March 2017, Renner launched 'Jeremy Renner', an official fan community app designed to share exclusive updates, photos, and behind-the-scenes content. In September 2019, internet pranksters discovered vulnerabilities allowing users to spoof verified names (including Renner's own identity and various celebrities). Rather than allowing his genuine fanbase to be subjected to online trolling, Renner made the decisive executive choice to shut down the app immediately and issue full refunds to all paid subscribers."
   }
+],
+  "chadwick-boseman": [
+  {
+    "question": "What was Chadwick Boseman's net worth at the time of his death, and what is his estate worth in 2026?",
+    "answer": "At the time of his passing in August 2020, Chadwick Boseman's net worth was officially certified at approximately $12.0 Million USD through Los Angeles County Superior Court probate inventory documents. Because he died intestate (without a formal will), his estate was administered by his widow, Simone Ledward Boseman, with 50% allocated to her and 50% distributed to his surviving parents, Leroy and Carolyn Boseman. By 2026, cumulative Disney+ streaming catalog residuals, Black Panther global merchandise profit pools, and California real estate appreciation have elevated the ongoing commercial value and asset holdings of the Chadwick Boseman Estate to approximately $18.0 Million USD."
+  },
+  {
+    "question": "When and how did Chadwick Boseman pass away?",
+    "answer": "Chadwick Boseman passed away on August 28, 2020, at the age of 43, at his home in Los Angeles, California, surrounded by his wife and family. The cause of death was complications from Stage IV colon cancer. Boseman had been privately diagnosed with Stage III colon cancer in 2016, which progressively advanced over four years. His passing stunned the world, as he had chosen never to disclose his illness publicly or to his studio colleagues, continuing to work through intensive treatment."
+  },
+  {
+    "question": "How long did Chadwick Boseman privately battle colon cancer while filming major movies?",
+    "answer": "Chadwick Boseman fought colon cancer for four full years (2016 to 2020). Remarkably, during this entire period\u2014which required multiple major surgeries, endless rounds of chemotherapy, and grueling physical therapy\u2014he filmed seven major motion pictures: 'Marshall' (2017), 'Black Panther' (2018), 'Avengers: Infinity War' (2018), 'Avengers: Endgame' (2019), '21 Bridges' (2019), 'Da 5 Bloods' (2020), and 'Ma Rainey's Black Bottom' (2020), as well as voice sessions for Marvel's 'What If...?'. His ability to maintain peak physical condition and world-class dramatic intensity during cancer treatments is regarded as one of the most heroic chapters in modern cinematic history."
+  },
+  {
+    "question": "Who is Chadwick Boseman's wife, and what is the current status of the Boseman estate in 2026?",
+    "answer": "Chadwick Boseman was married to Taylor Simone Ledward, a talented jazz vocalist and graduate of California State Polytechnic University, Pomona. The couple began dating in 2015, became engaged in October 2019, and married in a private, intimate ceremony shortly before his passing in 2020. Simone was appointed the legal administrator of his estate by the Los Angeles Probate Court. In 2026, Ledward Boseman continues to serve as an executive steward of his legacy, overseeing The Chadwick Boseman Foundation for the Arts, collaborating with Howard University, and vigorously protecting his likeness from unauthorized AI exploitation."
+  },
+  {
+    "question": "Did Denzel Washington pay for Chadwick Boseman's acting tuition at Oxford?",
+    "answer": "Yes. While Boseman was an undergraduate directing student at Howard University, his revered acting mentor and teacher, Phylicia Rashad, organized an elite summer acting exchange at the British American Drama Academy (BADA) at Oxford University. When Boseman and several classmates could not afford the tuition and travel expenses, Rashad quietly enlisted her friend Denzel Washington to cover the entire cost. Boseman did not discover Washington had been his benefactor until after returning from London. Boseman later publicly thanked Washington in a legendary 2019 AFI Life Achievement Award speech, proclaiming: 'There is no Black Panther without Denzel Washington.'"
+  },
+  {
+    "question": "What is the Chadwick A. Boseman College of Fine Arts at Howard University?",
+    "answer": "In May 2021, Howard University officially renamed its College of Fine Arts as the Chadwick A. Boseman College of Fine Arts in tribute to its illustrious 2000 alumnus. Boseman had actively protested to preserve the college's independence as a student in the late 1990s. In October 2021, Netflix established a $5.4 Million endowed scholarship fund at the college that awards 100% four-year tuition scholarships to incoming drama and fine arts students, ensuring permanent, debt-free educational access for future generations of Black creative artists."
+  },
+  {
+    "question": "What were Chadwick Boseman's most iconic biographical roles?",
+    "answer": "Chadwick Boseman was celebrated as Hollywood's premier portrayer of historic Black luminaries. His legendary biographical roles include: baseball trailblazer Jackie Robinson in Brian Helgeland's '42' (2013); Godfather of Soul James Brown in Tate Taylor's electric biopic 'Get on Up' (2014); and pioneering civil rights attorney and future Supreme Court Justice Thurgood Marshall in Reginald Hudlin's courtroom drama 'Marshall' (2017). Each performance was hailed by living relatives and historians for its uncanny spiritual authenticity and dignity."
+  },
+  {
+    "question": "How much did Chadwick Boseman earn for playing King T'Challa in Black Panther?",
+    "answer": "For his starring role in 'Black Panther' (2018), Chadwick Boseman earned an upfront base salary of approximately $3.0 Million USD, which was substantially bolstered by worldwide box office milestone bonuses and backend profit participation points. With the film generating over $1.347 Billion worldwide, Boseman's total compensation from the solo blockbuster exceeded $7.0 Million USD. In total across his Marvel contract (including 'Captain America: Civil War', 'Avengers: Infinity War', and 'Avengers: Endgame'), Boseman generated over $15.0 Million USD in base pay and performance bonuses."
+  },
+  {
+    "question": "Did Chadwick Boseman win an Academy Award (Oscar)?",
+    "answer": "Chadwick Boseman was posthumously nominated for the Academy Award for Best Actor in 2021 for his blistering performance as trumpeter Levee Green in August Wilson's 'Ma Rainey's Black Bottom'. While the Oscar was ultimately awarded to Anthony Hopkins for 'The Father', Boseman swept the preceding awards circuit, posthumously winning the Golden Globe Award, the Critics' Choice Movie Award, and the Screen Actors Guild (SAG) Award for Outstanding Performance by a Male Actor in a Leading Role, where his widow accepted with deeply moving speeches."
+  },
+  {
+    "question": "Did Chadwick Boseman have any biological children?",
+    "answer": "No, Chadwick Boseman did not have any children. Because he died without leaving a will (intestate) and had no children, California probate law dictated that his net estate was divided equally between his surviving spouse, Taylor Simone Ledward (50%), and his living parents, Leroy and Carolyn Boseman (50%)."
+  },
+  {
+    "question": "What was Chadwick Boseman's final film performance before his death?",
+    "answer": "Chadwick Boseman's final live-action film performance was as the ambitious, tortured jazz cornetist Levee Green in George C. Wolfe's Netflix adaptation of 'Ma Rainey's Black Bottom' (2020), starring opposite Viola Davis. His final artistic performance overall was voice work as Star-Lord T'Challa in Marvel's Disney+ animated anthology series 'What If...?' (2021), for which he was posthumously awarded a Primetime Emmy Award in 2022."
+  },
+  {
+    "question": "Why did Chadwick Boseman keep his cancer diagnosis secret from the public and Marvel Studios?",
+    "answer": "According to his longtime agent Michael Greene and close creative collaborators, Boseman was taught by his mother and Southern upbringing to guard his personal struggles with immense privacy and avoid being treated with pity. Furthermore, Boseman passionately believed that he would beat the disease until his final weeks, and he was determined that film productions, insurance assessments, and public sentiment would not define or interfere with his artistic work or derail projects creating jobs for hundreds of crew members."
+  },
+  {
+    "question": "What is the 2026 Los Angeles Probate Court dispute involving the Boseman estate?",
+    "answer": "In mid-2026, Chadwick Boseman's older brothers Kevin and Derrick Boseman filed court petitions in Los Angeles Superior Court requesting formal accounting audits and raised concerns regarding intellectual property stewardship, likeness licensing, and foundation governance managed by his widow, Simone Ledward Boseman. Simone's legal counsel responded vigorously, filing detailed estate accountings that demonstrated full compliance with probate statutes, confirmed millions of dollars in completed distributions to Chadwick's parents, and reaffirmed her dedication to protecting Chadwick's likeness from commercial dilution and unapproved AI cloning."
+  },
+  {
+    "question": "How did Marvel Studios and Ryan Coogler address Chadwick Boseman's death in Black Panther: Wakanda Forever?",
+    "answer": "Marvel Studios president Kevin Feige and director Ryan Coogler made the definitive artistic choice never to recast King T'Challa with another actor or utilize CGI digital doubles. Instead, the 2022 sequel 'Black Panther: Wakanda Forever' addressed T'Challa's death organically in the narrative, opening with a royal funeral and centering the story on the profound grief and resilience of Wakanda's women. The film concluded with the introduction of T'Challa's young son, Toussaint (Prince T'Challa), honoring Boseman's enduring spiritual lineage."
+  },
+  {
+    "question": "What honors and tributes mark Chadwick Boseman's 50th birthday in 2026?",
+    "answer": "In November 2026, marking what would have been Chadwick Boseman's milestone 50th birthday, cultural institutions worldwide organized major retrospectives. Howard University held a commemorative symposium and showcase at the Chadwick A. Boseman College of Fine Arts, while Shakespeare's Globe in London hosted the UK premiere of his early dramatic play 'Deep Azure', celebrating his foundational genius as a playwright and director alongside his celebrated cinematic career."
+  }
 ]
 };

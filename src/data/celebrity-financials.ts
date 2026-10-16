@@ -4526,5 +4526,177 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Audited sovereign benchmark certified at $80.0 Million USD driven by Mayor of Kingstown ($1M/episode), Wake Up Dead Man ($6M), Tahoe real estate value, and tech investments."
     }
   ]
+},
+  "chadwick-boseman": {
+  "salaryMilestones": [
+    {
+      "project": "42 (The Jackie Robinson Story)",
+      "year": 2013,
+      "salary": "$250,000 USD",
+      "boxOfficeOrBudget": "$40M Budget / $97.5M Box Office",
+      "notes": "Breakout Hollywood feature lead role as baseball icon Jackie Robinson, chosen by director Brian Helgeland over hundreds of candidates."
+    },
+    {
+      "project": "Get on Up",
+      "year": 2014,
+      "salary": "$750,000 USD",
+      "boxOfficeOrBudget": "$30M Budget / $33.4M Box Office",
+      "notes": "Astonishing physical and vocal transformation into James Brown, rehearsing up to 8 hours daily for months."
+    },
+    {
+      "project": "Captain America: Civil War",
+      "year": 2016,
+      "salary": "$1,000,000 USD",
+      "boxOfficeOrBudget": "$250M Budget / $1.153B Box Office",
+      "notes": "Marvel Cinematic Universe introduction as King T'Challa; cast by direct offer without an audition."
+    },
+    {
+      "project": "Marshall",
+      "year": 2017,
+      "salary": "$1,500,000 USD",
+      "boxOfficeOrBudget": "$12M Budget / $10.1M Box Office",
+      "notes": "Title role as young NAACP attorney Thurgood Marshall, co-starring Josh Gad and Sterling K. Brown."
+    },
+    {
+      "project": "Black Panther",
+      "year": 2018,
+      "salary": "$3,000,000 USD",
+      "boxOfficeOrBudget": "$200M Budget / $1.347B Box Office",
+      "notes": "Base upfront compensation plus lucrative worldwide box office backend participation, earning an additional $4.0M+ in backend profit pool."
+    },
+    {
+      "project": "Avengers: Infinity War",
+      "year": 2018,
+      "salary": "$3,500,000 USD",
+      "boxOfficeOrBudget": "$316M Budget / $2.048B Box Office",
+      "notes": "Ensemble rate leading the climactic battle of Wakanda opposite Thanos' outrider armies."
+    },
+    {
+      "project": "21 Bridges",
+      "year": 2019,
+      "salary": "$3,500,000 USD",
+      "boxOfficeOrBudget": "$33M Budget / $49.9M Box Office",
+      "notes": "Lead actor and producer; famously donated a portion of his own salary to co-star Sienna Miller to ensure she received equal pay."
+    },
+    {
+      "project": "Avengers: Endgame",
+      "year": 2019,
+      "salary": "$5,000,000 USD",
+      "boxOfficeOrBudget": "$356M Budget / $2.799B Box Office",
+      "notes": "Combined salary and profit participation in the highest-grossing film of its era, delivering the iconic 'On your left' portal scene."
+    },
+    {
+      "project": "Da 5 Bloods",
+      "year": 2020,
+      "salary": "$2,000,000 USD",
+      "boxOfficeOrBudget": "$45M Budget (Netflix)",
+      "notes": "Portrayed fallen squad leader Stormin' Norman in Spike Lee's Vietnam drama, filmed in grueling Thailand heat while in late-stage cancer treatment."
+    },
+    {
+      "project": "Ma Rainey's Black Bottom",
+      "year": 2020,
+      "salary": "$3,000,000 USD",
+      "boxOfficeOrBudget": "Netflix Worldwide Release",
+      "notes": "Final completed feature performance as trumpeter Levee Green; won Golden Globe, SAG Award, and earned Best Actor Academy Award nomination."
+    },
+    {
+      "project": "What If...? (Disney+ Series)",
+      "year": 2021,
+      "salary": "$1,000,000 USD",
+      "boxOfficeOrBudget": "Marvel Studios Animated Series",
+      "notes": "Voice recording as Star-Lord T'Challa across multiple episodes; won posthumous Primetime Emmy Award for Outstanding Character Voice-Over Performance in 2022."
+    },
+    {
+      "project": "Disney+ & Marvel Global Catalog Residuals",
+      "year": 2026,
+      "salary": "$8,000,000+ USD",
+      "boxOfficeOrBudget": "Worldwide Streaming & Merchandising Pool",
+      "notes": "Cumulative contractual streaming residuals and merchandising profit pool flowing directly to the Chadwick Boseman Estate."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Los Feliz Craftsman Sanctuary",
+      "location": "Los Feliz, Los Angeles, California",
+      "purchasedYear": "2016",
+      "purchasePrice": "$2,400,000 USD",
+      "currentEstimatedValue": "$4,200,000 USD",
+      "description": "Boseman's primary private sanctuary spanning 4,000 sq ft, featuring classic Craftsman architecture, lush private gardens, and soundproofed creative writing quarters where he peacefully passed away."
+    },
+    {
+      "property": "West Hollywood Modern Villa",
+      "location": "West Hollywood, Los Angeles, California",
+      "purchasedYear": "2014",
+      "purchasePrice": "$1,200,000 USD",
+      "currentEstimatedValue": "$2,100,000 USD (Sold by Estate)",
+      "description": "Sleek 2-bedroom architectural residence acquired following his breakout success in 42, later liquidated by estate administrators as part of probate distributions."
+    },
+    {
+      "property": "Anderson Family Estate",
+      "location": "Anderson, South Carolina",
+      "purchasedYear": "2018",
+      "purchasePrice": "$650,000 USD",
+      "currentEstimatedValue": "$950,000 USD",
+      "description": "Custom single-story residential property gifted by Boseman to his parents, Leroy and Carolyn Boseman, near his childhood roots."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Xception Content",
+      "role": "Co-Founder & Producer",
+      "valuationOrRevenue": "Independent Production Banner",
+      "description": "Production banner founded by Boseman and creative partner Logan Coles to develop and produce culturally urgent cinema, including the STX thriller '21 Bridges'."
+    },
+    {
+      "name": "The Chadwick Boseman Foundation for the Arts",
+      "role": "Namesake & Beneficiary Organization",
+      "valuationOrRevenue": "501(c)(3) Non-Profit Endowment",
+      "description": "Philanthropic arts foundation supporting emerging Black storytellers, dramatic writers, and visual artists with grants, mentorship, and creative resources."
+    },
+    {
+      "name": "Chadwick Boseman Intellectual Property & Likeness Trust",
+      "role": "Estate Entity",
+      "valuationOrRevenue": "Multi-Million-Dollar Licensing Portfolio",
+      "description": "Entity managing Boseman's digital likeness rights, posthumous book and documentary development, and trademark protections to prevent commercial exploitation."
+    },
+    {
+      "name": "Howard University Fine Arts Endowment Partnership",
+      "role": "Memorial Endowment",
+      "valuationOrRevenue": "$5.4M Endowed Scholarship Fund (Netflix)",
+      "description": "Endowed scholarship program in partnership with Netflix and Howard University covering 100% of four-year tuition for fine arts students at the Chadwick A. Boseman College of Fine Arts."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2012",
+      "estimatedNetWorth": "$300,000 USD",
+      "milestoneDescription": "Modest savings accumulated through New York independent theater, digital drama teaching in Harlem, and television guest roles."
+    },
+    {
+      "period": "2014",
+      "estimatedNetWorth": "$1.5 Million USD",
+      "milestoneDescription": "First major studio paychecks for 42 and Get on Up establish primary financial security and allow purchase of West Hollywood home."
+    },
+    {
+      "period": "2016",
+      "estimatedNetWorth": "$4.0 Million USD",
+      "milestoneDescription": "Signing multi-picture Marvel Studios contract for Captain America: Civil War and Black Panther, alongside title role in Marshall."
+    },
+    {
+      "period": "2018",
+      "estimatedNetWorth": "$9.0 Million USD",
+      "milestoneDescription": "Black Panther historic box office explosion ($1.34B worldwide) triggers substantial milestone bonuses and backends alongside Avengers: Infinity War."
+    },
+    {
+      "period": "2020",
+      "estimatedNetWorth": "$12.0 Million USD",
+      "milestoneDescription": "Net worth at time of passing certified through Los Angeles County Superior Court probate proceedings, including liquid assets, production points, and real estate."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$18.0 Million USD",
+      "milestoneDescription": "Certified 2026 estate valuation reflecting ongoing global Disney+ streaming royalties, Black Panther merchandising residuals, and California real estate appreciation."
+    }
+  ]
 }
 };

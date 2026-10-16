@@ -564,5 +564,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "resolutionOrOutcome": "Following a ten-month marriage, Canadian model Sonni Pacheco filed for divorce in December 2014, leading to prolonged legal negotiations regarding child support and parental custody for their daughter Ava Berlin Renner. Over several years, contentious claims and filings appeared in Los Angeles County Superior Court. The matter was ultimately resolved through a comprehensive sealed settlement establishing shared legal custody, definitive child support structures, and strict non-disparagement agreements prioritizing Ava's privacy, education, and long-term security.",
     "impactAnalysis": "The resolution successfully established balanced co-parenting boundaries away from public scrutiny, allowing Renner to maintain an unshakeable bond with his daughter that became his primary emotional catalyst for survival during his 2023 recovery."
   }
+],
+  "chadwick-boseman": [
+  {
+    "incident": "The 2026 Los Angeles Probate Court Estate Administration Challenge",
+    "year": "2026",
+    "resolutionOrOutcome": "In mid-2026, Chadwick Boseman's brothers, Kevin and Derrick Boseman, filed petitions in Los Angeles County Superior Court requesting forensic accounting clarifications, likeness veto authority, and governance oversight regarding the estate administered by Chadwick's widow, Taylor Simone Ledward Boseman. Simone's legal representation responded with thorough probate filings demonstrating meticulous administrative stewardship, confirming that multi-million-dollar statutory distributions had already been remitted to Chadwick's parents, Leroy and Carolyn Boseman, and reaffirming her strict policy against unauthorized commercial exploitation and non-consensual AI digital recreations of Chadwick's voice and image.",
+    "impactAnalysis": "The court proceedings highlighted the delicate legal realities of high-value celebrity estates without formal wills (intestacy), while reinforcing Simone Ledward Boseman's widely respected national leadership in protecting deceased Black cultural icons from digital and corporate exploitation."
+  },
+  {
+    "incident": "The 93rd Academy Awards Broadcast Sequence Restructuring",
+    "year": "2021",
+    "resolutionOrOutcome": "During the 2021 Oscars telecast, show producers broke with 93 years of Academy tradition by swapping the broadcast order, placing the Best Actor category as the final award of the ceremony after Best Picture, widely anticipated by viewers as an intentional crescendo celebrating a posthumous Oscar win for Boseman's searing role in 'Ma Rainey's Black Bottom'. When veteran actor Anthony Hopkins was announced as the winner for 'The Father', Hopkins was asleep at his home in Wales and unable to accept, leading to an abrupt, awkward conclusion that sparked significant television criticism. The following morning, Hopkins posted a gracious video tribute to Boseman, while Simone Ledward Boseman praised Hopkins and urged audiences to celebrate both men's extraordinary artistic gifts rather than ceremony logistics.",
+    "impactAnalysis": "The incident prompted the Academy to permanently restore traditional category ordering in subsequent years and served as a cultural case study in avoiding premature broadcast theatricality around genuine grief and artistic legacy."
+  }
 ]
 };

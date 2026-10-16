@@ -2267,5 +2267,85 @@ export const CELEBRITY_BIOGRAPHIES: Record<string, BiographySection[]> = {
     },
     "keyTakeaway": "In 2026, Renner commands an $80M net worth, headlines Mayor of Kingstown Season 4, stars in Knives Out 3, and champions foster youth through the RennerVation Foundation."
   }
+],
+  "chadwick-boseman": [
+  {
+    "heading": "The Anderson Canvas & Howard Directing Roots (1976\u20132000)",
+    "paragraphs": [
+      "Chadwick Aaron Boseman was born on November 29, 1976, in the small textile and agricultural town of Anderson, South Carolina, the youngest of three sons born to Carolyn, a registered nurse, and Leroy Boseman, who worked in a textile factory and operated an upholstery business. Raised in a devout, tight-knit African American family rooted in the Welfare Baptist Church, Boseman developed an early passion for visual arts, drawing, and storytelling. During his junior year at T.L. Hanna High School, a tragic event indelibly shaped his artistic purpose: after a close classmate and basketball teammate was shot and killed, Boseman channeled his grief into writing his very first play, 'Crossroads', staging it at the school. The experience revealed to him that dramatic writing and directing possessed the unique power to heal community trauma.",
+      "In 1995, Boseman enrolled at Howard University in Washington, D.C., intending not to act, but to become a theater director and playwright. Studying under the legendary actress and educator Phylicia Rashad, Boseman immersed himself in dramatic literature, African history, and political philosophy, graduating in 2000 with a Bachelor of Fine Arts in Directing. Recognizing his exceptional intellectual caliber and artistic promise, Rashad spearheaded a discreet campaign among private donors to fund Boseman and a select group of classmates to attend the prestigious Midsummer in Oxford program at the British American Drama Academy (BADA) in England. Only years later did Boseman discover that his tuition and London living expenses had been personally and secretly paid for by Academy Award-winning titan Denzel Washington.",
+      "His summer at Oxford studying Shakespeare, classical theater, and voice transformed Boseman's understanding of performance. He returned to the United States armed with classical discipline and an unyielding commitment to telling authentic African and African American stories, viewing the craft of acting as a sacred instrument through which the director's vision was physically embodied."
+    ],
+    "quote": {
+      "text": "Denzel Washington paid for my tuition at Oxford, and I never got to thank him in person until years later at the Black Panther premiere. There is no Black Panther without Denzel Washington, because the whole cast and this entire generation stands on his shoulders.",
+      "source": "Chadwick Boseman on Denzel Washington's quiet mentorship and sponsorship"
+    },
+    "keyTakeaway": "Boseman was trained primarily as a theater director at Howard University, with his Oxford drama studies secretly funded by Denzel Washington."
+  },
+  {
+    "heading": "The Harlem Playwright & The Hardscrabble Television Crucible (2000\u20132012)",
+    "paragraphs": [
+      "Following his graduation from Howard, Boseman settled in Brooklyn and Harlem, throwing himself into New York City's vibrant independent theater and literary scene. To support his craft, he worked as a digital drama instructor for youth at the Schomburg Center for Research in Black Culture in Harlem, mentoring young writers while penning his own hip-hop-infused verse plays. In 2005, his original play 'Deep Azure'\u2014an ambitious, poetic exploration of police brutality, psychological trauma, and inner-city youth\u2014was staged at the Congo Square Theatre in Chicago and the Folger Shakespeare Library in D.C., earning a prestigious Joseph Jefferson Award nomination for New Work.",
+      "While Boseman viewed playwriting and directing as his true calling, he took on television acting roles to pay living expenses. Moving to Los Angeles in 2008, he landed guest spots on series including 'Third Watch', 'Law & Order', 'CSI: NY', and 'ER'. He secured his first series regular television role in the ABC Family drama 'Lincoln Heights' (2008\u20132009), portraying former gang member turned army veteran Reggie Duffy, followed by a leading role as Sergeant Graham McNair in NBC's psychological mystery series 'Persons Unknown' (2010).",
+      "Despite regular television employment, Boseman resisted superficial studio casting calls that reduced Black characters to violent caricatures. He consistently interrogated scripts, insisting on character depth, historical context, and emotional integrity. In 2012, after directing independent short films and contemplating leaving acting behind to focus entirely on directing, Boseman received an audition that would permanently alter the trajectory of American cinematic history."
+    ],
+    "quote": {
+      "text": "When I was in New York writing plays, I wasn't waiting around for someone to give me permission to be an artist. I was writing, directing, teaching kids in Harlem. That foundation meant that when Hollywood came calling, I knew who I was and what I stood for.",
+      "source": "Chadwick Boseman on his formative New York theater and teaching years"
+    },
+    "keyTakeaway": "Before his Hollywood film breakthrough, Boseman was an award-nominated Harlem playwright, youth drama instructor, and disciplined theater director."
+  },
+  {
+    "heading": "The Great American Biopic Trilogy: Robinson, Brown & Marshall (2013\u20132017)",
+    "paragraphs": [
+      "In 2013, director Brian Helgeland selected Boseman from hundreds of auditioning actors to portray legendary baseball pioneer Jackie Robinson in the Warner Bros. biographical drama '42'. Opposite Harrison Ford's Branch Rickey, Boseman delivered a mesmerizing performance that captured not merely Robinson's legendary athletic prowess, but the immense, agonizing emotional discipline required to endure virulent racial hatred without retaliating. '42' became a major commercial and critical triumph ($97M domestic box office), establishing Boseman as an extraordinary dramatic lead capable of carrying the weight of historical American giants.",
+      "The following year, Boseman undertook an even more audacious artistic leap in Tate Taylor's 2014 biopic 'Get on Up', portraying the Godfather of Soul, James Brown. Produced by Mick Jagger, the role demanded an almost inhuman physical transformation: Boseman trained up to eight hours daily for months to master Brown's lightning-fast footwork, splits, vocal cadences, and manic, electrifying stage presence. Critics universally hailed the performance as a tour de force, with Rolling Stone celebrating it as a transcendent acting masterclass that bypassed caricature to reveal the wounded, volcanic genius beneath the showman.",
+      "Boseman completed his unmatched triumvirate of real-life American pioneers in Reginald Hudlin's 2017 legal thriller 'Marshall', portraying young NAACP defense attorney and future Supreme Court Justice Thurgood Marshall. Focusing on a pivotal 1941 Connecticut trial rather than his later judicial tenure, Boseman imbued Marshall with razor-sharp swagger, intellectual ferocity, and aristocratic dignity. By portraying Robinson, Brown, and Marshall within a single four-year window, Boseman achieved something unparalleled in modern cinema: he became the definitive custodian of twentieth-century Black American heroism."
+    ],
+    "quote": {
+      "text": "When you play Jackie Robinson, James Brown, and Thurgood Marshall, you aren't just acting. You are stepping into the collective memory of a people. You carry the responsibility to show their flaws, their fire, and their undeniable greatness.",
+      "source": "Chadwick Boseman on carrying the legacy of historical Black pioneers"
+    },
+    "keyTakeaway": "Through 42, Get on Up, and Marshall, Boseman crafted an unprecedented trilogy of biographical performances that established him as cinema's foremost dramatic interpreter of Black excellence."
+  },
+  {
+    "heading": "The King of Wakanda: Marvel Sovereignty & Global Cultural Revolution (2014\u20132019)",
+    "paragraphs": [
+      "In October 2014, Marvel Studios president Kevin Feige made an unprecedented announcement: Chadwick Boseman had been cast as King T'Challa / Black Panther without an audition\u2014the only actor ever cast in the Marvel Cinematic Universe by direct offer without a screen test. Boseman made his electric debut in the Russo brothers' 'Captain America: Civil War' (2016), introducing T'Challa with regal poise, martial arts fluidity, and a deliberate, dignified East African accent inspired by the Xhosa language\u2014a creative choice Boseman fiercely fought studio executives to preserve, insisting that an unconquered African kingdom would never speak with a European colonial cadence.",
+      "In February 2018, Ryan Coogler's 'Black Panther' arrived as a seismic global cultural phenomenon. Starring Boseman alongside an extraordinary predominantly Black ensemble\u2014including Lupita Nyong'o, Michael B. Jordan, Danai Gurira, and Angela Bassett\u2014the film shattered box office records, grossing $1.347 Billion worldwide to become the highest-grossing solo superhero film in domestic box office history. More than a blockbuster, 'Black Panther' was an international cultural watershed, celebrating African royalty, technological Afrofuturism, and Black dignity on a scale never before witnessed in global studio cinema.",
+      "The film earned seven Academy Award nominations, making history as the very first superhero film ever nominated for Best Picture, and winning three Oscars. Boseman reprised T'Challa in 'Avengers: Infinity War' (2018)\u2014leading the earth-shattering Wakandan battlefield defense\u2014and delivered the iconic 'On your left' emotional return in 'Avengers: Endgame' (2019), which grossed $2.799 Billion as the highest-grossing film of its era. Across the globe, the 'Wakanda Forever' crossed-arm salute became an immortal universal symbol of Black pride, solidarity, and regal strength."
+    ],
+    "quote": {
+      "text": "To be young, gifted, and black. We knew that we had something special that we wanted to give the world. That we could be full human beings in the roles that we were playing. That we were creating a world that exemplified a world that we wanted to see.",
+      "source": "Chadwick Boseman's historic acceptance speech at the 2019 Screen Actors Guild Awards"
+    },
+    "keyTakeaway": "Black Panther grossed $1.347B, earned the first Best Picture Oscar nomination for a superhero film, and established Boseman as an immortal global icon of Black sovereignty."
+  },
+  {
+    "heading": "The Silent Heroism: 4-Year Cancer Fight, Ma Rainey & Da 5 Bloods (2016\u20132020)",
+    "paragraphs": [
+      "Behind the global spectacle of superstardom lay an act of staggering, quiet physical heroism that the world would only learn of after his passing. In 2016, shortly before filming 'Marshall' and 'Black Panther', Boseman was diagnosed with Stage III colon cancer. Rather than retreating from public life, Boseman resolved to continue his mission, keeping his diagnosis an intimate family secret known only to his wife Simone, his family, and his longtime producing partner Logan Coles. For four agonizing years, while his cancer relentlessly advanced to Stage IV, Boseman filmed seven major feature films between countless surgeries, painful chemotherapy cycles, and extreme physical demands.",
+      "In Spike Lee's 2020 Vietnam War epic 'Da 5 Bloods', Boseman portrayed fallen squad leader 'Stormin' Norman', appearing in luminous jungle flashbacks as an almost mythic, Christ-like guiding spirit to his aging squad mates. Co-star Delroy Lindo and director Spike Lee later reflected that Boseman brought an unearthly spiritual peace to the jungle set, battling exhaustion in sweltering 100-degree Thailand heat without ever uttering a complaint.",
+      "In the summer of 2019, Boseman delivered the crowning acting achievement of his life in George C. Wolfe's adaptation of August Wilson's 'Ma Rainey's Black Bottom' (Netflix), opposite Viola Davis. Portraying ambitious, wounded 1920s jazz trumpeter Levee Green, Boseman poured every ounce of his remaining physical and spiritual energy into the role, delivering blistering monologues on faith, trauma, and racial injustice that left the entire crew in tears. The performance earned Boseman a posthumous Academy Award nomination for Best Actor, while he won the Golden Globe Award, Critics' Choice Award, and Screen Actors Guild Award for Best Actor\u2014accepted movingly by his widow, Taylor Simone Ledward Boseman."
+    ],
+    "quote": {
+      "text": "He took the burden upon himself so that other people could fly. He was a superhero on screen, but what he endured off-screen while bringing joy to millions of children in cancer wards was truly miraculous.",
+      "source": "Spike Lee on Chadwick Boseman's quiet courage filming Da 5 Bloods"
+    },
+    "keyTakeaway": "Boseman filmed seven major films\u2014including Black Panther and Ma Rainey's Black Bottom\u2014while privately battling Stage III/IV colon cancer for four years."
+  },
+  {
+    "heading": "The Immortal Legacy & 2026 Memorial Epoch (2020\u20132026)",
+    "paragraphs": [
+      "On August 28, 2020, Chadwick Boseman passed away peacefully at his Los Angeles home surrounded by his wife and family at the age of 43, sparking a worldwide outpouring of grief that transcended cinema. Tributes flooded in from world leaders, including Barack Obama, Marvel colleagues, civil rights leaders, and millions of children across the globe who held cardboard Black Panther shields in tribute. His final announcement on Twitter became the most-liked tweet in the history of the platform, a testament to the profound personal connection audiences felt to his grace.",
+      "In the years following his passing, his artistic and academic legacy was immortalized through enduring institutions. In May 2021, Howard University officially renamed its fine arts division the **Chadwick A. Boseman College of Fine Arts**, appointing his mentor Phylicia Rashad as dean and establishing an endowed $5.4 Million four-year scholarship fund funded by Netflix. In 2022, Boseman won a posthumous Primetime Emmy Award for his vocal performance as Star-Lord T'Challa in Marvel's animated series 'What If...?', and was awarded a posthumous star on the Hollywood Walk of Fame.",
+      "In 2026, marking what would have been Chadwick Boseman's 50th birthday (November 29, 2026), his cultural footprint remains as radiant as ever. In February 2026, his widow Simone Ledward Boseman gave a rare, reflective interview to The Guardian discussing the preservation of his creative archives, which coincided with the UK theatrical revival of his early hip-hop play 'Deep Azure' at Shakespeare's Globe. While mid-2026 saw legal filings in Los Angeles Probate Court regarding the administrative governance and likeness rights of his estate between his widow and brothers, his artistic foundation continues to fund emerging Black storytellers. Holding an estate valuation certified upwards of $18.0 Million USD fueled by ongoing global streaming and licensing residuals, Chadwick Boseman remains an eternal beacon of integrity, artistic majesty, and purposeful living."
+    ],
+    "quote": {
+      "text": "Purpose crosses disciplines. Purpose is an essential element of you. It is the reason you are on the planet at this particular time in history. When you are doing what God has designed you to do, your purpose will outlive you.",
+      "source": "Chadwick Boseman's 2018 Howard University Commencement Address"
+    },
+    "keyTakeaway": "In 2026, marking his 50th birthday year, Boseman's legacy lives on through the Chadwick A. Boseman College of Fine Arts, an $18M estate, and an immortal place in world culture."
+  }
 ]
 };

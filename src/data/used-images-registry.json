@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-10-16T12:00:00.000Z",
-  "totalUniqueImages": 93,
+  "totalUniqueImages": 95,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -700,6 +700,22 @@
       "pageSlug": "jeremy-renner",
       "assignedAt": "2026-10-16T12:00:00.000Z",
       "sourceUrl": "https://d4ln1n73rozgf.cloudfront.net/prod/assets/SHOF_Afanasieff.jpg"
+    },
+    "/images/celebrities/chadwick-boseman-hero.webp": {
+      "filePath": "/images/celebrities/chadwick-boseman-hero.webp",
+      "entity": "chadwick-boseman",
+      "placement": "profile_hero",
+      "pageSlug": "chadwick-boseman",
+      "assignedAt": "2026-10-16T12:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chadwick_Boseman_(28017825484)_(cropped_2).jpg (Gage Skidmore / CC BY-SA 2.0)"
+    },
+    "/images/celebrities/chadwick-boseman-content.webp": {
+      "filePath": "/images/celebrities/chadwick-boseman-content.webp",
+      "entity": "chadwick-boseman",
+      "placement": "profile_content",
+      "pageSlug": "chadwick-boseman",
+      "assignedAt": "2026-10-16T12:00:00.000Z",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chadwick_Boseman_%26_Lupita_Nyong%27o_(35852213610).jpg (Gage Skidmore / CC BY-SA 2.0)"
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {
