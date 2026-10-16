@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-15T11:16:27.852Z",
-  "totalUniqueImages": 91,
+  "lastUpdated": "2026-10-16T12:00:00.000Z",
+  "totalUniqueImages": 93,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -684,6 +684,22 @@
       "pageSlug": "mark-ruffalo",
       "assignedAt": "2026-10-15T11:15:00.000Z",
       "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sunrise_Coigney_Cannes_2014.jpg"
+    },
+    "/images/celebrities/jeremy-renner-hero.webp": {
+      "filePath": "/images/celebrities/jeremy-renner-hero.webp",
+      "entity": "Jeremy Renner",
+      "placement": "profile_hero",
+      "pageSlug": "jeremy-renner",
+      "assignedAt": "2026-10-16T12:00:00.000Z",
+      "sourceUrl": "https://d4ln1n73rozgf.cloudfront.net/prod/assets/SHOF_Afanasieff.jpg"
+    },
+    "/images/celebrities/jeremy-renner-content.webp": {
+      "filePath": "/images/celebrities/jeremy-renner-content.webp",
+      "entity": "Jeremy Renner",
+      "placement": "profile_content",
+      "pageSlug": "jeremy-renner",
+      "assignedAt": "2026-10-16T12:00:00.000Z",
+      "sourceUrl": "https://d4ln1n73rozgf.cloudfront.net/prod/assets/SHOF_Afanasieff.jpg"
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {

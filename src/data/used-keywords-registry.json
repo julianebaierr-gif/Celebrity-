@@ -1,7 +1,7 @@
 {
   "description": "CelebLedger Master Anti-Cannibalization & Anti-Duplication Registry. Celebrities and keywords in this registry are permanently locked and cannot be regenerated or re-posted.",
   "totalLocked": 43,
-  "lastUpdated": "2026-10-15 11:00:00",
+  "lastUpdated": "2026-10-16 12:00:00",
   "lockedKeywords": [
     {
       "keyword": "tim curry",
@@ -218,7 +218,7 @@
     {
       "keyword": "rosalia",
       "slug": "rosalia",
-      "name": "Rosalía",
+      "name": "Rosal\u00eda",
       "category": "Music & Performing Arts",
       "canonicalUrl": "https://www.celebledger.com/celebrity/rosalia",
       "publishedAt": "2026-02-15 08:00:00",
@@ -938,6 +938,27 @@
         "mark ruffalo the solutions project",
         "mark ruffalo 2026"
       ]
+    },
+    {
+      "keyword": "jeremy renner",
+      "slug": "jeremy-renner",
+      "name": "Jeremy Renner",
+      "category": "Hollywood Legends",
+      "canonicalUrl": "https://www.celebledger.com/celebrity/jeremy-renner",
+      "publishedAt": "2026-10-16 12:00:00",
+      "status": "Published",
+      "associatedTags": [
+        "jeremy renner",
+        "jeremy renner net worth",
+        "jeremy renner hawkeye",
+        "jeremy renner mayor of kingstown",
+        "jeremy renner wake up dead man",
+        "jeremy renner snowplow accident",
+        "jeremy renner 38 broken bones",
+        "jeremy renner house flipping",
+        "jeremy renner songwriters hall of fame",
+        "jeremy renner 2026"
+      ]
     }
   ],
   "bannedKeywordSet": [
@@ -958,7 +979,7 @@
     "rosalia",
     "travis kelce",
     "taylor swift",
-    "rosalía",
+    "rosal\u00eda",
     "tim curry movies",
     "tim curry health",
     "tim curry rocky horror picture show",
@@ -1250,6 +1271,16 @@
     "mark ruffalo acoustic neuroma",
     "mark ruffalo task hbo",
     "mark ruffalo the solutions project",
-    "mark ruffalo 2026"
+    "mark ruffalo 2026",
+    "jeremy renner",
+    "jeremy renner net worth",
+    "jeremy renner hawkeye",
+    "jeremy renner mayor of kingstown",
+    "jeremy renner wake up dead man",
+    "jeremy renner snowplow accident",
+    "jeremy renner 38 broken bones",
+    "jeremy renner house flipping",
+    "jeremy renner songwriters hall of fame",
+    "jeremy renner 2026"
   ]
 }

@@ -28,6 +28,8 @@ const POPULAR_MATCHUPS = [
   "chris-hemsworth-vs-robert-downey-jr",
   "mark-ruffalo-vs-robert-downey-jr",
   "mark-ruffalo-vs-chris-hemsworth",
+  "jeremy-renner-vs-mark-ruffalo",
+  "jeremy-renner-vs-chris-hemsworth",
 ];
 
 export async function generateStaticParams() {

@@ -550,5 +550,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "resolutionOrOutcome": "In 2016, Ruffalo served as executive producer on the indie drama 'Anything', which cast cisgender actor Matt Bomer as a transgender sex worker. The casting prompted constructive criticism from transgender performers and advocacy groups regarding authentic representation. Ruffalo engaged directly with critics, publicly acknowledging the validity of the concerns, explaining that Bomer had been cast during early development, and pledging his proactive support for transgender actors and creative personnel across industry productions.",
     "impactAnalysis": "Ruffalo's transparent, non-defensive handling of the critique was widely praised by LGBTQ+ organizations as an exemplary model of collaborative accountability for Hollywood producers."
   }
+],
+  "jeremy-renner": [
+  {
+    "incident": "The Official Jeremy Renner Mobile App Spoofing Incident",
+    "year": "2019",
+    "resolutionOrOutcome": "In March 2017, Renner partnered with mobile developer EscapeX to launch 'Jeremy Renner', an official direct-to-consumer community platform designed to share behind-the-scenes set photography, original music recordings, and fan interactions. In September 2019, digital pranksters uncovered an exploit allowing anonymous users to spoof verified push notifications and comments under Renner's name and other public figures. Confronted with online trolling that threatened the safety and enjoyment of his genuine followers, Renner refused to monetize the sensationalism. He issued a sincere personal statement apologizing to fans, shut down the application permanently on September 4, 2019, and ordered immediate 100% refunds for all in-app community purchases.",
+    "impactAnalysis": "Renner's decisive willingness to forfeit digital revenue to protect his fans from malicious online harassment was commended across the technology and entertainment industries as a masterclass in ethical digital community stewardship."
+  },
+  {
+    "incident": "Publicized Divorce and Custody Dispute Resolution with Sonni Pacheco",
+    "year": "2014\u20132020",
+    "resolutionOrOutcome": "Following a ten-month marriage, Canadian model Sonni Pacheco filed for divorce in December 2014, leading to prolonged legal negotiations regarding child support and parental custody for their daughter Ava Berlin Renner. Over several years, contentious claims and filings appeared in Los Angeles County Superior Court. The matter was ultimately resolved through a comprehensive sealed settlement establishing shared legal custody, definitive child support structures, and strict non-disparagement agreements prioritizing Ava's privacy, education, and long-term security.",
+    "impactAnalysis": "The resolution successfully established balanced co-parenting boundaries away from public scrutiny, allowing Renner to maintain an unshakeable bond with his daughter that became his primary emotional catalyst for survival during his 2023 recovery."
+  }
 ]
 };

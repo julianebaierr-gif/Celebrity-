@@ -1876,5 +1876,67 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "What environmental organizations and causes does Mark Ruffalo lead?",
     "answer": "Ruffalo is co-founder of The Solutions Project, a non-profit foundation accelerating a scientifically verified transition to 100% clean, renewable energy (wind, water, and solar) across the United States. He also founded Water Defense to monitor toxic chemical contamination from hydraulic fracturing (fracking) and is a prominent ally to Indigenous water protectors, including the Standing Rock Sioux tribe."
   }
+],
+  "jeremy-renner": [
+  {
+    "question": "What is Jeremy Renner's verified net worth in 2026?",
+    "answer": "As of late 2026, Jeremy Renner commands an audited net worth of $80.0 Million USD. His fortune is built upon over a decade of Marvel Cinematic Universe earnings ($50M+ cumulative for portraying Hawkeye/Clint Barton), premier episodic salaries of $1.0 Million per episode ($10M per season) for Paramount+'s 'Mayor of Kingstown', a $6.0 Million fee for 'Wake Up Dead Man: A Knives Out Mystery', and more than $20 Million in profits generated through his two-decade architectural real estate house-flipping business in Los Angeles."
+  },
+  {
+    "question": "How did Jeremy Renner survive the catastrophic snowplow accident on January 1, 2023?",
+    "answer": "On New Year's Day 2023, Renner was using his 14,330-pound PistenBully 300 series snowcat to free his adult nephew Alex Fries' stuck pickup truck during a severe blizzard near his Lake Tahoe home. When the snowcat unexpectedly began sliding down an icy slope toward his nephew, Renner stepped onto the moving tracks in an attempt to re-enter the cab and engage the emergency brakes. He lost his footing and was pulled underneath the 7-ton machine. After rapid roadside stabilization by neighbors and emergency personnel, he was airlifted by Care Flight to Renown Regional Medical Center in Reno for emergency trauma surgery."
+  },
+  {
+    "question": "How many bones did Jeremy Renner break during the snowcat accident?",
+    "answer": "Jeremy Renner suffered blunt chest trauma and broke 38+ bones in the incident. His injuries included eight ribs broken in 14 places, a shattered right knee and ankle, a fractured left tibia and clavicle, broken shoulders, a shattered right eye socket, a collapsed lung, and a pierced liver. Orthopedic and thoracic trauma surgeons reconstructed his ribcage and limbs with titanium plates, surgical mesh, and metal rods."
+  },
+  {
+    "question": "Will Jeremy Renner return as Clint Barton (Hawkeye) in Avengers: Doomsday?",
+    "answer": "During a viral Q&A panel at Comic Con Liverpool in October 2026, Jeremy Renner confirmed that he is not appearing in Marvel's upcoming 'Avengers: Doomsday'. Renner lightheartedly told fans, 'I'm not in Doomsday, so the Avengers will probably lose, just so you know\u2026 they didn't call me, so it's their fault they're going to lose.' Renner remains open to reprising Hawkeye in future Marvel installments such as 'Avengers: Secret Wars' if narrative timing aligns."
+  },
+  {
+    "question": "How much did Jeremy Renner earn for playing Hawkeye across the Marvel Cinematic Universe?",
+    "answer": "Jeremy Renner generated over $50.0 Million USD in cumulative earnings from his Marvel Cinematic Universe tenure. Starting with a modest cameo in 'Thor' (2011), he earned $3.0 Million for 'The Avengers' (2012), $6.1 Million for 'Avengers: Age of Ultron' (2015), over $15.0 Million for 'Avengers: Endgame' (2019) through base salary and worldwide box office backend bonuses, and $15.0 Million as lead actor and executive producer for the Disney+ series 'Hawkeye' (2021)."
+  },
+  {
+    "question": "What is Jeremy Renner's salary per episode on Mayor of Kingstown?",
+    "answer": "On Taylor Sheridan's acclaimed Paramount+ drama 'Mayor of Kingstown', Jeremy Renner earns a premier television salary of $1,000,000 USD per episode as lead actor and executive producer Mike McLusky. Across each 10-episode season (including Season 3 and Season 4), Renner commands $10.0 Million USD per season, placing him among the highest-paid dramatic actors on streaming television."
+  },
+  {
+    "question": "What is Jeremy Renner's role in the 2026 movie Wake Up Dead Man: A Knives Out Mystery?",
+    "answer": "In late 2026, Jeremy Renner stars in Rian Johnson's highly anticipated Netflix murder-mystery 'Wake Up Dead Man: A Knives Out Mystery'\u2014the third installment in the Benoit Blanc detective franchise. Renner plays a pivotal, charismatic role in the ensemble cast opposite Daniel Craig, Josh O'Connor, Cailee Spaeny, and Glenn Close, earning a reported $6.0 Million USD salary for the production."
+  },
+  {
+    "question": "How many Academy Award (Oscar) nominations does Jeremy Renner have?",
+    "answer": "Jeremy Renner has earned two Academy Award nominations: Best Actor for Kathryn Bigelow's Iraq War masterpiece 'The Hurt Locker' (2008), where he portrayed bomb disposal technician SFC William James, and Best Supporting Actor for Ben Affleck's Boston crime thriller 'The Town' (2010), where he played the volatile bank robber Jem Coughlin."
+  },
+  {
+    "question": "What is Jeremy Renner's real estate house-flipping business with Kristoffer Winters?",
+    "answer": "Beginning in 2002 alongside best friend Kristoffer Winters, Renner operated a highly lucrative architectural house-flipping enterprise in Los Angeles, personally executing framing, electrical, and design work on more than 25 high-end estates. Their most famous transaction was a 10,000 sq ft 1920s Art Deco mansion in Holmby Hills, which they purchased for $7.0 Million in 2010, meticulously restored, and sold in 2013 for $24.0 Million USD to a British property tycoon, yielding a historic multi-million-dollar profit margin."
+  },
+  {
+    "question": "Does Jeremy Renner write, sing, and release original music?",
+    "answer": "Yes. Renner is an accomplished singer, songwriter, pianist, and drummer. He released two mainstream rock-pop EPs in 2020: 'The Medicine' and 'Live For Now', with his songs featured in national Jeep advertising campaigns. In January 2024, he released 'Love and Titanium', an emotional musical project documenting his near-fatal accident and physical recovery. On June 12, 2026, Renner took the stage at the Marriott Marquis in New York City to present long-time friend and legendary songwriter Walter Afanasieff with his induction into the Songwriters Hall of Fame."
+  },
+  {
+    "question": "Who was Jeremy Renner married to, and does he have children?",
+    "answer": "Jeremy Renner was married to Canadian sculptor and former model Sonni Pacheco. The couple welcomed their daughter, Ava Berlin Renner, in March 2013 and married in January 2014 before divorcing in December 2015. Following their divorce, Renner and Pacheco established a cooperative shared-custody arrangement, with Renner maintaining a deeply devoted relationship with daughter Ava, frequently crediting her as the primary reason he fought to survive his 2023 accident."
+  },
+  {
+    "question": "Where does Jeremy Renner live?",
+    "answer": "Jeremy Renner's primary residence is a 6-acre mountain ranch in Washoe Valley outside Reno, Nevada, near Mount Rose and Lake Tahoe. Acquired in 2014, the estate features a custom music recording studio, workshop hangars for his heavy municipal machinery and snowcat fleet, and sweeping Sierra Nevada mountain views."
+  },
+  {
+    "question": "What is the RennerVation Foundation?",
+    "answer": "The RennerVation Foundation is a non-profit youth organization founded by Jeremy Renner that provides life-changing experiential wilderness camps, educational mentorship, and creative arts programs for foster youth and at-risk children throughout Northern Nevada. Each summer, the foundation hosts Camp RennerVation in Lake Tahoe, offering outdoor recreation, creative exploration, and mental health support."
+  },
+  {
+    "question": "Did Jeremy Renner work as a professional makeup artist before becoming famous?",
+    "answer": "Yes. During his first decade of struggling as an actor in Los Angeles, Renner worked behind the Lanc\u00f4me cosmetics counter at department stores to pay his rent and living expenses. Renner has frequently credited the job with teaching him human facial anatomy, lighting, bone structure, and emotional expression, while allowing him daytime flexibility to attend theatrical auditions."
+  },
+  {
+    "question": "What happened to the Jeremy Renner official mobile app in 2019?",
+    "answer": "In March 2017, Renner launched 'Jeremy Renner', an official fan community app designed to share exclusive updates, photos, and behind-the-scenes content. In September 2019, internet pranksters discovered vulnerabilities allowing users to spoof verified names (including Renner's own identity and various celebrities). Rather than allowing his genuine fanbase to be subjected to online trolling, Renner made the decisive executive choice to shut down the app immediately and issue full refunds to all paid subscribers."
+  }
 ]
 };

@@ -4332,5 +4332,199 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Audited fortune certified at $50M USD driven by HBO's Task ($6M), Crime 101 ($5M), Catskills real estate appreciation, and ongoing Marvel licensing."
     }
   ]
+},
+  "jeremy-renner": {
+  "salaryMilestones": [
+    {
+      "project": "The Hurt Locker",
+      "year": 2008,
+      "salary": "$65,000 USD",
+      "boxOfficeOrBudget": "$15M Budget / $49.2M Box Office",
+      "notes": "Modest indie scale under SAG guidelines; performance earned Renner his first Academy Award nomination for Best Actor and launched his A-list studio career."
+    },
+    {
+      "project": "The Town",
+      "year": 2010,
+      "salary": "$500,000 USD",
+      "boxOfficeOrBudget": "$37M Budget / $154.0M Box Office",
+      "notes": "Dramatic supporting turn as Jem Coughlin directed by Ben Affleck; earned Renner his second consecutive Academy Award nomination."
+    },
+    {
+      "project": "Mission: Impossible \u2013 Ghost Protocol",
+      "year": 2011,
+      "salary": "$3,000,000 USD",
+      "boxOfficeOrBudget": "$145M Budget / $694.7M Box Office",
+      "notes": "Co-starred alongside Tom Cruise as IMF analyst William Brandt; included high-tier box office milestone escalators."
+    },
+    {
+      "project": "The Avengers",
+      "year": 2012,
+      "salary": "$3,000,000 USD",
+      "boxOfficeOrBudget": "$220M Budget / $1.520B Box Office",
+      "notes": "Official team debut as Clint Barton / Hawkeye; received substantial global merchandise and home entertainment backend points."
+    },
+    {
+      "project": "The Bourne Legacy",
+      "year": 2012,
+      "salary": "$5,000,000 USD",
+      "boxOfficeOrBudget": "$125M Budget / $276.1M Box Office",
+      "notes": "Took over lead mantle of Universal's marquee espionage franchise portraying genetically enhanced operative Aaron Cross."
+    },
+    {
+      "project": "Avengers: Age of Ultron",
+      "year": 2015,
+      "salary": "$6,100,000 USD",
+      "boxOfficeOrBudget": "$365M Budget / $1.405B Box Office",
+      "notes": "Major narrative focus on Barton's secret family and farmhouse safe haven, unlocking higher contractual tier compensation."
+    },
+    {
+      "project": "Arrival",
+      "year": 2016,
+      "salary": "$4,000,000 USD",
+      "boxOfficeOrBudget": "$47M Budget / $203.4M Box Office",
+      "notes": "Dramatic lead role as theoretical physicist Ian Donnelly opposite Amy Adams in Denis Villeneuve's 8-time Oscar-nominated sci-fi triumph."
+    },
+    {
+      "project": "Avengers: Endgame",
+      "year": 2019,
+      "salary": "$15,000,000 USD",
+      "boxOfficeOrBudget": "$356M Budget / $2.799B Box Office",
+      "notes": "Combined upfront salary and lucrative backend profit pool participation following the film's historic worldwide theatrical run; featured Barton's Ronin vigilante arc."
+    },
+    {
+      "project": "Hawkeye (Disney+ Series)",
+      "year": 2021,
+      "salary": "$15,000,000 USD",
+      "boxOfficeOrBudget": "Streaming 6-Episode Event Series",
+      "notes": "Executive producer and title star fee across the holiday Marvel Studios series, co-starring Hailee Steinfeld as Kate Bishop."
+    },
+    {
+      "project": "Mayor of Kingstown (Season 3)",
+      "year": 2024,
+      "salary": "$10,000,000 USD",
+      "boxOfficeOrBudget": "Paramount+ 10-Episode Order",
+      "notes": "Commanded $1,000,000 per episode for 10 episodes in his triumphant return to filming following his miraculous snowplow recovery."
+    },
+    {
+      "project": "Mayor of Kingstown (Season 4)",
+      "year": 2025,
+      "salary": "$10,000,000 USD",
+      "boxOfficeOrBudget": "Paramount+ 10-Episode Order",
+      "notes": "Sustained top-tier $1,000,000 per episode television compensation as lead star and executive producer in Pittsburgh."
+    },
+    {
+      "project": "Wake Up Dead Man: A Knives Out Mystery",
+      "year": 2026,
+      "salary": "$6,000,000 USD",
+      "boxOfficeOrBudget": "$210M Production Budget (Netflix)",
+      "notes": "Ensemble marquee fee starring alongside Daniel Craig and Josh O'Connor in Rian Johnson's highly anticipated whodunit mystery."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Holmby Hills Art Deco Megamansion",
+      "location": "Holmby Hills, Los Angeles, California",
+      "purchasedYear": "2010",
+      "purchasePrice": "$7,000,000 USD",
+      "currentEstimatedValue": "$24,000,000 USD (Sold 2013)",
+      "description": "Renner and design partner Kristoffer Winters executed a breathtaking multi-year architectural restoration of a 10,000 sq ft 1920s Art Deco villa, selling it in 2013 for $24M to net one of the largest private flip profits in LA history."
+    },
+    {
+      "property": "Lake Tahoe Washoe Valley Ranch",
+      "location": "Washoe Valley, Reno / Lake Tahoe, Nevada",
+      "purchasedYear": "2014",
+      "purchasePrice": "$3,200,000 USD",
+      "currentEstimatedValue": "$6,500,000 USD",
+      "description": "Renner's primary residence spanning 6 scenic mountain acres near Mount Rose, featuring a custom recording studio, workshop garages for his heavy machinery fleet, and panoramic Sierra Nevada vistas."
+    },
+    {
+      "property": "Nichols Canyon Architectural Compound",
+      "location": "Hollywood Hills, Los Angeles, California",
+      "purchasedYear": "2007",
+      "purchasePrice": "$1,350,000 USD",
+      "currentEstimatedValue": "$4,300,000 USD (Sold)",
+      "description": "A historic mid-century post-and-beam restoration featuring terrazzo floors, floor-to-ceiling glass pavilions, and custom stonework overlooking Nichols Canyon."
+    },
+    {
+      "property": "Runyon Canyon Hillside Sanctuary",
+      "location": "Hollywood Hills, Los Angeles, California",
+      "purchasedYear": "2008",
+      "purchasePrice": "$1,550,000 USD",
+      "currentEstimatedValue": "$4,000,000 USD (Sold)",
+      "description": "A 3-bedroom architectural residence renovated with organic timber, custom cedar cabinetry, and secluded swimming pool sold at a substantial multi-million-dollar premium."
+    },
+    {
+      "property": "Sun Valley Mountain Lodge",
+      "location": "Ketchum, Sun Valley, Idaho",
+      "purchasedYear": "2018",
+      "purchasePrice": "$1,800,000 USD",
+      "currentEstimatedValue": "$3,200,000 USD",
+      "description": "High-altitude winter retreat used for private family getaways, featuring custom timber beams, stone fireplaces, and direct ski trail access."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Renner-Winters Real Estate Development",
+      "role": "Co-Founder & Principal Architectural Designer",
+      "valuationOrRevenue": "$60M+ Cumulative Transaction Volume",
+      "description": "Over twenty years in partnership with Kristoffer Winters, acquired, renovated, framed, and designed more than 25 high-end residential estates throughout Los Angeles."
+    },
+    {
+      "name": "The Combine Productions",
+      "role": "Co-Founder & Producer",
+      "valuationOrRevenue": "Independent Production Banner",
+      "description": "Film and television production company that produced the critically acclaimed bio-drama 'The Founder' starring Michael Keaton and crime thriller 'Kill the Messenger'."
+    },
+    {
+      "name": "RapidSOS Emergency Technology",
+      "role": "Strategic Investor & Healthcare Technology Advisor",
+      "valuationOrRevenue": "Venture-Backed HealthTech Leader",
+      "description": "Advanced AI and telematics emergency response platform linking smart devices directly to 911 dispatchers and trauma centers; Renner serves as investor and keynote champion."
+    },
+    {
+      "name": "Nomis Records & House of Renner Music",
+      "role": "Founder, Songwriter & Recording Artist",
+      "valuationOrRevenue": "Music Publishing & Streaming Catalog",
+      "description": "Independent music label and publishing imprint housing Renner's rock-pop catalog, including EPs 'The Medicine' and 'Love and Titanium', with national commercial sync placements."
+    },
+    {
+      "name": "RennerVation Specialized Fleet Operations",
+      "role": "Owner & Community Logistics Director",
+      "valuationOrRevenue": "30+ Heavy Municipal & Utility Vehicles",
+      "description": "Privately owned fleet of municipal snowcats, fire engines, utility buses, and excavators deployed for Tahoe emergency response, community service, and youth mobile studios."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2005",
+      "estimatedNetWorth": "$1.0 Million USD",
+      "milestoneDescription": "Initial financial security achieved through Dahmer and S.W.A.T. acting salaries, coupled with the first successful modest Los Angeles residential home flips."
+    },
+    {
+      "period": "2010",
+      "estimatedNetWorth": "$6.0 Million USD",
+      "milestoneDescription": "Dual Academy Award nominations for The Hurt Locker and The Town establish A-list studio stature; real estate development expands into multi-million-dollar estates."
+    },
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$28.0 Million USD",
+      "milestoneDescription": "Global franchise paydays from The Avengers ($3M), Mission: Impossible, and Bourne Legacy ($5M), amplified by the historic $24M Holmby Hills mega-flip sale."
+    },
+    {
+      "period": "2019",
+      "estimatedNetWorth": "$55.0 Million USD",
+      "milestoneDescription": "Record box office profit participation from Avengers: Endgame ($15M+), Arrival critical success, and equity appreciation across Nevada and California properties."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$70.0 Million USD",
+      "milestoneDescription": "High-margin streaming earnings from Hawkeye ($15M) and Mayor of Kingstown, alongside Disney+ docuseries Rennervations."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$80.0 Million USD",
+      "milestoneDescription": "Audited sovereign benchmark certified at $80.0 Million USD driven by Mayor of Kingstown ($1M/episode), Wake Up Dead Man ($6M), Tahoe real estate value, and tech investments."
+    }
+  ]
 }
 };

@@ -856,5 +856,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "verifiedContribution": "Major Donor & Emergency Strike Relief Benefactor",
     "description": "Donated hundreds of thousands of dollars to provide direct emergency financial relief, healthcare coverage, and food stipends for below-the-line film crew members and striking performers."
   }
+],
+  "jeremy-renner": [
+  {
+    "organizationOrCause": "The RennerVation Foundation & Camp RennerVation",
+    "focusArea": "Foster Youth Empowerment, Wilderness Education & Arts Mentorship",
+    "verifiedContribution": "Founder, Board Chairman & Primary Financial Benefactor",
+    "description": "Established the 501(c)(3) foundation to provide holistic wilderness retreats, creative arts programs, and continuous life skills mentorship for foster youth and at-risk children across Northern Nevada and California."
+  },
+  {
+    "organizationOrCause": "Washoe County & Lake Tahoe First Responder Support",
+    "focusArea": "Volunteer Wildfire Defense, Emergency Fleet Equipment & Trauma Support",
+    "verifiedContribution": "Equipment Donor, Civic Patron & Honorary Reserve Deputy",
+    "description": "Donated multiple specialized heavy vehicles\u2014including retrofitted municipal fire engines and snowcats\u2014alongside emergency protective equipment to Washoe County volunteer fire departments and search-and-rescue teams."
+  },
+  {
+    "organizationOrCause": "RapidSOS Emergency Response & Healthcare Data Advocacy",
+    "focusArea": "911 Dispatch Interoperability, Trauma Data Sharing & Critical Care",
+    "verifiedContribution": "Strategic Investor, Keynote Champion & Trauma Center Benefactor",
+    "description": "Champions life-saving emergency medical data technology connecting 911 dispatchers with real-time patient health metrics; delivered keynote at HIMSS 2026 and provided financial support to Renown Health trauma centers."
+  },
+  {
+    "organizationOrCause": "Make-A-Wish Foundation & Pediatric Hospital Outreach",
+    "focusArea": "Pediatric Critical Illness Dreams, Marvel Hero Visits & ICU Moral Support",
+    "verifiedContribution": "Longtime Celebrity Ambassador & Pediatric Volunteer",
+    "description": "Has granted dozens of life-affirming wishes for children with critical illnesses, making frequent unpublicized bedside visits to pediatric oncology units and intensive care facilities across the country."
+  }
 ]
 };
