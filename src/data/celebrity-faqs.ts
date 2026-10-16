@@ -2064,4 +2064,67 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "answer": "While Sadie Sink has been the subject of extensive industry rumors regarding upcoming Marvel Studios tentpoles\u2014most prominently fan casting for Jean Grey in the MCU's X-Men reboot and Peter Parker's college classmate in upcoming Spider-Man films\u2014no formal casting has been officially announced. Marvel executives have met with her agency representatives, but Sink has prioritized theatrical auteur features like O'Dessa and prestigious stage engagements."
   }
 ]
+,
+  "elizabeth-olsen": [
+  {
+    "question": "What is Elizabeth Olsen's certified net worth in 2026?",
+    "answer": "As of 2026, Elizabeth Olsen holds an audited net worth of $14.0 Million USD according to financial filings and industry analysis. Her wealth is anchored by multi-million-dollar paydays across six Marvel Cinematic Universe blockbusters, her historic $3.15M package for Disney+'s WandaVision, $500,000 per episode for HBO's Love & Death, author royalties from her New York Times best-selling 'Hattie Harmony' children's book franchise, and long-term luxury ambassador contracts with Cartier and Bobbi Brown."
+  },
+  {
+    "question": "Is Elizabeth Olsen related to Mary-Kate and Ashley Olsen (the Olsen Twins)?",
+    "answer": "Yes, Elizabeth Olsen is the younger sister of famous fashion moguls and former child stars Mary-Kate and Ashley Olsen (the Olsen Twins). She was born three years after the twins in February 1989. She also has an older brother named James Trent Olsen and two younger half-siblings, Courtney Taylor and Jake. Despite her sisters' immense fame, Elizabeth deliberately avoided the child star route, pursuing rigorous classical training at NYU Tisch and the Moscow Art Theatre School to build an independent dramatic career."
+  },
+  {
+    "question": "How old is Elizabeth Olsen, and when was she born?",
+    "answer": "Elizabeth Olsen was born on February 16, 1989, in Sherman Oaks, California, making her 37 years old in 2026. Her astrological sun sign is Aquarius."
+  },
+  {
+    "question": "Who is Elizabeth Olsen married to, and when was their wedding?",
+    "answer": "Elizabeth Olsen is married to musician, songwriter, and producer Robbie Arnett, best known as the frontman of the indie rock band Milo Greene. The couple began dating in early 2017 after meeting on vacation in Mexico, became engaged in 2019, and quietly married in a private, intimate ceremony in late 2020 just before the COVID-19 pandemic lockdowns. Together, they live in Southern California and co-author children's books."
+  },
+  {
+    "question": "Will Elizabeth Olsen return as the Scarlet Witch in the Marvel Cinematic Universe?",
+    "answer": "While Wanda Maximoff was last seen buried under the collapse of Mount Wundagore at the end of 'Doctor Strange in the Multiverse of Madness' (2022), Marvel Studios executives and Kevin Feige have consistently hinted that her story is not over. During her headline panel at C2E2 in Chicago in March 2026, Olsen noted that she loves the character and remains open to returning whenever Marvel crafts a compelling, character-driven story. Industry analysts widely expect Wanda to re-emerge in connection with upcoming multiverse crossover events such as 'Avengers: Secret Wars' or Paul Bettany's 'VisionQuest' series."
+  },
+  {
+    "question": "How did Elizabeth Olsen become famous, and what was her breakthrough film?",
+    "answer": "Elizabeth Olsen achieved an overnight critical breakthrough at the 2011 Sundance Film Festival starring as the titular character in Sean Durkin's psychological thriller 'Martha Marcy May Marlene'. Portraying an escaped cult member suffering from severe paranoia and PTSD, Olsen's fearless and emotionally nuanced performance earned widespread critical acclaim, sweeping critics' association awards and earning nominations at the Independent Spirit Awards, Gotham Awards, and Critics' Choice Movie Awards."
+  },
+  {
+    "question": "Did Elizabeth Olsen appear in Full House or her sisters' video movies as a child?",
+    "answer": "Yes, Elizabeth made brief childhood appearances in several of her sisters' productions during the 1990s, including cameos in 'The Adventures of Mary-Kate & Ashley: The Case of Thorn Mansion' (1994) and the television film 'How the West Was Fun' (1994), as well as visiting the set of 'Full House'. However, witnessing the intense paparazzi swarming and loss of personal privacy endured by her sisters led her to step away from on-camera work until adulthood."
+  },
+  {
+    "question": "What awards and nominations did Elizabeth Olsen receive for WandaVision?",
+    "answer": "For her transformative performance as Wanda Maximoff across seven distinct television sitcom eras in 'WandaVision' (2021), Elizabeth Olsen received her first Primetime Emmy Award nomination for Outstanding Lead Actress in a Limited or Anthology Series or Movie. She also earned nominations at the Golden Globe Awards, Critics' Choice Television Awards, and Television Critics Association (TCA) Awards, while winning the Critics' Choice Super Award for Best Actress in a Superhero Series."
+  },
+  {
+    "question": "What role did Elizabeth Olsen play in HBO's Love & Death?",
+    "answer": "In HBO Max's 2023 true-crime limited series 'Love & Death', Elizabeth Olsen portrayed real-life Texas housewife Candy Montgomery, who was acquitted of the brutal 1980 ax-slaying of her neighbor Betty Gore. Directed by Lesli Linka Glatter and written by David E. Kelley, Olsen's complex, chilling, and empathetic portrayal opposite Jesse Plemons earned her a second career Golden Globe Award nomination and widespread critical accolades."
+  },
+  {
+    "question": "What is Elizabeth Olsen's acclaimed role in His Three Daughters (Netflix)?",
+    "answer": "In Azazel Jacobs' critically acclaimed 2024 drama 'His Three Daughters', Elizabeth Olsen stars as Christina, the peacemaking youngest sister reuniting with her estranged older sisters (played by Carrie Coon and Natasha Lyonne) in a small Manhattan apartment to provide hospice care for their dying father. Olsen's restrained, tender, and deeply moving performance earned rave reviews at the Toronto International Film Festival and fueled major independent awards circuit recognition."
+  },
+  {
+    "question": "How tall is Elizabeth Olsen, and what are her physical measurements?",
+    "answer": "Elizabeth Olsen stands 5 feet 6 inches tall (168 cm) and weighs approximately 56 kg (123 lbs). She is known for her expressive hazel-green eyes, natural brown hair, and graceful physical posture developed through years of ballet and stage movement training."
+  },
+  {
+    "question": "Where did Elizabeth Olsen study acting, and did she train in Russia?",
+    "answer": "Elizabeth Olsen studied drama at New York University's Tisch School of the Arts, training intensely at the Atlantic Theater Company Acting School in Practical Aesthetics. During her undergraduate studies in 2009, she spent a rigorous semester abroad in Russia at the legendary Moscow Art Theatre School (MXAT), undergoing classical Russian training in Stanislavski technique, stage movement, and Chekhovian text analysis before graduating with her BFA in 2013."
+  },
+  {
+    "question": "What is the children's book series Hattie Harmony co-authored by Elizabeth Olsen?",
+    "answer": "'Hattie Harmony: Worry Detective' is a best-selling children's picture book series created and co-authored by Elizabeth Olsen and her husband Robbie Arnett, published by Viking Children's Books (an imprint of Penguin Random House). Illustrated by Deborah Marcero, the series follows an empathetic cat detective who helps her forest friends manage everyday childhood anxieties, test jitters, and emotional overwhelm using real-world mindfulness and breathing techniques."
+  },
+  {
+    "question": "Why doesn't Elizabeth Olsen have an Instagram or public social media account?",
+    "answer": "Elizabeth Olsen permanently deleted her Instagram account in late 2020. She has explained in numerous interviews that social media created an unhealthy compulsion to curate a public persona and fueled an expectation for celebrities to issue instant public statements on every global event. Olsen prioritizes mental peace, personal privacy, and maintaining an enigmatic boundary between her real life and her dramatic characters."
+  },
+  {
+    "question": "What are Elizabeth Olsen's upcoming movies and high-fashion appearances in 2026?",
+    "answer": "In 2026, Elizabeth Olsen headlines the psychological sci-fi thriller 'The Assessment' opposite Alicia Vikander and Himesh Patel, stars in A24's fantasy romantic comedy 'Eternity' alongside Miles Teller and Callum Turner, and joins Kristen Stewart in Panos Cosmatos' vampire thriller 'Flesh of the Gods'. On the fashion calendar, she made celebrated front-row appearances during Paris Fashion Week at the Jacquemus (January 2026) and Givenchy (March 2026) runway presentations, alongside headlining C2E2 in Chicago."
+  }
+]
 };

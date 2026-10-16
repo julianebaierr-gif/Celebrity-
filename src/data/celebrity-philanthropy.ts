@@ -936,4 +936,31 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "description": "Makes regular unannounced visits to pediatric wards across Texas and New York, distributing holiday gift packages, funding pediatric comfort carts, and providing encouragement to young patients undergoing long-term medical treatments."
   }
 ]
+,
+  "elizabeth-olsen": [
+  {
+    "organizationOrCause": "The Rape Foundation & Stuart House Child Advocacy",
+    "focusArea": "Survivor Support, Child Sexual Abuse Advocacy & Legal Aid",
+    "verifiedContribution": "Longtime Honorary Board Member & Annual Benefit Co-Chair",
+    "description": "Olsen has served as an active champion and volunteer for The Rape Foundation and Stuart House in Santa Monica for over a decade, helping raise millions for comprehensive medical care, free trauma therapy, and legal advocacy for sexually abused children and adult survivors."
+  },
+  {
+    "organizationOrCause": "The Trevor Project & Mental Health Crisis Intervention",
+    "focusArea": "LGBTQ+ Youth Crisis Suicide Prevention & Counseling",
+    "verifiedContribution": "Direct Financial Contributor & Campaign Advocate",
+    "description": "Actively supports The Trevor Project's 24/7 confidential suicide prevention hotline, utilizing her public platform and personal donations to fund trained crisis counselors for vulnerable LGBTQ+ youth nationwide."
+  },
+  {
+    "organizationOrCause": "Pediatric Emotional Wellness & Literacy Outreach",
+    "focusArea": "Children's Mental Health, Literacy & Anxiety Toolkits",
+    "verifiedContribution": "School Book Donation Drives & Hospital Readings",
+    "description": "Through her 'Hattie Harmony' literary initiative, Olsen partners with public libraries, Title I elementary schools, and pediatric care centers to donate thousands of books and sponsor free emotional wellness workshops helping young children cope with everyday anxiety."
+  },
+  {
+    "organizationOrCause": "SAG-AFTRA Foundation & Entertainment Community Fund",
+    "focusArea": "Working-Class Crew Emergency Assistance & Healthcare Grants",
+    "verifiedContribution": "Emergency Strike Relief Patron & Continuous Benefactor",
+    "description": "Donated substantial personal funds to provide direct financial grants, medical copay coverage, and emergency grocery stipends for below-the-line film crew workers, theatrical stagehands, and union performers facing industry hardship."
+  }
+]
 };

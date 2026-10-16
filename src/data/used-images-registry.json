@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-10-16T12:00:00.000Z",
-  "totalUniqueImages": 97,
+  "totalUniqueImages": 99,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -732,6 +732,22 @@
       "pageSlug": "sadie-sink",
       "assignedAt": "2026-10-16T12:00:00.000Z",
       "sourceUrl": "Prada Spring/Summer 2027 Arrival, Milan Fashion Week (September 22, 2026) / CC BY-SA 4.0"
+    },
+    "/images/celebrities/elizabeth-olsen-hero.webp": {
+      "filePath": "/images/celebrities/elizabeth-olsen-hero.webp",
+      "entity": "elizabeth-olsen",
+      "placement": "profile_hero",
+      "pageSlug": "elizabeth-olsen",
+      "assignedAt": "2026-10-16T12:00:00.000Z",
+      "sourceUrl": "Jacquemus Fall/Winter 2026 Runway Show, Paris Fashion Week (January 25, 2026) / CC BY-SA 4.0"
+    },
+    "/images/celebrities/elizabeth-olsen-content.webp": {
+      "filePath": "/images/celebrities/elizabeth-olsen-content.webp",
+      "entity": "elizabeth-olsen",
+      "placement": "profile_content",
+      "pageSlug": "elizabeth-olsen",
+      "assignedAt": "2026-10-16T12:00:00.000Z",
+      "sourceUrl": "Givenchy Fall/Winter 2026 Runway Show at H\u00f4tel des Invalides, Paris (March 6, 2026) / CC BY-SA 4.0"
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {
@@ -792,6 +808,22 @@
     "category": "content",
     "year": "2026",
     "event": "Prada Spring/Summer 2027 Show in Milan (September 22, 2026)",
+    "registeredAt": "2026-10-16T12:00:00.000Z"
+  },
+  "/images/celebrities/elizabeth-olsen-hero.webp": {
+    "url": "https://celebmafia.com/wp-content/uploads/2026/01/elizabeth-olsen-at-jacquemus-fw-2026-show-in-paris-01-25-2026-6.jpg",
+    "name": "Elizabeth Olsen",
+    "category": "hero",
+    "year": "2026",
+    "event": "Jacquemus Fall/Winter 2026 Show in Paris (January 25, 2026)",
+    "registeredAt": "2026-10-16T12:00:00.000Z"
+  },
+  "/images/celebrities/elizabeth-olsen-content.webp": {
+    "url": "https://celebmafia.com/wp-content/uploads/2026/03/elizabeth-olsen-at-givenchy-the-shoe-detail-matters-9.jpg",
+    "name": "Elizabeth Olsen",
+    "category": "content",
+    "year": "2026",
+    "event": "Givenchy Fall/Winter 2026 Show at H\u00f4tel des Invalides in Paris (March 6, 2026)",
     "registeredAt": "2026-10-16T12:00:00.000Z"
   }
 }

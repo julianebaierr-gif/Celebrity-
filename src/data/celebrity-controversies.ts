@@ -594,4 +594,19 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "impactAnalysis": "Her proactive advocacy helped mobilize young Hollywood performers behind strict intellectual property protections for digital likenesses, ensuring that emerging artists maintain sovereign ownership over their visual and vocal identities."
   }
 ]
+,
+  "elizabeth-olsen": [
+  {
+    "incident": "Avengers: Infinity War Corset Neckline Costume Critique",
+    "year": "2018",
+    "resolutionOrOutcome": "During promotional press interviews for 'Avengers: Infinity War' in 2018, Olsen offered candid, constructive commentary regarding Scarlet Witch's cleavage-baring corset costume, observing that while fellow Marvel heroines wore practical combat tactical gear, her costume remained tethered to 1990s comic book aesthetics. Marvel Studios leadership and costume designer Mayes C. Rubeo took her collaborative feedback seriously, comprehensively redesigning her suit for 'WandaVision' and 'Doctor Strange in the Multiverse of Madness' into an empowering, regal, high-necked mystical ensemble featuring a sculpted tiara and protective tailored fabrics.",
+    "impactAnalysis": "Olsen's articulate and professional feedback helped accelerate modern wardrobe reforms across superhero cinema, ensuring that female action performers are equipped with functional, character-driven costumes."
+  },
+  {
+    "incident": "Social Media Departure & Public Grief Pressure",
+    "year": "2020",
+    "resolutionOrOutcome": "In late August 2020, following the sudden passing of her Marvel co-star Chadwick Boseman, Olsen was subjected to aggressive online harassment from internet users criticizing her for not immediately posting a public tribute on Instagram. Rather than engaging with toxic performative demands, Olsen permanently deactivated her Instagram account, choosing to honor Boseman's memory through private reflection with her castmates and later contributing a moving, dignified tribute to ABC's official memorial broadcast.",
+    "impactAnalysis": "Her decisive exit from social media sparked widespread cultural discussions across Hollywood regarding digital parasitism and defended an artist's fundamental right to process profound personal grief away from public spectacle."
+  }
+]
 };

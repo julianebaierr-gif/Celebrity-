@@ -4850,4 +4850,155 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
     }
   ]
 }
+,
+  "elizabeth-olsen": {
+  "salaryMilestones": [
+    {
+      "project": "Martha Marcy May Marlene",
+      "year": 2011,
+      "salary": "$50,000 USD (Scale + Indie Equity)",
+      "boxOfficeOrBudget": "$600K Budget / Sundance Hit",
+      "notes": "Independent feature breakout earning international critical acclaim and launching her professional screen career."
+    },
+    {
+      "project": "Godzilla",
+      "year": 2014,
+      "salary": "$1,000,000 USD Upfront",
+      "boxOfficeOrBudget": "$160.0M Budget / $529.0M Box Office",
+      "notes": "First major studio tentpole contract as female lead Elle Brody opposite Bryan Cranston and Aaron Taylor-Johnson."
+    },
+    {
+      "project": "Avengers: Age of Ultron",
+      "year": 2015,
+      "salary": "$1,500,000 USD Multi-Picture Deal",
+      "boxOfficeOrBudget": "$365.0M Budget / $1.405B Box Office",
+      "notes": "Official MCU introduction as Wanda Maximoff / Scarlet Witch, initiating her long-term Marvel Studios contract."
+    },
+    {
+      "project": "Captain America: Civil War",
+      "year": 2016,
+      "salary": "$2,000,000 USD Base + Escalators",
+      "boxOfficeOrBudget": "$250.0M Budget / $1.153B Box Office",
+      "notes": "Integral ensemble role anchoring the ethical and emotional conflict surrounding the Sokovia Accords."
+    },
+    {
+      "project": "Avengers: Infinity War & Endgame",
+      "year": 2018,
+      "salary": "$6,000,000 USD Combined Compensation",
+      "boxOfficeOrBudget": "$700.0M+ Combined Budget / $4.847B Cumulative Gross",
+      "notes": "Core dramatic arc in the highest-grossing cinematic event in modern history, fighting Thanos in Wakanda and Earth."
+    },
+    {
+      "project": "WandaVision (Disney+ Series)",
+      "year": 2021,
+      "salary": "$3,150,000 USD ($350,000 Per Episode + EP Points)",
+      "boxOfficeOrBudget": "Disney+ Flagship Series Showcase",
+      "notes": "Historic streaming pay package for nine episodes, earning Primetime Emmy and Golden Globe nominations."
+    },
+    {
+      "project": "Doctor Strange in the Multiverse of Madness",
+      "year": 2022,
+      "salary": "$4,000,000 USD Upfront + Box Office Backends",
+      "boxOfficeOrBudget": "$200.0M Budget / $955.8M Worldwide Box Office",
+      "notes": "Co-headlining as the corrupt Scarlet Witch, driving Marvel's second highest-grossing post-pandemic theatrical blockbuster."
+    },
+    {
+      "project": "Love & Death (HBO Max)",
+      "year": 2023,
+      "salary": "$3,500,000 USD ($500,000 Per Episode)",
+      "boxOfficeOrBudget": "HBO Limited Series Prestige Showcase",
+      "notes": "Portrayed Candy Montgomery in David E. Kelley's true-crime drama, securing her second Golden Globe nomination."
+    },
+    {
+      "project": "His Three Daughters (Netflix)",
+      "year": 2024,
+      "salary": "$1,500,000 USD + Prestige Bonus Pool",
+      "boxOfficeOrBudget": "Netflix Theatrical & Global Release",
+      "notes": "Starring opposite Carrie Coon and Natasha Lyonne in Azazel Jacobs' critically hailed family drama."
+    },
+    {
+      "project": "The Assessment & Eternity Feature Slate",
+      "year": 2026,
+      "salary": "$4,500,000 USD Combined Advance",
+      "boxOfficeOrBudget": "A24 & Independent Sci-Fi Theatrical Releases",
+      "notes": "Leading roles in Fleur Fortun\u00e9's The Assessment and David Freyne's A24 fantasy romantic comedy Eternity."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Studio City Mid-Century Architectural Homestead",
+      "location": "Studio City, San Fernando Valley, California",
+      "purchasedYear": "2017",
+      "purchasePrice": "$2,200,000 USD",
+      "currentEstimatedValue": "$3,800,000 USD",
+      "description": "Secluded 1950s post-and-beam mid-century modern residence featuring custom organic wood craftsmanship, floor-to-ceiling glass walls, drought-tolerant native gardens, and soundproof music studio for husband Robbie Arnett."
+    },
+    {
+      "property": "Hudson Valley Country Haven",
+      "location": "Dutchess County, New York, United States",
+      "purchasedYear": "2021",
+      "purchasePrice": "$1,400,000 USD",
+      "currentEstimatedValue": "$2,100,000 USD",
+      "description": "Charming historic colonial farmhouse surrounded by private woodlands and organic gardens, serving as Olsen's tranquil East Coast writing sanctuary for her children's book projects."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Hattie Harmony Publishing Franchise",
+      "role": "Co-Author & IP Creator",
+      "valuationOrRevenue": "Multi-Million-Dollar Global Publishing Deal",
+      "description": "Co-created with husband Robbie Arnett under Penguin Random House, authoring New York Times best-selling children's books addressing pediatric anxiety and emotional resilience."
+    },
+    {
+      "name": "Cartier Global Partnership",
+      "role": "Global Brand Ambassador",
+      "valuationOrRevenue": "$2.0M+ Multi-Year Commercial Guarantee",
+      "description": "High-prestige international ambassadorship representing Cartier fine jewelry, timepieces, and haute joaillerie gala collections."
+    },
+    {
+      "name": "Bobbi Brown Cosmetics Worldwide Face",
+      "role": "Global Ambassador",
+      "valuationOrRevenue": "$1.5M+ Annual Endorsement",
+      "description": "International beauty campaign partnership championing natural, effortless beauty and cruelty-free skincare formulations."
+    },
+    {
+      "name": "Independent Film Executive Producing",
+      "role": "Executive Producer & Developer",
+      "valuationOrRevenue": "Production Overhead & First-Look Banners",
+      "description": "Producing and financing indie character dramas including Facebook Watch's 'Sorry for Your Loss' and independent features."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2011",
+      "estimatedNetWorth": "$150,000 USD",
+      "milestoneDescription": "Early career savings accumulated through New York stage understudy work and indie film fees for Martha Marcy May Marlene."
+    },
+    {
+      "period": "2015",
+      "estimatedNetWorth": "$1.8 Million USD",
+      "milestoneDescription": "Signing Marvel Studios contract for Avengers: Age of Ultron and studio payday for Gareth Edwards' Godzilla."
+    },
+    {
+      "period": "2018",
+      "estimatedNetWorth": "$5.0 Million USD",
+      "milestoneDescription": "Substantial backend escalators from Captain America: Civil War and filming Avengers: Infinity War in Atlanta."
+    },
+    {
+      "period": "2021",
+      "estimatedNetWorth": "$9.0 Million USD",
+      "milestoneDescription": "Record streaming payday for Disney+'s WandaVision and expansion into global luxury brand partnerships."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$12.0 Million USD",
+      "milestoneDescription": "Massive box office bonuses from Doctor Strange in the Multiverse of Madness and $500K/ep salary for HBO's Love & Death."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$14.0 Million USD",
+      "milestoneDescription": "Certified 2026 valuation reflecting Hattie Harmony publishing royalties, His Three Daughters, Eternity, and Cartier contracts."
+    }
+  ]
+}
 };
