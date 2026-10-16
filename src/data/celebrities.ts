@@ -10406,8 +10406,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "authorName": "Marcus Vance",
     "authorRole": "Senior Film & Academy Historian",
     "factCheckedBy": "David Thorne",
-    "publishedDate": "2026-10-16T12:00:00.000Z",
-    "lastUpdated": "2026-10-16T12:00:00.000Z",
+    "publishedDate": "2026-10-16T09:00:00.000Z",
+    "lastUpdated": "2026-10-16T09:00:00.000Z",
     "readingTimeMinutes": 15
   }
 },
@@ -10835,8 +10835,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "authorName": "Marcus Vance",
     "authorRole": "Senior Film & Academy Historian",
     "factCheckedBy": "David Thorne",
-    "publishedDate": "2026-10-16T12:00:00.000Z",
-    "lastUpdated": "2026-10-16T12:00:00.000Z",
+    "publishedDate": "2026-10-16T10:00:00.000Z",
+    "lastUpdated": "2026-10-16T10:00:00.000Z",
     "readingTimeMinutes": 17
   }
 }
@@ -11259,8 +11259,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "authorName": "Marcus Vance",
     "authorRole": "Senior Film & Academy Historian",
     "factCheckedBy": "David Thorne",
-    "publishedDate": "2026-10-16T12:00:00.000Z",
-    "lastUpdated": "2026-10-16T12:00:00.000Z",
+    "publishedDate": "2026-10-16T11:00:00.000Z",
+    "lastUpdated": "2026-10-16T11:00:00.000Z",
     "readingTimeMinutes": 16
   }
 }

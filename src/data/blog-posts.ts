@@ -223,7 +223,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "name": "Marcus Vance",
     "role": "Senior Entertainment & Film Historian"
   },
-  "publishedDate": "2026-10-16T12:00:00.000Z",
+  "publishedDate": "2026-10-16T09:00:00.000Z",
   "readingTimeMinutes": 10,
   "tags": [
     "Jeremy Renner",
@@ -249,7 +249,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "name": "Marcus Vance",
     "role": "Senior Entertainment & Film Historian"
   },
-  "publishedDate": "2026-10-16T12:00:00.000Z",
+  "publishedDate": "2026-10-16T10:00:00.000Z",
   "readingTimeMinutes": 11,
   "tags": [
     "Chadwick Boseman",
@@ -275,7 +275,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "name": "Marcus Vance",
     "role": "Senior Entertainment & Film Historian"
   },
-  "publishedDate": "2026-10-16T12:00:00.000Z",
+  "publishedDate": "2026-10-16T11:00:00.000Z",
   "readingTimeMinutes": 10,
   "tags": [
     "Sadie Sink",
@@ -347,7 +347,14 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export function getAllBlogPosts(): BlogPost[] {
-  return BLOG_POSTS;
+  return BLOG_POSTS.map((post, index) => ({ post, index }))
+    .sort((a, b) => {
+      const timeA = new Date(a.post.publishedDate || 0).getTime();
+      const timeB = new Date(b.post.publishedDate || 0).getTime();
+      if (timeB !== timeA) return timeB - timeA;
+      return b.index - a.index;
+    })
+    .map((item) => item.post);
 }
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

@@ -65,12 +65,18 @@ function mergeProfileWithOverrides(
 
 export function getAllCelebrities(): CelebrityProfile[] {
   const overrides = getCelebrityOverrides();
-  const list = CELEBRITIES.map((c) => mergeProfileWithOverrides(c, overrides[c.slug]));
-  return list.sort((a, b) => {
-    const timeA = new Date(a.editorialMetadata?.publishedDate || 0).getTime();
-    const timeB = new Date(b.editorialMetadata?.publishedDate || 0).getTime();
-    return timeB - timeA;
-  });
+  const list = CELEBRITIES.map((c, index) => ({
+    profile: mergeProfileWithOverrides(c, overrides[c.slug]),
+    index,
+  }));
+  return list
+    .sort((a, b) => {
+      const timeA = new Date(a.profile.editorialMetadata?.publishedDate || 0).getTime();
+      const timeB = new Date(b.profile.editorialMetadata?.publishedDate || 0).getTime();
+      if (timeB !== timeA) return timeB - timeA;
+      return b.index - a.index;
+    })
+    .map((item) => item.profile);
 }
 
 export function getFeaturedCelebrity(): CelebrityProfile {
