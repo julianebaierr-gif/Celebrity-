@@ -108,11 +108,16 @@ export default function JsonLd({
     const sameAsUrls = Object.values(celebrity.sameAs).filter(Boolean);
     const authorSlug = celebrity.editorialMetadata.authorName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
+    const heroImageUrl = celebrity.heroImage.startsWith("http")
+      ? celebrity.heroImage
+      : `${baseUrl}${celebrity.heroImage}`;
+
     schemas.push({
       "@context": "https://schema.org",
       "@type": "ProfilePage",
       url: `${baseUrl}/celebrity/${celebrity.slug}`,
       name: `${celebrity.name} Official Biographical Profile`,
+      dateCreated: celebrity.editorialMetadata.publishedDate,
       dateModified: celebrity.editorialMetadata.lastUpdated,
       author: {
         "@type": "Person",
@@ -139,8 +144,10 @@ export default function JsonLd({
       },
       mainEntity: {
         "@type": "Person",
+        identifier: celebrity.slug,
         name: celebrity.name,
         alternateName: celebrity.quickFacts.fullName,
+        url: `${baseUrl}/celebrity/${celebrity.slug}`,
         description: celebrity.executiveSummary,
         birthDate: celebrity.quickFacts.birthDate,
         ...(celebrity.quickFacts.deathDate ? { deathDate: celebrity.quickFacts.deathDate } : {}),
@@ -150,7 +157,7 @@ export default function JsonLd({
         },
         height: celebrity.quickFacts.height,
         jobTitle: celebrity.quickFacts.primaryRole,
-        image: celebrity.heroImage,
+        image: heroImageUrl,
         sameAs: sameAsUrls,
         netWorth: {
           "@type": "MonetaryAmount",
