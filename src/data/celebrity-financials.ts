@@ -5287,6 +5287,145 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Certified 2026 net worth at age 50 fueled by The Roses, The Thing with Feathers, How to Live on Earth, Prada Re-Nylon 2026, SunnyMarch equity, and Avengers: Doomsday."
     }
   ]
+},
+  "paul-rudd": {
+  "salaryMilestones": [
+    {
+      "project": "Clueless (Paramount Pictures Breakthrough)",
+      "year": 1995,
+      "salary": "$75,000 USD Base Fee",
+      "boxOfficeOrBudget": "$56.6 Million Domestic ($12M Budget)",
+      "notes": "Feature breakout as Josh Lucas opposite Alicia Silverstone; generated three decades of global cable, DVD, and streaming residuals."
+    },
+    {
+      "project": "Friends (Seasons 9–10, 18 Episodes as Mike Hannigan)",
+      "year": 2004,
+      "salary": "$720,000 USD Total Recurring Fee ($40,000/Episode + Syndication Residuals)",
+      "boxOfficeOrBudget": "NBC / Warner Bros. Television ($1B+ Annual Syndication Pool)",
+      "notes": "Portrayed Phoebe Buffay's husband Mike Hannigan across the final two seasons of television's top-earning sitcom."
+    },
+    {
+      "project": "Role Models & I Love You, Man (Studio Comedy Lead Era)",
+      "year": 2009,
+      "salary": "$3.5M – $5.0M USD Per Film + WGA Screenwriting Bonus",
+      "boxOfficeOrBudget": "$184.5 Million Combined Box Office",
+      "notes": "Co-wrote and starred in Role Models ($92.5M) before headlining I Love You, Man ($92.0M) and This Is 40 ($88.1M)."
+    },
+    {
+      "project": "Ant-Man (Marvel Studios Solo Franchise Debut)",
+      "year": 2015,
+      "salary": "$1.5 Million USD ($300,000 Base + $1.2M Box Office & Screenwriting Bonuses)",
+      "boxOfficeOrBudget": "$519.3 Million Worldwide ($130M Budget)",
+      "notes": "Accepted Marvel's standard first-installment base guarantee while earning an official WGA co-screenplay fee and box office milestone bonuses."
+    },
+    {
+      "project": "Ant-Man and the Wasp & Avengers: Endgame (Peak MCU Backend Year)",
+      "year": 2019,
+      "salary": "$41.0 Million USD Combined (Upfront Salaries + First-Dollar Backend Points)",
+      "boxOfficeOrBudget": "$3.42 Billion Combined Global Box Office",
+      "notes": "Negotiated an $8M+ upfront fee plus lucrative backend profit participation on Ant-Man and the Wasp ($622.7M) and Avengers: Endgame ($2.799B), ranking #9 on Forbes' 2019 Highest-Paid Actors list."
+    },
+    {
+      "project": "Living with Yourself & The Shrink Next Door (Streaming Executive Producer Deals)",
+      "year": 2021,
+      "salary": "$6.5 Million USD Combined Series & Executive Producer Packages",
+      "boxOfficeOrBudget": "Netflix & Apple TV+ Prestige Limited Series",
+      "notes": "Earned Golden Globe-nominated dual-role fee on Netflix's Living with Yourself and co-starred/executive produced Apple TV+'s The Shrink Next Door with Will Ferrell."
+    },
+    {
+      "project": "Ant-Man and the Wasp: Quantumania & Ghostbusters: Afterlife / Frozen Empire",
+      "year": 2024,
+      "salary": "$10.0M USD (Quantumania) + $12.0M Combined (Ghostbusters Franchise)",
+      "boxOfficeOrBudget": "$882.4 Million Combined Worldwide Box Office",
+      "notes": "Commanded eight-figure Marvel franchise quote for Phase 5 kickoff Quantumania alongside consecutive Sony Pictures Ghostbusters tentpoles."
+    },
+    {
+      "project": "Anaconda, Power Ballad, A Statement & Avengers: Doomsday (2025–2026 Slate)",
+      "year": 2026,
+      "salary": "$18.5 Million+ USD Combined 2025–2026 Theatrical & Marvel Ensemble Retainers",
+      "boxOfficeOrBudget": "Sony Pictures / Lionsgate / A24 / Marvel Studios",
+      "notes": "Includes Sony's Anaconda ($8M+ package opposite Jack Black), Lionsgate's Power Ballad (2026), Tom McCarthy's NYFF64 drama A Statement (2026), A24's Death of a Unicorn and Friendship, and Marvel's Avengers: Doomsday (Dec 2026)."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Rhinebeck / Clinton Corners Hudson Valley Country Estate",
+      "location": "Rhinebeck, Dutchess County, New York",
+      "purchasedYear": "2011",
+      "purchasePrice": "$2.875 Million USD",
+      "currentEstimatedValue": "$6.2 Million USD",
+      "description": "Secluded multi-acre wooded country sanctuary in New York's Hudson Valley featuring custom timber architecture, guest quarters, and expansive acreage where Rudd and wife Julie Yaeger raised their two children."
+    },
+    {
+      "property": "Greenwich Village Luxury Co-op Residence",
+      "location": "Greenwich Village, Manhattan, New York City",
+      "purchasedYear": "2008",
+      "purchasePrice": "$3.1 Million USD",
+      "currentEstimatedValue": "$5.4 Million USD",
+      "description": "Full-floor pre-war Manhattan residence in Greenwich Village used by the family during Broadway theatrical runs, television shoots ('Only Murders in the Building'), and New York Film Festival appearances."
+    },
+    {
+      "property": "Historic Samuel's Sweet Shop Commercial Building & Retail Interest",
+      "location": "42 East Market Street, Rhinebeck, New York",
+      "purchasedYear": "2014",
+      "purchasePrice": "Undisclosed Private Rescue Acquisition",
+      "currentEstimatedValue": "$2.5 Million+ USD (Commercial Brand & Retail Valuation)",
+      "description": "Landmark Hudson Valley confectionery and coffee parlor co-owned with Julie Yaeger, Jeffrey Dean Morgan, Hilarie Burton Morgan, and local operating partners since 2014."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "Samuel's Sweet Shop (Rhinebeck, NY)",
+      "role": "Co-Owner & Brand Steward (Since 2014)",
+      "valuationOrRevenue": "$1.5M+ Annual Retail, E-Commerce & Nationwide Shipping Revenue",
+      "description": "Co-purchased Rhinebeck's iconic candy and coffee shop in 2014 alongside wife Julie Yaeger and actors Jeffrey Dean Morgan and Hilarie Burton to save the beloved institution following the sudden passing of founder Ira Gutner."
+    },
+    {
+      "name": "Super Bowl & Global Commercial Endorsement Portfolio (Heineken 0.0, Lay's, Nintendo, Hyundai, Samsung)",
+      "role": "Global Commercial Spokesperson",
+      "valuationOrRevenue": "$2.5M – $4.0M USD Annual Commercial Income",
+      "description": "One of Madison Avenue's most trusted comedic pitchmen, headlining Heineken 0.0's Ant-Man Super Bowl LVII campaign, Lay's Super Bowl LVI commercial with Seth Rogen, Nintendo's 2025/2026 'Switch 2' callback to his 1991 Super Nintendo spot, and multi-year voice/screen deals with Hyundai and Samsung."
+    },
+    {
+      "name": "WGA Screenwriting & Television Co-Creator Residuals ('Ant-Man', 'Role Models', 'Party Down')",
+      "role": "Credited Co-Screenwriter, Co-Creator & Executive Producer",
+      "valuationOrRevenue": "$1.8M+ Annual WGA, DGA & SAG-AFTRA Residual Stream",
+      "description": "Unlike most actors who only collect performance residuals, Rudd receives lucrative Writers Guild of America (WGA) royalties as credited co-writer of 'Ant-Man' ($519.3M), 'Ant-Man and the Wasp' ($622.7M), and 'Role Models' ($92.5M), plus co-creator equity on Starz's 'Party Down'."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2004",
+      "estimatedNetWorth": "$4.0 Million USD",
+      "milestoneDescription": "Breakthrough decade spanning Clueless, Romeo + Juliet, 18 episodes of Friends, and Anchorman."
+    },
+    {
+      "period": "2010",
+      "estimatedNetWorth": "$18.0 Million USD",
+      "milestoneDescription": "Studio comedy dominance across The 40-Year-Old Virgin, Knocked Up, Role Models (co-writer), and I Love You, Man."
+    },
+    {
+      "period": "2016",
+      "estimatedNetWorth": "$30.0 Million USD",
+      "milestoneDescription": "Marvel Studios debut as star and co-writer of Ant-Man ($519.3M) and Giant-Man breakout in Captain America: Civil War ($1.155B)."
+    },
+    {
+      "period": "2019",
+      "estimatedNetWorth": "$60.0 Million USD",
+      "milestoneDescription": "Earned $41 Million in a single year via Avengers: Endgame ($2.799B) backend points, Ant-Man and the Wasp ($622.7M), and Netflix's Living with Yourself."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$70.0 Million USD",
+      "milestoneDescription": "Headlined Ant-Man and the Wasp: Quantumania, Ghostbusters: Afterlife, Apple TV+'s The Shrink Next Door, and Super Bowl campaigns."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$80.0 Million USD",
+      "milestoneDescription": "Audited 2026 valuation propelled by Ghostbusters: Frozen Empire, Emmy-nominated Only Murders in the Building, A24's Death of a Unicorn & Friendship, Sony's Anaconda, Lionsgate's Power Ballad, NYFF64's A Statement, and Avengers: Doomsday."
+    }
+  ]
 }
 };
+
 

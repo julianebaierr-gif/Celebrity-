@@ -81,6 +81,13 @@ const FEATURED_MATCHUPS = [
     sub: "Oscar Winners, Production Houses & Global Box Office Titans",
     category: "Cinema Titans",
   },
+  {
+    slug1: "paul-rudd",
+    slug2: "robert-downey-jr",
+    title: "Paul Rudd vs Robert Downey Jr.",
+    sub: "Avengers: Doomsday Co-Stars, Indie Auteurs & Blockbuster Equity",
+    category: "Marvel & Cinema",
+  },
 ];
 
 export default function CompareHubPage() {

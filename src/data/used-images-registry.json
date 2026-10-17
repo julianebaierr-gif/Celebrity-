@@ -857,5 +857,21 @@
     "year": "2026",
     "event": "Berlinale Photocall in Prada Re-Nylon (Wikimedia Commons 2026)",
     "registeredAt": "2026-10-17T12:00:00.000Z"
+  },
+  "/images/celebrities/paul-rudd-hero.webp": {
+    "url": "https://commons.wikimedia.org/wiki/File:Paul_Rudd_at_the_2026_New_York_Film_Festival-003.jpg",
+    "name": "Paul Rudd",
+    "category": "hero",
+    "year": "2026",
+    "event": "64th New York Film Festival (NYFF64) World Premiere of 'A Statement' (October 3, 2026, by Bryan Berlin / WikiPortraits / CC BY-SA 4.0)",
+    "registeredAt": "2026-10-17T16:30:00.000Z"
+  },
+  "/images/celebrities/paul-rudd-content.webp": {
+    "url": "https://commons.wikimedia.org/wiki/File:Paul_Giamatti_Paul_Rudd_at_the_2026_New_York_Film_Festival-071.jpg",
+    "name": "Paul Rudd",
+    "category": "content",
+    "year": "2026",
+    "event": "64th New York Film Festival (NYFF64) 'A Statement' Red Carpet with Paul Giamatti (October 3, 2026, by Bryan Berlin / WikiPortraits / CC BY-SA 4.0)",
+    "registeredAt": "2026-10-17T16:30:00.000Z"
   }
 }

@@ -97,6 +97,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "tom-hiddleston-vs-robert-downey-jr",
     "benedict-cumberbatch-vs-tom-hiddleston",
     "benedict-cumberbatch-vs-robert-downey-jr",
+    "paul-rudd-vs-robert-downey-jr",
+    "paul-rudd-vs-benedict-cumberbatch",
   ];
   const compareRoutes: MetadataRoute.Sitemap = compareMatchups.map((m) => ({
     url: `${baseUrl}/compare/${m}`,

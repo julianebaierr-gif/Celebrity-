@@ -1016,6 +1016,33 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "verifiedContribution": "2026 Documentary Presenter, UNESCO Ocean Literacy Envoy & Letters Live Co-Producer",
     "description": "Serves as the on-screen presenter of Open Planet Studios' landmark September 2026 environmental documentary 'How to Live on Earth', partnered with Prada Re-Nylon and UNESCO's SEA BEYOND in 2026 to spotlight marine kelp forest restoration in Japan, and co-produces Letters Live to raise hundreds of thousands of pounds for literacy and humanitarian charities."
   }
+],
+  "paul-rudd": [
+  {
+    "organizationOrCause": "Big Slick Celebrity Weekend & Children's Mercy Kansas City",
+    "focusArea": "Pediatric Oncology Research & Children's Hospital Care",
+    "verifiedContribution": "Co-Founder & Annual Co-Host ($25+ Million USD Raised Since 2010)",
+    "description": "Since 2010, Rudd has co-hosted the annual Big Slick Celebrity Weekend in Kansas City alongside fellow KC natives Jason Sudeikis, Rob Riggle, Eric Stonestreet, David Koechner, and Heidi Gardner—transforming a friendly poker tournament into a massive multi-day softball, bowling, and gala fundraiser that has raised over $25 Million for the Children's Mercy Research Institute."
+  },
+  {
+    "organizationOrCause": "SAY: The Stuttering Association for the Young",
+    "focusArea": "Speech Therapy, Performing Arts Confidence & Anti-Bullying for Youth Who Stutter",
+    "verifiedContribution": "Board Supporter & Annual All-Star Bowling Benefit Host",
+    "description": "Inspired after portraying a character with a stutter on Broadway in 'TheLast Night of Ballyhoo' (1997), Rudd became one of the most dedicated national champions for SAY (founded by Taro Alexander), hosting its annual New York charity gala and bowling benefits for over two decades to fund summer camp and speech therapy scholarships."
+  },
+  {
+    "organizationOrCause": "First Responders Children's Foundation & Civic Democracy Initiatives",
+    "focusArea": "Scholarships for Families of Fallen First Responders & Voter Participation",
+    "verifiedContribution": "National Gala Honoree & Grassroots Civic Volunteer",
+    "description": "Actively supports the First Responders Children's Foundation and made international headlines in October 2020 when he stood unannounced in the pouring rain outside Brooklyn's Barclays Center handing out boxes of blueberry-and-cream cookies from Manhattan's Milk Bar to citizens waiting for hours in early-voting lines."
+  },
+  {
+    "organizationOrCause": "Astor Services for Children & Families (Hudson Valley) & Anti-Bullying Outreach",
+    "focusArea": "Youth Mental Health & Hudson Valley Community Support",
+    "verifiedContribution": "Rhinebeck Local Patron & Personal Youth Mentorship",
+    "description": "Through Samuel's Sweet Shop and personal donations, Rudd and wife Julie Yaeger support Astor Services for Children & Families in Rhinebeck, NY, and in 2022 Rudd personally befriended, FaceTimed, and gifted a signed Ant-Man helmet to 12-year-old Colorado student Brody Ridder after classmates refused to sign his school yearbook."
+  }
 ]
 };
+
 

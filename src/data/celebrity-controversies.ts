@@ -638,6 +638,21 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "resolutionOrOutcome": "During the sold-out October 2015 run of 'Hamlet' at London's Barbican Centre at the height of the European Syrian refugee crisis, Cumberbatch used his nightly curtain call to recite Somali-British poet Warsan Shire's poem 'Home', express frustration with slow governmental aid responses, and appeal for audience donations to Save the Children—ultimately raising over £150,000 from theatregoers. While a handful of conservative commentators debated whether classical curtain calls should include political humanitarian appeals, human rights organizations and theatre audiences overwhelmingly applauded his direct intervention.",
     "impactAnalysis": "Cumberbatch later backed his words with concrete personal action, including opening his own home to host a displaced Ukrainian family under the UK's Homes for Ukraine scheme in 2022."
   }
+],
+  "paul-rudd": [
+  {
+    "incident": "SNL 'Five-Timers Club' Omicron Outbreak & Four-Person Empty-Studio Broadcast",
+    "year": "2021",
+    "resolutionOrOutcome": "On December 18, 2021, as Paul Rudd prepared to host 'Saturday Night Live' for his milestone fifth time to be inducted into the prestigious 'Five-Timers Club', an unprecedented surge of the COVID-19 Omicron variant swept through Studio 8H hours before airtime. Rather than canceling the episode completely, NBC dismissed the live audience, cast, and musical guest Charli XCX, while Rudd stayed behind in an empty studio alongside Tina Fey, Tom Hanks, and Kenan Thompson to host a historic stripped-down broadcast introducing pre-taped sketches and classic vault segments.",
+    "impactAnalysis": "Rudd's grace, self-deprecating humor, and loyalty to the SNL crew during the emergency broadcast were universally praised across television media, and he later returned to Studio 8H to receive a proper full-audience applause."
+  },
+  {
+    "incident": "Two-Decade Conan O'Brien 'Mac and Me' Studio Clip Prank",
+    "year": "2004–2022",
+    "resolutionOrOutcome": "Beginning during his 2004 promotion of the 'Friends' series finale on 'Late Night with Conan O'Brien', Rudd defied studio publicists by secretly replacing the official promotional clip of every single movie he promoted—including 'Anchorman', 'The 40-Year-Old Virgin', 'Role Models', and Marvel's 'Ant-Man'—with the exact same absurd 1988 B-movie clip from 'Mac and Me' showing a boy in a wheelchair rolling off a cliff into a lake while an alien watches. Although studio marketing executives initially worried about losing national broadcast airtime for expensive trailers, the running gag became one of the most famous viral phenomena in talk-show history, continuing onto O'Brien's podcast in 2022.",
+    "impactAnalysis": "Cemented Rudd's reputation as a fearless comedic absurdist who refuses to take Hollywood promotional machinery too seriously, endearing him to audiences across multiple generations."
+  }
 ]
 };
+
 

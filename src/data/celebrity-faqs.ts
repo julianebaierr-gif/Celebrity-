@@ -2238,6 +2238,57 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "What is SunnyMarch, and what films and shows has it produced?",
     "answer": "SunnyMarch Ltd. is an independent London film and television production company co-founded in 2013 by Benedict Cumberbatch and producer Adam Ackland. Named after a portmanteau that evokes optimism and forward momentum, SunnyMarch has produced 'Patrick Melrose' (2018), 'The Courier' (2020), 'The Mauritanian' (2021), 'The Electrical Life of Louis Wain' (2021), 'The End We Start From' (2023), 'We Live in Time' (2024), 'The Thing with Feathers' (2025), 'The Roses' (2025), and the upcoming A24 series 'White Smoke'."
   }
+],
+  "paul-rudd": [
+  {
+    "question": "What is Paul Rudd's net worth in 2026?",
+    "answer": "As of 2026, Paul Rudd's audited net worth is $80.0 Million USD. His wealth is built on Marvel Studios salaries and backend profit participation (peaking at $41 Million in 2019 from 'Avengers: Endgame' and 'Ant-Man and the Wasp', plus $10M for 'Quantumania' and his 2026 return in 'Avengers: Doomsday'), WGA screenwriting residuals ('Ant-Man', 'Ant-Man and the Wasp', 'Role Models'), major studio franchises ('Ghostbusters: Afterlife' and 'Frozen Empire', Sony's 'Anaconda'), 2026 prestige features ('Power Ballad', 'A Statement'), Super Bowl commercial campaigns, and Hudson Valley and Manhattan real estate."
+  },
+  {
+    "question": "How old is Paul Rudd in 2026, and how tall is he?",
+    "answer": "Born on April 6, 1969, in Passaic, New Jersey, Paul Rudd is 57 years old as of 2026. He stands 5 feet 9 inches tall (175 cm) and is famously celebrated across pop culture for his seemingly ageless appearance, having been named People magazine's Sexiest Man Alive at age 52."
+  },
+  {
+    "question": "Who is Paul Rudd's wife, Julie Yaeger, and how did they meet?",
+    "answer": "Paul Rudd has been married to screenwriter, film producer, and former entertainment publicist Julie Yaeger since February 23, 2003. They met in 1995 on Rudd's very first day in New York City after filming 'Clueless': arriving late for an audition straight from LaGuardia Airport with his luggage, Rudd dropped his bags at his new publicist's office where Yaeger worked, and she offered to take him to lunch in Times Square. They have two children: son Jack Sullivan Rudd (born 2006) and daughter Darby Rudd (born 2010)."
+  },
+  {
+    "question": "What are Paul Rudd's new movies in 2025 and 2026?",
+    "answer": "Across 2025 and 2026, Paul Rudd stars in an expansive slate of films: A24's dark fantasy comedy 'Death of a Unicorn' (opposite Jenna Ortega) and cringe comedy 'Friendship' (opposite Tim Robinson); Sony Pictures' meta-comedy reboot 'Anaconda' opposite Jack Black; John Carney's musical comedy-drama 'Power Ballad' opposite Nick Jonas (which premiered March 1, 2026 at the Dublin International Film Festival, where Rudd received the Volta Award, followed by SXSW and Lionsgate's May/June 2026 theatrical release); Tom McCarthy's climate-history drama 'A Statement' opposite Paul Giamatti (which premiered October 3, 2026 at the 64th New York Film Festival); and Marvel Studios' 'Avengers: Doomsday' (releasing December 18, 2026)."
+  },
+  {
+    "question": "Is Paul Rudd returning as Ant-Man in Avengers: Doomsday (2026)?",
+    "answer": "Yes. Paul Rudd is officially confirmed to reprise his role as Scott Lang / Ant-Man in Marvel Studios' Phase 6 tentpole 'Avengers: Doomsday', directed by Joe and Anthony Russo and scheduled for theatrical release on December 18, 2026."
+  },
+  {
+    "question": "Does Paul Rudd really own a candy store in Rhinebeck, New York?",
+    "answer": "Yes. Since 2014, Paul Rudd and his wife Julie Yaeger—alongside fellow Rhinebeck residents and actors Jeffrey Dean Morgan and Hilarie Burton Morgan—have co-owned Samuel's Sweet Shop at 42 East Market Street in Rhinebeck, New York. The friends purchased the historic confectionery and coffee shop to save it from closing after the sudden passing of its original owner and friend, Ira Gutner."
+  },
+  {
+    "question": "Who did Paul Rudd play on Friends and Only Murders in the Building?",
+    "answer": "On NBC's 'Friends' (Seasons 9–10, 2002–2004), Paul Rudd played Mike Hannigan ('Crap Bag'), the piano-playing husband of Lisa Kudrow's Phoebe Buffay across 18 episodes including the series finale. On Hulu's 'Only Murders in the Building' (Seasons 2–4), Rudd pulled off a comedic double role: first portraying murdered Broadway action star Ben Glenroy in Season 3—earning a 2024 Primetime Emmy nomination for Outstanding Supporting Actor in a Comedy Series—and then returning in Season 4 as Ben's concussed Irish stunt double, Glen Stubbins."
+  },
+  {
+    "question": "Did Paul Rudd write the screenplay for Marvel's Ant-Man movies?",
+    "answer": "Yes. In addition to starring as Scott Lang, Paul Rudd is an official Writers Guild of America (WGA) credited co-screenwriter on both 'Ant-Man' (2015, alongside Edgar Wright, Joe Cornish, and Adam McKay) and 'Ant-Man and the Wasp' (2018), as well as the 2008 Universal comedy hit 'Role Models' and co-creator of the Starz series 'Party Down'."
+  },
+  {
+    "question": "Where did Paul Rudd grow up and go to college?",
+    "answer": "Although born in Passaic, New Jersey, to English-born Jewish parents Michael Rudd and Gloria Irene Granville, Paul Rudd grew up from age ten in Overland Park, Kansas, graduating from Shawnee Mission West High School in 1987. He majored in theatre at the University of Kansas (where he belonged to Sigma Nu fraternity) before studying at the American Academy of Dramatic Arts in Los Angeles and completing a three-month Jacobean drama program at the British American Drama Academy (BADA) at Oxford University."
+  },
+  {
+    "question": "What is the Big Slick charity event that Paul Rudd hosts in Kansas City?",
+    "answer": "Big Slick Celebrity Weekend is an annual charity event in Kansas City co-founded and co-hosted since 2010 by Paul Rudd alongside fellow Kansas City-area natives Jason Sudeikis, Rob Riggle, Eric Stonestreet, David Koechner, and Heidi Gardner. Over the past sixteen years, Big Slick has raised more than $25 Million USD for pediatric cancer research at Children's Mercy Kansas City."
+  },
+  {
+    "question": "What is the story behind Paul Rudd's 'Mac and Me' clip on Conan O'Brien?",
+    "answer": "Starting in 2004 when promoting the 'Friends' series finale on 'Late Night with Conan O'Brien', Paul Rudd began a legendary 18-year running prank in which—instead of playing the actual trailer for whatever blockbuster or indie film he was promoting—he played the exact same bizarre 1988 clip from the alien movie 'Mac and Me' showing a boy in a wheelchair rolling off a cliff into a lake."
+  },
+  {
+    "question": "Why doesn't Paul Rudd have an official Instagram or Twitter/X account?",
+    "answer": "Paul Rudd has deliberately abstained from maintaining personal social media accounts on Instagram, X (formerly Twitter), or TikTok throughout his career, preferring to protect his family's privacy in Rhinebeck, New York, and allowing his film, stage, and philanthropic work to speak for itself."
+  }
 ]
 };
+
 

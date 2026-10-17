@@ -40,6 +40,8 @@ const POPULAR_MATCHUPS = [
   "tom-hiddleston-vs-robert-downey-jr",
   "benedict-cumberbatch-vs-tom-hiddleston",
   "benedict-cumberbatch-vs-robert-downey-jr",
+  "paul-rudd-vs-robert-downey-jr",
+  "paul-rudd-vs-benedict-cumberbatch",
 ];
 
 export async function generateStaticParams() {
