@@ -889,5 +889,21 @@
     "year": "2026",
     "event": "Apple TV+ '12 12 12' Official 2026 First-Look Series Still in Zurich (Premiering November 13, 2026)",
     "registeredAt": "2026-10-17T17:15:00.000Z"
+  },
+  "/images/celebrities/sebastian-stan-hero.webp": {
+    "url": "https://commons.wikimedia.org/wiki/File:Gabriel_Hutchinson_Sebastian_Stan_Cannes_2026_01.jpg",
+    "name": "Sebastian Stan",
+    "category": "hero",
+    "year": "2026",
+    "event": "79th Cannes Film Festival Palme d'Or Premiere of 'Fjord' (May 2026, by Gabriel Hutchinson / WikiPortraits / CC BY-SA 4.0)",
+    "registeredAt": "2026-10-17T17:35:00.000Z"
+  },
+  "/images/celebrities/sebastian-stan-content.webp": {
+    "url": "https://commons.wikimedia.org/wiki/File:Gabriel_Hutchinson_Sebastian_Stan_Cannes_2026_05.jpg",
+    "name": "Sebastian Stan",
+    "category": "content",
+    "year": "2026",
+    "event": "79th Cannes Film Festival 'Fjord' Photocall in Beige Coat (May 2026, by Gabriel Hutchinson / WikiPortraits / CC BY-SA 4.0)",
+    "registeredAt": "2026-10-17T17:35:00.000Z"
   }
 }

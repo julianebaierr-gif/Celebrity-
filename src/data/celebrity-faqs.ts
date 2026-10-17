@@ -2338,7 +2338,58 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "What does Anthony Mackie's catchphrase 'Cut the check!' mean?",
     "answer": "Coined during the filming of 'Captain America: The Winter Soldier' (2014), 'Cut the check!' is Anthony Mackie's famous on-set celebratory exclamation whenever a director nails a complex take on the first try—signaling that the scene is in the can and the studio can pay the cast and crew."
   }
+],
+  "sebastian-stan": [
+  {
+    "question": "What is Sebastian Stan's certified net worth in 2026?",
+    "answer": "As of 2026, Sebastian Stan commands an audited net worth certified at $15.0 Million USD. His wealth is anchored by over $11.5 Billion in cumulative Marvel Cinematic Universe box office earnings as Bucky Barnes / The Winter Soldier (including an estimated $4.0 Million package for 'Thunderbolts*' and upcoming Phase 6 'Avengers: Doomsday' salary), seven-figure awards salaries for 'The Apprentice' and 'Fjord', A24 equity in 'A Different Man', $2.0 Million for Hulu's 'Pam & Tommy', and a $13.0 Million New York real estate portfolio across Tribeca and Brooklyn Heights."
+  },
+  {
+    "question": "How old is Sebastian Stan and where was he born?",
+    "answer": "Sebastian Stan was born on August 13, 1982, in Constanța, Romania, making him 44 years old in 2026. He stands 6 feet 0 inches tall (183 cm) and weighs approximately 175 lbs (79 kg). He lived in Romania until age eight before moving to Vienna, Austria, and later relocating to Rockland County, New York at age twelve."
+  },
+  {
+    "question": "Did Sebastian Stan win the Palme d'Or at Cannes in 2026 for 'Fjord'?",
+    "answer": "Yes. At the 79th Cannes Film Festival in May 2026, Sebastian Stan starred alongside Renate Reinsve in Romanian auteur Cristian Mungiu's legal drama 'Fjord'. The film received a 12-minute standing ovation at the Grand Théâtre Lumière and won the prestigious Palme d'Or (the festival's highest prize), positioning Stan as a top-tier contender for the 2027 Academy Award for Best Actor."
+  },
+  {
+    "question": "Was Sebastian Stan nominated for an Academy Award (Oscar) for 'The Apprentice'?",
+    "answer": "Yes. Sebastian Stan earned an Academy Award (Oscar) nomination for Best Actor at the 97th Academy Awards (2025) for his uncanny, critically acclaimed portrayal of young real estate developer Donald Trump in Ali Abbasi's historical drama 'The Apprentice' (2024), starring opposite Jeremy Strong and Maria Bakalova."
+  },
+  {
+    "question": "Did Sebastian Stan win the Silver Bear at the Berlin Film Festival?",
+    "answer": "Yes. In February 2024, Sebastian Stan won the prestigious Silver Bear for Best Leading Performance at the 74th Berlin International Film Festival (Berlinale) for his dual-role performance in Aaron Schimberg's A24 psychological drama 'A Different Man', which he also executive produced."
+  },
+  {
+    "question": "Who is Sebastian Stan's girlfriend or wife, and did they have a baby in 2026?",
+    "answer": "Sebastian Stan is in a long-term relationship with British actress Annabelle Wallis ('Peaky Blinders', 'The Tudors', 'Malignant'). The couple began dating in May 2022, live together in New York, and welcomed their first child in 2026, entering first-time parenthood."
+  },
+  {
+    "question": "Does Sebastian Stan speak Romanian and what is his ethnic background?",
+    "answer": "Yes, Sebastian Stan is 100% Romanian by descent and speaks fluent Romanian. Born in Constanța, Romania to classical pianist Georgeta Hayster, Stan survived the 1989 Romanian Revolution before moving to Vienna and the United States. He became a naturalized U.S. citizen in 2002 and showcased his fluent Romanian on screen in Marvel's 'Captain America: Civil War' (2016) and Cristian Mungiu's 2026 Cannes Palme d'Or winner 'Fjord'."
+  },
+  {
+    "question": "Is Sebastian Stan returning as Bucky Barnes / Winter Soldier in 'Avengers: Doomsday'?",
+    "answer": "Yes. Following his leadership role in Marvel's 'Thunderbolts*' (May 2025), Sebastian Stan reprises Sergeant James Buchanan 'Bucky' Barnes / The Winter Soldier in the Russo Brothers' 'Avengers: Doomsday' (scheduled for December 18, 2026) alongside Anthony Mackie, Robert Downey Jr. (Doctor Doom), and Chris Evans, and will continue into 'Avengers: Secret Wars' (2027)."
+  },
+  {
+    "question": "How much did Sebastian Stan make for Marvel and 'Thunderbolts*'?",
+    "answer": "Sebastian Stan has earned over $25 Million in cumulative compensation across eleven Marvel Cinematic Universe projects. He began on an entry-level contract of ~$300,000 for 'Captain America: The First Avenger' (2011), scaling to $2.5 Million for 'Civil War' (2016), $5.0 Million combined for 'Avengers: Infinity War' and 'Endgame', $3.0 Million for Disney+'s 'The Falcon and the Winter Soldier' (2021), and an estimated $4.0 Million package plus backend for 'Thunderbolts*' (2025)."
+  },
+  {
+    "question": "Did Sebastian Stan play Carter Baizen on 'Gossip Girl'?",
+    "answer": "Yes. From 2007 to 2010, Sebastian Stan portrayed charming, manipulative Upper East Side bad boy Carter Baizen across eleven episodes of The CW's hit teen drama 'Gossip Girl', a role that launched him into mainstream pop-culture recognition."
+  },
+  {
+    "question": "Who has Sebastian Stan dated in the past? (Dating history)",
+    "answer": "Prior to his relationship with Annabelle Wallis (2022–present), Sebastian Stan dated his 'Gossip Girl' co-star Leighton Meester from 2008 to 2010. He subsequently dated 'Glee' actress Dianna Agron (2011–2012), 'Once Upon a Time' co-star Jennifer Morrison (2012–2013), actress Margarita Levieva (2014–2016), and Spanish actress Alejandra Onieva (2020–2021)."
+  },
+  {
+    "question": "What real estate properties does Sebastian Stan own in New York?",
+    "answer": "Sebastian Stan owns two premier luxury properties in New York: an industrial cast-iron corner loft in Tribeca, Manhattan (purchased in 2018 for $3.8M, currently valued at $5.5M), and a renovated 19th-century Greek Revival four-story brownstone in Brooklyn Heights (purchased in 2022 for $5.2M, currently valued at $7.5M), totaling over $13.0 Million in verified property value."
+  }
 ]
+
 };
 
 

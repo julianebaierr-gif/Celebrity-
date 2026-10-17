@@ -666,7 +666,22 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "resolutionOrOutcome": "Beginning on the set of 'Captain America: Civil War' (2016), Mackie and his co-star Sebastian Stan launched a legendary, deadpan comedic 'feud' with teen Spider-Man star Tom Holland—jokingly complaining in every press junket that Holland was a 'diva' who needed juice boxes, while Holland playfully fired back at Comic-Con panels that Falcon didn't have his own movie yet (which Mackie later answered with 'Captain America: Brave New World').",
     "impactAnalysis": "Widely recognized by fans and journalists as one of the most entertaining running comedic bits in Marvel Studios press-tour history, with both actors confirming their genuine off-screen brotherhood."
   }
+],
+  "sebastian-stan": [
+  {
+    "incident": "Trump Campaign Legal Cease-and-Desist Threats Over 'The Apprentice' & Cannes Premiere",
+    "year": "2024",
+    "resolutionOrOutcome": "Following the May 2024 world premiere of Ali Abbasi's 'The Apprentice' at the Cannes Film Festival—where the film received an 11-minute standing ovation—Donald Trump's presidential campaign communications team condemned the film as 'pure fiction' and 'defamation', issuing formal cease-and-desist letters to director Ali Abbasi and distributor Briarcliff Entertainment threatening multimillion-dollar lawsuits to block its U.S. theatrical release. Stan defended the artistic integrity and historical research of the film during press junkets, stating: 'Nobody forced anyone into a corner. We spent months researching verbatim transcripts, public interviews, and court depositions. It's an American story about mentorship, Roy Cohn, and the cost of winning at all costs.'",
+    "impactAnalysis": "The controversy galvanized public interest, leading Briarcliff Entertainment to release the film theatrically in October 2024 to critical acclaim, culminating in Stan earning his first Academy Award (Oscar) nomination for Best Actor."
+  },
+  {
+    "incident": "Pam & Tommy Prosthetic Transformation & Public Real-Life Consent Dialogue",
+    "year": "2022",
+    "resolutionOrOutcome": "During the promotional cycle for Hulu's limited series 'Pam & Tommy', some commentators and culture critics raised ethical questions regarding the dramatization of Pamela Anderson and Tommy Lee's stolen 1995 honeymoon tape without Pamela Anderson's direct creative participation. Stan and co-star Lily James engaged thoughtfully with the discourse in interviews with Variety and The Hollywood Reporter, emphasizing that the production went to extraordinary lengths to indict the patriarchal 1990s paparazzi media ecosystem, the corporate theft of women's privacy, and the trauma of non-consensual image distribution, rather than sensationalizing the tape itself.",
+    "impactAnalysis": "The series earned 10 Primetime Emmy Award nominations, including a Best Actor nod for Stan, with critics praising the production's nuanced cultural critique of media exploitation."
+  }
 ]
+
 };
 
 

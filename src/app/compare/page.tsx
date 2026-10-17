@@ -95,6 +95,13 @@ const FEATURED_MATCHUPS = [
     sub: "The Two Captain Americas: Sam Wilson vs Steve Rogers, Broadway & Net Worth",
     category: "Marvel & Cinema",
   },
+  {
+    slug1: "sebastian-stan",
+    slug2: "anthony-mackie",
+    title: "Sebastian Stan vs Anthony Mackie",
+    sub: "Bucky Barnes vs Sam Wilson: The Falcon and the Winter Soldier Brothers, Cannes 2026 & Avengers: Doomsday",
+    category: "Marvel & Cinema",
+  },
 ];
 
 export default function CompareHubPage() {

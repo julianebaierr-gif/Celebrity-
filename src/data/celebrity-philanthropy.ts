@@ -1068,7 +1068,34 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "verifiedContribution": "In-Ward Captain America Visits & Alumni Mentorship",
     "description": "Frequently visits pediatric patients at Children's Hospital New Orleans as Sam Wilson / Captain America and mentors young actors coming up through the New Orleans Center for Creative Arts (NOCCA) and The Juilliard School Drama Division."
   }
+],
+  "sebastian-stan": [
+  {
+    "organizationOrCause": "Our Yesterday & Alzheimer's Association International",
+    "focusArea": "Alzheimer's Research, Memory Care & Caregiver Support",
+    "verifiedContribution": "Board Ambassador, Annual Gala Host & Dedicated Fundraiser",
+    "description": "Inspired by personal family experiences with dementia and memory loss, Stan has served for years as an active celebrity champion for Alzheimer's awareness, hosting benefit galas, auctioning set memorabilia (including a signed Winter Soldier shield), and raising hundreds of thousands of dollars for cognitive research and in-home caregiver respite care."
+  },
+  {
+    "organizationOrCause": "Ronald McDonald House New York",
+    "focusArea": "Pediatric Oncology Family Housing & Support Services",
+    "verifiedContribution": "Annual Gala Chair, Volunteer & Major Individual Benefactor",
+    "description": "Stan has been a dedicated supporter of Ronald McDonald House New York for over a decade, regularly visiting children battling pediatric cancer and their families staying in Manhattan, hosting charity film screenings, and serving on gala benefit committees to fund free lodging and supportive care."
+  },
+  {
+    "organizationOrCause": "Dramatic Needle & Romanian Youth Arts Education (Constanța Fund)",
+    "focusArea": "Arts Education, Theatre Grants & Post-Communist Cultural Revival",
+    "verifiedContribution": "Founder & Primary Endowment Donor",
+    "description": "Honoring his childhood roots in Constanța, Romania, Stan established dedicated arts grants providing modern stage equipment, English-language classical drama texts, and scholarship funding for underprivileged Romanian youth attending conservatory programs in Bucharest and Cluj-Napoca."
+  },
+  {
+    "organizationOrCause": "Charity: Water & Global Clean Water Initiatives",
+    "focusArea": "Sustainable Clean Drinking Water in Developing Nations",
+    "verifiedContribution": "Campaign Ambassador & Clean Water Well Benefactor",
+    "description": "Active advocate and major donor to Charity: Water, leveraging his social media platform to fund sustainable solar-powered wells and water filtration projects serving rural communities in sub-Saharan Africa."
+  }
 ]
+
 };
 
 

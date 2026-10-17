@@ -5543,7 +5543,133 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Audited 2026 valuation propelled by Captain America: Brave New World ($415.1M), Twisted Metal Seasons 2–3, Desert Warrior, Apple TV+'s 12 12 12, and Avengers: Doomsday."
     }
   ]
-}
+},
+  "sebastian-stan": {
+    "salaryMilestones": [
+      {
+        "project": "Thunderbolts* (Marvel Studios)",
+        "year": 2025,
+        "salary": "$4.0 Million USD (Lead Salary + Backend Participation)",
+        "boxOfficeOrBudget": "Marvel Studios Phase 5 / Phase 6 Launch",
+        "notes": "Anchored the anti-hero ensemble as veteran leader Bucky Barnes / The Winter Soldier opposite Florence Pugh and David Harbour."
+      },
+      {
+        "project": "The Apprentice (Briarcliff Entertainment)",
+        "year": 2024,
+        "salary": "$2.5 Million USD (Salary + Producer Backend Bonus)",
+        "boxOfficeOrBudget": "Academy Award Nominee for Best Actor (Dir. Ali Abbasi)",
+        "notes": "Portrayed young Donald Trump in Cannes sensation, earning an Oscar nomination for Best Actor."
+      },
+      {
+        "project": "The Falcon and the Winter Soldier (Disney+ / Marvel Studios)",
+        "year": 2021,
+        "salary": "$3.0 Million USD (~$500,000 Per Episode across 6 Episodes)",
+        "boxOfficeOrBudget": "Disney+ Limited Series ($150M Budget)",
+        "notes": "Co-headlined six-episode Marvel flagship series opposite Anthony Mackie, exploring Bucky's psychological recovery."
+      },
+      {
+        "project": "Pam & Tommy (Hulu / Annapurna Television)",
+        "year": 2022,
+        "salary": "$2.0 Million USD (8-Episode Limited Series)",
+        "boxOfficeOrBudget": "Primetime Emmy & Golden Globe Nominated",
+        "notes": "Underwent extreme physical and drumming transformation to portray rock star Tommy Lee opposite Lily James."
+      },
+      {
+        "project": "A Different Man (A24)",
+        "year": 2024,
+        "salary": "$1.0 Million USD + Executive Producer Equity",
+        "boxOfficeOrBudget": "Berlinale Silver Bear Winner for Best Leading Performance",
+        "notes": "Executive produced and starred in Aaron Schimberg's psychological drama, winning the Silver Bear at the 74th Berlinale."
+      },
+      {
+        "project": "Avengers: Infinity War (2018) & Avengers: Endgame (2019)",
+        "year": 2019,
+        "salary": "$5.0 Million USD Combined (Ensemble Salaries + Box Office Bonuses)",
+        "boxOfficeOrBudget": "$4.851 Billion Combined Worldwide Gross",
+        "notes": "Appeared as Bucky Barnes across the two highest-grossing Marvel films in cinematic history."
+      },
+      {
+        "project": "Captain America: The First Avenger (2011) through Civil War (2016)",
+        "year": 2016,
+        "salary": "$4.5 Million USD Cumulative (9-Picture Initial Marvel Agreement)",
+        "boxOfficeOrBudget": "$2.24 Billion Combined Trilogy Gross",
+        "notes": "Initial rookie Marvel contract starting at $300,000 for 'First Avenger' (2011) and escalating to $2.5 Million on 'Civil War' ($1.155B)."
+      },
+      {
+        "project": "Fjord (Cristian Mungiu Theatrical Feature)",
+        "year": 2026,
+        "salary": "$1.5 Million USD (European Prestige Production)",
+        "boxOfficeOrBudget": "79th Cannes Film Festival Palme d'Or Winner",
+        "notes": "Starred as Mihai Gheorghiu opposite Renate Reinsve in Cannes Palme d'Or triumph, securing 2027 Oscar buzz."
+      }
+    ],
+    "realEstateAssets": [
+      {
+        "property": "Tribeca Historic Cast-Iron Loft",
+        "location": "Tribeca, Lower Manhattan, New York",
+        "purchasedYear": "2018",
+        "purchasePrice": "$3.8 Million USD",
+        "currentEstimatedValue": "$5.5 Million USD",
+        "description": "A 2,400-square-foot luxury corner loft featuring exposed timber beams, brick walls, oversized sash windows, and custom screening lounge."
+      },
+      {
+        "property": "Brooklyn Heights Renovated Townhouse",
+        "location": "Brooklyn Heights, New York",
+        "purchasedYear": "2022",
+        "purchasePrice": "$5.2 Million USD",
+        "currentEstimatedValue": "$7.5 Million USD",
+        "description": "A meticulously restored 19th-century Greek Revival four-story brownstone featuring private garden courtyards and soundproofed library/nursery."
+      }
+    ],
+    "businessVentures": [
+      {
+        "name": "A24 Production Equity & Development Slate",
+        "role": "Executive Producer & Development Partner",
+        "valuationOrRevenue": "Independent Feature Co-Financing",
+        "description": "Co-produced 'A Different Man' (2024) with A24, establishing an active development slate focused on challenging psychological drama."
+      },
+      {
+        "name": "Luxury Brand Ambassadorships (Boss / Tommy Hilfiger / Montblanc)",
+        "role": "Global Campaign Ambassador",
+        "valuationOrRevenue": "$3.5M+ Annual Endorsements",
+        "description": "Longtime high-fashion editorial face of Hugo Boss tailoring, Tommy Hilfiger global campaigns, and Montblanc luxury timepieces."
+      },
+      {
+        "name": "Romanian & Eastern European Film Initiative",
+        "role": "Patron & Co-Producer",
+        "valuationOrRevenue": "Boutique Creative Incubator",
+        "description": "Active co-producer and investor supporting independent Romanian filmmakers and cross-cultural European cinema projects."
+      }
+    ],
+    "wealthProgression": [
+      {
+        "period": "2011",
+        "estimatedNetWorth": "$1.0 Million USD",
+        "milestoneDescription": "Early stage and TV breakthroughs spanning Gossip Girl, Kings, and Marvel debut in Captain America: The First Avenger."
+      },
+      {
+        "period": "2016",
+        "estimatedNetWorth": "$4.0 Million USD",
+        "milestoneDescription": "The Winter Soldier titular stardom, The Martian ($630M), and Captain America: Civil War ($1.155B)."
+      },
+      {
+        "period": "2020",
+        "estimatedNetWorth": "$8.0 Million USD",
+        "milestoneDescription": "Avengers: Endgame ($2.799B) bonus escalators, I, Tonya acclaim, and Disney+ series packaging."
+      },
+      {
+        "period": "2024",
+        "estimatedNetWorth": "$12.0 Million USD",
+        "milestoneDescription": "Emmy nod for Pam & Tommy, Berlinale Silver Bear for A Different Man, and Oscar nomination for The Apprentice."
+      },
+      {
+        "period": "2026",
+        "estimatedNetWorth": "$15.0 Million USD",
+        "milestoneDescription": "Certified 2026 net worth driven by Marvel's Thunderbolts*, Cannes Palme d'Or winner Fjord, Tribeca/Brooklyn real estate, and Avengers: Doomsday."
+      }
+    ]
+  }
+
 };
 
 
