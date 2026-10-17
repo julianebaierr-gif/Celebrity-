@@ -88,6 +88,13 @@ const FEATURED_MATCHUPS = [
     sub: "Avengers: Doomsday Co-Stars, Indie Auteurs & Blockbuster Equity",
     category: "Marvel & Cinema",
   },
+  {
+    slug1: "anthony-mackie",
+    slug2: "chris-evans",
+    title: "Anthony Mackie vs Chris Evans",
+    sub: "The Two Captain Americas: Sam Wilson vs Steve Rogers, Broadway & Net Worth",
+    category: "Marvel & Cinema",
+  },
 ];
 
 export default function CompareHubPage() {

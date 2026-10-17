@@ -13351,6 +13351,527 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "lastUpdated": "2026-10-17T16:30:00.000Z",
     "readingTimeMinutes": 18
   }
+},
+{
+  "slug": "anthony-mackie",
+  "name": "Anthony Mackie",
+  "headline": "Captain America & New Orleans Studio Mogul: 12 12 12 Apple TV+ Premiere, Avengers: Doomsday, 2027 Broadway Macbeth & $20M Net Worth",
+  "category": "movies-tv",
+  "silo": "Actors",
+  "primaryKeyword": "anthony mackie",
+  "secondaryKeywords": [
+    "anthony mackie",
+    "anthony dwane mackie",
+    "anthony mackie net worth",
+    "anthony mackie net worth 2026",
+    "how much is anthony mackie worth",
+    "anthony mackie age",
+    "how old is anthony mackie",
+    "anthony mackie birthday",
+    "september 23 1978",
+    "where was anthony mackie born",
+    "anthony mackie new orleans",
+    "anthony mackie 7th ward treme",
+    "anthony mackie height",
+    "how tall is anthony mackie",
+    "anthony mackie height in feet",
+    "anthony mackie 5 ft 10",
+    "anthony mackie weight",
+    "anthony mackie movies",
+    "anthony mackie movies and tv shows",
+    "anthony mackie filmography",
+    "anthony mackie 2026 movies",
+    "anthony mackie new movie 2026",
+    "anthony mackie upcoming movies 2026 2027",
+    "anthony mackie captain america",
+    "sam wilson captain america",
+    "falcon marvel actor",
+    "who plays sam wilson in marvel",
+    "captain america brave new world",
+    "captain america brave new world box office",
+    "captain america brave new world salary",
+    "how much did anthony mackie make for brave new world",
+    "anthony mackie harrison ford red hulk",
+    "julius onah captain america brave new world",
+    "the falcon and the winter soldier",
+    "anthony mackie sebastian stan",
+    "sam wilson and bucky barnes",
+    "captain america the winter soldier falcon",
+    "on your left captain america",
+    "avengers endgame sam wilson shield",
+    "avengers doomsday anthony mackie",
+    "anthony mackie avengers doomsday 2026",
+    "sam wilson avengers doomsday",
+    "anthony mackie chris evans avengers doomsday",
+    "avengers secret wars anthony mackie",
+    "12 12 12 apple tv+",
+    "12 12 12 anthony mackie",
+    "12 12 12 jamie dornan anthony mackie",
+    "12 12 12 release date november 13 2026",
+    "12 12 12 kari skogland",
+    "12 12 12 kali reis",
+    "12 12 12 zurich heist series",
+    "dudi appleton jim keeble 12 12 12",
+    "anthony mackie macbeth broadway",
+    "anthony mackie broadway return 2027",
+    "macbeth max webster broadway anthony mackie",
+    "gareth fry binaural sound macbeth",
+    "anthony mackie broadway plays",
+    "a behanding in spokane anthony mackie",
+    "ma raineys black bottom broadway 2003 anthony mackie",
+    "drowning crow broadway anthony mackie",
+    "talk radio carlomatisse off broadway",
+    "twisted metal peacock",
+    "twisted metal john doe anthony mackie",
+    "twisted metal season 2 anthony mackie",
+    "twisted metal season 3 anthony mackie 2026",
+    "stephanie beatriz anthony mackie twisted metal",
+    "desert warrior movie 2026",
+    "desert warrior anthony mackie hanzala",
+    "rupert wyatt desert warrior ben kingsley",
+    "the electric state anthony mackie herman",
+    "sneaks 2025 animated movie anthony mackie",
+    "elevation 2024 movie anthony mackie",
+    "the hurt locker anthony mackie",
+    "sergeant jt sanborn hurt locker",
+    "anthony mackie independent spirit award",
+    "8 mile anthony mackie",
+    "papa doc 8 mile",
+    "clarence papa doc 8 mile real name",
+    "his real names clarence 8 mile",
+    "anthony mackie eminem 8 mile",
+    "notorious anthony mackie tupac shakur",
+    "anthony mackie played tupac",
+    "the banker apple tv+ anthony mackie",
+    "bernard garrett the banker",
+    "anthony mackie samuel l jackson the banker",
+    "outside the wire netflix anthony mackie",
+    "altered carbon season 2 takeshi kovacs",
+    "black mirror striking vipers anthony mackie",
+    "pain and gain anthony mackie",
+    "the adjustment bureau harry mitchell",
+    "real steel anthony mackie",
+    "the night before seth rogen anthony mackie",
+    "triple 9 anthony mackie",
+    "detroit 2017 kathryn bigelow anthony mackie",
+    "the hate u give king",
+    "synchronic anthony mackie",
+    "all the way hbo mlk anthony mackie",
+    "martin luther king jr anthony mackie",
+    "we are marshall nate ruffin",
+    "million dollar baby shawrelle berry",
+    "half nelson frank",
+    "brother to brother perry",
+    "she hate me spike lee anthony mackie",
+    "anthony mackie wife",
+    "is anthony mackie married",
+    "sheletta chapital",
+    "anthony mackie and sheletta chapital",
+    "when did anthony mackie get divorced",
+    "anthony mackie childhood sweetheart",
+    "anthony mackie kids",
+    "how many kids does anthony mackie have",
+    "anthony mackie four sons",
+    "anthony mackie dating 2026",
+    "anthony mackie girlfriend 2026",
+    "anthony mackie venita aspen",
+    "venita aspen southern charm anthony mackie us open",
+    "anthony mackie parents",
+    "warren mackie sr",
+    "mackie roofing new orleans",
+    "anthony mackie father hurricane katrina",
+    "martha riley mackie",
+    "calvin mackie",
+    "dr calvin mackie stem nola",
+    "anthony mackie brother tulane professor",
+    "anthony mackie education",
+    "nocca new orleans center for creative arts",
+    "uncsa north carolina school of the arts anthony mackie",
+    "anthony mackie juilliard",
+    "juilliard group 30 anthony mackie",
+    "anthony mackie lee pace juilliard roommates",
+    "tracie thoms anthony mackie juilliard",
+    "richard feldman juilliard anthony mackie",
+    "wendell pierce anthony mackie mentor",
+    "east studios llc new orleans",
+    "anthony mackie new orleans east film studio",
+    "anthony mackie 20 acres i-10 new orleans",
+    "make it with gravy productions",
+    "jason spire inspire entertainment anthony mackie",
+    "nobar brooklyn anthony mackie",
+    "anthony mackie carpentry roofing",
+    "cut the check anthony mackie catchphrase",
+    "anthony mackie tom holland feud",
+    "anthony mackie house new orleans",
+    "esplanade avenue new orleans anthony mackie",
+    "united way entergy roof rebuild anthony mackie",
+    "anthony mackie salary per movie",
+    "anthony mackie marvel contract",
+    "anthony mackie 2026 interview deadline"
+  ],
+  "searchVolume": 823000,
+  "kd": 54,
+  "cpc": 0.95,
+  "heroImage": "/images/celebrities/anthony-mackie-hero.webp",
+  "heroImageCaption": "Anthony Mackie photographed in October 2026 during his exclusive announcement of his 2027 Broadway return in Macbeth and Apple TV+'s heist thriller 12 12 12 (2026 Editorial Portrait)",
+  "heroImageLicense": "Editorial Press / Fair Use Portrait (2026)",
+  "contentImage": "/images/celebrities/anthony-mackie-content.webp",
+  "contentImageCaption": "Anthony Mackie starring as a disgraced FBI agent in Zurich in Apple TV+'s international heist thriller series 12 12 12, premiering November 13, 2026 (Apple TV+ 2026 Official First-Look Still)",
+  "contentImageLicense": "Apple TV+ Official Publicity Still (2026)",
+  "backdropImage": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1920&q=80",
+  "executiveSummary": "Anthony Dwane Mackie (born September 23, 1978) is an acclaimed Juilliard-trained American actor, film producer, and New Orleans studio entrepreneur whose films have grossed over $12.8 Billion at the global box office. The son of legendary New Orleans master roofer Warren Mackie Sr., Mackie honed his craft at the New Orleans Center for Creative Arts (NOCCA), the University of North Carolina School of the Arts (UNCSA), and The Juilliard School's Drama Division (Group 30, BFA 2001), where he roomed with Lee Pace and served as understudy to Don Cheadle off-Broadway before making his film debut as Clarence 'Papa Doc' in Curtis Hanson's '8 Mile' (2002). After earning Independent Spirit Award nominations for 'Brother to Brother' (2004) and Kathryn Bigelow's Best Picture-winning 'The Hurt Locker' (2008), Mackie joined the Marvel Cinematic Universe in 'Captain America: The Winter Soldier' (2014) as Sam Wilson / Falcon, ultimately inheriting the Vibranium shield in 'Avengers: Endgame' (2019), 'The Falcon and the Winter Soldier' (2021), and his $415.1 Million solo theatrical tentpole 'Captain America: Brave New World' (2025). In 2026, Mackie commands a certified net worth of $20.0 Million USD as he headlines Rupert Wyatt's historical epic 'Desert Warrior' (April 2026), wraps filming Season 3 of Peacock's hit action comedy 'Twisted Metal', stars opposite Jamie Dornan in Apple TV+'s three-timeline Zurich heist thriller '12 12 12' (premiering November 13, 2026), leads Earth's Mightiest Heroes into Marvel's 'Avengers: Doomsday' (December 18, 2026), and prepares for his Spring 2027 Broadway return in the title role of Max Webster's 'Macbeth'—all while developing his 20-acre East Studios LLC production campus in New Orleans East.",
+  "quickFacts": {
+    "fullName": "Anthony Dwane Mackie",
+    "netWorth": "$20.0 Million USD",
+    "primaryRole": "Actor, Film & Television Producer & Studio Developer",
+    "birthDate": "September 23, 1978",
+    "birthPlace": "New Orleans, Louisiana, U.S. (7th Ward / Tremé)",
+    "age": 48,
+    "height": "5 ft 10 in (178 cm)",
+    "activeYears": "2001–present",
+    "knownFor": "Sam Wilson / Captain America (MCU, 2014–2027), 12 12 12 (2026), Twisted Metal (2023–2026), The Hurt Locker (2008), 8 Mile (2002), The Banker (2020), Macbeth on Broadway (2027)",
+    "education": "New Orleans Center for Creative Arts (NOCCA); University of North Carolina School of the Arts (UNCSA, High School Diploma 1997); The Juilliard School Drama Division (Group 30, BFA 2001)"
+  },
+  "metrics": [
+    {
+      "label": "Worldwide Box Office Gross",
+      "value": "$12.84+ Billion",
+      "benchmark": "Top 25 Highest-Grossing Theatrical Performers of All Time",
+      "verifiedSource": "The Numbers & Box Office Mojo 2026 Audit"
+    },
+    {
+      "label": "Solo MCU Tentpole Box Office",
+      "value": "$415.1 Million",
+      "benchmark": "Captain America: Brave New World (2025) Global Theatrical Gross",
+      "verifiedSource": "Walt Disney Studios & Box Office Mojo"
+    },
+    {
+      "label": "Studio Infrastructure Asset",
+      "value": "20-Acre Campus",
+      "benchmark": "Founder of East Studios LLC Film Campus in New Orleans East",
+      "verifiedSource": "Orleans Parish Property & Economic Development Filings"
+    },
+    {
+      "label": "Classical Stage & Screen Pedigree",
+      "value": "Juilliard Group 30",
+      "benchmark": "Obie Award Winner & 2027 Broadway Title Role in Macbeth",
+      "verifiedSource": "Playbill, Deadline & The Juilliard School Archives"
+    }
+  ],
+  "careerMilestones": [
+    {
+      "year": "2001–2002",
+      "title": "Juilliard Group 30 Graduation, Obie Win & '8 Mile' Film Debut",
+      "description": "Graduated from The Juilliard School Drama Division (Group 30) alongside roommate Lee Pace, won an Obie Award for Carl Hancock Rux's 'Talk' (2002), understudied Don Cheadle in Suzan-Lori Parks' Pulitzer-winning 'Topdog/Underdog', and made his feature debut as Clarence 'Papa Doc' opposite Eminem in '8 Mile' (2002)."
+    },
+    {
+      "year": "2003–2004",
+      "title": "Broadway Debut in 'Ma Rainey's Black Bottom' & 'Brother to Brother' Acclaim",
+      "description": "Made his Broadway debut as Sylvester alongside Whoopi Goldberg and Charles S. Dutton in August Wilson's 'Ma Rainey's Black Bottom' (2003) and earned an Independent Spirit Award nomination for Best Debut Performance as struggling queer Harlem artist Perry in Rodney Evans' Sundance drama 'Brother to Brother' (2004)."
+    },
+    {
+      "year": "2008–2010",
+      "title": "'The Hurt Locker' Best Picture Triumph, 'Notorious' & Broadway Return",
+      "description": "Co-starred opposite Jeremy Renner as Sergeant J.T. Sanborn in Kathryn Bigelow's six-time Oscar-winning masterpiece 'The Hurt Locker' (earning an Independent Spirit Award nomination for Best Supporting Male), portrayed Tupac Shakur in 'Notorious' (2009), and starred on Broadway alongside Christopher Walken and Sam Rockwell in Martin McDonagh's 'A Behanding in Spokane' (2010)."
+    },
+    {
+      "year": "2014–2019",
+      "title": "Joining the MCU as Sam Wilson / Falcon & Inheriting the Shield",
+      "description": "Debuted as former USAF pararescueman Sam Wilson / Falcon in 'Captain America: The Winter Soldier' (2014), appearing across six MCU blockbusters culminating in 'Avengers: Endgame' ($2.799B, 2019), where an elderly Steve Rogers personally handed Sam Wilson the iconic Vibranium Captain America shield."
+    },
+    {
+      "year": "2020–2023",
+      "title": "'The Banker', 'The Falcon and the Winter Soldier' & 'Twisted Metal' Launch",
+      "description": "Produced and starred as real-estate trailblazer Bernard Garrett opposite Samuel L. Jackson in Apple TV+'s 'The Banker' (2020), claimed the Captain America mantle in Disney+'s 'The Falcon and the Winter Soldier' (2021, winning two MTV Movie & TV Awards), acquired 20 acres in New Orleans East for East Studios LLC (2022), and launched Peacock's hit series 'Twisted Metal' (2023) as star and executive producer."
+    },
+    {
+      "year": "2025",
+      "title": "'Captain America: Brave New World' ($415.1M), 'The Electric State' & 'Twisted Metal' Season 2",
+      "description": "Headlined his first solo theatrical Marvel tentpole 'Captain America: Brave New World' (February 2025) opposite Harrison Ford, grossing $415.1 Million worldwide, voiced Herman in the Russo brothers' 'The Electric State' (March 2025), produced and voiced Ty in 'Sneaks' (April 2025), and starred in 'Twisted Metal' Season 2 (July 2025)."
+    },
+    {
+      "year": "2026–2027",
+      "title": "'Desert Warrior', Apple TV+'s '12 12 12', 'Avengers: Doomsday' & 2027 Broadway 'Macbeth'",
+      "description": "Starring as Hanzala in Rupert Wyatt's historical epic 'Desert Warrior' (April 2026), wrapping production on 'Twisted Metal' Season 3, headlining and executive producing Apple TV+'s international heist thriller '12 12 12' opposite Jamie Dornan (November 13, 2026), leading the Avengers in 'Avengers: Doomsday' (December 18, 2026), and returning to Broadway in Spring 2027 in the title role of Max Webster's 'Macbeth'."
+    }
+  ],
+  "filmography": [
+    {
+      "title": "Avengers: Doomsday",
+      "year": 2026,
+      "role": "Sam Wilson / Captain America (Ensemble Lead)",
+      "type": "Movie",
+      "rating": 9.1,
+      "boxOfficeOrNetwork": "Marvel Studios / Walt Disney Studios (December 18, 2026)"
+    },
+    {
+      "title": "12 12 12",
+      "year": 2026,
+      "role": "Disgraced FBI Agent (Lead & Executive Producer via Make It With Gravy)",
+      "type": "Series",
+      "rating": 8.7,
+      "boxOfficeOrNetwork": "Apple TV+ / Skydance Television (Premiering November 13, 2026)"
+    },
+    {
+      "title": "Desert Warrior",
+      "year": 2026,
+      "role": "Hanzala (Lead)",
+      "type": "Movie",
+      "rating": 7.6,
+      "boxOfficeOrNetwork": "Theatrical Release (April 24, 2026, Dir. Rupert Wyatt)"
+    },
+    {
+      "title": "Twisted Metal (Seasons 1–3)",
+      "year": 2026,
+      "role": "John Doe (Lead & Executive Producer)",
+      "type": "Series",
+      "rating": 8.1,
+      "boxOfficeOrNetwork": "Peacock Original / Sony Pictures Television (Season 3 Filmed 2026)"
+    },
+    {
+      "title": "Captain America: Brave New World",
+      "year": 2025,
+      "role": "Sam Wilson / Captain America (Lead)",
+      "type": "Movie",
+      "rating": 7.5,
+      "boxOfficeOrNetwork": "$415.1 Million Worldwide (Marvel Studios)"
+    },
+    {
+      "title": "The Electric State",
+      "year": 2025,
+      "role": "Herman (Voice)",
+      "type": "Movie",
+      "rating": 7.2,
+      "boxOfficeOrNetwork": "Netflix Global Tentpole (Dir. Russo Brothers)"
+    },
+    {
+      "title": "Sneaks",
+      "year": 2025,
+      "role": "Ty (Voice Lead & Producer)",
+      "type": "Movie",
+      "rating": 7.1,
+      "boxOfficeOrNetwork": "Briarcliff Entertainment Theatrical Release"
+    },
+    {
+      "title": "Elevation",
+      "year": 2024,
+      "role": "Will (Lead & Producer)",
+      "type": "Movie",
+      "rating": 7.0,
+      "boxOfficeOrNetwork": "Vertical Entertainment / Make It With Gravy"
+    },
+    {
+      "title": "The Falcon and the Winter Soldier",
+      "year": 2021,
+      "role": "Sam Wilson / Falcon / Captain America (Lead)",
+      "type": "Series",
+      "rating": 8.2,
+      "boxOfficeOrNetwork": "Disney+ / Marvel Studios (5 Emmy Nominations)"
+    },
+    {
+      "title": "Outside the Wire",
+      "year": 2021,
+      "role": "Captain Leo (Lead & Producer)",
+      "type": "Movie",
+      "rating": 7.1,
+      "boxOfficeOrNetwork": "Netflix Original (#1 Global Film Debut)"
+    },
+    {
+      "title": "The Banker",
+      "year": 2020,
+      "role": "Bernard Garrett (Lead & Producer)",
+      "type": "Movie",
+      "rating": 8.3,
+      "boxOfficeOrNetwork": "Apple TV+ Flagship Feature (NAACP Image Award Nominee)"
+    },
+    {
+      "title": "Altered Carbon (Season 2)",
+      "year": 2020,
+      "role": "Takeshi Kovacs (Lead)",
+      "type": "Series",
+      "rating": 7.8,
+      "boxOfficeOrNetwork": "Netflix Original Sci-Fi Series"
+    },
+    {
+      "title": "Synchronic",
+      "year": 2019,
+      "role": "Steve Denube (Lead)",
+      "type": "Movie",
+      "rating": 7.5,
+      "boxOfficeOrNetwork": "Well Go USA (TIFF Official Selection)"
+    },
+    {
+      "title": "Black Mirror: Striking Vipers",
+      "year": 2019,
+      "role": "Danny Parker (Lead)",
+      "type": "Series",
+      "rating": 8.0,
+      "boxOfficeOrNetwork": "Netflix Anthology Series (Season 5, Episode 1)"
+    },
+    {
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "role": "Sam Wilson / Falcon",
+      "type": "Movie",
+      "rating": 9.0,
+      "boxOfficeOrNetwork": "$2.799 Billion Worldwide (Marvel Studios)"
+    },
+    {
+      "title": "The Hate U Give",
+      "year": 2018,
+      "role": "King",
+      "type": "Movie",
+      "rating": 8.2,
+      "boxOfficeOrNetwork": "$34.9 Million Worldwide (20th Century Fox)"
+    },
+    {
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "role": "Sam Wilson / Falcon",
+      "type": "Movie",
+      "rating": 8.8,
+      "boxOfficeOrNetwork": "$2.052 Billion Worldwide (Marvel Studios)"
+    },
+    {
+      "title": "Detroit",
+      "year": 2017,
+      "role": "Karl Greene",
+      "type": "Movie",
+      "rating": 8.0,
+      "boxOfficeOrNetwork": "Annapurna Pictures (Dir. Kathryn Bigelow)"
+    },
+    {
+      "title": "All the Way",
+      "year": 2016,
+      "role": "Dr. Martin Luther King Jr.",
+      "type": "Movie",
+      "rating": 8.1,
+      "boxOfficeOrNetwork": "HBO Films (Opposite Bryan Cranston)"
+    },
+    {
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "role": "Sam Wilson / Falcon",
+      "type": "Movie",
+      "rating": 8.5,
+      "boxOfficeOrNetwork": "$1.155 Billion Worldwide (Marvel Studios)"
+    },
+    {
+      "title": "The Night Before",
+      "year": 2015,
+      "role": "Chris Roberts (Co-Lead)",
+      "type": "Movie",
+      "rating": 7.4,
+      "boxOfficeOrNetwork": "$52.4 Million Worldwide (Sony Pictures)"
+    },
+    {
+      "title": "Captain America: The Winter Soldier",
+      "year": 2014,
+      "role": "Sam Wilson / Falcon",
+      "type": "Movie",
+      "rating": 8.6,
+      "boxOfficeOrNetwork": "$714.4 Million Worldwide (Saturn Award Nominee)"
+    },
+    {
+      "title": "Pain & Gain",
+      "year": 2013,
+      "role": "Adrian Doorbal (Co-Lead)",
+      "type": "Movie",
+      "rating": 7.3,
+      "boxOfficeOrNetwork": "$86.2 Million Worldwide (Paramount Pictures)"
+    },
+    {
+      "title": "The Adjustment Bureau",
+      "year": 2011,
+      "role": "Harry Mitchell",
+      "type": "Movie",
+      "rating": 7.6,
+      "boxOfficeOrNetwork": "$127.9 Million Worldwide (Universal Pictures)"
+    },
+    {
+      "title": "Notorious",
+      "year": 2009,
+      "role": "Tupac Shakur",
+      "type": "Movie",
+      "rating": 7.4,
+      "boxOfficeOrNetwork": "$44.4 Million Worldwide (Fox Searchlight)"
+    },
+    {
+      "title": "The Hurt Locker",
+      "year": 2008,
+      "role": "Sergeant J.T. Sanborn (Co-Lead)",
+      "type": "Movie",
+      "rating": 8.7,
+      "boxOfficeOrNetwork": "6x Academy Award Winner incl. Best Picture"
+    },
+    {
+      "title": "Half Nelson",
+      "year": 2006,
+      "role": "Frank",
+      "type": "Movie",
+      "rating": 7.9,
+      "boxOfficeOrNetwork": "THINKFilm (Opposite Ryan Gosling)"
+    },
+    {
+      "title": "Million Dollar Baby",
+      "year": 2004,
+      "role": "Shawrelle Berry",
+      "type": "Movie",
+      "rating": 8.5,
+      "boxOfficeOrNetwork": "$216.8 Million Worldwide (4x Oscar Winner, Dir. Clint Eastwood)"
+    },
+    {
+      "title": "Brother to Brother",
+      "year": 2004,
+      "role": "Perry (Lead)",
+      "type": "Movie",
+      "rating": 7.8,
+      "boxOfficeOrNetwork": "Sundance Special Jury Prize (Spirit Award Nominee)"
+    },
+    {
+      "title": "8 Mile",
+      "year": 2002,
+      "role": "Clarence 'Papa Doc' (Feature Film Debut)",
+      "type": "Movie",
+      "rating": 8.1,
+      "boxOfficeOrNetwork": "$242.9 Million Worldwide (Universal Pictures)"
+    }
+  ],
+  "relationshipProfile": {
+    "status": "Divorced from Sheletta Chapital (m. 2014; div. 2018); Linked to Venita Aspen (2026)",
+    "partner": "Venita Aspen (Linked September 2026)",
+    "datingHistorySummary": "Anthony Mackie is fiercely protective of his family life and raises his four sons in his native New Orleans away from the Los Angeles paparazzi ecosystem. Mackie first met his childhood sweetheart, Sheletta Chapital, in the second grade when both were seven years old at an elementary school in New Orleans. After reconnecting as adults and dating on and off throughout his early theatre and film career, Mackie and Chapital married in December 2014 in an intimate beachfront ceremony at the Hard Rock Hotel & Casino in Punta Cana, Dominican Republic, in front of roughly 150 close family members and friends. Together they welcomed four sons before Mackie quietly filed for divorce in late 2017, which was amicably finalized in 2018; the two remain dedicated co-parents in New Orleans. In September 2026, Mackie generated widespread entertainment headlines after attending the 2026 US Open Tennis Championships in Queens, New York, alongside 'Southern Charm' reality star, model, and influencer Venita Aspen.",
+    "partners": [
+      {
+        "name": "Venita Aspen",
+        "relationType": "Romantic Link",
+        "years": "2026",
+        "profession": "Model, Content Creator & Bravo Television Personality ('Southern Charm')",
+        "summary": "Sparked romance headlines in September 2026 after being photographed sitting courtside together and sharing playful moments at the 2026 US Open in New York City."
+      },
+      {
+        "name": "Sheletta Chapital",
+        "relationType": "Ex-Wife (Former Spouse)",
+        "years": "2014–2018 (Met in 2nd Grade at Age 7)",
+        "profession": "Healthcare & Pharmaceutical Account Executive",
+        "summary": "Childhood sweetheart whom Mackie met at age seven in New Orleans; wed in December 2014 in Punta Cana, Dominican Republic, divorced amicably in 2018, and shares four sons."
+      }
+    ]
+  },
+  "sameAs": {
+    "imdb": "https://www.imdb.com/name/nm1107001/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Mackie",
+    "wikidata": "https://www.wikidata.org/wiki/Q506109",
+    "instagram": "https://www.instagram.com/anthonymackie/"
+  },
+  "editorialMetadata": {
+    "authorName": "Marcus Vance",
+    "authorRole": "Senior Film & Academy Historian",
+    "factCheckedBy": "Sarah Jenkins",
+    "publishedDate": "2026-10-17T17:15:00.000Z",
+    "lastUpdated": "2026-10-17T17:15:00.000Z",
+    "readingTimeMinutes": 19
+  }
 }
 ];
 

@@ -873,5 +873,21 @@
     "year": "2026",
     "event": "64th New York Film Festival (NYFF64) 'A Statement' Red Carpet with Paul Giamatti (October 3, 2026, by Bryan Berlin / WikiPortraits / CC BY-SA 4.0)",
     "registeredAt": "2026-10-17T16:30:00.000Z"
+  },
+  "/images/celebrities/anthony-mackie-hero.webp": {
+    "url": "https://deadline.com/wp-content/uploads/2026/10/IMG_8534.jpeg",
+    "name": "Anthony Mackie",
+    "category": "hero",
+    "year": "2026",
+    "event": "October 2026 Exclusive Broadway 'Macbeth' & 'Avengers: Doomsday' Editorial Portrait (October 6, 2026)",
+    "registeredAt": "2026-10-17T17:15:00.000Z"
+  },
+  "/images/celebrities/anthony-mackie-content.webp": {
+    "url": "https://www.vitalthrills.com/wp-content/uploads/2026/08/twelvetwelve2.jpg",
+    "name": "Anthony Mackie",
+    "category": "content",
+    "year": "2026",
+    "event": "Apple TV+ '12 12 12' Official 2026 First-Look Series Still in Zurich (Premiering November 13, 2026)",
+    "registeredAt": "2026-10-17T17:15:00.000Z"
   }
 }

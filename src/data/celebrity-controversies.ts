@@ -652,6 +652,20 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "resolutionOrOutcome": "Beginning during his 2004 promotion of the 'Friends' series finale on 'Late Night with Conan O'Brien', Rudd defied studio publicists by secretly replacing the official promotional clip of every single movie he promoted—including 'Anchorman', 'The 40-Year-Old Virgin', 'Role Models', and Marvel's 'Ant-Man'—with the exact same absurd 1988 B-movie clip from 'Mac and Me' showing a boy in a wheelchair rolling off a cliff into a lake while an alien watches. Although studio marketing executives initially worried about losing national broadcast airtime for expensive trailers, the running gag became one of the most famous viral phenomena in talk-show history, continuing onto O'Brien's podcast in 2022.",
     "impactAnalysis": "Cemented Rudd's reputation as a fearless comedic absurdist who refuses to take Hollywood promotional machinery too seriously, endearing him to audiences across multiple generations."
   }
+],
+  "anthony-mackie": [
+  {
+    "incident": "Rome 'Captain America: Brave New World' Press Tour Remarks & Instagram Clarification",
+    "year": "2025",
+    "resolutionOrOutcome": "In late January 2025, during a European press Q&A in Rome promoting 'Captain America: Brave New World', Mackie remarked that to him, Captain America 'represents a lot of different things and I don't think the term \"America\" should be one of those representations. It's about a man who keeps his word, who has honor, dignity and integrity.' After a clipped video went viral across social media and cable news, Mackie posted an Instagram Story the following day clarifying: 'Let me be clear about this, I am a proud American and taking on the shield of a hero like CAP is the honor of a lifetime. I have the utmost respect for those who serve and have served our country. CAP has universal characteristics that people all over the world can relate to.'",
+    "impactAnalysis": "Mackie's prompt, direct clarification defused the media cycle ahead of release weekend, and 'Captain America: Brave New World' opened to $100 Million domestically over Presidents' Day weekend on its way to $415.1 Million worldwide."
+  },
+  {
+    "incident": "Multi-Year Playful Marvel Press-Tour 'Feud' with Tom Holland",
+    "year": "2016–2026",
+    "resolutionOrOutcome": "Beginning on the set of 'Captain America: Civil War' (2016), Mackie and his co-star Sebastian Stan launched a legendary, deadpan comedic 'feud' with teen Spider-Man star Tom Holland—jokingly complaining in every press junket that Holland was a 'diva' who needed juice boxes, while Holland playfully fired back at Comic-Con panels that Falcon didn't have his own movie yet (which Mackie later answered with 'Captain America: Brave New World').",
+    "impactAnalysis": "Widely recognized by fans and journalists as one of the most entertaining running comedic bits in Marvel Studios press-tour history, with both actors confirming their genuine off-screen brotherhood."
+  }
 ]
 };
 

@@ -5425,6 +5425,124 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Audited 2026 valuation propelled by Ghostbusters: Frozen Empire, Emmy-nominated Only Murders in the Building, A24's Death of a Unicorn & Friendship, Sony's Anaconda, Lionsgate's Power Ballad, NYFF64's A Statement, and Avengers: Doomsday."
     }
   ]
+},
+  "anthony-mackie": {
+  "salaryMilestones": [
+    {
+      "project": "Avengers: Doomsday (2026) & Avengers: Secret Wars (2027)",
+      "year": 2026,
+      "salary": "$8.0 Million+ USD (Combined Multi-Film Captain America Lead & Backend Package)",
+      "boxOfficeOrBudget": "Marvel Studios / Walt Disney Studios Phase 6 Tentpoles",
+      "notes": "Commands top-tier Avengers team-leader compensation as Sam Wilson / Captain America across the Russo Brothers' Phase 6 two-part multiverse culmination."
+    },
+    {
+      "project": "12 12 12 (Apple TV+ Series, Premiering November 13, 2026)",
+      "year": 2026,
+      "salary": "$4.0 Million USD (8-Episode Star & Executive Producer Package)",
+      "boxOfficeOrBudget": "Apple TV+ / Skydance Television Global Series",
+      "notes": "Earned ~$500,000 per episode combining leading actor compensation and Make It With Gravy executive producing fees opposite Jamie Dornan."
+    },
+    {
+      "project": "Captain America: Brave New World (Marvel Studios)",
+      "year": 2025,
+      "salary": "$6.0 Million USD (Upfront Lead Salary + Box Office Escalators)",
+      "boxOfficeOrBudget": "$415.1 Million Worldwide ($180M Budget)",
+      "notes": "Marked a massive salary leap for Mackie's first solo theatrical feature carrying the Captain America title opposite Harrison Ford."
+    },
+    {
+      "project": "Twisted Metal (Seasons 1–3, Peacock / Sony Pictures TV)",
+      "year": 2026,
+      "salary": "$7.5 Million USD Cumulative (Across 3 Seasons as Lead & Executive Producer)",
+      "boxOfficeOrBudget": "Peacock #1 Original Comedy Launch & 3-Season Franchise",
+      "notes": "Escalating per-episode star and executive producer compensation across Seasons 1 (2023), 2 (2025), and 3 (filmed 2026)."
+    },
+    {
+      "project": "The Falcon and the Winter Soldier (Disney+ / Marvel Studios)",
+      "year": 2021,
+      "salary": "$2.85 Million USD (~$475,000 Per Episode across 6 Episodes)",
+      "boxOfficeOrBudget": "Disney+ Flagship Limited Series ($150M Budget)",
+      "notes": "Transitioned Sam Wilson from Falcon to Captain America in Marvel Studios' five-time Emmy-nominated limited series."
+    },
+    {
+      "project": "Outside the Wire (Netflix) & Altered Carbon Season 2 (Netflix)",
+      "year": 2021,
+      "salary": "$5.4 Million USD Combined ($3.0M for Altered Carbon S2; $2.4M for Outside the Wire)",
+      "boxOfficeOrBudget": "Netflix Global #1 Original Film & Sci-Fi Series",
+      "notes": "Earned ~$375,000 per episode across eight episodes of 'Altered Carbon' Season 2 plus lead/producer fees on Netflix's 'Outside the Wire'."
+    },
+    {
+      "project": "Captain America: The Winter Soldier (2014) through Avengers: Endgame (2019)",
+      "year": 2019,
+      "salary": "$4.5 Million+ USD Cumulative (Initial 6-Film Falcon Contract + Backend Bonuses)",
+      "boxOfficeOrBudget": "$8.64 Billion Combined Worldwide MCU Gross",
+      "notes": "Started at a modest ~$100,000 base for 'The Winter Soldier' (2014) before earning escalating ensemble fees and 'Cut the check!' box-office bonuses on '$1.15B Civil War', '$2.05B Infinity War', and '$2.799B Endgame'."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "20-Acre East Studios LLC Film & Television Production Campus",
+      "location": "New Orleans East (I-10 Service Road / Read & Crowder Blvd), New Orleans, Louisiana",
+      "purchasedYear": "2022",
+      "purchasePrice": "$1.8 Million USD (Land Acquisition)",
+      "currentEstimatedValue": "$6.5 Million USD (Land & Phase-1 Infrastructure Valuation)",
+      "description": "In March 2022, Mackie purchased a 20-acre undeveloped commercial tract along the I-10 Service Road in New Orleans East to build a major soundstage and production hub revitalizing the post-Katrina corridor."
+    },
+    {
+      "property": "Historic Tremé / Esplanade Avenue Restored Family Residence",
+      "location": "Tremé / Esplanade Avenue Corridor, New Orleans, Louisiana",
+      "purchasedYear": "2008",
+      "purchasePrice": "$950,000 USD",
+      "currentEstimatedValue": "$2.8 Million USD",
+      "description": "After living in Brooklyn for a decade following Juilliard, Mackie relocated full-time back to his native New Orleans in 2008, restoring a historic multi-bedroom residence where he personally renovated the woodwork and cabinetry."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "East Studios LLC (New Orleans East Film Campus)",
+      "role": "Founder & Managing Principal",
+      "valuationOrRevenue": "20-Acre Gulf South Film & TV Production Development",
+      "description": "Founded by Mackie in 2022 to establish a permanent, locally owned soundstage and post-production ecosystem in New Orleans East, capitalizing on Louisiana's film tax credit infrastructure."
+    },
+    {
+      "name": "Make It With Gravy Productions",
+      "role": "Founder & Executive Producer (with Partner Jason Spire)",
+      "valuationOrRevenue": "Multi-Project Slate across Apple TV+, Peacock, Netflix & Theatrical",
+      "description": "Mackie's film and television production banner responsible for Apple TV+'s 'The Banker' (2020) and '12 12 12' (2026), Netflix's 'Outside the Wire' (2021), Vertical's 'Elevation' (2024), and Peacock's 'Twisted Metal' (Seasons 1–3)."
+    },
+    {
+      "name": "NoBar (Bed-Stuy & Williamsburg, Brooklyn Hospitality Venture)",
+      "role": "Founder, Builder & Former Proprietor",
+      "valuationOrRevenue": "Neighborhood Craft Cocktail Lounge Concept (2011–2015)",
+      "description": "Opened his first bar on Nostrand Avenue in Bedford-Stuyvesant, Brooklyn in summer 2011—personally building the tables and bar woodwork—followed by a second Williamsburg outpost in 2013."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2008",
+      "estimatedNetWorth": "$1.0 Million USD",
+      "milestoneDescription": "Early stage and indie film career spanning 8 Mile, Broadway's Ma Rainey's Black Bottom, Million Dollar Baby, and Best Picture winner The Hurt Locker."
+    },
+    {
+      "period": "2014",
+      "estimatedNetWorth": "$4.0 Million USD",
+      "milestoneDescription": "Transitioned to mainstream studio features via The Adjustment Bureau, Real Steel, Pain & Gain, and MCU debut as Sam Wilson / Falcon in Captain America: The Winter Soldier."
+    },
+    {
+      "period": "2020",
+      "estimatedNetWorth": "$8.0 Million USD",
+      "milestoneDescription": "Appeared across six MCU blockbusters culminating in Avengers: Endgame ($2.799B), plus Netflix's Altered Carbon Season 2 and Apple TV+'s The Banker."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$14.0 Million USD",
+      "milestoneDescription": "Headlined Disney+'s The Falcon and the Winter Soldier, Netflix's Outside the Wire, and Season 1 of Peacock's Twisted Metal, while acquiring 20 acres for East Studios LLC."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$20.0 Million USD",
+      "milestoneDescription": "Audited 2026 valuation propelled by Captain America: Brave New World ($415.1M), Twisted Metal Seasons 2–3, Desert Warrior, Apple TV+'s 12 12 12, and Avengers: Doomsday."
+    }
+  ]
 }
 };
 

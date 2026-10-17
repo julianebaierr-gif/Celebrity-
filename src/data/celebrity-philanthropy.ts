@@ -1042,6 +1042,32 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "verifiedContribution": "Rhinebeck Local Patron & Personal Youth Mentorship",
     "description": "Through Samuel's Sweet Shop and personal donations, Rudd and wife Julie Yaeger support Astor Services for Children & Families in Rhinebeck, NY, and in 2022 Rudd personally befriended, FaceTimed, and gifted a signed Ant-Man helmet to 12-year-old Colorado student Brody Ridder after classmates refused to sign his school yearbook."
   }
+],
+  "anthony-mackie": [
+  {
+    "organizationOrCause": "United Way of Southeast Louisiana & Entergy New Orleans Roof-Rebuild Initiative",
+    "focusArea": "Elderly & Low-Income Hurricane Roof Replacement in New Orleans",
+    "verifiedContribution": "Co-Founder & Hands-On Volunteer (Honoring Warren Mackie Sr.'s Mackie Roofing Legacy)",
+    "description": "Honoring his late father Warren Mackie Sr.—who ran Mackie Roofing for decades before perishing in the aftermath of Hurricane Katrina in 2005—Anthony Mackie and his brother Dr. Calvin Mackie partnered with United Way of Southeast Louisiana and Entergy New Orleans to fund and physically install new, storm-resilient roofs for low-income and elderly New Orleans homeowners."
+  },
+  {
+    "organizationOrCause": "STEM NOLA & STEM Global Action (Founded by Dr. Calvin Mackie)",
+    "focusArea": "Hands-On K-12 Science, Technology, Engineering & Math Education for Underserved Youth",
+    "verifiedContribution": "National Advocate, Event Patron & Scholarship Benefactor",
+    "description": "Actively champions and amplifies his older brother Dr. Calvin Mackie's nationally recognized nonprofit STEM NOLA / STEM Global Action, which has engaged more than 125,000 K-12 students across New Orleans and the Gulf South in hands-on engineering Saturdays and career pathways."
+  },
+  {
+    "organizationOrCause": "New Orleans Film & Hospitality Worker Relief Funds (IATSE Local 478 & United Way)",
+    "focusArea": "Emergency Grocery & Financial Relief for Below-the-Line Crew & Service Workers",
+    "verifiedContribution": "Lead Donor & Matching Campaign Organizer",
+    "description": "Partnered with United Way of Southeast Louisiana and local New Orleans grocers to fund direct grocery stipends and emergency financial grants for out-of-work New Orleans hospitality employees and below-the-line IATSE film crew members during industry shutdowns."
+  },
+  {
+    "organizationOrCause": "Children's Hospital New Orleans & The Juilliard School Drama Scholarship Initiatives",
+    "focusArea": "Pediatric Healthcare Morale & Performing Arts Conservatory Access",
+    "verifiedContribution": "In-Ward Captain America Visits & Alumni Mentorship",
+    "description": "Frequently visits pediatric patients at Children's Hospital New Orleans as Sam Wilson / Captain America and mentors young actors coming up through the New Orleans Center for Creative Arts (NOCCA) and The Juilliard School Drama Division."
+  }
 ]
 };
 

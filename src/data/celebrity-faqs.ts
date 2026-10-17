@@ -2288,6 +2288,56 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "Why doesn't Paul Rudd have an official Instagram or Twitter/X account?",
     "answer": "Paul Rudd has deliberately abstained from maintaining personal social media accounts on Instagram, X (formerly Twitter), or TikTok throughout his career, preferring to protect his family's privacy in Rhinebeck, New York, and allowing his film, stage, and philanthropic work to speak for itself."
   }
+],
+  "anthony-mackie": [
+  {
+    "question": "What is Anthony Mackie's net worth in 2026?",
+    "answer": "As of 2026, Anthony Mackie's certified net worth is $20.0 Million USD. His wealth is built on his $6.0 Million+ solo lead payday for Marvel Studios' 'Captain America: Brave New World' ($415.1M worldwide box office), his multi-million-dollar ensemble lead contract for 'Avengers: Doomsday' (2026) and 'Avengers: Secret Wars' (2027), star and executive producer packages for Apple TV+'s '12 12 12' (2026) and three seasons of Peacock's 'Twisted Metal', his Make It With Gravy production company, and his 20-acre East Studios LLC film production campus in New Orleans East."
+  },
+  {
+    "question": "How old is Anthony Mackie and where was he born?",
+    "answer": "Anthony Dwane Mackie was born on September 23, 1978, making him 48 years old as of October 2026. He was born and raised in New Orleans, Louisiana (in the historic 7th Ward and Tremé neighborhoods), and stands 5 feet 10 inches (178 cm) tall."
+  },
+  {
+    "question": "What is Anthony Mackie's new Apple TV+ series '12 12 12' about and when does it premiere?",
+    "answer": "Premiering globally on Apple TV+ on November 13, 2026, '12 12 12' is an eight-episode international heist thriller created by Dudi Appleton and Jim Keeble and directed by Kari Skogland ('The Falcon and the Winter Soldier'). Anthony Mackie stars as a disgraced FBI agent opposite Jamie Dornan (as an American career criminal) and Kali Reis, with the story unfolding across three timelines: 12 months of planning, 12 hours executing a raid on an underground bank vault beneath Zurich, and 12 days of relentless pursuit across Europe. Mackie also executive produces via Make It With Gravy."
+  },
+  {
+    "question": "Is Anthony Mackie returning to Broadway as Macbeth in 2027?",
+    "answer": "Yes. On October 6, 2026, Deadline and Playbill announced that Anthony Mackie will return to Broadway in Spring 2027—after a 17-year absence since Martin McDonagh's 'A Behanding in Spokane' (2010)—to star in the title role of William Shakespeare's 'Macbeth'. Directed by Max Webster in a transfer of the acclaimed Donmar Warehouse production, the staging uses Tony and Olivier winner Gareth Fry's 3D binaural sound design, where audience members wear headphones throughout the performance."
+  },
+  {
+    "question": "Is Anthony Mackie still Captain America in 'Avengers: Doomsday' (2026)?",
+    "answer": "Yes. Following his $415.1 Million solo theatrical tentpole 'Captain America: Brave New World' (February 2025), Anthony Mackie leads the new Avengers team as Sam Wilson / Captain America in 'Avengers: Doomsday' (releasing December 18, 2026) and 'Avengers: Secret Wars' (2027). In an October 2026 interview with Deadline after wrapping filming in London, Mackie confirmed that even with Chris Evans returning in the multiverse epic, Sam Wilson remains Captain America."
+  },
+  {
+    "question": "Was Anthony Mackie married and who is Sheletta Chapital?",
+    "answer": "Anthony Mackie was married to his childhood sweetheart, Sheletta Chapital, whom he first met in the second grade at age seven at an elementary school in New Orleans. After reconnecting as adults, they married in December 2014 in a private beachfront ceremony in Punta Cana, Dominican Republic, and quietly divorced in 2018. They share four sons and co-parent amicably in New Orleans. In September 2026, Mackie was romantically linked to 'Southern Charm' star and model Venita Aspen after the pair attended the 2026 US Open together."
+  },
+  {
+    "question": "Who were Anthony Mackie's parents and who is his brother Dr. Calvin Mackie?",
+    "answer": "Anthony Mackie is the youngest of six children born to Warren Mackie Sr. and Martha (née Riley) Mackie. His father, Warren Sr., owned and operated a successful family contracting business, Mackie Roofing, in New Orleans and tragically died in August 2005 at age 78 after refusing to evacuate his home during Hurricane Katrina. Anthony's older brother, Dr. Calvin Mackie, is a former tenured Associate Professor of Mechanical Engineering at Tulane University, a Presidential Award recipient, and the founder of the national education nonprofit STEM NOLA / STEM Global Action."
+  },
+  {
+    "question": "Where did Anthony Mackie go to school and who was his roommate at Juilliard?",
+    "answer": "Anthony Mackie attended the New Orleans Center for Creative Arts (NOCCA) and graduated from the high school drama conservatory at the University of North Carolina School of the Arts (UNCSA) in 1997. He then graduated from The Juilliard School's Drama Division in New York City (Group 30, 1997–2001) with a Bachelor of Fine Arts (BFA), where he was college roommates for four years with fellow actor Lee Pace and classmates with Tracie Thoms."
+  },
+  {
+    "question": "Did Anthony Mackie play Papa Doc in '8 Mile' and Tupac Shakur in 'Notorious'?",
+    "answer": "Yes. Anthony Mackie made his feature film debut in Curtis Hanson's '8 Mile' (2002) as Clarence 'Papa Doc', the leader of the Free World crew who faces Eminem's B-Rabbit in the final Detroit rap battle. Seven years later, Mackie portrayed legendary rapper Tupac Shakur in the 2009 Fox Searchlight biopic 'Notorious' before starring opposite Jeremy Renner in Kathryn Bigelow's six-time Oscar-winning Best Picture 'The Hurt Locker' (2008/2009)."
+  },
+  {
+    "question": "Has Peacock's 'Twisted Metal' been renewed for Season 3 with Anthony Mackie?",
+    "answer": "Yes. Anthony Mackie stars as milkman John Doe and serves as executive producer on Peacock's hit post-apocalyptic action comedy 'Twisted Metal' alongside Stephanie Beatriz and Will Arnett/Samoa Joe. Following Season 1 (2023) and Season 2 (July 2025), Mackie confirmed to Deadline in October 2026 that he recently wrapped filming Season 3 of 'Twisted Metal'."
+  },
+  {
+    "question": "What is East Studios LLC in New Orleans?",
+    "answer": "East Studios LLC is a film and television studio development company founded by Anthony Mackie. In March 2022, Mackie purchased a 20-acre parcel of land along the I-10 Service Road in New Orleans East to construct a state-of-the-art soundstage and production campus, creating local jobs and revitalizing the post-Katrina neighborhood where he was raised."
+  },
+  {
+    "question": "What does Anthony Mackie's catchphrase 'Cut the check!' mean?",
+    "answer": "Coined during the filming of 'Captain America: The Winter Soldier' (2014), 'Cut the check!' is Anthony Mackie's famous on-set celebratory exclamation whenever a director nails a complex take on the first try—signaling that the scene is in the can and the studio can pay the cast and crew."
+  }
 ]
 };
 
