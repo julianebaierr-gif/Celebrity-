@@ -2188,6 +2188,56 @@ export const CELEBRITY_FAQS: Record<string, FaqItem[]> = {
     "question": "Where does Tom Hiddleston live?",
     "answer": "Tom Hiddleston resides in a historic four-story Georgian townhouse in the leafy residential enclave of Belsize Park in Camden, North West London, near Hampstead Heath, where he lives with his fiancée Zawe Ashton, their child, and his red English Cocker Spaniel, Bobby. He also maintains a private countryside retreat in West Sussex."
   }
+],
+  "benedict-cumberbatch": [
+  {
+    "question": "What is Benedict Cumberbatch's net worth in 2026?",
+    "answer": "As of 2026, Benedict Cumberbatch's audited net worth is $40.0 Million USD (approximately £32 Million). His wealth is anchored by his Marvel Studios salaries and box office bonuses (including a $7.5M base salary plus backend escalators totaling over $10M for 'Doctor Strange in the Multiverse of Madness' and his upcoming return in 'Avengers: Doomsday'), prestige leading fees ('The Power of the Dog', 'The Roses', 'Eric'), global luxury ambassadorships with Jaeger-LeCoultre and Prada, equity in his production banner SunnyMarch Ltd., and over $8 Million in North London real estate."
+  },
+  {
+    "question": "How old is Benedict Cumberbatch in 2026, and how tall is he?",
+    "answer": "Born on July 19, 1976, at Queen Charlotte's Hospital in Hammersmith, London, Benedict Cumberbatch turned 50 years old in July 2026. He stands 6 feet 0 inches tall (183 cm) and weighs approximately 78 kg (172 lbs)."
+  },
+  {
+    "question": "Who is Benedict Cumberbatch's wife, Sophie Hunter, and how many children do they have?",
+    "answer": "Benedict Cumberbatch is married to Oxford-educated and Lecoq-trained British theatre and opera director and playwright Sophie Hunter, whom he first met in 2009 while filming 'Burlesque Fairytales'. After announcing their engagement in the traditional Forthcoming Marriages column of The Times in November 2014, the couple wed on Valentine's Day, February 14, 2015, at the 12th-century Church of St. Peter and St. Paul in Mottistone on the Isle of Wight. They have three sons: Christopher 'Kit' Carlton Cumberbatch (born June 2015), Hal Auden Cumberbatch (born March 2017), and Finn Cumberbatch (born January 2019)."
+  },
+  {
+    "question": "Is Benedict Cumberbatch returning as Doctor Strange in Avengers: Doomsday (2026)?",
+    "answer": "Yes. Benedict Cumberbatch is returning as Dr. Stephen Strange in Marvel Studios' Phase 6 tentpole 'Avengers: Doomsday', directed by Joe and Anthony Russo and scheduled for theatrical release on December 18, 2026, alongside Robert Downey Jr., Tom Hiddleston, and the core Marvel ensemble, as well as the subsequent 'Avengers: Secret Wars'."
+  },
+  {
+    "question": "What are Benedict Cumberbatch's latest 2025 and 2026 movies and documentaries?",
+    "answer": "Across 2025 and 2026, Benedict Cumberbatch starred as a grieving father in Dylan Southern's 'The Thing with Feathers' (2025, earning the Zurich Film Festival Golden Eye Award and a BIFA Best Lead Performance nomination), portrayed Uncle Nubar in Wes Anderson's 'The Phoenician Scheme' (May 2025), and co-starred opposite Olivia Colman as architect Theo Rose in Searchlight Pictures' 'The Roses' (August 2025). On September 20, 2026, he debuted as the on-screen presenter of Open Planet Studios' landmark climate documentary 'How to Live on Earth' (directed by Fredi Devas with music by Hans Zimmer and Imogen Heap), starred in Prada's 2026 UNESCO SEA BEYOND ocean documentary in Japan, and prepares for 'Avengers: Doomsday' (December 2026), Guy Ritchie's 'Wife & Dog', and Cary Joji Fukunaga's 'Blood on Snow'."
+  },
+  {
+    "question": "Who are Benedict Cumberbatch's parents, and did they appear in Sherlock?",
+    "answer": "Benedict Cumberbatch's parents are veteran British actors Timothy Carlton (born Timothy Carlton Congdon Cumberbatch) and Wanda Ventham. In a beloved meta-casting moment arranged by co-creators Steven Moffat and Mark Gatiss, Timothy Carlton and Wanda Ventham portrayed Sherlock and Mycroft Holmes's actual on-screen parents in Series 3 and Series 4 of BBC's 'Sherlock' (2014–2017)."
+  },
+  {
+    "question": "Why do Benedict Cumberbatch's eyes appear to change color?",
+    "answer": "Benedict Cumberbatch has sectoral heterochromia—a rare genetic condition in which each iris contains distinct segments of blue, green, and gold pigment. Depending on studio lighting, sun angle, and wardrobe colors, his eyes appear to shift between icy blue, emerald green, and hazel."
+  },
+  {
+    "question": "Has Benedict Cumberbatch won an Academy Award, an Emmy, a BAFTA, or an Olivier Award?",
+    "answer": "Benedict Cumberbatch is a two-time Academy Award nominee for Best Actor—first for portraying Alan Turing in 'The Imitation Game' (2014) and second for portraying Phil Burbank in Jane Campion's 'The Power of the Dog' (2021)—and starred in Wes Anderson's Academy Award-winning short 'The Wonderful Story of Henry Sugar' (2023). He has won the Primetime Emmy Award for Outstanding Lead Actor ('Sherlock: His Last Vow', 2014), the BAFTA TV Award for Best Actor ('Patrick Melrose', 2019), and the Laurence Olivier Award for Best Actor ('Frankenstein', 2011, shared with Jonny Lee Miller)."
+  },
+  {
+    "question": "Where did Benedict Cumberbatch go to school, and what is his connection to LAMDA?",
+    "answer": "Cumberbatch boarded at Brambletye School in West Sussex and won an arts scholarship to Harrow School. After a gap year teaching English at a Tibetan Buddhist monastery in Darjeeling, India, he earned a BA in Drama from the Victoria University of Manchester and an MA in Classical Acting from the London Academy of Music and Dramatic Art (LAMDA). In January 2018, Cumberbatch was appointed President of LAMDA, succeeding Timothy West."
+  },
+  {
+    "question": "What happened to Benedict Cumberbatch in South Africa in 2004?",
+    "answer": "In 2004, while filming the BBC miniseries 'To the Ends of the Earth' in KwaZulu-Natal, South Africa, Cumberbatch and two co-stars (Denise Black and Theo Landey) suffered a tire blowout at night after a scuba-diving trip near the Mozambique border. Six armed men ambushed them, tied Cumberbatch's hands with shoelaces, and forced him into the trunk of a car. Cumberbatch successfully argued that keeping him in the cramped trunk could cause a fatal medical emergency, persuading the abductors to release all three actors unharmed."
+  },
+  {
+    "question": "How is Benedict Cumberbatch related to King Richard III?",
+    "answer": "Genealogical researchers at the University of Leicester led by Professor Kevin Schürer traced Cumberbatch's lineage back through Edward III and Queen Joan Beaufort to confirm that he is the third cousin, 16 times removed, of King Richard III. In March 2015, Cumberbatch read a poem by Poet Laureate Carol Ann Duffy at Richard III's state reburial at Leicester Cathedral, and he portrayed the monarch on screen in the BBC's 'The Hollow Crown: The Wars of the Roses' (2016)."
+  },
+  {
+    "question": "What is SunnyMarch, and what films and shows has it produced?",
+    "answer": "SunnyMarch Ltd. is an independent London film and television production company co-founded in 2013 by Benedict Cumberbatch and producer Adam Ackland. Named after a portmanteau that evokes optimism and forward momentum, SunnyMarch has produced 'Patrick Melrose' (2018), 'The Courier' (2020), 'The Mauritanian' (2021), 'The Electrical Life of Louis Wain' (2021), 'The End We Start From' (2023), 'We Live in Time' (2024), 'The Thing with Feathers' (2025), 'The Roses' (2025), and the upcoming A24 series 'White Smoke'."
+  }
 ]
 };
 

@@ -5151,6 +5151,142 @@ export const CELEBRITY_FINANCIALS: Record<string, FinancialDossier> = {
       "milestoneDescription": "Certified 2026 net worth driven by The Night Manager Season 2, Apple's Tenzing, Much Ado About Nothing West End run, and Avengers: Doomsday."
     }
   ]
+},
+  "benedict-cumberbatch": {
+  "salaryMilestones": [
+    {
+      "project": "Sherlock (BBC / Masterpiece PBS — Series 1–4)",
+      "year": 2010,
+      "salary": "$150,000 – $400,000 USD / Episode + Global Syndication Royalties",
+      "boxOfficeOrBudget": "BBC One / Hartswood Films (200+ Territories)",
+      "notes": "Breakout global television phenomenon earning him the 2014 Primetime Emmy Award for Outstanding Lead Actor."
+    },
+    {
+      "project": "The Hobbit Trilogy (Smaug & The Necromancer)",
+      "year": 2012,
+      "salary": "$2.5 Million USD Trilogy Package",
+      "boxOfficeOrBudget": "Warner Bros. / New Line ($2.93 Billion Trilogy Box Office)",
+      "notes": "Full performance-capture and vocal performance across Peter Jackson's three Middle-earth epics."
+    },
+    {
+      "project": "The Imitation Game",
+      "year": 2014,
+      "salary": "$2.0 Million USD + Box Office Backend Points",
+      "boxOfficeOrBudget": "The Weinstein Company / StudioCanal ($233.6M Worldwide on $14M Budget)",
+      "notes": "First Academy Award nomination for Best Actor portraying Enigma codebreaker Alan Turing."
+    },
+    {
+      "project": "Doctor Strange",
+      "year": 2016,
+      "salary": "$3.2 Million (£2.5M) Base + $2.0M Box Office Bonus (~$5.2M Total)",
+      "boxOfficeOrBudget": "Marvel Studios ($677.8 Million Worldwide Box Office)",
+      "notes": "Marvel Studios shifted its entire production calendar so Cumberbatch could complete 'Hamlet' at the Barbican first."
+    },
+    {
+      "project": "Avengers: Infinity War & Avengers: Endgame",
+      "year": 2018,
+      "salary": "$5.0 Million Base Per Film + Backend Participations (~$14.0M Combined)",
+      "boxOfficeOrBudget": "Marvel Studios ($4.85 Billion Combined Global Box Office)",
+      "notes": "Core ensemble tier compensation across two of the highest-grossing films in cinema history."
+    },
+    {
+      "project": "The Power of the Dog",
+      "year": 2021,
+      "salary": "$4.0 Million USD",
+      "boxOfficeOrBudget": "Netflix / See-Saw Films (12 Academy Award Nominations)",
+      "notes": "Earned his second Academy Award nomination for Best Actor portraying Montana rancher Phil Burbank."
+    },
+    {
+      "project": "Doctor Strange in the Multiverse of Madness",
+      "year": 2022,
+      "salary": "$7.5 Million (£6.0M) Upfront Base + Backend Escalators (~$10.5M Total)",
+      "boxOfficeOrBudget": "Marvel Studios ($955.8 Million Worldwide Box Office)",
+      "notes": "Massive solo sequel salary surge plus box office performance bonuses after 'Spider-Man: No Way Home' ($1.922B)."
+    },
+    {
+      "project": "The Roses, The Thing with Feathers, Eric & Avengers: Doomsday",
+      "year": 2026,
+      "salary": "$18.0 Million+ Combined Acting & SunnyMarch Producing Fees",
+      "boxOfficeOrBudget": "Searchlight Pictures / Netflix / Marvel Studios / Open Planet Studios",
+      "notes": "Includes lead acting and executive producing fees across his 2025–2026 slate and Marvel's December 2026 tentpole."
+    }
+  ],
+  "realEstateAssets": [
+    {
+      "property": "Dartmouth Park / Camden Five-Bedroom Victorian Family Townhouse",
+      "location": "Dartmouth Park / Camden, North London, UK",
+      "purchasedYear": "2015",
+      "purchasePrice": "$3,500,000 USD (£2.7M)",
+      "currentEstimatedValue": "$5,800,000 USD (£4.5M)",
+      "description": "Five-bedroom Victorian family residence in leafy Dartmouth Park, North London, extensively modernized with eco-friendly sustainability enhancements, floor-to-ceiling glass garden extensions, and a private walled sanctuary shared with wife Sophie Hunter and their three sons."
+    },
+    {
+      "property": "Hampstead Historic Victorian Split-Level Residence",
+      "location": "Hampstead, North West London, UK",
+      "purchasedYear": "2011",
+      "purchasePrice": "$1,500,000 USD (£1.15M)",
+      "currentEstimatedValue": "$2,400,000 USD (£1.9M)",
+      "description": "Retained pre-marital Victorian split-level flat and investment residence situated near Hampstead Heath in North West London."
+    }
+  ],
+  "businessVentures": [
+    {
+      "name": "SunnyMarch Ltd.",
+      "role": "Co-Founder & Principal Executive Producer (with Adam Ackland)",
+      "valuationOrRevenue": "$15.0 Million+ Estimated Production Enterprise Equity",
+      "description": "Independent London film and television production banner founded in 2013, producing 'Patrick Melrose' (BAFTA Winner), 'The Mauritanian', 'The Courier', 'The Electrical Life of Louis Wain', 'The End We Start From', 'We Live in Time', 'The Thing with Feathers', 'The Roses', and A24's 'White Smoke'."
+    },
+    {
+      "name": "Jaeger-LeCoultre Global Luxury Horology Partnership",
+      "role": "Global Brand Ambassador (Since 2018)",
+      "valuationOrRevenue": "$2.0M – $2.5M USD Annual Luxury Retainer",
+      "description": "Long-standing Global Brand Ambassador fronting international campaigns for the Swiss watchmaker's Polaris, Master Ultra Thin, and Reverso collections."
+    },
+    {
+      "name": "Prada Re-Nylon & UNESCO SEA BEYOND Campaigns",
+      "role": "Global Couture & Sustainability Ambassador",
+      "valuationOrRevenue": "$1.8M – $2.2M USD Annual Contract",
+      "description": "Global Prada ambassador starring in seasonal runway campaigns and the 2026 Prada Re-Nylon / UNESCO SEA BEYOND ocean literacy documentary filmed in Japan."
+    },
+    {
+      "name": "Letters Live Ltd. & World of Tanks (Holiday Ops 2026)",
+      "role": "Co-Producer, Founding Performer & Global Ambassador",
+      "valuationOrRevenue": "Multi-Million Live Stage Franchise & Gaming Endorsement",
+      "description": "Co-produces the internationally acclaimed live literary performance series Letters Live at the Royal Albert Hall and headlined Wargaming's 'World of Tanks: Holiday Ops 2026' global campaign."
+    }
+  ],
+  "wealthProgression": [
+    {
+      "period": "2010",
+      "estimatedNetWorth": "$1.5 Million USD",
+      "milestoneDescription": "Classical London theatre awards, BBC's Hawking, Atonement, and the global premiere of BBC's Sherlock."
+    },
+    {
+      "period": "2014",
+      "estimatedNetWorth": "$10.0 Million USD",
+      "milestoneDescription": "Primetime Emmy win for Sherlock, Star Trek Into Darkness, The Hobbit trilogy, and first Oscar nomination for The Imitation Game."
+    },
+    {
+      "period": "2017",
+      "estimatedNetWorth": "$20.0 Million USD",
+      "milestoneDescription": "Marvel debut in Doctor Strange ($677.8M), Barbican Hamlet run, and acquisition of his North London family residence."
+    },
+    {
+      "period": "2020",
+      "estimatedNetWorth": "$30.0 Million USD",
+      "milestoneDescription": "Avengers: Infinity War and Endgame box office participations, BAFTA win for Patrick Melrose, The Grinch ($540M), and Jaeger-LeCoultre partnership."
+    },
+    {
+      "period": "2023",
+      "estimatedNetWorth": "$36.0 Million USD",
+      "milestoneDescription": "Second Best Actor Oscar nomination for The Power of the Dog, Spider-Man: No Way Home, and $10M+ package for Doctor Strange in the Multiverse of Madness."
+    },
+    {
+      "period": "2026",
+      "estimatedNetWorth": "$40.0 Million USD",
+      "milestoneDescription": "Certified 2026 net worth at age 50 fueled by The Roses, The Thing with Feathers, How to Live on Earth, Prada Re-Nylon 2026, SunnyMarch equity, and Avengers: Doomsday."
+    }
+  ]
 }
 };
 

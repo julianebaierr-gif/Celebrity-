@@ -624,5 +624,20 @@ export const CELEBRITY_CONTROVERSIES: Record<string, ControversyItem[]> = {
     "impactAnalysis": "The intense media scrutiny prompted Hiddleston to establish an ironclad boundary around his personal life, paving the way for the serene, fiercely protected domestic sanctuary he shares with partner Zawe Ashton."
   }
 ]
+,
+  "benedict-cumberbatch": [
+  {
+    "incident": "Inadvertent Outdated Terminology During Diversity Advocacy Interview & Immediate Apology",
+    "year": "2015",
+    "resolutionOrOutcome": "In January 2015, while appearing on PBS's 'Tavis Smiley' talk show to passionately advocate for greater representation and equal opportunities for Black British actors in the UK film industry, Cumberbatch inadvertently used the outdated term 'colored' when describing the systemic barriers faced by non-white performers in Britain compared to the United States. Within hours, Cumberbatch issued an unreserved, deeply contrite public apology stating: 'I'm devastated to have caused offense by using this outmoded terminology. I offer my sincere apologies. I make no excuse for my being an idiot and know the damage is done.'",
+    "impactAnalysis": "Anti-racism organization Show Racism the Red Card and fellow British actors praised the immediacy, sincerity, and zero-excuse accountability of Cumberbatch's apology while welcoming his substantive spotlight on diversity barriers in British drama."
+  },
+  {
+    "incident": "Barbican Centre Hamlet Curtain-Call Refugee Appeals & Artistic Activism Debate",
+    "year": "2015",
+    "resolutionOrOutcome": "During the sold-out October 2015 run of 'Hamlet' at London's Barbican Centre at the height of the European Syrian refugee crisis, Cumberbatch used his nightly curtain call to recite Somali-British poet Warsan Shire's poem 'Home', express frustration with slow governmental aid responses, and appeal for audience donations to Save the Children—ultimately raising over £150,000 from theatregoers. While a handful of conservative commentators debated whether classical curtain calls should include political humanitarian appeals, human rights organizations and theatre audiences overwhelmingly applauded his direct intervention.",
+    "impactAnalysis": "Cumberbatch later backed his words with concrete personal action, including opening his own home to host a displaced Ukrainian family under the UK's Homes for Ukraine scheme in 2022."
+  }
+]
 };
 

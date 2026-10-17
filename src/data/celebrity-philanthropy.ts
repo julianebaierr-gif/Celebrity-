@@ -990,5 +990,32 @@ export const CELEBRITY_PHILANTHROPY: Record<string, PhilanthropyItem[]> = {
     "description": "Supports the UK's oldest children's charity, Coram, through historical letter readings and fundraising galas, while regularly contributing original comedy sketches and telethon appeals for Comic Relief's Red Nose Day and Stand Up To Cancer UK."
   }
 ]
+,
+  "benedict-cumberbatch": [
+  {
+    "organizationOrCause": "Save the Children, Choose Love (Help Refugees) & Homes for Ukraine",
+    "focusArea": "Global Refugee Relief, Displaced Children's Aid & Direct Family Hosting",
+    "verifiedContribution": "£150,000+ Barbican Fundraising Drive, Charity Single Producer & Direct Refugee Host",
+    "description": "Raised over £150,000 for Save the Children during his 2015 'Hamlet' curtain-call appeals at the Barbican Centre, co-produced the 'Help is Coming' charity single, serves as a vocal advocate for Choose Love, and personally opened his family property in 2022 to house and support a displaced Ukrainian family and facilitate their medical care under the Homes for Ukraine initiative."
+  },
+  {
+    "organizationOrCause": "London Academy of Music and Dramatic Art (LAMDA) & Anno's Africa / Dramatic Need",
+    "focusArea": "Working-Class Drama Scholarships & Arts Education for Vulnerable Youth",
+    "verifiedContribution": "President of LAMDA (Since 2018) & International Arts Charity Patron",
+    "description": "As President of his alma mater LAMDA since January 2018, Cumberbatch champions tuition scholarships and widening access for students from underrepresented backgrounds, while actively supporting Anno's Africa and Dramatic Need to bring creative arts education to underserved children in Kenya and South Africa."
+  },
+  {
+    "organizationOrCause": "Motor Neurone Disease Association (MNDA), The Royal Marsden & Cancer Research UK",
+    "focusArea": "Neurodegenerative Disease Research & Oncology Patient Support",
+    "verifiedContribution": "Official MNDA Patron (Since 2004), ALS Ice Bucket Campaigner & Royal Marsden Benefactor",
+    "description": "Inspired by meeting Stephen Hawking while preparing for 'Hawking' (2004), Cumberbatch has served for over two decades as an active patron and fundraiser for the Motor Neurone Disease Association (MNDA), alongside supporting The Royal Marsden Cancer Charity and Stand Up To Cancer UK."
+  },
+  {
+    "organizationOrCause": "Open Planet Studios ('How to Live on Earth' 2026), UNESCO SEA BEYOND & Letters Live",
+    "focusArea": "Global Climate Action, Marine Ecosystem Restoration & Literary Philanthropy",
+    "verifiedContribution": "2026 Documentary Presenter, UNESCO Ocean Literacy Envoy & Letters Live Co-Producer",
+    "description": "Serves as the on-screen presenter of Open Planet Studios' landmark September 2026 environmental documentary 'How to Live on Earth', partnered with Prada Re-Nylon and UNESCO's SEA BEYOND in 2026 to spotlight marine kelp forest restoration in Japan, and co-produces Letters Live to raise hundreds of thousands of pounds for literacy and humanitarian charities."
+  }
+]
 };
 
