@@ -102,6 +102,13 @@ const FEATURED_MATCHUPS = [
     sub: "Bucky Barnes vs Sam Wilson: The Falcon and the Winter Soldier Brothers, Cannes 2026 & Avengers: Doomsday",
     category: "Marvel & Cinema",
   },
+  {
+    slug1: "tom-holland",
+    slug2: "zendaya",
+    title: "Tom Holland vs Zendaya",
+    sub: "Spider-Man Power Couple: BERO Entrepreneurship, Euphoria & Christopher Nolan 2026 Collaboration",
+    category: "Hollywood Power Couples",
+  },
 ];
 
 export default function CompareHubPage() {

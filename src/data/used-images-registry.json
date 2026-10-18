@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-17T12:00:00.000Z",
-  "totalUniqueImages": 14,
+  "lastUpdated": "2026-10-18T12:00:00.000Z",
+  "totalUniqueImages": 100,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -276,14 +276,22 @@
       "entity": "tom-holland",
       "placement": "profile_hero",
       "pageSlug": "tom-holland",
-      "assignedAt": "2026-09-28T11:31:57.096Z"
+      "assignedAt": "2026-10-18T12:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/TomHolland-byPhilipRomano2.jpg",
+      "license": "CC BY-SA 4.0 / Wikimedia Commons",
+      "photographer": "Philip Romano",
+      "year": "2026"
     },
     "/images/celebrities/tom-holland-content.webp": {
       "filePath": "/images/celebrities/tom-holland-content.webp",
       "entity": "tom-holland",
       "placement": "profile_content",
       "pageSlug": "tom-holland",
-      "assignedAt": "2026-09-28T11:31:57.096Z"
+      "assignedAt": "2026-10-18T12:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/TomHolland-byPhilipRomano5.jpg",
+      "license": "CC BY-SA 4.0 / Wikimedia Commons",
+      "photographer": "Philip Romano",
+      "year": "2026"
     },
     "/images/partners/zendaya.webp": {
       "filePath": "/images/partners/zendaya.webp",
@@ -748,6 +756,17 @@
       "pageSlug": "elizabeth-olsen",
       "assignedAt": "2026-10-16T12:00:00.000Z",
       "sourceUrl": "Givenchy Fall/Winter 2026 Runway Show at Hôtel des Invalides, Paris (March 6, 2026) / CC BY-SA 4.0"
+    },
+    "/images/blog/tom-holland-analysis-cover.webp": {
+      "filePath": "/images/blog/tom-holland-analysis-cover.webp",
+      "entity": "tom-holland",
+      "placement": "blog_cover",
+      "pageSlug": "tom-holland-2026-bero-launch-nolan-epic-spider-man-4-analysis",
+      "assignedAt": "2026-10-18T12:00:00.000Z",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/TomHolland-byPhilipRomano5.jpg",
+      "license": "CC BY-SA 4.0 / Wikimedia Commons",
+      "photographer": "Philip Romano",
+      "year": "2026"
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {

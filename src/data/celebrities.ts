@@ -2365,13 +2365,23 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "careerMilestones": [
       {
         "year": "2026",
-        "title": "Fred Astaire Biopic Casting Advancement",
-        "description": "Advanced pre-production on Sony and Pascal Pictures' highly anticipated Fred Astaire biopic, with Talia Ryder joining the ensemble opposite Holland's leading performance."
+        "title": "BERO Non-Alcoholic Beer Launch & Nolan Epic",
+        "description": "Officially debuted his premium non-alcoholic craft beer brand BERO alongside brewmaster Grant Wood, while confirmed to co-lead Christopher Nolan's top-secret July 2026 IMAX event film opposite Matt Damon."
       },
       {
-        "year": "2008",
-        "title": "West End Breakthrough",
-        "description": "Cast in 'Billy Elliot The Musical' at London's Victoria Palace Theatre after two years of rigorous ballet training."
+        "year": "2026",
+        "title": "Spider-Man 4 & Fred Astaire Biopic",
+        "description": "Confirmed production timeline for Marvel and Sony's fourth Spider-Man installment helmed by Destin Daniel Cretton, alongside continued development of Sony's Fred Astaire biopic."
+      },
+      {
+        "year": "2024",
+        "title": "West End Romeo & Juliet Run",
+        "description": "Earned critical acclaim portraying Romeo in Jamie Lloyd's sold-out West End production of Romeo and Juliet at the Duke of York's Theatre."
+      },
+      {
+        "year": "2021",
+        "title": "Spider-Man: No Way Home Triumph",
+        "description": "Headlined the historic box office blockbuster, which grossed $1.92 Billion worldwide amidst universal audience praise."
       },
       {
         "year": "2016",
@@ -2379,9 +2389,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "description": "Selected from thousands of young actors to introduce Spider-Man into the Marvel Cinematic Universe in 'Captain America: Civil War'."
       },
       {
-        "year": "2021",
-        "title": "Spider-Man: No Way Home Triumph",
-        "description": "Headlined the historic box office blockbuster, which grossed $1.92 Billion worldwide amidst universal audience praise."
+        "year": "2008",
+        "title": "West End Breakthrough",
+        "description": "Cast in 'Billy Elliot The Musical' at London's Victoria Palace Theatre after two years of rigorous ballet training."
       }
     ],
     "filmography": [
@@ -2487,7 +2497,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorRole": "Senior Industry Writer",
       "factCheckedBy": "Elena Rostova",
       "publishedDate": "2026-09-17T09:00:00.000Z",
-      "lastUpdated": "2026-09-17T16:30:00.000Z",
+      "lastUpdated": "2026-10-18T12:00:00.000Z",
       "readingTimeMinutes": 6
     }
   },
