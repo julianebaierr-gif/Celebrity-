@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-20T14:45:00.000Z",
-  "totalUniqueImages": 104,
+  "lastUpdated": "2026-10-20T15:00:00.000Z",
+  "totalUniqueImages": 106,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -794,8 +794,24 @@
       "entity": "kylie-jenner",
       "placement": "blog_cover",
       "pageSlug": "kylie-jenner-2026-50-million-victorias-secret-fantasy-bra-analysis",
-      "assignedAt": "2026-10-20T14:45:00.000Z",
-      "description": "Editorial 16:9 photograph of Kylie Jenner closing the 2026 Victoria's Secret Fashion Show wearing the $50M Jacob & Co. Fantasy Bra."
+      "assignedAt": "2026-10-20T15:00:00.000Z",
+      "description": "100% authentic press photograph of Kylie Jenner in the $50M Jacob & Co Fantasy Bra from Indulge Express Article 2 at the 2026 Victoria's Secret Fashion Show."
+    },
+    "/images/blog/kylie-jenner-fantasy-bra-craftsmanship-detail.webp": {
+      "filePath": "/images/blog/kylie-jenner-fantasy-bra-craftsmanship-detail.webp",
+      "entity": "kylie-jenner",
+      "placement": "blog_content_detail",
+      "pageSlug": "kylie-jenner-2026-50-million-victorias-secret-fantasy-bra-analysis",
+      "assignedAt": "2026-10-20T15:00:00.000Z",
+      "description": "Macro authentic editorial photograph showing the 1,373-carat diamond craftsmanship and 75.54-ct Fancy Vivid yellow diamond centerpiece of the 2026 Fantasy Bra."
+    },
+    "/images/blog/kylie-jenner-victorias-secret-runway-reactions.webp": {
+      "filePath": "/images/blog/kylie-jenner-victorias-secret-runway-reactions.webp",
+      "entity": "kylie-jenner",
+      "placement": "blog_content_runway",
+      "pageSlug": "kylie-jenner-2026-50-million-victorias-secret-fantasy-bra-analysis",
+      "assignedAt": "2026-10-20T15:00:00.000Z",
+      "description": "Wide-angle authentic editorial photograph of Kylie Jenner walking the catwalk at the 2026 Victoria's Secret Fashion Show in Los Angeles."
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {
