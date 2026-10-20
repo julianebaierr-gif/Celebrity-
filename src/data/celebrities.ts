@@ -3521,9 +3521,14 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     ],
     "careerMilestones": [
       {
-        "year": "2015",
-        "title": "Kylie Lip Kit Launch & Direct-to-Consumer Revolution",
-        "description": "Launched the inaugural Kylie Lip Kit collection, instantly selling out and birthing global beauty brand Kylie Cosmetics."
+        "year": "2026",
+        "title": "Academy Museum Gala Mugler Headline & Victoria's Secret Debut",
+        "description": "Stole global red carpet headlines at the Fourth Annual Academy Museum Gala in Los Angeles in an archival Thierry Mugler 1998 couture gown with sheer sequin halter bodice and hip cutouts, following her landmark runway appearance at the Victoria's Secret Fashion Show and Khy Drop 10 outerwear expansion."
+      },
+      {
+        "year": "2023–2026",
+        "title": "Khy Fashion House & Consumer Ventures Expansion",
+        "description": "Expanded her multi-category corporate portfolio with luxury-accessible apparel label Khy, canned vodka soda brand Sprinter, and signature fragrance Cosmic."
       },
       {
         "year": "2019–2020",
@@ -3531,9 +3536,9 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
         "description": "Sold a 51% controlling stake in Kylie Cosmetics to Coty Inc. for $600 Million in cash, cementing an elite enterprise valuation."
       },
       {
-        "year": "2023–2026",
-        "title": "Khy Fashion House & Consumer Ventures Expansion",
-        "description": "Expanded her multi-category corporate portfolio with luxury-accessible apparel label Khy, canned vodka soda brand Sprinter, and signature fragrance Cosmic."
+        "year": "2015",
+        "title": "Kylie Lip Kit Launch & Direct-to-Consumer Revolution",
+        "description": "Launched the inaugural Kylie Lip Kit collection, instantly selling out and birthing global beauty brand Kylie Cosmetics."
       }
     ],
     "filmography": [
@@ -3616,7 +3621,7 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
       "authorRole": "Senior Entertainment & Industry Analyst",
       "factCheckedBy": "David Thorne",
       "publishedDate": "2026-09-26T09:00:00.000Z",
-      "lastUpdated": "2026-09-26T16:30:00.000Z",
+      "lastUpdated": "2026-10-20T12:00:00.000Z",
       "readingTimeMinutes": 7
     }
   },

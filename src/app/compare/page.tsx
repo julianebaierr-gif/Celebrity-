@@ -109,6 +109,13 @@ const FEATURED_MATCHUPS = [
     sub: "Spider-Man Power Couple: BERO Entrepreneurship, Euphoria & Christopher Nolan 2026 Collaboration",
     category: "Hollywood Power Couples",
   },
+  {
+    slug1: "kylie-jenner",
+    slug2: "sydney-sweeney",
+    title: "Kylie Jenner vs Sydney Sweeney",
+    sub: "Direct-to-Consumer Empire & Coty Equity vs Fifty-Fifty Films Hollywood Production Power",
+    category: "Entertainment & Business",
+  },
 ];
 
 export default function CompareHubPage() {

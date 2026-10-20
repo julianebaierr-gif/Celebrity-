@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-18T12:00:00.000Z",
-  "totalUniqueImages": 100,
+  "lastUpdated": "2026-10-20T12:00:00.000Z",
+  "totalUniqueImages": 103,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -755,7 +755,7 @@
       "placement": "profile_content",
       "pageSlug": "elizabeth-olsen",
       "assignedAt": "2026-10-16T12:00:00.000Z",
-      "sourceUrl": "Givenchy Fall/Winter 2026 Runway Show at Hôtel des Invalides, Paris (March 6, 2026) / CC BY-SA 4.0"
+      "sourceUrl": "Givenchy Fall/Winter 2026 Runway Show at H\u00f4tel des Invalides, Paris (March 6, 2026) / CC BY-SA 4.0"
     },
     "/images/blog/tom-holland-analysis-cover.webp": {
       "filePath": "/images/blog/tom-holland-analysis-cover.webp",
@@ -767,6 +767,27 @@
       "license": "CC BY-SA 4.0 / Wikimedia Commons",
       "photographer": "Philip Romano",
       "year": "2026"
+    },
+    "/images/celebrities/kylie-jenner-hero.webp": {
+      "filePath": "/images/celebrities/kylie-jenner-hero.webp",
+      "entity": "kylie-jenner",
+      "placement": "profile_hero",
+      "pageSlug": "kylie-jenner",
+      "assignedAt": "2026-10-20T12:00:00.000Z"
+    },
+    "/images/celebrities/kylie-jenner-content.webp": {
+      "filePath": "/images/celebrities/kylie-jenner-content.webp",
+      "entity": "kylie-jenner",
+      "placement": "profile_content",
+      "pageSlug": "kylie-jenner",
+      "assignedAt": "2026-10-20T12:00:00.000Z"
+    },
+    "/images/blog/kylie-jenner-analysis-cover.webp": {
+      "filePath": "/images/blog/kylie-jenner-analysis-cover.webp",
+      "entity": "kylie-jenner",
+      "placement": "blog_cover",
+      "pageSlug": "kylie-jenner-2026-media-and-brand-analysis",
+      "assignedAt": "2026-10-20T12:00:00.000Z"
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {
@@ -842,7 +863,7 @@
     "name": "Elizabeth Olsen",
     "category": "content",
     "year": "2026",
-    "event": "Givenchy Fall/Winter 2026 Show at Hôtel des Invalides in Paris (March 6, 2026)",
+    "event": "Givenchy Fall/Winter 2026 Show at H\u00f4tel des Invalides in Paris (March 6, 2026)",
     "registeredAt": "2026-10-16T12:00:00.000Z"
   },
   "/images/celebrities/tom-hiddleston-hero.webp": {

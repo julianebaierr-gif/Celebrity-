@@ -48,6 +48,7 @@ const POPULAR_MATCHUPS = [
   "sebastian-stan-vs-chris-evans",
   "tom-holland-vs-zendaya",
   "tom-holland-vs-robert-downey-jr",
+  "kylie-jenner-vs-sydney-sweeney",
 ];
 
 export async function generateStaticParams() {
