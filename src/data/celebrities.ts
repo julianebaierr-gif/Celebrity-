@@ -3522,8 +3522,8 @@ const RAW_CELEBRITIES: CelebrityProfile[] = [
     "careerMilestones": [
       {
         "year": "2026",
-        "title": "Academy Museum Gala Mugler Headline & Victoria's Secret Debut",
-        "description": "Stole global red carpet headlines at the Fourth Annual Academy Museum Gala in Los Angeles in an archival Thierry Mugler 1998 couture gown with sheer sequin halter bodice and hip cutouts, following her landmark runway appearance at the Victoria's Secret Fashion Show and Khy Drop 10 outerwear expansion."
+        "title": "Record-Breaking $50 Million Fantasy Bra Runway Debut",
+        "description": "Made fashion history closing the 2026 Victoria's Secret Fashion Show in Los Angeles wearing the record-breaking $50 Million Jacob & Co. Fantasy Bra—encrusted with 4,410 natural diamonds (1,373 carats) and a 75.54-carat yellow diamond—before commanding international headlines at the Academy Museum Gala in archival Thierry Mugler couture."
       },
       {
         "year": "2023–2026",

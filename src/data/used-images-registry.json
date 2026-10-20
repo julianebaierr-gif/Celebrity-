@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-20T12:00:00.000Z",
-  "totalUniqueImages": 103,
+  "lastUpdated": "2026-10-20T14:45:00.000Z",
+  "totalUniqueImages": 104,
   "registry": {
     "/images/celebrities/tim-curry-hero.webp": {
       "filePath": "/images/celebrities/tim-curry-hero.webp",
@@ -788,6 +788,14 @@
       "placement": "blog_cover",
       "pageSlug": "kylie-jenner-2026-media-and-brand-analysis",
       "assignedAt": "2026-10-20T12:00:00.000Z"
+    },
+    "/images/blog/kylie-jenner-fantasy-bra-cover.webp": {
+      "filePath": "/images/blog/kylie-jenner-fantasy-bra-cover.webp",
+      "entity": "kylie-jenner",
+      "placement": "blog_cover",
+      "pageSlug": "kylie-jenner-2026-50-million-victorias-secret-fantasy-bra-analysis",
+      "assignedAt": "2026-10-20T14:45:00.000Z",
+      "description": "Editorial 16:9 photograph of Kylie Jenner closing the 2026 Victoria's Secret Fashion Show wearing the $50M Jacob & Co. Fantasy Bra."
     }
   },
   "/images/celebrities/chris-hemsworth-hero.webp": {
